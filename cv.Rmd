@@ -1,0 +1,112 @@
+---
+title: "CV: Edward A. H. Rubin"
+---
+
+<br>
+
+## Education
+
+__(Ongoing)__ Ph.D. candidate, Agricultural and Resource Economics, UC Berkeley, 2013–Present
+
+M.S. Agricultural and Resource Economics, UC Berkeley, 2015
+
+M.S. Statistics, University of Nebraska-Lincoln, 2013
+
+M.S. Agricultural Economics, University of Nebraska-Lincoln, 2013
+
+B.S. Mathematics, University of Nebraska-Lincoln, 2007
+
+<br>
+
+## Research in Progress
+
+__Natural gas elasticities and consumer behavior: Evidence from 300M+ bills__
+
+- Ed Rubin and Max Auffhammer
+
+__(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests__
+
+- Ed Rubin
+
+__Statistical Modeling and Hydrology in the High Plains Aquifer__
+
+- Ed Rubin, Richard Perrin, and Lilyan Fulginiti
+
+<!-- __Illicit Crops: Strategic Interdependence among Farmers, Cartels, and Governments__
+
+- Ed Rubin -->
+
+<br>
+
+## Teaching
+
+__STAT 218: Introduction to Statistics__
+
+- University of Nebraska-Lincoln
+- Spring 2011, Summer 2011, Fall 2011
+
+__STAT 380: Statistics and Applications__
+
+- University of Nebraska-Lincoln
+- Summer 2012, Fall 2012, Spring 2013
+
+<br>
+
+## Presentations
+
+__Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills__
+
+- UC Berkeley, Environmental and Resource Economics Seminar
+- November 2016
+
+__(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests__
+
+- UC Berkeley, Environmental and Resource Economics Seminar
+- April 2015
+
+__Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)__
+
+- University of Nebraska-Lincoln, Statistics Departmental Seminar
+- March 2013
+
+__Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer__
+
+- International Conference of Agricultural Economists, poster
+- August 2012
+
+__Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
+
+- Midwest Fish and Wildlife Conference, poster
+- December 2006
+
+<br>
+
+## Skills
+
+__Computational__
+
+- __Computing:__ R, Python, Stata, Julia, QGIS, MATLAB, Mathematica, SAS
+- __Design:__ LaTeX, Markdown, Adobe Photoshop, Adobe PS Lightroom, Adobe Illustrator, Adobe InDesign, Microsoft Suite
+
+__Linguistic__
+
+- English (fluent)
+- Spanish (conversational)
+
+<br>
+
+## Academic Service
+
+- Organized Environmental, Energy, and Resource Economics Seminar
+- Organized third-year research workshop
+- Organized departmental coffee hour
+- Mentored first-year graduate students
+
+<br>
+
+## Contact
+
+- __email__ edward `ampersat` berkeley `period` edu
+- __twitter__ [\@edrubin](https://twitter.com/edrubin)
+- __phone__ (4`oh`2) 3`oh`5-85`six`3
+- __instagram__ [\@edwardarubin](https://instagram.com/edwardarubin/)

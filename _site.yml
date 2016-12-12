@@ -1,0 +1,46 @@
+name: "my-website"
+navbar:
+  title: "Ed Rubin"
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "About"
+      menu:
+        - text: "Bio"
+          href: bio.html
+        - text: "CV"
+          href: cv.html
+    - text: "More"
+      menu:
+        - text: "Technology"
+        - text: "Useful Links"
+          href: links.html
+        - text: "Favorite Tools"
+          href: tools.html
+        - text: "---------"
+        - text: "Consulting"
+          href: consulting.html
+  right:
+    - icon: fa-question fa-lg
+      href: question.html
+    - icon: fa-envelope-o fa-lg
+      href: mailto:edwardarubin@gmail.com
+    - icon: fa-github-square fa-lg
+      href: https://github.com/edrubin
+    - icon: fa-instagram fa-lg
+      href: http://www.instagram.com/edwardarubin
+    - icon: fa-twitter fa-lg
+      href: http://www.twitter.com/edrubin
+output:
+  html_document:
+    theme: flatly
+    highlight: pygments
+    include:
+      after_body: footer.html

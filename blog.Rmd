@@ -1,0 +1,17 @@
+---
+title: "Multiple [blag](http://xkcd.com/148/) posts"
+---
+
+Economics, statistics, public policy, quantitative tools.
+
+<br>
+
+[Test post:](blogTest.html) This post is a test.
+<br>
+Thursday, 08 December 2016
+
+<br>
+
+[When R environments matter:](blog20161210.html) An common-use example of when R environments matter and the errors that can occur when we ignore the environment.
+<br>
+Saturday, 10 December 2016

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Useful links</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ed Rubin</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="bio.html">Bio</a>
+    </li>
+    <li>
+      <a href="cv.html">CV</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    More
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Technology</li>
+    <li>
+      <a href="links.html">Useful Links</a>
+    </li>
+    <li>
+      <a href="tools.html">Favorite Tools</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="consulting.html">Consulting</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="question.html">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:edwardarubin@gmail.com">
+    <span class="fa fa-envelope-o fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/edrubin">
+    <span class="fa fa-github-square fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://www.instagram.com/edwardarubin">
+    <span class="fa fa-instagram fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://www.twitter.com/edrubin">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Useful links</h1>
+
+</div>
+
+
+<p>Useful and/or interesting links for research/productivity/fun. <br><br></p>
+<h3 style="color:#EEEEEE">
+20161208
+</h3>
+<p><strong>R Markdown Websites</strong><br> A tutorial on <a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html">building a website using R Markdown</a> (like this one). <a href="http://itai-trilnick.com">h/t</a> The <a href="https://github.com/juba/rmdformats">rmdformats</a> package offers additional themes (formats). More on R Markdown <a href="http://rmarkdown.rstudio.com">here</a>. The <a href="https://bookdown.org">bookdown</a> package extends R Markdown to publishing books. The <a href="http://github.com/rstudio/blogdown">blogdown</a> package extends R Markdown to publishing blogs (or general websites) using <a href="https://gohugo.io">Hugo</a>. The <a href="https://github.com/hadley/pkgdown">pkgdown</a> package extends R Markdown to creating static html documentation.</p>
+<h3 style="color:#EEEEEE">
+20161205
+</h3>
+<p><strong>Divvy</strong><br> Provides customized <a href="http://mizage.com/divvy/">window management</a>.</p>
+<p><strong>BetterTouchTool</strong><br> <a href="https://www.boastr.net/">Configure gestures</a> for OSX.</p>
+<h3 style="color:#EEEEEE">
+20161121
+</h3>
+<p><strong>Selector Gadget</strong><br> Point-and-click <a href="http://selectorgadget.com">CSS selectors</a>. Helpful when used in conjunction with R’s <a href="https://github.com/hadley/rvest">rvest</a> package.</p>
+<h3 style="color:#EEEEEE">
+20161118
+</h3>
+<p><strong>Vivaldi</strong><br> A <a href="https://vivaldi.com/">highly customizable browser</a>.</p>
+<h3 style="color:#EEEEEE">
+20161115
+</h3>
+<p><strong>GitKraken</strong><br> A GUI <a href="https://www.gitkraken.com/">Git client</a>, for Windows, Mac and Linux.</p>
+<h3 style="color:#EEEEEE">
+20161107
+</h3>
+<p><strong>Calendly</strong><br> Simple, beautiful <a href="https://calendly.com/pages/features">scheduling</a>.</p>
+<h3 style="color:#EEEEEE">
+20161106
+</h3>
+<p><strong>Bear</strong><br> A <a href="http://www.bear-writer.com/">flexible writing app</a> for crafting notes and prose.</p>
+<p><strong>OLS Notes</strong><br> Some nice <a href="https://web.stanford.edu/~mrosenfe/soc_meth_proj3/matrix_OLS_NYU_notes.pdf">notes</a> on ordinary least squares from Michael Rosenfeld at Stanford.</p>
+<p><strong>Shodan</strong><br> <a href="https://www.shodan.io/">Search engine</a> for internet of things (and other things).</p>
+<h3 style="color:#EEEEEE">
+20161031
+</h3>
+<strong>Facking Operator Mono Font in Atom</strong><br> A <a href="https://medium.com/@docodemore/an-alternative-to-operator-mono-font-6e5d040e1c7e%3Ch3%20style=%22color:#EEEEEE%22%3E.i19w8uuid">guide</a> to building a font system in Atom similar to <a href="http://www.typography.com/fonts/operator/styles/">Operator Mono</a>.
+</h3>
+<h3 style="color:#EEEEEE">
+20161028
+</h3>
+<p><strong>Pomodoro Time and Tadam</strong><br> <a href="https://pomodoneapp.com">Pomodoro Time</a> and <a href="http://tadamapp.com">Tadam</a> are simple Pomodoro timers.</p>
+<h3 style="color:#EEEEEE">
+20161019
+</h3>
+<p><strong>Thenmap</strong><br> A <a href="http://www.thenmap.net/">repository of historical borders</a>.</p>
+<h3 style="color:#EEEEEE">
+20161007
+</h3>
+<p><strong>Geocodio</strong><br> (Reasonably) accurate, affordable, and unrestricted <a href="geocod.io/">online geocoding</a> (forward/reverse and batch/API).</p>
+<h3 style="color:#EEEEEE">
+20161006
+</h3>
+<p><strong>Canary Mail</strong><br> A “simple, smart, swift” <a href="http://canarymail.io">email client for Mac</a> with many nice features.</p>
+<h3 style="color:#EEEEEE">
+20161004
+</h3>
+<p><strong>Github Pages and Jekyll tutorial</strong><br> From UC Berkeley’s The Hacker Within, a nice <a href="http://www.thehackerwithin.org/berkeley/posts/github-pages-jekyll">tutorial on Github Pages and Jekyll</a>.</p>
+<p><strong>pdftools</strong><br> A fast and portable <a href="https://ropensci.org/blog/2016/03/01/pdftools-and-jeroen">PDF extractor for R</a> (and others).</p>
+<h3 style="color:#EEEEEE">
+20161003
+</h3>
+<p><strong>Producteev</strong><br> Team-oriented <a href="https://www.producteev.com">productivity software</a>.</p>
+<h3 style="color:#EEEEEE">
+20160930
+</h3>
+<p><strong>Ghost Browser</strong><br> A <a href="https://ghostbrowser.com">browser</a> that lets you isolate cookie jars into color coded tabs so you can run multiple sessions with multiple accounts on the same web site.</p>
+<p><strong>Hocus Focus</strong><br> Automatically <a href="http://hocusfoc.us">hide inactive windows</a>.</p>
+<p><strong>Noisli</strong><br> In-browser <a href="https://www.noisli.com">white-noise generator</a> with <em>productivity</em> and <em>relax</em> settings.</p>
+<p><strong>Standard Resume</strong><br> One <a href="https://standardresume.co">resume that works everywhere</a>.</p>
+<h3 style="color:#EEEEEE">
+20160928
+</h3>
+<p><strong>Univariate Distribution Relationships</strong><br> Interactive chart for <a href="http://www.math.wm.edu/~leemis/chart/UDR/UDR.html">relationships between univariate distributions</a>.</p>
+<h3 style="color:#EEEEEE">
+20160926
+</h3>
+<p><strong>Opentest</strong><br> Seamless screen, mic and camera <a href="https://www.opentest.co">recording for Chrome</a>.</p>
+<h3 style="color:#EEEEEE">
+20160919
+</h3>
+<p><strong>Habitica</strong><br> Improve your <a href="http://habitica.com">habits by playing a game</a>.</p>
+<h3 style="color:#EEEEEE">
+20160906
+</h3>
+<p><strong>Linus screen</strong><br> <a href="http://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/">Screen</a> effectively allows signing on and off from interactive sessions on a server/Linux shell.</p>
+<h3 style="color:#EEEEEE">
+20160822
+</h3>
+<strong>REVEAL.JS</strong><br> Javascript-backed <a href="http://lab.hakim.se/reveal-js/%3Ch3%20style=%22color:#EEEEEE%22%3E/">HTML presentation framework</a>.
+</h3>
+<h3 style="color:#EEEEEE">
+20160813
+</h3>
+<p><strong>QuickLookR</strong><br> OSX-based <a href="https://github.com/hrbrmstr/QuickLookR">QuickLook plugin for R’s <code>save()</code> &amp; <code>saveRDS()</code> files</a>. <a href="https://rud.is/b/2016/08/06/quicklookr-a-macos-quicklook-plugin-for-r-data-files/">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20160811
+</h3>
+<p><strong>Multi-File LaTeX projects</strong><br> <a href="https://www.sharelatex.com/learn/Multi-file_LaTeX_projects">ShareLaTeX’s guide</a> to building LaTeX documents from multiple files.</p>
+<p><strong>SMS Email</strong><br> Combine R’s <a href="https://cran.r-project.org/web/packages/sendmailR/index.html">sendmailR</a> with this <a href="http://www.emailtextmessages.com">list of SMS email addresses</a> to send text messages from R.</p>
+<p><strong>Stargazer Cheatsheet</strong><br> A <a href="http://jakeruss.com/cheatsheets/stargazer.html">cheatsheet for R’s stargazer</a> package.</p>
+<h3 style="color:#EEEEEE">
+20160810
+</h3>
+<p><strong>YakYak</strong><br> Desktop chat <a href="https://github.com/yakyak/yakyak">client for Google Hangouts</a>.</p>
+<h3 style="color:#EEEEEE">
+20160804
+</h3>
+<p><strong>Script</strong><br> <a href="https://atom.io/packages/script">Run scripts in Atom</a> based on file name, a selection of code, or by line number.</p>
+<p><strong>Term2</strong><br> <a href="https://github.com/f/atom-term2">Open Terminal tabs in Atom</a>. In the past, I’ve also used <a href="https://atom.io/packages/terminal-plus">Terminal Plus</a>.</p>
+<h3 style="color:#EEEEEE">
+20160801
+</h3>
+<p><strong>SizeUp</strong><br> Keyboard-centric <a href="http://www.irradiatedsoftware.com/sizeup/">window management</a>. <a href="http://www.themoderndesk.com">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20160722
+</h3>
+<p><strong>munsell</strong><br> Package in R for for <a href="https://github.com/cwickham/munsell">Munsell’s color theme</a>.</p>
+<h3 style="color:#EEEEEE">
+20160714
+</h3>
+<p><strong>ggalt</strong><br> <a href="https://github.com/hrbrmstr/ggalt">Extra coordinate systems, geoms, statistical transformations, and scales for R’s <code>ggplot2</code></a> package.</p>
+<p><strong>ggthemes</strong><br> Some extra <a href="https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html">geoms, scales, and themes for R’s <code>ggplot</code> package</a> package.</p>
+<h3 style="color:#EEEEEE">
+20160710
+</h3>
+<p><strong>Boxy</strong><br> A <a href="http://www.boxyapp.co">Gmail Inbox</a> client for Mac.</p>
+<p><strong>SurfEasy</strong><br> <a href="https://www.surfeasy.com/en/">Data protection</a>.</p>
+<h3 style="color:#EEEEEE">
+20160708
+</h3>
+<p><strong>Color Oracle</strong><br> A <a href="http://colororacle.org">color blindness simulator</a> for Window, Mac and Linux.</p>
+<h3 style="color:#EEEEEE">
+20160706
+</h3>
+<p><strong>OSX option-key bindings</strong><br> <a href="http://superuser.com/questions/941286/disable-default-option-key-binding">A helpful superuser post</a> about removing the character bindings for the option (alt) key in OSX.</p>
+<h3 style="color:#EEEEEE">
+20160702
+</h3>
+<p><strong>extrafont</strong><br> R package to <a href="https://github.com/wch/extrafont/blob/master/README.md">use other (any?) fonts in R</a>. <a href="http://blog.revolutionanalytics.com/2012/09/how-to-use-your-favorite-fonts-in-r-charts.html">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20160701
+</h3>
+<p><strong>R guides</strong><br> Computerworld offers a <a href="http://www.computerworld.com/article/2497143/business-intelligence/business-intelligence-beginner-s-guide-to-r-introduction.html">beginner’s guide to R</a>, as well as an <a href="http://www.computerworld.com/resources/106345/advanced-beginners-guide-to-r.html">advanced beginner’s guide to R</a>. <a href="http://blog.revolutionanalytics.com/2016/06/computerworlds-advanced-beginners-guide-to-r.html">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20160624
+</h3>
+<p><strong>Grammerly</strong><br> In-browswer and in-app <a href="https://www.grammarly.com">grammar and spelling checker</a>.</p>
+<p><strong>Markdown Here</strong><br> <a href="http://markdown-here.com">In-browser Markdown formatting</a> for Chrome, Firefox, Safari, and Thunderbird.</p>
+<h3 style="color:#EEEEEE">
+20160620
+</h3>
+<p><strong>SAS Studio</strong><br> <a href="http://support.sas.com/software/products/sasstudio/">Web application for SAS</a> that you access through your web browser.</p>
+<p><strong>ShiftIt</strong><br> <a href="https://github.com/fikovnik/ShiftIt">Manages and position windows</a> in OSX.</p>
+<h3 style="color:#EEEEEE">
+20160609
+</h3>
+<p><strong>BarTender (2)</strong><br> <a href="https://www.macbartender.com">Organizes your menu bar apps</a>.</p>
+<h3 style="color:#EEEEEE">
+20160510
+</h3>
+<p><strong>MailButler</strong><br> Your <a href="https://www.feingeist.io/mailbutler/">personal assistant</a> for Apple Mail. <a href="http://onethingwell.org/post/143578593216/mailbutler">h/t</a></p>
+<strong>Quitter</strong><br> <a href="https://marco.org/apps%3Ch3%20style=%22color:#EEEEEE%22%3Equitter">Automatically hides or quits apps</a> after periods of inactivity. <a href="http://onethingwell.org/post/143838727202/quitter">h/t</a>
+</h3>
+<p><strong>Xi Editor</strong><br> A <a href="https://github.com/google/xi-editor">modern editor</a> with a backend written in Rust. <a href="http://onethingwell.org/post/143531815911/xi">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20160504
+</h3>
+<p><strong>conda and OSX</strong><br> Run <code>PATH=$PATH:$HOME/anaconda/bin</code> if OSX cannot find the path to <code>conda</code>.</p>
+<p><strong>Rodeo</strong><br> A data science <a href="https://github.com/yhat/rodeo/">IDE for Python</a>.</p>
+<h3 style="color:#EEEEEE">
+20150424
+</h3>
+<p><strong>Micro</strong><br> Terminal-based <a href="https://github.com/zyedidia/micro">text editor</a>. <a href="http://onethingwell.org/post/143005364292/micro">h/t</a></p>
+<p><strong>Min</strong><br> A <a href="https://palmeral.github.io/min/">minimal web browser</a>. <a href="http://onethingwell.org/post/142844861802/min">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20160418
+</h3>
+<p><strong>tep</strong><br> Tamagotchi-based motivating <a href="http://gettep.com/">fitness tracker</a>.</p>
+<h3 style="color:#EEEEEE">
+20160409
+</h3>
+<p><strong>CodeFights</strong><br> <a href="https://codefights.com">Practice coding</a> in real-time races against others.</p>
+<p><strong>Font Awesome</strong><br> The iconic <a href="https://fortawesome.github.io/Font-Awesome/">font and CSS toolkit</a>.</p>
+<h3 style="color:#EEEEEE">
+20160408
+</h3>
+<p><strong>Karabiner</strong><br> A powerful and stable <a href="https://pqrs.org/osx/karabiner/">keyboard customizer for OS X</a>.</p>
+<p><strong>Timer</strong><br> A simple <a href="https://github.com/michaelvillar/timer-app/releases">timer app</a> for OSX. <a href="http://onethingwell.org/post/142349673462/timer">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20160404
+</h3>
+<p><strong>ProtonMail</strong><br> <a href="https://protonmail.com">Secure email</a> based in Switzerland.</p>
+<h3 style="color:#EEEEEE">
+20160331
+</h3>
+<strong>CSS Diner</strong><br> A little <a href="http://flukeout.github.io/%3Ch3%20style=%22color:#EEEEEE%22%3E">game to help you learn CSS selectors</a>.
+</h3>
+<p><strong>Lightning</strong><br> Provides API-based access to reproducible <a href="http://lightning-viz.org">web visualizations</a>.</p>
+<h3 style="color:#EEEEEE">
+20160325
+</h3>
+<p><strong>DiagrammeR</strong><br> Package to <a href="https://github.com/rich-iannone/DiagrammeR">create graph diagrams and flowcharts</a> using R.</p>
+<p><strong>R Markdown Websites</strong><br> <a href="http://rmarkdown.rstudio.com/html_document_format.html">Basics</a> from the R Markdown website. Blog on <a href="https://brendanrocks.com/blogging-with-rmarkdown-knitr-jekyll/">blogs using Jekyll and R Markdown</a>. <a href="https://github.com/rstudio/rmarkdown-website">Example website</a></p>
+<h3 style="color:#EEEEEE">
+20160315
+</h3>
+<p><strong>Pandas Resources</strong><br> UC Berkeley’s The Hacker Within <a href="http://www.thehackerwithin.org/berkeley/posts/pandas-spring-2016">notes on Python Pandas</a>.</p>
+<h3 style="color:#EEEEEE">
+20160313
+</h3>
+<p><strong>JuliaDT</strong><br> An <a href="http://juliacomputing.com/blog/2016/02/06/Eclipse-JuliaDT.html">Eclipsed-based IDE for Julia</a>.</p>
+<h3 style="color:#EEEEEE">
+20160311
+</h3>
+<p><strong>Rough Draft</strong><br> A <a href="http://www.96problems.com/rough-draft/">writing app</a> that offers the natural rough reminders of paper.</p>
+<h3 style="color:#EEEEEE">
+20160310
+</h3>
+<p><strong>regular expressions 101</strong><br> <a href="https://regex101.com/">Live testing and help</a> for regular expressions.</p>
+<h3 style="color:#EEEEEE">
+20160301
+</h3>
+<p><strong>Castle Adventure</strong><br> <a href="https://archive.org/details/msdos_Castle_Adventure_1984">Online emulator</a> for 1984’s DOS game Castle Adventure.</p>
+<h3 style="color:#EEEEEE">
+20160224
+</h3>
+<p><strong>LaTeX Dendrogram</strong><br> A simple <a href="https://gist.github.com/dahoo/4947859">dendrogram example for LaTeX</a>.</p>
+<p><strong>NYT Weather Charts</strong><br> The <a href="http://www.nytimes.com/interactive/2016/02/18/upshot/the-times-classic-weather-chart-now-online-with-3000-cities.html">New York Times’s classic weather charts</a> for more than 3000 cities.</p>
+<p><strong>pmax/pmin in R</strong><br> Take <a href="https://stat.ethz.ch/R-manual/R-devel/library/base/html/Extremes.html">max. and min. with vector inputs in R</a>.</p>
+<p><strong>Backpropogation Example</strong><br> A <a href="http://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/">step-by-step example of backpropogation</a>.</p>
+<h3 style="color:#EEEEEE">
+20160223
+</h3>
+<p><strong>Billion Dollar Prices Project</strong><br> MIT’s <a href="http://bpp.mit.edu">project to track prices</a> via online retailers.</p>
+<p><strong>markdown-toc</strong><br> <a href="https://atom.io/packages/markdown-toc">Generate a table of contents</a> for a Markdown file in Atom.</p>
+<p><strong>tablr</strong><br> Edit CSVs using a <a href="https://atom.io/packages/tablr">table editor in Atom</a>.</p>
+<h3 style="color:#EEEEEE">
+20160209
+</h3>
+<p><strong>Julia Resources</strong><br> A guid to help you <a href="https://learnxinyminutes.com/docs/julia/">learn Julia in Y minutes</a>. Slides on <a href="http://www.stat.wisc.edu/~bates/JuliaForRProgrammers.pdf">Julia for R programmers</a>.</p>
+<p><strong>Learn X in Y minutes</strong><br> <a href="https://learnxinyminutes.com/">Guides</a> for learning things quickly.</p>
+<h3 style="color:#EEEEEE">
+20160208
+</h3>
+<p><strong>.gitignore</strong><br> StackOverflow explanation on how to <a href="http://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository">“[i]gnore files that have already been committed to a Git repository.”</a></p>
+<p><strong>Pandoc</strong><br> A universal <a href="http://pandoc.org/">document converter</a>.</p>
+<h3 style="color:#EEEEEE">
+20160204
+</h3>
+<p><strong>wmail</strong><br> OSX <a href="https://github.com/Thomas101/wmail">App for Google Inbox</a> and Gmail.</p>
+<h3 style="color:#EEEEEE">
+20160203
+</h3>
+<p><strong>Python Resources</strong><br> Jean Mark Gawron’s book <a href="http://www-rohan.sdsu.edu/~gawron/python_for_ss/course_core/book_draft/Preface/Preface.html">Python for Social Sciences</a>; O’Reilly’s book on how to think like a computer scientist, <a href="http://www.greenteapress.com/thinkpython/">Think Python</a>; a list of resources from <a href="http://python.berkeley.edu/learning_resources.html">Python at Berkeley</a>; slides teaching <a href="http://www.slideshare.net/ajayohri/python-for-r-users">Python for R Users</a>.</p>
+<h3 style="color:#EEEEEE">
+20160201
+</h3>
+<p><strong>Fira Code</strong><br> <a href="https://github.com/tonsky/FiraCode">Monospaced font</a> with programming ligatures.</p>
+<h3 style="color:#EEEEEE">
+20160131
+</h3>
+<p><strong>White Noise &amp; Co.</strong><br> Frequency shaped <a href="http://mynoise.net/NoiseMachines/whiteNoiseGenerator.php">colored noise generator</a>.</p>
+<h3 style="color:#EEEEEE">
+20160130
+</h3>
+<p><strong>Flowstate</strong><br> A <a href="http://www.hailoverman.com/flowstate">writing app</a> with strong incentives to keep moving.</p>
+<h3 style="color:#EEEEEE">
+20160126
+</h3>
+<p><strong>Katex</strong><br> A <a href="http://khan.github.io/KaTeX/">fast math typesetting library</a> for the web.</p>
+<h3 style="color:#EEEEEE">
+20160121
+</h3>
+<p><strong>Butterfly</strong><br> A <a href="https://github.com/paradoxxxzero/butterfly">browser-based terminal</a>.</p>
+<strong>Unix help</strong><br> A <a href="http://tebarkley.github.io/unix-tutorial/commands.html%3Ch3%20style=%22color:#EEEEEE%22%3Epermissions">basic guide to UNIX</a> from Berkeley’s I school.
+</h3>
+<h3 style="color:#EEEEEE">
+20160112
+</h3>
+<p><strong>GitBook</strong><br> A <a href="https://www.gitbook.com">modern publishing toolchain</a>.</p>
+<h3 style="color:#EEEEEE">
+20160111
+</h3>
+<p><strong>Online LaTeX Editors</strong><br> <a href="http://papeeria.com">Papeeria</a>, <a href="https://www.sharelatex.com/">ShareLaTeX</a>, <a href="https://www.overleaf.com/">Overleaf</a>, and <a href="https://www.authorea.com/">Authorea</a> each offer online LaTeX editing, compiling, and collaboration.</p>
+<p><strong>uiGradients</strong><br> Simple and attractive <a href="http://uigradients.com/">color gradients</a>.</p>
+<h3 style="color:#EEEEEE">
+20160107
+</h3>
+<p><strong>.Last.value.</strong><br> <code>.Last.value</code> <a href="http://www.inside-r.org/r-doc/base/try">displays the last value at the command line</a> in R.</p>
+<h3 style="color:#EEEEEE">
+20151223
+</h3>
+<p><a href="http://onethingwell.org">h/t for everything today</a></p>
+<p><strong>Copied</strong><br> <a href="http://copiedapp.com">Clipboard manager</a> for OSX and iOS.</p>
+<p><strong>Deckset</strong><br> <a href="http://www.decksetapp.com">Slides from Markdown</a> files.</p>
+<p><strong>LaTeX Boilerplates</strong><br> Plain-text document <a href="http://mrzool.cc/tex-boilerplates/">production system</a>.</p>
+<strong>Minio</strong><br> <a href="https://minio.io/%3Ch3%20style=%22color:#EEEEEE%22%3Emc">Command-line accress</a> to Google and Amazon cloud storage.
+</h3>
+<h3 style="color:#EEEEEE">
+20151216
+</h3>
+<p><strong>Caret</strong><br> A simple <a href="http://caret.io">Markdown editor and previewer</a> <a href="http://onethingwell.org">h/t</a>.</p>
+<p><strong>Jango</strong><br> Browser-based <a href="http://www.jango.com/">streaming radio</a>—essentially Pandora but with only one advertisement each day.</p>
+<h3 style="color:#EEEEEE">
+20151213
+</h3>
+<p><strong>CleanMyMac</strong><br> <a href="http://macpaw.com/cleanmymac">Clean up files</a> on a Mac.</p>
+<strong>R-Fiddle</strong><br> A <a href="http://www.r-fiddle.org/%3Ch3%20style=%22color:#EEEEEE%22%3E/">browser-based IDE</a> for R.
+</h3>
+<h3 style="color:#EEEEEE">
+20151201
+</h3>
+<p><strong>pryr</strong><br> Another package from Hadley Wickham; <a href="https://cran.r-project.org/web/packages/pryr/pryr.pdf">this one helps to <em>pry</em> back R’s layers</a>. I’m using it for <code>mem_used()</code> and <code>object_size()</code>.</p>
+<p><strong>data.table and .SD</strong><br> <a href="https://cran.r-project.org/web/packages/data.table/data.table.pdf">.SD</a> allows you easily choose many columns from a data.table in R. <a href="https://rpubs.com/davoodastaraky/dataTable">h/t (plus a more transparent demo)</a></p>
+<h3 style="color:#EEEEEE">
+20151130
+</h3>
+<p><strong>CodinGame</strong><br> <a href="https://www.codingame.com">Learn/practice coding</a> while playing games.</p>
+<h3 style="color:#EEEEEE">
+20151117
+</h3>
+<p><strong>LaunchBar (6)</strong><br> <a href="https://www.obdev.at/products/launchbar/index.html">LaunchBar</a> adds actions to OSX’s keyboard commands.</p>
+<p><strong>R style</strong><br> More from Hadley Wickham: his <a href="http://adv-r.had.co.nz/Style.html">R style guide</a> from his book <a href="http://adv-r.had.co.nz">Advanced R</a>.</p>
+<h3 style="color:#EEEEEE">
+20151110
+</h3>
+<p><strong>bigvis</strong><br> Hadley Wickham strikes again: <a href="https://github.com/hadley/bigvis">bigvis</a> helps visualize large (big) data sets.</p>
+<h3 style="color:#EEEEEE">
+20151104
+</h3>
+<p><strong>Freeze</strong><br> OSX app to <a href="https://freezeapp.net">access Amazon Glacier</a> archives. <a href="http://onethingwell.org/post/132479560235/freeze">h/t</a></p>
+<p><strong>Spectacle</strong><br> <a href="https://www.spectacleapp.com">Move and resize windows</a> for OSX.</p>
+<p><strong>xombrero</strong><br> Minimalist, <a href="https://opensource.conformal.com/wiki/xombrero">high-security browser</a>. <a href="http://onethingwell.org/post/132534191506/xombrero">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20151102
+</h3>
+<p><strong>Forecast.io API</strong><br> <a href="https://developer.forecast.io">JSON API for Dark Sky/Forecast.io</a> weather forecasts and history.</p>
+<h3 style="color:#EEEEEE">
+20151029
+</h3>
+<p><strong>OpenStreetMap tools</strong><br> <a href="https://mapzen.com/data/metro-extracts">Mapzen metro extracts</a> offer weekly OpenStreetMap extracts for major metro areas. <a href="http://overpass-turbo.eu">overpass turbo</a> allows you to query the OSM API.</p>
+<h3 style="color:#EEEEEE">
+20151029
+</h3>
+<p><strong>JuliaBox</strong><br> Run <a href="https://www.juliabox.org">Julia from the browser</a>.</p>
+<h3 style="color:#EEEEEE">
+20151028
+</h3>
+<p><strong>Mapzen</strong><br> An open-source <a href="https://mapzen.com">mapping lab</a>.</p>
+<p><strong>Sublime Text 3 in terminal (OSX)</strong><br> A <a href="https://stackoverflow.com/questions/19543643/sublime-text-3-and-terminal-prompt-for-os-x-mavericks">stackoverflow thread</a> on how to create a symbolic link for Sublime Text in the OSX terminal.</p>
+<h3 style="color:#EEEEEE">
+20151027
+</h3>
+<p><strong>knitr::kable</strong><br> kable is a function in R’s <a href="https://cran.r-project.org/web/packages/knitr/knitr.pdf">knittr package</a> that creates formatted tables (Markdown, LaTeX, <em>etc.</em>) from data.frames within R. Seems like it would pair perfectly with <a href="https://cran.r-project.org/web/packages/broom/broom.pdf">broom</a>’s tidy function.</p>
+<h3 style="color:#EEEEEE">
+20151025
+</h3>
+<p><strong>Github Pages + Jekyll = Blog</strong><br> A streamlined <a href="http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> on setting up a blog with Github Pages with Jekyll.</p>
+<h3 style="color:#EEEEEE">
+20151023
+</h3>
+<p><strong>Prose</strong><br> A clean <a href="http://prose.io">editor</a> for Github.</p>
+<h3 style="color:#EEEEEE">
+20151022
+</h3>
+<p><strong>csvkit</strong><br> A <a href="http://csvkit.readthedocs.org/en/latest/index.html">handy suite</a> of .csv operations for the terminal. Includes Excel-to-CSV conversion. <a href="http://onethingwell.org/post/16122304567/cvskit">h/t</a></p>
+<p><strong>gimli</strong><br> Convert <a href="https://github.com/walle/gimli">markup files to pdf files</a>.</p>
+<p><strong>Photo Gallery Options</strong><br> <a href="https://github.com/rprieto/thumbsup">thumbsup</a> builds static HTML galleries for local photos and videos. <a href="https://github.com/Jack000/Expose">Expose</a> generates static sites for photoessays.</p>
+<h3 style="color:#EEEEEE">
+20151021
+</h3>
+<p><strong>import.io</strong><br> <a href="https://import.io">Turns websites into data</a>.</p>
+<p><strong>Sublime Text and File Browsing</strong><br> <a href="https://github.com/aziz/SublimeFileBrowser">FileBrowser</a> creates an extra panel for keyboard browsing files in Sublime Text; <a href="https://github.com/csch0/SublimeText-File-Navigator">File Navigator</a> allows basic navigation and file management through a Sublime terminal.</p>
+<h3 style="color:#EEEEEE">
+20151020
+</h3>
+<p><strong>Speedfari</strong><br> <a href="https://launchkit.io/websites/wywmSpUGRW4/?ref=producthunt">Browser for iOS</a> that blocks unnecessary parts of websites. <a href="http://onethingwell.org/post/131019138821/speedafari">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20151014
+</h3>
+<p><strong>OSX Terminal Themes</strong><br> A <a href="https://github.com/lysyi3m/osx-terminal-themes">set of terminal themes</a> for OSX.</p>
+<h3 style="color:#EEEEEE">
+20151013
+</h3>
+<p><strong>StackEdit</strong><br> A really nice <a href="https://stackedit.io">in-browser Markdown editor</a> that allows for themes, hotkeys, simultaneous collaboration, and publishing straight to blogs.</p>
+<h3 style="color:#EEEEEE">
+20151010
+</h3>
+<p><strong>Scotch on Jekyll</strong><br> A <a href="https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme?utm_content=buffer20ede&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">nice tutorial on Jekyll</a> (publishing blogs/websites).</p>
+<p><strong>oh my zsh</strong><br> <a href="http://ohmyz.sh">Framework</a> for managing ZSH configuration.</p>
+<h3 style="color:#EEEEEE">
+20151009
+</h3>
+<p><strong>Go2Shell</strong><br> Creates a shortcut in OSX’s Finder to <a href="http://zipzapmac.com/go2shell">open a Terminal window</a>.</p>
+<p><strong>iTerm2</strong><br> An <a href="https://www.iterm2.com">alternative terminal</a> for OSX.</p>
+<p><strong>regexr.com</strong><br> <a href="http://www.regexr.com">Live testing of regular expressions</a>.</p>
+<h3 style="color:#EEEEEE">
+20151008
+</h3>
+<p><strong>Colorout</strong><br> <a href="http://www.lepem.ufc.br/jaa/colorout.html">Color your R output</a> in the terminal.</p>
+<h3 style="color:#EEEEEE">
+2015107
+</h3>
+<p><strong>Git Large File Storage</strong><br> An <a href="https://git-lfs.github.com">open source Git extension</a> for versioning large files.</p>
+<p><strong>R and AWS</strong><br> Tutorials for running <a href="https://blogs.aws.amazon.com/bigdata/post/Tx3IJSB6BMHWZE5/Running-R-on-AWS">R</a> and <a href="http://blogs.aws.amazon.com/bigdata/post/Tx37RSKRFDQNTSL/-Statistical-span-class-matches-Analysis-span-with-Open-Source-R-and-RStudio-on">RStudio</a> with Amazon’s web services.</p>
+<h3 style="color:#EEEEEE">
+20151001
+</h3>
+<p><strong>Personal R Packages</strong><br> A nice <a href="http://brooksandrew.github.io/simpleblog/articles/personal-R-package/">guide</a> to building your own R package.</p>
+<h3 style="color:#EEEEEE">
+20150928
+</h3>
+<p><strong>Git Guide</strong><br> A pretty <a href="http://rogerdudler.github.io/git-guide/">simple guide to Git</a>.</p>
+<h3 style="color:#EEEEEE">
+20150925
+</h3>
+<p><strong>Syncer</strong><br> A fast file/disk <a href="https://github.com/stargrave/syncer">syncer</a>.</p>
+<h3 style="color:#EEEEEE">
+20150924
+</h3>
+<p><strong>Classroom Resources</strong><br> Some resources from <a href="https://www.codecademy.com/schools/curriculum">CodeAcademy</a> and <a href="https://education.github.com/guide">GitHub</a> for the classroom.</p>
+<p><strong>Dictater</strong><br> <a href="http://nosrac.github.io/Dictater/">Replacement for built-in Speech services</a>.</p>
+<p><strong>Git Large File Store</strong><br> Open-source <a href="https://git-lfs.github.com/?utm_source=github_site&amp;utm_medium=pricing_learnmore_link&amp;utm_campaign=gitlfs">versioning for large files</a>.</p>
+<h3 style="color:#EEEEEE">
+20150923
+</h3>
+<p><strong>Git Tutorials</strong><br> “<a href="http://classic.scottr.org/presentations/git-in-5-minutes/">Git in five minutes</a>” (I think it took me a bit longer). And a <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">very clear description of how to add an existing project to GitHub using Git in the command line</a>.</p>
+<h3 style="color:#EEEEEE">
+20150922
+</h3>
+<p><strong>Jaro Mail</strong><br> Private, terminal-based <a href="https://www.dyne.org/software/jaro-mail/">email</a>. <a href="http://onethingwell.org/post/129634716223/jaro-mail">h/t</a></p>
+<h3 style="color:#EEEEEE">
+20150921
+</h3>
+<p><strong>Squire</strong><br> An HTML5 rich <a href="http://neilj.github.io/Squire/">text editor</a> that works across browsers and generations.</p>
+<h3 style="color:#EEEEEE">
+20150914
+</h3>
+<p><strong>Etherpad</strong><br> Online, <a href="http://etherpad.org">collaborative text editing</a>.</p>
+<p><strong>Madoko</strong><br> A fast <a href="https://www.madoko.net">Markdown processor</a> that makes presentations, documents, html, <em>etc.</em> <a href="http://onethingwell.org/post/129068163087/madoko">h/t</a></p>
+<p><strong>VoiceCode</strong><br> Softward that promises to allow you to <a href="http://voicecode.io">code via spoke word</a>.</p>
+<h3 style="color:#EEEEEE">
+20150910
+</h3>
+<p><strong>Learning to git</strong><br> <a href="https://guides.github.com/">Illustrated examples</a> and a (supposedly) <a href="https://try.github.io/levels/1/challenges/1">15-minute game</a>.</p>
+<p><strong>Spyfall</strong><br> A popular <a href="https://www.cryptozoic.com/spyfall">party game</a>; an independent <a href="http://spyfall.meteor.com/">online version</a>; an <a href="/funThings/SpyfallRules.pdf">English rulebook</a>.</p>
+<h3 style="color:#EEEEEE">
+20150909
+</h3>
+<p><strong>Prism</strong><br> <a href="http://prismjs.com/index.html">Code highlighting</a> via JavaScript. Apparently, Prism is a spin-off of <a href="http://dabblet.com/">dabblet</a>.</p>
+<p><strong>Email from R</strong><br> The <a href="https://cran.r-project.org/web/packages/mail/">mail package</a> in R allows you to send an email(see the <code>sendmail</code> function)—very helpful for letting you know when a task finishes running.</p>
+<h3 style="color:#EEEEEE">
+20150907
+</h3>
+<p><strong>Evernote in Sublime Text</strong><br> Submit and edit notes in <a href="https://packagecontrol.io/packages/Evernote">Evernote from Sublime Text</a> (also allows for Markdown).</p>
+<p><strong>Pygments</strong><br> <a href="http://pygments.org/">Code highlighting</a> for many applications.</p>
+<h3 style="color:#EEEEEE">
+20150906
+</h3>
+<p><strong>Arranger</strong><br> <a href="http://bucketomac.de/arranger/arranger/">Arranges application windows</a> (or Finder windows) for OSX.</p>
+<p><strong>Coda</strong><br> A <a href="https://panic.com/coda/">text editor</a> targeting web applications.</p>
+<p><strong>Codeanywhere</strong><br> A <a href="https://codeanywhere.com/">code editor</a> accessible in your browser or on mobile devices. Features include ssh and multiple cursors.</p>
+<h3 style="color:#EEEEEE">
+20150905
+</h3>
+<p><strong>Symbolset</strong><br> Sells sets of <a href="https://symbolset.com/">icons</a>.</p>
+<h3 style="color:#EEEEEE">
+20150905
+</h3>
+<p><strong>Noun Project</strong><br> An <a href="https://thenounproject.com/">app</a> with a compendium of icons. h/t to John Loeser</p>
+<p><strong>Thimble</strong><br> An <a href="https://thimble.mozilla.org/">online code editor</a> from Mozilla (HTML, CSS, and JavaScript plus tutorials).</p>
+<h3 style="color:#EEEEEE">
+20150903
+</h3>
+<p><strong>Next</strong><br> A simple <a href="http://noidentity.com/next.html">expense-tracking app</a>.</p>
+<p><strong>Reading Lists</strong><br> Bill Easterly’s development economics <a href="/funThings/BillEasterlyDevEconReadingList.pdf/">reading list</a>. <a href="http://marginalrevolution.com/marginalrevolution/2015/09/thursday-assorted-links-28.html">h/t</a> Sol Hsiang’s sustainable development <a href="/funThings/SolHsiangSustainableDevelopmentSyllabus.pdf/">reading list</a>. And Sol’s <a href="/funThings/SolHsiangSummerWorkshopClimateEconomicsSyllabus.pdf/">syllabus/reading list</a> for his summer workshop in the economics of climate change.</p>
+<h3 style="color:#EEEEEE">
+20150902
+</h3>
+<p><strong>JavaScript in R</strong><br> The <a href="https://cran.r-project.org/web/packages/V8/index.html">R package <code>V8</code></a> allows you to access JavaScript functions from R. An <a href="http://rud.is/b/2015/08/21/doh-i-could-have-had-just-used-v8/">example with parsing human names</a>.</p>
+<p><strong>Languages for GFM</strong><br> A handy <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml">list</a> of all the languages known to GitHub Flavored Markdown.</p>
+<h3 style="color:#EEEEEE">
+20150901
+</h3>
+<p><strong>Drought Reports</strong><br> EcoWest created a great <a href="http://vis.ecowest.org/interactive/drought.php">interactive map</a> for US drought severity. <a href="http://googlemapsmania.blogspot.com/2015/08/the-maps-of-week_23.html">h/t</a></p>
+<p><strong>Hosting Websites with Dropbox</strong><br> <a href="https://pancake.io/">Pancake.io</a> offers help in hosting a website via Dropbox (or git). So does <a href="http://my.droppages.com/">DropPages</a>.</p>
+<strong>Pixel Maps</strong><br> <a href="http://pixelmap.amcharts.com/%3Ch3%20style=%22color:#EEEEEE%22%3E">Create pixel maps</a> of anywhere in the world.
+</h3>
+<p><strong>Random Google Maps</strong><br> Shaun Utter wrote some code to grab a random Google Map and colors it. <a href="http://www.shaunutter.com/coding/random-google-maps/">Pretty</a>.</p>
+<p><strong>Scraping with R (+ Rasters)</strong><br> Zev Ross shows <a href="http://zevross.com/blog/2015/05/19/scrape-website-data-with-the-new-r-package-rvest/">how to scrape</a> using the R package <code>rvest</code>. Zev also has two nice tutorials on working with rasters in R (<a href="http://zevross.com/blog/2015/03/30/map-and-analyze-raster-data-in-r/">1</a> and <a href="http://zevross.com/blog/2015/08/21/process-a-raster-for-use-in-a-google-map-using-r/">2</a>).</p>
+<p><strong>Tyme</strong><br> A <a href="http://tyme-app.com/">time-management app</a> with a timer and a project management system.</p>
+<h3 style="color:#EEEEEE">
+20150831
+</h3>
+<strong>Color Blender</strong><br> <a href="http://meyerweb.com/eric/tools/color-blend/%3Ch3%20style=%22color:#EEEEEE%22%3EFF3399:444444:5:hex">Blends</a> two colors.
+</h3>
+<p><strong>DaisyDisk</strong><br> <a href="http://www.daisydiskapp.com/">Beautiful OSX app</a> for analyzing memory allocation on your hard drive (and recovering space).</p>
+<p><strong>Email Clients for OSX</strong><br> I just came across <a href="http://kiwiforgmail.com/">Kiwi</a>—a <em>gmail-as-desktop-client</em> app for Mac. I’m currently alternating between <a href="http://www.google.com/inbox/">Inbox</a> in-browser and <a href="http://www.mailboxapp.com/">Mailbox</a>. I previously used <a href="http://airmailapp.com/">Airmail</a> and played with <a href="https://www.uniboxapp.com/">Unibox</a>.</p>
+<p><strong>Hours</strong><br> Another way to <a href="http://hourstimetracking.com/">track your time</a>. Only for iOS at the moment.</p>
+<p><strong>Itsycal</strong><br> A nice, little <a href="http://www.mowglii.com/itsycal/">calendar</a> for the OSX menu bar—also keyboard friendly. <a href="http://onethingwell.org/post/127083371981/itsycal">h/t</a></p>
+<p><strong>R Packages for Open Science</strong><br> A set of <a href="https://ropensci.org/packages/">R packages</a> for open science.</p>
+<p><strong>Search R’s Documentation</strong><br> An online <a href="http://www.rdocumentation.org/">search engine</a> for R’s documentation.</p>
+<p><strong>Time Sink</strong><br> <a href="http://manytricks.com/timesink/">Time everything</a> you do on your computer. Could be scary.</p>
+<h3 style="color:#EEEEEE">
+20150830
+</h3>
+<p><strong>Alternote</strong><br> A pretty <a href="http://alternoteapp.com/">note-taking app</a> for Evernote (OSX).</p>
+<p><strong>Ello</strong><br> An <a href="https://ello.co/wtf/about/what-is-ello/">alternative social network site</a>. (Say the name aloud and think “British.”)</p>
+<p><strong>Motion in Social</strong><br> Pretty cool research on motion… and perhaps and even cooler <a href="http://motioninsocial.com/">portrayal</a>.</p>
+<p><strong>MultiMarkdown Syntax Guide</strong><br> <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide">Guide</a> for setting up metadata for Markdown. A lot of other stuff, too.</p>
+<p><strong>NUMI</strong><br> A simple, beautiful, and versatile <a href="http://numi.io/">calculator</a> for OSX. <a href="http://onethingwell.org/post/126583572564/numi">h/t</a></p>
+<p><strong>Tufte in R and CSS</strong><br> People applying Tufte’s principles in <a href="http://motioninsocial.com/tufte/">R</a> and in <a href="http://www.daveliepmann.com/tufte-css/">CSS</a>.</p>
+<h3 style="color:#EEEEEE">
+LONG AGO
+</h3>
+<p><strong>Cleaner Web Viewing</strong><br> <a href="https://evernote.com/clearly/">Evernote Clearly</a> cleans up web pages—particularly useful for blogs with lots of ads. <a href="https://www.wikiwand.com/">Wikiwand</a> cleans up Wikipedia pages automatically.</p>
+<p><strong>Feedly</strong><br> Magazine-style (news reader)[<a href="https://feedly.com" class="uri">https://feedly.com</a>].</p>
+<p><strong>Flashearth</strong><br> <a href="http://www.flashearth.com/?lat=75.299024&amp;lon=140.983109&amp;z=9.1&amp;r=0&amp;src=msa">View Earth</a> using many satellite options. A great time sink. Related: <a href="https://chrome.google.com/webstore/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh?hl=en"><em>Earth View from Google</em></a> Chrome extension.</p>
+<p><strong>Marked 2</strong><br> Very simple Markdown (or plain text) viewer. Works with many editors.</p>
+<p><strong>Mendeley</strong><br> <a href="https://www.mendeley.com/">Reference manager</a> and PDF organizer.</p>
+<p><strong>pyFuture?</strong><br> galvanize offers a <a href="http://www.galvanize.com/blog/2015/07/31/eight-tools-that-show-whats-on-the-horizon-for-the-python-data-ecosystem/">list of tools</a> for Python and data.</p>
+<p><strong>Skitch</strong><br> <a href="https://evernote.com/skitch/">Skitch</a> takes nice screen shots.</p>
+<p><strong>Sublime Text</strong><br> My <del>favorite</del> second-favorite <a href="https://www.sublimetext.com/">text editor</a> (supports everything). Multiple cursors make life easier. I’ve since moved to <a href="https://atom.io">Atom</a>.</p>
+<p><strong>Transmit</strong><br> Terrific <a href="https://panic.com/transmit/">SFTP-FTP-S3 client</a> for OSX.</p>
+<p><strong>To-Do Lists</strong><br> I now use <del><a href="https://en.todoist.com/">Todoist</a></del> <del><a href="http://swipesapp.com/">Swipes</a></del> <a href="https://www.omnigroup.com/omnifocus">OmniFocus</a>. In the past, I played with <a href="https://www.wunderlist.com/">Wunderlist</a> and <a href="http://swipesapp.com/">Swipes</a> and <a href="https://en.todoist.com/">Todoist</a> and <a href="https://teuxdeux.com">TeuxDeux</a> and <a href="https://www.any.do">Any.Do</a>.</p>
+<p><strong>Toggl</strong><br> <a href="https://toggl.com/">Track your time</a>.</p>
+
+<!-- <?php include_once("analyticstracking.php") ?> -->
+
+<!-- For Google Analytics: -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88887510-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

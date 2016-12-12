@@ -1,0 +1,90 @@
+---
+title: "A few of my favorite tools"
+---
+
+Greetings, fellow nerds! Here are the tools I most commonly use...
+
+<br>
+
+### Text editing
+
+- Atom
+  - LaTeX
+  - Markdown
+  - General scripting/coding (R, Stata, Python, _etc._)
+  - Writing
+- RStudio
+  - Interactive R sessions
+  - RMarkdown
+- nano (in-Terminal editing)
+- Caret (Markdown previewing)
+
+<br>
+
+### Terminal
+
+- iTerm
+- Zsh
+- Oh My Zsh
+
+<br>
+
+### Data work/analysis
+
+- R (95.9%)
+- Stata (3%)
+- Python (1%)
+- Julia (0.1%)
+
+__Note:__ Numbers above are allegorical.
+
+<br>
+
+### Productivity
+
+- OmniFocus
+- Tyme
+- Itsycal
+- Numi
+- LastPass
+- Dropbox
+- Transmit (ftp)
+- RescueTime
+- ActivityTimer
+- Boxy
+
+<br>
+
+### Reading
+
+- Mendeley
+- Pocket
+- Serial Reader
+
+<br>
+
+### Computer ease
+
+- Spectacle
+- Flux
+
+<br>
+
+### Computer maintenance
+
+- CleanMyMac
+- Carbon Copy Cloner
+- DaisyDisk
+
+<br>
+
+### Browser and extensions
+
+- __Browser:__ Vivaldi
+- __Extensions:__
+    - SelectorGadget
+    - HTTPS Everywhere
+    - Adblock Plus
+    - Markdown Here
+    - Save to Pocket
+    - LastPass

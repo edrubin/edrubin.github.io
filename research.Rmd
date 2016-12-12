@@ -1,0 +1,31 @@
+---
+title: "Research"
+---
+
+<br>
+
+# {.tabset .tabset-fade}
+
+## In-Progress
+
+Example
+
+## Presentations
+
+Example
+
+## R scripts
+
+Example in R:
+
+```{r, eval = F}
+1 + 1
+```
+
+## Other scripts
+
+Example in bash:
+
+```{bash, eval = F}
+cd ..
+```
