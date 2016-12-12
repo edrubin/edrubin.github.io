@@ -408,10 +408,8 @@ div.tocify {
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Options</span>
 <span class="kw">options</span>(<span class="dt">stringsAsFactors =</span> F)
 <span class="co"># Packages</span>
-<span class="kw">library</span>(data.table)</code></pre></div>
-<pre><code>## data.table 1.9.6  For help type ?data.table or https://github.com/Rdatatable/data.table/wiki</code></pre>
-<pre><code>## The fastest way to learn (by data.table authors): https://www.datacamp.com/courses/data-analysis-the-data-table-way</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(magrittr)
+<span class="kw">library</span>(data.table)
+<span class="kw">library</span>(magrittr)
 <span class="co"># Create a data.table</span>
 tmp &lt;-<span class="st"> </span><span class="kw">data.table</span>(<span class="dt">x =</span> <span class="dv">1</span>:<span class="dv">10</span>)
 tmp[, y :<span class="er">=</span><span class="st"> </span>x^<span class="dv">2</span>]</code></pre></div>
