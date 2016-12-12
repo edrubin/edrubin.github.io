@@ -3,3 +3,5 @@ title: "Ed Rubin"
 ---
 
 Bienvenidos y feliz Navidad. Me llamo Ed.
+
+<iframe src="//giphy.com/embed/3oz8xBnzz9PQsNvY40" width="480" height="600" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/christmas-holiday-stop-motion-3oz8xBnzz9PQsNvY40">via GIPHY</a></p>
