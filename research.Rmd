@@ -8,7 +8,21 @@ title: "Research"
 
 ## In-Progress
 
-Example
+<br>
+
+### Natural gas elasticities and heterogeneity: Evidence from 300M+ bills
+
+In this paper, I estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. I estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity to efficient and progressive policy.
+
+<br>
+
+### Mile-high quandaries: Evidence from Denver that marijuana legalization may increase drug arrests
+
+<br>
+
+### Irrigation and climatic effects on water levels in the U.S. High Plains Aquifer
+
+<br>
 
 ## Presentations
 
