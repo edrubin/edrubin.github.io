@@ -5,6 +5,11 @@ title: "Useful links"
 Useful and/or interesting links for research/productivity/fun.
 <br><br>
 
+<h3 style="color:#EEEEEE"> 20161215 </h3>
+
+__MapInSeconds.com__<br>
+Quickly turns [spreadsheets into maps](http://www.mapinseconds.com/). [h/t](http://www.darkhorseanalytics.com/blog/mapping-data-should-take-seconds-mapinseconds-com)
+
 <h3 style="color:#EEEEEE"> 20161208 </h3>
 
 __R Markdown Websites__<br>
