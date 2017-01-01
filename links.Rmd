@@ -2,8 +2,40 @@
 title: "Useful links"
 ---
 
-Useful and/or interesting links for research/productivity/fun.
-<br><br>
+Useful and/or interesting links for research/productivity/fun.<br><br>
+
+<h3 style="color:#EEEEEE"> 20170101 </h3>
+
+__Read the Docs__
+[Create, host, and browse documentation](https://readthedocs.org/).
+
+<h3 style="color:#EEEEEE"> 20161230 </h3>
+
+__Cloudinary__
+[Image and video management](http://cloudinary.com) in the cloud.
+
+<h3 style="color:#EEEEEE"> 20161228 </h3>
+
+__Spark__
+A fast, personalizable [email client](https://sparkmailapp.com/).
+
+<h3 style="color:#EEEEEE"> 20161227 </h3>
+
+__PostImage__<br>
+Free [image hosting and upload](https://postimg.org).
+
+__Small Victories__<br>
+Takes files in a Dropbox folder and [turns them into a website](http://www.smallvictori.es).
+
+<h3 style="color:#EEEEEE"> 20161222 </h3>
+
+__TinyLetter__<br>
+A free personal [newsletter service](https://tinyletter.com/site/about/).
+
+<h3 style="color:#EEEEEE"> 20161219 </h3>
+
+__Pandas Cheat Sheet__<br>
+A [cheat sheet](https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) for data science with Python's Pandas.
 
 <h3 style="color:#EEEEEE"> 20161215 </h3>
 
