@@ -2,11 +2,17 @@
 title: "Advice"
 ---
 
+Potentially helpful pieces of advice...
+
+<br> <br>
+
 ## Job market advice
 
 - David McKenzie: [Blogging your job market paper? Some more tips](http://blogs.worldbank.org/impactevaluations/blogging-your-job-market-paper-some-more-tips)
 
-## General writing
+<br>
+
+## General writing advice
 
 - Charles Chu: [The Benjamin Franklin Method: How to (Actually) Learn to Write](http://marketmeditations.com/benjamin-franklin-learn-to-write/)
 - Charles Chu: [Isaac Asimov: How to Defeat Writer's Block](http://marketmeditations.com/isaac-asimov-defeat-writers-block/)
