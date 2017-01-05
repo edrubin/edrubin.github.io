@@ -6,22 +6,22 @@ Useful and/or interesting links for research/productivity/fun.<br><br>
 
 <h3 style="color:#EEEEEE"> 20170105 </h3>
 
-__Markdown Quick Look Plugin__
+__Markdown Quick Look Plugin__<br>
 [Preview Markdown files](http://inkmarkapp.com/markdown-quick-look-plugin-mac-os-x/) in OSX Finder (through the Preview app). From the makers of the iPad Markdown text editor [InkMark](http://inkmarkapp.com/).
 
 <h3 style="color:#EEEEEE"> 20170101 </h3>
 
-__Read the Docs__
+__Read the Docs__<br>
 [Create, host, and browse documentation](https://readthedocs.org/).
 
 <h3 style="color:#EEEEEE"> 20161230 </h3>
 
-__Cloudinary__
+__Cloudinary__<br>
 [Image and video management](http://cloudinary.com) in the cloud.
 
 <h3 style="color:#EEEEEE"> 20161228 </h3>
 
-__Spark__
+__Spark__<br>
 A fast, personalizable [email client](https://sparkmailapp.com/).
 
 <h3 style="color:#EEEEEE"> 20161227 </h3>
