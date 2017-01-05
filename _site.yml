@@ -26,6 +26,9 @@ navbar:
         - text: "Favorite Tools"
           href: tools.html
         - text: "---------"
+        - text: "Advice"
+          href: advice.html
+        - text: "---------"
         - text: "Consulting"
           href: consulting.html
   right:
