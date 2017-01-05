@@ -4,6 +4,11 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170105 </h3>
+
+__Markdown Quick Look Plugin__
+[Preview Markdown files](http://inkmarkapp.com/markdown-quick-look-plugin-mac-os-x/) in OSX Finder (through the Preview app). From the makers of the iPad Markdown text editor [InkMark](http://inkmarkapp.com/).
+
 <h3 style="color:#EEEEEE"> 20170101 </h3>
 
 __Read the Docs__
