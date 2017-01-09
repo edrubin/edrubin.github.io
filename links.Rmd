@@ -4,6 +4,11 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170109 </h3>
+
+__Tomatimer__<br>
+A loose and straightforward [pomodoro timer for Atom](https://atom.io/packages/tomatimer).
+
 <h3 style="color:#EEEEEE"> 20170105 </h3>
 
 __Markdown Quick Look Plugin__<br>
