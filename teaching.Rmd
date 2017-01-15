@@ -1,14 +1,16 @@
 ---
 title: "Teaching"
 ---
-  
+
 <br>
 
 # {.tabset .tabset-fade}
 
 ## Current
 
-Example
+[ARE 212](https://edrub.in/ARE212): Econometrics - Multiple Equation Estimation
+
+GSI for [Dr. Maximilian Auffhammer](http://www.auffhammer.com)
 
 ## Economics
 
