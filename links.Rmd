@@ -4,6 +4,16 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170116 </h3>
+
+__Mac Setup__
+[Helpful guide](http://sourabhbajaj.com/mac-setup/) for setting up a Mac for most popular languages and programming/scripting tools.
+
+<h3 style="color:#EEEEEE"> 20170115 </h3>
+
+__Studies__<br>
+[Flash cards](http://www.studiesapp.com) for iOS and OSX.
+
 <h3 style="color:#EEEEEE"> 20170112 </h3>
 
 __Noizio__<br>
