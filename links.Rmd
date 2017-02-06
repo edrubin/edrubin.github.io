@@ -4,9 +4,38 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170206 </h3>
+
+__GGally__<br>
+[Extends R's `ggplot2`](http://ggobi.github.io/ggally/) with many helpful graphical functions.
+
+<h3 style="color:#EEEEEE"> 20170123 </h3>
+
+__LightTable__<br>
+Open-source [text editor](http://lighttable.com) with in-line code evaluation.
+
+<h3 style="color:#EEEEEE"> 20170123 </h3>
+
+__Redkix__<br>
+Reat-time [email app](https://redkix.com).
+
+__Typeform__<br>
+Clean, [online forms](http://typeform.com).
+
+<h3 style="color:#EEEEEE"> 20170123 </h3>
+
+__Codr__<br>
+A lightweight, [collaborative pastebin (whiteboard) for code](http://codr.io).
+
+__SageMathCloud__<br>
+Collaboratively [use open source math software/terminals in your browser](https://cloud.sagemath.com).
+
+__SubEthaEdit (4)__<br>
+[Collaborative text editing](https://www.codingmonkeys.de/subethaedit/).
+
 <h3 style="color:#EEEEEE"> 20170116 </h3>
 
-__Mac Setup__
+__Mac Setup__<br>
 [Helpful guide](http://sourabhbajaj.com/mac-setup/) for setting up a Mac for most popular languages and programming/scripting tools.
 
 <h3 style="color:#EEEEEE"> 20170115 </h3>
