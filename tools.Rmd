@@ -51,7 +51,7 @@ __Note:__ Numbers above are allegorical.
 - Transmit (ftp)
 - RescueTime
 - ActivityTimer
-- ~~Boxy~~ Spark
+- Boxy
 
 <br>
 
