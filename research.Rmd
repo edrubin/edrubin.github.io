@@ -39,7 +39,7 @@ Example in R:
 ## Other scripts
 
 My LaTeX (beamer) template.
-<br> [.tex file](MiscFiles/beamerTemplate.tex) | [Example PDF](MiscFiles/beamerTemplate.pdf)
+<br><br> [.tex file](MiscFiles/beamerTemplate.tex) | [Example PDF](MiscFiles/beamerTemplate.pdf)
 
 Example in bash:
 
