@@ -4,6 +4,27 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170329 </h3>
+
+__Comparing text files__ <br>
+[Diffchecker](https://www.diffchecker.com) and [Text Compare!](https://text-compare.com) offer in-browser comparisons between text documents. In Atom, [split-diff](https://atom.io/packages/split-diff) and [compare-files](https://atom.io/packages/compare-files) offer between-document comparisons.
+
+<h3 style="color:#EEEEEE"> 20170324 </h3>
+
+__asciicinema__ <br>
+[asciinema](https://asciinema.org/) (formerly ascii.io) is a free and open source solution for recording terminal sessions and sharing them on the web.
+
+__Markdown online__ <br>
+[Dillinger](http://dillinger.io/), [StackEdit](https://stackedit.io/), and [Markdown Live Preview](http://markdownlivepreview.com/) offer three online Markdown editors/renderers. [remark](https://remarkjs.com/#1), [Marp](https://yhatt.github.io/marp/), [swipe](https://www.swipe.to/markdown/), and [Deckset](https://www.decksetapp.com/) offer options for rendering Markdown into presentation slides (also, [Rmarkdown with ioslides](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)).
+
+<h3 style="color:#EEEEEE"> 20170312 </h3>
+
+__FocusList__<br>
+A [daily planner and focus app](http://focuslist.co) based on Pomodoro. [h/t](http://thesweetsetup.com/staying-productive-pomodoro-technique-sponsor/)
+
+__Giphy Capture__<br>
+[Create GIFs](https://giphy.com/apps/giphycapture) on your Mac. Other options: [Gifox](https://gifox.io), [Recordit](http://recordit.co), and [Gyazo](https://gyazo.com).
+
 <h3 style="color:#EEEEEE"> 20170227 </h3>
 
 __pander__<br>

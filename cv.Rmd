@@ -21,6 +21,7 @@ B.S. Mathematics, University of Nebraska-Lincoln, 2007
 ## Research in Progress
 
 __Natural gas elasticities and consumer behavior: Evidence from 300M+ bills__
+<br> _a.k.a._ Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills
 
 - Ed Rubin and Max Auffhammer
 
@@ -53,6 +54,11 @@ __STAT 380: Statistics and Applications__
 <br>
 
 ## Presentations
+
+__Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills__
+
+- 22nd Annual POWER Conference on Energy Research and Policy
+- March 2017
 
 __Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills__
 
@@ -97,7 +103,8 @@ __Linguistic__
 
 ## Academic Service
 
-- Organized Environmental, Energy, and Resource Economics Seminar
+- Coordinated Environmental, Energy, and Resource Economics Seminar
+- Organized biweekly (twice per week) departmental lunches
 - Organized third-year research workshop
 - Organized departmental coffee hour
 - Mentored first-year graduate students
