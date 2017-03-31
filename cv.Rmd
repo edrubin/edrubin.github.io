@@ -41,15 +41,23 @@ __Statistical Modeling and Hydrology in the High Plains Aquifer__
 
 ## Teaching
 
+__ARE 212: Econometrics - Multiple Equation Estimation__
+
+- University of California, Berkeley
+- Spring 2017
+- Doctoral level
+
 __STAT 218: Introduction to Statistics__
 
 - University of Nebraska-Lincoln
 - Spring 2011, Summer 2011, Fall 2011
+- Undergraduate level
 
 __STAT 380: Statistics and Applications__
 
 - University of Nebraska-Lincoln
 - Summer 2012, Fall 2012, Spring 2013
+- Undergraduate level
 
 <br>
 

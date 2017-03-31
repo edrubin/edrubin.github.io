@@ -9,7 +9,7 @@ output:
       smooth_scroll: true
 ---
 
-Sunday, 26 December 2017
+Thursday, 30 March 2017
 
 <br>
 
@@ -18,7 +18,8 @@ Sunday, 26 December 2017
 In a recent [_Science_ paper](http://science.sciencemag.org/content/355/6325/584.full), Eric Loken and Andrew Gelman discuss an interesting statistical nuance relevant to measurement error. Loken and Gelman begin by pointing out statisticians/econometricians/people with data and computers have the mindset that measurement error in one of our covariates biases our point estimates toward zero—the infamous _attenuation bias_. Pushing this attenuation-based mindset further, researchers infer that a statistically significant point estimate would be even larger _in the absence_ of measurement error. Loken and Gelman  that this second logical leap is not, in fact, logical. Why? While attenuation bias is a real thing, once we begin conditioning on statistically significant results, we add a second dimension that we must consider: power. In settings with low power—_e.g._, small $N$ and subtantial variance—in order to "achieve" a statistically significant result, the point estimate must be quite large. Thus, the _attenuation effect_ may be reversed by a _low-power_ effect. The big idea here is that conditioning on significant results—a very real thing in the presence of p-hacking and publication bias—changes the behavior of something we all thought we understood—measurement error and attentuation bias.
 
 Loken and Gelman's takeaway?
-<br> "A key point for practitioners is that surprising results from small studies should not be defended by saying that they would have been even better with improved measurement."
+
+>A key point for practitioners is that surprising results from small studies should not be defended by saying that they would have been even better with improved measurement.
 
 # Simulation
 
@@ -164,17 +165,17 @@ Examine the results:
 
 ```{R describe simulation}
 # Compare means by sample size
-the_sim[, list(
+the_sim[type == "noise", list(
   mean_coef = mean(est_coef),
   pct_sample = .N/1e4
   ), by = n]
 # Compare means by sample size and significance
-the_sim[, list(
+the_sim[type == "noise", list(
   mean_coef = mean(est_coef),
   pct_sample = .N/1e4
   ), by = .(n, sig)]
 # Compare pct. of coef. > 1, by sample size and significance
-the_sim[, list(
+the_sim[type == "noise", list(
   pct_exceed = mean(est_coef > 1),
   pct_sample = .N/1e4
   ), by = .(n, sig)]
@@ -182,7 +183,7 @@ the_sim[, list(
 
 Let's plot the distribution of significant coefficient estimates.
 ```{R plot dist coef, fig.width = 8, fig.height = 8}
-ggplot(the_sim[sig == T], aes(est_coef)) +
+ggplot(the_sim[(sig == T) & (type == "noise")], aes(est_coef)) +
   geom_density(aes(fill = n_fac),
     alpha = 0.7, size = 0.1, color = "grey50") +
   geom_vline(xintercept = 1, color = "grey30", linetype = 2) +
@@ -191,18 +192,48 @@ ggplot(the_sim[sig == T], aes(est_coef)) +
   ggtitle("Distribution of estimated coefficients, by sample size",
     subtitle = "in the presence of measurement error") +
   theme_ed +
-  scale_fill_viridis("Sample size:", discrete = T, direction = -1)
+  scale_fill_viridis("Sample size:",
+    discrete = T, direction = -1, begin = 0.05, end = 0.90)
 ```
 
 We can also make a nice comparison of the estimated coefficient compared with the "ideal" estimate (without measurement error), following Loken and Gelman's figure.
 
-<!-- TODO -->
+```{R plot ideal vs. estimated, fig.width = 8, fig.height = 8}
+# Create a 'paired' data.table
+the_sim[, id := rep(1:(.N/2), each = 2)] %>% invisible()
+clean_dt <- the_sim[type == "clean"]
+noise_dt <- the_sim[type == "noise"]
+pair_dt <- merge(x = clean_dt, y = noise_dt,
+  by = "id", all = T, suffixes = c("_clean", "_noise"))
+# Clean up
+rm(clean_dt, noise_dt)
+gc() %>% invisible()
+# Plot
+ggplot(pair_dt[sig_noise == T],
+  aes(x = est_coef_clean, est_coef_noise)) +
+  geom_point(aes(color = n_fac_noise),
+    size = 0.25, alpha = 0.75, shape = 1) +
+  stat_function(fun = function(x) x, size = 0.4) +
+  xlab("\"Ideal\" estimate (no measurement error)") +
+  ylab("Estimate with measurement error") +
+  ggtitle("Comparison of estimates with and without measurement error",
+    subtitle = "by sample size") +
+  theme_ed +
+  scale_color_viridis("Sample size:",
+    discrete = T, direction = -1, begin = 0.05, end = 0.90) +
+  guides(colour = guide_legend(
+    override.aes = list(size = 4, stroke = 1)))
+```
+
+We again see Loken and Gelman's point: for smaller sizes, (conditional on a significant result) we frequently see point estimates from the "measure with error" regression that exceed the corresponding point estimates from regressions measured without error—not exactly the attenuation story we typically have in mind.
 
 ## Run the simulation, many sample sizes
 
-Now let's run the simulation for a bunch of sample sizes. __Note:__ You may want to drop the number of iterations per sample size to 1,000 (from 10,000) so it finishes in a reasonable amount of time.
+Now let's run the simulation for a bunch of sample sizes.
 
-```{R run simulation many n, cache = T}
+__Note__: You may want to drop the number of iterations per sample size to 1,000 (from 10,000) so it finishes in a reasonable amount of time.
+
+```{R run simulation with many n, eval = F}
 big_sim <- sim_run(
   n_iter = 1e4,
   n = c(10, seq(50, 3e3, 50)),
@@ -211,3 +242,63 @@ big_sim <- sim_run(
   gamma = 0.25,
   n_cores = 4)
 ```
+
+```{R define blog directory, include = F}
+# Directory of this blog
+dir_blog <- paste0("/Users/edwardarubin/Dropbox/Websites/",
+  "edrubin.github.io/blog20170330SavedFiles/")
+```
+
+```{R save big sim, eval = F, include = F}
+# Save the 'big_sim'
+saveRDS(
+  object = big_sim,
+  file = paste0(dir_blog, "big_sim.rds"))
+```
+
+```{R load big sim, include = F}
+# Load 'big_sim'
+big_sim <- readRDS(paste0(dir_blog, "big_sim.rds"))
+```
+
+To replicate Loken and Gelman's final figure, we need to generate a quick summary table (after pairing the results). In this table, for each sample size, we will calculate the percent of studies where
+```{R}
+# Add ID column
+big_sim[, id := rep(1:(.N/2), each = 2)] %>% invisible()
+# Separate the 'clean' and 'noise' observations
+big_clean <- big_sim[type == "clean"]
+big_noise <- big_sim[type == "noise"]
+# Merge
+big_paired <- merge(x = big_clean, y = big_noise,
+  by = "id", all = T, suffixes = c("_clean", "_noise"))
+# The summary
+big_summary <- big_paired[, list(
+  pct_exceed = mean(est_coef_noise > est_coef_clean)
+  ), by = n_noise]
+setnames(big_summary, "n_noise", "n")
+# Clean up
+rm(big_clean, big_noise, big_paired)
+gc() %>% invisible()
+```
+
+Now we can create the figure.
+```{R}
+ggplot(big_summary, aes(n, pct_exceed)) +
+  geom_line(color = "grey50") +
+  geom_point(aes(color = n), size = 2) +
+  # geom_smooth() +
+  ggtitle("The effect of sample size on attenuation bias",
+    subtitle = paste("Percent of studies where measurement-error",
+      "based estimate exceeds ideal estimate")) +
+  xlab("Sample size") +
+  ylab("Percent") +
+  theme_ed +
+  theme("legend.position" = "none") +
+  scale_color_viridis("Sample size:", direction = -1, end = 0.97)
+```
+
+This figure does not quite match the figure from Loken and Gelman. Why? One important observation that I don't think Loken and Gelman really discuss: their results vary by the parameters in the simulation: the treatment effect ($\beta$), the degree of measurement error $\gamma$ (maps to the variance of the measurement error), and the variance of the disturbance $\varepsilon$.
+
+# Conclusion
+
+Loken and Gelman make a pretty interesting observation: attenuation bias may not have the same effect in small samples that it has in large samples.^[As discussed above, this result depends upon several parameters.] I think the big picture is that some of our econometric/statistical intuition changes in the presence of p-hacking or publication bias—the theory behind our estimation and inference typically does not take into account p-hacking or publication bias.

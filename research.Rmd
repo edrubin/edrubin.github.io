@@ -38,8 +38,11 @@ Example in R:
 
 ## Other scripts
 
-My LaTeX (beamer) template.
-<br><br> [.tex file](MiscFiles/beamerTemplate.tex) | [Example PDF](MiscFiles/beamerTemplate.pdf)
+### LaTeX
+
+My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example PDF](MiscFiles/beamerTemplate.pdf)
+
+### Bash
 
 Example in bash:
 

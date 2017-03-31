@@ -6,9 +6,9 @@ Economics, statistics, public policy, quantitative tools.
 
 <br>
 
-[Test post:](blogTest.html) This post is a test.
+[Updating intuition on attenuation bias:](blog20170330.html) I replicate and discuss a recent paper by Loken and Gelman. The paper demonstrates that our typical statistical/econometric intuition regarding measurement error may not be quite correct. 
 <br>
-Thursday, 08 December 2016
+Thursday, 30 March 2017
 
 <br>
 
