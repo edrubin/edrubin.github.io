@@ -36,13 +36,13 @@ Example in R:
 1 + 1
 ```
 
-## Other scripts
-
-### LaTeX
+## LaTeX
 
 My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example PDF](MiscFiles/beamerTemplate.pdf)
 
-### Bash
+![Example of my slide template.](MiscFiles/beamerTemplate.gif)
+
+## Bash
 
 Example in bash:
 
