@@ -4,6 +4,21 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170410 </h3>
+
+__Unpaywall__ <br>
+[Read paywalled research papers](http://unpaywall.org) for free.
+
+<h3 style="color:#EEEEEE"> 20170406 </h3>
+
+__VPN__ <br>
+In addition to having great names, [CyberGhost](www.cyberghostvpn.com) [TunnelBear](https://www.tunnelbear.com) provide VPN services. Both services offer free options.
+
+<h3 style="color:#EEEEEE"> 20170331 </h3>
+
+__LaTeX, meet ggplot2__ <br>
+Port images out [out of R and into LaTeX](http://iltabiai.github.io/tips/latex/2015/09/15/latex-tikzdevice-r.html). [h/t](https://twitter.com/loesch82?lang=en)
+
 <h3 style="color:#EEEEEE"> 20170329 </h3>
 
 __Comparing text files__ <br>
