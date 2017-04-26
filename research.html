@@ -334,8 +334,13 @@ $(document).ready(function () {
 </div>
 <div id="bash" class="section level2">
 <h2>Bash</h2>
-<p>Example in bash:</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="bu">cd</span> ..</code></pre></div>
+<p>Remove a file (<code>your.file</code>) from Git’s cache</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> rm --cached your.file</code></pre></div>
+<p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and check the <code>.gitattributes</code> file for success.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> lfs track <span class="st">&quot;*.eg&quot;</span>
+<span class="kw">nano</span> .gitattributes</code></pre></div>
+<p>Check which files LFS currently tracks.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> lfs ls-files</code></pre></div>
 </div>
 </div>
 

@@ -4,6 +4,19 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170426 </h3>
+
+__leaflet__ <br>
+[Access Leaflet's JavaScript library inside of R](https://rstudio.github.io/leaflet/).
+
+__pacman__<br>
+An [R package for easy package management in R](https://cran.r-project.org/web/packages/pacman/vignettes/Introduction_to_pacman.html)—loading, unloading, _etc._
+
+<h3 style="color:#EEEEEE"> 20170414 </h3>
+
+__Popular economics papers__ <br>
+Oxford University Press provides a list of [the most popular economics papers](https://oxfordjournals.org/en/our-journals/social-sciences/most-popular-economics-papers.html) from The Quarterly Journal of Economics (QJE) and The Review of Economics Studies (REStud).
+
 <h3 style="color:#EEEEEE"> 20170410 </h3>
 
 __Unpaywall__ <br>

@@ -44,8 +44,18 @@ My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example
 
 ## Bash
 
-Example in bash:
-
+Remove a file (`your.file`) from Git's cache
 ```{bash, eval = F}
-cd ..
+git rm --cached your.file
+```
+
+Begin tracking a file extension (`.eg`) with Git's [Large File Storage](https://git-lfs.github.com/) (LFS) and check the `.gitattributes` file for success.
+```{bash, eval = F}
+git lfs track "*.eg"
+nano .gitattributes
+```
+
+Check which files LFS currently tracks.
+```{bash, eval = F}
+git lfs ls-files
 ```
