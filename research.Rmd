@@ -44,6 +44,8 @@ My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example
 
 ## Bash
 
+### Git
+
 Remove a file (`your.file`) from Git's cache
 ```{bash, eval = F}
 git rm --cached your.file
@@ -58,4 +60,16 @@ nano .gitattributes
 Check which files LFS currently tracks.
 ```{bash, eval = F}
 git lfs ls-files
+```
+
+### Pandoc
+
+Convert a Markdown (`.txt`) file to Word (`.docx`).
+```{bash, eval = F}
+pandoc -Ss example.txt -o example.docx
+```
+
+Convert a Markdown (`.txt`) file to PDF (`.pdf`).
+```{bash, eval = F}
+pandoc -Ss example.txt -o example.pdf
 ```

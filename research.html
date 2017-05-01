@@ -334,6 +334,8 @@ $(document).ready(function () {
 </div>
 <div id="bash" class="section level2">
 <h2>Bash</h2>
+<div id="git" class="section level3">
+<h3>Git</h3>
 <p>Remove a file (<code>your.file</code>) from Git’s cache</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> rm --cached your.file</code></pre></div>
 <p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and check the <code>.gitattributes</code> file for success.</p>
@@ -341,6 +343,14 @@ $(document).ready(function () {
 <span class="kw">nano</span> .gitattributes</code></pre></div>
 <p>Check which files LFS currently tracks.</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> lfs ls-files</code></pre></div>
+</div>
+<div id="pandoc" class="section level3">
+<h3>Pandoc</h3>
+<p>Convert a Markdown (<code>.txt</code>) file to Word (<code>.docx</code>).</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">pandoc</span> -Ss example.txt -o example.docx</code></pre></div>
+<p>Convert a Markdown (<code>.txt</code>) file to PDF (<code>.pdf</code>).</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">pandoc</span> -Ss example.txt -o example.pdf</code></pre></div>
+</div>
 </div>
 </div>
 
