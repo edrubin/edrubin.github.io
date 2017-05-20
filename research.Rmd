@@ -73,3 +73,10 @@ Convert a Markdown (`.txt`) file to PDF (`.pdf`).
 ```{bash, eval = F}
 pandoc -Ss example.txt -o example.pdf
 ```
+
+### Renaming
+
+Place a "1" between the first four characters and the subsequent characters in each filename in a folder.
+```{bash, eval = F}
+for i in *; do mv $i "${i:0:4}1${i:4}"; done
+```

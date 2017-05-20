@@ -4,6 +4,24 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170516 </h3>
+
+__Astro__ <br>
+[Email app(s)](https://www.helloastro.com) powered by AI. [h/t](www.offscreenmag.com)
+
+__sip__ <br>
+[Collects, organizes, and shares colors](http://sipapp.io) (and palettes). [h/t](www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20170515 </h3>
+
+__`rJava` error__ <br>
+A very helpful [guild](https://github.com/snowflakedb/dplyr-snowflakedb/wiki/Configuring-R-rJava-RJDBC-on-Mac-OS-X) to fixing errors with `rJava` on OSX.
+
+<h3 style="color:#EEEEEE"> 20170507 </h3>
+
+__TextExpander__ <br>
+[Expands custom keyboard shortcuts](https://smilesoftware.com/textexpander) into frequently-used text and pictures.
+
 <h3 style="color:#EEEEEE"> 20170430 </h3>
 
 __kobra__ <br>

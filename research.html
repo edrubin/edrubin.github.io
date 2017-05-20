@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -351,6 +351,11 @@ $(document).ready(function () {
 <p>Convert a Markdown (<code>.txt</code>) file to PDF (<code>.pdf</code>).</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">pandoc</span> -Ss example.txt -o example.pdf</code></pre></div>
 </div>
+<div id="renaming" class="section level3">
+<h3>Renaming</h3>
+<p>Place a “1” between the first four characters and the subsequent characters in each filename in a folder.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">for</span> <span class="kw">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="kw">mv</span> <span class="ot">$i</span> <span class="st">&quot;</span><span class="ot">${i:0:4}</span><span class="st">1</span><span class="ot">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></code></pre></div>
+</div>
 </div>
 </div>
 
@@ -391,7 +396,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
