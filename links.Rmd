@@ -4,6 +4,21 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170526 </h3>
+
+Two apps from Matthew Palmer:
+
+__Rocket__ <br>
+Mind-blowing (Slack-style) [emoji on your Mac](http://matthewpalmer.net/rocket/).
+
+__Vanilla__ <br>
+[Hides menu bar icons](http://matthewpalmer.net/vanilla/) on your Mac. [h/t](www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20170522 </h3>
+
+__Material Colors__ <br>
+A convenient [website](https://www.materialpalette.com/colors) for accessing the colors of the material design palette.
+
 <h3 style="color:#EEEEEE"> 20170516 </h3>
 
 __Astro__ <br>
