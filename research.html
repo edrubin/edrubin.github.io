@@ -303,7 +303,8 @@ $(document).ready(function () {
 <p><br></p>
 <div id="natural-gas-elasticities-and-heterogeneity-evidence-from-300m-bills" class="section level3">
 <h3>Natural gas elasticities and heterogeneity: Evidence from 300M+ bills</h3>
-<p>In this paper, I estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. I estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity to efficient and progressive policy.</p>
+<p>with <a href="http://www.auffhammer.com">Maximilian Auffhammer</a></p>
+<p>In this paper, we estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. We estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity for efficient and progressive policy.</p>
 <p><br></p>
 </div>
 <div id="mile-high-quandaries-evidence-from-denver-that-marijuana-legalization-may-increase-drug-arrests" class="section level3">
@@ -337,24 +338,24 @@ $(document).ready(function () {
 <div id="git" class="section level3">
 <h3>Git</h3>
 <p>Remove a file (<code>your.file</code>) from Git’s cache</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> rm --cached your.file</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> rm --cached your.file</code></pre></div>
 <p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and check the <code>.gitattributes</code> file for success.</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> lfs track <span class="st">&quot;*.eg&quot;</span>
-<span class="kw">nano</span> .gitattributes</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span>
+<span class="fu">nano</span> .gitattributes</code></pre></div>
 <p>Check which files LFS currently tracks.</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">git</span> lfs ls-files</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> lfs ls-files</code></pre></div>
 </div>
 <div id="pandoc" class="section level3">
 <h3>Pandoc</h3>
 <p>Convert a Markdown (<code>.txt</code>) file to Word (<code>.docx</code>).</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">pandoc</span> -Ss example.txt -o example.docx</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">pandoc</span> -Ss example.txt -o example.docx</code></pre></div>
 <p>Convert a Markdown (<code>.txt</code>) file to PDF (<code>.pdf</code>).</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">pandoc</span> -Ss example.txt -o example.pdf</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">pandoc</span> -Ss example.txt -o example.pdf</code></pre></div>
 </div>
 <div id="renaming" class="section level3">
 <h3>Renaming</h3>
 <p>Place a “1” between the first four characters and the subsequent characters in each filename in a folder.</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">for</span> <span class="kw">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="kw">mv</span> <span class="ot">$i</span> <span class="st">&quot;</span><span class="ot">${i:0:4}</span><span class="st">1</span><span class="ot">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">for</span> <span class="ex">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i:0:4}</span><span class="st">1</span><span class="va">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></code></pre></div>
 </div>
 </div>
 </div>

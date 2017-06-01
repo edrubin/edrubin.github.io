@@ -12,7 +12,9 @@ title: "Research"
 
 ### Natural gas elasticities and heterogeneity: Evidence from 300M+ bills
 
-In this paper, I estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. I estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity to efficient and progressive policy.
+with [Maximilian Auffhammer](http://www.auffhammer.com)
+
+In this paper, we estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. We estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity for efficient and progressive policy.
 
 <br>
 

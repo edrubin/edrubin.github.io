@@ -1,0 +1,50 @@
+
+# Setup ----
+# Options
+options(stringsAsFactors = F)
+# Load packages
+library(pacman)
+p_load(rgdal, broom, rgeos, maptools, rmapshaper,
+  magrittr, lubridate, ggplot2, viridis)
+
+# Set working directory
+setwd("/Users/edwardarubin/Dropbox/Research/")
+setwd("MyProjects/NaturalGas/DataSpatial/cb_2015_us_state_20m")
+
+# Get shapefile ----
+# Download/load US shapefile
+# TODO
+us_shp <- readOGR(dsn = ".", layer = "cb_2015_us_state_20m")
+# Remove Alaska, Hawaii, and Puerto Rico
+us_shp %<>% subset(!(STUSPS %in% c("AK", "HI", "PR")))
+
+# Shapefile work ----
+# Simplify the shapefile with 'ms_simplify', keeping 5%
+us05_shp <- ms_simplify(us_shp, keep = 0.05, keep_shapes = T)
+# Simplify the shapefile with 'ms_simplify', keeping 10%
+us10_shp <- ms_simplify(us_shp, keep = 0.10, keep_shapes = T)
+# Simplify the shapefile with 'ms_simplify', keeping 25%
+us25_shp <- ms_simplify(us_shp, keep = 0.25, keep_shapes = T)
+
+# Convert shapefiles to dataframes ----
+# 'tidy' each of the shapefiles for plotting with 'ggplot'
+us05_dt <- tidy(us05_shp, region = "GEOID")
+us10_dt <- tidy(us10_shp, region = "GEOID")
+us25_dt <- tidy(us25_shp, region = "GEOID")
+us_dt <- tidy(us_shp, region = "GEOID")
+# Compare the dimensions of each tidied shapefile
+lapply(
+  X = list(us05_dt, us10_dt, us25_dt, us_dt),
+  FUN = dim)
+
+# Plot ----
+ggplot() +
+  geom_path(data = us_dt, color = viridis(4)[1],
+    aes(x = long, y = lat, group = group)) +
+  geom_path(data = us25_dt, color = viridis(4)[2],
+    aes(x = long, y = lat, group = group)) +
+  geom_path(data = us10_dt, color = viridis(4)[3],
+    aes(x = long, y = lat, group = group)) +
+  geom_path(data = us05_dt, color = viridis(4)[4],
+    aes(x = long, y = lat, group = group)) +
+  theme_minimal()
