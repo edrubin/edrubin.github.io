@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -327,6 +327,9 @@ div.tocify {
     <li>
       <a href="cv.html">CV</a>
     </li>
+    <li>
+      <a href="contact.html">Contact</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -406,30 +409,12 @@ div.tocify {
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Options</span>
 <span class="kw">options</span>(<span class="dt">stringsAsFactors =</span> F)
 <span class="co"># Packages</span>
-<span class="kw">library</span>(data.table)</code></pre></div>
-<pre><code>## data.table 1.10.0</code></pre>
-<pre><code>## **********
-## This installation of data.table has not detected OpenMP support. It will still work but in single-threaded mode.
-## **********</code></pre>
-<pre><code>##   The fastest way to learn (by data.table authors): https://www.datacamp.com/courses/data-analysis-the-data-table-way</code></pre>
-<pre><code>##   Documentation: ?data.table, example(data.table) and browseVignettes(&quot;data.table&quot;)</code></pre>
-<pre><code>##   Release notes, videos and slides: http://r-datatable.com</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(magrittr)
+<span class="kw">library</span>(data.table)
+<span class="kw">library</span>(magrittr)
 <span class="co"># Create a data.table</span>
 tmp &lt;-<span class="st"> </span><span class="kw">data.table</span>(<span class="dt">x =</span> <span class="dv">1</span>:<span class="dv">10</span>)
-tmp[, y :<span class="er">=</span><span class="st"> </span>x^<span class="dv">2</span>]</code></pre></div>
-<pre><code>##      x   y
-##  1:  1   1
-##  2:  2   4
-##  3:  3   9
-##  4:  4  16
-##  5:  5  25
-##  6:  6  36
-##  7:  7  49
-##  8:  8  64
-##  9:  9  81
-## 10: 10 100</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Output</span>
+tmp[, y :<span class="er">=</span><span class="st"> </span>x^<span class="dv">2</span>]
+<span class="co"># Output</span>
 tmp %&gt;%<span class="st"> </span><span class="kw">summary</span>()</code></pre></div>
 <pre><code>##        x               y         
 ##  Min.   : 1.00   Min.   :  1.00  
@@ -504,7 +489,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

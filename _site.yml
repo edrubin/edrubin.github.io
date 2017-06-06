@@ -18,6 +18,8 @@ navbar:
           href: bio.html
         - text: "CV"
           href: cv.html
+        - text: "Contact"
+          href: contact.html
     - text: "More"
       menu:
         - text: "Technology"

@@ -63,6 +63,11 @@ __STAT 380: Statistics and Applications__
 
 ## Presentations
 
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+
+- AERE Annual Summer Conference
+- June 2017
+
 __Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills__
 
 - 22nd Annual POWER Conference on Energy Research and Policy

@@ -11,7 +11,7 @@
 
 
 
-<title>Bio</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -250,28 +250,48 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Bio</h1>
 
 </div>
 
 
-<p>My name is Ed (officially Edward Anton Rubin), and I live in Berkeley, California with my amazing wife, <a href="http://www.yourwritinghelper.com">Shelley</a>, and our awesome kids, <a href="http://teamrubin.us">Theo and Clara</a>. I’m currently a doctoral candidate in the Department of Agricultural and Resource Economics at UC Berkeley. Before coming to Berkeley, Shelley and I lived in the great town of Lincoln, Nebraska.</p>
-<p>When I’m not in school, I enjoy exploring both rural and urban places. I love data, maps, Truth, Beauty, and food.</p>
-<p>Other pages on this website contain <a href="likes.html">random things I like</a>, <a href="links.html">useful/interesting links I’ve found</a>, <a href="researchinterests">my research interests</a>, and some of <a href="https://instagram.com/edwardarubin/">my recent photography</a>.</p>
-<p><br></p>
-<div class="figure">
-<img src="theoAndEd.JPG" />
-
+<div id="setup--" class="section level1">
+<h1>Setup —-</h1>
 </div>
-<p><br></p>
-<div id="contact" class="section level2">
-<h2>Contact</h2>
-<ul>
-<li><strong>email:</strong> edward <code>ampersat</code> berkeley <code>period</code> edu</li>
-<li><strong>twitter:</strong> <a href="https://twitter.com/edrubin">@edrubin</a></li>
-<li><strong>phone:</strong> (4<code>oh</code>2) 3<code>oh</code>5-85<code>six</code>3</li>
-<li><strong>instagram:</strong> <a href="https://instagram.com/edwardarubin/">@edwardarubin</a></li>
-</ul>
+<div id="options" class="section level1">
+<h1>Options</h1>
+<p>options(stringsAsFactors = F) # Load packages library(pacman) p_load(rgdal, broom, rgeos, maptools, rmapshaper, magrittr, lubridate, ggplot2, viridis)</p>
+</div>
+<div id="set-working-directory" class="section level1">
+<h1>Set working directory</h1>
+<p>setwd(“/Users/edwardarubin/Dropbox/Research/”) setwd(“MyProjects/NaturalGas/DataSpatial/cb_2015_us_state_20m”)</p>
+</div>
+<div id="get-shapefile--" class="section level1">
+<h1>Get shapefile —-</h1>
+</div>
+<div id="downloadload-us-shapefile" class="section level1">
+<h1>Download/load US shapefile</h1>
+</div>
+<div id="todo" class="section level1">
+<h1>TODO</h1>
+<p>us_shp &lt;- readOGR(dsn = “.”, layer = “cb_2015_us_state_20m”) # Remove Alaska, Hawaii, and Puerto Rico us_shp %&lt;&gt;% subset(!(STUSPS %in% c(“AK”, “HI”, “PR”)))</p>
+</div>
+<div id="shapefile-work--" class="section level1">
+<h1>Shapefile work —-</h1>
+</div>
+<div id="simplify-the-shapefile-with-ms_simplify-keeping-5" class="section level1">
+<h1>Simplify the shapefile with ‘ms_simplify’, keeping 5%</h1>
+<p>us05_shp &lt;- ms_simplify(us_shp, keep = 0.05, keep_shapes = T) # Simplify the shapefile with ‘ms_simplify’, keeping 10% us10_shp &lt;- ms_simplify(us_shp, keep = 0.10, keep_shapes = T) # Simplify the shapefile with ‘ms_simplify’, keeping 25% us25_shp &lt;- ms_simplify(us_shp, keep = 0.25, keep_shapes = T)</p>
+</div>
+<div id="convert-shapefiles-to-dataframes--" class="section level1">
+<h1>Convert shapefiles to dataframes —-</h1>
+</div>
+<div id="tidy-each-of-the-shapefiles-for-plotting-with-ggplot" class="section level1">
+<h1>‘tidy’ each of the shapefiles for plotting with ‘ggplot’</h1>
+<p>us05_dt &lt;- tidy(us05_shp, region = “GEOID”) us10_dt &lt;- tidy(us10_shp, region = “GEOID”) us25_dt &lt;- tidy(us25_shp, region = “GEOID”) us_dt &lt;- tidy(us_shp, region = “GEOID”) # Compare the dimensions of each tidied shapefile lapply( X = list(us05_dt, us10_dt, us25_dt, us_dt), FUN = dim)</p>
+</div>
+<div id="plot--" class="section level1">
+<h1>Plot —-</h1>
+<p>ggplot() + geom_path(data = us_dt, color = viridis(4)[1], aes(x = long, y = lat, group = group)) + geom_path(data = us25_dt, color = viridis(4)[2], aes(x = long, y = lat, group = group)) + geom_path(data = us10_dt, color = viridis(4)[3], aes(x = long, y = lat, group = group)) + geom_path(data = us05_dt, color = viridis(4)[4], aes(x = long, y = lat, group = group)) + theme_minimal()</p>
 </div>
 
 <!-- <?php include_once("analyticstracking.php") ?> -->
