@@ -4,6 +4,11 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170608 </h3>
+
+__Tabulizer__ <br>
+[Extract tables from PDFs](https://github.com/ropensci/tabulizer) using R.
+
 <h3 style="color:#EEEEEE"> 20170606 </h3>
 
 __10 Minute Mail__ <br>
@@ -281,7 +286,7 @@ A [repository of historical borders](http://www.thenmap.net/).
 <h3 style="color:#EEEEEE"> 20161007 </h3>
 
 __Geocodio__<br>
-(Reasonably) accurate, affordable, and unrestricted [online geocoding](geocod.io/) (forward/reverse and batch/API).
+(Reasonably) accurate, affordable, and unrestricted [online geocoding](geocod.io/) (forward/reverse and batch/API). Connect with R through [`rgeocodio`](https://github.com/hrbrmstr/rgeocodio).
 
 <h3 style="color:#EEEEEE"> 20161006 </h3>
 
