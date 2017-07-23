@@ -25,7 +25,7 @@ __Natural gas elasticities and consumer behavior: Evidence from 300M+ bills__
 
 - Ed Rubin and Max Auffhammer
 
-__(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests__
+__Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
 
 - Ed Rubin
 
@@ -62,6 +62,11 @@ __STAT 380: Statistics and Applications__
 <br>
 
 ## Presentations
+
+__Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
+
+- UC Berkeley, Summer Research Seminar
+- July 2017
 
 __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
 
@@ -127,6 +132,7 @@ __Linguistic__
 ## Contact
 
 - __email__ edward `ampersat` berkeley `period` edu
+- __website__ [edrub.in](https://edrub.in)
 - __twitter__ [\@edrubin](https://twitter.com/edrubin)
 - __phone__ (4`oh`2) 3`oh`5-85`six`3
 - __instagram__ [\@edwardarubin](https://instagram.com/edwardarubin/)

@@ -4,6 +4,19 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170722 </h3>
+
+__everydayCheck__ <br>
+A simple, pretty [habit tracker](https://everydaycheck.com/). [h/t](https://www.offscreenmag.com/)
+
+__Orai__ <br>
+AI-powered [feedback for your speeches](https://www.oraiapp.com/?). [h/t](https://www.offscreenmag.com/)
+
+<h3 style="color:#EEEEEE"> 20170713 </h3>
+
+__Velox__ <br>
+[Fast raster manipulation](https://cran.r-project.org/web/packages/velox/README.html) in R.
+
 <h3 style="color:#EEEEEE"> 20170608 </h3>
 
 __Tabulizer__ <br>
