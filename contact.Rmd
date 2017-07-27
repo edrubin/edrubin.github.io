@@ -2,6 +2,26 @@
 title: "Contact"
 ---
 
+```{R, echo = F}
+pacman::p_load(leaflet)
+greenLeafIcon <- makeIcon(
+  iconUrl = "http://leafletjs.com/examples/custom-icons/leaf-green.png",
+  iconWidth = 38, iconHeight = 95,
+  iconAnchorX = 22, iconAnchorY = 94,
+  shadowUrl = "http://leafletjs.com/examples/custom-icons/leaf-shadow.png",
+  shadowWidth = 50, shadowHeight = 64,
+  shadowAnchorX = 4, shadowAnchorY = 62
+  )
+leaflet() %>%
+  addMarkers(lng = -122.2623, lat = 37.8735, popup = "Me",
+    icon = greenLeafIcon) %>%
+  setView(lng = -122.3823, lat = 37.8405, zoom = 11) %>%
+  addProviderTiles(providers$CartoDB.Positron)
+  # addProviderTiles(providers$OpenWeatherMap.Clouds)
+  # addProviderTiles(providers$Mapbox.Decimal)
+```
+
+<br>
 
 __Email:__ edward `ampersat` berkeley `period` edu
 
