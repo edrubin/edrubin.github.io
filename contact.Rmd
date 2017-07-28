@@ -2,6 +2,18 @@
 title: "Contact"
 ---
 
+<br>
+
+__Email:__ edward `ampersat` berkeley `period` edu
+
+__Phone:__ (4`oh`2) 3`oh`5-85`six`3
+
+__Twitter:__ [\@edrubin](https://twitter.com/edrubin)
+
+__Instagram:__ [\@edwardarubin](https://instagram.com/edwardarubin/)
+
+<br>
+
 ```{R, echo = F}
 pacman::p_load(leaflet)
 greenLeafIcon <- makeIcon(
@@ -20,13 +32,3 @@ leaflet() %>%
   # addProviderTiles(providers$OpenWeatherMap.Clouds)
   # addProviderTiles(providers$Mapbox.Decimal)
 ```
-
-<br>
-
-__Email:__ edward `ampersat` berkeley `period` edu
-
-__Phone:__ (4`oh`2) 3`oh`5-85`six`3
-
-__Twitter:__ [\@edrubin](https://twitter.com/edrubin)
-
-__Instagram:__ [\@edwardarubin](https://instagram.com/edwardarubin/)
