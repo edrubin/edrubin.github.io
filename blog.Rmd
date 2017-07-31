@@ -6,7 +6,13 @@ Economics, statistics, public policy, quantitative tools.
 
 <br>
 
-[Updating intuition on attenuation bias:](blog20170330.html) I replicate and discuss a recent paper by Loken and Gelman. The paper demonstrates that our typical statistical/econometric intuition regarding measurement error may not be quite correct. 
+[Counting lines of R code:](blog20170730.html) A quick script to count all of th lines of `R` code that you have written.
+<br>
+Sunday, 30 July 2017
+
+<br>
+
+[Updating intuition on attenuation bias:](blog20170330.html) I replicate and discuss a recent paper by Loken and Gelman. The paper demonstrates that our typical statistical/econometric intuition regarding measurement error may not be quite correct.
 <br>
 Thursday, 30 March 2017
 

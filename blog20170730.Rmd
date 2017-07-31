@@ -1,0 +1,57 @@
+---
+title: "Counting lines of R code"
+output:
+  html_document:
+    toc: true
+    number_sections: false
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+Sunday, 30 July 2017
+
+<br>
+
+The other day, a friend and I were wondering how many lines of code we had written.^[Navel gazing, anyone?] Really, the conversation started with me wondering if I had hit a million lines of R code yet.^[I probably have a few years left, depending on the accuracy of this quick script.] We proposed that the R code necessary for a quick-and-dirty calculation for the number of lines-of-code-written would be fairly short. We were correct!
+
+<br>
+
+## The short script
+
+After loading the requisite packages, the following script
+
+1. Finds all files contained in the directory `Users` and in all of its subdirectories,
+2. Takes the subset of files that end with `.R` (R scripts),
+3. Counts the number of lines in each of the `.R` scripts,
+4. Sums the number of lines from each of the `.R` scripts.
+
+
+```{R the script, message = F, warning = F, cache = T}
+# Load two packages
+library(dplyr)
+library(stringr)
+# Count your lines of R code
+list.files(path = "/Users/", recursive = T, full.names = T) %>%
+  str_subset("[.][R]$") %>%
+  sapply(function(x) x %>% readLines() %>% length()) %>%
+  sum()
+```
+
+Boom! Not bad, but also not a million. Yet.
+
+__Note__: The `list.files()` part of the script takes some time: it is essentially finding all of the files on your computer. In my case, the `list.files()` call on my `/Users/` directory returns approximately 3.2 million (full) filenames.
+
+<br>
+
+## The issues
+
+The two main problems with this script result from updates/version control:
+
+1. If you use "good" file management and version control (_e.g._ `git`), then this script will only count the number of lines of code in the most recent version of each of your files. _E.g._, If you have re-written a file 10,000,000 times, you'll miss 9,999,999 of the versions (and their lines of code) in your tally. You could probably fix this issue by grabbing the version histories of your `R` files from Github and then finding the unique lines for a given file.
+2. If you copy files to back them up—or if you change one line of a file and then save it with a new name (probably the opposite of "good" file management)—then you are going to over count by a lot.
+3. We miss lines from deleted files.
+
+In my case, I think issue (1) is my biggest problem, but I'll leave the remedy for future Ed.
+
+Enjoy!
