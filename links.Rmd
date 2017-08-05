@@ -4,6 +4,16 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170804 </h3>
+
+__rmapshaper__ <br>
+R package for ["topologically-aware multi-polygon simplification" (for shapefiles)](https://cran.r-project.org/web/packages/rmapshaper/vignettes/rmapshaper.html). Related: [mapshaper.org](http://mapshaper.org)
+
+<h3 style="color:#EEEEEE"> 20170803 </h3>
+
+__Manually re-index OSX Spotlight__ <br>
+A helpful [guide](https://www.scrubly.com/blog/how-to-mac/manually-reindex-os-x-spotlight/). _Hint_: It's really just `sudo mdutil -E /`.
+
 <h3 style="color:#EEEEEE"> 20170727 </h3>
 
 __Colibri__ <br>
