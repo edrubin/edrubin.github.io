@@ -6,6 +6,12 @@ Economics, statistics, public policy, quantitative tools.
 
 <br>
 
+[Efficiently mapping with `ggplot2`:](blog20170806.html) Example of how the R package `rmapshaper` can reduce the time and memory required to make (pretty) maps from shapefiles.
+<br>
+Sunday, 08 August 2017
+
+<br>
+
 [Counting lines of R code:](blog20170730.html) A quick script to count all of th lines of `R` code that you have written.
 <br>
 Sunday, 30 July 2017
@@ -18,6 +24,6 @@ Thursday, 30 March 2017
 
 <br>
 
-[When R environments matter:](blog20161210.html) An common-use example of when R environments matter and the errors that can occur when we ignore the environment.
+[When R environments matter:](blog20161210.html) A common-use example of when R environments matter and the errors that can occur when we ignore the environment.
 <br>
 Saturday, 10 December 2016
