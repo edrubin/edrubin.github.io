@@ -1,3 +1,26 @@
+---
+title: "Efficiently mapping with `ggplot2`"
+output:
+  html_document:
+    toc: true
+    number_sections: false
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+---
+
+Sunday, 06 August 2017
+
+<br>
+
+## Motivation
+
+If you have used R to make maps—particularly `ggplot2`—then you have likely noticed R can really slow down when it comes to printing larger shapefiles (be it printing to screen or saving to a file). I recently came across an excellent tool for speeding up this process substantially: the R package `rmapshaper`, which is based upon the [mapshaper.org](http://mapshaper.org) website.
+
+## Shapefiles
+
+If you are not super familiar with these _shapefile_ objects, the main thing to keep in mind is that a shapefile is simply a collection of points. If you have a shapefile of US counties, then the individual points jointly compose polygons. The polygons jointly make up the countries. The order and the grouping of these points matter. You can also have simpler shapefiles that represent lines or point, rather than polygons. If you need/want to learn more, there are many online resources. You can also check out my notes from a course I GSIed at Berkeley.
+
 
 # Setup ----
 # Options

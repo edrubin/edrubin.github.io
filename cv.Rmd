@@ -20,28 +20,24 @@ B.S. Mathematics, University of Nebraska-Lincoln, 2007
 
 ## Research in Progress
 
-__Natural gas elasticities and consumer behavior: Evidence from 300M+ bills__
-<br> _a.k.a._ Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills
-
-- Ed Rubin and Max Auffhammer
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<!-- <br> _a.k.a._ Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills -->
+<br> Maximilian Auffhammer and Ed Rubin
 
 __Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
-
-- Ed Rubin
+<br> Ed Rubin
 
 __Statistical Modeling and Hydrology in the High Plains Aquifer__
-
-- Ed Rubin, Richard Perrin, and Lilyan Fulginiti
+<br> Ed Rubin, Richard Perrin, and Lilyan Fulginiti
 
 <!-- __Illicit Crops: Strategic Interdependence among Farmers, Cartels, and Governments__
-
-- Ed Rubin -->
+<br> Ed Rubin -->
 
 <br>
 
 ## Teaching
 
-__ARE 212: Econometrics - Multiple Equation Estimation__
+__[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 
 - University of California, Berkeley
 - Spring 2017
@@ -61,47 +57,47 @@ __STAT 380: Statistics and Applications__
 
 <br>
 
+## Honors, Awards, and Fellowships
+
+Giannini Foundation Mini-Grant, 2017–2018
+
+UC Berkeley ARE Summer Grant, 2016
+
+GAANN Fellowship 2013–2015
+
+<br>
+
 ## Presentations
 
-__Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
-
-- UC Berkeley, Summer Research Seminar
-- July 2017
+<!-- __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> Camp Resources, August 2017 -->
 
 __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> AAEA Annual Meeting, August 2017
 
-- AERE Annual Summer Conference
-- June 2017
+__Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
+<br> UC Berkeley, Summer Research Seminar, July 2017
+
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> AERE Annual Summer Conference, June 2017
 
 __Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills__
-
-- 22nd Annual POWER Conference on Energy Research and Policy
-- March 2017
+<br> 22nd Annual POWER Conference on Energy Research and Policy, March 2017
 
 __Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills__
-
-- UC Berkeley, Environmental and Resource Economics Seminar
-- November 2016
+<br> UC Berkeley, Environmental and Resource Economics Seminar, November 2016
 
 __(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests__
-
-- UC Berkeley, Environmental and Resource Economics Seminar
-- April 2015
+<br> UC Berkeley, Environmental and Resource Economics Seminar, April 2015
 
 __Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)__
-
-- University of Nebraska-Lincoln, Statistics Departmental Seminar
-- March 2013
+<br> University of Nebraska-Lincoln, Statistics Departmental Seminar, March 2013
 
 __Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer__
-
-- International Conference of Agricultural Economists, poster
-- August 2012
+<br> International Conference of Agricultural Economists, poster, August 2012
 
 __Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
-
-- Midwest Fish and Wildlife Conference, poster
-- December 2006
+<br> Midwest Fish and Wildlife Conference, poster, December 2006
 
 <br>
 
