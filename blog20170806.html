@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Efficiently mapping with ggplot2</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ed Rubin</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="bio.html">Bio</a>
+    </li>
+    <li>
+      <a href="cv.html">CV</a>
+    </li>
+    <li>
+      <a href="contact.html">Contact</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    More
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Technology</li>
+    <li>
+      <a href="links.html">Useful Links</a>
+    </li>
+    <li>
+      <a href="tools.html">Favorite Tools</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="advice.html">Advice</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="consulting.html">Consulting</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="question.html">
+    <span class="fa fa-question fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:edwardarubin@gmail.com">
+    <span class="fa fa-envelope-o fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/edrubin">
+    <span class="fa fa-github-square fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://www.instagram.com/edwardarubin">
+    <span class="fa fa-instagram fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Efficiently mapping with <code>ggplot2</code></h1>
+
+</div>
+
+
+<p>Sunday, 06 August 2017</p>
+<p><br></p>
+<div id="motivation" class="section level2">
+<h2>Motivation</h2>
+<p>If you have used R and <code>ggplot2</code> to make maps, then you have likely noticed R can really slow down when it comes to printing larger shapefiles (be it printing to screen or saving to a file). The file sizes can also get rather large. I recently came across an excellent tool for speeding up this process substantially: the R package <code>rmapshaper</code>, which is based upon the <a href="http://mapshaper.org">mapshaper.org</a> website.</p>
+<p><br></p>
+</div>
+<div id="shapefiles" class="section level2">
+<h2>Shapefiles</h2>
+<p>If you are not super familiar with these <em>shapefile</em> objects, the main thing to keep in mind is that a shapefile is simply a collection of points. If you have a shapefile of US counties, then the individual points jointly compose polygons. The polygons jointly make up the countries. The order and the grouping of these points matter. You can also have simpler shapefiles that represent lines or point, rather than polygons. If you need/want to learn more, there are many online resources. You can also check out <a href="http://edrub.in/ARE212/section12.html">my notes from a section I TA-ed at Berkeley</a>.</p>
+<p><br></p>
+</div>
+<div id="playing-with-shapefiles" class="section level2">
+<h2>Playing with shapefiles</h2>
+<p>Alright, let’s dive in.</p>
+<div id="setup" class="section level3">
+<h3>Setup</h3>
+<p>First, let’s set up. I’m going to load a bunch of packages that I will eventually use for loading the shapefile (<code>rgdal</code>), manipulating the spatial data (<code>broom</code> and <code>rmapshaper</code>), working with the point data (<code>data.table</code>), and plotting (<code>ggplot2</code> and <code>viridis</code>). I’m also going to set some options and define directories.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Options</span>
+<span class="kw">options</span>(<span class="dt">stringsAsFactors =</span> F)
+<span class="co"># Load packages</span>
+<span class="kw">library</span>(pacman)
+<span class="kw">p_load</span>(rgdal, broom, rgeos, maptools, rmapshaper, data.table,
+  magrittr, lubridate, ggplot2, viridis)
+<span class="co"># Define the data directories</span>
+dir_research &lt;-<span class="st"> &quot;/Users/edwardarubin/Dropbox/Research/&quot;</span>
+dir_spatial &lt;-<span class="st"> </span><span class="kw">paste0</span>(dir_research, <span class="st">&quot;MyProjects/NaturalGas/DataSpatial/&quot;</span>)
+dir_shp &lt;-<span class="st"> </span><span class="kw">paste0</span>(dir_spatial, <span class="st">&quot;gz_2010_us_050_00_500k&quot;</span>)</code></pre></div>
+<p>The directory <code>dir_shp</code> points to a folder that contains the Census’s definitions of US counties as of 2010. You can download the original shapefile from the <a href="https://www2.census.gov/geo/tiger/GENZ2010/">Census</a>.</p>
+</div>
+<div id="loadsubset" class="section level3">
+<h3>Load/subset</h3>
+<p>Let’s load the shapefile.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Download/load US shapefile</span>
+<span class="co"># TODO</span>
+us_shp &lt;-<span class="st"> </span><span class="kw">readOGR</span>(<span class="dt">dsn =</span> dir_shp, <span class="dt">layer =</span> <span class="st">&quot;gz_2010_us_050_00_500k&quot;</span>)</code></pre></div>
+<pre><code>## OGR data source with driver: ESRI Shapefile 
+## Source: &quot;/Users/edwardarubin/Dropbox/Research/MyProjects/NaturalGas/DataSpatial/gz_2010_us_050_00_500k&quot;, layer: &quot;gz_2010_us_050_00_500k&quot;
+## with 3221 features
+## It has 6 fields</code></pre>
+<p>To improve visualization, I am going to drop Alaska, Hawaii, and Puerto Rice using <code>subset()</code>.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Remove Alaska, Hawaii, and Puerto Rico</span>
+us_shp %&lt;&gt;%<span class="st"> </span><span class="kw">subset</span>(!(STATE %in%<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;02&quot;</span>, <span class="st">&quot;15&quot;</span>, <span class="st">&quot;72&quot;</span>)))</code></pre></div>
+</div>
+<div id="simplify" class="section level3">
+<h3>Simplify</h3>
+<p>Now for the fireworks.</p>
+<p>The package <code>rmapshaper</code> provides some great tools for working with spatial data—we’re currently interested in <code>ms_simplify()</code>. The function’s description is fairly sparse, but it gives the general idea: <code>ms_simplify()</code> “[u]ses mapshaper to simplify polygons.” What does that mean? Put simply: the function is going to (intelligently) sample the points from the polygons that make up a shapefile.</p>
+<p>Why do we want to sample from the points? Some shapefiles offer resolutions much higher than you need while creating figures for papers/slides/print-outs. You probably want the high-resolution shapefiles when performing spatial analyses with the shapefiles, but when you are making pretty maps, you can save yourself a lot of time and memory by simplifying your shapefiles.</p>
+<p>You might also wonder why we need a special function for sampling points, when base R has the capability to sample. <code>rmapshaper</code> utilizes <code>mapshaper</code>, which attempts to intelligently sample the points from the polygons so that the polygons’ shapes are fairly well preserved even with lower resolution.</p>
+<p>The <code>ms_simplify()</code> function accepts several arguments. I am going to focus on the <code>keep</code> argument, which tells the function which percentage of the points we would like to keep. I’m going to try 1 percent, 5 percent, 10 percent, and 25 percent.</p>
+<p>Time to sample.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 1%</span>
+us01_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.01</span>, <span class="dt">keep_shapes =</span> T)
+<span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 5%</span>
+us05_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.05</span>, <span class="dt">keep_shapes =</span> T)
+<span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 10%</span>
+us10_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.10</span>, <span class="dt">keep_shapes =</span> T)
+<span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 25%</span>
+us25_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.25</span>, <span class="dt">keep_shapes =</span> T)</code></pre></div>
+</div>
+<div id="convert-to-data-table" class="section level3">
+<h3>Convert to data table</h3>
+<p>Now that we have our sampled shapefiles, let’s convert them to data tables and then plot them with <code>ggplot2</code>. This extra step of converting the shapefiles to data tables (or, more generally, data frames) is necessary if you want to use <code>ggplot()</code>. If you want to stick with <code>plot()</code>, then you don’t need to convert.</p>
+<p>For the task of converting from shapefile to data table, I am going to use the <code>tidy()</code> function from the <code>broom</code> package.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Convert shapefiles to data tables</span>
+<span class="co"># &#39;tidy&#39; each of the shapefiles for plotting with &#39;ggplot&#39;</span>
+us01_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us01_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
+us05_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us05_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
+us10_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us10_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
+us25_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us25_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
+us_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()</code></pre></div>
+</div>
+<div id="compare-numbers" class="section level3">
+<h3>Compare numbers</h3>
+<p>Now, let’s compare the number of points in each of the data tables, starting with the 1-percent sample and moving all the way up to the full shapefile.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Compare the dimensions of each tidied shapefile</span>
+<span class="kw">lapply</span>(
+  <span class="dt">X =</span> <span class="kw">list</span>(us01_dt, us05_dt, us10_dt, us25_dt, us_dt),
+  <span class="dt">FUN =</span> dim)</code></pre></div>
+<pre><code>## [[1]]
+## [1] 49436     7
+## 
+## [[2]]
+## [1] 78537     7
+## 
+## [[3]]
+## [1] 115177      7
+## 
+## [[4]]
+## [1] 229093      7
+## 
+## [[5]]
+## [1] 794693      7</code></pre>
+<p>Notice that the 1-percent sample actually has about 6 percent of the points of the original sample. Why? Likely due to the fact that we asked <code>ms_simplify()</code> to preserve shapes (<code>keep_shapes = T</code>), which attempted to keep small polygons from disappearing.</p>
+</div>
+<div id="compare-graphs" class="section level3">
+<h3>Compare graphs</h3>
+<p>Finally, let’s compare the sampling results for the one-percent sample and the full sample. For the sake of visualization, I am going to start by focusing on the great state of Nebraska (FIPS code 31).</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
+<span class="kw">ggplot</span>() +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) +
+<span class="st">  </span><span class="kw">theme_minimal</span>() +
+<span class="st">  </span><span class="kw">theme</span>(
+    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
+    ) +
+<span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="dv">41</span>)</code></pre></div>
+<p><img src="blog20170806_files/figure-html/plot%20ne-1.png" width="672" /></p>
+<p>Not bad, eh? The 1-percent sample (plotted on top in yellow) cuts a few corners, but on the whole, it’s quite accurate relative to the full shapefile (the bottom layer in dark blue)—you definitely get the picture, which is probably the point of visualization. This use case (counties in Nebraska) may be particularly nice for the function, since many counties in Western-ish states like Nebraska are quite rectangular. You can see the 1-percent sample does a bit worse around Nebraska’s eastern edge, where the border is defined by the meandering Missouri River, rather than latitudes and longitudes.</p>
+<p>Now let’s zoom out to the whole country.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
+<span class="kw">ggplot</span>() +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) +
+<span class="st">  </span><span class="kw">theme_minimal</span>() +
+<span class="st">  </span><span class="kw">theme</span>(
+    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
+    ) +
+<span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
+<p><img src="blog20170806_files/figure-html/plot%20us%201-1.png" width="672" /></p>
+<p>Still pretty pretty good! Keep in mind, this comparison is between a 1-percent sample and the full sample. The 1-percent sample is missing some islands and struggles a bit on peninsulas/coasts, but overall, I’d say it is pretty good.</p>
+<p>Before we quit, let’s check out the other samples.</p>
+<p>First, the five-percent sample.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
+<span class="kw">ggplot</span>() +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us05_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 5-percent sample and the full shapefile&quot;</span>) +
+<span class="st">  </span><span class="kw">theme_minimal</span>() +
+<span class="st">  </span><span class="kw">theme</span>(
+    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
+    ) +
+<span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
+<p><img src="blog20170806_files/figure-html/plot%20us%205-1.png" width="672" /></p>
+<p>Now, the ten-percent sample.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
+<span class="kw">ggplot</span>() +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us10_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 10-percent sample and the full shapefile&quot;</span>) +
+<span class="st">  </span><span class="kw">theme_minimal</span>() +
+<span class="st">  </span><span class="kw">theme</span>(
+    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
+    ) +
+<span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
+<p><img src="blog20170806_files/figure-html/plot%20us%2010-1.png" width="672" /></p>
+<p>Finally, the twenty-five percent sample.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
+<span class="kw">ggplot</span>() +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us25_dt,
+    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 25-percent sample and the full shapefile&quot;</span>) +
+<span class="st">  </span><span class="kw">theme_minimal</span>() +
+<span class="st">  </span><span class="kw">theme</span>(
+    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
+    ) +
+<span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
+<p><img src="blog20170806_files/figure-html/plot%20us%2025-1.png" width="672" /></p>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>The 1-percent sample surprised me in how well it performed, but again, this result is (1) a function of the simplicity of the original polygons and (2) the original shapefile’s resolution. The 5-percent and 10-percent samples do better (unsurprisingly), and the 25-percent sample is essentially indistinguishable from the full shapefile.</p>
+<p>Finally, while I’ve mainly used this sampling to make maps, I imagine there are people using it for many other applications.</p>
+<p>Enjoy!</p>
+</div>
+
+<!-- <?php include_once("analyticstracking.php") ?> -->
+
+<!-- For Google Analytics: -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88887510-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<!-- <script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 8929129;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script> -->
+<!-- End of LiveChat code -->
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
