@@ -49,9 +49,8 @@ __Note:__ Numbers above are allegorical.
 - LastPass
 - Dropbox
 - Transmit (ftp)
-- RescueTime
 - ActivityTimer
-- Boxy
+- Canary (email)
 
 <br>
 
@@ -81,6 +80,7 @@ __Note:__ Numbers above are allegorical.
 ### Browser and extensions
 
 - __Browser:__ Vivaldi
+- __VPN:__ TunnelBear
 - __Extensions:__
     - SelectorGadget
     - HTTPS Everywhere
