@@ -4,6 +4,14 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170807 </h3>
+
+__Gifmock__ <br>
+[Creates high-quality GIFs](https://gifmock.com).
+
+__twist__ <br>
+A calmer [Slack alternative](https://twistapp.com).
+
 <h3 style="color:#EEEEEE"> 20170806 </h3>
 
 __Hemingway__ <br>
