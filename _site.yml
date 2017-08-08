@@ -12,6 +12,8 @@ navbar:
       href: research.html
     - text: "Teaching"
       href: teaching.html
+    - text: "CV"
+      href: cv.html
     - text: "About"
       menu:
         - text: "Bio"
