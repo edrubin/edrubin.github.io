@@ -2,7 +2,8 @@
 title: "CV: Edward A. H. Rubin"
 ---
 
-<br>
+[PDF](cv.pdf)
+<br><br>
 
 ## Education
 
@@ -21,7 +22,6 @@ B.S. Mathematics, University of Nebraska-Lincoln, 2007
 ## Research in Progress
 
 __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
-<!-- <br> _a.k.a._ Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills -->
 <br> Maximilian Auffhammer and Ed Rubin
 
 __Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
@@ -29,9 +29,6 @@ __Do marijuana stores increase or reduce neighborhood crime? Evidence from Denve
 
 __Statistical Modeling and Hydrology in the High Plains Aquifer__
 <br> Ed Rubin, Richard Perrin, and Lilyan Fulginiti
-
-<!-- __Illicit Crops: Strategic Interdependence among Farmers, Cartels, and Governments__
-<br> Ed Rubin -->
 
 <br>
 
@@ -58,6 +55,8 @@ __STAT 380: Statistics and Applications__
 <br>
 
 ## Honors, Awards, and Fellowships
+
+Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2017
 
 Giannini Foundation Mini-Grant, 2017–2018
 
