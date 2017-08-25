@@ -4,6 +4,16 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170825 </h3>
+
+__Free, open-source machine learning, statistics, and data-mining resources__ <br>
+A [curated list of resources](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md) from Joseph Misiti.
+
+<h3 style="color:#EEEEEE"> 20170824 </h3>
+
+__Regular expressions in R__ <br>
+`stringr`'s very helpful [primer on regular expressions in R](http://stringr.tidyverse.org/articles/regular-expressions.html).
+
 <h3 style="color:#EEEEEE"> 20170807 </h3>
 
 __Gifmock__ <br>
