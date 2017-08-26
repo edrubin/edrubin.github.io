@@ -9,6 +9,9 @@ Useful and/or interesting links for research/productivity/fun.<br><br>
 __Free, open-source machine learning, statistics, and data-mining resources__ <br>
 A [curated list of resources](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md) from Joseph Misiti.
 
+__Template for R Markdown academic manuscript__
+Steven Miller offers a [guide and template for academic manuscripts in R Markdown](http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/).
+
 <h3 style="color:#EEEEEE"> 20170824 </h3>
 
 __Regular expressions in R__ <br>
