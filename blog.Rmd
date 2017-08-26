@@ -1,5 +1,5 @@
 ---
-title: "Multiple [blag](http://xkcd.com/148/) posts"
+title: "[Blog](http://xkcd.com/148/)"
 ---
 
 Economics, statistics, public policy, quantitative tools.
@@ -8,22 +8,22 @@ Economics, statistics, public policy, quantitative tools.
 
 [Efficiently mapping with `ggplot2`:](blog20170806.html) Example of how the R package `rmapshaper` can reduce the time and memory required to make (pretty) maps from shapefiles.
 <br>
-Sunday, 08 August 2017
+__Sunday, 08 August 2017__
 
 <br>
 
 [Counting lines of R code:](blog20170730.html) A quick script to count all of th lines of `R` code that you have written.
 <br>
-Sunday, 30 July 2017
+__Sunday, 30 July 2017__
 
 <br>
 
 [Updating intuition on attenuation bias:](blog20170330.html) I replicate and discuss a recent paper by Loken and Gelman. The paper demonstrates that our typical statistical/econometric intuition regarding measurement error may not be quite correct.
 <br>
-Thursday, 30 March 2017
+__Thursday, 30 March 2017__
 
 <br>
 
 [When R environments matter:](blog20161210.html) A common-use example of when R environments matter and the errors that can occur when we ignore the environment.
 <br>
-Saturday, 10 December 2016
+__Saturday, 10 December 2016__
