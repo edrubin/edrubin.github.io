@@ -4,6 +4,25 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20170831 </h3>
+
+__Crime Data__ <br>
+The FBI has a great new [crime data explorer](https://crime-data-explorer.fr.cloud.gov). The Open Data Census project has a handy(-ish) [summary of city-level crime datasets](http://us-city.census.okfn.org/dataset/crime-stats).
+
+__Plain Email__ <br>
+Four-action [email-processing app](http://www.plainemail.com).
+
+__Rambox__ <br>
+Cross-platform [messaging and emailing app](http://rambox.pro).
+
+__ScienceFair__ <br>
+Search, collect, read and analyse [scientific papers](http://sciencefair-app.com).
+
+<h3 style="color:#EEEEEE"> 20170828 </h3>
+
+__earth__ <br>
+A (beautiful) [global map](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-97.28,29.06,1030/loc=-95.951,28.471) of wind, weather, and ocean conditions.
+
 <h3 style="color:#EEEEEE"> 20170825 </h3>
 
 __Free, open-source machine learning, statistics, and data-mining resources__ <br>
