@@ -3,9 +3,7 @@ title: "[Blog](http://xkcd.com/148/)"
 ---
 
 Economics, statistics, public policy, quantitative tools.
-
 <br>
-
 I also [frequently post useful/interesting tools/links here](links.html).
 
 <br>
