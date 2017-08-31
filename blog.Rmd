@@ -4,7 +4,7 @@ title: "[Blog](http://xkcd.com/148/)"
 
 __Economics, statistics, public policy, quantitative tools__
 <br>
-I also [frequently post useful/interesting tools/links here](links.html).
+__Note__: I also [frequently post useful/interesting tools/links on a different page (follow the link)](links.html).
 
 <br>
 
