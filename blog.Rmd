@@ -6,6 +6,10 @@ Economics, statistics, public policy, quantitative tools.
 
 <br>
 
+I also [frequently post useful/interesting tools/links here](links.html).
+
+<br>
+
 [Efficiently mapping with `ggplot2`:](blog20170806.html) Example of how the R package `rmapshaper` can reduce the time and memory required to make (pretty) maps from shapefiles.
 <br>
 __Sunday, 08 August 2017__
