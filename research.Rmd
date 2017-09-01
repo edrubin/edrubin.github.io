@@ -82,3 +82,44 @@ Place a "1" between the first four characters and the subsequent characters in e
 ```{bash, eval = F}
 for i in *; do mv $i "${i:0:4}1${i:4}"; done
 ```
+
+### Sleeping and shutdown
+
+Tell the computer to wait a bit and then go to sleep.
+```{bash, eval = F}
+sleep 14400; pmset sleepnow
+```
+
+Tell the computer to shutdown now.
+```{bash, eval = F}
+sudo shutdown -h now
+```
+
+Shut it down at a specific time (here: 2:30pm on 01 January 2016)
+```{bash, eval = F}
+sudo shutdown -h 1601011530
+```
+
+Shut it down after a specified amount of time (here: 30 minutes)
+```{bash, eval = F}
+sudo shutdown -h +30
+```
+
+### Miscellany
+
+Kill all processes named "rsession".
+```{bash, eval = F}
+killall -m "rsession"
+```
+
+Re-index the Spotlight utility.
+```{bash, eval = F}
+sudo mdutil -E /
+```
+
+Linux code for playing hide and seek.
+<br>_Warning_ You might not want HAL to find you.
+
+```{bash, eval = F}
+for i in {1..30}; do say ${i}; done; say 'ready or not, here i come'
+```

@@ -363,6 +363,26 @@ $(document).ready(function () {
 <p>Place a “1” between the first four characters and the subsequent characters in each filename in a folder.</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">for</span> <span class="ex">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i:0:4}</span><span class="st">1</span><span class="va">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></code></pre></div>
 </div>
+<div id="sleeping-and-shutdown" class="section level3">
+<h3>Sleeping and shutdown</h3>
+<p>Tell the computer to wait a bit and then go to sleep.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</code></pre></div>
+<p>Tell the computer to shutdown now.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> shutdown -h now</code></pre></div>
+<p>Shut it down at a specific time (here: 2:30pm on 01 January 2016)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> shutdown -h 1601011530</code></pre></div>
+<p>Shut it down after a specified amount of time (here: 30 minutes)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> shutdown -h +30</code></pre></div>
+</div>
+<div id="miscellany" class="section level3">
+<h3>Miscellany</h3>
+<p>Kill all processes named “rsession”.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">killall</span> -m <span class="st">&quot;rsession&quot;</span></code></pre></div>
+<p>Re-index the Spotlight utility.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> mdutil -E /</code></pre></div>
+<p>Linux code for playing hide and seek. <br><em>Warning</em> You might not want HAL to find you.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{1..30}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="kw">done</span>; <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></code></pre></div>
+</div>
 </div>
 </div>
 
