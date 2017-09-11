@@ -27,6 +27,12 @@ __Natural gas elasticities and optimal cost recovery under heterogeneity: Eviden
 __Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
 <br> Ed Rubin
 
+__How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
+<br> Ed Rubin
+
+__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
+<br> Erin Kelley, Matthew Pecenco, and Ed Rubin
+
 __Statistical Modeling and Hydrology in the High Plains Aquifer__
 <br> Ed Rubin, Richard Perrin, and Lilyan Fulginiti
 
@@ -36,27 +42,24 @@ __Statistical Modeling and Hydrology in the High Plains Aquifer__
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 
-- University of California, Berkeley
-- Spring 2017
-- Doctoral level
+- University of California, Berkeley: Spring 2017
+- Doctoral level: taught recitation section and built [section website/notes](http://edrub.in/ARE212/)
 
 __STAT 218: Introduction to Statistics__
 
-- University of Nebraska-Lincoln
-- Spring 2011, Summer 2011, Fall 2011
-- Undergraduate level
+- University of Nebraska-Lincoln: Spring 2011, Summer 2011, Fall 2011
+- Undergraduate level: sole instructor for the course
 
 __STAT 380: Statistics and Applications__
 
-- University of Nebraska-Lincoln
-- Summer 2012, Fall 2012, Spring 2013
-- Undergraduate level
+- University of Nebraska-Lincoln: Summer 2012, Fall 2012, Spring 2013
+- Undergraduate level: sole instructor for the course
 
 <br>
 
 ## Honors, Awards, and Fellowships
 
-Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2017 (with Erin Kelley and Matthew Pecenco)
+Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018 (with Erin Kelley and Matthew Pecenco)
 
 Giannini Foundation Mini-Grant, 2017–2018 (with Maximilian Auffhammer)
 
