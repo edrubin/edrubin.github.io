@@ -19,13 +19,17 @@ B.S. Mathematics, University of Nebraska-Lincoln, 2007
 
 <br>
 
-## Research in Progress
+## Working papers
 
 __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
 <br> Maximilian Auffhammer and Ed Rubin
 
 __Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
 <br> Ed Rubin
+
+<br>
+
+## Research in Progress
 
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 <br> Ed Rubin
@@ -45,14 +49,14 @@ __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212
 - University of California, Berkeley: Spring 2017
 - Doctoral level: taught recitation section and built [section website/notes](http://edrub.in/ARE212/)
 
-__STAT 218: Introduction to Statistics__
-
-- University of Nebraska-Lincoln: Spring 2011, Summer 2011, Fall 2011
-- Undergraduate level: sole instructor for the course
-
 __STAT 380: Statistics and Applications__
 
 - University of Nebraska-Lincoln: Summer 2012, Fall 2012, Spring 2013
+- Undergraduate level: sole instructor for the course
+
+__STAT 218: Introduction to Statistics__
+
+- University of Nebraska-Lincoln: Spring 2011, Summer 2011, Fall 2011
 - Undergraduate level: sole instructor for the course
 
 <br>
@@ -103,6 +107,16 @@ __Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
 
 <br>
 
+## Academic Service
+
+- Coordinated Environmental, Energy, and Resource Economics Seminar
+- Organized biweekly (twice per week) departmental lunches
+- Organized third-year research workshop
+- Organized departmental coffee hour
+- Mentored first-year graduate students
+
+<br>
+
 ## Skills
 
 __Computational__
@@ -114,16 +128,6 @@ __Linguistic__
 
 - English (fluent)
 - Spanish (conversational)
-
-<br>
-
-## Academic Service
-
-- Coordinated Environmental, Energy, and Resource Economics Seminar
-- Organized biweekly (twice per week) departmental lunches
-- Organized third-year research workshop
-- Organized departmental coffee hour
-- Mentored first-year graduate students
 
 <br>
 

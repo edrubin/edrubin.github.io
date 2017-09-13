@@ -6,33 +6,47 @@ title: "Research"
 
 # {.tabset .tabset-fade}
 
-## In-Progress
+## Projects
 
 <br>
 
-### Natural gas elasticities and heterogeneity: Evidence from 300M+ bills
+<font color="#18BC9C"><h2>Working Papers</h2></font>
+
+---
+
+#### __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills__
 
 with [Maximilian Auffhammer](http://www.auffhammer.com)
 
 In this paper, we estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. We estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity for efficient and progressive policy.
 
-<br>
-
-### Mile-high quandaries: Evidence from Denver that marijuana legalization may increase drug arrests
+draft | slides | [service areas](Figures/NaturalGas/serviceAreas.pdf) | [study area](Figures/NaturalGas/studyArea.pdf)
 
 <br>
 
-### Irrigation and climatic effects on water levels in the U.S. High Plains Aquifer
+#### __Marijuana store openings and neighborhood crime: Lessons from marijuana legalization in Denver, Colorado__
+
+Marijuana legalization has been heralded as a low-cost route to reducing criminal-justice based pressure on marginalized communities with high incarceration rates—especially young men of color. The typical argument reasons that legalizing a hitherto illegal substance (marijuana) will reduce arrests, citations, and general law-enforcement contact—consequently reducing incarceration and criminal-justice pressure. While the argument is quite simple, it has yet to be empirically tested in the United States. In this paper, I provide the first—to my knowledge—causal evidence on the veracity of this argument. In addition to testing this hypothesis, I also provide evidence of general equilibrium effects/spillovers that this argument fails to consider.
+
+draft | slides | [US legalization map](Figures/Dispensaries/mapStateLegalPot.pdf) |  [timeline](Figures/Dispensaries/timeline.pdf) | [time series drug offenses](Figures/Dispensaries/seriesCrimeNonPot.pdf)
+
+<br>
+
+<font color="#18BC9C"><h2>In-Progress</h2></font>
+
+---
+
+#### __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
+
+<br>
+
+#### __Irrigation and climatic effects on water levels in the U.S. High Plains Aquifer__
 
 with Lilyan Fulginiti and Richard Perrin
 
 <br>
 
-### How salient are environmental risks? The short- and long-run effects of lead exposure in piped water
-
-<br>
-
-### Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace
+#### __Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
 
 with Erin Kelley and Matthew Pecenco
 

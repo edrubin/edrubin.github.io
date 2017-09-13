@@ -42,7 +42,7 @@ render("tmp.Rmd",
       # "--metadata=author:\"Ed Rubin\"",
       pandoc_variable_arg("mainfont", "Charter"),
       pandoc_variable_arg("monofont", "Hack"),
-      pandoc_variable_arg("fontsize", "11pt")
+      pandoc_variable_arg("fontsize", "10pt")
       )
     ),
   output_file = "cv.pdf",

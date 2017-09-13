@@ -32,12 +32,14 @@ navbar:
         - text: "---------"
         - text: "Advice"
           href: advice.html
+        - text: "Meetings"
+          href: meetings.html
         - text: "---------"
         - text: "Consulting"
           href: consulting.html
   right:
-    - icon: fa-question fa-lg
-      href: question.html
+    # - icon: fa-question fa-lg
+    #   href: question.html
     - icon: fa-envelope-o fa-lg
       href: mailto:edwardarubin@gmail.com
     - icon: fa-github-square fa-lg

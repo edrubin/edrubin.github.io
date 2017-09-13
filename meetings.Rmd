@@ -1,0 +1,26 @@
+---
+title: "Meetings"
+---
+
+A listing of conferences, meetings, and workshops
+
+<br>
+
+### Energy, environmental, and resource economics
+
+- [AAEA Annual Meeting](http://www.aaea.org/meetings)
+- [AERE Annual Summer Conference](http://www.aere.org/aere-summer-conference)
+- [Camp Resources](https://cenrep.ncsu.edu/workshops/camp-resources/)
+- [Colorado University Environmental and Resource Economics Workshop](http://www.colorado.edu/econ/news/environmental-workshop/index.html)
+- [EAERE Conferences](http://www.eaere.org)
+- [IAEE Conferences](http://www.iaee.org/en/conferences/)
+- [The Occasional Workshop](http://www.calworkshop.org)
+- [UC Berkeley POWER](https://ei.haas.berkeley.edu/events/power-conference.html)
+
+<br>
+
+### Other meetings of interest
+
+- [ASSA Annual Meeting](https://www.aeaweb.org/conference/)
+- [IAAE Triennial Conference](http://www.iaae-agecon.org/conferences/conferences.html)
+- [Young Economist Symposium at Yale](http://economics.yale.edu/graduate/events/yes) (formerly _EconCon_)
