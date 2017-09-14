@@ -100,7 +100,7 @@ __Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
 
 Create a nice timeline (shown below) in R's `ggplot2`.
 
-```{r timeline, echo = F, eval = T, fig.height = 3.5, fig.width = 8.75, fig.retina = 2}
+```{r timeline, echo = F, eval = T, fig.height = 3.5, fig.width = 8.75, fig.retina = 2, dpi = 150}
 # Setup ----
 # Packages
 library(ggplot2)
