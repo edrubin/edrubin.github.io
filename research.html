@@ -211,13 +211,13 @@ $(document).ready(function () {
   <a href="research.html">Research</a>
 </li>
 <li>
-  <a href="blog.html">Blog</a>
-</li>
-<li>
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
   <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -313,8 +313,8 @@ Working Papers
 <div id="natural-gas-elasticities-and-optimal-cost-recovery-under-heterogeneity-evidence-from-300-million-natural-gas-bills" class="section level4">
 <h4><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills</strong></h4>
 <p>with <a href="http://www.auffhammer.com">Maximilian Auffhammer</a></p>
-<p>In this paper, we estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. We estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity for efficient and progressive policy.</p>
-<p>draft | slides | <a href="Figures/NaturalGas/serviceAreas.pdf">service areas</a> | <a href="Figures/NaturalGas/studyArea.pdf">study area</a></p>
+<p>In 2016 natural gas became the United States’ primary source of energy for electricity generation. It is also the main heating fuel for more than 50% of American homes. Hence understanding residential natural gas consumption behavior has become a first-order problem. In this paper, we provide the first ever causally identified, microdata-based estimates of residential natural gas demand elasticities using a decade-long panel of more than 275 million bills in California. To overcome multiple sources of endogeneity, we utilize the border between two major natural-gas utilities, in conjunction with an instrumental variables strategy. We estimate the elasticity of demand for residential natural gas is between -0.31 and -0.17. We also provide evidence of seasonal and income-based heterogeneity in this elasticity. This heterogeneity provides unexplored policy avenues that may be simultaneously efficiency-enhancing and pro-poor.</p>
+<p><a href="Papers/paperNaturalGas.pdf">draft</a> | <a href="Slides/slidesNaturalGas.pdf">slides</a> | <a href="Figures/NaturalGas/serviceAreas.pdf">service areas</a> | <a href="Figures/NaturalGas/studyArea.pdf">study area</a></p>
 <p><br></p>
 </div>
 <div id="marijuana-store-openings-and-neighborhood-crime-lessons-from-marijuana-legalization-in-denver-colorado" class="section level4">
@@ -335,7 +335,7 @@ In Progress
 </div>
 <div id="irrigation-and-climatic-effects-on-water-levels-in-the-u.s.-high-plains-aquifer" class="section level4">
 <h4><strong>Irrigation and climatic effects on water levels in the U.S. High Plains Aquifer</strong></h4>
-<p>with Lilyan Fulginiti and Richard Perrin</p>
+<p>with <a href="http://agecon.unl.edu/faculty/lilyan-fulginiti">Lilyan Fulginiti</a> and <a href="http://agecon.unl.edu/faculty/richard-perrin">Richard Perrin</a></p>
 <p><br></p>
 </div>
 <div id="is-michelle-less-productive-than-michael-a-field-experiment-on-consumer-based-gender-discrimination-in-the-marketplace" class="section level4">
@@ -346,12 +346,90 @@ In Progress
 </div>
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
-<p>Example</p>
+<p><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> Camp Resources, August 2017 <br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> AAEA Annual Meeting, August 2017 <br><br></p>
+<p><strong>Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado</strong> <br> UC Berkeley, Summer Research Seminar, July 2017 <br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> AERE Annual Summer Conference, June 2017 <br><br></p>
+<p><strong>Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills</strong> <br> 22nd Annual POWER Conference on Energy Research and Policy, March 2017 <br><br></p>
+<p><strong>Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills</strong> <br> UC Berkeley, Environmental and Resource Economics Seminar, November 2016 <br><br></p>
+<p><strong>(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests</strong> <br> UC Berkeley, Environmental and Resource Economics Seminar, April 2015 <br><br></p>
+<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)</strong> <br> University of Nebraska-Lincoln, Statistics Departmental Seminar, March 2013 <br><br></p>
+<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer</strong> <br> International Conference of Agricultural Economists, poster, August 2012 <br><br></p>
+<p><strong>Reproductive Ecology of Western Painted Turtles (Chrysemys picta)</strong> <br> Midwest Fish and Wildlife Conference, poster, December 2006 <br><br></p>
 </div>
 <div id="r-scripts" class="section level2">
 <h2>R scripts</h2>
-<p>Example in R:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">1</span> +<span class="st"> </span><span class="dv">1</span></code></pre></div>
+<p>Create a nice timeline (shown below) in R’s <code>ggplot2</code>.</p>
+<p><img src="research_files/figure-html/timeline-1.png" width="960" /></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Setup ----</span>
+<span class="co"># Packages</span>
+<span class="kw">library</span>(ggplot2)
+<span class="co"># Define colors (from https://www.materialpalette.com)</span>
+dark_primary_color   &lt;-<span class="st"> &quot;#C2185B&quot;</span>
+primary_color        &lt;-<span class="st"> &quot;#E91E63&quot;</span>
+light_primary_color  &lt;-<span class="st"> &quot;#F8BBD0&quot;</span>
+text_primary_color   &lt;-<span class="st"> &quot;#FFFFFF&quot;</span>
+accent_color         &lt;-<span class="st"> &quot;#9E9E9E&quot;</span>
+primary_text_color   &lt;-<span class="st"> &quot;#212121&quot;</span>
+secondary_text_color &lt;-<span class="st"> &quot;#757575&quot;</span>
+divider_color        &lt;-<span class="st"> &quot;#BDBDBD&quot;</span>
+
+<span class="co"># Plot the timeline ----</span>
+<span class="kw">ggplot</span>() +
+<span class="st">  </span><span class="co"># Two rectangles</span>
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2009</span>, <span class="dt">xmax =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> divider_color) +
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xmax =</span> <span class="dv">2014</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> light_primary_color) +
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2014</span>, <span class="dt">xmax =</span> <span class="dv">2017</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> primary_color) +
+<span class="st">  </span><span class="co"># Label rectangles (periods)</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2010</span>, <span class="dt">y =</span> -<span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period A&quot;</span>,
+    <span class="dt">color =</span> divider_color) +
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="fl">2015.5</span>, <span class="dt">y =</span> -<span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period B&quot;</span>,
+    <span class="dt">color =</span> primary_color) +
+<span class="st">  </span><span class="co"># Add ellipses</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, -<span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
+    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> divider_color) +
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
+    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> primary_color) +
+<span class="st">  </span><span class="co"># Time axis</span>
+<span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">size =</span> <span class="dv">1</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Label time</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2009</span>:<span class="dv">2017</span>, <span class="dt">y =</span> -<span class="fl">0.05</span>, <span class="dt">label =</span> <span class="dv">2009</span>:<span class="dv">2017</span>,
+    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> secondary_text_color) +
+<span class="st">  </span><span class="co"># Points for events</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dv">2014</span>), <span class="dt">y =</span> <span class="dv">0</span>,
+    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Label events:</span>
+<span class="st">  </span><span class="co"># First event</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>,
+    <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011+4</span>/<span class="dv">12</span><span class="fl">+0.1</span>,
+    <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Intermediate event</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>,
+      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012+7</span>/<span class="dv">12</span><span class="fl">+0.1</span>,
+      <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Period B begins</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span>,
+      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,
+      <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Theme stuff</span>
+<span class="st">  </span><span class="kw">theme_bw</span>() +
+<span class="st">  </span><span class="kw">ylim</span>(<span class="kw">c</span>(-<span class="fl">0.15</span>,<span class="dv">1</span>)) +
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text =</span> <span class="kw">element_blank</span>(), <span class="dt">axis.title =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.border =</span> <span class="kw">element_blank</span>())</code></pre></div>
 </div>
 <div id="latex" class="section level2">
 <h2>LaTeX</h2>

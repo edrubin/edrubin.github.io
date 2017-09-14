@@ -18,9 +18,9 @@ title: "Research"
 
 with [Maximilian Auffhammer](http://www.auffhammer.com)
 
-In this paper, we estimate the elasticity of demand for residential natural gas using a two-fold empirical strategy that combines (1) a spatial discontinuity between two natural gas utilities and (2) an instrumental variables approach. We estimate significant seasonal and income-based heterogeneity in this elasticity and describe the importance of this heterogeneity for efficient and progressive policy.
+In 2016 natural gas became the United States' primary source of energy for electricity generation. It is also the main heating fuel for more than 50% of American homes. Hence understanding residential natural gas consumption behavior has become a first-order problem. In this paper, we provide the first ever causally identified, microdata-based estimates of residential natural gas demand elasticities using a decade-long panel of more than 275 million bills in California. To overcome multiple sources of endogeneity, we utilize the border between two major natural-gas utilities, in conjunction with an instrumental variables strategy. We estimate the elasticity of demand for residential natural gas is between -0.31 and -0.17. We also provide evidence of seasonal and income-based heterogeneity in this elasticity. This heterogeneity provides unexplored policy avenues that may be simultaneously efficiency-enhancing and pro-poor.
 
-draft | slides | [service areas](Figures/NaturalGas/serviceAreas.pdf) | [study area](Figures/NaturalGas/studyArea.pdf)
+[draft](Papers/paperNaturalGas.pdf) | [slides](Slides/slidesNaturalGas.pdf) | [service areas](Figures/NaturalGas/serviceAreas.pdf) | [study area](Figures/NaturalGas/studyArea.pdf)
 
 <br>
 
@@ -42,7 +42,7 @@ new draft in preparation | slides | [US legalization map](Figures/Dispensaries/m
 
 #### __Irrigation and climatic effects on water levels in the U.S. High Plains Aquifer__
 
-with Lilyan Fulginiti and Richard Perrin
+with [Lilyan Fulginiti](http://agecon.unl.edu/faculty/lilyan-fulginiti) and [Richard Perrin](http://agecon.unl.edu/faculty/richard-perrin)
 
 <br>
 
@@ -54,14 +54,124 @@ with Erin Kelley and Matthew Pecenco
 
 ## Presentations
 
-Example
+<br>
+
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> Camp Resources, August 2017
+<br><br>
+
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> AAEA Annual Meeting, August 2017
+<br><br>
+
+__Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
+<br> UC Berkeley, Summer Research Seminar, July 2017
+<br><br>
+
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> AERE Annual Summer Conference, June 2017
+<br><br>
+
+__Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills__
+<br> 22nd Annual POWER Conference on Energy Research and Policy, March 2017
+<br><br>
+
+__Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills__
+<br> UC Berkeley, Environmental and Resource Economics Seminar, November 2016
+<br><br>
+
+__(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests__
+<br> UC Berkeley, Environmental and Resource Economics Seminar, April 2015
+<br><br>
+
+__Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)__
+<br> University of Nebraska-Lincoln, Statistics Departmental Seminar, March 2013
+<br><br>
+
+__Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer__
+<br> International Conference of Agricultural Economists, poster, August 2012
+<br><br>
+
+__Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
+<br> Midwest Fish and Wildlife Conference, poster, December 2006
+<br><br>
 
 ## R scripts
 
-Example in R:
+Create a nice timeline (shown below) in R's `ggplot2`.
 
-```{r, eval = F}
-1 + 1
+```{r timeline, echo = F, eval = T, fig.height = 4, fig.width = 10}
+# Setup ----
+# Packages
+library(ggplot2)
+# Define colors (from https://www.materialpalette.com)
+dark_primary_color   <- "#C2185B"
+primary_color        <- "#E91E63"
+light_primary_color  <- "#F8BBD0"
+text_primary_color   <- "#FFFFFF"
+accent_color         <- "#9E9E9E"
+primary_text_color   <- "#212121"
+secondary_text_color <- "#757575"
+divider_color        <- "#BDBDBD"
+
+# Plot the timeline ----
+ggplot() +
+  # Two rectangles
+  geom_rect(aes(xmin = 2009, xmax = 2011+4/12, ymin = 0, ymax = 0.35),
+    fill = divider_color) +
+  geom_rect(aes(xmin = 2011+4/12, xmax = 2014, ymin = 0, ymax = 0.35),
+    fill = light_primary_color) +
+  geom_rect(aes(xmin = 2014, xmax = 2017, ymin = 0, ymax = 0.35),
+    fill = primary_color) +
+  # Label rectangles (periods)
+  annotate(geom = "text", x = 2010, y = -0.15, label = "Period A",
+    color = divider_color) +
+  annotate(geom = "text", x = 2015.5, y = -0.15, label = "Period B",
+    color = primary_color) +
+  # Add ellipses
+  annotate(geom = "point", x = seq(2009-0.15, 2009-0.45, -0.15), y = 0.175,
+    size = 1.5, color = divider_color) +
+  annotate(geom = "point", x = seq(2017+0.15, 2017+0.45, 0.15), y = 0.175,
+    size = 1.5, color = primary_color) +
+  # Time axis
+  geom_hline(yintercept = 0, size = 1, color = primary_text_color) +
+  # Label time
+  annotate(geom = "text", x = 2009:2017, y = -0.05, label = 2009:2017,
+    size = 4, color = secondary_text_color) +
+  # Points for events
+  annotate(geom = "point", x = c(2011+4/12, 2012+7/12, 2014), y = 0,
+    size = 4, color = primary_text_color) +
+  # Label events:
+  # First event
+  annotate(geom = "text", x = 2011+4/12+0.15, y = 0.9, hjust = 0,
+    label = "An event triggers a change", color = primary_text_color) +
+  geom_segment(aes(x = 2011+4/12, xend = 2011+4/12,
+    y = 0, yend = 0.9), color = primary_text_color) +
+  geom_segment(aes(x = 2011+4/12, xend = 2011+4/12+0.1,
+    y = 0.9, yend = 0.9), color = primary_text_color) +
+  # Intermediate event
+  annotate(geom = "text", x = 2012+7/12+0.15, y = 0.7, hjust = 0,
+    label = "A relevant intermediate event", color = primary_text_color) +
+  geom_segment(aes(x = 2012+7/12, xend = 2012+7/12,
+      y = 0, yend = 0.7), color = primary_text_color) +
+  geom_segment(aes(x = 2012+7/12, xend = 2012+7/12+0.1,
+      y = 0.7, yend = 0.7), color = primary_text_color) +
+  # Period B begins
+  annotate(geom = "text", x = 2014+0.15, y = 0.5, hjust = 0,
+    label = "The new period officially begins", color = primary_text_color) +
+  geom_segment(aes(x = 2014, xend = 2014,
+      y = 0, yend = 0.5), color = primary_text_color) +
+  geom_segment(aes(x = 2014, xend = 2014+0.1,
+      y = 0.5, yend = 0.5), color = primary_text_color) +
+  # Theme stuff
+  theme_bw() +
+  ylim(c(-0.15,1)) +
+  theme(axis.text = element_blank(), axis.title = element_blank(),
+    axis.ticks = element_blank(), panel.grid = element_blank(),
+    panel.border = element_blank())
+```
+
+```{r timeline, echo = T, eval = F}
 ```
 
 ## LaTeX

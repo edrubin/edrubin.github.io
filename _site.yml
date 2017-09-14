@@ -8,12 +8,12 @@ navbar:
       href: index.html
     - text: "Research"
       href: research.html
-    - text: "Blog"
-      href: blog.html
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
       href: cv.html
+    - text: "Blog"
+      href: blog.html
     - text: "About"
       menu:
         - text: "Bio"
