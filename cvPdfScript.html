@@ -320,8 +320,8 @@ cv %&lt;&gt;%<span class="st"> </span><span class="kw">paste0</span>(<span class
 cv[<span class="kw">grep</span>(<span class="st">&quot;#&quot;</span>, cv) -<span class="st"> </span><span class="dv">2</span>] &lt;-<span class="st"> &quot;  &quot;</span>
 <span class="co"># Remove two spaces from lists</span>
 cv[<span class="kw">grep</span>(<span class="st">&quot;-&quot;</span>, <span class="kw">substr</span>(cv, <span class="dv">1</span>, <span class="dv">1</span>))] %&lt;&gt;%<span class="st"> </span><span class="kw">str_replace_all</span>(<span class="st">&quot;  &quot;</span>, <span class="st">&quot;&quot;</span>)
-<span class="co"># New page above skills section</span>
-cv[<span class="kw">grep</span>(<span class="st">&quot;# Skills&quot;</span>, cv) -<span class="st"> </span><span class="dv">2</span>] &lt;-<span class="st"> &quot;</span><span class="ch">\\</span><span class="st">pagebreak&quot;</span>
+<span class="co"># New page above Academic Service section</span>
+cv[<span class="kw">grep</span>(<span class="st">&quot;# Academic Service&quot;</span>, cv) -<span class="st"> </span><span class="dv">2</span>] &lt;-<span class="st"> &quot;</span><span class="ch">\\</span><span class="st">pagebreak&quot;</span>
 
 <span class="co"># Create the new rmd file</span>
 con &lt;-<span class="st"> </span><span class="kw">file</span>(<span class="st">&quot;tmp.Rmd&quot;</span>)

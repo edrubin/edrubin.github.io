@@ -11,11 +11,11 @@ __(Ongoing)__ Ph.D. candidate, Agricultural and Resource Economics, UC Berkeley,
 
 M.S. Agricultural and Resource Economics, UC Berkeley, 2015
 
-M.S. Statistics, University of Nebraska-Lincoln, 2013
+M.S. Statistics, University of Nebraska–Lincoln, 2013
 
-M.S. Agricultural Economics, University of Nebraska-Lincoln, 2013
+M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
 
-B.S. Mathematics, University of Nebraska-Lincoln, 2007
+B.S. Mathematics, University of Nebraska–Lincoln, 2007
 
 <br>
 
@@ -51,21 +51,23 @@ __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212
 
 __STAT 380: Statistics and Applications__
 
-- University of Nebraska-Lincoln: Summer 2012, Fall 2012, Spring 2013
+- University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013
 - Undergraduate level: sole instructor for the course
 
 __STAT 218: Introduction to Statistics__
 
-- University of Nebraska-Lincoln: Spring 2011, Summer 2011, Fall 2011
+- University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
 - Undergraduate level: sole instructor for the course
 
 <br>
 
 ## Honors, Awards, and Fellowships
 
-Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018 (with Erin Kelley and Matthew Pecenco)
+Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018
+<br> _with Erin Kelley and Matthew Pecenco_
 
-Giannini Foundation Mini-Grant, 2017–2018 (with Maximilian Auffhammer)
+Giannini Foundation Mini-Grant, 2017–2018
+<br> _with Maximilian Auffhammer_
 
 UC Berkeley ARE Summer Grant, 2016
 
@@ -74,6 +76,9 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
+<br> Berkeley Development Economics Lunch, September 2017
 
 __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
 <br> Camp Resources, August 2017
@@ -97,7 +102,7 @@ __(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May 
 <br> UC Berkeley, Environmental and Resource Economics Seminar, April 2015
 
 __Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)__
-<br> University of Nebraska-Lincoln, Statistics Departmental Seminar, March 2013
+<br> University of Nebraska–Lincoln, Statistics Departmental Seminar, March 2013
 
 __Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer__
 <br> International Conference of Agricultural Economists, poster, August 2012
@@ -122,7 +127,7 @@ __Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
 __Computational__
 
 - __Computing:__ R, Python, Stata, Julia, QGIS, MATLAB, Mathematica, SAS
-- __Design:__ LaTeX, Markdown, Adobe Photoshop, Adobe PS Lightroom, Adobe Illustrator, Adobe InDesign, Microsoft Suite
+- __Design:__ LaTeX, Markdown, Adobe Suite Design Suite, Microsoft Suite
 
 __Linguistic__
 
@@ -134,7 +139,7 @@ __Linguistic__
 ## Contact
 
 - __email__ edward `ampersat` berkeley `period` edu
-- __website__ [edrub.in](https://edrub.in)
-- __twitter__ [\@edrubin](https://twitter.com/edrubin)
 - __phone__ (4`oh`2) 3`oh`5-85`six`3
+- __website__ [http://edwardarubin.com](https://edrub.in)
+- __twitter__ [\@edrubin](https://twitter.com/edrubin)
 - __instagram__ [\@edwardarubin](https://instagram.com/edwardarubin/)

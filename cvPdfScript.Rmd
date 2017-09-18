@@ -23,8 +23,8 @@ cv %<>% paste0("  ")
 cv[grep("#", cv) - 2] <- "  "
 # Remove two spaces from lists
 cv[grep("-", substr(cv, 1, 1))] %<>% str_replace_all("  ", "")
-# New page above skills section
-cv[grep("# Skills", cv) - 2] <- "\\pagebreak"
+# New page above Academic Service section
+cv[grep("# Academic Service", cv) - 2] <- "\\pagebreak"
 
 # Create the new rmd file
 con <- file("tmp.Rmd")
