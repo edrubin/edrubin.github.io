@@ -136,6 +136,14 @@ __Linguistic__
 
 <br>
 
+## References
+
+__Maximilian Auffhammer__, UC Berkeley
+<br> __W. Reed Walker__, UC Berkeley
+<br> __Solomon Hsiang__, UC Berkeley
+
+<br>
+
 ## Contact
 
 - __email__ edward `ampersat` berkeley `period` edu
