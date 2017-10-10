@@ -4,6 +4,23 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20171010 </h3>
+
+__Drop__ <br>
+Beautiful [color picker](http://dropcolorpicker.com) with Touch Bar support.
+
+__Index__ <br>
+[Save and search your "stuff"](https://indexapp.com).
+
+__Qbserve__ <br>
+Automatically [tracks both productivity and work hours](https://qotoqot.com/qbserve). [h/t](https://www.offscreenmag.com)
+
+__TripMode__ <br>
+[Blocks apps from accessing the internet](https://www.tripmode.ch). [h/t](https://www.offscreenmag.com)
+
+__Tyke__ <br>
+[Scratch paper](http://tyke.io) that lives in your menubar. [h/t](https://www.offscreenmag.com)
+
 <h3 style="color:#EEEEEE"> 20171003 </h3>
 
 __Pod__ <br>
@@ -26,7 +43,7 @@ __Rambox__ <br>
 Cross-platform [messaging and emailing app](http://rambox.pro).
 
 __ScienceFair__ <br>
-Search, collect, read and analyse [scientific papers](http://sciencefair-app.com).
+Search, collect, read and analyze [scientific papers](http://sciencefair-app.com).
 
 <h3 style="color:#EEEEEE"> 20170828 </h3>
 
