@@ -4,6 +4,11 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20171014 </h3>
+
+__GitFinder__ <br>
+A fast and lightweight [Git client for Mac with Finder integration](https://zigz.ag/GitFinder/).
+
 <h3 style="color:#EEEEEE"> 20171010 </h3>
 
 __Drop__ <br>
