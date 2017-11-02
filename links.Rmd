@@ -4,6 +4,14 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20171030 </h3>
+
+__ggforce__ <br>
+A [package for `R`](https://github.com/thomasp85/ggforce) that aims to extend `ggplot2` for explorative data visualization.
+
+__ggplot2 extensions__ <br>
+A helpful [website that tracks extensions to `R`'s `ggplot2`](https://www.ggplot2-exts.org/index.html) package.
+
 <h3 style="color:#EEEEEE"> 20171018 </h3>
 
 __3Blue1Brown__ <br>
