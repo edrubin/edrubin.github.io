@@ -20,7 +20,7 @@ with [Maximilian Auffhammer](http://www.auffhammer.com)
 
 In 2016 natural gas became the United States' primary source of energy for electricity generation. It is also the main heating fuel for more than 50% of American homes. Hence understanding residential natural gas consumption behavior has become a first-order problem. In this paper, we provide the first ever causally identified, microdata-based estimates of residential natural gas demand elasticities using a decade-long panel of more than 275 million bills in California. To overcome multiple sources of endogeneity, we utilize the border between two major natural-gas utilities, in conjunction with an instrumental variables strategy. We estimate the elasticity of demand for residential natural gas is between -0.31 and -0.17. We also provide evidence of seasonal and income-based heterogeneity in this elasticity. This heterogeneity provides unexplored policy avenues that may be simultaneously efficiency-enhancing and pro-poor.
 
-[draft](Papers/paperNaturalGas.pdf) | [slides](Slides/slidesNaturalGas.pdf) | [map: service and study area](Figures/NaturalGas/studyArea.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](mapNaturalGasPipeline.pdf)
+[draft](Papers/paperNaturalGas.pdf) | [slides](Slides/slidesNaturalGas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapNaturalGasPipeline.pdf)
 
 <br>
 
