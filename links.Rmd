@@ -4,6 +4,11 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20171107 </h3>
+
+__Author__ <br>
+App to instantly [create and publish documents to the web](http://authorapp.co/).
+
 <h3 style="color:#EEEEEE"> 20171030 </h3>
 
 __ggforce__ <br>
