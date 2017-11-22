@@ -4,6 +4,16 @@ title: "Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20171122 </h3>
+
+__sf__ <br>
+Stellar package for [spatial data analysis](https://cran.r-project.org/web/packages/sf/vignettes/sf1.html) in `R`. More `sf` resources: [1](https://cran.r-project.org/web/packages/sf/sf.pdf) | [2](http://strimas.com/r/tidy-sf/) | [3](https://r-spatial.github.io/sf/) | [4](http://ggplot2.tidyverse.org/reference/ggsf.html) | [5](https://dcl-2017-01.github.io/curriculum/notes/spatial-vis.html)
+
+<h3 style="color:#EEEEEE"> 20171115 </h3>
+
+__Cheat sheets for regular expressions__ <br>
+The folks at RStudio provides cheat sheets for [regular expressions](CheatSheets/cheatSheetRegEx.pdf) and [`stringr`](CheatSheets/cheatSheetStringr.pdf) (and [many other cheat sheets](https://www.rstudio.com/resources/cheatsheets/)).
+
 <h3 style="color:#EEEEEE"> 20171107 </h3>
 
 __Author__ <br>
@@ -1092,7 +1102,6 @@ An online [search engine](http://www.rdocumentation.org/) for R's documentation.
 
 __Time Sink__<br>
 [Time everything](http://manytricks.com/timesink/) you do on your computer. Could be scary.
-
 
 <h3 style="color:#EEEEEE"> 20150830 </h3>
 
