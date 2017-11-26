@@ -1,5 +1,5 @@
 ---
-title: "[Blog](http://xkcd.com/148/)"
+title: "Ed Rubin: [Blog](http://xkcd.com/148/)"
 ---
 
 __Economics, statistics, public policy, quantitative tools__
