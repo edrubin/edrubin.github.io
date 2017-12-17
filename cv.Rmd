@@ -27,7 +27,7 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 ## Working Papers
 
-__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+__[Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California](Papers/paperNaturalGas.pdf)__
 <br> Maximilian Auffhammer and Ed Rubin
 
 __Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
@@ -82,6 +82,9 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
+<br> IGC-PEDL Workshop at Oxford, December 2017
 
 __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
 <br> Heartland Environmental and Resource Economics Workshop, September 2017
