@@ -4,6 +4,16 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20171130 </h3>
+
+__Resistbot__ <br>
+A bot who [finds and contacts your Congressional representatives](https://resistbot.io).
+
+<h3 style="color:#EEEEEE"> 20171129 </h3>
+
+__Text Mining with R__ <br>
+An [introduction to (tidy) text mining in R](http://tidytextmining.com).
+
 <h3 style="color:#EEEEEE"> 20171122 </h3>
 
 __sf__ <br>
