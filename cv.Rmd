@@ -52,7 +52,7 @@ __Statistical Modeling and Hydrology in the High Plains Aquifer__
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 
-- University of California, Berkeley: Spring 2017
+- University of California, Berkeley: Spring 2017, Spring 2018
 - Doctoral level: taught recitation section and built [section website/notes](http://edrub.in/ARE212/)
 
 __STAT 380: Statistics and Applications__
