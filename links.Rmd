@@ -4,6 +4,14 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180115 </h3>
+
+__LittleSnitch__ <br>
+[View and manage internet connections](https://www.obdev.at/products/littlesnitch/index.html) from your Mac. (Also: [MicroSnitch](https://www.obdev.at/products/microsnitch/index.html))
+
+__SwiftText__ <br>
+Quick-access [scratchpad](http://giraffelab.com/swifttext/) for OSX.
+
 <h3 style="color:#EEEEEE"> 20171227 </h3>
 
 __Typely__ <br>
