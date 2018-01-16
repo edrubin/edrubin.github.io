@@ -46,8 +46,8 @@ navbar:
       href: https://github.com/edrubin
     - icon: fa-instagram fa-lg
       href: http://www.instagram.com/edwardarubin
-    # - icon: fa-twitter fa-lg
-    #   href: http://www.twitter.com/edrubin
+    - icon: fa-twitter fa-lg
+      href: http://www.twitter.com/edrubin
 output:
   html_document:
     theme: flatly
