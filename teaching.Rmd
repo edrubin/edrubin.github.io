@@ -14,7 +14,7 @@ title: "Ed Rubin: Teaching"
 
 __[ARE 212](https://edrub.in/ARE212): Econometrics - Multiple Equation Estimation__
 
-Spring 2017; Spring 2018
+[Spring 2017](https://edrub.in/ARE212/Spring2017/notes.html); [Spring 2018](https://edrub.in/ARE212)
 
 UC Berkeley
 

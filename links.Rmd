@@ -12,6 +12,9 @@ __LittleSnitch__ <br>
 __SwiftText__ <br>
 Quick-access [scratchpad](http://giraffelab.com/swifttext/) for OSX.
 
+__ggthemr__ <br>
+[Themes and palettes for `ggplot2`](https://github.com/cttobin/ggthemr).
+
 <h3 style="color:#EEEEEE"> 20171227 </h3>
 
 __Typely__ <br>
