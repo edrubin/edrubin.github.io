@@ -110,6 +110,13 @@ __Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
 
 ## R scripts
 
+Run R code in terminal without entering R or saving a script. (The `-e` option evaluates the given R expression.)
+
+```{bash, eval = F}
+Rscript -e 'set.seed(12345); x <- rnorm(1e3); mean(x)'
+Rscript -e 'rmarkdown::render_site("research.Rmd")'
+```
+
 Create a nice timeline (shown below) in R's `ggplot2`.
 
 ```{r timeline, echo = F, eval = T, fig.height = 3.5, fig.width = 8.75, fig.retina = 2, dpi = 150, message = F}

@@ -363,6 +363,9 @@ In Progress
 </div>
 <div id="r-scripts" class="section level2">
 <h2>R scripts</h2>
+<p>Run R code in terminal without entering R or saving a script. (The <code>-e</code> option evaluates the given R expression.)</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">Rscript</span> -e <span class="st">&#39;set.seed(12345); x &lt;- rnorm(1e3); mean(x)&#39;</span>
+<span class="ex">Rscript</span> -e <span class="st">&#39;rmarkdown::render_site(&quot;research.Rmd&quot;)&#39;</span></code></pre></div>
 <p>Create a nice timeline (shown below) in R’s <code>ggplot2</code>.</p>
 <p><img src="research_files/figure-html/timeline-1.png" width="1312.5" /></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Setup ----</span>
@@ -379,57 +382,57 @@ secondary_text_color &lt;-<span class="st"> &quot;#757575&quot;</span>
 divider_color        &lt;-<span class="st"> &quot;#BDBDBD&quot;</span>
 
 <span class="co"># Plot the timeline ----</span>
-<span class="kw">ggplot</span>() <span class="op">+</span>
+<span class="kw">ggplot</span>() +
 <span class="st">  </span><span class="co"># Two rectangles</span>
-<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2009</span>, <span class="dt">xmax =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
-    <span class="dt">fill =</span> divider_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xmax =</span> <span class="dv">2014</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
-    <span class="dt">fill =</span> light_primary_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2009</span>, <span class="dt">xmax =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> divider_color) +
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xmax =</span> <span class="dv">2014</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> light_primary_color) +
 <span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2014</span>, <span class="dt">xmax =</span> <span class="dv">2017</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
-    <span class="dt">fill =</span> primary_color) <span class="op">+</span>
+    <span class="dt">fill =</span> primary_color) +
 <span class="st">  </span><span class="co"># Label rectangles (periods)</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2010</span>, <span class="dt">y =</span> <span class="op">-</span><span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period A&quot;</span>,
-    <span class="dt">color =</span> divider_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="fl">2015.5</span>, <span class="dt">y =</span> <span class="op">-</span><span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period B&quot;</span>,
-    <span class="dt">color =</span> primary_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2010</span>, <span class="dt">y =</span> -<span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period A&quot;</span>,
+    <span class="dt">color =</span> divider_color) +
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="fl">2015.5</span>, <span class="dt">y =</span> -<span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period B&quot;</span>,
+    <span class="dt">color =</span> primary_color) +
 <span class="st">  </span><span class="co"># Add ellipses</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2009</span><span class="op">-</span><span class="fl">0.15</span>, <span class="dv">2009</span><span class="op">-</span><span class="fl">0.45</span>, <span class="op">-</span><span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
-    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> divider_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2017</span><span class="op">+</span><span class="fl">0.15</span>, <span class="dv">2017</span><span class="op">+</span><span class="fl">0.45</span>, <span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
-    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> primary_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, -<span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
+    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> divider_color) +
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
+    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> primary_color) +
 <span class="st">  </span><span class="co"># Time axis</span>
-<span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">size =</span> <span class="dv">1</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">size =</span> <span class="dv">1</span>, <span class="dt">color =</span> primary_text_color) +
 <span class="st">  </span><span class="co"># Label time</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2009</span><span class="op">:</span><span class="dv">2017</span>, <span class="dt">y =</span> <span class="op">-</span><span class="fl">0.05</span>, <span class="dt">label =</span> <span class="dv">2009</span><span class="op">:</span><span class="dv">2017</span>,
-    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> secondary_text_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2009</span>:<span class="dv">2017</span>, <span class="dt">y =</span> -<span class="fl">0.05</span>, <span class="dt">label =</span> <span class="dv">2009</span>:<span class="dv">2017</span>,
+    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> secondary_text_color) +
 <span class="st">  </span><span class="co"># Points for events</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dv">2014</span>), <span class="dt">y =</span> <span class="dv">0</span>,
-    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dv">2014</span>), <span class="dt">y =</span> <span class="dv">0</span>,
+    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> primary_text_color) +
 <span class="st">  </span><span class="co"># Label events:</span>
 <span class="st">  </span><span class="co"># First event</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span><span class="op">+</span><span class="fl">0.15</span>, <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
-    <span class="dt">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>,
-    <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span><span class="op">+</span><span class="fl">0.1</span>,
-    <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>,
+    <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011+4</span>/<span class="dv">12</span><span class="fl">+0.1</span>,
+    <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) +
 <span class="st">  </span><span class="co"># Intermediate event</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span><span class="op">+</span><span class="fl">0.15</span>, <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
-    <span class="dt">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>,
-      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span><span class="op">+</span><span class="fl">0.1</span>,
-      <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>,
+      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012+7</span>/<span class="dv">12</span><span class="fl">+0.1</span>,
+      <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) +
 <span class="st">  </span><span class="co"># Period B begins</span>
-<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2014</span><span class="op">+</span><span class="fl">0.15</span>, <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
-    <span class="dt">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="dt">color =</span> primary_text_color) +
 <span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span>,
-      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
-<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span><span class="op">+</span><span class="fl">0.1</span>,
-      <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span>
+      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,
+      <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) +
 <span class="st">  </span><span class="co"># Theme stuff</span>
-<span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span>
-<span class="st">  </span><span class="kw">ylim</span>(<span class="kw">c</span>(<span class="op">-</span><span class="fl">0.15</span>,<span class="dv">1</span>)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_bw</span>() +
+<span class="st">  </span><span class="kw">ylim</span>(<span class="kw">c</span>(-<span class="fl">0.15</span>,<span class="dv">1</span>)) +
 <span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text =</span> <span class="kw">element_blank</span>(), <span class="dt">axis.title =</span> <span class="kw">element_blank</span>(),
     <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.border =</span> <span class="kw">element_blank</span>())</code></pre></div>
