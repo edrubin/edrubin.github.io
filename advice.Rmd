@@ -19,4 +19,5 @@ Potentially helpful pieces of advice...
 
 ## More
 
-[Masayuki Kudamatsu](https://sites.google.com/site/mkudamatsu/tips4economists) links to a bunch of potentially helpful resources.
+- [AEA's mentoring materials](https://www.aeaweb.org/about-aea/committees/cswep/mentoring/reading)
+- [Masayuki Kudamatsu](https://sites.google.com/site/mkudamatsu/tips4economists) links to a bunch of potentially helpful resources.
