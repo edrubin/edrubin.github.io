@@ -4,6 +4,11 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180202 </h3>
+
+__XML Sitemaps__ <br>
+Simple [tool for creating XML sitemaps](https://www.xml-sitemaps.com) (along with other formats).
+
 <h3 style="color:#EEEEEE"> 20180129 </h3>
 
 __Viridis in QGIS__ <br>
