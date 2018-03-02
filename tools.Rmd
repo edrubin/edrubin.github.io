@@ -9,7 +9,7 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 ### Text editing
 
 - Atom
-  - LaTeX
+  - LaTeX/beamer
   - Markdown
   - General scripting/coding (R, Stata, Python, _etc._)
   - Writing
@@ -42,7 +42,7 @@ __Note:__ Numbers above are allegorical.
 
 ### Productivity
 
-- OmniFocus
+- Things
 - Tyme
 - Itsycal
 - Numi
@@ -50,7 +50,7 @@ __Note:__ Numbers above are allegorical.
 - Dropbox
 - Transmit (ftp)
 - ActivityTimer/Timer
-- Canary (email)
+- Spark (email)
 
 <br>
 
@@ -67,6 +67,7 @@ __Note:__ Numbers above are allegorical.
 
 - Spectacle
 - Flux
+- Noizio
 
 <br>
 
@@ -83,9 +84,9 @@ __Note:__ Numbers above are allegorical.
 - __Browser:__ Vivaldi
 - __VPN:__ TunnelBear
 - __Extensions:__
-    - SelectorGadget
-    - HTTPS Everywhere
-    - Adblock Plus
+    - AdGuard AdBlocker
+    - LastPass
     - Markdown Here
     - Save to Pocket
-    - LastPass
+    - SelectorGadget
+    - WikiWand

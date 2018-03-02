@@ -4,6 +4,19 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180301 </h3>
+
+__Things 3__ <br>
+[Personal task manager](https://culturedcode.com/things/). I'm switching from OmniFocus.
+
+__Workflow__ <br>
+[Automation tool](https://workflow.is) for iOS.
+
+<h3 style="color:#EEEEEE"> 20180213 </h3>
+
+__hiri__ <br>
+Clean, powerful [email/calendar/task/contact](https://www.hiri.com) app.
+
 <h3 style="color:#EEEEEE"> 20180202 </h3>
 
 __XML Sitemaps__ <br>
@@ -1190,7 +1203,7 @@ __Transmit__<br>
 Terrific [SFTP-FTP-S3 client](https://panic.com/transmit/) for OSX.
 
 __To-Do Lists__<br>
-I now use ~~[Todoist](https://en.todoist.com/)~~ ~~[Swipes](http://swipesapp.com/)~~ [OmniFocus](https://www.omnigroup.com/omnifocus). In the past, I played with [Wunderlist](https://www.wunderlist.com/) and [Swipes](http://swipesapp.com/) and [Todoist](https://en.todoist.com/) and [TeuxDeux](https://teuxdeux.com) and [Any.Do](https://www.any.do).
+I now use ~~[Todoist](https://en.todoist.com/)~~ ~~[Swipes](http://swipesapp.com/)~~ ~~[OmniFocus](https://www.omnigroup.com/omnifocus)~~ [Things (3)](https://culturedcode.com/things/). In the past, I played with [Wunderlist](https://www.wunderlist.com/) and [Swipes](http://swipesapp.com/) and [Todoist](https://en.todoist.com/) and [TeuxDeux](https://teuxdeux.com) and [Any.Do](https://www.any.do).
 
 __Toggl__<br>
 [Track your time](https://toggl.com/).
