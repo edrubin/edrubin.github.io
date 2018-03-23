@@ -4,6 +4,21 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180320 </h3>
+
+__Teletype for Atom__ <br>
+An [Atom package to collaborate in real time](https://teletype.atom.io).
+
+<h3 style="color:#EEEEEE"> 20180315 </h3>
+
+__`AppleHealthAnalysis`__ <br>
+An [R package to import and analyze data from the iOS Apple Health app](https://github.com/deepankardatta/AppleHealthAnalysis).
+
+<h3 style="color:#EEEEEE"> 20180301 </h3>
+
+__regex-railroad-diagram package__ <br>
+A [regular expression railroad diagram view](https://atom.io/packages/regex-railroad-diagram) for regular expression under cursor in Atom.
+
 <h3 style="color:#EEEEEE"> 20180301 </h3>
 
 __Things 3__ <br>
