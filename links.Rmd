@@ -4,6 +4,11 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180329 </h3>
+
+__Academic Sequitur__ <br>
+A website that [tracks over 90 major economics and finance journals](https://academicsequitur.com).
+
 <h3 style="color:#EEEEEE"> 20180320 </h3>
 
 __Teletype for Atom__ <br>
