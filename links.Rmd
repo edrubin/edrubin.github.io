@@ -4,6 +4,40 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180430 </h3>
+
+__ScreenFocus__ <br>
+Auto-dim (and auto-un-dim) when [working with multiple monitors](http://www.apptorium.com/screenfocus). [h/t](https://www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20180426 </h3>
+
+__Clocker__ <br>
+OSX app to plan and organize [through timezones](https://github.com/abhishekbanthia/Clocker).
+
+__imdone__ <br>
+Atom package that provides a card- and list-based [user interface for `TODO`s in your scripts](https://atom.io/packages/imdone-atom).
+
+__themer__ <br>
+[Generates color themes](https://themer.mjswensen.com) given a set of colors.
+
+<h3 style="color:#EEEEEE"> 20180419 </h3>
+
+__binder__ <br>
+[Turns a GitHub repo into a collection of interactive notebooks](https://mybinder.org). [h/t](http://dlabctawg.github.io)
+
+<h3 style="color:#EEEEEE"> 20180410 </h3>
+
+__Gnotes__ <br>
+Simple [markdown to Evernote](https://notes.giggy.com). Somewhat like [Marxico](https://marxi.co).
+
+__`gsynth`__ <br>
+R package for [generalized synthetic control methods](http://yiqingxu.org/software/gsynth/gsynth_examples.html).
+
+<h3 style="color:#EEEEEE"> 20180406 </h3>
+
+__SuperLearner__ <br>
+R package for a [prediction-model ensembling method](https://github.com/ecpolley/SuperLearner).
+
 <h3 style="color:#EEEEEE"> 20180403 </h3>
 
 __Beautiful AI__ <br>
