@@ -4,6 +4,22 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180516 </h3>
+
+__Figure it Out__ <br>
+Pretty Chrome extension (and website) to [figure out time zones](https://www.fioapp.co).
+
+__grasshopper__ <br>
+Free app that [teaches coding](https://grasshopper.codes).
+
+__txt.fyi__ <br>
+"This is the dumbest [publishing platform on the web](https://txt.fyi)." [h/t](https://www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20180510 </h3>
+
+__Gradescope__ <br>
+[Grading web service](https://gradescope.com) with really nice grading/rubric setup.
+
 <h3 style="color:#EEEEEE"> 20180430 </h3>
 
 __ScreenFocus__ <br>
