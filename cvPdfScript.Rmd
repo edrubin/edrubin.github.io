@@ -40,9 +40,15 @@ render("tmp.Rmd",
     highlight = "pygments",
     pandoc_args = c(
       # "--metadata=author:\"Ed Rubin\"",
-      pandoc_variable_arg("mainfont", "Charter"),
+      # pandoc_variable_arg("mainfont", "Charter"),
+      # pandoc_variable_arg("mainfont", "Georgia"),
+      # pandoc_variable_arg("mainfont", "Avenir"),
+      # pandoc_variable_arg("monofont", "Hack"),
+      # pandoc_variable_arg("fontsize", "10pt")
+      pandoc_variable_arg("mainfont", "Lato"),
       pandoc_variable_arg("monofont", "Hack"),
-      pandoc_variable_arg("fontsize", "10pt")
+      pandoc_variable_arg("fontsize", "10pt"),
+      pandoc_variable_arg("linestretch", "0.9")
       )
     ),
   output_file = "cv.pdf",

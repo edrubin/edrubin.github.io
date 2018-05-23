@@ -5,9 +5,15 @@ title: "CV: Edward A. Rubin"
 [PDF](cv.pdf)
 <br><br>
 
+## Academic Positions
+
+Assistant Professor, University of Oregon, Department of Economics, 2018–present
+
+<br>
+
 ## Education
 
-__(Ongoing)__ Ph.D. candidate, Agricultural and Resource Economics, UC Berkeley, 2013–Present
+__(Ongoing)__ Ph.D. candidate, Agricultural and Resource Economics, UC Berkeley, 2013–2018 (expected)
 
 M.S. Agricultural and Resource Economics, UC Berkeley, 2015
 
@@ -161,8 +167,9 @@ __[Maximilian Auffhammer](https://www.auffhammer.com)__, UC Berkeley
 
 ## Contact
 
-- __email__ edward `ampersat` berkeley `period` edu
+- __email__ edwardr `ampersat` uoregon `period` edu
 - __phone__ (4`oh`2) 3`oh`5-85`six`3
-- __website__ [http://edwardarubin.com](https://edrub.in)
+- __website__ [http://edrub.in](https://edrub.in)
 - __twitter__ [\@edrubin](https://twitter.com/edrubin)
 - __instagram__ [\@edwardarubin](https://instagram.com/edwardarubin/)
+- __github__ [edrubin](https://github.com/edrubin)
