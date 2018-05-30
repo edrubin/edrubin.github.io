@@ -4,6 +4,11 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180524 </h3>
+
+__UberConference__ <br>
+Great, [feature-rich meeting platform](https://www.uberconference.com/features).
+
 <h3 style="color:#EEEEEE"> 20180516 </h3>
 
 __Figure it Out__ <br>

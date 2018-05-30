@@ -203,6 +203,13 @@ My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example
 
 ## Bash
 
+### Pretty CSV scrolling
+
+```{bash, eval = F}
+cat data.csv | column -t -s, | less -S
+```
+Hat tip (and more): [Stefaan Lippens](http://stefaanlippens.net/pretty-csv.html).
+
 ### Git
 
 Remove a file (`your.file`) from Git's cache
