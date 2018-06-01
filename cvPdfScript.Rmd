@@ -12,8 +12,16 @@ cv[grep("<br><br>", cv)] <- ""
 cv %<>%
   # str_replace_all("<br>", "<br>  ") %<>%
   str_replace_all("##", "#") %>%
-  str_replace_all("`oh`", "0") %>%
+  str_replace_all("`zero`", "0") %>%
+  str_replace_all("`one`", "1") %>%
+  str_replace_all("`two`", "2") %>%
+  str_replace_all("`three`", "3") %>%
+  str_replace_all("`four`", "4") %>%
+  str_replace_all("`five`", "5") %>%
   str_replace_all("`six`", "6") %>%
+  str_replace_all("`seven`", "7") %>%
+  str_replace_all("`eight`", "8") %>%
+  str_replace_all("`nine`", "9") %>%
   str_replace_all(" `ampersat` ", "\\@") %>%
   str_replace_all(" `period` ", "\\.")
 
