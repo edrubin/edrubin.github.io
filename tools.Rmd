@@ -42,7 +42,7 @@ __Note:__ Numbers above are allegorical.
 
 ### Productivity
 
-- Things
+- Things 3
 - Tyme
 - Itsycal
 - Numi

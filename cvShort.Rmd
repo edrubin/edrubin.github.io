@@ -61,18 +61,15 @@ __Statistical Modeling and Hydrology in the High Plains Aquifer__
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 
-- University of California, Berkeley: Spring 2017, Spring 2018
-- Doctoral level: taught recitation section and built [section website/notes](http://edrub.in/ARE212/)
+University of California, Berkeley: Spring 2017, Spring 2018
 
 __STAT 380: Statistics and Applications__
 
-- University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013
-- Undergraduate level: sole instructor for the course
+University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013
 
 __STAT 218: Introduction to Statistics__
 
-- University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
-- Undergraduate level: sole instructor for the course
+University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
 
 <br>
 
@@ -94,50 +91,17 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
-<br> World Congress of Environmental Economics (WCERE), June 2018
+__2018__: World Congress of Environmental Economics (WCERE); UC Berkeley, Computational Text Analysis Working Group; University of Oregon, Economics
 
-__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
-<br> UC Berkeley, Computational Text Analysis Working Group, April 2018
+__2017__: IGC-PEDL Workshop at Oxford; Heartland Environmental and Resource Economics Workshop; Berkeley Development Economics Lunch; Camp Resources; AAEA Annual Meeting; UC Berkeley, Summer Econ. Research Seminar; AERE Annual Summer Conference; 22nd Annual POWER Conference on Energy Research and Policy
 
-__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
-<br> University of Oregon, Economics, February 2018
+__2016__: UC Berkeley, Environmental and Resource Economics Seminar
 
-__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
-<br> IGC-PEDL Workshop at Oxford, December 2017
+__2015__: UC Berkeley, Environmental and Resource Economics Seminar
 
-__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
-<br> Heartland Environmental and Resource Economics Workshop, September 2017
+__2013__: University of Nebraska–Lincoln, Statistics Departmental Seminar
 
-__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
-<br> Berkeley Development Economics Lunch, September 2017
-
-__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
-<br> Camp Resources, August 2017
-
-__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
-<br> AAEA Annual Meeting, August 2017
-
-__Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado__
-<br> UC Berkeley, Summer Research Seminar, July 2017
-
-__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
-<br> AERE Annual Summer Conference, June 2017
-
-__Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills__
-<br> 22nd Annual POWER Conference on Energy Research and Policy, March 2017
-
-__Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills__
-<br> UC Berkeley, Environmental and Resource Economics Seminar, November 2016
-
-__(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests__
-<br> UC Berkeley, Environmental and Resource Economics Seminar, April 2015
-
-__Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)__
-<br> University of Nebraska–Lincoln, Statistics Departmental Seminar, March 2013
-
-__Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer__
-<br> International Conference of Agricultural Economists, poster, August 2012
+__2012__: International Conference of Agricultural Economists (poster)
 
 <br>
 

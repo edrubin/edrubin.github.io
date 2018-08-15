@@ -4,6 +4,33 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180815 </h3>
+
+__DeclareDesign__ <br>
+[Declaring and analyzing research designs in the social sciences](https://declaredesign.org).
+
+__R for Data Science__ <br>
+[Online book about R for Data Science](http://r4ds.had.co.nz) by Garrett Grolemund and Haldey Wickham.
+
+<h3 style="color:#EEEEEE"> 20180718 </h3>
+
+__Biblatex Cheat Sheet__ <br>
+A [cheat sheet for Biblatex](CheatSheets/cheatSheetBiblatex.pdf).
+
+__Writing tools for Atom__ <br>
+[linter-write-good](https://atom.io/packages/linter-write-good) lints English prose. [Linter Just Say No](https://atom.io/packages/linter-just-say-no) helps you avoid using hedge words.
+
+<h3 style="color:#EEEEEE"> 20180718 </h3>
+
+__Bib-it__ <br>
+[Compendium of BibTeX](http://bib-it.sourceforge.net/help/fieldsAndEntryTypes.php#techreport) entry and field types.
+
+__Culture Concorde__ <br>
+Simple menu-bar [curated-music player](http://www.cultureconcorde.com). [h/t](https://www.offscreenmag.com)
+
+__Dotgrid__ <br>
+"Minimal [vector drawing tool](https://hundredrabbits.itch.io/dotgrid)". [h/t](https://www.offscreenmag.com)
+
 <h3 style="color:#EEEEEE"> 20180524 </h3>
 
 __UberConference__ <br>

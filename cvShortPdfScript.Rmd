@@ -5,13 +5,14 @@ p_load(stringr, magrittr, rmarkdown)
 setwd("/Users/edwardarubin/Dropbox/Websites/edrubin.github.io")
 
 # Change some characters
-cv <- readLines("cv.Rmd")
+cv <- readLines("cvShort.Rmd")
 # Remove PDF link and its formatting
 cv[grep("\\[PDF\\]", cv)] <- ""
 cv[grep("<br><br>", cv)] <- ""
 cv %<>%
   # str_replace_all("<br>", "<br>  ") %<>%
   str_replace_all("##", "#") %>%
+  str_replace_all("`oh`", "0") %>%
   str_replace_all("`zero`", "0") %>%
   str_replace_all("`one`", "1") %>%
   str_replace_all("`two`", "2") %>%
@@ -34,6 +35,13 @@ cv[grep("-", substr(cv, 1, 1))] %<>% str_replace_all("  ", "")
 # New page above Academic Service section
 # cv[grep("# Academic Service", cv) - 2] <- "\\pagebreak"
 
+# # Add template to YAML
+# cv <- c(
+#   cv[1:(which(cv == "---")[2]-1)],
+#   c("output:", "    pdf document:", "        template: cvTemplate.tex"),
+#   cv[which(cv == "---")[2]:length(cv)]
+# )
+
 # Create the new rmd file
 con <- file("tmp.Rmd")
 writeLines(cv, con)
@@ -46,20 +54,23 @@ render("tmp.Rmd",
     toc = F,
     number_sections = F,
     highlight = "pygments",
+    extra_dependencies = c("sectsty"),
     pandoc_args = c(
       # "--metadata=author:\"Ed Rubin\"",
       # pandoc_variable_arg("mainfont", "Charter"),
       # pandoc_variable_arg("mainfont", "Georgia"),
       # pandoc_variable_arg("mainfont", "Avenir"),
       # pandoc_variable_arg("monofont", "Hack"),
-      # pandoc_variable_arg("fontsize", "10pt")
-      pandoc_variable_arg("mainfont", "Lato"),
-      pandoc_variable_arg("monofont", "Hack"),
       pandoc_variable_arg("fontsize", "10pt"),
+      pandoc_variable_arg("mainfont", "Lato"),
+      # pandoc_variable_arg("sansfont", "Lato"),
+      # pandoc_variable_arg("mainfont", "Bell MT"),
+      # pandoc_variable_arg("monofont", "Hack"),
+      # pandoc_variable_arg("fontsize", "10pt"),
       pandoc_variable_arg("linestretch", "0.9")
       )
     ),
-  output_file = "cvDetailEdRubin.pdf",
+  output_file = "cvEdRubin.pdf",
   output_dir = ".")
 
 # Clean up temporary files
