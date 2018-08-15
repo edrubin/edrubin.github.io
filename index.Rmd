@@ -4,7 +4,11 @@ title: "Ed Rubin"
 
 <img align="right" src="Photos/edFormal2Tall.jpg" width = "300">
 
-### Doctoral student: Applied economics
+<font color="#18BC9C"><h3>
+Assistant Professor of Economics
+<br>
+University of Oregon
+</h3></font>
 
 <br>
 <!-- <br> -->
