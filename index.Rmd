@@ -20,5 +20,10 @@ Ed Rubin is an assistant professor in the [Department of Economics](https://econ
 Ed is a lover of data, (beautiful) graphs, maps, Venn diagrams, and people. He is an avid consumer of pizza, phở, tacos, coffee, and computational power. He is also a bunch of other things.
 
 Please look around and/or [contact Ed](contact.html).
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>You can also
+<a href="" onclick="Calendly.showPopupWidget('https://calendly.com/edwardarubin');return false;">schedule a meeting in office hours</a>.
+<!-- Calendly link widget end -->
 
 <!-- ![](Photos/theoEdRedwoods.jpg) -->
