@@ -66,6 +66,18 @@ with Erin Kelley and [Matthew Pecenco](http://www.matthewpecenco.com)
 
 <br>
 
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> World Congress of Environmental Economics (WCERE), June 2018
+<br><br>
+
+__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
+<br> UC Berkeley, Computational Text Analysis Working Group, April 2018
+<br><br>
+
+__Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California__
+<br> University of Oregon, Economics, February 2018
+<br><br>
+
 __Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination in the marketplace__
 <br> IGC-PEDL Workshop at Oxford, December 2017
 <br><br>
@@ -217,6 +229,11 @@ My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example
 cat data.csv | column -t -s, | less -S
 ```
 Hat tip (and more): [Stefaan Lippens](http://stefaanlippens.net/pretty-csv.html).
+
+For a bit more _raw_ view:
+```{bash, eval = F}
+column -s, -t < data.csv | less -#2 -N -S
+```
 
 ### Git
 

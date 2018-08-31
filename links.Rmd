@@ -4,6 +4,14 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20180830 </h3>
+
+__hey-pane__ <br>
+[Atom extension for enlarging the active panel](https://atom.io/packages/hey-pane) (includes keyboard shortcut).
+
+__typing.io__ <br>
+[Typing practice](https://typing.io) for many programming languages.
+
 <h3 style="color:#EEEEEE"> 20180815 </h3>
 
 __DeclareDesign__ <br>
