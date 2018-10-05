@@ -505,6 +505,8 @@ divider_color        &lt;-<span class="st"> &quot;#BDBDBD&quot;</span>
 </div>
 <div id="miscellany" class="section level3">
 <h3>Miscellany</h3>
+<p>OSX: Show only active apps in the terminal. <a href="https://www.macrumors.com/how-to/macos-dock-show-active-apps/">h/t</a></p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">defaults</span> write com.apple.dock static-only -bool true<span class="kw">;</span> <span class="fu">killall</span> Dock</code></pre></div>
 <p>Kill all processes named “rsession”.</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">killall</span> -m <span class="st">&quot;rsession&quot;</span></code></pre></div>
 <p>Re-index the Spotlight utility.</p>

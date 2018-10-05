@@ -296,6 +296,11 @@ sudo shutdown -h +30
 
 ### Miscellany
 
+OSX: Show only active apps in the terminal. [h/t](https://www.macrumors.com/how-to/macos-dock-show-active-apps/)
+```{bash, eval = F}
+defaults write com.apple.dock static-only -bool true; killall Dock
+```
+
 Kill all processes named "rsession".
 ```{bash, eval = F}
 killall -m "rsession"

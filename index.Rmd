@@ -2,7 +2,8 @@
 title: "Ed Rubin"
 ---
 
-<img align="right" src="Photos/edFormal2Tall.jpg" width = "300">
+<!-- <img align="right" src="Photos/edFormal2Tall.jpg" width = "300"> -->
+<img align="right" src="Photos/edKidsTall.jpg" width = "400" HSPACE = "50">
 
 <font color="#18BC9C"><h3>
 Assistant Professor of Economics

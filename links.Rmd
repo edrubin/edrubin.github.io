@@ -4,6 +4,37 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20181002 </h3>
+
+__Superhuman__ <br>
+Very [fast email client](https://superhuman.com) (based on what they say). [h/t](https://www.densediscovery.com)
+
+<h3 style="color:#EEEEEE"> 20180928 </h3>
+
+__What If__ <br>
+[Tool for inspecting machine-learning models](https://pair-code.github.io/what-if-tool/index.html#intro).
+
+<h3 style="color:#EEEEEE"> 20180925 </h3>
+
+__GeoDa__ <br>
+Free, open-source [geospatial software](https://geodacenter.github.io).
+
+__iTerm2 borderless__ <br>
+[A nice patch](https://github.com/jasonwoodland/iTerm2-borderless) for iTerm2 that creates a more minimal aesthetic for [iTerm2](https://iterm2.com/documentation-shell-integration.html).
+
+__kitty__ <br>
+GPU-based [terminal emulator](https://sw.kovidgoyal.net/kitty/).
+
+<h3 style="color:#EEEEEE"> 20180911 </h3>
+
+__Rbox__ <br>
+R package to [run R in Atom](https://github.com/saeidamiri1/rbox).
+
+<h3 style="color:#EEEEEE"> 20180831 </h3>
+
+__RMarkdown presentation by Yihui Xie__ <br>
+A [presentation](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html) by Yihui Xie on bookdown, blogdown, and xaringan. There are [many more presentations available by Yihui Xie](https://yihui.name/en/vitae/).
+
 <h3 style="color:#EEEEEE"> 20180830 </h3>
 
 __hey-pane__ <br>
