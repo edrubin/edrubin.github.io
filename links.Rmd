@@ -4,6 +4,14 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20181008 </h3>
+
+__ColorBox__ <br>
+Custom [color-scale builder](https://www.colorbox.io). [h/t](https://www.densediscovery.com)
+
+__latex2exp__ <br>
+[R package that converts LaTeX expressions](https://github.com/stefano-meschiari/latex2exp/) to (annoying) plotmath.
+
 <h3 style="color:#EEEEEE"> 20181002 </h3>
 
 __Superhuman__ <br>
