@@ -1,0 +1,15 @@
+---
+title: "Generate CVs"
+---
+
+```{R generate CVs, include = F}
+rmarkdown::render_site("cv.Rmd")
+rmarkdown::render_site("cvPdfScript.Rmd")
+rmarkdown::render_site("cvShort.Rmd")
+rmarkdown::render_site("cvShortPdfScript.Rmd")
+```
+<br><br>
+
+__Detailed CV__: [html](cv.html) | [pdf](cvDetailEdRubin.pdf)
+
+__Condensed CV__: [html](cvShort.html) | [pdf](cvEdRubin.pdf)
