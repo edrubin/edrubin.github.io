@@ -4,6 +4,16 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20181128 </h3>
+
+__pqR__ <br>
+A ["pretty quick" version of R](https://github.com/radfordneal/pqR). [h/t](http://grantmcdermott.com)
+
+<h3 style="color:#EEEEEE"> 20181127 </h3>
+
+__cloudyr__ <br>
+A collection of R packages that [connect R to cloud resources](https://github.com/cloudyr).
+
 <h3 style="color:#EEEEEE"> 20181120 </h3>
 
 __fst__ <br>
