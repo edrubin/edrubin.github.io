@@ -6,8 +6,11 @@ Useful and/or interesting links for research/productivity/fun.<br><br>
 
 <h3 style="color:#EEEEEE"> 20181207 </h3>
 
+__NES.css__ <br>
+NES-style [CSS Framework](https://bcrikko.github.io/NES.css/).
+
 __rayshader__ <br>
-R package for [producing 2D and 3D hillshaded maps of elevation matrices](https://github.com/tylermorganwall/rayshader).
+R package for [producing 2D and 3D hillshaded maps of elevation matrices](https://github.com/tylermorganwall/rayshader). [h/t](http://johnloeser.github.io)
 
 <h3 style="color:#EEEEEE"> 20181205 </h3>
 
