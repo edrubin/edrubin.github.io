@@ -4,6 +4,16 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20181207 </h3>
+
+__rayshader__ <br>
+R package for [producing 2D and 3D hillshaded maps of elevation matrices](https://github.com/tylermorganwall/rayshader).
+
+<h3 style="color:#EEEEEE"> 20181205 </h3>
+
+__iotools__ <br>
+R package for [streaming and data parsing](https://cran.r-project.org/web/packages/iotools/index.html).
+
 <h3 style="color:#EEEEEE"> 20181128 </h3>
 
 __pqR__ <br>
