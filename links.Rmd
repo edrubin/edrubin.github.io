@@ -4,6 +4,19 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20190115 </h3>
+
+__Background Music__ <br>
+[Audio utility](https://github.com/kyleneideck/BackgroundMusic) to automatically pause music and/or mute specific applications.
+
+<h3 style="color:#EEEEEE"> 20181221 </h3>
+
+__drake__ <br>
+R package for [workflow management of data-driven tasks](https://ropensci.github.io/drake/).
+
+__fontawesome package__ <br>
+LaTeX [package to access Font Awesome icons](http://mirror.neu.edu.cn/CTAN/fonts/fontawesome/doc/fontawesome.pdf).
+
 <h3 style="color:#EEEEEE"> 20181207 </h3>
 
 __NES.css__ <br>

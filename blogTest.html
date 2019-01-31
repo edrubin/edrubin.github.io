@@ -23,7 +23,9 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -119,6 +121,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -418,10 +423,10 @@ div.tocify {
 <span class="kw">library</span>(data.table)
 <span class="kw">library</span>(magrittr)
 <span class="co"># Create a data.table</span>
-tmp &lt;-<span class="st"> </span><span class="kw">data.table</span>(<span class="dt">x =</span> <span class="dv">1</span>:<span class="dv">10</span>)
-tmp[, y :<span class="er">=</span><span class="st"> </span>x^<span class="dv">2</span>]
+tmp &lt;-<span class="st"> </span><span class="kw">data.table</span>(<span class="dt">x =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)
+tmp[, y <span class="op">:</span><span class="er">=</span><span class="st"> </span>x<span class="op">^</span><span class="dv">2</span>]
 <span class="co"># Output</span>
-tmp %&gt;%<span class="st"> </span><span class="kw">summary</span>()</code></pre></div>
+tmp <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">summary</span>()</code></pre></div>
 <pre><code>##        x               y         
 ##  Min.   : 1.00   Min.   :  1.00  
 ##  1st Qu.: 3.25   1st Qu.: 10.75  
@@ -437,7 +442,7 @@ tmp %&gt;%<span class="st"> </span><span class="kw">summary</span>()</code></pre
 <div id="more-code" class="section level1">
 <h1>More code</h1>
 <p>More typing. Please.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">paste0</span>(<span class="st">&quot;hello world #&quot;</span>, <span class="dv">1</span>:<span class="dv">10</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">paste0</span>(<span class="st">&quot;hello world #&quot;</span>, <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)</code></pre></div>
 <pre><code>##  [1] &quot;hello world #1&quot;  &quot;hello world #2&quot;  &quot;hello world #3&quot; 
 ##  [4] &quot;hello world #4&quot;  &quot;hello world #5&quot;  &quot;hello world #6&quot; 
 ##  [7] &quot;hello world #7&quot;  &quot;hello world #8&quot;  &quot;hello world #9&quot; 

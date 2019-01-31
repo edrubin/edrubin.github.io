@@ -23,7 +23,9 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -119,6 +121,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -417,13 +422,13 @@ div.tocify {
 <p>The first pair of functions (1a and 1b) are not nested, meaning <code>test1b</code> is not defined within <code>test1a</code>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Define the first function:</span>
 <span class="co"># This function has three arguments and calls the next function</span>
-test1a &lt;-<span class="st"> </span>function(x, y, z){
+test1a &lt;-<span class="st"> </span><span class="cf">function</span>(x, y, z){
     <span class="kw">test1b</span>(x)
 }
 <span class="co"># Define the second function:</span>
 <span class="co"># This function uses x, y, and z, but it only takes x as an argument</span>
-test1b &lt;-<span class="st"> </span>function(x){
-    <span class="kw">print</span>(<span class="kw">rep</span>(x, y *<span class="st"> </span>z))
+test1b &lt;-<span class="st"> </span><span class="cf">function</span>(x){
+    <span class="kw">print</span>(<span class="kw">rep</span>(x, y <span class="op">*</span><span class="st"> </span>z))
 }
 <span class="co"># Run the function &#39;test1a&#39;</span>
 <span class="kw">test1a</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</code></pre></div>
@@ -437,11 +442,11 @@ test1b &lt;-<span class="st"> </span>function(x){
 <p>Simply define the second (b) function inside of the first (a) function.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Define the first function:</span>
 <span class="co"># This function has three arguments and calls the next function</span>
-test2a &lt;-<span class="st"> </span>function(x, y, z){
+test2a &lt;-<span class="st"> </span><span class="cf">function</span>(x, y, z){
   <span class="co"># Define the second function:</span>
   <span class="co"># This function uses x, y, and z, but it only takes x as an argument</span>
-  test2b &lt;-<span class="st"> </span>function(x){
-      <span class="kw">print</span>(<span class="kw">rep</span>(x, y *<span class="st"> </span>z))
+  test2b &lt;-<span class="st"> </span><span class="cf">function</span>(x){
+      <span class="kw">print</span>(<span class="kw">rep</span>(x, y <span class="op">*</span><span class="st"> </span>z))
   }
   <span class="kw">test2b</span>(x)
 }
@@ -457,13 +462,13 @@ test2a &lt;-<span class="st"> </span>function(x, y, z){
 <p>The fix: pass all three arguments from the first (a) function to the second (b) function.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Define the first function:</span>
 <span class="co"># This function has three arguments and calls the next function</span>
-test3a &lt;-<span class="st"> </span>function(x, y, z){
+test3a &lt;-<span class="st"> </span><span class="cf">function</span>(x, y, z){
     <span class="kw">test3b</span>(x, y, z)
 }
 <span class="co"># Define the second function:</span>
 <span class="co"># This function uses x, y, and z, but it only takes x as an argument</span>
-test3b &lt;-<span class="st"> </span>function(x, y, z){
-    <span class="kw">print</span>(<span class="kw">rep</span>(x, y *<span class="st"> </span>z))
+test3b &lt;-<span class="st"> </span><span class="cf">function</span>(x, y, z){
+    <span class="kw">print</span>(<span class="kw">rep</span>(x, y <span class="op">*</span><span class="st"> </span>z))
 }
 <span class="co"># Run the function &#39;test3a&#39;</span>
 <span class="kw">test3a</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</code></pre></div>

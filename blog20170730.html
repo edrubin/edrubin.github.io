@@ -23,7 +23,9 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -119,6 +121,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -425,9 +430,9 @@ div.tocify {
 <span class="kw">library</span>(dplyr)
 <span class="kw">library</span>(stringr)
 <span class="co"># Count your lines of R code</span>
-<span class="kw">list.files</span>(<span class="dt">path =</span> <span class="st">&quot;/Users/&quot;</span>, <span class="dt">recursive =</span> T, <span class="dt">full.names =</span> T) %&gt;%
-<span class="st">  </span><span class="kw">str_subset</span>(<span class="st">&quot;[.][R]$&quot;</span>) %&gt;%
-<span class="st">  </span><span class="kw">sapply</span>(function(x) x %&gt;%<span class="st"> </span><span class="kw">readLines</span>() %&gt;%<span class="st"> </span><span class="kw">length</span>()) %&gt;%
+<span class="kw">list.files</span>(<span class="dt">path =</span> <span class="st">&quot;/Users/&quot;</span>, <span class="dt">recursive =</span> T, <span class="dt">full.names =</span> T) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">str_subset</span>(<span class="st">&quot;[.][R]$&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">sapply</span>(<span class="cf">function</span>(x) x <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">readLines</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">length</span>()) <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">sum</span>()</code></pre></div>
 <pre><code>## [1] 95349</code></pre>
 <p>Boom! Not bad, but also not a million. Yet.</p>

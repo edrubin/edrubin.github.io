@@ -23,7 +23,9 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -119,6 +121,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -442,7 +447,7 @@ dir_shp &lt;-<span class="st"> </span><span class="kw">paste0</span>(dir_spatial
 <h3>Load/subset</h3>
 <p>Let’s load the shapefile.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Download/load US shapefile</span>
-<span class="co"># TODO</span>
+<span class="co"># </span><span class="al">TODO</span>
 us_shp &lt;-<span class="st"> </span><span class="kw">readOGR</span>(<span class="dt">dsn =</span> dir_shp, <span class="dt">layer =</span> <span class="st">&quot;gz_2010_us_050_00_500k&quot;</span>)</code></pre></div>
 <pre><code>## OGR data source with driver: ESRI Shapefile 
 ## Source: &quot;/Users/edwardarubin/Dropbox/Research/MyProjects/NaturalGas/DataSpatial/gz_2010_us_050_00_500k&quot;, layer: &quot;gz_2010_us_050_00_500k&quot;
@@ -450,7 +455,7 @@ us_shp &lt;-<span class="st"> </span><span class="kw">readOGR</span>(<span class
 ## It has 6 fields</code></pre>
 <p>To improve visualization, I am going to drop Alaska, Hawaii, and Puerto Rice using <code>subset()</code>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Remove Alaska, Hawaii, and Puerto Rico</span>
-us_shp %&lt;&gt;%<span class="st"> </span><span class="kw">subset</span>(!(STATE %in%<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;02&quot;</span>, <span class="st">&quot;15&quot;</span>, <span class="st">&quot;72&quot;</span>)))</code></pre></div>
+us_shp <span class="op">%&lt;&gt;%</span><span class="st"> </span><span class="kw">subset</span>(<span class="op">!</span>(STATE <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;02&quot;</span>, <span class="st">&quot;15&quot;</span>, <span class="st">&quot;72&quot;</span>)))</code></pre></div>
 </div>
 <div id="simplify" class="section level3">
 <h3>Simplify</h3>
@@ -475,11 +480,11 @@ us25_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_sh
 <p>For the task of converting from shapefile to data table, I am going to use the <code>tidy()</code> function from the <code>broom</code> package.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Convert shapefiles to data tables</span>
 <span class="co"># &#39;tidy&#39; each of the shapefiles for plotting with &#39;ggplot&#39;</span>
-us01_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us01_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
-us05_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us05_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
-us10_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us10_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
-us25_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us25_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()
-us_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) %&gt;%<span class="st"> </span><span class="kw">data.table</span>()</code></pre></div>
+us01_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us01_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()
+us05_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us05_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()
+us10_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us10_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()
+us25_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us25_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()
+us_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</code></pre></div>
 </div>
 <div id="compare-numbers" class="section level3">
 <h3>Compare numbers</h3>
@@ -508,105 +513,105 @@ us_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us_shp, <span c
 <h3>Compare graphs</h3>
 <p>Finally, let’s compare the sampling results for the one-percent sample and the full sample. For the sake of visualization, I am going to start by focusing on the great state of Nebraska (FIPS code 31).</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
-<span class="kw">ggplot</span>() +
+<span class="kw">ggplot</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
-<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
-<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) +
-<span class="st">  </span><span class="kw">theme_minimal</span>() +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(
     <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
     <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
-    ) +
+    ) <span class="op">+</span>
 <span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="dv">41</span>)</code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20ne-1.png" width="672" /></p>
 <p>Not bad, eh? The 1-percent sample (plotted on top in yellow) cuts a few corners, but on the whole, it’s quite accurate relative to the full shapefile (the bottom layer in dark blue)—you definitely get the picture, which is probably the point of visualization. This use case (counties in Nebraska) may be particularly nice for the function, since many counties in Western-ish states like Nebraska are quite rectangular. You can see the 1-percent sample does a bit worse around Nebraska’s eastern edge, where the border is defined by the meandering Missouri River, rather than latitudes and longitudes.</p>
 <p>Now let’s zoom out to the whole country.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
-<span class="kw">ggplot</span>() +
+<span class="kw">ggplot</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
-<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
-<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) +
-<span class="st">  </span><span class="kw">theme_minimal</span>() +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(
     <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
     <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
-    ) +
+    ) <span class="op">+</span>
 <span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%201-1.png" width="672" /></p>
 <p>Still pretty pretty good! Keep in mind, this comparison is between a 1-percent sample and the full sample. The 1-percent sample is missing some islands and struggles a bit on peninsulas/coasts, but overall, I’d say it is pretty good.</p>
 <p>Before we quit, let’s check out the other samples.</p>
 <p>First, the five-percent sample.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
-<span class="kw">ggplot</span>() +
+<span class="kw">ggplot</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us05_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
-<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
-<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 5-percent sample and the full shapefile&quot;</span>) +
-<span class="st">  </span><span class="kw">theme_minimal</span>() +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 5-percent sample and the full shapefile&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(
     <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
     <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
-    ) +
+    ) <span class="op">+</span>
 <span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%205-1.png" width="672" /></p>
 <p>Now, the ten-percent sample.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
-<span class="kw">ggplot</span>() +
+<span class="kw">ggplot</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us10_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
-<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
-<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 10-percent sample and the full shapefile&quot;</span>) +
-<span class="st">  </span><span class="kw">theme_minimal</span>() +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 10-percent sample and the full shapefile&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(
     <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
     <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
-    ) +
+    ) <span class="op">+</span>
 <span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%2010-1.png" width="672" /></p>
 <p>Finally, the twenty-five percent sample.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Plot</span>
-<span class="kw">ggplot</span>() +
+<span class="kw">ggplot</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us25_dt,
     <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],
-    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) +
-<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) +<span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) +
-<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 25-percent sample and the full shapefile&quot;</span>) +
-<span class="st">  </span><span class="kw">theme_minimal</span>() +
+    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span>
+<span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 25-percent sample and the full shapefile&quot;</span>) <span class="op">+</span>
+<span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(
     <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),
     <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),
     <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()
-    ) +
+    ) <span class="op">+</span>
 <span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%2025-1.png" width="672" /></p>
 </div>

@@ -44,6 +44,7 @@ __Do aerially applied pesticides affect local air quality? Empirical evidence fr
 
 __The economic impact of critical-habitat designation: Evidence from vacant-land transactions__
 <br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding
+<br> R&R
 
 <br>
 
@@ -152,6 +153,11 @@ __Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquife
 
 ## Academic Service
 
+__Graduate students:__ Kyle Wilson (UO, committee member)
+
+__Other__
+
+- Founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
 - Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
 - Organized biweekly (twice per week) departmental lunches (UCB)
 - Organized third-year research workshop (UCB)
