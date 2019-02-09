@@ -43,6 +43,16 @@ In 2016 natural gas became the United States' primary source of energy for elect
 
 [draft](Papers/paperNaturalGas.pdf) | [slides](Slides/slidesNaturalGas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png)
 
+<center>
+```{r, out.width = "65%", echo = F}
+knitr::include_graphics(c(
+  # "Figures/NaturalGas/mapPipeline.png",
+  "Figures/NaturalGas/studyMaps.png",
+  # "Figures/AirQualityEstimates/map_county_monitors_2005.png",
+  NULL
+))
+```
+</center>
 <br>
 
 #### __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
