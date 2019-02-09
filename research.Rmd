@@ -14,6 +14,25 @@ title: "Ed Rubin: Research"
 
 ---
 
+#### __Bringing Satellite-Based Air-Quality Estimates Down to Earth__
+
+with [Meredith Fowlie](https://www.meredithfowlie.com) and [Reed Walker](https://w-reed-walker.com)
+
+NBER Working Paper | Paper Forthcoming
+
+We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to which the EPA's existing, monitor-based measurements over- or under-estimate true exposure to PM2.5 pollution. Treating satellite-based estimates as truth implies a substantial number of "policy errors"—over-regulating areas that comply with air quality standards and under-regulating other areas that appear to violate standards. We investigate the health implications of these apparent errors and highlight the importance of accounting for prediction error in satellite-based estimates. Uncertainty in "policy errors" increases substantially when we account for these underlying prediction errors.
+
+```{r, out.width = "50%", echo = F}
+knitr::include_graphics(c(
+  "Figures/AirQualityEstimates/box_cbg_di_2003_2007.png",
+  "Figures/AirQualityEstimates/map_di_2005.png",
+  # "Figures/AirQualityEstimates/map_county_monitors_2005.png",
+  NULL
+))
+```
+
+<br>
+
 #### __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills__
 
 with [Maximilian Auffhammer](http://www.auffhammer.com)
