@@ -75,9 +75,17 @@ The Endangered Species Act (ESA) requires the federal government to designate cr
 
 <br>
 
+```{r, out.width = "65%", echo = F, fig.align = "center"}
+knitr::include_graphics(c(
+  "Figures/CriticalHabitat/rlf_logprice_2006_raw.png"
+))
+```
+
 <font color="#18BC9C"><h2>In Progress</h2></font>
 
 ---
+
+#### __Updating our understanding of exposure and access: Using cellphone movement data to reduce mismeasurement and bias__
 
 #### __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 
