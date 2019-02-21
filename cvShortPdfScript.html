@@ -317,29 +317,29 @@ cv &lt;-<span class="st"> </span><span class="kw">readLines</span>(<span class="
 <span class="co"># Remove PDF link and its formatting</span>
 cv[<span class="kw">grep</span>(<span class="st">&quot;</span><span class="ch">\\</span><span class="st">[PDF</span><span class="ch">\\</span><span class="st">]&quot;</span>, cv)] &lt;-<span class="st"> &quot;&quot;</span>
 cv[<span class="kw">grep</span>(<span class="st">&quot;&lt;br&gt;&lt;br&gt;&quot;</span>, cv)] &lt;-<span class="st"> &quot;&quot;</span>
-cv <span class="op">%&lt;&gt;%</span>
+cv %&lt;&gt;%
 <span class="st">  </span><span class="co"># str_replace_all(&quot;&lt;br&gt;&quot;, &quot;&lt;br&gt;  &quot;) %&lt;&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;##&quot;</span>, <span class="st">&quot;#&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`oh`&quot;</span>, <span class="st">&quot;0&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`zero`&quot;</span>, <span class="st">&quot;0&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`one`&quot;</span>, <span class="st">&quot;1&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`two`&quot;</span>, <span class="st">&quot;2&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`three`&quot;</span>, <span class="st">&quot;3&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`four`&quot;</span>, <span class="st">&quot;4&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`five`&quot;</span>, <span class="st">&quot;5&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`six`&quot;</span>, <span class="st">&quot;6&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`seven`&quot;</span>, <span class="st">&quot;7&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`eight`&quot;</span>, <span class="st">&quot;8&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`nine`&quot;</span>, <span class="st">&quot;9&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot; `ampersat` &quot;</span>, <span class="st">&quot;</span><span class="ch">\\</span><span class="st">@&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;##&quot;</span>, <span class="st">&quot;#&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`oh`&quot;</span>, <span class="st">&quot;0&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`zero`&quot;</span>, <span class="st">&quot;0&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`one`&quot;</span>, <span class="st">&quot;1&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`two`&quot;</span>, <span class="st">&quot;2&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`three`&quot;</span>, <span class="st">&quot;3&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`four`&quot;</span>, <span class="st">&quot;4&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`five`&quot;</span>, <span class="st">&quot;5&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`six`&quot;</span>, <span class="st">&quot;6&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`seven`&quot;</span>, <span class="st">&quot;7&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`eight`&quot;</span>, <span class="st">&quot;8&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot;`nine`&quot;</span>, <span class="st">&quot;9&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot; `ampersat` &quot;</span>, <span class="st">&quot;</span><span class="ch">\\</span><span class="st">@&quot;</span>) %&gt;%
 <span class="st">  </span><span class="kw">str_replace_all</span>(<span class="st">&quot; `period` &quot;</span>, <span class="st">&quot;</span><span class="ch">\\</span><span class="st">.&quot;</span>)
 
 <span class="co"># Add two spaces at the end of lines</span>
-cv <span class="op">%&lt;&gt;%</span><span class="st"> </span><span class="kw">paste0</span>(<span class="st">&quot;  &quot;</span>)
+cv %&lt;&gt;%<span class="st"> </span><span class="kw">paste0</span>(<span class="st">&quot;  &quot;</span>)
 <span class="co"># Remove unnecessary line breaks</span>
-cv[<span class="kw">grep</span>(<span class="st">&quot;#&quot;</span>, cv) <span class="op">-</span><span class="st"> </span><span class="dv">2</span>] &lt;-<span class="st"> &quot;  &quot;</span>
+cv[<span class="kw">grep</span>(<span class="st">&quot;#&quot;</span>, cv) -<span class="st"> </span><span class="dv">2</span>] &lt;-<span class="st"> &quot;  &quot;</span>
 <span class="co"># Remove two spaces from lists</span>
-cv[<span class="kw">grep</span>(<span class="st">&quot;-&quot;</span>, <span class="kw">substr</span>(cv, <span class="dv">1</span>, <span class="dv">1</span>))] <span class="op">%&lt;&gt;%</span><span class="st"> </span><span class="kw">str_replace_all</span>(<span class="st">&quot;  &quot;</span>, <span class="st">&quot;&quot;</span>)
+cv[<span class="kw">grep</span>(<span class="st">&quot;-&quot;</span>, <span class="kw">substr</span>(cv, <span class="dv">1</span>, <span class="dv">1</span>))] %&lt;&gt;%<span class="st"> </span><span class="kw">str_replace_all</span>(<span class="st">&quot;  &quot;</span>, <span class="st">&quot;&quot;</span>)
 <span class="co"># New page above Academic Service section</span>
 <span class="co"># cv[grep(&quot;# Academic Service&quot;, cv) - 2] &lt;- &quot;\\pagebreak&quot;</span>
 
@@ -390,7 +390,7 @@ con &lt;-<span class="st"> </span><span class="kw">file</span>(<span class="st">
   |.................................................................| 100%
 ##   ordinary text without R code</code></pre>
 <pre><code>## output file: tmp.knit.md</code></pre>
-<pre><code>## /Applications/RStudio.app/Contents/MacOS/pandoc/pandoc +RTS -K512m -RTS tmp.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style pygments --latex-engine xelatex --variable graphics=yes --variable fontsize=10pt --variable mainfont=Lato --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --variable &#39;compact-title:yes&#39; --include-in-header /var/folders/vg/54lzhglj26sgt9278lmnq3bc0000gn/T//Rtmpz5CmwP/rmarkdown-str139d6ec31e2d.html</code></pre>
+<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --template /Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style pygments --latex-engine xelatex --variable graphics=yes --variable fontsize=10pt --variable mainfont=Lato --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --variable &#39;compact-title:yes&#39; --include-in-header /var/folders/vg/54lzhglj26sgt9278lmnq3bc0000gn/T//RtmpGhR1JT/rmarkdown-str94b6e9b87b4.html</code></pre>
 <pre><code>## 
 ## Output created: cvEdRubin.pdf</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Clean up temporary files</span>
