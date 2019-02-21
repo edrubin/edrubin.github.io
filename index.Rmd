@@ -27,4 +27,6 @@ Please look around and/or [contact Ed](contact.html).
 <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/edwardarubin');return false;">schedule a meeting in office hours</a>.
 <!-- Calendly link widget end -->
 
+Ed also started [TWEEDS](https://tweeds.io)—The Workshop in Environmental Economics and Data Science—with help from [some friends](https://tweeds.io/about/).
+
 <!-- ![](Photos/theoEdRedwoods.jpg) -->

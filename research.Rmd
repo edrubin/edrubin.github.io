@@ -18,9 +18,9 @@ title: "Ed Rubin: Research"
 
 with [Meredith Fowlie](https://www.meredithfowlie.com) and [Reed Walker](https://w-reed-walker.com)
 
-NBER Working Paper | Paper Forthcoming
-
 We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to which the EPA's existing, monitor-based measurements over- or under-estimate true exposure to PM2.5 pollution. Treating satellite-based estimates as truth implies a substantial number of "policy errors"—over-regulating areas that comply with air quality standards and under-regulating other areas that appear to violate standards. We investigate the health implications of these apparent errors and highlight the importance of accounting for prediction error in satellite-based estimates. Uncertainty in "policy errors" increases substantially when we account for these underlying prediction errors.
+
+[NBER Working Paper No. 25560](https://www.nber.org/papers/w25560) | Paper Forthcoming
 
 ```{r, out.width = "50%", echo = F}
 knitr::include_graphics(c(
@@ -86,6 +86,8 @@ knitr::include_graphics(c(
 ---
 
 #### __Updating our understanding of exposure and access: Using cellphone movement data to reduce mismeasurement and bias__
+
+<br>
 
 #### __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 
