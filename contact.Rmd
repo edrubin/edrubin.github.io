@@ -20,7 +20,7 @@ __Instagram:__ [\@edwardarubin](https://instagram.com/edwardarubin/)
 
 <br>
 
-```{R, echo = F}
+```{R, echo = F, out.width = "90%"}
 pacman::p_load(leaflet)
 greenLeafIcon <- makeIcon(
   iconUrl = "http://leafletjs.com/examples/custom-icons/leaf-green.png",

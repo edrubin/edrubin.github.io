@@ -34,13 +34,16 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 ## Working Papers
 
 __[Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California](Papers/paperNaturalGas.pdf)__
-<br> Maximilian Auffhammer and Ed Rubin
+<br> Maximilian Auffhammer and Edward Rubin
+
+__[Bringing Satellite-Based Air-Quality Estimates Down to Earth](Papers/nberSatellitePM.pdf)__
+<br> Meredith Fowlie, Edward Rubin, and Reed Walker
 
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
-<br> Ed Rubin
+<br> Edward Rubin
 
 __Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley__
-<br> Ed Rubin
+<br> Edward Rubin
 
 __The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions__
 <br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding
@@ -50,17 +53,21 @@ __The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land
 ## Research in Progress
 
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
-<br> Ed Rubin
+<br> Edward Rubin
 
 __Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination__
-<br> Erin Kelley, Matthew Pecenco, and Ed Rubin
+<br> Erin Kelley, Matthew Pecenco, and Edward Rubin
 
 __Statistical Modeling and Hydrology in the High Plains Aquifer__
-<br> Ed Rubin, Richard Perrin, and Lilyan Fulginiti
+<br> Edward Rubin, Richard Perrin, and Lilyan Fulginiti
 
 <br>
 
 ## Teaching
+
+__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421W19)__
+
+University of Oregon: Winter 2019
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 

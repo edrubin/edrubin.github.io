@@ -36,6 +36,9 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 __[Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California](Papers/paperNaturalGas.pdf)__
 <br> Maximilian Auffhammer and Ed Rubin
 
+__[Bringing Satellite-Based Air-Quality Estimates Down to Earth](Papers/nberSatellitePM.pdf)__
+<br> Meredith Fowlie, Edward Rubin, and Reed Walker
+
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 <br> Ed Rubin
 
@@ -62,6 +65,11 @@ __Statistical Modeling and Hydrology in the High Plains Aquifer__
 <br>
 
 ## Teaching
+
+__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421W19)__
+
+- University of Oregon: Winter 2019
+- Undergraduate level
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 
