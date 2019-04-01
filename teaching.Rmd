@@ -8,9 +8,9 @@ title: "Ed Rubin: Teaching"
 
 ## Current
 
-### [EC 525/425: PhD Econometrics (III)](https://github.com/edrubin/EC525S19)
+__[EC 525/425: PhD Econometrics (III)](https://github.com/edrubin/EC525S19)__
 
-### [EC 421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)
+__[EC 421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
 
 ## Economics
 
@@ -22,6 +22,8 @@ University of Oregon
 
 Instructor
 
+<br>
+
 __[EC 421](https://github.com/edrubin/EC421W19): Introduction to Econometrics (II)__
 
 [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
@@ -29,6 +31,8 @@ __[EC 421](https://github.com/edrubin/EC421W19): Introduction to Econometrics (I
 University of Oregon
 
 Instructor
+
+<br>
 
 __[ARE 212](https://edrub.in/ARE212): Econometrics - Multiple Equation Estimation__
 
