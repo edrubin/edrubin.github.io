@@ -4,6 +4,22 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20190326 </h3>
+
+__Makepad__ <br>
+(Online) [project management for single users](https://makepad.live/)—no team features.
+
+<h3 style="color:#EEEEEE"> 20190319 </h3>
+
+__Firefox Send__ <br>
+[Send files](https://send.firefox.com/) up to 2.5GB (1GB without signing in). [h/t](https://www.densediscovery.com/)
+
+__TAYL__ <br>
+[Turn text articles into podcasts](https://www.tayl.app/). [h/t](https://www.densediscovery.com/)
+
+__Workbench__ <br>
+[Code-free data sharing and analysis platform](http://workbenchdata.com/).
+
 <h3 style="color:#EEEEEE"> 20190219 </h3>
 
 __Marvin__ <br>

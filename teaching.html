@@ -20,9 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -82,6 +81,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -96,7 +98,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -116,6 +117,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -137,18 +175,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -271,33 +368,21 @@ $(document).ready(function () {
 <h1></h1>
 <div id="current" class="section level2">
 <h2>Current</h2>
+<div id="ec-525425-phd-econometrics-iii" class="section level3">
+<h3><a href="https://github.com/edrubin/EC525S19">EC 525/425: PhD Econometrics (III)</a></h3>
+</div>
 <div id="ec-421-introduction-to-econometrics-ii" class="section level3">
-<h3><a href="https://github.com/edrubin/EC421W19">EC 421: Introduction to Econometrics (II)</a></h3>
-<p>For information on the course specifics, please see the <a href="https://raw.githack.com/edrubin/EC421W19/master/Syllabus/syllabus.pdf">syllabus</a>.</p>
-<div id="lecture-slides" class="section level4">
-<h4>Lecture slides</h4>
-<p>The slides below (linked by their topic) are .html files that will only work properly if you are connected to the internet. If you’re going off grid, grab the PDFs (you’ll miss out on gifs and interactive plots, but the equations will render correctly). I create the slides with <a href="https://github.com/yihui/xaringan/wiki"><code>xaringan</code></a> in <a href="cran.r-project.org">R</a>. Thanks go to <a href="grantmcdermott.com/">Grant McDermott</a> for helping/pushing me to get going with <code>xaringan</code>.</p>
-<ol style="list-style-type: decimal">
-<li><a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/01Intro/01_intro.html">The introduction to “Introduction to Econometrics”</a> | <a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/01Intro/01_intro.pdf">PDF</a> | <a href="https://github.com/edrubin/EC421W19/blob/master/LectureNotes/01Intro/01_intro.Rmd">.Rmd</a></li>
-<li><a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/02Review/02_review.html">Review of key math/stat/metrics topics</a>: density functions, deriving the OLS estimators, properties of estimators, statistical inference (standard errors, confidence intervals, hypothesis testing), simulation | <a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/02Review/02_review.pdf">PDF</a> | <a href="https://github.com/edrubin/EC421W19/blob/master/LectureNotes/02Review/02_review.Rmd">.Rmd</a></li>
-<li><a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/03Review/03_review.html">Review of key topics from EC320</a> (the first course in our intro-to-metrics sequence) | <a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/03Review/03_review.pdf">PDF</a> | <a href="https://github.com/edrubin/EC421W19/blob/master/LectureNotes/03Review/03_review.Rmd">.Rmd</a></li>
-<li><a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/04Heteroskedasticity/04_heteroskedasticity.html">Heteroskedasticity: Test and implications</a> | <a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/04Heteroskedasticity/04_heteroskedasticity.pdf">PDF</a> | <a href="https://github.com/edrubin/EC421W19/blob/master/LectureNotes/04Heteroskedasticity/04_heteroskedasticity.Rmd">.Rmd</a></li>
-<li><a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/05Heteroskedasticity/05_heteroskedasticity.html">Living with heteroskedasticity: Inference, WLS, and specification</a> | <a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/05Heteroskedasticity/05_heteroskedasticity.pdf">PDF</a> | <a href="https://github.com/edrubin/EC421W19/blob/master/LectureNotes/05Heteroskedasticity/05_heteroskedasticity.Rmd">.Rmd</a></li>
-<li><a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/06Consistency/06_consistency.html">Consistency and OLS in asymptopia</a> | <a href="https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/06Consistency/06_consistency.pdf">PDF</a> | <a href="https://github.com/edrubin/EC421W19/blob/master/LectureNotes/06Consistency/06_consistency.Rmd">.Rmd</a></li>
-</ol>
-</div>
-<div id="problem-sets" class="section level4">
-<h4>Problem sets</h4>
-<ol style="list-style-type: decimal">
-<li><a href="https://raw.githack.com/edrubin/EC421W19/master/ProblemSets/PS01/ps01.html">Problem set 1: Review of OLS</a> | <a href="https://raw.githack.com/edrubin/EC421W19/master/ProblemSets/PS01/ps01.pdf">PDF</a> | <a href="https://raw.githack.com/edrubin/EC421W19/master/ProblemSets/PS01/dataPS01.csv">Data</a></li>
-</ol>
-</div>
+<h3><a href="https://github.com/edrubin/EC421S19">EC 421: Introduction to Econometrics (II)</a></h3>
 </div>
 </div>
 <div id="economics" class="section level2">
 <h2>Economics</h2>
+<p><strong><a href="https://github.com/edrubin/EC525S19">EC 525/425</a>: PhD Econometrics (III)</strong></p>
+<p><a href="https://github.com/edrubin/EC421S19">Spring 2019</a></p>
+<p>University of Oregon</p>
+<p>Instructor</p>
 <p><strong><a href="https://github.com/edrubin/EC421W19">EC 421</a>: Introduction to Econometrics (II)</strong></p>
-<p>Winter 2019</p>
+<p><a href="https://github.com/edrubin/EC421S19">Spring 2019</a>; <a href="https://github.com/edrubin/EC421W19">Winter 2019</a></p>
 <p>University of Oregon</p>
 <p>Instructor</p>
 <p><strong><a href="https://edrub.in/ARE212">ARE 212</a>: Econometrics - Multiple Equation Estimation</strong></p>
