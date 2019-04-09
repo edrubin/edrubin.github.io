@@ -65,21 +65,20 @@ __Statistical Modeling and Hydrology in the High Plains Aquifer__
 
 ## Teaching
 
-__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421W19)__
+__[EC525: Econometrics (III)](https://github.com/edrubin/EC525S19)__
+<br>University of Oregon: Spring 2019
 
-University of Oregon: Winter 2019
+__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421W19)__
+<br>University of Oregon: Spring 2019, Winter 2019
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
-
-University of California, Berkeley: Spring 2017, Spring 2018
+<br>University of California, Berkeley: Spring 2017, Spring 2018
 
 __STAT 380: Statistics and Applications__
-
-University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013
+<br>University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013
 
 __STAT 218: Introduction to Statistics__
-
-University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
+<br>University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
 
 <br>
 

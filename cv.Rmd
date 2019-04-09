@@ -66,9 +66,14 @@ __Statistical Modeling and Hydrology in the High Plains Aquifer__
 
 ## Teaching
 
-__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421W19)__
+__[EC425/525: Econometrics (III)](https://github.com/edrubin/EC525S19)__
 
-- University of Oregon: Winter 2019
+- University of Oregon: [Spring 2019](https://github.com/edrubin/EC525S19)
+- Doctoral level
+
+__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
+
+- University of Oregon: [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
 - Undergraduate level
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__

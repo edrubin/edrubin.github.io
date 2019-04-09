@@ -8,56 +8,45 @@ title: "Ed Rubin: Teaching"
 
 ## Current
 
-__[EC 525/425: PhD Econometrics (III)](https://github.com/edrubin/EC525S19)__
+__[EC 525/425](https://github.com/edrubin/EC525S19)__
+<br>PhD Econometrics (III) taught with R
+<br>[Github repo](https://github.com/edrubin/EC525S19)
 
-__[EC 421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
+__[EC 421](https://github.com/edrubin/EC421S19)__
+<br>Introduction to Econometrics (II) taught with R
+<br>[Github repo](https://github.com/edrubin/EC421S19)
 
 ## Economics
 
 __[EC 525/425](https://github.com/edrubin/EC525S19): PhD Econometrics (III)__
-
-[Spring 2019](https://github.com/edrubin/EC421S19)
-
-University of Oregon
-
-Instructor
+<br>[Spring 2019](https://github.com/edrubin/EC421S19)
+<br>University of Oregon
+<br>Instructor
 
 <br>
 
 __[EC 421](https://github.com/edrubin/EC421W19): Introduction to Econometrics (II)__
-
-[Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
-
-University of Oregon
-
-Instructor
+<br>[Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
+<br>University of Oregon
+<br>Instructor
 
 <br>
 
 __[ARE 212](https://edrub.in/ARE212): Econometrics - Multiple Equation Estimation__
-
-[Spring 2017](https://edrub.in/ARE212/Spring2017/notes.html); [Spring 2018](https://edrub.in/ARE212)
-
-UC Berkeley
-
-GSI for [Dr. Maximilian Auffhammer](http://www.auffhammer.com)
+<br>[Spring 2017](https://edrub.in/ARE212/Spring2017/notes.html); [Spring 2018](https://edrub.in/ARE212)
+<br>UC Berkeley
+<br>GSI for [Dr. Maximilian Auffhammer](http://www.auffhammer.com)
 
 ## Statistics
 
 __STAT/MATH 218: Introduction to Statistics__
-
-Spring 2011; Summer 2011; Fall 2011
-
-University of Nebraska—Lincoln
-
-Sole instructor
+<br>Spring 2011; Summer 2011; Fall 2011
+<br>University of Nebraska—Lincoln
+<br>Sole instructor
 
 <br>
 
 __STAT/MATH 380: Statistics and Applications__
-
-Summer 2012; Fall 2012; Spring 2013
-
-University of Nebraska—Lincoln
-
-Sole instructor
+<br>Summer 2012; Fall 2012; Spring 2013
+<br>University of Nebraska—Lincoln
+<br>Sole instructor
