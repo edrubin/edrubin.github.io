@@ -31,6 +31,13 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 <br>
 
+## Publications
+
+<br>
+
+__[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064)__
+<br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. *AEA Papers and Proceedings*, 109: 283-88.
+
 ## Working Papers
 
 __[Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California](Papers/paperNaturalGas.pdf)__

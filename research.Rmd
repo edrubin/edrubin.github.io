@@ -6,11 +6,11 @@ title: "Ed Rubin: Research"
 
 # {.tabset .tabset-fade}
 
-## Projects
+## Published
 
 <br>
 
-<font color="#18BC9C"><h2>Working Papers</h2></font>
+<font color="#18BC9C"><h2>Publications</h2></font>
 
 ---
 
@@ -20,7 +20,9 @@ with [Meredith Fowlie](https://www.meredithfowlie.com) and [Reed Walker](https:/
 
 We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to which the EPA's existing, monitor-based measurements over- or under-estimate true exposure to PM2.5 pollution. Treating satellite-based estimates as truth implies a substantial number of "policy errors"—over-regulating areas that comply with air quality standards and under-regulating other areas that appear to violate standards. We investigate the health implications of these apparent errors and highlight the importance of accounting for prediction error in satellite-based estimates. Uncertainty in "policy errors" increases substantially when we account for these underlying prediction errors.
 
-[NBER Working Paper No. 25560](https://www.nber.org/papers/w25560) | [EI @ Haas Working Paper 300](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html) | Paper Forthcoming
+[Published (P&P) version](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064) | [NBER Working Paper No. 25560](https://www.nber.org/papers/w25560) | [EI @ Haas Working Paper 300](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html)
+
+Fowlie, Meredith, Edward Rubin, and Reed Walker. 2019. "Bringing Satellite-Based Air Quality Estimates Down to Earth." *AEA Papers and Proceedings*, 109: 283-88.
 
 ```{r, out.width = "50%", echo = F}
 knitr::include_graphics(c(
@@ -31,7 +33,13 @@ knitr::include_graphics(c(
 ))
 ```
 
+## Projects
+
 <br>
+
+<font color="#18BC9C"><h2>Working Papers</h2></font>
+
+---
 
 #### __Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills__
 

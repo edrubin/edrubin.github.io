@@ -31,13 +31,17 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 <br>
 
+## Publications
+
+__[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064)__
+<br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. *AEA Papers and Proceedings*, 109: 283-88.
+
+<br>
+
 ## Working Papers
 
 __[Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California](Papers/paperNaturalGas.pdf)__
 <br> Maximilian Auffhammer and Edward Rubin
-
-__[Bringing Satellite-Based Air-Quality Estimates Down to Earth](Papers/nberSatellitePM.pdf)__
-<br> Meredith Fowlie, Edward Rubin, and Reed Walker
 
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 <br> Edward Rubin
@@ -120,7 +124,7 @@ __2012__: International Conference of Agricultural Economists (poster)
 ## Academic Service
 
 - Founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
-- **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM)
+- **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Journal of Policy Analysis and Management (JPAM)](http://www.appam.org/jpam/)
 - Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
 - Organized biweekly (twice per week) departmental lunches (UCB)
 - Organized third-year research workshop (UCB)
