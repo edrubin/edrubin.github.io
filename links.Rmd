@@ -4,6 +4,41 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20190717 </h3>
+
+__Really Good Emails__ <br>
+Currated collection of [beautiful, well-crafted emails](https://reallygoodemails.com/). [h/t](https://www.densediscovery.com/)
+
+__tresorit__ <br>
+Secure [cloud storage](https://tresorit.com/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190717 </h3>
+
+__In-Browser Markdown Editors__ <br>
+- [HackMD](https://hackmd.io/)
+- [StackEdit](https://stackedit.io/)
+- [Madoko](https://www.madoko.net/)
+
+<h3 style="color:#EEEEEE"> 20190715 </h3>
+
+__Noted__ <br>
+Integrated [audio-recording and note-taking](https://www.notedapp.io/) app.
+
+<h3 style="color:#EEEEEE"> 20190702 </h3>
+
+__Twizzy__ <br>
+[Simple, clean flowchart tool](https://www.zenflowchart.com/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190620 </h3>
+
+__Twizzy__ <br>
+[Twitter without the timeline](https://twizzy.app/) (just message and tweet). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190326 </h3>
+
+__rticle__ <br>
+LaTeX journal [article templates for R Markdown](https://github.com/rstudio/rticles).
+
 <h3 style="color:#EEEEEE"> 20190326 </h3>
 
 __Makepad__ <br>

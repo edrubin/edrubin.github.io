@@ -93,7 +93,7 @@ knitr::include_graphics(c(
 
 ---
 
-#### __Updating our understanding of exposure and access: Using cellphone movement data to reduce mismeasurement and bias__
+#### __Mismeasurement in exposure and access: Insights from cellphone data__
 
 <br>
 
