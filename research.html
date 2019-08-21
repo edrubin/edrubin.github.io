@@ -20,96 +20,49 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {  }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 </style>
-<script>
-// apply pandoc div.sourceCode style to pre.sourceCode instead
-(function() {
-  var sheets = document.styleSheets;
-  for (var i = 0; i < sheets.length; i++) {
-    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
-    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
-      var rule = rules[j];
-      // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
-      var style = rule.style.cssText;
-      // check if color or background-color is set
-      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
-      // replace div.sourceCode by a pre.sourceCode rule
-      sheets[i].deleteRule(j);
-      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
-    }
-  }
-})();
-</script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
@@ -145,7 +98,9 @@ h6 {
 </style>
 
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -170,9 +125,6 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
-summary {
-  display: list-item;
-}
 </style>
 
 
@@ -187,6 +139,7 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
+
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -206,43 +159,6 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -264,85 +180,19 @@ $(document).ready(function () {
 });
 </script>
 
+
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
 });
 </script>
 
 <!-- code folding -->
 
 
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -471,11 +321,20 @@ Publications
 </h2>
 <p></font></p>
 <hr />
+<div id="the-economic-impact-of-critical-habitat-designation-evidence-from-vacant-land-transactions" class="section level4">
+<h4><strong>The economic impact of critical-habitat designation: Evidence from vacant-land transactions</strong></h4>
+<p><a href="https://auffhammer.com">Maximilian Auffhammer</a>, <a href="https://www.povertyactionlab.org/duru">Maya Duru</a>, <a href="https://edrub.in">Edward Rubin</a>, and <a href="https://are.berkeley.edu/users/david-l-sunding">David L. Sunding</a></p>
+<p>The Endangered Species Act (ESA) requires the federal government to designate critical habitat for species listed as threatened or endangered. This provision of the ESA has proven to be one of its most controversial, as critical-habitat land designation entails special management—and potentially greater regulation. In this paper we measure the economic impact of critical-habitat designation by estimating its effect on the market value of vacant land. Using data from over 13,000 vacant-land transactions that occurred within or near critical habitat for two important species in California (red-legged frog and Bay checkerspot butterfly), we show that critical-habitat designation resulted in a large and statistically significant decrease in land value. The estimated impact of critical-habitat designation is heterogeneous: the largest decreases occur within designated urban-growth boundaries.</p>
+<p>Forthcoming, <em>Land Economics</em></p>
+<p><br></p>
+<p><img src="Figures/CriticalHabitat/rlf_logprice_2006_raw.png" width="65%" style="display: block; margin: auto;" /></p>
+<p><br></p>
+</div>
 <div id="bringing-satellite-based-air-quality-estimates-down-to-earth" class="section level4">
 <h4><strong>Bringing Satellite-Based Air-Quality Estimates Down to Earth</strong></h4>
-<p>with <a href="https://www.meredithfowlie.com">Meredith Fowlie</a> and <a href="https://w-reed-walker.com">Reed Walker</a></p>
+<p><a href="https://www.meredithfowlie.com">Meredith Fowlie</a>, <a href="https://edrub.in">Edward Rubin</a>, and <a href="https://w-reed-walker.com">Reed Walker</a></p>
 <p>We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to which the EPA’s existing, monitor-based measurements over- or under-estimate true exposure to PM2.5 pollution. Treating satellite-based estimates as truth implies a substantial number of “policy errors”—over-regulating areas that comply with air quality standards and under-regulating other areas that appear to violate standards. We investigate the health implications of these apparent errors and highlight the importance of accounting for prediction error in satellite-based estimates. Uncertainty in “policy errors” increases substantially when we account for these underlying prediction errors.</p>
-<p><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191064">Published (P&amp;P) version</a> | <a href="https://www.nber.org/papers/w25560">NBER Working Paper No. 25560</a> | <a href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html">EI @ Haas Working Paper 300</a></p>
+<p><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191064">Published (P&amp;P) version</a> | <a href="https://www.nber.org/papers/w25560">NBER Working Paper No. 25560</a> | <a href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html">EI @ Haas Working Paper 300</a></p>
 <p>Fowlie, Meredith, Edward Rubin, and Reed Walker. 2019. “Bringing Satellite-Based Air Quality Estimates Down to Earth.” <em>AEA Papers and Proceedings</em>, 109: 283-88.</p>
 <p><img src="Figures/AirQualityEstimates/box_cbg_di_2003_2007.png" width="50%" /><img src="Figures/AirQualityEstimates/map_di_2005.png" width="50%" /></p>
 </div>
@@ -493,7 +352,7 @@ Working Papers
 <h4><strong>Decomposing <em>the</em> Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills</strong></h4>
 <p>with <a href="http://www.auffhammer.com">Maximilian Auffhammer</a></p>
 <p>We harness 300 million residential bills to estimate income- and season-specific own-price elasticities for natural gas. We exploit a service-territory spatial discontinuity and household-specific exogenous time-series variation as sources of identification and estimate a <em>pooled</em> demand elasticity of approximately –0.21. However, we show evidence that this elasticity varies substantially across seasons, income groups, and their interaction—from 0.06 to –0.61. This heterogeneity suggests an unexplored, and implementable policy avenue—shifting fixed costs of operation into summer months—that is potentially more efficient and progressive. More generally, we illustrate how “big data” can produce new empirical and policy insights.</p>
-<p><a href="http://www.nber.org/papers/w24295">NBER Working Paper No. 24295</a> | <a href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html">EI @ Haas Working Paper 287</a></p>
+<p><a href="http://www.nber.org/papers/w24295">NBER Working Paper No. 24295</a> | <a href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html">EI @ Haas Working Paper 287</a></p>
 <p><a href="Papers/paperNaturalGas.pdf">draft</a> | <a href="Slides/slidesNaturalGas.pdf">slides</a> | <a href="Figures/NaturalGas/studyMaps.pdf">map: service and study area</a> | <a href="Figures/NaturalGas/mapPRISM.pdf">map: PRISM mean temperature</a> | <a href="Figures/NaturalGas/mapPipeline.png">map: US natural gas pipeline</a></p>
 <center>
 <img src="Figures/NaturalGas/studyMaps.png" width="65%" />
@@ -510,12 +369,6 @@ Working Papers
 <h4><strong>Do aerially applied pesticides affect local air quality? Empirical evidence from California’s San Joaquin Valley</strong></h4>
 <p>Many policymakers, public-health advocates, and citizen groups question whether current pesticide regulations properly equate the marginal social costs of pesticide applications to their marginal social benefits—with particular concern for negative health effects stemming from pesticide exposure. Additionally, recent research and policies in public health, epidemiology, and economics emphasize how fine particulate matter (PM2.5) concentrations harm humans through increased mortality, morbidity, mental health issues, and a host of socioeconomic outcomes. This paper presents the first empirical evidence that aerially applied pesticides increase local PM2.5 concentrations. To causally estimate this effect, I combine the universe of aerial pesticide applications in the five southern counties of California’s San Joaquin Valley (1.8M reports) with the U.S. EPA’s PM2.5 monitoring network—exploiting (<strong>1</strong>) spatiotemporal variation in aerial pesticide applications and (<strong>2</strong>) variation in local wind patterns. I find significant evidence that (upwind) aerial pesticide applications within 1.5km increase local PM2.5 concentrations. The magnitudes of the point estimates suggest that the top decile of aerial applications may sufficiently increase local PM2.5 to warrant concern for human health.</p>
 <p><br></p>
-</div>
-<div id="the-economic-impact-of-critical-habitat-designation-evidence-from-vacant-land-transactions" class="section level4">
-<h4><strong>The economic impact of critical-habitat designation: Evidence from vacant-land transactions</strong></h4>
-<p>The Endangered Species Act (ESA) requires the federal government to designate critical habitat for species listed as threatened or endangered. This provision of the ESA has proven to be one of its most controversial, as critical-habitat land designation entails special management—and potentially greater regulation. In this paper we measure the economic impact of critical-habitat designation by estimating its effect on the market value of vacant land. Using data from over 13,000 vacant-land transactions that occurred within or near critical habitat for two important species in California (red-legged frog and Bay checkerspot butterfly), we show that critical-habitat designation resulted in a large and statistically significant decrease in land value. The estimated impact of critical-habitat designation is heterogeneous: the largest decreases occur within designated urban-growth boundaries.</p>
-<p><br></p>
-<p><img src="Figures/CriticalHabitat/rlf_logprice_2006_raw.png" width="65%" style="display: block; margin: auto;" /></p>
 <font color="#18BC9C">
 <h2>
 In Progress
@@ -567,78 +420,78 @@ In Progress
 <div id="r-scripts" class="section level2">
 <h2>R scripts</h2>
 <p>Run R code in terminal without entering R or saving a script. (The <code>-e</code> option evaluates the given R expression.)</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ex">Rscript</span> -e <span class="st">&#39;set.seed(12345); x &lt;- rnorm(1e3); mean(x)&#39;</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="ex">Rscript</span> -e <span class="st">&#39;rmarkdown::render_site(&quot;research.Rmd&quot;)&#39;</span></a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">Rscript</span> -e <span class="st">&#39;set.seed(12345); x &lt;- rnorm(1e3); mean(x)&#39;</span>
+<span class="ex">Rscript</span> -e <span class="st">&#39;rmarkdown::render_site(&quot;research.Rmd&quot;)&#39;</span></code></pre></div>
 <p>Create a nice timeline (shown below) in R’s <code>ggplot2</code>.</p>
 <p><img src="research_files/figure-html/timeline-1.png" width="1312.5" /></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="co"># Setup ----</span></a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co"># Packages</span></a>
-<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="kw">library</span>(ggplot2)</a>
-<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="co"># Define colors (from https://www.materialpalette.com)</span></a>
-<a class="sourceLine" id="cb2-5" data-line-number="5">dark_primary_color   &lt;-<span class="st"> &quot;#C2185B&quot;</span></a>
-<a class="sourceLine" id="cb2-6" data-line-number="6">primary_color        &lt;-<span class="st"> &quot;#E91E63&quot;</span></a>
-<a class="sourceLine" id="cb2-7" data-line-number="7">light_primary_color  &lt;-<span class="st"> &quot;#F8BBD0&quot;</span></a>
-<a class="sourceLine" id="cb2-8" data-line-number="8">text_primary_color   &lt;-<span class="st"> &quot;#FFFFFF&quot;</span></a>
-<a class="sourceLine" id="cb2-9" data-line-number="9">accent_color         &lt;-<span class="st"> &quot;#9E9E9E&quot;</span></a>
-<a class="sourceLine" id="cb2-10" data-line-number="10">primary_text_color   &lt;-<span class="st"> &quot;#212121&quot;</span></a>
-<a class="sourceLine" id="cb2-11" data-line-number="11">secondary_text_color &lt;-<span class="st"> &quot;#757575&quot;</span></a>
-<a class="sourceLine" id="cb2-12" data-line-number="12">divider_color        &lt;-<span class="st"> &quot;#BDBDBD&quot;</span></a>
-<a class="sourceLine" id="cb2-13" data-line-number="13"></a>
-<a class="sourceLine" id="cb2-14" data-line-number="14"><span class="co"># Plot the timeline ----</span></a>
-<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="kw">ggplot</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-16" data-line-number="16"><span class="st">  </span><span class="co"># Two rectangles</span></a>
-<a class="sourceLine" id="cb2-17" data-line-number="17"><span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2009</span>, <span class="dt">xmax =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),</a>
-<a class="sourceLine" id="cb2-18" data-line-number="18">    <span class="dt">fill =</span> divider_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-19" data-line-number="19"><span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xmax =</span> <span class="dv">2014</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),</a>
-<a class="sourceLine" id="cb2-20" data-line-number="20">    <span class="dt">fill =</span> light_primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-21" data-line-number="21"><span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2014</span>, <span class="dt">xmax =</span> <span class="dv">2017</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),</a>
-<a class="sourceLine" id="cb2-22" data-line-number="22">    <span class="dt">fill =</span> primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-23" data-line-number="23"><span class="st">  </span><span class="co"># Label rectangles (periods)</span></a>
-<a class="sourceLine" id="cb2-24" data-line-number="24"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2010</span>, <span class="dt">y =</span> <span class="fl">-0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period A&quot;</span>,</a>
-<a class="sourceLine" id="cb2-25" data-line-number="25">    <span class="dt">color =</span> divider_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-26" data-line-number="26"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="fl">2015.5</span>, <span class="dt">y =</span> <span class="fl">-0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period B&quot;</span>,</a>
-<a class="sourceLine" id="cb2-27" data-line-number="27">    <span class="dt">color =</span> primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-28" data-line-number="28"><span class="st">  </span><span class="co"># Add ellipses</span></a>
-<a class="sourceLine" id="cb2-29" data-line-number="29"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, <span class="fl">-0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,</a>
-<a class="sourceLine" id="cb2-30" data-line-number="30">    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> divider_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-31" data-line-number="31"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,</a>
-<a class="sourceLine" id="cb2-32" data-line-number="32">    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-33" data-line-number="33"><span class="st">  </span><span class="co"># Time axis</span></a>
-<a class="sourceLine" id="cb2-34" data-line-number="34"><span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">size =</span> <span class="dv">1</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-35" data-line-number="35"><span class="st">  </span><span class="co"># Label time</span></a>
-<a class="sourceLine" id="cb2-36" data-line-number="36"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2009</span><span class="op">:</span><span class="dv">2017</span>, <span class="dt">y =</span> <span class="fl">-0.05</span>, <span class="dt">label =</span> <span class="dv">2009</span><span class="op">:</span><span class="dv">2017</span>,</a>
-<a class="sourceLine" id="cb2-37" data-line-number="37">    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> secondary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-38" data-line-number="38"><span class="st">  </span><span class="co"># Points for events</span></a>
-<a class="sourceLine" id="cb2-39" data-line-number="39"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dv">2014</span>), <span class="dt">y =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb2-40" data-line-number="40">    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-41" data-line-number="41"><span class="st">  </span><span class="co"># Label events:</span></a>
-<a class="sourceLine" id="cb2-42" data-line-number="42"><span class="st">  </span><span class="co"># First event</span></a>
-<a class="sourceLine" id="cb2-43" data-line-number="43"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb2-44" data-line-number="44">    <span class="dt">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-45" data-line-number="45"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>,</a>
-<a class="sourceLine" id="cb2-46" data-line-number="46">    <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-47" data-line-number="47"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</a>
-<a class="sourceLine" id="cb2-48" data-line-number="48">    <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-49" data-line-number="49"><span class="st">  </span><span class="co"># Intermediate event</span></a>
-<a class="sourceLine" id="cb2-50" data-line-number="50"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb2-51" data-line-number="51">    <span class="dt">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-52" data-line-number="52"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>,</a>
-<a class="sourceLine" id="cb2-53" data-line-number="53">      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-54" data-line-number="54"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</a>
-<a class="sourceLine" id="cb2-55" data-line-number="55">      <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-56" data-line-number="56"><span class="st">  </span><span class="co"># Period B begins</span></a>
-<a class="sourceLine" id="cb2-57" data-line-number="57"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb2-58" data-line-number="58">    <span class="dt">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-59" data-line-number="59"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span>,</a>
-<a class="sourceLine" id="cb2-60" data-line-number="60">      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-61" data-line-number="61"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,</a>
-<a class="sourceLine" id="cb2-62" data-line-number="62">      <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-63" data-line-number="63"><span class="st">  </span><span class="co"># Theme stuff</span></a>
-<a class="sourceLine" id="cb2-64" data-line-number="64"><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-65" data-line-number="65"><span class="st">  </span><span class="kw">ylim</span>(<span class="kw">c</span>(<span class="op">-</span><span class="fl">0.15</span>,<span class="dv">1</span>)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-66" data-line-number="66"><span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text =</span> <span class="kw">element_blank</span>(), <span class="dt">axis.title =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb2-67" data-line-number="67">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb2-68" data-line-number="68">    <span class="dt">panel.border =</span> <span class="kw">element_blank</span>())</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Setup ----</span>
+<span class="co"># Packages</span>
+<span class="kw">library</span>(ggplot2)
+<span class="co"># Define colors (from https://www.materialpalette.com)</span>
+dark_primary_color   &lt;-<span class="st"> &quot;#C2185B&quot;</span>
+primary_color        &lt;-<span class="st"> &quot;#E91E63&quot;</span>
+light_primary_color  &lt;-<span class="st"> &quot;#F8BBD0&quot;</span>
+text_primary_color   &lt;-<span class="st"> &quot;#FFFFFF&quot;</span>
+accent_color         &lt;-<span class="st"> &quot;#9E9E9E&quot;</span>
+primary_text_color   &lt;-<span class="st"> &quot;#212121&quot;</span>
+secondary_text_color &lt;-<span class="st"> &quot;#757575&quot;</span>
+divider_color        &lt;-<span class="st"> &quot;#BDBDBD&quot;</span>
+
+<span class="co"># Plot the timeline ----</span>
+<span class="kw">ggplot</span>() +
+<span class="st">  </span><span class="co"># Two rectangles</span>
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2009</span>, <span class="dt">xmax =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> divider_color) +
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xmax =</span> <span class="dv">2014</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> light_primary_color) +
+<span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2014</span>, <span class="dt">xmax =</span> <span class="dv">2017</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),
+    <span class="dt">fill =</span> primary_color) +
+<span class="st">  </span><span class="co"># Label rectangles (periods)</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2010</span>, <span class="dt">y =</span> -<span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period A&quot;</span>,
+    <span class="dt">color =</span> divider_color) +
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="fl">2015.5</span>, <span class="dt">y =</span> -<span class="fl">0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period B&quot;</span>,
+    <span class="dt">color =</span> primary_color) +
+<span class="st">  </span><span class="co"># Add ellipses</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, -<span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
+    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> divider_color) +
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,
+    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> primary_color) +
+<span class="st">  </span><span class="co"># Time axis</span>
+<span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">size =</span> <span class="dv">1</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Label time</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2009</span>:<span class="dv">2017</span>, <span class="dt">y =</span> -<span class="fl">0.05</span>, <span class="dt">label =</span> <span class="dv">2009</span>:<span class="dv">2017</span>,
+    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> secondary_text_color) +
+<span class="st">  </span><span class="co"># Points for events</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dv">2014</span>), <span class="dt">y =</span> <span class="dv">0</span>,
+    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Label events:</span>
+<span class="st">  </span><span class="co"># First event</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>,
+    <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011+4</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011+4</span>/<span class="dv">12</span><span class="fl">+0.1</span>,
+    <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Intermediate event</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>,
+      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012+7</span>/<span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012+7</span>/<span class="dv">12</span><span class="fl">+0.1</span>,
+      <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Period B begins</span>
+<span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,
+    <span class="dt">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span>,
+      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,
+      <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) +
+<span class="st">  </span><span class="co"># Theme stuff</span>
+<span class="st">  </span><span class="kw">theme_bw</span>() +
+<span class="st">  </span><span class="kw">ylim</span>(<span class="kw">c</span>(-<span class="fl">0.15</span>,<span class="dv">1</span>)) +
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text =</span> <span class="kw">element_blank</span>(), <span class="dt">axis.title =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid =</span> <span class="kw">element_blank</span>(),
+    <span class="dt">panel.border =</span> <span class="kw">element_blank</span>())</code></pre></div>
 </div>
 <div id="latex" class="section level2">
 <h2>LaTeX</h2>
@@ -652,54 +505,54 @@ In Progress
 <h2>Bash</h2>
 <div id="pretty-csv-scrolling" class="section level3">
 <h3>Pretty CSV scrolling</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> -t -s, <span class="kw">|</span> <span class="fu">less</span> -S</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> -t -s, <span class="kw">|</span> <span class="fu">less</span> -S</code></pre></div>
 <p>Hat tip (and more): <a href="http://stefaanlippens.net/pretty-csv.html">Stefaan Lippens</a>.</p>
 <p>For a bit more <em>raw</em> view:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="ex">column</span> -s, -t <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> -#2 -N -S</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">column</span> -s, -t <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> -#2 -N -S</code></pre></div>
 </div>
 <div id="git" class="section level3">
 <h3>Git</h3>
 <p>Remove a file (<code>your.file</code>) from Git’s cache</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="fu">git</span> rm --cached your.file</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> rm --cached your.file</code></pre></div>
 <p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and check the <code>.gitattributes</code> file for success.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span></a>
-<a class="sourceLine" id="cb6-2" data-line-number="2"><span class="fu">nano</span> .gitattributes</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span>
+<span class="fu">nano</span> .gitattributes</code></pre></div>
 <p>Check which files LFS currently tracks.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="fu">git</span> lfs ls-files</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> lfs ls-files</code></pre></div>
 </div>
 <div id="pandoc" class="section level3">
 <h3>Pandoc</h3>
 <p>Convert a Markdown (<code>.txt</code>) file to Word (<code>.docx</code>).</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.docx</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">pandoc</span> -Ss example.txt -o example.docx</code></pre></div>
 <p>Convert a Markdown (<code>.txt</code>) file to PDF (<code>.pdf</code>).</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.pdf</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">pandoc</span> -Ss example.txt -o example.pdf</code></pre></div>
 </div>
 <div id="renaming" class="section level3">
 <h3>Renaming</h3>
 <p>Place a “1” between the first four characters and the subsequent characters in each filename in a folder.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i:0:4}</span><span class="st">1</span><span class="va">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">for</span> <span class="ex">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i:0:4}</span><span class="st">1</span><span class="va">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></code></pre></div>
 </div>
 <div id="sleeping-and-shutdown" class="section level3">
 <h3>Sleeping and shutdown</h3>
 <p>Tell the computer to wait a bit and then go to sleep.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</code></pre></div>
 <p>Tell the computer to shutdown now.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h now</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> shutdown -h now</code></pre></div>
 <p>Shut it down at a specific time (here: 2:30pm on 01 January 2016)</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h 1601011530</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> shutdown -h 1601011530</code></pre></div>
 <p>Shut it down after a specified amount of time (here: 30 minutes)</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h +30</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> shutdown -h +30</code></pre></div>
 </div>
 <div id="miscellany" class="section level3">
 <h3>Miscellany</h3>
 <p>OSX: Show only active apps in the terminal. <a href="https://www.macrumors.com/how-to/macos-dock-show-active-apps/">h/t</a></p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="ex">defaults</span> write com.apple.dock static-only -bool true<span class="kw">;</span> <span class="fu">killall</span> Dock</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">defaults</span> write com.apple.dock static-only -bool true<span class="kw">;</span> <span class="fu">killall</span> Dock</code></pre></div>
 <p>Kill all processes named “rsession”.</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="fu">killall</span> -m <span class="st">&quot;rsession&quot;</span></a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">killall</span> -m <span class="st">&quot;rsession&quot;</span></code></pre></div>
 <p>Re-index the Spotlight utility.</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb17-1" data-line-number="1"><span class="fu">sudo</span> mdutil -E /</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">sudo</span> mdutil -E /</code></pre></div>
 <p>Linux code for playing hide and seek. <br><em>Warning</em> You might not want HAL to find you.</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{1..30}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="kw">done</span>; <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{1..30}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="kw">done</span>; <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></code></pre></div>
 </div>
 </div>
 </div>
