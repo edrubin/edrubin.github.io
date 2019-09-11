@@ -59,11 +59,11 @@ knitr::include_graphics(c(
 
 ---
 
-#### __Decomposing _the_ Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills__
+#### __Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills__
 
 with [Maximilian Auffhammer](http://www.auffhammer.com)
 
-We harness 300 million residential bills to estimate income- and season-specific own-price elasticities for natural gas. We exploit a service-territory spatial discontinuity and household-specific exogenous time-series variation as sources of identification and estimate a *pooled* demand elasticity of approximately –0.21. However, we show evidence that this elasticity varies substantially across seasons, income groups, and their interaction—from 0.06 to –0.61. This heterogeneity suggests an unexplored, and implementable policy avenue—shifting fixed costs of operation into summer months—that is potentially more efficient and progressive. More generally, we illustrate how "big data" can produce new empirical and policy insights.
+Public policy typically employs time- and group-invariant policies—partially due to historical limits that prevented precise identification of the heterogeneity underlying key parameters. We consider an important market—natural gas—where these limits have been relaxed and harness 300 million residential bills to identify income- and season-specific own-price elasticities. Exploiting service-territory spatial discontinuities and household-specific exogenous time-series variation, we show this demand elasticity varies substantially across seasons, income groups, and their interaction—from 0.06 (summer) to –0.61 (winter). This heterogeneity suggests an unexplored, *implementable*, and generalizable policy avenue—shifting fixed costs of operation into summer months—that is potentially more efficient and progressive than prevailing practices.
 
 [NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
 
