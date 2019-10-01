@@ -110,6 +110,8 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
+__2019__: Western Economic Association Internation (WEAI) Annual Conference
+
 __2018__: The Occasional Workshop; World Congress of Environmental Economics (WCERE); UC Berkeley, Computational Text Analysis Working Group; University of Oregon, Economics
 
 __2017__: IGC-PEDL Workshop at Oxford; Heartland Environmental and Resource Economics Workshop; Berkeley Development Economics Lunch; Camp Resources; AAEA Annual Meeting; UC Berkeley, Summer Econ. Research Seminar; AERE Annual Summer Conference; 22nd Annual POWER Conference on Energy Research and Policy
@@ -127,7 +129,7 @@ __2012__: International Conference of Agricultural Economists (poster)
 ## Academic Service
 
 - Founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
-- **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Journal of Policy Analysis and Management (JPAM)](http://www.appam.org/jpam/)
+- **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM)
 - Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
 - Organized biweekly (twice per week) departmental lunches (UCB)
 - Organized third-year research workshop (UCB)
