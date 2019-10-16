@@ -43,7 +43,7 @@ __The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land
 
 ## Working Papers
 
-__[Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California](Papers/paperNaturalGas.pdf)__
+__[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/paperNaturalGas.pdf)__
 <br> Maximilian Auffhammer and Edward Rubin
 
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__

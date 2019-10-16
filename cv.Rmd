@@ -39,9 +39,11 @@ __The economic impact of critical-habitat designation: Evidence from vacant-land
 __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064)__
 <br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. *AEA Papers and Proceedings*, 109: 283-88.
 
+<br>
+
 ## Working Papers
 
-__[Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California](Papers/paperNaturalGas.pdf)__
+__[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/paperNaturalGas.pdf)__
 <br> Maximilian Auffhammer and Ed Rubin
 
 __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](Papers/nberSatellitePM.pdf)__
@@ -176,7 +178,7 @@ __Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquife
 
 ## Academic Service
 
-__Graduate students:__ Kyle Wilson (UO, committee member)
+__Graduate students:__ Max Mindock (UO, committee member); Kyle Wilson (UO, committee member)
 
 __Other__
 
