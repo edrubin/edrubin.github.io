@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -102,7 +103,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
       var style = rule.style.cssText;
       // check if color or background-color is set
-      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
       // replace div.sourceCode by a pre.sourceCode rule
       sheets[i].deleteRule(j);
       sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
@@ -159,7 +160,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -319,18 +319,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -542,7 +530,7 @@ $(document).ready(function () {
   |.................................................................| 100%
 ##   ordinary text without R code</code></pre>
 <pre><code>## output file: tmp.knit.md</code></pre>
-<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --template /Library/Frameworks/R.framework/Versions/3.6/Resources/library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style pygments --pdf-engine xelatex --variable graphics=yes --variable fontsize=10pt --variable mainfont=Lato --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --variable &#39;compact-title:yes&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//Rtmpy1PEi6/rmarkdown-str7dc556a62ae4.html</code></pre>
+<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --template /Library/Frameworks/R.framework/Versions/3.6/Resources/library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style pygments --pdf-engine xelatex --variable graphics=yes --lua-filter /Library/Frameworks/R.framework/Versions/3.6/Resources/library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/3.6/Resources/library/rmarkdown/rmd/lua/latex-div.lua --variable fontsize=10pt --variable mainfont=Lato --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --variable &#39;compact-title:yes&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//Rtmpcr7TH2/rmarkdown-str6765e0230c4.html</code></pre>
 <pre><code>## 
 ## Output created: cvEdRubin.pdf</code></pre>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># Clean up temporary files</span></a>
@@ -589,6 +577,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

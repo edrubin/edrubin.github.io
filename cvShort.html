@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -68,7 +69,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -228,18 +228,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -428,6 +416,7 @@ $(document).ready(function () {
 </div>
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
+<p><strong>2020</strong>: ASSA Annual Meeting</p>
 <p><strong>2019</strong>: Western Economic Association Internation (WEAI) Annual Conference</p>
 <p><strong>2018</strong>: The Occasional Workshop; World Congress of Environmental Economics (WCERE); UC Berkeley, Computational Text Analysis Working Group; University of Oregon, Economics</p>
 <p><strong>2017</strong>: IGC-PEDL Workshop at Oxford; Heartland Environmental and Resource Economics Workshop; Berkeley Development Economics Lunch; Camp Resources; AAEA Annual Meeting; UC Berkeley, Summer Econ. Research Seminar; AERE Annual Summer Conference; 22nd Annual POWER Conference on Energy Research and Policy</p>
@@ -521,6 +510,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

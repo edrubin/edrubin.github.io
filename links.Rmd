@@ -4,6 +4,46 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20200106 </h3>
+
+__learnr__ <br>
+R package to create Markdown-based, [interactive tutorials](https://rstudio.github.io/learnr/index.html).
+
+<h3 style="color:#EEEEEE"> 20191224 </h3>
+
+__Convertio__ <br>
+[File conversion](https://convertio.co/) across 300+ formats.
+
+<h3 style="color:#EEEEEE"> 20191219 </h3>
+
+__Arcane Office__ <br>
+In-cloud, private/secure/de-centralized, free [office suite](https://arcaneoffice.com/).
+
+__Crosstalk__ <br>
+[Cross-widget interactions in R](https://rstudio.github.io/crosstalk/index.html).
+
+__panelView__ <br>
+R package for [visualizing treatment, missing-ness, and outcomes in panel data](https://yiqingxu.org/software/panelView/panelView.html).
+
+__speaking.io__ <br>
+[Public-speaking tips](https://speaking.io/). [h/t](https://www.densediscovery.com/)
+
+__Standard ebooks__ <br>
+Curated, high-quality, free [ebooks](https://standardebooks.org/).
+
+<h3 style="color:#EEEEEE"> 20191203 </h3>
+
+__cally__ <br>
+[Find common dates/locations](https://cally.com/) for group events. [h/t](https://www.densediscovery.com/)
+
+__Gantt.io__ <br>
+Easy, pretty, [online Gantt charts](https://www.gantt.io/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190923 </h3>
+
+__devhints__ <br>
+A collection of [cheatseets](https://devhints.io/), *e.g.*, [bash](https://devhints.io/bash), [regex](https://devhints.io/regexp) and [vim](https://devhints.io/vim).
+
 <h3 style="color:#EEEEEE"> 20190923 </h3>
 
 __jQuery cheatsheet__ <br>
