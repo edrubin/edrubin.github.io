@@ -83,8 +83,6 @@ knitr::include_graphics(c(
 
 #### __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 
-Cannabis legalization advocates often argue that cannabis legalization offers the potential to reduce the private and social costs related to criminalization and incarceration—particularly for marginalized populations. While this assertion is theoretically plausible, it boils down to an empirically testable hypothesis that remains untested: does legalizing a previously illegal substance (cannabis) reduce arrests, citations, and general law-enforcement contact? This paper provides the first causal evidence that cannabis legalization need not necessarily reduce criminalization—and under the right circumstances, may in fact increase police incidents/arrests for both cannabis products and non-cannabis drugs. First, I present a theoretical model of police effort and drug consumption that demonstrates the importance of substitution and incentives for this hypothesis. I then empirically show that before legalization, drug-incident trends in Denver, Colorado matched trends in many other US cities. However, following cannabis legalization in Colorado, drug incidents spike sharply in Denver, while trends in comparison cities (unaffected by Colorado's legalization) remain stable. This spike in drug-related police incidents occurs both for cannabis and non-cannabis drugs. Synthetic-control and difference-in-differences empirical designs corroborate the size and significance of this empirical observation, estimating that Colorado's legalization of recreational cannabis nearly doubled police-involved drug incidents in Denver.
-
 new draft in preparation | slides | [US legalization map](Figures/Dispensaries/mapStateLegalPot.pdf) |  [timeline](Figures/Dispensaries/timeline.pdf) | [time series drug offenses](Figures/Dispensaries/seriesCrimeNonPot.pdf)
 
 <br>
@@ -98,6 +96,16 @@ Many policymakers, public-health advocates, and citizen groups question whether 
 <font color="#18BC9C"><h2>In Progress</h2></font>
 
 ---
+
+#### __Declining power-plant emissions, co-benefits, and regulatory rebound__
+
+with [Meredith Fowlie](https://www.meredithfowlie.com) and Catherine Wright
+
+<br>
+
+#### __Interactions between measurement error and policy__
+
+<br>
 
 #### __Mismeasurement in exposure and access: Insights from cellphone data__
 

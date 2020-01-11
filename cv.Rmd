@@ -46,9 +46,6 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 __[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/paperNaturalGas.pdf)__
 <br> Maximilian Auffhammer and Ed Rubin
 
-__[Bringing Satellite-Based Air-Quality Estimates Down to Earth](Papers/nberSatellitePM.pdf)__
-<br> Meredith Fowlie, Edward Rubin, and Reed Walker
-
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 <br> Ed Rubin
 
@@ -59,27 +56,37 @@ __Do aerially applied pesticides affect local air quality? Empirical evidence fr
 
 ## Research in Progress
 
+__Declining power-plant emissions, co-benefits, and regulatory rebound__
+<br> Meredith Fowlie, Ed Rubin, and Catherine Wright
+
+__Mismeasurement in exposure and access: Insights from cellphone data__
+<br> Ed Rubin
+
+__Interactions between measurement error and policy__
+<br> Ed Rubin
+
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 <br> Ed Rubin
 
 __Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination__
 <br> Erin Kelley, Matthew Pecenco, and Ed Rubin
 
-__Statistical Modeling and Hydrology in the High Plains Aquifer__
-<br> Ed Rubin, Richard Perrin, and Lilyan Fulginiti
-
 <br>
 
 ## Teaching
 
-__[EC425/525: Econometrics (III)](https://github.com/edrubin/EC525S19)__
+__[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S19)__
 
 - University of Oregon: [Spring 2019](https://github.com/edrubin/EC525S19)
 - Doctoral level
 
+__[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W20)__
+
+- University of Oregon: [Winter 2020](https://github.com/edrubin/EC524W20)
+
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
 
-- University of Oregon: [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
+- University of Oregon: [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
 - Undergraduate level
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
@@ -100,6 +107,10 @@ __STAT 218: Introduction to Statistics__
 <br>
 
 ## Honors, Awards, and Fellowships
+
+University of Oregon Data-Science Initiative Seed Funding, 2019–2020
+
+University of Oregon Program Grant, Fall 2019
 
 EPA EmPOWER Air Data Challenge Winner, 2019–2020
 <br> _with Meredith Fowlie_
