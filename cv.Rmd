@@ -108,6 +108,8 @@ __STAT 218: Introduction to Statistics__
 
 ## Honors, Awards, and Fellowships
 
+Sloan Foundation (for [TWEEDS](https://tweeds.io)), 2020–2022
+
 University of Oregon Data-Science Initiative Seed Funding, 2019–2020
 
 University of Oregon Program Grant, Fall 2019
@@ -197,6 +199,8 @@ __Graduate students:__ Max Mindock (UO, committee member); Kyle Wilson (UO, comm
 __Other__
 
 - Founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
+- Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
+- Co-organize applied microeconometrics workshop at UO (with [Glen Waddell](http://www.glenwaddell.com/))
 - **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM)
 - Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
 - Organized biweekly (twice per week) departmental lunches (UCB)
@@ -231,7 +235,6 @@ __[Maximilian Auffhammer](https://www.auffhammer.com)__, UC Berkeley
 ## Contact
 
 - __email__ edwardr `ampersat` uoregon `period` edu
-- __phone__ (4`oh`2) 8`oh`2-767`two`
 - __website__ [http://edrub.in](https://edrub.in)
 - __twitter__ [\@edrubin](https://twitter.com/edrubin)
 - __instagram__ [\@edwardarubin](https://instagram.com/edwardarubin/)

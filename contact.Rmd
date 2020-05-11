@@ -6,17 +6,15 @@ title: "Ed Rubin: Contact"
 
 __Email:__ edwardr `ampersat` uoregon `period` edu
 
-__Phone:__ (4`oh`2) 8`oh`2-767`two`
-
 __Twitter:__ [\@edrubin](https://twitter.com/edrubin)
 
 __Instagram:__ [\@edwardarubin](https://instagram.com/edwardarubin/)
 
 <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<!-- <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script> <b>Office hours:</b>
 <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/edwardarubin');return false;"> schedule a meeting</a>
-<!-- Calendly link widget end -->
+ --><!-- Calendly link widget end -->
 
 <br>
 
