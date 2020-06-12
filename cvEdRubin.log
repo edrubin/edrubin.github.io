@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  10 MAY 2020 19:10
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  12 JUN 2020 09:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,43 +1331,43 @@ LaTeX Font Info:    Font shape `TU/Lato(0)/bx/n' will be
 LaTeX Font Info:    Font shape `TU/Lato(0)/bx/n' will be
 (Font)              scaled to size 8.40149pt on input line 96.
 LaTeX Font Info:    Font shape `TU/Lato(0)/m/it' will be
-(Font)              scaled to size 8.50937pt on input line 108.
+(Font)              scaled to size 8.50937pt on input line 109.
 [1
 
 ] [2]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.01236pt on input line 314.
+(Font)              scaled to size 7.01236pt on input line 321.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 4.98074pt on input line 314.
+(Font)              scaled to size 4.98074pt on input line 321.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 314.
+(Font)              scaled to size 10.00015pt on input line 321.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 314.
+(Font)              scaled to size 7.01247pt on input line 321.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 314.
+(Font)              scaled to size 4.9808pt on input line 321.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 314.
+(Font)              scaled to size 9.99985pt on input line 321.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 314.
+(Font)              scaled to size 7.01224pt on input line 321.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 314.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
+(Font)              scaled to size 4.98067pt on input line 321.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
 (./cvEdRubin.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 326.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 333.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
 Package rerunfilecheck Info: File `cvEdRubin.out' has not changed.
 (rerunfilecheck)             Checksum: 091161A23660D848040F46EFD9482AC6.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
  ) 
 Here is how much of TeX's memory you used:
  24845 strings out of 492970
  458832 string characters out of 6133938
- 669245 words of memory out of 5000000
+ 670245 words of memory out of 5000000
  28656 multiletter control sequences out of 15000+600000
  536609 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 59i,5n,117p,10473b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,4n,117p,10473b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cvEdRubin.pdf (3 pages).

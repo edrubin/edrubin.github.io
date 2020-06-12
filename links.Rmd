@@ -6,6 +6,11 @@ Useful and/or interesting links for research/productivity/fun.<br><br>
 
 <h3 style="color:#EEEEEE"> 20200409 </h3>
 
+__tack__ <br>
+[Browser](https://getstack.app/) built for multi-tasking. [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20200409 </h3>
+
 __codetime__ <br>
 Text-editor [plugin for coding metrics](https://www.software.com/code-time) and timing. [h/t](https://www.densediscovery.com/)
 

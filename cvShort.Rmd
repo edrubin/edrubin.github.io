@@ -33,11 +33,11 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 ## Publications
 
+__[The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions](https://muse.jhu.edu/article/753055)__
+<br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. *Land Economics*, 96(2), 188–206.
+
 __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064)__
 <br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. *AEA Papers and Proceedings*, 109: 283-88.
-
-__The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions__
-<br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. Forthcoming, *Land Economics.*
 
 <br>
 
@@ -57,19 +57,25 @@ __Do aerially applied pesticides affect local air quality? Empirical evidence fr
 ## Research in Progress
 
 __Declining power-plant emissions, co-benefits, and regulatory rebound__
-<br> Meredith Fowlie, Ed Rubin, and Catherine Wright
+<br> Meredith Fowlie, Edward Rubin, and Catherine Wright
 
 __Mismeasurement in exposure and access: Insights from cellphone data__
-<br> Ed Rubin
+<br> Edward Rubin
 
 __Interactions between measurement error and policy__
-<br> Ed Rubin
+<br> Edward Rubin
+
+__Strategic plant locations and regulatory challenges__
+<br> John Morehouse and Edward Rubin
+
+__Machine learning instrumental variables__
+<br> Connor Lennon, Edward Rubin, and Glen Waddell
 
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 <br> Edward Rubin
 
 __Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination__
-<br> Erin Kelley, Matthew Pecenco, and Edward Rubin
+<br> Erin Kelley, Gregory Lane, Matthew Pecenco, and Edward Rubin
 
 <br>
 
@@ -125,7 +131,7 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__2020__: ASSA Annual Meeting
+__2020__: ASSA Annual Meeting, AERE Remote Conference
 
 __2019__: Western Economic Association Internation (WEAI) Annual Conference
 

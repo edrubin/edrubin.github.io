@@ -1,5 +1,5 @@
 
-```{R}
+```{r}
 library(pacman)
 p_load(stringr, magrittr, rmarkdown)
 setwd("/Users/edwardarubin/Dropbox/Websites/edrubin.github.io")
