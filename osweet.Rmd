@@ -57,6 +57,14 @@ knitr::include_graphics(c(
         Zoom. We will send out a Zoom link to presenters and audience members. <br><br>
       </td>
     </tr>
+    <tr valign="top">
+      <td>
+        <font color="#18BC9C"><i>More?</i></font> &nbsp; &nbsp; &nbsp; &nbsp;
+      </td>
+      <td>
+        This workshop is a supportive and constructive environment to present research (but you still have to bring your own beer/coffee/snacks to happy hour). <br><br>
+      </td>
+    </tr>
   </table>
 </p>
 </center>
