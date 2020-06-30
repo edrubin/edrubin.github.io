@@ -1,18 +1,4 @@
 ---
-name: "OSWEET"
-output_dir: "."
-navbar:
-  title: "OSWEET"
-  type: inverse
-  left:
-    - text: "Home"
-      href: index.html
-output:
-  html_document:
-    theme: flatly
-    highlight: pygments
-    include:
-      after_body: footer.html
 title: "OSWEET"
 ---
 
@@ -29,8 +15,9 @@ knitr::include_graphics(c(
 
 <br>
 
+<center>
 <p>
-  <table style="width:100%">
+  <table style="width:73%">
     <tr>
       <th> </th>
       <th> </th>
@@ -71,6 +58,7 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
+</center>
 
 <br>
 
