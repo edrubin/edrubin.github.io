@@ -20,7 +20,9 @@ A listing of conferences, meetings, and workshops
 - [JEEM Conference in Environmental and Resource Economics](https://jeemconference.wordpress.com) | late June | various locations
 - [Monash Environmental Economics Workshop](https://www.monash.edu/business/news-and-events/events/workshop-third-monash-environmental-economics-workshop) | November or December | Melbourne, Australia
 - [The Occasional Workshop](http://www.calworkshop.org) | occasionally in November | Santa Barbara, CA
-- [UC Berkeley POWER](https://ei.haas.berkeley.edu/events/power-conference.html) | late March | Berkeley, CA
+- [UC Berkeley POWER](https://ei.haas.berkeley.edu/events/power-conference.html) | March | Berkeley, CA
+- [GoSee: Global Open Series in Environmental Economics](https://gosee.io/) | continuous | online
+- [TWEEDS: The Workshop in Environmental Economics and Data Science](https://tweeds.io) | late March | Portland, OR
 
 <br>
 

@@ -1,0 +1,38 @@
+
+/* Resize text */
+body {
+  font-size: 13px;
+}
+h1 {
+  /*font-size: 34px;*/
+  font-size: 26px;
+}
+h1.title {
+  /*font-size: 38px;*/
+  font-size: 29px;
+}
+h2 {
+  /*font-size: 30px;*/
+  font-size: 23px;
+}
+h3 {
+  /*font-size: 24px;*/
+  font-size: 18px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+.navbar {
+  font-size: 12px;
+}
+
+/* Don't underline links */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}

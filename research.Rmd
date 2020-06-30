@@ -20,7 +20,7 @@ title: "Ed Rubin: Research"
 
 The Endangered Species Act (ESA) requires the federal government to designate critical habitat for species listed as threatened or endangered. This provision of the ESA has proven to be one of its most controversial, as critical-habitat land designation entails special management—and potentially greater regulation. In this paper we measure the economic impact of critical-habitat designation by estimating its effect on the market value of vacant land. Using data from over 13,000 vacant-land transactions that occurred within or near critical habitat for two important species in California (red-legged frog and Bay checkerspot butterfly), we show that critical-habitat designation resulted in a large and statistically significant decrease in land value. The estimated impact of critical-habitat designation is heterogeneous: the largest decreases occur within designated urban-growth boundaries.
 
-Forthcoming, *Land Economics*
+Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. *Land Economics*, 96(2), 188–206.
 
 <br>
 
@@ -130,6 +130,10 @@ with [Erin Kelley](https://www.erinmunrokelley.com) and [Matthew Pecenco](http:/
 ## Presentations
 
 <br>
+
+____Mismeasurement in exposure and access: Insights from cellphone data__
+<br> AERE Remote Conference, June 2020
+<br><br>
 
 __Declining power-plant emissions, co-benefits, and regulatory rebound__
 <br> ASSA (San Diego), January 2020
