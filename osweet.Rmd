@@ -61,7 +61,7 @@ knitr::include_graphics(c(
       <td>
         Twice a month; see schedule below. <br><br>
       </td>
-    </tr>
+    </tr valign="top">
       <td>
         <font color="#18BC9C"><i>Where?</i></font> &nbsp; &nbsp; &nbsp; &nbsp;
       </td>
