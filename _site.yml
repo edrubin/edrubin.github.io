@@ -22,6 +22,8 @@ navbar:
           href: cv.html
         - text: "Contact"
           href: contact.html
+        - icon: fa-github-square fa-lg
+          href: https://github.com/edrubin
     - text: "More"
       menu:
         - text: "Technology"
@@ -40,8 +42,6 @@ navbar:
   right:
     - icon: fa-envelope-o fa-lg
       href: mailto:edwardr@uoregon.edu
-    - icon: fa-github-square fa-lg
-      href: https://github.com/edrubin
     - icon: fa-instagram fa-lg
       href: http://www.instagram.com/edwardarubin
     - icon: fa-twitter fa-lg
