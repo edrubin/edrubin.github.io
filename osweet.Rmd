@@ -86,7 +86,7 @@ knitr::include_graphics(c(
 </p>
 
 <p>
-  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link.
+  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
 
 <p>
