@@ -31,7 +31,6 @@ h5 {
 /* Navigation bar dropdown menu */
 ul.dropdown-menu {
   font-size: 12px;
-  font-weight: normal;
 }
 
 /* Don't underline links */
@@ -40,9 +39,4 @@ a:link {
 }
 a:visited {
   text-decoration: none;
-}
-
-/* Define colors */
-.white {
-  color: #FFFFFF
 }
