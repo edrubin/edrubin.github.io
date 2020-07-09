@@ -6,6 +6,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "OSWEET"
+      href: osweet.html
     - text: "Research"
       href: research.html
     - text: "Teaching"
