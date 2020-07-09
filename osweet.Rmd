@@ -128,7 +128,7 @@ knitr::include_graphics(c(
     <!-- Talk 4 -->
     <tr valign="top">
       <td></td>
-      <td>2:45PM <b>PDT</b> (5:45PM <b>EDT</b>)</td>
+      <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
       <td>
         <i>Optimization and Pricing of Ancillary Services in Low-Carbon Electricity Grids</i>
         <br><b>Luis Badesa</b> (Imperial College London)
