@@ -69,9 +69,7 @@ knitr::include_graphics(c(
 </p>
 </center>
 
-<br>
-
-**Interested?** [Please apply to present!](https://edrubin.typeform.com/to/OHUAyi) (And tell your friends.)
+**Interested?** [Please join the mailing list and/or apply to present!](https://edrubin.typeform.com/to/OHUAyi) (And tell your friends.)
 
 <br>
 
@@ -79,15 +77,82 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## 10 July, 1pm Pacific Time
+## 24 July, 1pm Pacific Time
 
 <p>
-  <b>Friday, 10 July 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 24 July 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Pollution and Mortality: Estimating Damages Using Pollutant-Specific Abatement Technologies</i>
+        <br><b>Casey Rozowski</b> (NC State)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
+      <td>
+        <i>Pollution and Acquisition: The Environmental Justice Effects of Mergers</i>
+        <br><b>Irene Jacqz</b> (Harvard)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
+      <td>
+        <i>What Driving Bans Tell Us About the Lasting Health Legacy of Diesel Pollution</i>
+        <br><b>Hannah Klauber</b> (Mercator Research Institute on Global Commons and Climate Change)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 4 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
+      <td>
+        <i>Hurricane Induced Discharges from Superfund Sites: A Hedonic Price Analysis of Local Real Estate Market Responses</i>
+        <br><b>Mehrnoosh Asadi</b> (Florida International University)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+## 07 August, 1pm Pacific Time
+
+Schedule forthcoming
+
+## 21 August, 1pm Pacific Time
+
+Schedule forthcoming
+
+#
+
+<br>
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 10 July 2020
 
 <p>
   <table style="width:100%">
@@ -137,18 +202,4 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-
-## 24 July, 1pm Pacific Time
-
-Schedule forthcoming
-
-## 07 August, 1pm Pacific Time
-
-Schedule forthcoming
-
-## 21 August, 1pm Pacific Time
-
-Schedule forthcoming
-
 
