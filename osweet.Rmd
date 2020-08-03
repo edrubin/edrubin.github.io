@@ -77,15 +77,78 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## 24 July, 1pm Pacific Time
+## 07 August, 1pm Pacific Time
 
 <p>
-  <b>Friday, 24 July 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 07 August 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Size-Based Regulations and Environmental Quality: Evidence from the U.S. Livestock Industry</i>
+        <br><b>Chen-Ti Chen</b> (Iowa State University)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
+      <td>
+        <i>Beyond Lights: The Changing Impact of Rural Electrification on Indian Agriculture</i>
+        <br><b>Sudatta Ray</b> (Stanford)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
+      <td>
+        <i>The Economic Impact of Schistosomiasis</i>
+        <br><b>Daniele Rinaldo</b> (The Graduate Institute, Geneva)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 4 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
+      <td>
+        <i>Agricultural Labor Exits Increase Crop Fires: Regression-Discontinuity Evidence from a Rural Road Construction Program in India</i>
+        <br><b>Hemant Pullabhotla</b> (Stanford)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+## 21 August, 1pm Pacific Time
+
+Schedule forthcoming
+
+#
+
+<br>
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## **Air quality:** 24 July 2020
 
 <p>
   <table style="width:100%">
@@ -135,22 +198,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-## 07 August, 1pm Pacific Time
-
-Schedule forthcoming
-
-## 21 August, 1pm Pacific Time
-
-Schedule forthcoming
-
-#
-
-<br>
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## **Energy:** 10 July 2020
 
