@@ -77,15 +77,27 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## 21 August, 1pm Pacific Time
+## 04 September, 1pm Pacific Time
 
 <p>
-  <b>Friday, 21 August 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 04 September 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+Schedule forthcoming
+
+#
+
+<br>
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## **Resources:** 21 August 2020
 
 <p>
   <table style="width:100%">
@@ -136,17 +148,6 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## 04 September, 1pm Pacific Time
-
-Schedule forthcoming
-
-#
-
-<br>
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## **Agriculture:** 07 August 2020
 
