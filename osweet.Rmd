@@ -146,7 +146,55 @@ knitr::include_graphics(c(
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
 
-Program forthcoming
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Adaptation to Natural Disaster through Better Information: Evidence from Home Seller Disclosure Requirement</i>
+        <br><b>Seunghoon Lee</b> (Chicago)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
+      <td>
+        <i>Climate and Irrigated Agriculture: Evidence from Cash Rents</i>
+        <br><b>Nicholas Potter</b> (Washington State)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
+      <td>
+        <i>Climate Change and Adaptation in Global Supply-Chain Networks</i>
+        <br><b>Nora Pankratz</b> (UCLA)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 4 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
+      <td>
+        <i>Adaptation to Climate Change in Chinese Agriculture: The Remarkable Decline in Temperature-Yield Relationship Over 1981–2010</i>
+        <br><b>Di Wang</b> (UC Santa Barbara)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
 
 #
 
