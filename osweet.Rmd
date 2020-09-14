@@ -77,65 +77,6 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Transportation:** 04 September, 1pm Pacific Time
-
-<p>
-  <b>Friday, 04 September 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
-</p>
-
-<p>
-  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
-</p>
-
-<p>
-  <table style="width:100%">
-    <tr>
-      <th> </th>
-      <th> </th>
-    </tr>
-    <!-- Talk 1 -->
-    <tr valign="top">
-      <td>&nbsp;&nbsp;&nbsp;</td>
-      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
-      <td>
-        <i>Optimal Carbon Tax in Oligopolies: An Application to Commercial Aviation</i>
-        <br><b>Diego Cardoso</b> (Cornell)
-        <br><br>
-      </td>
-    </tr>
-    <!-- Talk 2 -->
-    <tr valign="top">
-      <td></td>
-      <td>1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
-      <td>
-        <i>What Drives Battery Electric Vehicle Adoption?</i>
-        <br><b>Christina Gore</b> (Ohio State)
-        <br><br>
-      </td>
-    </tr>
-    <!-- Talk 3 -->
-    <tr valign="top">
-      <td></td>
-      <td>1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
-      <td>
-        <i>Do Safety Inspections Improve Saftey? Evidence from the Saftey Inspection Program for Commercial Motor Vehicles</i>
-        <br><b>Yuanning Liang</b> (Cornell)
-        <br><br>
-      </td>
-    </tr>
-    <!-- Talk 4 -->
-    <tr valign="top">
-      <td></td>
-      <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
-      <td>
-        <i>Double Marginalization and the Paths of Natural Gas Gathering Pipelines</i>
-        <br><b>Richard DiSalvo</b> (Princeton)
-        <br><br>
-      </td>
-    </tr>
-  </table>
-</p>
-
 ## **Climate:** 18 September, 1pm Pacific Time
 
 <p>
@@ -187,7 +128,7 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
       <td>
-        <i>Adaptation to Climate Change in Chinese Agriculture: The Remarkable Decline in Temperature-Yield Relationship Over 1981–2010</i>
+        <i>Reactive Adaptation to Temperature Extremes: The Remarkable Decline in Temperature-Yield Relationship in Chinese Agriculture Over 1981–2010</i>
         <br><b>Di Wang</b> (UC Santa Barbara)
         <br><br>
       </td>
@@ -204,7 +145,59 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Resources:** 21 August 2020
+## **Transportation:** 2020/09/04
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Optimal Carbon Tax in Oligopolies: An Application to Commercial Aviation</i>
+        <br><b>Diego Cardoso</b> (Cornell)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
+      <td>
+        <i>What Drives Battery Electric Vehicle Adoption?</i>
+        <br><b>Christina Gore</b> (Ohio State)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
+      <td>
+        <i>Do Safety Inspections Improve Saftey? Evidence from the Saftey Inspection Program for Commercial Motor Vehicles</i>
+        <br><b>Yuanning Liang</b> (Cornell)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 4 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
+      <td>
+        <i>Double Marginalization and the Paths of Natural Gas Gathering Pipelines</i>
+        <br><b>Richard DiSalvo</b> (Princeton)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+
+## **Resources:** 2020/08/21
 
 <p>
   <table style="width:100%">
@@ -256,7 +249,7 @@ knitr::include_graphics(c(
 </p>
 
 
-## **Agriculture:** 07 August 2020
+## **Agriculture:** 2020/08/07
 
 <p>
   <table style="width:100%">
@@ -308,7 +301,7 @@ knitr::include_graphics(c(
 </p>
 
 
-## **Air quality:** 24 July 2020
+## **Air quality:** 2020/07/24
 
 <p>
   <table style="width:100%">
@@ -359,7 +352,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## **Energy:** 10 July 2020
+## **Energy:** 2020/07/10
 
 <p>
   <table style="width:100%">
