@@ -4,6 +4,21 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20200915 </h3>
+
+__Butterick's Practical Typography__ <br>
+Online book with practical [advice on typography](https://practicaltypography.com/).
+
+<h3 style="color:#EEEEEE"> 20200915 </h3>
+
+__tweek__ <br>
+Online [weekly planner](https://tweek.so/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20200914 </h3>
+
+__Mail Merge for Thunderbird__ <br>
+A [mail merge](https://addons.thunderbird.net/en-US/thunderbird/addon/mail-merge/) extension for Thunderbird.
+
 <h3 style="color:#EEEEEE"> 20200820 </h3>
 
 __Compiled ESS point datasets__ <br>
@@ -11,7 +26,7 @@ __Compiled ESS point datasets__ <br>
 
 <h3 style="color:#EEEEEE"> 20200409 </h3>
 
-__tack__ <br>
+__Stack__ <br>
 [Browser](https://getstack.app/) built for multi-tasking. [h/t](https://www.densediscovery.com/)
 
 <h3 style="color:#EEEEEE"> 20200409 </h3>
