@@ -77,15 +77,75 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Climate:** 18 September, 1pm Pacific Time
+## **Policy and spillovers:** 02 October, 1pm Pacific Time
 
 <p>
-  <b>Friday, 18 September 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 02 October 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Effect of Nuclear Power Plants on Local Crop Yields</i>
+        <br><b>Daniyar Zhumadilov</b> (NC State)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
+      <td>
+        <i>Women Leaders Improve Local Environmental Outcomes</i>
+        <br><b>Meera Mahadevan</b> (UC Irvine)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
+      <td>
+        <i>Cap-and-trade vs. Carbon Taxes: Efficiency Implications of Emissions Price Volatility in the Power Sector</i>
+        <br><b>Felipe Gómez Trejos</b> (ASU)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 4 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
+      <td>
+        <i>The Spillover Effects of Pollution: How Exposure to Lead Affects Everyone in the Classroom)</i>
+        <br><b>Ludovica Gazze</b> (Warwick)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+
+#
+
+<br>
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## **Climate:** 2020/09/18
 
 <p>
   <table style="width:100%">
@@ -136,14 +196,6 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-
-#
-
-<br>
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## **Transportation:** 2020/09/04
 
