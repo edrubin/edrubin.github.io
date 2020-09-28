@@ -128,7 +128,7 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)</td>
       <td>
-        <i>The Spillover Effects of Pollution: How Exposure to Lead Affects Everyone in the Classroom)</i>
+        <i>The Spillover Effects of Pollution: How Exposure to Lead Affects Everyone in the Classroom</i>
         <br><b>Ludovica Gazze</b> (Warwick)
         <br><br>
       </td>
