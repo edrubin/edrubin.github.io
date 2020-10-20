@@ -6,6 +6,20 @@ Useful and/or interesting links for research/productivity/fun.<br><br>
 
 <h3 style="color:#EEEEEE"> 20200915 </h3>
 
+__Synergy__ <br>
+[Control multiple computers](https://symless.com/synergy) with a single keyboard/mouse.
+
+__Book: Dive into Deep Learning__
+Online [deep learning book](https://d2l.ai/).
+
+__Apache Arrow for R__ <br>
+[R package for Apache Arrow](https://arrow.apache.org/docs/r/index.html) in-memory platform. [h/t](http://grantmcdermott.com)
+
+__Wizard Zines Collection__ <br>
+[Programming zines](https://wizardzines.com/). [h/t](http://grantmcdermott.com)
+
+<h3 style="color:#EEEEEE"> 20200915 </h3>
+
 __Butterick's Practical Typography__ <br>
 Online book with practical [advice on typography](https://practicaltypography.com/).
 
