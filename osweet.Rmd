@@ -27,7 +27,7 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>What?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        Twice a month on a Friday, we will have a Zoom seminar series with a few short presentations (12 minutes each)—followed by a happy hour! Every third meeting will be an all egg-timer session. <br><br> 
+        Twice a month on a Friday, we will have a Zoom seminar series with three short presentations (14 minutes each)—followed by a happy hour! <br><br> 
         Papers and videos **will not** be circulated. <br><br>
       </td>
     </tr>
@@ -77,15 +77,65 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Climate and adaptation:** 16 October, 1pm Pacific Time
+## **Electricity markets:** 30 October, 1pm Pacific Time
 
 <p>
-  <b>Friday, 16 October 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 30 October 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Levelized Full System Costs of Electricity: A Novel Approach to Evaluate Intermittent Generation</i>
+        <br><b>Robert Idel</b> (Rice)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
+      <td>
+        <i>Large-Scale Wind Power Investment's Impact on Wholesale Electricity Markets</i>
+        <br><b>Omer Karaduman</b> (Stanford)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
+      <td>
+        <i>Bunching in Residential Electricity Consumption</i>
+        <br><b>Laura Grant</b> (Claremont McKenna College) <i>with Becka Brolinson</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+
+#
+
+<br>
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## **Climate/adaptation:** 2020/10/16
 
 <p>
   <table style="width:100%">
@@ -135,15 +185,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-
-#
-
-<br>
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## **Policy/spillovers:** 2020/10/02
 
