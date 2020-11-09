@@ -27,7 +27,7 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>What?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        Twice a month on a Friday, we will have a Zoom seminar series with three short presentations (14 minutes each)—followed by a happy hour! <br><br> 
+        Twice a month on a Friday, we will have a Zoom seminar series with three short presentations (15 minutes each)—followed by a happy hour! <br><br> 
         Papers and videos **will not** be circulated. <br><br>
       </td>
     </tr>
@@ -77,7 +77,7 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Electricity markets:** 30 October, 1pm Pacific Time
+## **Water, disasters, and inequality:** 13 November, 1pm Pacific Time
 
 <p>
   <b>Friday, 30 October 2020</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
@@ -86,6 +86,56 @@ knitr::include_graphics(c(
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Local public finance dynamics and hurricane shocks</i>
+        <br><b>Rhiannon Jerch</b> (Temple)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PDT</b> (4:15PM <b>EDT</b>)</td>
+      <td>
+        <i>The health effects of floods on the urban poor</i>
+        <br><b>Michelle Escobar</b> (Monash)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
+      <td>
+        <i>TBA</i>
+        <br><b>TBA</b> (TBA)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+
+#
+
+<br>
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## **Electricity markets:** 2020/20/30
 
 <p>
   <table style="width:100%">
@@ -125,15 +175,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-
-#
-
-<br>
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## **Climate/adaptation:** 2020/10/16
 

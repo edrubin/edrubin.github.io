@@ -4,6 +4,18 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20201005 </h3>
+
+__voice dream apps__ <br>
+
+- reader [reads anything aloud](https://www.voicedream.com/reader/) (200+ voices in 30 languages).
+- writer [helps you proofread out loud](https://www.voicedream.com/writer/).
+- scanner [is for text recognition of scans](https://www.voicedream.com/scanner/).
+
+__Freshwater Ecosystems Explorer__ <br>
+
+Data platform with [accurate, up-to-date, high-resolution geospatial data depicting the extent freshwater ecosystems change over time](https://www.sdg661.app).
+
 <h3 style="color:#EEEEEE"> 20200915 </h3>
 
 __Synergy__ <br>
