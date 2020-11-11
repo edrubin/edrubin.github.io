@@ -119,7 +119,7 @@ knitr::include_graphics(c(
       <td>1:40PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
       <td>
         <i>TBA</i>
-        <br><b>TBA</b> (TBA)
+        <br><b>Ludovica Gazze</b> (Warwick)
         <br><br>
       </td>
     </tr>
