@@ -118,8 +118,8 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:40PM <b>PDT</b> (4:30PM <b>EDT</b>)</td>
       <td>
-        <i>TBA</i>
-        <br><b>Ludovica Gazze</b> (Warwick)
+        <i>Infrastructure Upgrades and Lead Exposure: Do Cities Face Trade-Offs When Replacing Water Mains</i>
+        <br><b>Ludovica Gazze</b> (Warwick) <i>with Jennifer Heissel</i>
         <br><br>
       </td>
     </tr>
