@@ -2,7 +2,7 @@
 title: "OSWEET"
 ---
 
-the Online Summer Workshop in Envrionment, Energy, and Transportation (Economics)
+the Online Summer Workshop in Environment, Energy, and Transportation (Economics)
 
 <center>
 ```{r, out.width = "75%", echo = F}
