@@ -4,6 +4,16 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20201215 </h3>
+
+__xaringanExtra__ <br>
+
+[Extra skills](https://github.com/gadenbuie/xaringanExtra) for the R package `xaringan`.
+
+__xaringanthemer__ <br>
+
+More [themes for `xaringan`](https://pkg.garrickadenbuie.com/xaringanthemer/).
+
 <h3 style="color:#EEEEEE"> 20201005 </h3>
 
 __voice dream apps__ <br>

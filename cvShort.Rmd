@@ -131,7 +131,7 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__2020__: ASSA Annual Meeting, AERE Remote Conference
+__2020__: ASSA Annual Meeting, AERE Remote Conference, Duke Energy Data Analytics Symposium, RFF/EPA
 
 __2019__: Western Economic Association Internation (WEAI) Annual Conference
 
@@ -151,7 +151,8 @@ __2012__: International Conference of Agricultural Economists (poster)
 
 ## Academic Service
 
-- Founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
+- Founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science): 2019, 2020
+- Co-founded/Organized [OSWEET](https://edrub.in/osweet) (Online Student Workshop in Environmental, Energy, and Transportation)
 - Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
 - Co-organize applied microeconometrics workshop at UO (with [Glen Waddell](http://www.glenwaddell.com/))
 - **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM)

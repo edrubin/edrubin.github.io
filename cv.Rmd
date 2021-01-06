@@ -142,6 +142,12 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
+__A retrospective analysis of indirect air-quality benefits from power-sector emissions reductions__
+<br> RFF/EPA (Online), December 2020
+
+__Estimating and decomposing "the" elasticity of demand: Empirical and policy insights from 600 million natural gas bills__
+<br> Duke Energy Data Analytics Symposium, December 2020
+
 __Mismeasurement in exposure and access: Insights from cellphone data__
 <br> AERE Remote Conference, June 2020
 
@@ -208,6 +214,7 @@ __Graduate students:__ Mary Kopriva (UO, co-chair), Max Mindock (UO, committee m
 __Other__
 
 - Founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
+- Co-founded/Organized [OSWEET](https://edrub.in/osweet) (Online Student Workshop in Environmental, Energy, and Transportation)
 - Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
 - Co-organize applied microeconometrics workshop at UO (with [Glen Waddell](http://www.glenwaddell.com/))
 - **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM)
