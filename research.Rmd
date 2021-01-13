@@ -51,7 +51,7 @@ knitr::include_graphics(c(
 ))
 ```
 
-## Projects
+## Ongoing projects
 
 <br>
 
@@ -89,6 +89,15 @@ While federal law sets air-quality standards in the US, the law cedes substantia
 
 [draft](Papers/paperPlantLocations.pdf)
 
+<center>
+```{r, out.width = "45%", echo = F}
+knitr::include_graphics(c(
+  "Figures/PlantLocations/plant-wind-oris-628.png",
+  "Figures/PlantLocations/hysplit-oris-628-january.png",
+  NULL
+))
+```
+</center>
 <br>
 
 #### __Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.__
