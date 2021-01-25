@@ -343,6 +343,13 @@ My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example
 
 ## Bash
 
+### List files (recursively) by size
+
+```{bash, eval = F}
+find . -type f -exec du -ah + | sort -rh | head -20
+``` 
+Hat tip: [StackExchange](https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only)
+
 ### Pretty CSV scrolling
 
 ```{bash, eval = F}

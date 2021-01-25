@@ -4,6 +4,26 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20210122 </h3>
+
+__disk.frame__ <br>
+
+[R package](https://diskframe.com) that allows you to treat on-disk data as though it were in-memory (*i.e.*, use `data.table` or `tidyverse`). [Bonus blog](https://www.brodrigues.co/blog/2019-09-03-disk_frame/) from Bruno Rodrigues.
+
+<h3 style="color:#EEEEEE"> 20210121 </h3>
+
+__ASCII Decorator__ <br>
+
+Sublime plugin for [ASCII Decorations](https://github.com/viisual/ASCII-Decorator).
+
+__Machine learning flashcards__ <br>
+
+[Flashcards for ML](https://machinelearningflashcards.com) concepts.
+
+__lazyrmd__ <br>
+
+[Lazy rendering of `rmd`](https://ryanhafen.com/blog/lazyrmd/).
+
 <h3 style="color:#EEEEEE"> 20201215 </h3>
 
 __xaringanExtra__ <br>

@@ -675,56 +675,61 @@ In Progress
 </div>
 <div id="bash" class="section level2">
 <h2>Bash</h2>
+<div id="list-files-recursively-by-size" class="section level3">
+<h3>List files (recursively) by size</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="fu">find</span> . -type f -exec du -ah + <span class="kw">|</span> <span class="fu">sort</span> -rh <span class="kw">|</span> <span class="fu">head</span> -20</a></code></pre></div>
+<p>Hat tip: <a href="https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only">StackExchange</a></p>
+</div>
 <div id="pretty-csv-scrolling" class="section level3">
 <h3>Pretty CSV scrolling</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> -t -s, <span class="kw">|</span> <span class="fu">less</span> -S</a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> -t -s, <span class="kw">|</span> <span class="fu">less</span> -S</a></code></pre></div>
 <p>Hat tip (and more): <a href="http://stefaanlippens.net/pretty-csv.html">Stefaan Lippens</a>.</p>
 <p>For a bit more <em>raw</em> view:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="ex">column</span> -s, -t <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> -#2 -N -S</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="ex">column</span> -s, -t <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> -#2 -N -S</a></code></pre></div>
 </div>
 <div id="git" class="section level3">
 <h3>Git</h3>
 <p>Remove a file (<code>your.file</code>) from Git’s cache</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="fu">git</span> rm --cached your.file</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="fu">git</span> rm --cached your.file</a></code></pre></div>
 <p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and check the <code>.gitattributes</code> file for success.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span></a>
-<a class="sourceLine" id="cb6-2" data-line-number="2"><span class="fu">nano</span> .gitattributes</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="fu">nano</span> .gitattributes</a></code></pre></div>
 <p>Check which files LFS currently tracks.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="fu">git</span> lfs ls-files</a></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="fu">git</span> lfs ls-files</a></code></pre></div>
 </div>
 <div id="pandoc" class="section level3">
 <h3>Pandoc</h3>
 <p>Convert a Markdown (<code>.txt</code>) file to Word (<code>.docx</code>).</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.docx</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.docx</a></code></pre></div>
 <p>Convert a Markdown (<code>.txt</code>) file to PDF (<code>.pdf</code>).</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.pdf</a></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.pdf</a></code></pre></div>
 </div>
 <div id="renaming" class="section level3">
 <h3>Renaming</h3>
 <p>Place a “1” between the first four characters and the subsequent characters in each filename in a folder.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i:0:4}</span><span class="st">1</span><span class="va">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></a></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i:0:4}</span><span class="st">1</span><span class="va">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></a></code></pre></div>
 </div>
 <div id="sleeping-and-shutdown" class="section level3">
 <h3>Sleeping and shutdown</h3>
 <p>Tell the computer to wait a bit and then go to sleep.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</a></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</a></code></pre></div>
 <p>Tell the computer to shutdown now.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h now</a></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h now</a></code></pre></div>
 <p>Shut it down at a specific time (here: 2:30pm on 01 January 2016)</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h 1601011530</a></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h 1601011530</a></code></pre></div>
 <p>Shut it down after a specified amount of time (here: 30 minutes)</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h +30</a></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h +30</a></code></pre></div>
 </div>
 <div id="miscellany" class="section level3">
 <h3>Miscellany</h3>
 <p>OSX: Show only active apps in the terminal. <a href="https://www.macrumors.com/how-to/macos-dock-show-active-apps/">h/t</a></p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="ex">defaults</span> write com.apple.dock static-only -bool true<span class="kw">;</span> <span class="fu">killall</span> Dock</a></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="ex">defaults</span> write com.apple.dock static-only -bool true<span class="kw">;</span> <span class="fu">killall</span> Dock</a></code></pre></div>
 <p>Kill all processes named “rsession”.</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="fu">killall</span> -m <span class="st">&quot;rsession&quot;</span></a></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb17-1" data-line-number="1"><span class="fu">killall</span> -m <span class="st">&quot;rsession&quot;</span></a></code></pre></div>
 <p>Re-index the Spotlight utility.</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb17-1" data-line-number="1"><span class="fu">sudo</span> mdutil -E /</a></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="fu">sudo</span> mdutil -E /</a></code></pre></div>
 <p>Linux code for playing hide and seek. <br><em>Warning</em> You might not want HAL to find you.</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{1..30}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="kw">done</span>; <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></a></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb19-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{1..30}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="kw">done</span>; <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></a></code></pre></div>
 </div>
 </div>
 </div>
