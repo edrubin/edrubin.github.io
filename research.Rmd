@@ -345,8 +345,10 @@ My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example
 
 ### List files (recursively) by size
 
+Lists all **files** in a directory (here `.`), sorts from largest to smallest, and displays top `20` (largest).
+
 ```{bash, eval = F}
-find . -type f -exec du -ah + | sort -rh | head -20
+find . -type f -exec du -ah {} + | sort -rh | head -20
 ``` 
 Hat tip: [StackExchange](https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only)
 

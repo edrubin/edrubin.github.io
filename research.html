@@ -677,7 +677,8 @@ In Progress
 <h2>Bash</h2>
 <div id="list-files-recursively-by-size" class="section level3">
 <h3>List files (recursively) by size</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="fu">find</span> . -type f -exec du -ah + <span class="kw">|</span> <span class="fu">sort</span> -rh <span class="kw">|</span> <span class="fu">head</span> -20</a></code></pre></div>
+<p>Lists all <strong>files</strong> in a directory (here <code>.</code>), sorts from largest to smallest, and displays top <code>20</code> (largest).</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="fu">find</span> . -type f -exec du -ah <span class="dt">{}</span> + <span class="kw">|</span> <span class="fu">sort</span> -rh <span class="kw">|</span> <span class="fu">head</span> -20</a></code></pre></div>
 <p>Hat tip: <a href="https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only">StackExchange</a></p>
 </div>
 <div id="pretty-csv-scrolling" class="section level3">
