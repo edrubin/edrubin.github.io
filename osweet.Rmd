@@ -77,6 +77,63 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
+## **Floods:** 12 February, 1pm Pacific Time
+
+<p>
+  <b>Friday, 12 February 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+</p>
+
+<p>
+  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
+</p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>TBD</i>
+        <br><b>TBD</b> (TBD)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)</td>
+      <td>
+        <i>TBD</i>
+        <br><b>TBD</b> (TBD)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)</td>
+      <td>
+        <i>TBD</i>
+        <br><b>TBD</b> (TBD)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+<br>
+
+### Past events
+
+# {.tabset .tabset-fade}
+
 ## **Air quality:** 22 January, 1pm Pacific Time
 
 <p>
@@ -125,15 +182,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-
-#
-
-<br>
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## **Pollution and environmental policy:** 2020/12/11
 

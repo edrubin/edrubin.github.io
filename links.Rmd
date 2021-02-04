@@ -4,6 +4,12 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20210126 </h3>
+
+__ggpomological__ <br>
+
+[`ggplot2` theme](https://www.garrickadenbuie.com/project/ggpomological/) based upon the [USDA's pomological watercolor collection](https://usdawatercolors.nal.usda.gov/pom/home.xhtml).
+
 <h3 style="color:#EEEEEE"> 20210122 </h3>
 
 __disk.frame__ <br>
