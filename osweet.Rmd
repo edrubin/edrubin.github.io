@@ -98,8 +98,8 @@ knitr::include_graphics(c(
       <td>&nbsp;&nbsp;&nbsp;</td>
       <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
       <td>
-        <i>TBD</i>
-        <br><b>TBD</b> (TBD)
+        <i>Taking a rain cheque: Short-term weather fluctuations and adaptation investments</i>
+        <br><b>Sandra Bernick</b> (Imperial College London)
         <br><br>
       </td>
     </tr>
@@ -108,8 +108,8 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)</td>
       <td>
-        <i>TBD</i>
-        <br><b>TBD</b> (TBD)
+        <i>The economic value of us wetlands for flood mitigation</i>
+        <br><b>Hannah Druckenmiller</b> (UC Berkeley)
         <br><br>
       </td>
     </tr>
@@ -118,8 +118,8 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)</td>
       <td>
-        <i>TBD</i>
-        <br><b>TBD</b> (TBD)
+        <i>Inundated by change: The effects of land use on flood damages</i>
+        <br><b>Wesley Howden</b> (UCSD)
         <br><br>
       </td>
     </tr>
