@@ -4,6 +4,12 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20210208 </h3>
+
+__Beeper__ <br>
+
+A single [app to unite all your messaging apps](https://www.beeperhq.com). [h/t](https://www.densediscovery.com/)
+
 <h3 style="color:#EEEEEE"> 20210126 </h3>
 
 __ggpomological__ <br>
