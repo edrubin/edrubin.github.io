@@ -77,14 +77,71 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Floods:** 12 February, 1pm Pacific Time
+## **Agriculture:** 12 February 2021
 
 <p>
-  <b>Friday, 12 February 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 26 February 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
+</p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Nutritional Impact of Payments for Ecosystem Services (PES) in Rural China</i>
+        <br><b>Wumeng He</b> (Duke)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)</td>
+      <td>
+        <i>Sustainable Agriculture, Residue Burning, and Urban Infant Mortality: Evidence from Mexico</i>
+        <br><b>Joel Ferguson</b> (Berkeley)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)</td>
+      <td>
+        <i>Inundated by change: The effects of land use on flood damages</i>
+        <br><b>Sebastian Kraus</b> (Mercator Research Institute on Global Commons and Climate Change)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2021 {.tabset .tabset-fade}
+
+OSWEET events from 2020.
+
+<br>
+
+### **Floods:** 2021/02/12
+
+<p>
+  <b>Friday, 12 February 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
@@ -116,23 +173,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-<br>
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## **Air quality:** 22 January, 1pm Pacific Time
-
-<p>
-  <b>Friday, 22 January 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
-</p>
-
-<p>
-  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
-</p>
+### **Air quality:** 2021/01/22
 
 <p>
   <table style="width:100%">
@@ -173,7 +214,13 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## **Pollution and environmental policy:** 2020/12/11
+## 2020 {.tabset .tabset-fade}
+
+OSWEET events from 2020.
+
+<br>
+
+### **Pollution and environmental policy:** 2020/12/11
 
 <p>
   <table style="width:100%">
@@ -215,7 +262,7 @@ knitr::include_graphics(c(
 </p>
 
 
-## **Water and disasters:** 2020/11/13
+### **Water and disasters:** 2020/11/13
 
 <p>
   <table style="width:100%">
@@ -256,7 +303,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## **Electricity markets:** 2020/20/30
+### **Electricity markets:** 2020/20/30
 
 <p>
   <table style="width:100%">
@@ -297,7 +344,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## **Climate/adaptation:** 2020/10/16
+### **Climate/adaptation:** 2020/10/16
 
 <p>
   <table style="width:100%">
@@ -348,7 +395,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## **Policy/spillovers:** 2020/10/02
+### **Policy/spillovers:** 2020/10/02
 
 <p>
   <table style="width:100%">
@@ -399,7 +446,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## **Climate:** 2020/09/18
+### **Climate:** 2020/09/18
 
 <p>
   <table style="width:100%">
@@ -451,7 +498,7 @@ knitr::include_graphics(c(
 </p>
 
 
-## **Transportation:** 2020/09/04
+### **Transportation:** 2020/09/04
 
 <p>
   <table style="width:100%">
@@ -503,7 +550,7 @@ knitr::include_graphics(c(
 </p>
 
 
-## **Resources:** 2020/08/21
+### **Resources:** 2020/08/21
 
 <p>
   <table style="width:100%">
@@ -555,7 +602,7 @@ knitr::include_graphics(c(
 </p>
 
 
-## **Agriculture:** 2020/08/07
+### **Agriculture:** 2020/08/07
 
 <p>
   <table style="width:100%">
@@ -607,7 +654,7 @@ knitr::include_graphics(c(
 </p>
 
 
-## **Air quality:** 2020/07/24
+### **Air quality:** 2020/07/24
 
 <p>
   <table style="width:100%">
@@ -658,7 +705,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-## **Energy:** 2020/07/10
+### **Energy:** 2020/07/10
 
 <p>
   <table style="width:100%">
