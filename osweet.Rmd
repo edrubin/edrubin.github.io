@@ -118,7 +118,7 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)</td>
       <td>
-        <i>Inundated by change: The effects of land use on flood damages</i>
+        <i>Spillovers to Manufacturing Plants from Multimillion Dollar Plantations: Evidence from the Indonesian Palm Oil Boom</i>
         <br><b>Sebastian Kraus</b> (Mercator Research Institute on Global Commons and Climate Change)
         <br><br>
       </td>
@@ -133,10 +133,6 @@ knitr::include_graphics(c(
 # {.tabset .tabset-fade}
 
 ## 2021 {.tabset .tabset-fade}
-
-OSWEET events from 2020.
-
-<br>
 
 ### **Floods:** 2021/02/12
 
@@ -215,10 +211,6 @@ OSWEET events from 2020.
 </p>
 
 ## 2020 {.tabset .tabset-fade}
-
-OSWEET events from 2020.
-
-<br>
 
 ### **Pollution and environmental policy:** 2020/12/11
 
