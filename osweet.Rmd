@@ -77,7 +77,7 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Agriculture:** 12 March 2021
+## **Inequality:** 12 March 2021
 
 <p>
   <b>Friday, 26 February 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
