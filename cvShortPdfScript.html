@@ -23,6 +23,15 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
@@ -143,6 +152,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="ed.css" type="text/css" />
 
@@ -384,7 +394,7 @@ $(document).ready(function () {
     </li>
     <li>
       <a href="https://github.com/edrubin">
-        <span class="fa fa-github-square fa-lg"></span>
+        <span class="fas fa-github-square fa-lg"></span>
          
       </a>
     </li>
@@ -421,19 +431,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:edwardr@uoregon.edu">
-    <span class="fa fa-envelope-o fa-lg"></span>
+    <span class="fas fa-envelope-o fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://www.instagram.com/edwardarubin">
-    <span class="fa fa-instagram fa-lg"></span>
+    <span class="fas fa-instagram fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://www.twitter.com/edrubin">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -534,7 +544,7 @@ $(document).ready(function () {
   |......................................................................| 100%
 ##   ordinary text without R code</code></pre>
 <pre><code>## output file: tmp.knit.md</code></pre>
-<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --self-contained --highlight-style pygments --pdf-engine xelatex --variable graphics --lua-filter /Library/Frameworks/R.framework/Versions/3.6/Resources/library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/3.6/Resources/library/rmarkdown/rmd/lua/latex-div.lua --variable fontsize=10pt --variable mainfont=Lato --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//RtmpwuEBrD/rmarkdown-str1dd63a11d1c9.html</code></pre>
+<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --self-contained --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable mainfont=Lato --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//RtmpcgIE4R/rmarkdown-strce946ff1d804.html</code></pre>
 <pre><code>## Warning: LaTeX Warning: Command \underbar  has changed.
 ##                Check if current package is valid.</code></pre>
 <pre><code>## 
@@ -575,7 +585,7 @@ window.__lc.license = 8929129;
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
