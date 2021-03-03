@@ -80,7 +80,7 @@ knitr::include_graphics(c(
 ## **Inequality:** 12 March 2021
 
 <p>
-  <b>Friday, 26 February 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 12 March 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
