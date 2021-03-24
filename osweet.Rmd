@@ -98,7 +98,7 @@ knitr::include_graphics(c(
       <td>&nbsp;&nbsp;&nbsp;</td>
       <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
       <td>
-        <i>The social costs of NIMBYism: Evidence from Renewable energy projects in the United Kingdom</i>
+        <i>The Social Costs of NIMBYism: Evidence from Renewable Energy Projects in the United Kingdom</i>
         <br><b>Stephen Jarvis</b> (Mannheim)
         <br><br>
       </td>
