@@ -27,7 +27,7 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>What?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        Twice a month on a Friday, we will have a Zoom seminar series with three short presentations (15 minutes each)—followed by a happy hour! <br><br> 
+        Every other Friday, we will have a Zoom seminar series with three short presentations (15 minutes each)—followed by a happy hour! <br><br> 
         Papers and videos **will not** be circulated. <br><br>
       </td>
     </tr>
@@ -46,7 +46,7 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>When?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        Twice a month; see schedule below. <br><br>
+        Every other Friday; see schedule below. <br><br>
       </td>
     </tr>
     <tr valign="top">
@@ -80,7 +80,7 @@ knitr::include_graphics(c(
 ## **Energy:** 09 April 2021
 
 <p>
-  <b>Friday, 12 March 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 09 April 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
@@ -133,6 +133,48 @@ knitr::include_graphics(c(
 # {.tabset .tabset-fade}
 
 ## 2021 {.tabset .tabset-fade}
+
+### **Climate:** 2021/03/26
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>The Social Costs of NIMBYism: Evidence from Renewable Energy Projects in the United Kingdom</i>
+        <br><b>Stephen Jarvis</b> (Mannheim)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)</td>
+      <td>
+        <i>Optimal Timing of Electric Vehicle Subsidies</i>
+        <br><b>Qingran Li</b> (Duke)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)</td>
+      <td>
+        <i>Linking Carbon Markets with Different Initial Conditions</i>
+        <br><b>Matt Woerman</b> (UMass Amherst)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
 
 ### **Inequality:** 2021/03/12
 
