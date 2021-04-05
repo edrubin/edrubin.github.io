@@ -77,7 +77,7 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Inequality:** 12 March 2021
+## **Energy:** 09 April 2021
 
 <p>
   <b>Friday, 12 March 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
@@ -86,6 +86,55 @@ knitr::include_graphics(c(
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
+      <td>
+        <i>Wind power penetration impacts on wholesale electricity market prices: Evidence from quantile regression approach</i>
+        <br><b>Bolarinwa Ajanaku</b> (West Virginia)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)</td>
+      <td>
+        <i>Short- and long-run effects of electricity grid expansion</i>
+        <br><b>Gaurav Doshi</b> (Wisconsin)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)</td>
+      <td>
+        <i>Theoretical and empirical evaluation of a competitive energy rebate program</i>
+        <br><b>Chi Ta</b> (Illinois)
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2021 {.tabset .tabset-fade}
+
+### **Inequality:** 2021/03/12
 
 <p>
   <table style="width:100%">
@@ -125,14 +174,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2021 {.tabset .tabset-fade}
 
 ### **Agriculture:** 2021/02/26
 
