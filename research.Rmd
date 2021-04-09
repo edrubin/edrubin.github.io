@@ -14,13 +14,13 @@ title: "Ed Rubin: Research"
 
 ---
 
-#### __The economic impact of critical-habitat designation: Evidence from vacant-land transactions__
+#### __[The economic impact of critical-habitat designation: Evidence from vacant-land transactions](https://doi.org/10.3368/le.96.2.188)__
 
 [Maximilian Auffhammer](https://auffhammer.com), [Maya Duru](https://www.povertyactionlab.org/duru), [Edward Rubin](https://edrub.in), and [David L. Sunding](https://are.berkeley.edu/users/david-l-sunding)
 
 The Endangered Species Act (ESA) requires the federal government to designate critical habitat for species listed as threatened or endangered. This provision of the ESA has proven to be one of its most controversial, as critical-habitat land designation entails special management—and potentially greater regulation. In this paper we measure the economic impact of critical-habitat designation by estimating its effect on the market value of vacant land. Using data from over 13,000 vacant-land transactions that occurred within or near critical habitat for two important species in California (red-legged frog and Bay checkerspot butterfly), we show that critical-habitat designation resulted in a large and statistically significant decrease in land value. The estimated impact of critical-habitat designation is heterogeneous: the largest decreases occur within designated urban-growth boundaries.
 
-Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. *Land Economics*, 96(2), 188–206.
+Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. *Land Economics*, 96(2), 188–206. [DOI: 10.3368/le.96.2.188](https://doi.org/10.3368/le.96.2.188)
 
 <br>
 
@@ -32,7 +32,7 @@ knitr::include_graphics(c(
 
 <br>
 
-#### __Bringing Satellite-Based Air-Quality Estimates Down to Earth__
+#### __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://doi.org/10.1257/pandp.20191064)__
 
 [Meredith Fowlie](https://www.meredithfowlie.com), [Edward Rubin](https://edrub.in), and [Reed Walker](https://w-reed-walker.com)
 
@@ -40,7 +40,8 @@ We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to
 
 [Published (P&P) version](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064) | [NBER Working Paper No. 25560](https://www.nber.org/papers/w25560) | [EI @ Haas Working Paper 300](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html)
 
-Fowlie, Meredith, Edward Rubin, and Reed Walker. 2019. "Bringing Satellite-Based Air Quality Estimates Down to Earth." *AEA Papers and Proceedings*, 109: 283-88.
+Fowlie, Meredith, Edward Rubin, and Reed Walker. 2019. "Bringing Satellite-Based Air Quality Estimates Down to Earth." *AEA Papers and Proceedings*, 109: 283-88. DOI: [10.1257/pandp.20191064
+](https://doi.org/10.1257/pandp.20191064)
 
 ```{r, out.width = "50%", echo = F}
 knitr::include_graphics(c(
