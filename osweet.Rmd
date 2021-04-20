@@ -80,7 +80,7 @@ knitr::include_graphics(c(
 ## **Transportation:** 23 April 2021
 
 <p>
-  <b>Friday, 09 April 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 23 April 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
