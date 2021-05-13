@@ -16,7 +16,7 @@ University of Oregon
 <!-- <br> -->
 <!-- <br> -->
 
-Ed Rubin is an assistant professor in the [Department of Economics](https://economics.uoregon.edu) at the [University of Oregon](https://www.uoregon.edu). His main research interests include the economics of the environment, energy, and natural resources; inequality; health; and development. He is also interested in rural communities and agriculture, drug and criminal policies, and general empirical policy analysis/data science (econometrics, statistics, machine learning, spatial analysis, _etc._).
+Ed Rubin is an assistant professor in the [Department of Economics](https://economics.uoregon.edu) at the [University of Oregon](https://www.uoregon.edu). His main research interests include the economics of the environment, energy, and natural resources; inequality; health; and development. He is also interested in rural communities, drug/criminal policies, and general empirical policy analysis/data science (econometrics, statistics, machine learning, spatial analysis, _etc._).
 
 Ed is a lover of data, (beautiful) graphs, maps, Venn diagrams, and people. He is an avid consumer of pizza, phở, tacos, coffee, and computational power. He is also a bunch of other things.
 
@@ -27,6 +27,6 @@ Please look around and/or [contact Ed](contact.html).
 <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/edwardarubin');return false;">schedule a meeting in office hours</a>.
  --><!-- Calendly link widget end -->
 
-Ed also started [TWEEDS](https://tweeds.io)—The Workshop in Environmental Economics and Data Science—with help from [some friends](https://tweeds.io/about/).
+Ed also started [TWEEDS](https://tweeds.io)—The Workshop in Environmental Economics and Data Science—with help from [some friends](https://tweeds.io/about/) and also helps run [OSWEET](https://edrub.in/osweet.html), an online workshop where graduate students and early-career faculty can present their work on environmental, energy, and transportation economics (and receive constructive feedback).
 
 <!-- ![](Photos/theoEdRedwoods.jpg) -->
