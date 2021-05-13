@@ -68,7 +68,7 @@ Public policy typically employs time- and group-invariant policies—partially d
 
 [NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
 
-[draft](Papers/draft-natural-gas.pdf) | [slides](Slides/slides-natural-gas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png)
+[Draft](Papers/draft-natural-gas.pdf) | [slides](Slides/slides-natural-gas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png)
 
 <center>
 ```{r, out.width = "65%", echo = F}
@@ -88,7 +88,7 @@ with [John Morehouse](https://www.johnmmorehouse.com)
 
 US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution's extreme mobility: within 6 hours, 50% of coal plants' emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation. 
 
-[draft](Papers/draft-plant-locations)
+[Draft](Papers/draft-plant-locations.pdf)
 
 <center>
 
@@ -111,7 +111,7 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 
 [NBER Working Paper No. 28735](https://www.nber.org/papers/w28735)
 
-[Current draft](Papers/draft-strategic-monitoring)
+[Current draft](Papers/draft-strategic-monitoring.pdf)
 
 <br>
 
@@ -119,9 +119,9 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 
 with Connor Lennon and [Glen Waddell](http://www.glenwaddell.com)
 
-Machine learning (ML) evolved primarily to solve "prediction problems." The first stage of two-stage least squares (2SLS) is a prediction problem—suggesting potential gains from injecting out-of-the-box ML into 2SLS's first stage. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS—mechanically decomposing the bias and then simulating. Mechanically, ML-in-2SLS procedures face issues common to the prediction *and* causal-inference settings—and their interaction. Our simulation shows linear ML methods (*e.g.*, post-Lasso) work "well," while nonlinear methods (*e.g.*, random forests or neural nets) generate substantial bias in second-stage estimates—some *exceeding* endogenous OLS's bias.
+Machine learning (ML) evolved primarily to solve "prediction problems." The first stage of two-stage least squares (2SLS) is a prediction problem—suggesting gains from injecting ML into 2SLS's first stage. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction *and* causal-inference settings—and their interaction. Through simulation, we show linear ML methods (*e.g.*, post-Lasso) work "well," while nonlinear methods (*e.g.*, random forests, neural nets) generate substantial bias in second-stage estimates—some *exceeding* the bias in endogenous OLS.
 
-[Draft](draft-ml-iv)
+[Draft](Papers/draft-ml-iv.pdf)
 
 <center>
 
