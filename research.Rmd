@@ -119,9 +119,9 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 
 with Connor Lennon and [Glen Waddell](http://www.glenwaddell.com)
 
-Machine learning (ML) evolved primarily to solve "prediction problems." The first stage of two-stage least squares (2SLS) is a prediction problem—suggesting gains from injecting ML into 2SLS's first stage. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction *and* causal-inference settings—and their interaction. Through simulation, we show linear ML methods (*e.g.*, post-Lasso) work "well," while nonlinear methods (*e.g.*, random forests, neural nets) generate substantial bias in second-stage estimates—some *exceeding* the bias in endogenous OLS.
+Machine learning (ML) primarily evolved to solve "prediction problems." The first stage of two-stage least squares (2SLS) is a prediction problem—suggesting gains from utilizing ML in 2SLS's first stage. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction *and* causal-inference settings—and their interaction. Through simulation, we show linear ML methods (*e.g.*, post-Lasso) work "well," while nonlinear methods (*e.g.*, random forests, neural nets) generate substantial bias in second-stage estimates—some *exceeding* the bias of endogenous OLS.
 
-[Draft](Papers/draft-ml-iv.pdf)
+[Draft](Papers/LennonRubinWaddell-202105.pdf)
 
 <center>
 
