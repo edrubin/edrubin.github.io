@@ -115,7 +115,7 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 
 <br>
 
-#### __What can we machine learn (too much of) in 2SLS? A cautionary tale from nonlinear intuition__
+#### __What can we machine learn (too much of) in 2SLS? Insights from bias decomposition and simulation__
 
 with Connor Lennon and [Glen Waddell](http://www.glenwaddell.com)
 
@@ -182,6 +182,14 @@ with [Erin Kelley](https://www.erinmunrokelley.com) and [Matthew Pecenco](http:/
 ## Presentations
 
 <br>
+
+__What's missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors__
+<br> AERE Remote Conference, June 2021
+<br><br>
+
+__Downwind and out: The Strategic dispersion of power plants and their pollution__
+<br> AERE Remote Conference, June 2021
+<br><br>
 
 __A retrospective analysis of indirect air-quality benefits from power-sector emissions reductions__
 <br> RFF/EPA (Online), December 2020

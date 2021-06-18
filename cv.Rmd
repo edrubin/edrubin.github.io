@@ -43,11 +43,17 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 ## Working Papers
 
-__[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/paperNaturalGas.pdf)__
+__[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/draft-natural-gas.pdf)__
 <br> Maximilian Auffhammer and Edward Rubin
 
-__The strategic local geography of US electricity emissions__
+__[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
+<br> Yingfei Mu, Edward Rubin, and Eric Zou
+
+__[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
+
+__[What can we machine learn (too much of) in 2SLS? Insights from bias decomposition and simulation](Papers/draft-mliv.pdf)__
+<br> Connor Lennon, Edward Rubin, and Glen Waddell
 
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 <br> Edward Rubin
@@ -68,9 +74,6 @@ __Mismeasurement in exposure and access: Insights from cellphone data__
 __Interactions between measurement error and policy__
 <br> Edward Rubin
 
-__Machine learning instrumental variables__
-<br> Connor Lennon, Edward Rubin, and Glen Waddell
-
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 <br> Edward Rubin
 
@@ -83,16 +86,16 @@ __Is "Michelle" less productive than "Michael"? A field experiment on consumer-b
 
 __[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S19)__
 
-- University of Oregon: [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
+- University of Oregon: [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
 - Doctoral level
 
 __[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W20)__
 
-- University of Oregon: [Winter 2020](https://github.com/edrubin/EC524W20)
+- University of Oregon: [Winter 2021](https://github.com/edrubin/EC524W21), [Winter 2020](https://github.com/edrubin/EC524W20)
 
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
 
-- University of Oregon: Spring 2020, [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
+- University of Oregon: [Winter 2021](https://github.com/edrubin/EC421W21), Spring 2020, [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
 - Undergraduate level
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
@@ -141,6 +144,12 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__What's missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors__
+<br> AERE Remote Conference, June 2021
+
+__Downwind and out: The Strategic dispersion of power plants and their pollution__
+<br> AERE Remote Conference, June 2021
 
 __A retrospective analysis of indirect air-quality benefits from power-sector emissions reductions__
 <br> RFF/EPA (Online), December 2020

@@ -23,6 +23,15 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 
 
 
@@ -52,6 +61,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="ed.css" type="text/css" />
 
@@ -293,7 +303,7 @@ $(document).ready(function () {
     </li>
     <li>
       <a href="https://github.com/edrubin">
-        <span class="fa fa-github-square fa-lg"></span>
+        <span class="fas fa-github-square fa-lg"></span>
          
       </a>
     </li>
@@ -330,19 +340,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:edwardr@uoregon.edu">
-    <span class="fa fa-envelope-o fa-lg"></span>
+    <span class="fas fa-envelope-o fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://www.instagram.com/edwardarubin">
-    <span class="fa fa-instagram fa-lg"></span>
+    <span class="fas fa-instagram fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://www.twitter.com/edrubin">
-    <span class="fa fa-twitter fa-lg"></span>
+    <span class="fas fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -365,18 +375,16 @@ $(document).ready(function () {
 <h1></h1>
 <div id="current" class="section level2">
 <h2>Current</h2>
-<p><strong><a href="https://github.com/edrubin/EC607S20">EC 607</a></strong> <br>PhD Econometrics (III) taught with R <br><a href="https://github.com/edrubin/EC607S20">Github repo</a></p>
-<p><strong><a href="https://github.com/edrubin/EC421S20">EC 421</a></strong> <br>Introduction to Econometrics (II) taught with R <br><a href="https://github.com/edrubin/EC421S20">Github repo</a></p>
+<p>Not teaching this term.</p>
 </div>
 <div id="economics" class="section level2">
 <h2>Economics</h2>
-<p><strong><a href="https://github.com/edrubin/EC607S20">EC 607</a></strong> <br>PhD Econometrics (III) taught with R <br><a href="https://github.com/edrubin/EC607S20">Github repo</a></p>
-<p><br></p>
-<p><strong><a href="https://github.com/edrubin/EC524W20">EC 524/424</a>: Masters Econometrics: Machine Learning and Prediction</strong> <br><a href="https://github.com/edrubin/EC524W20">Winter 2020</a> <br>University of Oregon <br>Instructor</p>
+<p><strong><a href="https://github.com/edrubin/EC607S21">EC 607</a>: PhD Econometrics (III)</strong> <br><a href="https://github.com/edrubin/EC607S21">Spring 2021</a>, <a href="https://github.com/edrubin/EC607S20">Spring 2020</a> <br>University of Oregon <br>Instructor</p>
+<p><strong><a href="https://github.com/edrubin/EC524W21">EC 524/424</a>: Masters Econometrics: Machine Learning and Prediction</strong> <br><a href="https://github.com/edrubin/EC524W21">Winter 2021</a>; <a href="https://github.com/edrubin/EC524W20">Winter 2020</a> <br>University of Oregon <br>Instructor</p>
 <p><br></p>
 <p><strong><a href="https://github.com/edrubin/EC525S19">EC 525/425</a>: PhD Econometrics (III)</strong> <br><a href="https://github.com/edrubin/EC525S19">Spring 2019</a> <br>University of Oregon <br>Instructor</p>
 <p><br></p>
-<p><strong><a href="https://github.com/edrubin/EC421W19">EC 421</a>: Introduction to Econometrics (II)</strong> <br><a href="https://github.com/edrubin/EC421S20">Spring 2020</a>; <a href="https://github.com/edrubin/EC421W20">Winter 2020</a>; <a href="https://github.com/edrubin/EC421S19">Spring 2019</a>; <a href="https://github.com/edrubin/EC421W19">Winter 2019</a> <br>University of Oregon <br>Instructor</p>
+<p><strong><a href="https://github.com/edrubin/EC421W19">EC 421</a>: Introduction to Econometrics (II)</strong> <br><a href="https://github.com/edrubin/EC421W21">Winter 2021</a>; <a href="https://github.com/edrubin/EC421S20">Spring 2020</a>; <a href="https://github.com/edrubin/EC421W20">Winter 2020</a>; <a href="https://github.com/edrubin/EC421S19">Spring 2019</a>; <a href="https://github.com/edrubin/EC421W19">Winter 2019</a> <br>University of Oregon <br>Instructor</p>
 <p><br></p>
 <p><strong><a href="https://edrub.in/ARE212">ARE 212</a>: Econometrics - Multiple Equation Estimation</strong> <br><a href="https://edrub.in/ARE212/Spring2017/notes.html">Spring 2017</a>; <a href="https://edrub.in/ARE212">Spring 2018</a> <br>UC Berkeley <br>GSI for <a href="http://www.auffhammer.com">Dr. Maximilian Auffhammer</a></p>
 </div>
@@ -420,7 +428,7 @@ window.__lc.license = 8929129;
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
