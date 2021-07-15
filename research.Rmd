@@ -115,7 +115,7 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 
 <br>
 
-#### __What can we machine learn (too much of) in 2SLS? Insights from bias decomposition and simulation__
+#### __What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation__
 
 with Connor Lennon and [Glen Waddell](http://www.glenwaddell.com)
 
