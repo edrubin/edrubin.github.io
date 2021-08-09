@@ -43,11 +43,17 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 ## Working Papers
 
-__[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/paperNaturalGas.pdf)__
+__[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/draft-natural-gas.pdf)__
 <br> Maximilian Auffhammer and Edward Rubin
 
-__The strategic local geography of US electricity emissions__
+__[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
+<br> Yingfei Mu, Edward Rubin, and Eric Zou
+
+__[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
+
+__[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
+<br> Connor Lennon, Edward Rubin, and Glen Waddell
 
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 <br> Edward Rubin
@@ -67,9 +73,6 @@ __Mismeasurement in exposure and access: Insights from cellphone data__
 
 __Interactions between measurement error and policy__
 <br> Edward Rubin
-
-__Machine learning instrumental variables__
-<br> Connor Lennon, Edward Rubin, and Glen Waddell
 
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 <br> Edward Rubin
@@ -157,7 +160,7 @@ __2012__: International Conference of Agricultural Economists (poster)
 - Co-founded/Organized [OSWEET](https://edrub.in/osweet) (Online Student Workshop in Environmental, Energy, and Transportation)
 - Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
 - Co-organize applied microeconometrics workshop at UO (with [Glen Waddell](http://www.glenwaddell.com/))
-- **Referee:** [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM)
+- **Referee:** [Journal of Public Economics](https://www.journals.elsevier.com/journal-of-public-economics) (JPubE), [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Energy Policy](https://www.journals.elsevier.com/energy-policy), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM)
 - Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
 - Organized biweekly (twice per week) departmental lunches (UCB)
 - Organized third-year research workshop (UCB)
