@@ -4,6 +4,12 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20210924 </h3>
+
+__Rectangle__ <br>
+
+[Window management](https://github.com/rxhanson/Rectangle) based on [Spectacle](https://www.spectacleapp.com).
+
 <h3 style="color:#EEEEEE"> 20210208 </h3>
 
 __Camo__ <br>
