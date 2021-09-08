@@ -77,7 +77,7 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Disasters:** 10 September 2021
+## **Ag + Climate:** 10 September 2021
 
 <p>
   <b>Friday, 10 September 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
@@ -98,7 +98,7 @@ knitr::include_graphics(c(
       <td>&nbsp;&nbsp;&nbsp;</td>
       <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
       <td>
-        <i>Can Recycled Water Cure All? Coastal Agriculture's Battle With Seawater Intrusion and Groundwater Overdraft</i>
+        <i>Can recycled water cure all? Coastal agriculture's battle with seawater intrusion and groundwater overdraft</i>
         <br><b>Molly Sears</b> (UC Berkeley)
         <br><br>
       </td>
@@ -108,7 +108,7 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)</td>
       <td>
-        <i>Circadian Rhythm: Insecticides, Infant Health, and Long-term Outcomes</i>
+        <i>Cicadian rhythm: Insecticides, infant health, and long-term outcomes</i>
         <br><b>Charles Taylor</b> (Columbia)
         <br><br>
       </td>
@@ -118,7 +118,7 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)</td>
       <td>
-        <i>Is Working at Home a Way of Adaptation to Climate Change?</i>
+        <i>Is working at home a way of adaptation to climate change?</i>
         <br><b>Wensu Li</b> (Trinity)
         <br><br>
       </td>
