@@ -99,7 +99,7 @@ knitr::include_graphics(c(
       <td>1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)</td>
       <td>
         <i>Disentangling the many-to-many mapping of natural capital and ecosystem services</i>
-        <br><b>Ethan Addicot</b> (Yale)
+        <br><b>Ethan Addicott</b> (Yale)
         <br><br>
       </td>
     </tr>
