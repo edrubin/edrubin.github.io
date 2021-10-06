@@ -11,14 +11,23 @@
 
 
 
-<title>cvShortPdfScript.utf8</title>
+<title>cvShortPdfScript.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -33,7 +42,14 @@
     </style>
 
 
-<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
 <style type="text/css" data-origin="pandoc">
 a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
@@ -119,39 +135,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 })();
 </script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="ed.css" type="text/css" />
@@ -163,10 +148,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -183,40 +164,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -244,7 +198,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -256,7 +210,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -267,10 +221,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -282,7 +249,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -394,7 +360,7 @@ $(document).ready(function () {
     </li>
     <li>
       <a href="https://github.com/edrubin">
-        <span class="fas fa-github-square fa-lg"></span>
+        <span class="fa fa-github-square fa-lg"></span>
          
       </a>
     </li>
@@ -431,19 +397,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:edwardr@uoregon.edu">
-    <span class="fas fa-envelope-o fa-lg"></span>
+    <span class="fa fa-envelope-o fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://www.instagram.com/edwardarubin">
-    <span class="fas fa-instagram fa-lg"></span>
+    <span class="fa fa-instagram fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://www.twitter.com/edrubin">
-    <span class="fas fa-twitter fa-lg"></span>
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -452,7 +418,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -522,18 +488,19 @@ $(document).ready(function () {
 <a class="sourceLine" id="cb1-60" data-line-number="60">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Avenir&quot;),</span></a>
 <a class="sourceLine" id="cb1-61" data-line-number="61">      <span class="co"># pandoc_variable_arg(&quot;monofont&quot;, &quot;Hack&quot;),</span></a>
 <a class="sourceLine" id="cb1-62" data-line-number="62">      <span class="kw">pandoc_variable_arg</span>(<span class="st">&quot;fontsize&quot;</span>, <span class="st">&quot;10pt&quot;</span>),</a>
-<a class="sourceLine" id="cb1-63" data-line-number="63">      <span class="kw">pandoc_variable_arg</span>(<span class="st">&quot;mainfont&quot;</span>, <span class="st">&quot;Lato&quot;</span>),</a>
-<a class="sourceLine" id="cb1-64" data-line-number="64">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Fira Sans Book&quot;),</span></a>
-<a class="sourceLine" id="cb1-65" data-line-number="65">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Roboto Mono&quot;),</span></a>
-<a class="sourceLine" id="cb1-66" data-line-number="66">      <span class="co"># pandoc_variable_arg(&quot;sansfont&quot;, &quot;Lato&quot;),</span></a>
-<a class="sourceLine" id="cb1-67" data-line-number="67">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Bell MT&quot;),</span></a>
-<a class="sourceLine" id="cb1-68" data-line-number="68">      <span class="co"># pandoc_variable_arg(&quot;monofont&quot;, &quot;Hack&quot;),</span></a>
-<a class="sourceLine" id="cb1-69" data-line-number="69">      <span class="co"># pandoc_variable_arg(&quot;fontsize&quot;, &quot;10pt&quot;),</span></a>
-<a class="sourceLine" id="cb1-70" data-line-number="70">      <span class="kw">pandoc_variable_arg</span>(<span class="st">&quot;linestretch&quot;</span>, <span class="st">&quot;0.9&quot;</span>)</a>
-<a class="sourceLine" id="cb1-71" data-line-number="71">      )</a>
-<a class="sourceLine" id="cb1-72" data-line-number="72">    ),</a>
-<a class="sourceLine" id="cb1-73" data-line-number="73">  <span class="dt">output_file =</span> <span class="st">&quot;cvEdRubin.pdf&quot;</span>,</a>
-<a class="sourceLine" id="cb1-74" data-line-number="74">  <span class="dt">output_dir =</span> <span class="st">&quot;.&quot;</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb1-63" data-line-number="63">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Lato&quot;),</span></a>
+<a class="sourceLine" id="cb1-64" data-line-number="64">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Fira Sans Condensed&quot;),</span></a>
+<a class="sourceLine" id="cb1-65" data-line-number="65">      <span class="kw">pandoc_variable_arg</span>(<span class="st">&quot;mainfont&quot;</span>, <span class="st">&quot;Fira Sans Book&quot;</span>),</a>
+<a class="sourceLine" id="cb1-66" data-line-number="66">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Roboto Mono&quot;),</span></a>
+<a class="sourceLine" id="cb1-67" data-line-number="67">      <span class="co"># pandoc_variable_arg(&quot;sansfont&quot;, &quot;Lato&quot;),</span></a>
+<a class="sourceLine" id="cb1-68" data-line-number="68">      <span class="co"># pandoc_variable_arg(&quot;mainfont&quot;, &quot;Bell MT&quot;),</span></a>
+<a class="sourceLine" id="cb1-69" data-line-number="69">      <span class="co"># pandoc_variable_arg(&quot;monofont&quot;, &quot;Hack&quot;),</span></a>
+<a class="sourceLine" id="cb1-70" data-line-number="70">      <span class="co"># pandoc_variable_arg(&quot;fontsize&quot;, &quot;10pt&quot;),</span></a>
+<a class="sourceLine" id="cb1-71" data-line-number="71">      <span class="kw">pandoc_variable_arg</span>(<span class="st">&quot;linestretch&quot;</span>, <span class="st">&quot;0.9&quot;</span>)</a>
+<a class="sourceLine" id="cb1-72" data-line-number="72">      )</a>
+<a class="sourceLine" id="cb1-73" data-line-number="73">    ),</a>
+<a class="sourceLine" id="cb1-74" data-line-number="74">  <span class="dt">output_file =</span> <span class="st">&quot;cvEdRubin.pdf&quot;</span>,</a>
+<a class="sourceLine" id="cb1-75" data-line-number="75">  <span class="dt">output_dir =</span> <span class="st">&quot;.&quot;</span>)</a></code></pre></div>
 <pre><code>## 
 ## 
 ## processing file: tmp.Rmd</code></pre>
@@ -544,13 +511,13 @@ $(document).ready(function () {
   |......................................................................| 100%
 ##   ordinary text without R code</code></pre>
 <pre><code>## output file: tmp.knit.md</code></pre>
-<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.utf8.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --self-contained --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable mainfont=Lato --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//RtmpIUpptT/rmarkdown-str10d0f3da992ff.html</code></pre>
-<pre><code>## Warning: LaTeX Warning: Command \underbar  has changed.
-##                Check if current package is valid.</code></pre>
+<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardarubin/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.1/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.1/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --self-contained --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable &#39;mainfont=Fira Sans Book&#39; --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//RtmpR3tJv6/rmarkdown-str2e69611804e6.html</code></pre>
+<pre><code>## Warning: LaTeX Warning: Command \underbar has changed.</code></pre>
+<pre><code>## Warning: Check if current package is valid.</code></pre>
 <pre><code>## 
 ## Output created: cvEdRubin.pdf</code></pre>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="co"># Clean up temporary files</span></a>
-<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="kw">file.remove</span>(<span class="st">&quot;tmp.Rmd&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="co"># Clean up temporary files</span></a>
+<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="kw">file.remove</span>(<span class="st">&quot;tmp.Rmd&quot;</span>)</a></code></pre></div>
 <pre><code>## [1] TRUE</code></pre>
 
 <!-- <?php include_once("analyticstracking.php") ?> -->
@@ -603,7 +570,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

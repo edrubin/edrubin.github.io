@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  24 AUG 2021 11:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  6 OCT 2021 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,113 +579,160 @@ ex)
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato scale = 0.8509369163101765.
+. Fira Sans Book scale = 0.8193920265491603.
 .................................................
-\g__fontspec_family_Lato_int=\count195
-.................................................
-. fontspec info: "set-scale"
-. 
-. Lato scale = 0.8509369163101765.
-.................................................
+\g__fontspec_family_FiraSansBook_int=\count195
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato/B scale = 0.8401546698393813.
+. Fira Sans Book scale = 0.8193920265491603.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato/I scale = 0.8509369163101765.
+. Fira Sans Book scale = 0.8193920265491603.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato/BI scale = 0.8401546698393813.
+. Fira Sans Book/B scale = 0.8086296581517117.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/B scale = 0.8086296581517117.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/I scale = 0.8193920265491603.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/I scale = 0.8193920265491603.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/BI scale = 0.8086296581517117.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/BI scale = 0.8086296581517117.
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Lato(0)' created for font 'Lato' with options
+. Font family 'FiraSansBook(0)' created for font 'Fira Sans Book' with options
 . [Ligatures=TeX,Scale=MatchLowercase,Ligatures=TeX].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[0.8509369163101765]"Lato/OT:script=latn;language=DFLT;mapping=tex-text;
-"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.8401546698393813]"Lato/B/OT:script=latn;language=DFLT;mapping=tex-tex
-t;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.:
-. <->s*[0.8509369163101765]"Lato/I/OT:script=latn;language=DFLT;mapping=tex-tex
-t;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[0.8401546698393813]"Lato/BI/OT:script=latn;language=DFLT;mapping=tex-te
-xt;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'normal' (m/n) with NFSS spec.: <->s*[0.8193920265491603]"Fira Sans
+. Book/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: <->s*[0.8193920265491603]"Fira Sans
+. Book/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.: <->s*[0.8086296581517117]"Fira Sans
+. Book/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->s*[0.8086296581517117]"Fira
+. Sans Book/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'italic' (m/it) with NFSS spec.: <->s*[0.8193920265491603]"Fira Sans
+. Book/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[0.8193920265491603]"Fira Sans
+. Book/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.: <->s*[0.8086296581517117]"Fira Sans
+. Book/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[0.8086296581517117]"Fira Sans
+. Book/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 18.
-LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
-(Font)              scaled to size 8.50937pt on input line 18.
+LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/m/n' will be
+(Font)              scaled to size 8.19397pt on input line 18.
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato scale = 0.8509369163101765.
-.................................................
-.................................................
-. fontspec info: "set-scale"
-. 
-. Lato scale = 0.8509369163101765.
+. Fira Sans Book scale = 0.8193978283761556.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato/B scale = 0.8401546698393813.
+. Fira Sans Book scale = 0.8193978283761556.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato/I scale = 0.8509369163101765.
+. Fira Sans Book scale = 0.8193978283761556.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. Lato/BI scale = 0.8401546698393813.
+. Fira Sans Book/B scale = 0.8086353837741585.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/B scale = 0.8086353837741585.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/I scale = 0.8193978283761556.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/I scale = 0.8193978283761556.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/BI scale = 0.8086353837741585.
+.................................................
+.................................................
+. fontspec info: "set-scale"
+. 
+. Fira Sans Book/BI scale = 0.8086353837741585.
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Lato(1)' created for font 'Lato' with options
+. Font family 'FiraSansBook(1)' created for font 'Fira Sans Book' with options
 . [Ligatures=TeX,Scale=MatchLowercase].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.:
-. <->s*[0.8509369163101765]"Lato/OT:script=latn;language=DFLT;mapping=tex-text;
-"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.:
-. <->s*[0.8401546698393813]"Lato/B/OT:script=latn;language=DFLT;mapping=tex-tex
-t;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.:
-. <->s*[0.8509369163101765]"Lato/I/OT:script=latn;language=DFLT;mapping=tex-tex
-t;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.:
-. <->s*[0.8401546698393813]"Lato/BI/OT:script=latn;language=DFLT;mapping=tex-te
-xt;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'normal' (m/n) with NFSS spec.: <->s*[0.8193978283761556]"Fira Sans
+. Book/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: <->s*[0.8193978283761556]"Fira Sans
+. Book/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.: <->s*[0.8086353837741585]"Fira Sans
+. Book/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->s*[0.8086353837741585]"Fira
+. Sans Book/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'italic' (m/it) with NFSS spec.: <->s*[0.8193978283761556]"Fira Sans
+. Book/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[0.8193978283761556]"Fira Sans
+. Book/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.: <->s*[0.8086353837741585]"Fira Sans
+. Book/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[0.8086353837741585]"Fira Sans
+. Book/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/Lato(1)/m/n on input line 18.
+(Font)                  OT1/lmr/m/n --> TU/FiraSansBook(1)/m/n on input line 18
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/Lato(1)/m/it on input line 18.
+(Font)                  OT1/lmr/m/it --> TU/FiraSansBook(1)/m/it on input line 
+18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/Lato(1)/bx/n on input line 18.
+(Font)                  OT1/lmr/bx/n --> TU/FiraSansBook(1)/bx/n on input line 
+18.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -980,18 +1027,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 \g__fontspec_family_latinmodern-math.otf_int=\count279
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -1004,12 +1051,12 @@ th,BoldFont={latinmodern-math.otf}].
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <->s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;mapping=tex-text
-;"
+. <->s*[1.000007080648587]"[latinmodern-math.otf]/OT:script=math;language=DFLT;
+mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;mapping=tex-text
-;"
+. <->s*[1.000007080648587]"[latinmodern-math.otf]/OT:script=math;language=DFLT;
+mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
@@ -1017,27 +1064,27 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -1052,14 +1099,14 @@ inmodern-math.otf}].
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.:
-. <8.5->s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;mapping=tex-t
-ext;"<6-8.5>s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;+ssty=0;m
-apping=tex-text;"<-6>s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;
-+ssty=1;mapping=tex-text;"
+. <8.5->s*[1.000007080648587]"[latinmodern-math.otf]/OT:script=math;language=DF
+LT;mapping=tex-text;"<6-8.5>s*[1.000007080648587]"[latinmodern-math.otf]/OT:scr
+ipt=math;language=DFLT;+ssty=0;mapping=tex-text;"<-6>s*[1.000007080648587]"[lat
+inmodern-math.otf]/OT:script=math;language=DFLT;+ssty=1;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.:
-. <->s*[1]"[latinmodern-math.otf]/OT:script=math;language=DFLT;mapping=tex-text
-;"
+. <->s*[1.000007080648587]"[latinmodern-math.otf]/OT:script=math;language=DFLT;
+mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -1077,27 +1124,27 @@ ut line 74.
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -1158,27 +1205,27 @@ ut line 74.
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "set-scale"
 . 
-. latinmodern-math scale = 1.
+. latinmodern-math scale = 1.000007080648587.
 .................................................
 .................................................
 . fontspec info: "defining-font"
@@ -1233,7 +1280,7 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `Lato' (encoding: TU).
+(microtype)             `FiraSansBook' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \AtBeginShipoutBox=\box44
@@ -1286,10 +1333,10 @@ LaTeX Info: Redefining \nameref on input line 74.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
-(Font)              scaled to size 14.70418pt on input line 76.
-LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
-(Font)              scaled to size 10.21124pt on input line 76.
+LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/m/n' will be
+(Font)              scaled to size 14.15916pt on input line 76.
+LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/m/n' will be
+(Font)              scaled to size 9.83276pt on input line 76.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 76.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -1324,49 +1371,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `TU/Lato(0)/m/n' will be
-(Font)              scaled to size 12.25348pt on input line 78.
-LaTeX Font Info:    Font shape `TU/Lato(0)/bx/n' will be
-(Font)              scaled to size 12.09813pt on input line 78.
-LaTeX Font Info:    Font shape `TU/Lato(0)/bx/n' will be
-(Font)              scaled to size 8.40149pt on input line 96.
-LaTeX Font Info:    Font shape `TU/Lato(0)/m/it' will be
-(Font)              scaled to size 8.50937pt on input line 109.
+LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/m/n' will be
+(Font)              scaled to size 11.7993pt on input line 78.
+LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/bx/n' will be
+(Font)              scaled to size 11.64418pt on input line 78.
+LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/bx/n' will be
+(Font)              scaled to size 8.08624pt on input line 92.
+LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/m/it' will be
+(Font)              scaled to size 8.19397pt on input line 105.
 [1
 
 ] [2]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.01236pt on input line 342.
+(Font)              scaled to size 7.01236pt on input line 343.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 4.98074pt on input line 342.
+(Font)              scaled to size 4.98074pt on input line 343.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 342.
+(Font)              scaled to size 10.00015pt on input line 343.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 342.
+(Font)              scaled to size 7.01247pt on input line 343.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 342.
+(Font)              scaled to size 4.9808pt on input line 343.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 342.
+(Font)              scaled to size 9.99985pt on input line 343.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 342.
+(Font)              scaled to size 7.01224pt on input line 343.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 342.
+(Font)              scaled to size 4.98067pt on input line 343.
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
 (./cvEdRubin.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 354.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
 Package rerunfilecheck Info: File `cvEdRubin.out' has not changed.
 (rerunfilecheck)             Checksum: 091161A23660D848040F46EFD9482AC6.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 24845 strings out of 492970
- 458832 string characters out of 6133938
- 670245 words of memory out of 5000000
- 28656 multiletter control sequences out of 15000+600000
+ 24867 strings out of 492970
+ 460720 string characters out of 6133938
+ 670373 words of memory out of 5000000
+ 28676 multiletter control sequences out of 15000+600000
  536609 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  59i,5n,117p,10473b,611s stack positions out of 5000i,500n,10000p,200000b,80000s

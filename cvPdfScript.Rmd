@@ -53,7 +53,9 @@ render("tmp.Rmd",
       # pandoc_variable_arg("mainfont", "Avenir"),
       # pandoc_variable_arg("monofont", "Hack"),
       # pandoc_variable_arg("fontsize", "10pt")
-      pandoc_variable_arg("mainfont", "Lato"),
+      # pandoc_variable_arg("mainfont", "SF Pro Text"),
+      pandoc_variable_arg("mainfont", "Fira Sans Condensed"),
+      # pandoc_variable_arg("mainfont", "Lato"),
       pandoc_variable_arg("monofont", "Hack"),
       pandoc_variable_arg("fontsize", "10pt"),
       pandoc_variable_arg("linestretch", "0.9")

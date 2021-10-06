@@ -14,14 +14,10 @@ Assistant Professor, University of Oregon, Department of Economics, 2018–prese
 ## Education
 
 Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018
-
-M.S. Agricultural and Resource Economics, UC Berkeley, 2015
-
-M.S. Statistics, University of Nebraska–Lincoln, 2013
-
-M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
-
-B.S. Mathematics, University of Nebraska–Lincoln, 2007
+<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
+<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
+<br>M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
+<br>B.S. Mathematics, University of Nebraska–Lincoln, 2007
 
 <br>
 
@@ -45,6 +41,7 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/draft-natural-gas.pdf)__
 <br> Maximilian Auffhammer and Edward Rubin
+<br> _Revise and resubmit_
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
 <br> Yingfei Mu, Edward Rubin, and Eric Zou
@@ -106,6 +103,8 @@ __STAT 218: Introduction to Statistics__
 
 ## Honors, Awards, and Fellowships
 
+EPA: _A Retrospective Analysis of Indirect Air Quality Benefits from Power-Sector Emissions Reductions_, 2021
+
 Sloan Foundation (for [TWEEDS](https://tweeds.io)), 2020–2022
 
 University of Oregon Data-Science Initiative Seed Funding, 2019–2020
@@ -134,7 +133,7 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__2021__: AERE Remote Conference
+__2021__: AERE Remote Conference, RFF/EPA, CU Environmental & Resource Economics Workshop
 
 __2020__: ASSA Annual Meeting, AERE Remote Conference, Duke Energy Data Analytics Symposium, RFF/EPA
 

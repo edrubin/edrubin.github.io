@@ -63,6 +63,7 @@ knitr::include_graphics(c(
 #### __Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills__
 
 with [Maximilian Auffhammer](http://www.auffhammer.com)
+<br>*Revise and resubmit*
 
 Public policy typically employs time- and group-invariant policies—partially due to historical limits that prevented precise identification of the heterogeneity underlying key parameters. We consider an important market—natural gas—where these limits have been relaxed and harness 300 million residential bills to identify income- and season-specific own-price elasticities. Exploiting service-territory spatial discontinuities and household-specific exogenous time-series variation, we show this demand elasticity varies substantially across seasons, income groups, and their interaction—from 0.06 (summer) to –0.61 (winter). This heterogeneity suggests an unexplored, *implementable*, and generalizable policy avenue—shifting fixed costs of operation into summer months—that is potentially more efficient and progressive than prevailing practices.
 
