@@ -180,6 +180,33 @@ with [Erin Kelley](https://www.erinmunrokelley.com) and [Matthew Pecenco](http:/
 
 <br>
 
+
+## Books
+
+<br>
+
+<font color="#18BC9C"><h2>Books</h2></font>
+
+---
+
+#### __[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)__
+
+with [Jeffrey Chen](http://jeffchen.org) and [Gary Cornwall](https://garycornwall.weebly.com)
+
+This textbook presents the essential tools and core concepts of data science to public officials, policy analysts, and economists among others in order to further their application in the public sector. An expansion of the quantitative economics frameworks presented in policy and business schools, this book emphasizes the process of asking relevant questions to inform public policy. Its techniques and approaches emphasize data-driven practices, beginning with the basic programming paradigms that occupy the majority of an analyst’s time and advancing to the practical applications of statistical learning and machine learning. The text considers two divergent, competing perspectives to support its applications, incorporating techniques from both causal inference and prediction. Additionally, the book includes open-sourced data as well as live code, written in R and presented in notebook form, which readers can use and modify to practice working with data.
+
+Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon](https://www.amazon.com/dp/B09F597WXP/)
+
+<br>
+
+```{r, out.width = "65%", echo = F, fig.align = "center"}
+knitr::include_graphics(c(
+  "Figures/book-cover.png"
+))
+```
+
+<br>
+
 ## Presentations
 
 <br>

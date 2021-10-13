@@ -109,7 +109,7 @@ knitr::include_graphics(c(
       <td>1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)</td>
       <td>
         <i>Effects of public transit fares increases on gasoline consumption: High-frequency evidence from China</i>
-        <br><b>Yuchan Wang</b> (Pitt)
+        <br><b>Yuchen Wang</b> (Pitt)
         <br><br>
       </td>
     </tr>
