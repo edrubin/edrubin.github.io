@@ -77,10 +77,10 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Air and externalities:** 25 October 2021
+## **Air and externalities:** 29 October 2021
 
 <p>
-  <b>Friday, 25 October 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 29 October 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
