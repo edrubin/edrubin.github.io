@@ -77,10 +77,10 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Behavior:**  2021
+## **Behavior:** 12 November 2021
 
 <p>
-  <b>Friday, 29 October 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 12 November 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
