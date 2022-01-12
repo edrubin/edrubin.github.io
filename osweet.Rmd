@@ -77,15 +77,73 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Perception and conservation:** 13 December 2021
+## **Pollution and driving:** 21 January 2022
 
 <p>
-  <b>Friday, 03 December 2021</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 21 January 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
+      <td>
+        <i>Does it measure up? A comparison of pollution exposure assessment techniques applied across hospitals in England</i>
+        <br><b>Dheeya Rizmie</b> (Imperial College London)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PST</b> (4:20PM <b>EST</b>)</td>
+      <td>
+        <i>Can air pollution save lives? Air quality and risky behaviors on roads</i>
+        <br><b>Yau-Huo (Jimmy) Shr</b> (National Taiwan University)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PST</b> (4:40PM <b>EST</b>)</td>
+      <td>
+        <i>Peer Effects in Electric Vehicle Adoption: Evidence from the Swedish Vehicle Market</i>
+        <br><b>Sebastian Tebbe</b> (IIES)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>2:00PM <b>PST</b> (5:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2021 {.tabset .tabset-fade}
+
+### **Perception and conservation:** 2021/12/13
 
 <p>
   <table style="width:100%">
@@ -135,13 +193,6 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2021 {.tabset .tabset-fade}
 
 ### **Behavior:** 2021/11/12
 
