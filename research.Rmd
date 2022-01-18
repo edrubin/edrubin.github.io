@@ -83,7 +83,7 @@ knitr::include_graphics(c(
 </center>
 <br>
 
-#### __Do polluters strategically locate near borders? The geography of US power plants and their emissions__
+#### __Downwind and out: The strategic dispersion of power plants and their pollution__
 
 with [John Morehouse](https://www.johnmmorehouse.com)
 
@@ -104,7 +104,7 @@ knitr::include_graphics(c(
 </center>
 <br>
 
-#### __Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.__
+#### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
 
 with Yingfei Mu and [Eric Zou](https://www.eric-zou.com)
 
@@ -114,6 +114,17 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 
 [Current draft](Papers/draft-strategic-monitoring.pdf)
 
+<center>
+
+```{r, out.width = "49%", echo = F}
+knitr::include_graphics(c(
+  "Figures/Intermittent/beta-88101.png",
+  "Figures/Intermittent/interpolate-88101.png",
+  NULL
+))
+```
+
+</center>
 <br>
 
 #### __What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation__
@@ -142,9 +153,11 @@ knitr::include_graphics(c(
 
 #### __Coordination versus Environmental Adaptation: How Much Does Standardized Time Change Behavior?__
 
-with [Patrick Baylis]() and [Severin Borenstein]()
+with [Patrick Baylis](https://www.patrickbaylis.com) and [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/)
 
 The practice of standardizing the designation of time is a central device for coordinating activities and economic behaviors across individuals. However, there is nearly always a tension between an individual coordinating activities and carrying out those activities at their own preferred time. When time is standardized across large geographic areas, that tension is enhanced, because norms about the "clock times" of activities conflict with local environmental conditions created by natural or "solar" time. We study this tension by examining how geographic and temporal variation in solar time within time zones affects the timing of a range of common behaviors in the United States. Specifically, we estimate the degree to which people shift their online behavior (through Twitter), their commute (using the Census), and there visits to businesses and other establishments (using foot traffic data). We find that, on average, a one hour shift in the differential between solar time and clock time—approximately the width of a time zone—leads to shifting behavior by between 10 and 20 minutes. This shows that while adapting to local environmental factors significantly offsets the differential between solar time and clock time, the behavioral nudge and coordination value of clock time has the larger influence on activity.  We also study how the trade-off differs across activities and population demographics.
+
+<br>
 
 #### __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 

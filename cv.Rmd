@@ -51,6 +51,7 @@ __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Ac
 
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
+<br> _Under review_ 
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
