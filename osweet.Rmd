@@ -77,10 +77,10 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Pollution and driving:** 21 January 2022
+## **Energy:** 05 February 2022
 
 <p>
-  <b>Friday, 21 January 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 05 February 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
@@ -98,8 +98,8 @@ knitr::include_graphics(c(
       <td>&nbsp;&nbsp;&nbsp;</td>
       <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
       <td>
-        <i>Does it measure up? A comparison of pollution exposure assessment techniques applied across hospitals in England</i>
-        <br><b>Dheeya Rizmie</b> (Imperial College London)
+        <i>Optimal energy subsidies with multiple policy instruments: The case for finite-time-horizon policies</i>
+        <br><b>Owen Kay</b> (Michigan)
         <br><br>
       </td>
     </tr>
@@ -108,8 +108,56 @@ knitr::include_graphics(c(
       <td></td>
       <td>1:20PM <b>PST</b> (4:20PM <b>EST</b>)</td>
       <td>
-        <i>Can air pollution save lives? Air quality and risky behaviors on roads</i>
-        <br><b>Yau-Huo (Jimmy) Shr</b> (National Taiwan University)
+        <i>Capital versus output subsidies with an inconsistent regulator</i>
+        <br><b>Asa Watten</b> (EPA)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PST</b> (4:40PM <b>EST</b>)</td>
+      <td>
+        <i>Decomposing the Effect of Renewables on the Electricity Sector</i>
+        <br><b>Paige Weber</b> (UNC)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>2:00PM <b>PST</b> (5:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2022 {.tabset .tabset-fade}
+
+### **Pollution and driving:** 2022/01/21
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
+      <td>
+        <i>Does it measure up? A comparison of pollution exposure assessment techniques applied across hospitals in England</i>
+        <br><b>Dheeya Rizmie</b> (Imperial College London)
         <br><br>
       </td>
     </tr>
@@ -135,11 +183,6 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## 2021 {.tabset .tabset-fade}
 
