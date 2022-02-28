@@ -98,6 +98,65 @@ knitr::include_graphics(c(
       <td>&nbsp;&nbsp;&nbsp;</td>
       <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
       <td>
+        <i>Household responses to a corrective tax and climate change mitigation: Evidence from food waste tax</i>
+        <br><b>Seunghoon Lee</b> (MIT)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PST</b> (4:20PM <b>EST</b>)</td>
+      <td>
+        <i>Market potential for domestic herbs: A new variant of "consequentiality" for valuing contingent private goods</i>
+        <br><b>Twinkle Roy</b> (Georgia)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PST</b> (4:40PM <b>EST</b>)</td>
+      <td>
+        <i>Rethinking recycling? The effects of China's waste-import ban on pollution relocation in the U.S.</i>
+        <br><b>Shan Zhang</b> (Oregon)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>2:00PM <b>PST</b> (5:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2022 {.tabset .tabset-fade}
+
+
+### **Tech. adoption:** 2022/02/18
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
+      <td>
         <i>Split incentives and endogenous inattention in home retrofits uptake: A story of selection on unobservables?</i>
         <br><b>Stefano Cellini</b> (Surrey)
         <br><br>
@@ -135,16 +194,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2022 {.tabset .tabset-fade}
-
-
-### **Energy:** 2022/02/05
+### **Energy:** 2022/02/04
 
 <p>
   <table style="width:100%">
