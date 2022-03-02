@@ -4,6 +4,12 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20220302 </h3>
+
+__DeckDeckGo__ <br>
+
+Interactive, web-based [presentations](https://deckdeckgo.com/en/). [h/t](https://www.densediscovery.com/)
+
 <h3 style="color:#EEEEEE"> 20211025 </h3>
 
 __Browse AI__ <br>

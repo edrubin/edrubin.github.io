@@ -77,10 +77,10 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Technology adoption:** 18 February 2022
+## **Food and waste:** 04 March 2022
 
 <p>
-  <b>Friday, 18 February 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 04 March 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
