@@ -77,11 +77,73 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Food and waste:** 04 March 2022
+## **Water and climate:** 18 March 2022
 
 <p>
-  <b>Friday, 04 March 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 18 March 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
+
+<p>
+  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
+</p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
+      <td>
+        <i>Regulator preferences and underinvestment in water infrastructure</i>
+        <br><b>Chunyu Guo</b> (SUNY Albany)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PST</b> (4:20PM <b>EST</b>)</td>
+      <td>
+        <i>Regional water transfer and economic growth: A synthetic control case study</i>
+        <br><b>Arpita Nehra</b> (Utah State)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PST</b> (4:40PM <b>EST</b>)</td>
+      <td>
+        <i>Near-term climate damages under flexible adaptation times</i>
+        <br><b>Maximilian Kotz</b> (Potsdam)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>2:00PM <b>PST</b> (5:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2022 {.tabset .tabset-fade}
+
+### **Food and waste:** 2022/03/04
 
 <p>
   [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
@@ -134,14 +196,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2022 {.tabset .tabset-fade}
 
 
 ### **Tech. adoption:** 2022/02/18
