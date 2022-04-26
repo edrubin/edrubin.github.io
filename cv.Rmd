@@ -13,16 +13,15 @@ Assistant Professor, University of Oregon, Department of Economics, 2018–prese
 
 ## Education
 
-Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018
-<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
-<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
+B.S. Mathematics, University of Nebraska–Lincoln, 2007
 <br>M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
-<br>B.S. Mathematics, University of Nebraska–Lincoln, 2007
-
-<br>
+<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
+<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
+<br>Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018
+<br>*Committee:* [Maximilian Auffhammer](https://www.auffhammer.com), [Meredith Fowlie](https://www.meredithfowlie.com/), [Solomon Hsiang](https://www.globalpolicy.science/solomon-hsiang/), [Reed Walker](https://w-reed-walker.com)
 
 __Primary interests__: Environmental & Energy Economics, Applied Econometrics & Data Science, Inequality & Public Policy
-
+<br>
 __Secondary interests__: Health Economics, Development Economics, Criminal Justice
 
 <br>
@@ -90,16 +89,16 @@ __Is "Michelle" less productive than "Michael"? A field experiment on consumer-b
 
 __[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S19)__
 
-- University of Oregon: [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
+- University of Oregon: [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
 - Doctoral level
 
 __[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W20)__
 
-- University of Oregon: [Winter 2021](https://github.com/edrubin/EC524W21), [Winter 2020](https://github.com/edrubin/EC524W20)
+- University of Oregon: [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21), [Winter 2020](https://github.com/edrubin/EC524W20)
 
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
 
-- University of Oregon: [Winter 2021](https://github.com/edrubin/EC421W21), Spring 2020, [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
+- University of Oregon: [Spring 2022](https://github.com/edrubin/EC421S22), [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21), Spring 2020, [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
 - Undergraduate level
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
@@ -150,6 +149,12 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__Power Plants, Air Pollution, and Regulatory Rebound__
+<br> National Graduate Institute for Policy Studies (GRIPS), April 2022
+
+__Power Plants, Air Pollution, and Regulatory Rebound__
+<br> UC Berkeley ARE, April 2022
 
 __What's missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors__
 <br> CU Environmental & Resource Economics Workshop, October 2021
@@ -258,14 +263,6 @@ __Linguistic__
 
 - English (fluent)
 - Spanish (conversational)
-
-<br>
-
-## References
-
-__[Maximilian Auffhammer](https://www.auffhammer.com)__, UC Berkeley
-<br> __[W. Reed Walker](https://w-reed-walker.com)__, UC Berkeley
-<br> __[Solomon Hsiang](http://www.globalpolicy.science/solomon-hsiang/)__, UC Berkeley
 
 <br>
 
