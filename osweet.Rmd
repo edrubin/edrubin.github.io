@@ -77,10 +77,10 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Environment and energy issues in India:** 29 April 2022
+## **Energy:** 13 May 2022
 
 <p>
-  <b>Friday, 29 April 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 13 May 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
@@ -98,8 +98,66 @@ knitr::include_graphics(c(
       <td>&nbsp;&nbsp;&nbsp;</td>
       <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
       <td>
+        <i>Energy transition metals: Bottleneck for net-zero emissions?</i>
+        <br><b>Lukas Boer</b> (DIW Berlin)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:20PM <b>PST</b> (4:20PM <b>EST</b>)</td>
+      <td>
+        <i>Policy legacies and energy transitions: Greening policies under sectoral reforms in Argentina and Chile</i>
+        <br><b>Santiago Cunial</b> (UPenn)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>1:40PM <b>PST</b> (4:40PM <b>EST</b>)</td>
+      <td>
+        <i>Price discrimination on choice frictions in residential electricity markets</i>
+        <br><b>Jenya Kahn-Lang</b> (UC Berkeley)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>2:00PM <b>PST</b> (5:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2022 {.tabset .tabset-fade}
+
+### **Env. & energy in India:** 2022/04/29
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>1:00PM <b>PST</b> (4:00PM <b>EST</b>)</td>
+      <td>
         <i>Burned agricultural biomass, air pollution, and crime</i>
-        <br><b>Ayesh Abubakr</b> (Michigan State)
+        <br><b>Abubakr Ayesh</b> (Michigan State)
         <br><br>
       </td>
     </tr>
@@ -135,13 +193,6 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2022 {.tabset .tabset-fade}
 
 ### **Justice and political economy:** 2022/04/01
 
