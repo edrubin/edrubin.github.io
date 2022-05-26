@@ -17,9 +17,11 @@ University of Oregon
 <!-- <br> -->
 <!-- <br> -->
 
-Hello there. My name is [**Ed Rubin**](bio.html), and I'm an assistant professor in the [**Department of Economics**](https://economics.uoregon.edu) at the [**University of Oregon**](https://www.uoregon.edu).
+`hello world`
 
-My research focuses on the <b><font color="#FFC107">economics</font></b> of the <b><font color="#FFC107">environment</font></b> and <b><font color="#FFC107">inequality/discrimination</font></b>.
+My name is [**Ed Rubin**](bio.html), and I'm an assistant professor in the [**Department of Economics**](https://economics.uoregon.edu) at the [**University of Oregon**](https://www.uoregon.edu).
+
+I research the <b><font color="#FFC107">economics</font></b> of the <b><font color="#FFC107">environment</font></b> and <b><font color="#FFC107">inequality/discrimination</font></b>.
 
 More broadly, I aim to answer policy-relevant questions about <b><font color="#BDBDBD">social equity</font></b> and <b><font color="BDBDBD">environmental quality</font></b> using tools from <b><font color="#BDBDBD">economics</font></b>, <b><font color="#BDBDBD">econometrics</font></b>, <b><font color="#BDBDBD">statistics</font></b> and <b><font color="#BDBDBD">data science</font></b>.
 
