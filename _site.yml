@@ -2,7 +2,7 @@ name: "Ed-Rubin"
 output_dir: "."
 navbar:
   title: "Ed Rubin"
-  type: inverse
+  # type: inverse
   left:
     - text: "Home"
       href: index.html
@@ -45,9 +45,11 @@ navbar:
     - icon: fa-envelope-o fa-lg
       href: mailto:edwardr@uoregon.edu
     - icon: fa-instagram fa-lg
-      href: http://www.instagram.com/edwardarubin
+      href: https://www.instagram.com/edwardarubin
     - icon: fa-twitter fa-lg
-      href: http://www.twitter.com/edrubin
+      href: https://www.twitter.com/edrubin
+    - icon: fa-github fa-lg
+      href: https://github.com/edrubin/
 output:
   html_document:
     theme: flatly

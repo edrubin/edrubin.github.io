@@ -2,4 +2,4 @@
 title: "Not yet"
 ---
 
-In progress...
+[Contact me.](contact.html)

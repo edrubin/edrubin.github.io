@@ -13,11 +13,12 @@ Assistant Professor, University of Oregon, Department of Economics, 2018–prese
 
 ## Education
 
-Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018
-<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
-<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
+B.S. Mathematics, University of Nebraska–Lincoln, 2007
 <br>M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
-<br>B.S. Mathematics, University of Nebraska–Lincoln, 2007
+<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
+<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
+<br>Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018
+<br>*Committee:* [Maximilian Auffhammer](https://www.auffhammer.com), [Meredith Fowlie](https://www.meredithfowlie.com/), [Reed Walker](https://w-reed-walker.com)
 
 <br>
 
@@ -54,6 +55,12 @@ __[The strategic local geography of US electricity emissions](Papers/draft-plant
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
+
+__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
+<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
+
+__How unequal is access to short-term risk mitigation? Evidence from wildfire smoke and cellphones__
+<br> Marcus Holloway and Edward Rubin
 
 __Coordination versus Environmental Adaptation: How Much Does Standardized Time Change Behavior?__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
@@ -138,6 +145,8 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__2022__: UC Berkeley ARE, GRIPS, Oregon State
 
 __2021__: AERE Remote Conference, RFF/EPA, CU Environmental & Resource Economics Workshop
 

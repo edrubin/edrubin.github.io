@@ -55,6 +55,12 @@ __[The strategic local geography of US electricity emissions](Papers/draft-plant
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
 
+__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
+<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
+
+__How unequal is access to short-term risk mitigation? Evidence from wildfire smoke and cellphones__
+<br> Marcus Holloway and Edward Rubin
+
 __Coordination versus environmental adaptation: How much does standardized time change behavior?__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
 
@@ -149,6 +155,9 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__Power Plants, Air Pollution, and Regulatory Rebound__
+<br> Oregon State University, May 2022
 
 __Power Plants, Air Pollution, and Regulatory Rebound__
 <br> National Graduate Institute for Policy Studies (GRIPS), April 2022

@@ -13,12 +13,21 @@
 
 <title>Efficiently mapping with ggplot2</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -26,8 +35,24 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
-<style type="text/css">code{white-space: pre;}</style>
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
 <style type="text/css" data-origin="pandoc">
 a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
@@ -113,39 +138,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 })();
 </script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="ed.css" type="text/css" />
 
@@ -156,10 +151,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -176,40 +167,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -237,7 +201,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -249,7 +213,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -260,10 +224,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -275,7 +252,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -407,7 +383,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -418,7 +394,7 @@ div.tocify {
 
 
 
-<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -508,14 +484,20 @@ div.tocify {
   </a>
 </li>
 <li>
-  <a href="http://www.instagram.com/edwardarubin">
+  <a href="https://www.instagram.com/edwardarubin">
     <span class="fa fa-instagram fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="http://www.twitter.com/edrubin">
+  <a href="https://www.twitter.com/edrubin">
     <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/edrubin/">
+    <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -524,7 +506,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -570,7 +552,7 @@ div.tocify {
 <a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co"># </span><span class="al">TODO</span></a>
 <a class="sourceLine" id="cb2-3" data-line-number="3">us_shp &lt;-<span class="st"> </span><span class="kw">readOGR</span>(<span class="dt">dsn =</span> dir_shp, <span class="dt">layer =</span> <span class="st">&quot;gz_2010_us_050_00_500k&quot;</span>)</a></code></pre></div>
 <pre><code>## OGR data source with driver: ESRI Shapefile 
-## Source: &quot;/Users/edwardarubin/Dropbox/Research/myProjects/NaturalGas/DataSpatial/gz_2010_us_050_00_500k&quot;, layer: &quot;gz_2010_us_050_00_500k&quot;
+## Source: &quot;/Users/edwardarubin/Dropbox (University of Oregon)/Research/myProjects/NaturalGas/DataSpatial/gz_2010_us_050_00_500k&quot;, layer: &quot;gz_2010_us_050_00_500k&quot;
 ## with 3221 features
 ## It has 6 fields</code></pre>
 <p>To improve visualization, I am going to drop Alaska, Hawaii, and Puerto Rice using <code>subset()</code>.</p>
@@ -586,44 +568,76 @@ div.tocify {
 <p>The <code>ms_simplify()</code> function accepts several arguments. I am going to focus on the <code>keep</code> argument, which tells the function which percentage of the points we would like to keep. I’m going to try 1 percent, 5 percent, 10 percent, and 25 percent.</p>
 <p>Time to sample.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 1%</span></a>
-<a class="sourceLine" id="cb5-2" data-line-number="2">us01_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.01</span>, <span class="dt">keep_shapes =</span> T)</a>
-<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 5%</span></a>
-<a class="sourceLine" id="cb5-4" data-line-number="4">us05_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.05</span>, <span class="dt">keep_shapes =</span> T)</a>
-<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 10%</span></a>
-<a class="sourceLine" id="cb5-6" data-line-number="6">us10_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.10</span>, <span class="dt">keep_shapes =</span> T)</a>
-<a class="sourceLine" id="cb5-7" data-line-number="7"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 25%</span></a>
-<a class="sourceLine" id="cb5-8" data-line-number="8">us25_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.25</span>, <span class="dt">keep_shapes =</span> T)</a></code></pre></div>
+<a class="sourceLine" id="cb5-2" data-line-number="2">us01_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.01</span>, <span class="dt">keep_shapes =</span> T)</a></code></pre></div>
+<pre><code>## Warning in sp::proj4string(sp): CRS object has comment, which is lost in output; in tests, see
+## https://cran.r-project.org/web/packages/sp/vignettes/CRS_warnings.html</code></pre>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 5%</span></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2">us05_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.05</span>, <span class="dt">keep_shapes =</span> T)</a></code></pre></div>
+<pre><code>## Warning in sp::proj4string(sp): CRS object has comment, which is lost in output; in tests, see
+## https://cran.r-project.org/web/packages/sp/vignettes/CRS_warnings.html</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 10%</span></a>
+<a class="sourceLine" id="cb9-2" data-line-number="2">us10_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.10</span>, <span class="dt">keep_shapes =</span> T)</a></code></pre></div>
+<pre><code>## Warning in sp::proj4string(sp): CRS object has comment, which is lost in output; in tests, see
+## https://cran.r-project.org/web/packages/sp/vignettes/CRS_warnings.html</code></pre>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="co"># Simplify the shapefile with &#39;ms_simplify&#39;, keeping 25%</span></a>
+<a class="sourceLine" id="cb11-2" data-line-number="2">us25_shp &lt;-<span class="st"> </span><span class="kw">ms_simplify</span>(us_shp, <span class="dt">keep =</span> <span class="fl">0.25</span>, <span class="dt">keep_shapes =</span> T)</a></code></pre></div>
+<pre><code>## Warning in sp::proj4string(sp): CRS object has comment, which is lost in output; in tests, see
+## https://cran.r-project.org/web/packages/sp/vignettes/CRS_warnings.html</code></pre>
 </div>
 <div id="convert-to-data-table" class="section level3">
 <h3>Convert to data table</h3>
 <p>Now that we have our sampled shapefiles, let’s convert them to data tables and then plot them with <code>ggplot2</code>. This extra step of converting the shapefiles to data tables (or, more generally, data frames) is necessary if you want to use <code>ggplot()</code>. If you want to stick with <code>plot()</code>, then you don’t need to convert.</p>
 <p>For the task of converting from shapefile to data table, I am going to use the <code>tidy()</code> function from the <code>broom</code> package.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="co"># Convert shapefiles to data tables</span></a>
-<a class="sourceLine" id="cb6-2" data-line-number="2"><span class="co"># &#39;tidy&#39; each of the shapefiles for plotting with &#39;ggplot&#39;</span></a>
-<a class="sourceLine" id="cb6-3" data-line-number="3">us01_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us01_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a>
-<a class="sourceLine" id="cb6-4" data-line-number="4">us05_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us05_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a>
-<a class="sourceLine" id="cb6-5" data-line-number="5">us10_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us10_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a>
-<a class="sourceLine" id="cb6-6" data-line-number="6">us25_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us25_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a>
-<a class="sourceLine" id="cb6-7" data-line-number="7">us_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="co"># Convert shapefiles to data tables</span></a>
+<a class="sourceLine" id="cb13-2" data-line-number="2"><span class="co"># &#39;tidy&#39; each of the shapefiles for plotting with &#39;ggplot&#39;</span></a>
+<a class="sourceLine" id="cb13-3" data-line-number="3">us01_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us01_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a></code></pre></div>
+<pre><code>## Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Self-intersection
+## at or near point -101.32551391 40.00268689</code></pre>
+<pre><code>## SpP is invalid</code></pre>
+<pre><code>## Warning in rgeos::gUnaryUnion(spgeom = SpP, id = IDs): Invalid objects found;
+## consider using set_RGEOS_CheckValidity(2L)</code></pre>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" data-line-number="1">us05_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us05_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a></code></pre></div>
+<pre><code>## Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Self-intersection
+## at or near point -101.32551391 40.00268689</code></pre>
+<pre><code>## SpP is invalid</code></pre>
+<pre><code>## Warning in rgeos::gUnaryUnion(spgeom = SpP, id = IDs): Invalid objects found;
+## consider using set_RGEOS_CheckValidity(2L)</code></pre>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb21-1" data-line-number="1">us10_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us10_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a></code></pre></div>
+<pre><code>## Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Self-intersection
+## at or near point -101.32551391 40.00268689</code></pre>
+<pre><code>## SpP is invalid</code></pre>
+<pre><code>## Warning in rgeos::gUnaryUnion(spgeom = SpP, id = IDs): Invalid objects found;
+## consider using set_RGEOS_CheckValidity(2L)</code></pre>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb25-1" data-line-number="1">us25_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us25_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a></code></pre></div>
+<pre><code>## Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Self-intersection
+## at or near point -84.363215999999994 32.397649000000001</code></pre>
+<pre><code>## Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Self-intersection
+## at or near point -84.305204000000003 31.691058000000002</code></pre>
+<pre><code>## Warning in RGEOSUnaryPredFunc(spgeom, byid, &quot;rgeos_isvalid&quot;): Self-intersection
+## at or near point -101.32551391 40.00268689</code></pre>
+<pre><code>## SpP is invalid</code></pre>
+<pre><code>## Warning in rgeos::gUnaryUnion(spgeom = SpP, id = IDs): Invalid objects found;
+## consider using set_RGEOS_CheckValidity(2L)</code></pre>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb31-1" data-line-number="1">us_dt &lt;-<span class="st"> </span><span class="kw">tidy</span>(us_shp, <span class="dt">region =</span> <span class="st">&quot;GEO_ID&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">data.table</span>()</a></code></pre></div>
 </div>
 <div id="compare-numbers" class="section level3">
 <h3>Compare numbers</h3>
 <p>Now, let’s compare the number of points in each of the data tables, starting with the 1-percent sample and moving all the way up to the full shapefile.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># Compare the dimensions of each tidied shapefile</span></a>
-<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="kw">lapply</span>(</a>
-<a class="sourceLine" id="cb7-3" data-line-number="3">  <span class="dt">X =</span> <span class="kw">list</span>(us01_dt, us05_dt, us10_dt, us25_dt, us_dt),</a>
-<a class="sourceLine" id="cb7-4" data-line-number="4">  <span class="dt">FUN =</span> dim)</a></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb32-1" data-line-number="1"><span class="co"># Compare the dimensions of each tidied shapefile</span></a>
+<a class="sourceLine" id="cb32-2" data-line-number="2"><span class="kw">lapply</span>(</a>
+<a class="sourceLine" id="cb32-3" data-line-number="3">  <span class="dt">X =</span> <span class="kw">list</span>(us01_dt, us05_dt, us10_dt, us25_dt, us_dt),</a>
+<a class="sourceLine" id="cb32-4" data-line-number="4">  <span class="dt">FUN =</span> dim)</a></code></pre></div>
 <pre><code>## [[1]]
-## [1] 49436     7
+## [1] 47105     7
 ## 
 ## [[2]]
-## [1] 78537     7
+## [1] 76752     7
 ## 
 ## [[3]]
-## [1] 115177      7
+## [1] 113718      7
 ## 
 ## [[4]]
-## [1] 229093      7
+## [1] 228134      7
 ## 
 ## [[5]]
 ## [1] 794693      7</code></pre>
@@ -632,107 +646,107 @@ div.tocify {
 <div id="compare-graphs" class="section level3">
 <h3>Compare graphs</h3>
 <p>Finally, let’s compare the sampling results for the one-percent sample and the full sample. For the sake of visualization, I am going to start by focusing on the great state of Nebraska (FIPS code 31).</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="co"># Plot</span></a>
-<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],</a>
-<a class="sourceLine" id="cb9-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
-<a class="sourceLine" id="cb9-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],</a>
-<a class="sourceLine" id="cb9-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
-<a class="sourceLine" id="cb9-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
-<a class="sourceLine" id="cb9-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb9-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb9-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb9-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
-<a class="sourceLine" id="cb9-17" data-line-number="17">    ) <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="dv">41</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb34-1" data-line-number="1"><span class="co"># Plot</span></a>
+<a class="sourceLine" id="cb34-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb34-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],</a>
+<a class="sourceLine" id="cb34-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
+<a class="sourceLine" id="cb34-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb34-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt[<span class="kw">grepl</span>(<span class="st">&quot;[U][S][3][1]&quot;</span>, group)],</a>
+<a class="sourceLine" id="cb34-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
+<a class="sourceLine" id="cb34-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb34-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb34-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb34-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb34-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
+<a class="sourceLine" id="cb34-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb34-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb34-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb34-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
+<a class="sourceLine" id="cb34-17" data-line-number="17">    ) <span class="op">+</span></a>
+<a class="sourceLine" id="cb34-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="dv">41</span>)</a></code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20ne-1.png" width="672" /></p>
 <p>Not bad, eh? The 1-percent sample (plotted on top in yellow) cuts a few corners, but on the whole, it’s quite accurate relative to the full shapefile (the bottom layer in dark blue)—you definitely get the picture, which is probably the point of visualization. This use case (counties in Nebraska) may be particularly nice for the function, since many counties in Western-ish states like Nebraska are quite rectangular. You can see the 1-percent sample does a bit worse around Nebraska’s eastern edge, where the border is defined by the meandering Missouri River, rather than latitudes and longitudes.</p>
 <p>Now let’s zoom out to the whole country.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="co"># Plot</span></a>
-<a class="sourceLine" id="cb10-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
-<a class="sourceLine" id="cb10-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
-<a class="sourceLine" id="cb10-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt,</a>
-<a class="sourceLine" id="cb10-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
-<a class="sourceLine" id="cb10-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
-<a class="sourceLine" id="cb10-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb10-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb10-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb10-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
-<a class="sourceLine" id="cb10-17" data-line-number="17">    ) <span class="op">+</span></a>
-<a class="sourceLine" id="cb10-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb35-1" data-line-number="1"><span class="co"># Plot</span></a>
+<a class="sourceLine" id="cb35-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb35-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
+<a class="sourceLine" id="cb35-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
+<a class="sourceLine" id="cb35-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb35-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us01_dt,</a>
+<a class="sourceLine" id="cb35-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
+<a class="sourceLine" id="cb35-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb35-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb35-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 1-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb35-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb35-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
+<a class="sourceLine" id="cb35-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb35-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb35-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb35-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
+<a class="sourceLine" id="cb35-17" data-line-number="17">    ) <span class="op">+</span></a>
+<a class="sourceLine" id="cb35-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%201-1.png" width="672" /></p>
 <p>Still pretty pretty good! Keep in mind, this comparison is between a 1-percent sample and the full sample. The 1-percent sample is missing some islands and struggles a bit on peninsulas/coasts, but overall, I’d say it is pretty good.</p>
 <p>Before we quit, let’s check out the other samples.</p>
 <p>First, the five-percent sample.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="co"># Plot</span></a>
-<a class="sourceLine" id="cb11-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
-<a class="sourceLine" id="cb11-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
-<a class="sourceLine" id="cb11-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us05_dt,</a>
-<a class="sourceLine" id="cb11-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
-<a class="sourceLine" id="cb11-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 5-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
-<a class="sourceLine" id="cb11-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb11-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb11-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb11-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
-<a class="sourceLine" id="cb11-17" data-line-number="17">    ) <span class="op">+</span></a>
-<a class="sourceLine" id="cb11-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb36-1" data-line-number="1"><span class="co"># Plot</span></a>
+<a class="sourceLine" id="cb36-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb36-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
+<a class="sourceLine" id="cb36-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
+<a class="sourceLine" id="cb36-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb36-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us05_dt,</a>
+<a class="sourceLine" id="cb36-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
+<a class="sourceLine" id="cb36-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb36-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb36-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 5-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb36-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb36-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
+<a class="sourceLine" id="cb36-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb36-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb36-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb36-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
+<a class="sourceLine" id="cb36-17" data-line-number="17">    ) <span class="op">+</span></a>
+<a class="sourceLine" id="cb36-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%205-1.png" width="672" /></p>
 <p>Now, the ten-percent sample.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="co"># Plot</span></a>
-<a class="sourceLine" id="cb12-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
-<a class="sourceLine" id="cb12-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
-<a class="sourceLine" id="cb12-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us10_dt,</a>
-<a class="sourceLine" id="cb12-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
-<a class="sourceLine" id="cb12-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 10-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
-<a class="sourceLine" id="cb12-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb12-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb12-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb12-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
-<a class="sourceLine" id="cb12-17" data-line-number="17">    ) <span class="op">+</span></a>
-<a class="sourceLine" id="cb12-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb37-1" data-line-number="1"><span class="co"># Plot</span></a>
+<a class="sourceLine" id="cb37-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb37-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
+<a class="sourceLine" id="cb37-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
+<a class="sourceLine" id="cb37-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb37-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us10_dt,</a>
+<a class="sourceLine" id="cb37-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
+<a class="sourceLine" id="cb37-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb37-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb37-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 10-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb37-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb37-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
+<a class="sourceLine" id="cb37-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb37-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb37-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb37-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
+<a class="sourceLine" id="cb37-17" data-line-number="17">    ) <span class="op">+</span></a>
+<a class="sourceLine" id="cb37-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%2010-1.png" width="672" /></p>
 <p>Finally, the twenty-five percent sample.</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="co"># Plot</span></a>
-<a class="sourceLine" id="cb13-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb13-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
-<a class="sourceLine" id="cb13-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
-<a class="sourceLine" id="cb13-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb13-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us25_dt,</a>
-<a class="sourceLine" id="cb13-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
-<a class="sourceLine" id="cb13-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb13-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb13-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 25-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb13-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb13-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
-<a class="sourceLine" id="cb13-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb13-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb13-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb13-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
-<a class="sourceLine" id="cb13-17" data-line-number="17">    ) <span class="op">+</span></a>
-<a class="sourceLine" id="cb13-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb38-1" data-line-number="1"><span class="co"># Plot</span></a>
+<a class="sourceLine" id="cb38-2" data-line-number="2"><span class="kw">ggplot</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb38-3" data-line-number="3"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us_dt,</a>
+<a class="sourceLine" id="cb38-4" data-line-number="4">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">1</span>],</a>
+<a class="sourceLine" id="cb38-5" data-line-number="5">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb38-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_path</span>(<span class="dt">data =</span> us25_dt,</a>
+<a class="sourceLine" id="cb38-7" data-line-number="7">    <span class="dt">color =</span> <span class="kw">plasma</span>(<span class="dv">2</span>, <span class="dt">end =</span> <span class="fl">0.95</span>)[<span class="dv">2</span>],</a>
+<a class="sourceLine" id="cb38-8" data-line-number="8">    <span class="kw">aes</span>(<span class="dt">x =</span> long, <span class="dt">y =</span> lat, <span class="dt">group =</span> group)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb38-9" data-line-number="9"><span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb38-10" data-line-number="10"><span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Comparing the 25-percent sample and the full shapefile&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb38-11" data-line-number="11"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb38-12" data-line-number="12"><span class="st">  </span><span class="kw">theme</span>(</a>
+<a class="sourceLine" id="cb38-13" data-line-number="13">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb38-14" data-line-number="14">    <span class="dt">axis.text =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb38-15" data-line-number="15">    <span class="dt">panel.grid.major =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb38-16" data-line-number="16">    <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>()</a>
+<a class="sourceLine" id="cb38-17" data-line-number="17">    ) <span class="op">+</span></a>
+<a class="sourceLine" id="cb38-18" data-line-number="18"><span class="st">  </span><span class="kw">coord_map</span>(<span class="st">&quot;conic&quot;</span>, <span class="fl">22.5</span>)</a></code></pre></div>
 <p><img src="blog20170806_files/figure-html/plot%20us%2025-1.png" width="672" /></p>
 </div>
 </div>
@@ -777,7 +791,7 @@ window.__lc.license = 8929129;
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -795,7 +809,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -804,6 +818,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
@@ -816,7 +833,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

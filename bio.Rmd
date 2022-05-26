@@ -2,13 +2,13 @@
 title: "Ed Rubin: Bio"
 ---
 
-<img align="right" src="Photos/kidsRedwoods.jpg" width = "450">
+<img align="right" src="Photos/kidsRedwoods.jpg" width = "450" HSPACE = "50">
 
 <br>
 
-Ed (officially Edward Anton Rubin) lives in Eugene, Oregon (USA) with his amazing wife, [Shelley](http://yourwritinghelper.com), and their awesome kids, Theo and Clara. He is an assistant professor of economics at the University of Oregon. Ed received his PhD from the Department of Agricultural and Resource Economics at UC Berkeley. Before studying at UC Berkley, Ed earned a B.S. in mathematics, an M.S. in statistics, and an M.S. in agricultural economics—all at the University of Nebraska–Lincoln.
+I live in Eugene, Oregon (USA) with my amazing wife, [Shelley](http://yourwritinghelper.com), and awesome kids, Theo and Clara. I am currently an assistant professor of economics at the University of Oregon. I received my PhD from the Department of Agricultural and Resource Economics at UC Berkeley. Before studying at UC Berkley, I earned a B.S. in mathematics, an M.S. in statistics, and an M.S. in agricultural economics—all at the University of Nebraska–Lincoln.
 
-When not at school, Ed enjoys exploring both rural and urban places. He loves data, maps, Truth, Beauty, and good food. And bikes.
+When not at school, I enjoy exploring both rural and urban places. He loves data, maps, Truth, Beauty, and good food. And bikes.
 
 More:
 
