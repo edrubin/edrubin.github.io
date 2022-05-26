@@ -17,31 +17,31 @@ University of Oregon
 <!-- <br> -->
 <!-- <br> -->
 
-`hello world`
+<h3>`hello world`</h3>
 
 My name is [**Ed Rubin**](bio.html), and I'm an assistant professor in the [**Department of Economics**](https://economics.uoregon.edu) at the [**University of Oregon**](https://www.uoregon.edu).
 
-`research`
+<h3>`research`</h3>
 
-I [**research**](research.html) the <b><font color="#333333">economics</font></b> of the <b><font color="#333333">environment</font></b> and <b><font color="#333333">inequality/discrimination</font></b>.
+I [**research**](research.html) the <b><font color="#333333">economics</font></b> of the <b><font color="#333333">environment</font></b> and <b><font color="#333333">inequality</font></b>.
 
 More broadly, I aim to answer policy-relevant questions about <b><font color="#333333">social equity</font></b> and <b><font color="333333">environmental quality</font></b> using tools from <b><font color="#333333">economics</font></b>, <b><font color="#333333">econometrics</font></b>, <b><font color="#333333">statistics</font></b> and <b><font color="#333333">data science</font></b>.
 
 More specifically, my research looks at <b><font color="#333333">how individuals respond to environmental regulation and environmental quality</font></b>—and how these responses may render policy inefficient and/or unequal.
 
-`me`
+<h3>`me`</h3>
 
 I love data, (beautiful) graphs/maps, the outdoors, [bikes](https://www.instagram.com/p/CRyaIAwnwFV/?utm_source=ig_web_copy_link), [photography](https://www.instagram.com/edwardarubin/), and [people](https://www.instagram.com/p/CdCiAtbNNSQ/?utm_source=ig_web_copy_link). I enjoy consuming pizza, phở, tacos, coffee, and computational power. I'm a bunch of other things too.
 
-`more`
+<h3>`more`</h3>
 
-In a few other professional things, I
+In a few other professional items, I:
 
-- with [**friends**](https://tweeds.io/about/), started [**TWEEDS**](https://tweeds.io)—The Workshop in Environmental Economics and Data Science,
-- help run [**OSWEET**](https://edrub.in/osweet.html), an online workshop where graduate students and early-career faculty can present their work on environmental, energy, and transportation economics (and receive constructive feedback),
+- started [**TWEEDS**](https://tweeds.io) with several [**friends**](https://tweeds.io/about/)—The Workshop in Environmental Economics and Data Science,
+- help run [**OSWEET**](https://edrub.in/osweet.html), an online workshop where grad. students and early-career faculty present work on enviro., energy, and transportation economics,
 - co-wrote a textbook on [**Data Science and Public Policy**](https://link.springer.com/book/10.1007/978-3-030-71352-2).
 
-Please look around and/or [contact me](contact.html).
+Please look around and/or [**contact me**](contact.html).
 <!-- Calendly link widget begin -->
 <!-- <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>You can also
