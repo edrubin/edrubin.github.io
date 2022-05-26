@@ -4,7 +4,7 @@ title: ""
 ---
 
 <!-- <img align="right" src="Photos/edFormal2Tall.jpg" width = "300"> -->
-<img align="right" src="Photos/ed-hat.png" width = "400" HSPACE = "50">
+<img align="right" src="Photos/ed-hat.png" width = "425" HSPACE = "50">
 
 <!-- <font color="#18BC9C"><h3>
 Assistant Professor of Economics
@@ -12,7 +12,7 @@ Assistant Professor of Economics
 University of Oregon
 </h3></font>
  -->
-<br>
+<!-- <br> -->
 <!-- <br> -->
 <!-- <br> -->
 <!-- <br> -->
@@ -21,13 +21,19 @@ University of Oregon
 
 My name is [**Ed Rubin**](bio.html), and I'm an assistant professor in the [**Department of Economics**](https://economics.uoregon.edu) at the [**University of Oregon**](https://www.uoregon.edu).
 
-I research the <b><font color="#FFC107">economics</font></b> of the <b><font color="#FFC107">environment</font></b> and <b><font color="#FFC107">inequality/discrimination</font></b>.
+`research`
 
-More broadly, I aim to answer policy-relevant questions about <b><font color="#BDBDBD">social equity</font></b> and <b><font color="BDBDBD">environmental quality</font></b> using tools from <b><font color="#BDBDBD">economics</font></b>, <b><font color="#BDBDBD">econometrics</font></b>, <b><font color="#BDBDBD">statistics</font></b> and <b><font color="#BDBDBD">data science</font></b>.
+I [**research**](research.html) the <b><font color="#333333">economics</font></b> of the <b><font color="#333333">environment</font></b> and <b><font color="#333333">inequality/discrimination</font></b>.
 
-More specifically, my research looks at <b><font color="#BDBDBD">how individuals respond to environmental regulation and environmental quality</font></b>—and how these responses may render policy inefficient and/or unequal.
+More broadly, I aim to answer policy-relevant questions about <b><font color="#333333">social equity</font></b> and <b><font color="333333">environmental quality</font></b> using tools from <b><font color="#333333">economics</font></b>, <b><font color="#333333">econometrics</font></b>, <b><font color="#333333">statistics</font></b> and <b><font color="#333333">data science</font></b>.
+
+More specifically, my research looks at <b><font color="#333333">how individuals respond to environmental regulation and environmental quality</font></b>—and how these responses may render policy inefficient and/or unequal.
+
+`me`
 
 I love data, (beautiful) graphs/maps, the outdoors, [bikes](https://www.instagram.com/p/CRyaIAwnwFV/?utm_source=ig_web_copy_link), [photography](https://www.instagram.com/edwardarubin/), and [people](https://www.instagram.com/p/CdCiAtbNNSQ/?utm_source=ig_web_copy_link). I enjoy consuming pizza, phở, tacos, coffee, and computational power. I'm a bunch of other things too.
+
+`more`
 
 In a few other professional things, I
 
