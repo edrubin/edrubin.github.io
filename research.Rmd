@@ -163,7 +163,7 @@ Discrimination by customers who prefer to interact with certain types of workers
 
 with Marcus Holloway
 
-Organisms often reduce risk exposure through short-term avoidance—i.e., flight, but this flight strategy may not be equally accessible throughout a population. We use cellphone-based movement data and satellite-based wildfire smoke plumes to show substantial heterogeneity/inequity in the tendency to leave home to avoid smoke. Higher-income and whiter populations react more intensely to smoke exposure—traveling out of their counties at higher rates. These results suggest that constraints related to smoke avoidance correlate with other dimensions of disadvantage and inequity. The same populations who face environmental injustice in many other settings also face larger risks from wildfire smoke.
+Organisms often reduce risk exposure through short-term avoidance—i.e., *flight*. However, this flight strategy may not be equally accessible throughout a population. We use cellphone-based movement data and satellite-based wildfire smoke plumes to show substantial heterogeneity/inequity in the tendency to leave home to avoid smoke. Higher-income and whiter populations react more intensely to smoke exposure—traveling out of their counties at higher rates. These results suggest that constraints related to smoke avoidance correlate with other dimensions of disadvantage and inequity. The same populations who face environmental injustice in many other settings also face larger risks from wildfire smoke.
 
 *new draft in preparation*
 
