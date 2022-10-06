@@ -42,6 +42,7 @@
     </style>
 
 
+
 <style type="text/css">
   code {
     white-space: pre;
@@ -163,6 +164,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -315,7 +319,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -343,7 +347,7 @@ $(document).ready(function () {
   <a href="blog.html">Blog</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -367,7 +371,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     More
      
     <span class="caret"></span>
@@ -474,7 +478,7 @@ Working Papers
 <hr />
 <div id="decomposing-the-elasticity-of-demand-empirical-and-policy-insights-from-300-million-natural-gas-bills" class="section level4">
 <h4><strong>Decomposing “the” Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills</strong></h4>
-<p>with <a href="http://www.auffhammer.com">Maximilian Auffhammer</a> <br><em>Revise and resubmit</em></p>
+<p>with <a href="http://www.auffhammer.com">Maximilian Auffhammer</a> <br><em>Revise and resubmit</em>, JAERE</p>
 <p>Public policy typically employs time- and group-invariant policies—partially due to historical limits that prevented precise identification of the heterogeneity underlying key parameters. We consider an important market—natural gas—where these limits have been relaxed and harness 300 million residential bills to identify income- and season-specific own-price elasticities. Exploiting service-territory spatial discontinuities and household-specific exogenous time-series variation, we show this demand elasticity varies substantially across seasons, income groups, and their interaction—from 0.06 (summer) to –0.61 (winter). This heterogeneity suggests an unexplored, <em>implementable</em>, and generalizable policy avenue—shifting fixed costs of operation into summer months—that is potentially more efficient and progressive than prevailing practices.</p>
 <p><a href="http://www.nber.org/papers/w24295">NBER Working Paper No. 24295</a> | <a href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html">EI @ Haas Working Paper 287</a></p>
 <p><a href="Papers/draft-natural-gas.pdf">Draft</a> | <a href="Slides/slides-natural-gas.pdf">slides</a> | <a href="Figures/NaturalGas/studyMaps.pdf">map: service and study area</a> | <a href="Figures/NaturalGas/mapPRISM.pdf">map: PRISM mean temperature</a> | <a href="Figures/NaturalGas/mapPipeline.png">map: US natural gas pipeline</a></p>
@@ -485,7 +489,7 @@ Working Papers
 </div>
 <div id="downwind-and-out-the-strategic-dispersion-of-power-plants-and-their-pollution" class="section level4">
 <h4><strong>Downwind and out: The strategic dispersion of power plants and their pollution</strong></h4>
-<p>with <a href="https://www.johnmmorehouse.com">John Morehouse</a></p>
+<p>with <a href="https://www.johnmmorehouse.com">John Morehouse</a> <br> <em>Under review</em></p>
 <p>US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution’s extreme mobility: within 6 hours, 50% of coal plants’ emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation.</p>
 <p><a href="Papers/draft-plant-locations.pdf">Draft</a></p>
 <center>
@@ -495,7 +499,7 @@ Working Papers
 </div>
 <div id="whats-missing-in-environmental-self-monitoring-evidence-from-strategic-shutdowns-of-pollution-monitors" class="section level4">
 <h4><strong>What’s <em>missing</em> in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors</strong></h4>
-<p>with Yingfei Mu and <a href="https://www.eric-zou.com">Eric Zou</a></p>
+<p>with Yingfei Mu and <a href="https://www.eric-zou.com">Eric Zou</a> <br><em>Revise and resubmit</em>, RESTAT</p>
 <p>Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents’ monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments’ own pollution forecasts—and test whether monitors’ sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 “Bridgegate” traffic jam. Consistent with strategic shutdowns, this monitor’s sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.</p>
 <p><a href="https://www.nber.org/papers/w28735">NBER Working Paper No. 28735</a></p>
 <p><a href="Papers/draft-strategic-monitoring.pdf">Current draft</a></p>
@@ -592,6 +596,7 @@ Books
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
 <p><br></p>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022 <br><br></p>
 <p><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong> <br> Oregon State University, May 2022 <br><br></p>
 <p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> National Graduate Institute for Policy Studies (GRIPS), April 2022 <br><br></p>
 <p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> UC Berkeley ARE, April 2022 <br><br></p>

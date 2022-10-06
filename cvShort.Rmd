@@ -45,13 +45,15 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/draft-natural-gas.pdf)__
 <br> Maximilian Auffhammer and Edward Rubin
-<br> _Revise and resubmit_
+<br> _Revise and resubmit_, JAERE
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
 <br> Yingfei Mu, Edward Rubin, and Eric Zou
+<br> _Revise and resubmit_, RESTAT
 
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
+<br> _Under review_
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
@@ -94,14 +96,14 @@ __Is "Michelle" less productive than "Michael"? A field experiment on consumer-b
 
 ## Teaching
 
-__[EC524: Econometrics (II) - Prediction and machine learning](https://github.com/edrubin/EC524W20)__
-<br>University of Oregon: Winter 2019
+__[EC524: Econometrics (II) - Prediction and machine learning](https://github.com/edrubin/EC524W22)__
+<br>University of Oregon: Winter 2019, 2020, 2021, 2022
 
-__[EC607: Econometrics (III) - Causal inference](https://github.com/edrubin/EC525S19)__
-<br>University of Oregon: Spring 2019
+__[EC607: Econometrics (III) - Causal inference](https://github.com/edrubin/EC607S22)__
+<br>University of Oregon: Spring 2019, 2020, 2021, 2022
 
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421W19)__
-<br>University of Oregon: Spring 2019, Winter 2019, Winter 2020
+<br>University of Oregon: Spring 2019, Winter 2019, Winter 2020, Spring 2020, Winter 2021, Winter 2022, Spring 2022
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 <br>University of California, Berkeley: Spring 2017, Spring 2018
@@ -146,7 +148,7 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__2022__: UC Berkeley ARE, GRIPS, Oregon State
+__2022__: UC Berkeley ARE, GRIPS, Oregon State, EAERE Annual Conference 
 
 __2021__: AERE Remote Conference, RFF/EPA, CU Environmental & Resource Economics Workshop
 

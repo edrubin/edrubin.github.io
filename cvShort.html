@@ -46,6 +46,7 @@
 
 
 
+
 <link rel="stylesheet" href="ed.css" type="text/css" />
 
 
@@ -70,6 +71,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -222,7 +226,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -250,7 +254,7 @@ $(document).ready(function () {
   <a href="blog.html">Blog</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -274,7 +278,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     More
      
     <span class="caret"></span>
@@ -363,9 +367,9 @@ $(document).ready(function () {
 </div>
 <div id="working-papers" class="section level2">
 <h2>Working Papers</h2>
-<p><strong><a href="Papers/draft-natural-gas.pdf">Decomposing “the” Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills</a></strong> <br> Maximilian Auffhammer and Edward Rubin <br> <em>Revise and resubmit</em></p>
-<p><strong><a href="Papers/draft-strategic-monitoring.pdf">Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.</a></strong> <br> Yingfei Mu, Edward Rubin, and Eric Zou</p>
-<p><strong><a href="Papers/draft-plant-locations.pdf">The strategic local geography of US electricity emissions</a></strong> <br> John Morehouse and Edward Rubin</p>
+<p><strong><a href="Papers/draft-natural-gas.pdf">Decomposing “the” Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills</a></strong> <br> Maximilian Auffhammer and Edward Rubin <br> <em>Revise and resubmit</em>, JAERE</p>
+<p><strong><a href="Papers/draft-strategic-monitoring.pdf">Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.</a></strong> <br> Yingfei Mu, Edward Rubin, and Eric Zou <br> <em>Revise and resubmit</em>, RESTAT</p>
+<p><strong><a href="Papers/draft-plant-locations.pdf">The strategic local geography of US electricity emissions</a></strong> <br> John Morehouse and Edward Rubin <br> <em>Under review</em></p>
 <p><strong><a href="Papers/draft-mliv.pdf">What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation</a></strong> <br> Connor Lennon, Edward Rubin, and Glen Waddell</p>
 <p><strong><a href="Papers/draft-gender-bias.pdf">Customer Discrimination in the Workplace: Evidence from Online Sales</a></strong> <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco</p>
 <p><strong>How unequal is access to short-term risk mitigation? Evidence from wildfire smoke and cellphones</strong> <br> Marcus Holloway and Edward Rubin</p>
@@ -385,9 +389,9 @@ $(document).ready(function () {
 </div>
 <div id="teaching" class="section level2">
 <h2>Teaching</h2>
-<p><strong><a href="https://github.com/edrubin/EC524W20">EC524: Econometrics (II) - Prediction and machine learning</a></strong> <br>University of Oregon: Winter 2019</p>
-<p><strong><a href="https://github.com/edrubin/EC525S19">EC607: Econometrics (III) - Causal inference</a></strong> <br>University of Oregon: Spring 2019</p>
-<p><strong><a href="https://github.com/edrubin/EC421W19">EC421: Introduction to Econometrics (II)</a></strong> <br>University of Oregon: Spring 2019, Winter 2019, Winter 2020</p>
+<p><strong><a href="https://github.com/edrubin/EC524W22">EC524: Econometrics (II) - Prediction and machine learning</a></strong> <br>University of Oregon: Winter 2019, 2020, 2021, 2022</p>
+<p><strong><a href="https://github.com/edrubin/EC607S22">EC607: Econometrics (III) - Causal inference</a></strong> <br>University of Oregon: Spring 2019, 2020, 2021, 2022</p>
+<p><strong><a href="https://github.com/edrubin/EC421W19">EC421: Introduction to Econometrics (II)</a></strong> <br>University of Oregon: Spring 2019, Winter 2019, Winter 2020, Spring 2020, Winter 2021, Winter 2022, Spring 2022</p>
 <p><strong><a href="https://edrub.in/ARE212">ARE 212: Econometrics - Multiple Equation Estimation</a></strong> <br>University of California, Berkeley: Spring 2017, Spring 2018</p>
 <p><strong>STAT 380: Statistics and Applications</strong> <br>University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013</p>
 <p><strong>STAT 218: Introduction to Statistics</strong> <br>University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011</p>
@@ -410,7 +414,7 @@ $(document).ready(function () {
 </div>
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
-<p><strong>2022</strong>: UC Berkeley ARE, GRIPS, Oregon State</p>
+<p><strong>2022</strong>: UC Berkeley ARE, GRIPS, Oregon State, EAERE Annual Conference</p>
 <p><strong>2021</strong>: AERE Remote Conference, RFF/EPA, CU Environmental &amp; Resource Economics Workshop</p>
 <p><strong>2020</strong>: ASSA Annual Meeting, AERE Remote Conference, Duke Energy Data Analytics Symposium, RFF/EPA</p>
 <p><strong>2019</strong>: Western Economic Association Internation (WEAI) Annual Conference</p>

@@ -63,7 +63,7 @@ knitr::include_graphics(c(
 #### __Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills__
 
 with [Maximilian Auffhammer](http://www.auffhammer.com)
-<br>*Revise and resubmit*
+<br>*Revise and resubmit*, JAERE
 
 Public policy typically employs time- and group-invariant policies—partially due to historical limits that prevented precise identification of the heterogeneity underlying key parameters. We consider an important market—natural gas—where these limits have been relaxed and harness 300 million residential bills to identify income- and season-specific own-price elasticities. Exploiting service-territory spatial discontinuities and household-specific exogenous time-series variation, we show this demand elasticity varies substantially across seasons, income groups, and their interaction—from 0.06 (summer) to –0.61 (winter). This heterogeneity suggests an unexplored, *implementable*, and generalizable policy avenue—shifting fixed costs of operation into summer months—that is potentially more efficient and progressive than prevailing practices.
 
@@ -86,6 +86,7 @@ knitr::include_graphics(c(
 #### __Downwind and out: The strategic dispersion of power plants and their pollution__
 
 with [John Morehouse](https://www.johnmmorehouse.com)
+<br> *Under review*
 
 US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution's extreme mobility: within 6 hours, 50% of coal plants' emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation. 
 
@@ -107,6 +108,7 @@ knitr::include_graphics(c(
 #### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
 
 with Yingfei Mu and [Eric Zou](https://www.eric-zou.com)
+<br>*Revise and resubmit*, RESTAT
 
 Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents' monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments' own pollution forecasts—and test whether monitors' sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 "Bridgegate" traffic jam. Consistent with strategic shutdowns, this monitor's sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.
 
@@ -244,6 +246,10 @@ knitr::include_graphics(c(
 ## Presentations
 
 <br>
+
+__What's missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors__
+<br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022
+<br><br>
 
 __Declining power-plant emissions, co-benefits, and regulatory rebound__
 <br> Oregon State University, May 2022

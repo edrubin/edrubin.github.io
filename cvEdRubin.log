@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  26 MAY 2022 09:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  6 OCT 2022 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1386,35 +1386,35 @@ LaTeX Font Info:    Font shape `TU/FiraSansBook(0)/bx/n' will be
 
 ] [2] [3]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.01236pt on input line 366.
+(Font)              scaled to size 7.01236pt on input line 370.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 4.98074pt on input line 366.
+(Font)              scaled to size 4.98074pt on input line 370.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 366.
+(Font)              scaled to size 10.00015pt on input line 370.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 366.
+(Font)              scaled to size 7.01247pt on input line 370.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 366.
+(Font)              scaled to size 4.9808pt on input line 370.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 366.
+(Font)              scaled to size 9.99985pt on input line 370.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 366.
+(Font)              scaled to size 7.01224pt on input line 370.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 366.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
+(Font)              scaled to size 4.98067pt on input line 370.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
 (./cvEdRubin.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 382.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
 Package rerunfilecheck Info: File `cvEdRubin.out' has not changed.
 (rerunfilecheck)             Checksum: 091161A23660D848040F46EFD9482AC6.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
  ) 
 Here is how much of TeX's memory you used:
  24867 strings out of 492970
  460789 string characters out of 6133938
- 670373 words of memory out of 5000000
+ 671373 words of memory out of 5000000
  28676 multiletter control sequences out of 15000+600000
  536609 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

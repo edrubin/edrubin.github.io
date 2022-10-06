@@ -42,6 +42,7 @@
     </style>
 
 
+
 <style type="text/css">
   code {
     white-space: pre;
@@ -163,6 +164,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -315,7 +319,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -343,7 +347,7 @@ $(document).ready(function () {
   <a href="blog.html">Blog</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -367,7 +371,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     More
      
     <span class="caret"></span>
@@ -517,7 +521,7 @@ $(document).ready(function () {
   |......................................................................| 100%
 ##   ordinary text without R code</code></pre>
 <pre><code>## output file: tmp.knit.md</code></pre>
-<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output pandoc11024610b782.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.1/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.1/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --self-contained --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable &#39;mainfont=Fira Sans Book&#39; --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//RtmpcdY86H/rmarkdown-str110210a70848.html</code></pre>
+<pre><code>## /usr/local/bin/pandoc +RTS -K512m -RTS tmp.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output pandoc8b82e8b01dc.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.2/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.2/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --self-contained --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable &#39;mainfont=Fira Sans Book&#39; --variable linestretch=0.9 --variable &#39;geometry:margin=1in&#39; --include-in-header /var/folders/5g/5py69pv54w796mwsnl5vcfq80000gp/T//RtmpUACMzG/rmarkdown-str8b81df2c980.html</code></pre>
 <pre><code>## Warning: LaTeX Warning: Command \underbar has changed.</code></pre>
 <pre><code>## Warning: Check if current package is valid.</code></pre>
 <pre><code>## 

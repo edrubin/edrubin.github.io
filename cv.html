@@ -46,6 +46,7 @@
 
 
 
+
 <link rel="stylesheet" href="ed.css" type="text/css" />
 
 
@@ -70,6 +71,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -222,7 +226,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -250,7 +254,7 @@ $(document).ready(function () {
   <a href="blog.html">Blog</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -274,7 +278,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     More
      
     <span class="caret"></span>
@@ -361,8 +365,8 @@ $(document).ready(function () {
 </div>
 <div id="working-papers" class="section level2">
 <h2>Working Papers</h2>
-<p><strong><a href="Papers/draft-natural-gas.pdf">Decomposing “the” Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills</a></strong> <br> Maximilian Auffhammer and Edward Rubin <br> <em>Revise and resubmit</em></p>
-<p><strong><a href="Papers/draft-strategic-monitoring.pdf">Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.</a></strong> <br> Yingfei Mu, Edward Rubin, and Eric Zou</p>
+<p><strong><a href="Papers/draft-natural-gas.pdf">Decomposing “the” Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills</a></strong> <br> Maximilian Auffhammer and Edward Rubin <br> <em>Revise and resubmit</em>, JAERE</p>
+<p><strong><a href="Papers/draft-strategic-monitoring.pdf">Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.</a></strong> <br> Yingfei Mu, Edward Rubin, and Eric Zou <br> <em>Revise and resubmit</em>, RESTAT</p>
 <p><strong><a href="Papers/draft-plant-locations.pdf">The strategic local geography of US electricity emissions</a></strong> <br> John Morehouse and Edward Rubin <br> <em>Under review</em></p>
 <p><strong><a href="Papers/draft-mliv.pdf">What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation</a></strong> <br> Connor Lennon, Edward Rubin, and Glen Waddell</p>
 <p><strong><a href="Papers/draft-gender-bias.pdf">Customer Discrimination in the Workplace: Evidence from Online Sales</a></strong> <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco</p>
@@ -431,6 +435,7 @@ $(document).ready(function () {
 </div>
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022</p>
 <p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> Oregon State University, May 2022</p>
 <p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> National Graduate Institute for Policy Studies (GRIPS), April 2022</p>
 <p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> UC Berkeley ARE, April 2022</p>

@@ -43,10 +43,11 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/draft-natural-gas.pdf)__
 <br> Maximilian Auffhammer and Edward Rubin
-<br> _Revise and resubmit_
+<br> _Revise and resubmit_, JAERE
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
 <br> Yingfei Mu, Edward Rubin, and Eric Zou
+<br> _Revise and resubmit_, RESTAT
 
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
@@ -155,6 +156,9 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__What's missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors__
+<br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022
 
 __Power Plants, Air Pollution, and Regulatory Rebound__
 <br> Oregon State University, May 2022
