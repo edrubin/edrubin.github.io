@@ -83,27 +83,6 @@ knitr::include_graphics(c(
 </center>
 <br>
 
-#### __Downwind and out: The strategic dispersion of power plants and their pollution__
-
-with [John Morehouse](https://www.johnmmorehouse.com)
-<br> *Under review*
-
-US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution's extreme mobility: within 6 hours, 50% of coal plants' emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation. 
-
-[Draft](Papers/draft-plant-locations.pdf)
-
-<center>
-
-```{r, out.width = "45%", echo = F}
-knitr::include_graphics(c(
-  "Figures/PlantLocations/plant-wind-oris-628.png",
-  "Figures/PlantLocations/hysplit-oris-628-january.png",
-  NULL
-))
-```
-
-</center>
-<br>
 
 #### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
 
@@ -129,9 +108,32 @@ knitr::include_graphics(c(
 </center>
 <br>
 
+#### __Downwind and out: The strategic dispersion of power plants and their pollution__
+
+with [John Morehouse](https://www.johnmmorehouse.com)
+<br> *Under review*
+
+US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution's extreme mobility: within 6 hours, 50% of coal plants' emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation. 
+
+[Draft](Papers/draft-plant-locations.pdf)
+
+<center>
+
+```{r, out.width = "45%", echo = F}
+knitr::include_graphics(c(
+  "Figures/PlantLocations/plant-wind-oris-628.png",
+  "Figures/PlantLocations/hysplit-oris-628-january.png",
+  NULL
+))
+```
+
+</center>
+<br>
+
 #### __What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation__
 
 with [Connor Lennon](https://www.connormlennon.com) and [Glen Waddell](http://www.glenwaddell.com)
+<br> *Submitted*
 
 Machine learning (ML) primarily evolved to solve "prediction problems." The first stage of two-stage least squares (2SLS) is a prediction problem—suggesting gains from utilizing ML in 2SLS's first stage. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction *and* causal-inference settings—and their interaction. Through simulation, we show linear ML methods (*e.g.*, post-Lasso) work "well," while nonlinear methods (*e.g.*, random forests, neural nets) generate substantial bias in second-stage estimates—some *exceeding* the bias of endogenous OLS.
 
@@ -171,7 +173,7 @@ Organisms often reduce risk exposure through short-term avoidance—i.e., *fligh
 
 <br>
 
-#### __Coordination versus Environmental Adaptation: How Much Does Standardized Time Change Behavior?__
+#### __Coordination versus environmental adaptation: How much does standardized time change behavior?__
 
 with [Patrick Baylis](https://www.patrickbaylis.com) and [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/)
 
