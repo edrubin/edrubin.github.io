@@ -60,16 +60,20 @@ knitr::include_graphics(c(
 
 ---
 
-#### __Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills__
+#### __Quantifying heterogeneity in the price elasticity of residential natural gas__
 
 with [Maximilian Auffhammer](http://www.auffhammer.com)
-<br>*Revise and resubmit*, JAERE
+<br>*Revise and resubmit* (re-submitted), JAERE
 
-Public policy typically employs time- and group-invariant policies—partially due to historical limits that prevented precise identification of the heterogeneity underlying key parameters. We consider an important market—natural gas—where these limits have been relaxed and harness 300 million residential bills to identify income- and season-specific own-price elasticities. Exploiting service-territory spatial discontinuities and household-specific exogenous time-series variation, we show this demand elasticity varies substantially across seasons, income groups, and their interaction—from 0.06 (summer) to –0.61 (winter). This heterogeneity suggests an unexplored, *implementable*, and generalizable policy avenue—shifting fixed costs of operation into summer months—that is potentially more efficient and progressive than prevailing practices.
+We exploit a spatial discontinuity in two natural gas utilities' service territory—combined with variation in their block-rate pricing structure and a difference in how prima facie determined wholesale prices are deferentially passed though to consumers—to identify average, seasonal, and income-specific own-price elasticities of residential natural gas demand. We estimate an average elasticity ranging from 0.15–0.19 depending on the measure of price used. We further estimate that this elasticity varies substantially across seasons, income groups, and their interaction. We find no significant difference in consumers' responses to average versus marginal prices.
+
+Previous titles: *Decomposing "the" elasticity of demand: Empirical and policy insights from 300 million natural gas bills*; *Natural gas price elasticities and optimal cost recovery under consumer heterogeneity: Evidence from 300 million natural gas bills*; *Summertime, and pass-through is easier: Chasing down price elasticities for residential natural*
 
 [NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
 
 [Draft](Papers/draft-natural-gas.pdf) | [slides](Slides/slides-natural-gas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png)
+
+Press coverage: [The Economist](https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing)
 
 <center>
 ```{r, out.width = "65%", echo = F}
@@ -153,6 +157,36 @@ knitr::include_graphics(c(
 
 <br>
 
+#### __Unequal avoidance: Disparities in smoke-induced out-migration__
+
+with Marcus Holloway
+<br> *Submitted*
+
+Organisms reduce risk exposure through short-term avoidance—*flight*. However, this flight strategy may not be equally accessible throughout a population. We combine cellphone movements, satellite-based wildfire smoke plumes, and Census data to document substantial heterogeneity/inequity in communities' tendencies to out-migrate to avoid smoke. Higher-income and whiter populations travel out of their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke—underscoring equity concerns for wildfire damages and climate adaptation.
+
+[Draft](Papers/draft-smoke.pdf)
+
+<center>
+
+```{r, out.width = "29%", echo = F}
+knitr::include_graphics(c(
+  'Figures/Smoke/map.png',
+  NULL
+))
+```
+```{r, out.width = "35%", echo = F}
+knitr::include_graphics(c(
+  'Figures/Smoke/hhinc-q50-subrural0.png',
+  'Figures/Smoke/shrhispanic-q50-subrural0.png',
+  NULL
+))
+```
+
+</center>
+
+
+<br>
+
 #### __Customer Discrimination in the Workplace: Evidence from Online Sales__
 
 with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), and [Matthew Pecenco](http://www.matthewpecenco.com)
@@ -160,16 +194,6 @@ with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.
 Discrimination by customers who prefer to interact with certain types of workers can affect worker productivity. In this paper, we measure the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a daily randomization design that varies the gender of names presented to customers while holding other characteristics fixed, we find the assignment of a female-sounding name leads to significantly fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. We find no evidence of differential bargaining or harassment.
 
 [Draft](Papers/draft-gender-bias.pdf)
-
-<br>
-
-#### __How unequal is access to short-term risk mitigation? Evidence from wildfire smoke and cellphones__
-
-with Marcus Holloway
-
-Organisms often reduce risk exposure through short-term avoidance—i.e., *flight*. However, this flight strategy may not be equally accessible throughout a population. We use cellphone-based movement data and satellite-based wildfire smoke plumes to show substantial heterogeneity/inequity in the tendency to leave home to avoid smoke. Higher-income and whiter populations react more intensely to smoke exposure—traveling out of their counties at higher rates. These results suggest that constraints related to smoke avoidance correlate with other dimensions of disadvantage and inequity. The same populations who face environmental injustice in many other settings also face larger risks from wildfire smoke.
-
-*new draft in preparation*
 
 <br>
 

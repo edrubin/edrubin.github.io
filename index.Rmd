@@ -4,7 +4,8 @@ title: ""
 ---
 
 <!-- <img align="right" src="Photos/edFormal2Tall.jpg" width = "300"> -->
-<img align="right" src="Photos/ed-hat.png" width = "425" HSPACE = "50">
+<!-- <img align="right" src="Photos/ed-hat.png" width = "425" HSPACE = "50"> -->
+<img align="right" src="Photos/ed-portrait-2022-large.jpg" width = "420" HSPACE = "50">
 
 <!-- <font color="#18BC9C"><h3>
 Assistant Professor of Economics
