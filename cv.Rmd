@@ -41,8 +41,8 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 ## Working Papers
 
-__[Decomposing "the" Elasticity of Demand: Empirical and Policy Insights from 300 Million Natural Gas Bills](Papers/draft-natural-gas.pdf)__
-<br> Maximilian Auffhammer and Edward Rubin
+__[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
+<br> Edward Rubin and Maximilian Auffhammer
 <br> _Revise and resubmit_, JAERE
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
@@ -53,14 +53,16 @@ __[The strategic local geography of US electricity emissions](Papers/draft-plant
 <br> John Morehouse and Edward Rubin
 <br> _Under review_ 
 
-__[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
+__[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
+<br> _Submitted_ 
+
+__[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
+<br> M. Steven Holloway and Edward Rubin
+<br> _Submitted_ 
 
 __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
-
-__How unequal is access to short-term risk mitigation? Evidence from wildfire smoke and cellphones__
-<br> Marcus Holloway and Edward Rubin
 
 __Coordination versus environmental adaptation: How much does standardized time change behavior?__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
@@ -86,9 +88,6 @@ __Interactions between measurement error and policy__
 
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 <br> Edward Rubin
-
-__Is "Michelle" less productive than "Michael"? A field experiment on consumer-based gender discrimination__
-<br> Erin Kelley, Gregory Lane, Matthew Pecenco, and Edward Rubin
 
 <br>
 
