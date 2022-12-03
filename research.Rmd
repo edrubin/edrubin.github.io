@@ -191,9 +191,9 @@ knitr::include_graphics(c(
 
 with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), and [Matthew Pecenco](http://www.matthewpecenco.com)
 
-Discrimination by customers who prefer to interact with certain types of workers can affect worker productivity. In this paper, we measure the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a daily randomization design that varies the gender of names presented to customers while holding other characteristics fixed, we find the assignment of a female-sounding name leads to significantly fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. We find no evidence of differential bargaining or harassment.
+Many workers are evaluated on their ability to engage with customers. This paper measures the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a novel framework that randomly varies the gender of names presented to customers without changing worker behavior, we find that the assignment of a female-sounding name leads to 50 percent fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. Since worker productivity informs firm hiring, pay, and promotion decisions, these results are important for understanding the persistence of identity-based discrimination in the labor market.
 
-[Draft](Papers/draft-gender-bias.pdf)
+[World Bank Policy Research Working Paper No. 10228](Papers/wp-gender-bias.pdf) | [Draft](Papers/draft-gender-bias.pdf)
 
 <br>
 
@@ -272,6 +272,10 @@ knitr::include_graphics(c(
 ## Presentations
 
 <br>
+
+__Declining power-plant emissions, co-benefits, and regulatory rebound__
+<br> University of Nebraska–Lincoln, November 2022
+<br><br>
 
 __What's missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors__
 <br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022

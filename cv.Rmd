@@ -61,7 +61,7 @@ __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-s
 <br> M. Steven Holloway and Edward Rubin
 <br> _Submitted_ 
 
-__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
+__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/wp-gender-bias.pdf)__
 <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
 
 __Coordination versus environmental adaptation: How much does standardized time change behavior?__
@@ -155,6 +155,9 @@ GAANN Fellowship 2013–2015
 <br>
 
 ## Presentations
+
+__Declining power-plant emissions, co-benefits, and regulatory rebound__
+<br> University of Nebraska–Lincoln, November 2022
 
 __What's missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors__
 <br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022
