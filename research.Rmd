@@ -160,7 +160,6 @@ knitr::include_graphics(c(
 #### __Unequal avoidance: Disparities in smoke-induced out-migration__
 
 with M. Steven Holloway
-<br> *Under review*
 
 Organisms reduce risk exposure through short-term avoidance—*flight*. However, this flight strategy may not be equally accessible throughout a population. We combine cellphone movements, satellite-based wildfire smoke plumes, and Census data to document substantial heterogeneity/inequity in communities' tendencies to out-migrate to avoid smoke. Higher-income and whiter populations travel out of their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke—underscoring equity concerns for wildfire damages and climate adaptation.
 

@@ -1,5 +1,5 @@
 ---
-title: "OSWEET"
+title: "AERE@OSWEET"
 ---
 
 the Online Summer Workshop in Environment, Energy, and Transportation (Economics)
@@ -27,7 +27,7 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>What?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        Every other Friday, we will have a Zoom seminar series with three short presentations (15 minutes each)—followed by a happy hour! <br><br> 
+        One Friday each month, we will host an online seminar series with three short presentations (15 minutes each)—followed by a happy hour! <br><br> 
         Papers and videos **will not** be circulated. <br><br>
       </td>
     </tr>
@@ -36,9 +36,9 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>Who?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        We're targeting presenters who are graduate students going on the job market this year or next year (2020 or 2021), postdocs, and early-career assistant professors. We may adjust selection based upon supply. <br><br> 
-        There will be no discussants, but we will provide a little time for questions after each paper. We will try and cluster papers by topic and try and get some senior people specializing in that area to dial in! <br><br>
-        The organizers of *OSWEET* include <a href="https://are.berkeley.edu/user/13676" style="text-decoration: none">Molly Van Dop</a> (UC Berkeley); <a href="https://econ.williams.edu/profile/saj2/" style="text-decoration: none">Sarah Jacobson</a> (Williams) <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (Stanford/UC Berkeley); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a>, (Oregon); <a href="http://www-personal.umich.edu/~chausman/" style="text-decoration:none">Catie Hausman</a> (Michigan); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="https://priceschool.usc.edu/people/antonio-m-bento/" style="text-decoration:none">Antonio Bento</a> (USC); and <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley). <br><br>
+        For presenters, we're targeting graduate students, postdocs, and early-career assistant professors.<br>We may adjust selection based upon supply. <br><br> 
+        There will be no discussants, but we will provide a time for questions after each paper. We will try and cluster papers by topic. <br><br>
+        The organizers of *AERE@OSWEET* include <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley); <a href="https://econ.williams.edu/profile/saj2/" style="text-decoration: none">Sarah Jacobson</a> (Williams); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
       </td>
     </tr>
     <tr valign="top">
@@ -46,7 +46,7 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>When?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        Every other Friday; see schedule below. <br><br>
+         Friday; see schedule below. <br><br>
       </td>
     </tr>
     <tr valign="top">
@@ -69,7 +69,7 @@ knitr::include_graphics(c(
 </p>
 </center>
 
-**Interested?** [Please join the mailing list and/or apply to present!](https://edrubin.typeform.com/to/OHUAyi) (And tell your friends.)
+**Interested?** [Please join the mailing list and/or apply to present!](https://edrubin.typeform.com/aere-osweet) (And tell your friends.)
 
 <br>
 
@@ -77,15 +77,73 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Climate, organization, and ag:** 10 June 2022
+## **Air Quality:** 24 February 2023
 
 <p>
-  <b>Friday, 10 June 2022</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 24 February 2023</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
-  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
+  [Register for the mailing list](https://edrubin.typeform.com/aere-osweet) to receive the Zoom link and password.
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Air pollution and mental illness</i>
+        <br><b>Soodeh Saberian</b> (U Manitoba)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>Non-market damages of wildfire smoke: evidence from administrative recreation data</i>
+        <br><b>Jacob Gellman</b> (UC Santa Barbara)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>Still your grandfather's boiler: Estimating the effects of the Clean Air Act's grandfathering provisions</i>
+        <br><b>Jack Gregory</b> (UC Davis)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2022 {.tabset .tabset-fade}
+
+### **Climate, organization, and ag:** 2022/06/10
 
 <p>
   <table style="width:100%">
@@ -134,14 +192,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2022 {.tabset .tabset-fade}
 
 ### **Energy:** 2022/05/13
 
@@ -348,7 +398,7 @@ knitr::include_graphics(c(
 ### **Food and waste:** 2022/03/04
 
 <p>
-  [Register for the mailing list](https://edrubin.typeform.com/to/OHUAyi) to receive the Zoom link and password.
+  [Register for the mailing list](https://edrubin.typeform.com/aere-osweet) to receive the Zoom link and password.
 </p>
 
 <p>
