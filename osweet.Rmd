@@ -38,7 +38,7 @@ knitr::include_graphics(c(
       <td>
         For presenters, we're targeting graduate students, postdocs, and early-career assistant professors.<br>We may adjust selection based upon supply. <br><br> 
         There will be no discussants, but we will provide a time for questions after each paper. We will try and cluster papers by topic. <br><br>
-        The organizers of *AERE@OSWEET* include <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley); <a href="https://econ.williams.edu/profile/saj2/" style="text-decoration: none">Sarah Jacobson</a> (Williams); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
+        The organizers of **AERE\@OSWEET** include <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley); <a href="https://econ.williams.edu/profile/saj2/" style="text-decoration: none">Sarah Jacobson</a> (Williams); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
       </td>
     </tr>
     <tr valign="top">
@@ -80,11 +80,13 @@ knitr::include_graphics(c(
 ## **Air Quality:** 24 February 2023
 
 <p>
-  <b>Friday, 24 February 2023</b>, 1PM-2PM <b>Pacific</b> (4PM–5PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 24 February 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
-  [Register for the mailing list](https://edrubin.typeform.com/aere-osweet) to receive the Zoom link and password.
+  [Register for the **Zoom link**](https://williams.zoom.us/meeting/register/tJctd--vqD0rGdZr6g8eXlLOKcwkq_gz22CV).
+  <br>
+  [Register for the **mailing list**](https://edrubin.typeform.com/aere-osweet).
 </p>
 
 <p>
