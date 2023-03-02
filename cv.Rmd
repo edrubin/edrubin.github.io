@@ -51,7 +51,7 @@ __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Ac
 
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
-<br> _Under review_ 
+<br> _Revise and resubmit_, JAERE
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
@@ -252,7 +252,11 @@ __Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquife
 
 ## Academic Service
 
-__Graduate students:__ Mary Kopriva (UO, co-chair), Max Mindock (UO, committee member); Kyle Wilson (UO, committee member)
+__Advising__ 
+
+- *PhD committee chair* Mary Kopriva (co-chair); Connor Lennon (co-chair); Garrett Stanford (chair)
+- *PhD dissertation committee* Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee; Kyle Wilson; Sichao Zhang
+- *Undergraduate* Zoë Arnaut (reader); Eleanor Franks (reader); Kara Krnacik (chair); Aidan Pott (chair)
 
 __Other__
 

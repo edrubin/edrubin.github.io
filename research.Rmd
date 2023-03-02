@@ -115,7 +115,7 @@ knitr::include_graphics(c(
 #### __Downwind and out: The strategic dispersion of power plants and their pollution__
 
 with [John Morehouse](https://www.johnmmorehouse.com)
-<br> *Under review*
+<br>*Revise and resubmit*, JAERE
 
 US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution's extreme mobility: within 6 hours, 50% of coal plants' emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation. 
 
