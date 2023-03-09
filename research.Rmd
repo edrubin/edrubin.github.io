@@ -137,7 +137,6 @@ knitr::include_graphics(c(
 #### __What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation__
 
 with [Connor Lennon](https://www.connormlennon.com) and [Glen Waddell](http://www.glenwaddell.com)
-<br> *Under review*
 
 Machine learning (ML) primarily evolved to solve "prediction problems." The first stage of two-stage least squares (2SLS) is a prediction problem—suggesting gains from utilizing ML in 2SLS's first stage. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction *and* causal-inference settings—and their interaction. Through simulation, we show linear ML methods (*e.g.*, post-Lasso) work "well," while nonlinear methods (*e.g.*, random forests, neural nets) generate substantial bias in second-stage estimates—some *exceeding* the bias of endogenous OLS.
 
@@ -192,17 +191,21 @@ with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.
 
 Many workers are evaluated on their ability to engage with customers. This paper measures the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a novel framework that randomly varies the gender of names presented to customers without changing worker behavior, we find that the assignment of a female-sounding name leads to 50 percent fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. Since worker productivity informs firm hiring, pay, and promotion decisions, these results are important for understanding the persistence of identity-based discrimination in the labor market.
 
-[World Bank Policy Research Working Paper No. 10228](Papers/wp-gender-bias.pdf) | [Draft](Papers/draft-gender-bias.pdf)
+[Becker Friedman Institute Working Paper No. 2023-25](Papers/draft-gender-bias.pdf) | [World Bank Policy Research Working Paper No. 10228](Papers/wp-gender-bias.pdf) | [Draft](Papers/draft-gender-bias.pdf)
+
+[Summary](https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/)
 
 <br>
 
-#### __Coordination versus environmental adaptation: How much does standardized time change behavior?__
+#### __When we change the clock, does the clock change us?__
 
 with [Patrick Baylis](https://www.patrickbaylis.com) and [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/)
 
 The practice of standardizing the designation of time is a central device for coordinating activities and economic behaviors across individuals. However, there is nearly always a tension between an individual coordinating activities and carrying out those activities at their own preferred time. When time is standardized across large geographic areas, that tension is enhanced, because norms about the "clock times" of activities conflict with local environmental conditions created by natural or "solar" time. We study this tension by examining how geographic and temporal variation in solar time within time zones affects the timing of a range of common behaviors in the United States. Specifically, we estimate the degree to which people shift their online behavior (through Twitter), their commute (using the Census), and there visits to businesses and other establishments (using foot traffic data). We find that, on average, a one hour shift in the differential between solar time and clock time—approximately the width of a time zone—leads to shifting behavior by between 10 and 20 minutes. This shows that while adapting to local environmental factors significantly offsets the differential between solar time and clock time, the behavioral nudge and coordination value of clock time has the larger influence on activity.  We also study how the trade-off differs across activities and population demographics.
 
-*new draft in preparation*
+[NBER Working Paper No. 30999](https://www.nber.org/papers/w30999)
+
+Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
 
 <br>
 

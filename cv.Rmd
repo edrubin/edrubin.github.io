@@ -55,15 +55,14 @@ __[The strategic local geography of US electricity emissions](Papers/draft-plant
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
-<br> _Under review_ 
 
 __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
 <br> M. Steven Holloway and Edward Rubin
 
-__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/wp-gender-bias.pdf)__
+__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
 
-__Coordination versus environmental adaptation: How much does standardized time change behavior?__
+__[When we change the clock, does the clock change us?](https://www.nber.org/papers/w30999)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
 
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
