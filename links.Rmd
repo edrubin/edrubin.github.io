@@ -4,6 +4,13 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20230323 </h3>
+
+__Expressions__ <br>
+
+App with (pretty) [live preview of regular expressions](https://www.apptorium.com/expressions).
+
+
 <h3 style="color:#EEEEEE"> 20220302 </h3>
 
 __DeckDeckGo__ <br>
