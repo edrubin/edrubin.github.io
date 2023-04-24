@@ -77,16 +77,73 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Climate and adaptation:** 31 March 2023
+## **Equity:** 28 April 2023
 
 <p>
-  <b>Friday, 31 March 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 28 April 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
-  [Register for this week's Zoom link](https://berkeley.zoom.us/meeting/register/tJErceChpzMoEtLxAzvljC_kkxaybgTDlhQz) and/or
-  [join the mailing list](https://edrubin.typeform.com/aere-osweet).
+  Zoom link coming in email. [Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Burying the lead: Effects of public lead service line replacements on blood lead levels and property values</i>
+        <br><b>Michelle Marcus</b> (Vanderbilt)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>Who Benefits from park funding? Analyzing five decades of the Land and Water Conservation Fund</i>
+        <br><b>Andie Creel</b> (Yale School of the Environment)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>Policy-induced environmental inequality: Firm behaviors and consequent health and labor outcomes</i>
+        <br><b>Ran Song</b> (National University of Singapore)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2023 {.tabset .tabset-fade}
+
+### **Climate & adaptation:** 2023/03/31
 
 <p>
   <table style="width:100%">
@@ -136,19 +193,7 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2023 {.tabset .tabset-fade}
-
 ### **Air quality:** 2023/02/24
-
-<p>
-  <b>Friday, 24 February 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy hour
-</p>
 
 <p>
   <table style="width:100%">

@@ -13,6 +13,7 @@
 
 <title>CV: Edward A. Rubin</title>
 
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -131,11 +132,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -164,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -173,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -347,142 +345,312 @@ $(document).ready(function () {
 <p><a href="cvEdRubin.pdf">PDF</a> <br><br></p>
 <div id="academic-positions" class="section level2">
 <h2>Academic Positions</h2>
-<p>Assistant Professor, University of Oregon, Department of Economics, 2018–present</p>
+<p>Assistant Professor, University of Oregon, Department of Economics,
+2018–present</p>
 <p><br></p>
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
-<p>B.S. Mathematics, University of Nebraska–Lincoln, 2007 <br>M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013 <br>M.S. Statistics, University of Nebraska–Lincoln, 2013 <br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015 <br>Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018 <br><em>Committee:</em> <a href="https://www.auffhammer.com">Maximilian Auffhammer</a>, <a href="https://www.meredithfowlie.com/">Meredith Fowlie</a>, <a href="https://w-reed-walker.com">Reed Walker</a></p>
-<p><strong>Primary interests</strong>: Environmental &amp; Energy Economics, Applied Econometrics &amp; Data Science, Inequality &amp; Public Policy <br> <strong>Secondary interests</strong>: Health Economics, Development Economics, Criminal Justice</p>
+<p>B.S. Mathematics, University of Nebraska–Lincoln, 2007 <br>M.S.
+Agricultural Economics, University of Nebraska–Lincoln, 2013 <br>M.S.
+Statistics, University of Nebraska–Lincoln, 2013 <br>M.S. Agricultural
+and Resource Economics, UC Berkeley, 2015 <br>Ph.D. Agricultural and
+Resource Economics, UC Berkeley, 2018 <br><em>Committee:</em> <a
+href="https://www.auffhammer.com">Maximilian Auffhammer</a>, <a
+href="https://www.meredithfowlie.com/">Meredith Fowlie</a>, <a
+href="https://w-reed-walker.com">Reed Walker</a></p>
+<p><strong>Primary interests</strong>: Environmental &amp; Energy
+Economics, Applied Econometrics &amp; Data Science, Inequality &amp;
+Public Policy <br> <strong>Secondary interests</strong>: Health
+Economics, Development Economics, Criminal Justice</p>
 <p><br></p>
 </div>
 <div id="publications" class="section level2">
 <h2>Publications</h2>
-<p><strong><a href="https://muse.jhu.edu/article/753055">The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions</a></strong> <br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. <em>Land Economics</em>, 96(2), 188–206.</p>
-<p><strong><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191064">Bringing Satellite-Based Air-Quality Estimates Down to Earth</a></strong> <br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. <em>AEA Papers and Proceedings</em>, 109: 283-88.</p>
-<p>(Book) <strong><a href="https://www.springer.com/gp/book/9783030713515">Data Science for Public Policy</a></strong> <br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. <em>Springer</em></p>
+<p><strong><a href="https://muse.jhu.edu/article/753055">The Economic
+Impact of Critical Habitat Designation: Evidence from Vacant-Land
+Transactions</a></strong> <br> Maximilian Auffhammer, Maya Duru, Edward
+Rubin, and David L. Sunding. 2020. <em>Land Economics</em>, 96(2),
+188–206.</p>
+<p><strong><a
+href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191064">Bringing
+Satellite-Based Air-Quality Estimates Down to Earth</a></strong> <br>
+Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. <em>AEA Papers and
+Proceedings</em>, 109: 283-88.</p>
+<p>(Book) <strong><a
+href="https://www.springer.com/gp/book/9783030713515">Data Science for
+Public Policy</a></strong> <br> Jeffrey Chen, Edward Rubin, and Gary
+Cornwall. 2021. <em>Springer</em></p>
 <p><br></p>
 </div>
 <div id="working-papers" class="section level2">
 <h2>Working Papers</h2>
-<p><strong><a href="Papers/draft-natural-gas.pdf">Quantifying heterogeneity in the price elasticity of residential natural gas</a></strong> <br> Edward Rubin and Maximilian Auffhammer <br> <em>Conditionally accepted</em>, JAERE</p>
-<p><strong><a href="Papers/draft-strategic-monitoring.pdf">Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.</a></strong> <br> Yingfei Mu, Edward Rubin, and Eric Zou <br> <em>Revise and resubmit</em>, RESTAT</p>
-<p><strong><a href="Papers/draft-plant-locations.pdf">The strategic local geography of US electricity emissions</a></strong> <br> John Morehouse and Edward Rubin <br> <em>Revise and resubmit</em>, JAERE</p>
-<p><strong><a href="Papers/draft-mliv.pdf">What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition</a></strong> <br> Connor Lennon, Edward Rubin, and Glen Waddell</p>
-<p><strong><a href="Papers/draft-smoke.pdf">Unequal avoidance: Disparities in smoke-induced out-migration</a></strong> <br> M. Steven Holloway and Edward Rubin</p>
-<p><strong><a href="Papers/draft-gender-bias.pdf">Customer Discrimination in the Workplace: Evidence from Online Sales</a></strong> <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco</p>
-<p><strong><a href="https://www.nber.org/papers/w30999">When we change the clock, does the clock change us?</a></strong> <br> Patrick Baylis, Severin Borenstein, and Edward Rubin</p>
-<p><strong>Are our hopes too high? Testing cannabis legalization’s potential to reduce criminalization</strong> <br> Edward Rubin</p>
-<p><strong><a href="Papers/draft-pesticides.pdf">Do aerially applied pesticides affect local air quality? Empirical evidence from California’s San Joaquin Valley</a></strong> <br> Edward Rubin</p>
+<p><strong><a href="Papers/draft-natural-gas.pdf">Quantifying
+heterogeneity in the price elasticity of residential natural
+gas</a></strong> <br> Edward Rubin and Maximilian Auffhammer <br>
+<em>Conditionally accepted</em>, JAERE</p>
+<p><strong><a href="Papers/draft-strategic-monitoring.pdf">Strategic
+Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across
+the U.S.</a></strong> <br> Yingfei Mu, Edward Rubin, and Eric Zou <br>
+<em>Revise and resubmit</em>, RESTAT</p>
+<p><strong><a href="Papers/draft-plant-locations.pdf">The strategic
+local geography of US electricity emissions</a></strong> <br> John
+Morehouse and Edward Rubin <br> <em>Revise and resubmit</em>, JAERE</p>
+<p><strong><a href="Papers/draft-mliv.pdf">What can we machine learn
+(too much of) in 2SLS? Insights from a bias decomposition</a></strong>
+<br> Connor Lennon, Edward Rubin, and Glen Waddell</p>
+<p><strong><a href="Papers/draft-smoke.pdf">Unequal avoidance:
+Disparities in smoke-induced out-migration</a></strong> <br> M. Steven
+Holloway and Edward Rubin</p>
+<p><strong><a href="Papers/draft-gender-bias.pdf">Customer
+Discrimination in the Workplace: Evidence from Online Sales</a></strong>
+<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco</p>
+<p><strong><a href="https://www.nber.org/papers/w30999">When we change
+the clock, does the clock change us?</a></strong> <br> Patrick Baylis,
+Severin Borenstein, and Edward Rubin</p>
+<p><strong>Are our hopes too high? Testing cannabis legalization’s
+potential to reduce criminalization</strong> <br> Edward Rubin</p>
+<p><strong><a href="Papers/draft-pesticides.pdf">Do aerially applied
+pesticides affect local air quality? Empirical evidence from
+California’s San Joaquin Valley</a></strong> <br> Edward Rubin</p>
 <p><br></p>
 </div>
 <div id="research-in-progress" class="section level2">
 <h2>Research in Progress</h2>
-<p><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong> <br> Meredith Fowlie, Edward Rubin, and Catherine Wright</p>
-<p><strong>Perinatal health effects of herbicides: Glyphosate, Roundup, and the rollout of GM crops</strong> <br> Edward Rubin and Emmett Saulnier</p>
-<p><strong>Mismeasurement in exposure and access: Insights from cellphone data</strong> <br> Edward Rubin</p>
-<p><strong>Interactions between measurement error and policy</strong> <br> Edward Rubin</p>
-<p><strong>How salient are environmental risks? The short- and long-run effects of lead exposure in piped water</strong> <br> Edward Rubin</p>
+<p><strong>Declining power-plant emissions, co-benefits, and regulatory
+rebound</strong> <br> Meredith Fowlie, Edward Rubin, and Catherine
+Wright</p>
+<p><strong>Perinatal health effects of herbicides: Glyphosate, Roundup,
+and the rollout of GM crops</strong> <br> Edward Rubin and Emmett
+Saulnier</p>
+<p><strong>Mismeasurement in exposure and access: Insights from
+cellphone data</strong> <br> Edward Rubin</p>
+<p><strong>Interactions between measurement error and policy</strong>
+<br> Edward Rubin</p>
+<p><strong>How salient are environmental risks? The short- and long-run
+effects of lead exposure in piped water</strong> <br> Edward Rubin</p>
 <p><br></p>
 </div>
 <div id="teaching" class="section level2">
 <h2>Teaching</h2>
-<p><strong><a href="https://github.com/edrubin/EC525S19">EC607: Econometrics (III): Causal inference</a></strong></p>
+<p><strong><a href="https://github.com/edrubin/EC525S19">EC607:
+Econometrics (III): Causal inference</a></strong></p>
 <ul>
-<li>University of Oregon: <a href="https://github.com/edrubin/EC607S22">Spring 2022</a>, <a href="https://github.com/edrubin/EC607S21">Spring 2021</a>, <a href="https://github.com/edrubin/EC607S20">Spring 2020</a>, <a href="https://github.com/edrubin/EC525S19">Spring 2019</a></li>
+<li>University of Oregon: <a
+href="https://github.com/edrubin/EC607S22">Spring 2022</a>, <a
+href="https://github.com/edrubin/EC607S21">Spring 2021</a>, <a
+href="https://github.com/edrubin/EC607S20">Spring 2020</a>, <a
+href="https://github.com/edrubin/EC525S19">Spring 2019</a></li>
 <li>Doctoral level</li>
 </ul>
-<p><strong><a href="https://github.com/edrubin/EC524W20">EC524: Econometrics (II): Prediction and machine learning</a></strong></p>
+<p><strong><a href="https://github.com/edrubin/EC524W20">EC524:
+Econometrics (II): Prediction and machine learning</a></strong></p>
 <ul>
-<li>University of Oregon: <a href="https://github.com/edrubin/EC524W22">Winter 2022</a>, <a href="https://github.com/edrubin/EC524W21">Winter 2021</a>, <a href="https://github.com/edrubin/EC524W20">Winter 2020</a></li>
+<li>University of Oregon: <a
+href="https://github.com/edrubin/EC524W22">Winter 2022</a>, <a
+href="https://github.com/edrubin/EC524W21">Winter 2021</a>, <a
+href="https://github.com/edrubin/EC524W20">Winter 2020</a></li>
 </ul>
-<p><strong><a href="https://github.com/edrubin/EC421S19">EC421: Introduction to Econometrics (II)</a></strong></p>
+<p><strong><a href="https://github.com/edrubin/EC421S19">EC421:
+Introduction to Econometrics (II)</a></strong></p>
 <ul>
-<li>University of Oregon: <a href="https://github.com/edrubin/EC421S22">Spring 2022</a>, <a href="https://github.com/edrubin/EC421W22">Winter 2022</a>, <a href="https://github.com/edrubin/EC421W21">Winter 2021</a>, Spring 2020, <a href="https://github.com/edrubin/EC421W20">Winter 2020</a>, <a href="https://github.com/edrubin/EC421S19">Spring 2019</a>, <a href="https://github.com/edrubin/EC421W19">Winter 2019</a></li>
+<li>University of Oregon: <a
+href="https://github.com/edrubin/EC421S22">Spring 2022</a>, <a
+href="https://github.com/edrubin/EC421W22">Winter 2022</a>, <a
+href="https://github.com/edrubin/EC421W21">Winter 2021</a>, Spring 2020,
+<a href="https://github.com/edrubin/EC421W20">Winter 2020</a>, <a
+href="https://github.com/edrubin/EC421S19">Spring 2019</a>, <a
+href="https://github.com/edrubin/EC421W19">Winter 2019</a></li>
 <li>Undergraduate level</li>
 </ul>
-<p><strong><a href="https://edrub.in/ARE212">ARE 212: Econometrics - Multiple Equation Estimation</a></strong></p>
+<p><strong><a href="https://edrub.in/ARE212">ARE 212: Econometrics -
+Multiple Equation Estimation</a></strong></p>
 <ul>
 <li>University of California, Berkeley: Spring 2017, Spring 2018</li>
-<li>Doctoral level: taught recitation section and built <a href="http://edrub.in/ARE212/">section website/notes</a></li>
+<li>Doctoral level: taught recitation section and built <a
+href="http://edrub.in/ARE212/">section website/notes</a></li>
 </ul>
 <p><strong>STAT 380: Statistics and Applications</strong></p>
 <ul>
-<li>University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013</li>
+<li>University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring
+2013</li>
 <li>Undergraduate level: sole instructor for the course</li>
 </ul>
 <p><strong>STAT 218: Introduction to Statistics</strong></p>
 <ul>
-<li>University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011</li>
+<li>University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall
+2011</li>
 <li>Undergraduate level: sole instructor for the course</li>
 </ul>
 <p><br></p>
 </div>
 <div id="honors-awards-and-fellowships" class="section level2">
 <h2>Honors, Awards, and Fellowships</h2>
-<p>EPA: <em>A Retrospective Analysis of Indirect Air Quality Benefits from Power-Sector Emissions Reductions</em>, 2021</p>
-<p>Sloan Foundation (for <a href="https://tweeds.io">TWEEDS</a>), 2020–2022</p>
-<p>University of Oregon Data-Science Initiative Seed Funding, 2019–2020</p>
+<p>EPA: <em>A Retrospective Analysis of Indirect Air Quality Benefits
+from Power-Sector Emissions Reductions</em>, 2021</p>
+<p>Sloan Foundation (for <a href="https://tweeds.io">TWEEDS</a>),
+2020–2022</p>
+<p>University of Oregon Data-Science Initiative Seed Funding,
+2019–2020</p>
 <p>University of Oregon Program Grant, Fall 2019</p>
-<p>EPA EmPOWER Air Data Challenge Winner, 2019–2020 <br> <em>with Meredith Fowlie</em></p>
-<p>Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2018–2019 <br> <em>with Erin Kelley, Gregory Lane, and Matthew Pecenco</em></p>
+<p>EPA EmPOWER Air Data Challenge Winner, 2019–2020 <br> <em>with
+Meredith Fowlie</em></p>
+<p>Private Enterprise Development in Low-Income Countries (PEDL)
+Exploratory Research Grant, 2018–2019 <br> <em>with Erin Kelley, Gregory
+Lane, and Matthew Pecenco</em></p>
 <p>Outstanding Graduate-Student Instructor, UC Berkeley, 2018</p>
-<p>Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018 <br> <em>with Erin Kelley and Matthew Pecenco</em></p>
-<p>Giannini Foundation Mini-Grant, 2017–2018 <br> <em>with Maximilian Auffhammer</em></p>
+<p>Private Enterprise Development in Low-Income Countries (PEDL)
+Exploratory Research Grant, 2017–2018 <br> <em>with Erin Kelley and
+Matthew Pecenco</em></p>
+<p>Giannini Foundation Mini-Grant, 2017–2018 <br> <em>with Maximilian
+Auffhammer</em></p>
 <p>UC Berkeley ARE Summer Grant, 2016</p>
 <p>GAANN Fellowship 2013–2015</p>
 <p><br></p>
 </div>
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
-<p><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong> <br> University of Nebraska–Lincoln, November 2022</p>
-<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022</p>
-<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> Oregon State University, May 2022</p>
-<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> National Graduate Institute for Policy Studies (GRIPS), April 2022</p>
-<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> UC Berkeley ARE, April 2022</p>
-<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> CU Environmental &amp; Resource Economics Workshop, October 2021</p>
-<p><strong>Pollution co-benefits and regulatory rebound</strong> <br> RFF/EPA, October 2021</p>
-<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> AERE Remote Conference, June 2021</p>
-<p><strong>Downwind and out: The Strategic dispersion of power plants and their pollution</strong> <br> AERE Remote Conference, June 2021</p>
-<p><strong>A retrospective analysis of indirect air-quality benefits from power-sector emissions reductions</strong> <br> RFF/EPA (Online), December 2020</p>
-<p><strong>Estimating and decomposing “the” elasticity of demand: Empirical and policy insights from 600 million natural gas bills</strong> <br> Duke Energy Data Analytics Symposium, December 2020</p>
-<p><strong>Mismeasurement in exposure and access: Insights from cellphone data</strong> <br> AERE Remote Conference, June 2020</p>
-<p><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong> <br> ASSA Annual Meeting, January 2020</p>
-<p><strong>Mismeasurement in exposure and access: Insights from cellphone data</strong> <br> Western Economic Association Internation (WEAI) Annual Conference, June 2019</p>
-<p><strong>The economic impact of critical-habitat designation: Evidence from vacant-land transactions</strong> <br> The Occasional Workshop (UCSB), November 2018</p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> World Congress of Environmental Economics (WCERE), June 2018</p>
-<p><strong>Is “Michelle” less productive than “Michael”? A field experiment on consumer-based gender discrimination in the marketplace</strong> <br> UC Berkeley, Computational Text Analysis Working Group, April 2018</p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> University of Oregon, Economics, February 2018</p>
-<p><strong>Is “Michelle” less productive than “Michael”? A field experiment on consumer-based gender discrimination in the marketplace</strong> <br> IGC-PEDL Workshop at Oxford, December 2017</p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> Heartland Environmental and Resource Economics Workshop, September 2017</p>
-<p><strong>Is “Michelle” less productive than “Michael”? A field experiment on consumer-based gender discrimination in the marketplace</strong> <br> Berkeley Development Economics Lunch, September 2017</p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> Camp Resources, August 2017</p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> AAEA Annual Meeting, August 2017</p>
-<p><strong>Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado</strong> <br> UC Berkeley, Summer Research Seminar, July 2017</p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> AERE Annual Summer Conference, June 2017</p>
-<p><strong>Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills</strong> <br> 22nd Annual POWER Conference on Energy Research and Policy, March 2017</p>
-<p><strong>Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills</strong> <br> UC Berkeley, Environmental and Resource Economics Seminar, November 2016</p>
-<p><strong>(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests</strong> <br> UC Berkeley, Environmental and Resource Economics Seminar, April 2015</p>
-<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)</strong> <br> University of Nebraska–Lincoln, Statistics Departmental Seminar, March 2013</p>
-<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer</strong> <br> International Conference of Agricultural Economists, poster, August 2012</p>
+<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong>
+<br> EPIC Junior Workshop (University of Chicago), April 2023</p>
+<p><strong>Declining power-plant emissions, co-benefits, and regulatory
+rebound</strong> <br> University of Nebraska–Lincoln, November 2022</p>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence
+from strategic shutdowns of pollution monitors</strong> <br> Annual
+Conference of the European Association of Environmental and Resource
+Economists, June 2022</p>
+<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong>
+<br> Oregon State University, May 2022</p>
+<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong>
+<br> National Graduate Institute for Policy Studies (GRIPS), April
+2022</p>
+<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong>
+<br> UC Berkeley ARE, April 2022</p>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence
+from strategic shutdowns of pollution monitors</strong> <br> CU
+Environmental &amp; Resource Economics Workshop, October 2021</p>
+<p><strong>Pollution co-benefits and regulatory rebound</strong> <br>
+RFF/EPA, October 2021</p>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence
+from strategic shutdowns of pollution monitors</strong> <br> AERE Remote
+Conference, June 2021</p>
+<p><strong>Downwind and out: The Strategic dispersion of power plants
+and their pollution</strong> <br> AERE Remote Conference, June 2021</p>
+<p><strong>A retrospective analysis of indirect air-quality benefits
+from power-sector emissions reductions</strong> <br> RFF/EPA (Online),
+December 2020</p>
+<p><strong>Estimating and decomposing “the” elasticity of demand:
+Empirical and policy insights from 600 million natural gas
+bills</strong> <br> Duke Energy Data Analytics Symposium, December
+2020</p>
+<p><strong>Mismeasurement in exposure and access: Insights from
+cellphone data</strong> <br> AERE Remote Conference, June 2020</p>
+<p><strong>Declining power-plant emissions, co-benefits, and regulatory
+rebound</strong> <br> ASSA Annual Meeting, January 2020</p>
+<p><strong>Mismeasurement in exposure and access: Insights from
+cellphone data</strong> <br> Western Economic Association Internation
+(WEAI) Annual Conference, June 2019</p>
+<p><strong>The economic impact of critical-habitat designation: Evidence
+from vacant-land transactions</strong> <br> The Occasional Workshop
+(UCSB), November 2018</p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> World Congress of Environmental Economics
+(WCERE), June 2018</p>
+<p><strong>Is “Michelle” less productive than “Michael”? A field
+experiment on consumer-based gender discrimination in the
+marketplace</strong> <br> UC Berkeley, Computational Text Analysis
+Working Group, April 2018</p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> University of Oregon, Economics, February
+2018</p>
+<p><strong>Is “Michelle” less productive than “Michael”? A field
+experiment on consumer-based gender discrimination in the
+marketplace</strong> <br> IGC-PEDL Workshop at Oxford, December 2017</p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> Heartland Environmental and Resource Economics
+Workshop, September 2017</p>
+<p><strong>Is “Michelle” less productive than “Michael”? A field
+experiment on consumer-based gender discrimination in the
+marketplace</strong> <br> Berkeley Development Economics Lunch,
+September 2017</p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> Camp Resources, August 2017</p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> AAEA Annual Meeting, August 2017</p>
+<p><strong>Do marijuana stores increase or reduce neighborhood crime?
+Evidence from Denver, Colorado</strong> <br> UC Berkeley, Summer
+Research Seminar, July 2017</p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> AERE Annual Summer Conference, June 2017</p>
+<p><strong>Summertime, and pass-through is easier: Chasing down price
+elasticities for residential natural gas demand in 275 million
+bills</strong> <br> 22nd Annual POWER Conference on Energy Research and
+Policy, March 2017</p>
+<p><strong>Natural gas elasticities, seasonal heterogeneity, and
+consumer behavior: Evidence from 300M+ bills</strong> <br> UC Berkeley,
+Environmental and Resource Economics Seminar, November 2016</p>
+<p><strong>(Mile-) High Quandaries: Evidence from Denver that Marijuana
+Legalization May Increase Drug Arrests</strong> <br> UC Berkeley,
+Environmental and Resource Economics Seminar, April 2015</p>
+<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S.
+High Plains Aquifer Along the 41st Parallel in Nebraska (and Several
+Questions about Model Complexity)</strong> <br> University of
+Nebraska–Lincoln, Statistics Departmental Seminar, March 2013</p>
+<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S.
+High Plains Aquifer</strong> <br> International Conference of
+Agricultural Economists, poster, August 2012</p>
 <p><br></p>
 </div>
 <div id="academic-service" class="section level2">
 <h2>Academic Service</h2>
 <p><strong>Advising</strong></p>
 <ul>
-<li><em>PhD committee chair</em> Mary Kopriva (co-chair); Connor Lennon (co-chair); Garrett Stanford (chair)</li>
-<li><em>PhD dissertation committee</em> Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee; Kyle Wilson; Sichao Zhang</li>
-<li><em>Undergraduate</em> Zoë Arnaut (reader); Eleanor Franks (reader); Kara Krnacik (chair); Aidan Pott (chair)</li>
+<li><em>PhD committee chair</em> Mary Kopriva (co-chair); Connor Lennon
+(co-chair); Garrett Stanford (chair)</li>
+<li><em>PhD dissertation committee</em> Robert McDonough; Max Mindock;
+John Morehouse; Jenni Putz; Meysam Rabiee; Kyle Wilson; Sichao
+Zhang</li>
+<li><em>Undergraduate</em> Zoë Arnaut (reader); Eleanor Franks (reader);
+Kara Krnacik (chair); Aidan Pott (chair)</li>
 </ul>
 <p><strong>Other</strong></p>
 <ul>
-<li>Founded/Organized <a href="https://tweeds.io">TWEEDS</a> (The Workshop in Environmental Economics and Data Science)</li>
-<li>Co-founded/Organized <a href="https://edrub.in/osweet">OSWEET</a> (Online Student Workshop in Environmental, Energy, and Transportation)</li>
-<li>Co-founded/Organized <a href="https://gosee.io">GoSee</a> (Global Open Series in Environmental Economics)</li>
-<li>Co-organize applied microeconometrics workshop at UO (with <a href="http://www.glenwaddell.com/">Glen Waddell</a>)</li>
-<li><strong>Referee:</strong> <a href="https://www.aeaweb.org/journals/pol">American Economic Journal: Economic Policy</a> (AEJ Policy), <a href="https://www.journals.uchicago.edu/toc/jaere/current">Journal of the Association of Environmental and Resource Economists</a> (JAERE), <a href="https://www.journals.elsevier.com/journal-of-public-economics">Journal of Public Economics</a> (JPubE), <a href="https://onlinelibrary.wiley.com/journal/14657295">Economic Inquiry</a>, <a href="https://www.journals.elsevier.com/journal-of-environmental-economics-and-management">Journal of Environmental Economics and Management</a> (JEEM), <a href="https://uwpress.wisc.edu/journals/journals/le.html">Land Economics</a>, <a href="https://www.journals.elsevier.com/resource-and-energy-economics">Resource and Energy Economics</a> (REE), <a href="https://www.journals.elsevier.com/energy-policy">Energy Policy</a>, <a href="http://www.appam.org/jpam/">Journal of Policy Analysis and Management</a> (JPAM), <a href="https://www.worldscientific.com/worldscinet/wep">Water Economics and Policy</a> (WEP)</li>
-<li>Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)</li>
+<li>Founded/Organized <a href="https://tweeds.io">TWEEDS</a> (The
+Workshop in Environmental Economics and Data Science)</li>
+<li>Co-founded/Organized <a href="https://edrub.in/osweet">OSWEET</a>
+(Online Student Workshop in Environmental, Energy, and
+Transportation)</li>
+<li>Co-founded/Organized <a href="https://gosee.io">GoSee</a> (Global
+Open Series in Environmental Economics)</li>
+<li>Co-organize applied microeconometrics workshop at UO (with <a
+href="http://www.glenwaddell.com/">Glen Waddell</a>)</li>
+<li><strong>Referee:</strong> <a
+href="https://www.aeaweb.org/journals/pol">American Economic Journal:
+Economic Policy</a> (AEJ Policy), <a
+href="https://www.journals.uchicago.edu/toc/jaere/current">Journal of
+the Association of Environmental and Resource Economists</a> (JAERE), <a
+href="https://www.journals.elsevier.com/journal-of-public-economics">Journal
+of Public Economics</a> (JPubE), <a
+href="https://onlinelibrary.wiley.com/journal/14657295">Economic
+Inquiry</a>, <a
+href="https://www.journals.elsevier.com/journal-of-environmental-economics-and-management">Journal
+of Environmental Economics and Management</a> (JEEM), <a
+href="https://uwpress.wisc.edu/journals/journals/le.html">Land
+Economics</a>, <a
+href="https://www.journals.elsevier.com/resource-and-energy-economics">Resource
+and Energy Economics</a> (REE), <a
+href="https://www.journals.elsevier.com/energy-policy">Energy
+Policy</a>, <a href="http://www.appam.org/jpam/">Journal of Policy
+Analysis and Management</a> (JPAM), <a
+href="https://www.worldscientific.com/worldscinet/wep">Water Economics
+and Policy</a> (WEP)</li>
+<li>Coordinated Environmental, Energy, and Resource Economics Seminar
+(UCB)</li>
 <li>Organized biweekly (twice per week) departmental lunches (UCB)</li>
 <li>Organized third-year research workshop (UCB)</li>
 <li>Organized departmental coffee hour (UCB)</li>
@@ -494,8 +662,10 @@ $(document).ready(function () {
 <h2>Skills</h2>
 <p><strong>Computational</strong></p>
 <ul>
-<li><strong>Computing:</strong> R, Python, Stata, Julia, QGIS, MATLAB, Mathematica, SAS</li>
-<li><strong>Design:</strong> LaTeX, Markdown, Adobe Suite Design Suite, Microsoft Suite</li>
+<li><strong>Computing:</strong> R, Python, Stata, Julia, QGIS, MATLAB,
+Mathematica, SAS</li>
+<li><strong>Design:</strong> LaTeX, Markdown, Adobe Suite Design Suite,
+Microsoft Suite</li>
 </ul>
 <p><strong>Linguistic</strong></p>
 <ul>
@@ -507,11 +677,16 @@ $(document).ready(function () {
 <div id="contact" class="section level2">
 <h2>Contact</h2>
 <ul>
-<li><strong>email</strong> edwardr <code>ampersat</code> uoregon <code>period</code> edu</li>
-<li><strong>website</strong> <a href="https://edrub.in">http://edrub.in</a></li>
-<li><strong>twitter</strong> <a href="https://twitter.com/edrubin">@edrubin</a></li>
-<li><strong>instagram</strong> <a href="https://instagram.com/edwardarubin/">@edwardarubin</a></li>
-<li><strong>github</strong> <a href="https://github.com/edrubin">edrubin</a></li>
+<li><strong>email</strong> edwardr <code>ampersat</code> uoregon
+<code>period</code> edu</li>
+<li><strong>website</strong> <a
+href="https://edrub.in">http://edrub.in</a></li>
+<li><strong>twitter</strong> <a
+href="https://twitter.com/edrubin">@edrubin</a></li>
+<li><strong>instagram</strong> <a
+href="https://instagram.com/edwardarubin/">@edwardarubin</a></li>
+<li><strong>github</strong> <a
+href="https://github.com/edrubin">edrubin</a></li>
 </ul>
 </div>
 

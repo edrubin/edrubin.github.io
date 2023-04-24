@@ -2,7 +2,7 @@
 ```{r}
 library(pacman)
 p_load(stringr, magrittr, rmarkdown)
-setwd("/Users/edwardarubin/Dropbox/Websites/edrubin.github.io")
+# setwd("/Users/edwardarubin/Dropbox/Websites/edrubin.github.io")
 
 # Change some characters
 cv <- readLines("cvShort.Rmd")
@@ -63,8 +63,8 @@ render("tmp.Rmd",
       # pandoc_variable_arg("monofont", "Hack"),
       pandoc_variable_arg("fontsize", "10pt"),
       # pandoc_variable_arg("mainfont", "Lato"),
-      # pandoc_variable_arg("mainfont", "Fira Sans Condensed"),
-      pandoc_variable_arg("mainfont", "Fira Sans Book"),
+      pandoc_variable_arg("mainfont", "Fira Sans Condensed"),
+      # pandoc_variable_arg("mainfont", "Fira Sans Book"),
       # pandoc_variable_arg("mainfont", "Roboto Mono"),
       # pandoc_variable_arg("sansfont", "Lato"),
       # pandoc_variable_arg("mainfont", "Bell MT"),

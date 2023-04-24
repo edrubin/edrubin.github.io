@@ -2,7 +2,7 @@
 ```{r}
 library(pacman)
 p_load(stringr, magrittr, rmarkdown)
-setwd("/Users/edwardarubin/Dropbox/Websites/edrubin.github.io")
+# setwd("/Users/edwardarubin/Dropbox/Websites/edrubin.github.io")
 
 # Change some characters
 cv <- readLines("cv.Rmd")

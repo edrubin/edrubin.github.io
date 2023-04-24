@@ -13,6 +13,7 @@
 
 <title>Ed Rubin: Research</title>
 
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -52,26 +53,28 @@
   }
 </style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -80,15 +83,15 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -101,7 +104,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -122,13 +125,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   for (var i = 0; i < sheets.length; i++) {
     if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
     try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
+    var j = 0;
+    while (j < rules.length) {
       var rule = rules[j];
       // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
       var style = rule.style.cssText;
       // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
       // replace div.sourceCode by a pre.sourceCode rule
       sheets[i].deleteRule(j);
       sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
@@ -224,11 +234,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -257,8 +271,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -266,16 +280,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -439,7 +446,7 @@ $(document).ready(function () {
 
 <p><br></p>
 <div id="section" class="section level1 tabset tabset-fade">
-<h1></h1>
+<h1 class="tabset tabset-fade"></h1>
 <div id="published" class="section level2">
 <h2>Published</h2>
 <p><br></p>
@@ -449,21 +456,68 @@ Publications
 </h2>
 <p></font></p>
 <hr />
-<div id="the-economic-impact-of-critical-habitat-designation-evidence-from-vacant-land-transactions" class="section level4">
-<h4><strong><a href="https://doi.org/10.3368/le.96.2.188">The economic impact of critical-habitat designation: Evidence from vacant-land transactions</a></strong></h4>
-<p><a href="https://auffhammer.com">Maximilian Auffhammer</a>, <a href="https://www.povertyactionlab.org/duru">Maya Duru</a>, <a href="https://edrub.in">Edward Rubin</a>, and <a href="https://are.berkeley.edu/users/david-l-sunding">David L. Sunding</a></p>
-<p>The Endangered Species Act (ESA) requires the federal government to designate critical habitat for species listed as threatened or endangered. This provision of the ESA has proven to be one of its most controversial, as critical-habitat land designation entails special management—and potentially greater regulation. In this paper we measure the economic impact of critical-habitat designation by estimating its effect on the market value of vacant land. Using data from over 13,000 vacant-land transactions that occurred within or near critical habitat for two important species in California (red-legged frog and Bay checkerspot butterfly), we show that critical-habitat designation resulted in a large and statistically significant decrease in land value. The estimated impact of critical-habitat designation is heterogeneous: the largest decreases occur within designated urban-growth boundaries.</p>
-<p>Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. <em>Land Economics</em>, 96(2), 188–206. <a href="https://doi.org/10.3368/le.96.2.188">DOI: 10.3368/le.96.2.188</a></p>
+<div
+id="the-economic-impact-of-critical-habitat-designation-evidence-from-vacant-land-transactions"
+class="section level4">
+<h4><strong><a href="https://doi.org/10.3368/le.96.2.188">The economic
+impact of critical-habitat designation: Evidence from vacant-land
+transactions</a></strong></h4>
+<p><a href="https://auffhammer.com">Maximilian Auffhammer</a>, <a
+href="https://www.povertyactionlab.org/duru">Maya Duru</a>, <a
+href="https://edrub.in">Edward Rubin</a>, and <a
+href="https://are.berkeley.edu/users/david-l-sunding">David L.
+Sunding</a></p>
+<p>The Endangered Species Act (ESA) requires the federal government to
+designate critical habitat for species listed as threatened or
+endangered. This provision of the ESA has proven to be one of its most
+controversial, as critical-habitat land designation entails special
+management—and potentially greater regulation. In this paper we measure
+the economic impact of critical-habitat designation by estimating its
+effect on the market value of vacant land. Using data from over 13,000
+vacant-land transactions that occurred within or near critical habitat
+for two important species in California (red-legged frog and Bay
+checkerspot butterfly), we show that critical-habitat designation
+resulted in a large and statistically significant decrease in land
+value. The estimated impact of critical-habitat designation is
+heterogeneous: the largest decreases occur within designated
+urban-growth boundaries.</p>
+<p>Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding.
+2020. <em>Land Economics</em>, 96(2), 188–206. <a
+href="https://doi.org/10.3368/le.96.2.188">DOI:
+10.3368/le.96.2.188</a></p>
 <p><br></p>
 <p><img src="Figures/CriticalHabitat/rlf_logprice_2006_raw.png" width="65%" style="display: block; margin: auto;" /></p>
 <p><br></p>
 </div>
-<div id="bringing-satellite-based-air-quality-estimates-down-to-earth" class="section level4">
-<h4><strong><a href="https://doi.org/10.1257/pandp.20191064">Bringing Satellite-Based Air-Quality Estimates Down to Earth</a></strong></h4>
-<p><a href="https://www.meredithfowlie.com">Meredith Fowlie</a>, <a href="https://edrub.in">Edward Rubin</a>, and <a href="https://w-reed-walker.com">Reed Walker</a></p>
-<p>We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to which the EPA’s existing, monitor-based measurements over- or under-estimate true exposure to PM2.5 pollution. Treating satellite-based estimates as truth implies a substantial number of “policy errors”—over-regulating areas that comply with air quality standards and under-regulating other areas that appear to violate standards. We investigate the health implications of these apparent errors and highlight the importance of accounting for prediction error in satellite-based estimates. Uncertainty in “policy errors” increases substantially when we account for these underlying prediction errors.</p>
-<p><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191064">Published (P&amp;P) version</a> | <a href="https://www.nber.org/papers/w25560">NBER Working Paper No. 25560</a> | <a href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html">EI @ Haas Working Paper 300</a></p>
-<p>Fowlie, Meredith, Edward Rubin, and Reed Walker. 2019. “Bringing Satellite-Based Air Quality Estimates Down to Earth.” <em>AEA Papers and Proceedings</em>, 109: 283-88. DOI: <a href="https://doi.org/10.1257/pandp.20191064">10.1257/pandp.20191064</a></p>
+<div id="bringing-satellite-based-air-quality-estimates-down-to-earth"
+class="section level4">
+<h4><strong><a href="https://doi.org/10.1257/pandp.20191064">Bringing
+Satellite-Based Air-Quality Estimates Down to Earth</a></strong></h4>
+<p><a href="https://www.meredithfowlie.com">Meredith Fowlie</a>, <a
+href="https://edrub.in">Edward Rubin</a>, and <a
+href="https://w-reed-walker.com">Reed Walker</a></p>
+<p>We use state-of-the-art, satellite-based PM2.5 estimates to assess
+the extent to which the EPA’s existing, monitor-based measurements over-
+or under-estimate true exposure to PM2.5 pollution. Treating
+satellite-based estimates as truth implies a substantial number of
+“policy errors”—over-regulating areas that comply with air quality
+standards and under-regulating other areas that appear to violate
+standards. We investigate the health implications of these apparent
+errors and highlight the importance of accounting for prediction error
+in satellite-based estimates. Uncertainty in “policy errors” increases
+substantially when we account for these underlying prediction
+errors.</p>
+<p><a
+href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191064">Published
+(P&amp;P) version</a> | <a
+href="https://www.nber.org/papers/w25560">NBER Working Paper
+No. 25560</a> | <a
+href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html">EI
+@ Haas Working Paper 300</a></p>
+<p>Fowlie, Meredith, Edward Rubin, and Reed Walker. 2019. “Bringing
+Satellite-Based Air Quality Estimates Down to Earth.” <em>AEA Papers and
+Proceedings</em>, 109: 283-88. DOI: <a
+href="https://doi.org/10.1257/pandp.20191064">10.1257/pandp.20191064</a></p>
 <p><img src="Figures/AirQualityEstimates/box_cbg_di_2003_2007.png" width="50%" /><img src="Figures/AirQualityEstimates/map_di_2005.png" width="50%" /></p>
 </div>
 </div>
@@ -476,84 +530,251 @@ Working Papers
 </h2>
 <p></font></p>
 <hr />
-<div id="quantifying-heterogeneity-in-the-price-elasticity-of-residential-natural-gas" class="section level4">
-<h4><strong>Quantifying heterogeneity in the price elasticity of residential natural gas</strong></h4>
-<p>with <a href="http://www.auffhammer.com">Maximilian Auffhammer</a> <br><em>Conditionally accepted</em>, JAERE</p>
-<p>We exploit a spatial discontinuity in two natural gas utilities’ service territory—combined with variation in their block-rate pricing structure and a difference in how prima facie determined wholesale prices are deferentially passed though to consumers—to identify average, seasonal, and income-specific own-price elasticities of residential natural gas demand. We estimate an average elasticity ranging from 0.15–0.19 depending on the measure of price used. We further estimate that this elasticity varies substantially across seasons, income groups, and their interaction. We find no significant difference in consumers’ responses to average versus marginal prices.</p>
-<p>Previous titles: <em>Decomposing “the” elasticity of demand: Empirical and policy insights from 300 million natural gas bills</em>; <em>Natural gas price elasticities and optimal cost recovery under consumer heterogeneity: Evidence from 300 million natural gas bills</em>; <em>Summertime, and pass-through is easier: Chasing down price elasticities for residential natural</em></p>
-<p><a href="http://www.nber.org/papers/w24295">NBER Working Paper No. 24295</a> | <a href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html">EI @ Haas Working Paper 287</a></p>
-<p><a href="Papers/draft-natural-gas.pdf">Draft</a> | <a href="Slides/slides-natural-gas.pdf">slides</a> | <a href="Figures/NaturalGas/studyMaps.pdf">map: service and study area</a> | <a href="Figures/NaturalGas/mapPRISM.pdf">map: PRISM mean temperature</a> | <a href="Figures/NaturalGas/mapPipeline.png">map: US natural gas pipeline</a></p>
-<p>Press coverage: <a href="https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing">The Economist</a></p>
+<div
+id="quantifying-heterogeneity-in-the-price-elasticity-of-residential-natural-gas"
+class="section level4">
+<h4><strong>Quantifying heterogeneity in the price elasticity of
+residential natural gas</strong></h4>
+<p>with <a href="http://www.auffhammer.com">Maximilian Auffhammer</a>
+<br><em>Conditionally accepted</em>, JAERE</p>
+<p>We exploit a spatial discontinuity in two natural gas utilities’
+service territory—combined with variation in their block-rate pricing
+structure and a difference in how prima facie determined wholesale
+prices are deferentially passed though to consumers—to identify average,
+seasonal, and income-specific own-price elasticities of residential
+natural gas demand. We estimate an average elasticity ranging from
+0.15–0.19 depending on the measure of price used. We further estimate
+that this elasticity varies substantially across seasons, income groups,
+and their interaction. We find no significant difference in consumers’
+responses to average versus marginal prices.</p>
+<p>Previous titles: <em>Decomposing “the” elasticity of demand:
+Empirical and policy insights from 300 million natural gas bills</em>;
+<em>Natural gas price elasticities and optimal cost recovery under
+consumer heterogeneity: Evidence from 300 million natural gas
+bills</em>; <em>Summertime, and pass-through is easier: Chasing down
+price elasticities for residential natural</em></p>
+<p><a href="http://www.nber.org/papers/w24295">NBER Working Paper
+No. 24295</a> | <a
+href="https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html">EI
+@ Haas Working Paper 287</a></p>
+<p><a href="Papers/draft-natural-gas.pdf">Draft</a> | <a
+href="Slides/slides-natural-gas.pdf">slides</a> | <a
+href="Figures/NaturalGas/studyMaps.pdf">map: service and study area</a>
+| <a href="Figures/NaturalGas/mapPRISM.pdf">map: PRISM mean
+temperature</a> | <a href="Figures/NaturalGas/mapPipeline.png">map: US
+natural gas pipeline</a></p>
+<p>Press coverage: <a
+href="https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing">The
+Economist</a></p>
 <center>
 <img src="Figures/NaturalGas/studyMaps.png" width="65%" />
 </center>
 <p><br></p>
 </div>
-<div id="whats-missing-in-environmental-self-monitoring-evidence-from-strategic-shutdowns-of-pollution-monitors" class="section level4">
-<h4><strong>What’s <em>missing</em> in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors</strong></h4>
-<p>with Yingfei Mu and <a href="https://www.eric-zou.com">Eric Zou</a> <br><em>Revise and resubmit</em>, RESTAT</p>
-<p>Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents’ monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments’ own pollution forecasts—and test whether monitors’ sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 “Bridgegate” traffic jam. Consistent with strategic shutdowns, this monitor’s sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.</p>
-<p><a href="https://www.nber.org/papers/w28735">NBER Working Paper No. 28735</a></p>
+<div
+id="whats-missing-in-environmental-self-monitoring-evidence-from-strategic-shutdowns-of-pollution-monitors"
+class="section level4">
+<h4><strong>What’s <em>missing</em> in environmental (self-)monitoring:
+Evidence from strategic shutdowns of pollution monitors</strong></h4>
+<p>with Yingfei Mu and <a href="https://www.eric-zou.com">Eric Zou</a>
+<br><em>Revise and resubmit</em>, RESTAT</p>
+<p>Tolerance for gaps in compliance (self-)monitoring data may induce
+strategic timing in local agents’ monitoring activity. This paper builds
+a framework to detect whether local governments skip air pollution
+monitoring when they expect air quality to deteriorate. We infer this
+expectation from air quality alerts—public advisories based on local
+governments’ own pollution forecasts—and test whether monitors’ sampling
+rates fall when these alerts occur. We first use this method to test an
+individual pollution monitor in Jersey City, NJ, suspected of a
+deliberate shutdown during the 2013 “Bridgegate” traffic jam. Consistent
+with strategic shutdowns, this monitor’s sampling rate drops by 33% on
+pollution-alert days. Building on large-scale inference tools, we then
+apply the method to test over 1,300 monitors across the U.S., finding 14
+metro areas with clusters of monitors showing similar strategic
+behavior. We discuss imputation methods and policy responses that may
+help deter future strategic monitoring.</p>
+<p><a href="https://www.nber.org/papers/w28735">NBER Working Paper
+No. 28735</a></p>
 <p><a href="Papers/draft-strategic-monitoring.pdf">Current draft</a></p>
 <center>
 <p><img src="Figures/Intermittent/beta-88101.png" width="49%" /><img src="Figures/Intermittent/interpolate-88101.png" width="49%" /></p>
 </center>
 <p><br></p>
 </div>
-<div id="downwind-and-out-the-strategic-dispersion-of-power-plants-and-their-pollution" class="section level4">
-<h4><strong>Downwind and out: The strategic dispersion of power plants and their pollution</strong></h4>
-<p>with <a href="https://www.johnmmorehouse.com">John Morehouse</a> <br><em>Revise and resubmit</em>, JAERE</p>
-<p>US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution’s extreme mobility: within 6 hours, 50% of coal plants’ emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation.</p>
+<div
+id="downwind-and-out-the-strategic-dispersion-of-power-plants-and-their-pollution"
+class="section level4">
+<h4><strong>Downwind and out: The strategic dispersion of power plants
+and their pollution</strong></h4>
+<p>with <a href="https://www.johnmmorehouse.com">John Morehouse</a>
+<br><em>Revise and resubmit</em>, JAERE</p>
+<p>US environmental policy cedes substantial authority to local
+agencies—creating potentials for polluters/governments to strategically
+export emissions. We identify such strategies among coal-fueled power
+plants. First, we document that electricity generators locate near
+administrative borders. As water influences borders/siting, we develop a
+simple, non-parametric test that shows coal plants located to reduce
+downwind exposure. Natural-gas plants—facing lower regulatory
+pressure—do not exhibit this behavior. Using a state-of-the-art,
+particle-trajectory model, we illustrate coal pollution’s extreme
+mobility: within 6 hours, 50% of coal plants’ emissions leave their
+source states—99% depart source counties. These strategic responses
+emphasize the importance of federal oversight and transport-focused
+regulation.</p>
 <p><a href="Papers/draft-plant-locations.pdf">Draft</a></p>
 <center>
 <p><img src="Figures/PlantLocations/plant-wind-oris-628.png" width="45%" /><img src="Figures/PlantLocations/hysplit-oris-628-january.png" width="45%" /></p>
 </center>
 <p><br></p>
 </div>
-<div id="what-can-we-machine-learn-too-much-of-in-2sls-insights-from-a-bias-decomposition-and-simulation" class="section level4">
-<h4><strong>What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition and simulation</strong></h4>
-<p>with <a href="https://www.connormlennon.com">Connor Lennon</a> and <a href="http://www.glenwaddell.com">Glen Waddell</a></p>
-<p>Machine learning (ML) primarily evolved to solve “prediction problems.” The first stage of two-stage least squares (2SLS) is a prediction problem—suggesting gains from utilizing ML in 2SLS’s first stage. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction <em>and</em> causal-inference settings—and their interaction. Through simulation, we show linear ML methods (<em>e.g.</em>, post-Lasso) work “well,” while nonlinear methods (<em>e.g.</em>, random forests, neural nets) generate substantial bias in second-stage estimates—some <em>exceeding</em> the bias of endogenous OLS.</p>
+<div
+id="what-can-we-machine-learn-too-much-of-in-2sls-insights-from-a-bias-decomposition-and-simulation"
+class="section level4">
+<h4><strong>What can we machine learn (too much of) in 2SLS? Insights
+from a bias decomposition and simulation</strong></h4>
+<p>with <a href="https://www.connormlennon.com">Connor Lennon</a> and <a
+href="http://www.glenwaddell.com">Glen Waddell</a></p>
+<p>Machine learning (ML) primarily evolved to solve “prediction
+problems.” The first stage of two-stage least squares (2SLS) is a
+prediction problem—suggesting gains from utilizing ML in 2SLS’s first
+stage. However, little guidance exists on when ML helps 2SLS—or when it
+hurts. We investigate the implications of inserting ML into 2SLS,
+decomposing the bias into three informative components. Mechanically,
+ML-in-2SLS procedures face issues common to prediction <em>and</em>
+causal-inference settings—and their interaction. Through simulation, we
+show linear ML methods (<em>e.g.</em>, post-Lasso) work “well,” while
+nonlinear methods (<em>e.g.</em>, random forests, neural nets) generate
+substantial bias in second-stage estimates—some <em>exceeding</em> the
+bias of endogenous OLS.</p>
 <p><a href="Papers/draft-mliv.pdf">Draft</a></p>
 <center>
 <p><img src="Figures/MLIV/sim-density-ridge-t2.png" width="49%" /><img src="Figures/MLIV/sim-exclusion-interaction-3-trees.png" width="49%" /></p>
 </center>
 <p><br></p>
 </div>
-<div id="unequal-avoidance-disparities-in-smoke-induced-out-migration" class="section level4">
-<h4><strong>Unequal avoidance: Disparities in smoke-induced out-migration</strong></h4>
+<div id="unequal-avoidance-disparities-in-smoke-induced-out-migration"
+class="section level4">
+<h4><strong>Unequal avoidance: Disparities in smoke-induced
+out-migration</strong></h4>
 <p>with M. Steven Holloway</p>
-<p>Organisms reduce risk exposure through short-term avoidance—<em>flight</em>. However, this flight strategy may not be equally accessible throughout a population. We combine cellphone movements, satellite-based wildfire smoke plumes, and Census data to document substantial heterogeneity/inequity in communities’ tendencies to out-migrate to avoid smoke. Higher-income and whiter populations travel out of their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke—underscoring equity concerns for wildfire damages and climate adaptation.</p>
+<p>Organisms reduce risk exposure through short-term
+avoidance—<em>flight</em>. However, this flight strategy may not be
+equally accessible throughout a population. We combine cellphone
+movements, satellite-based wildfire smoke plumes, and Census data to
+document substantial heterogeneity/inequity in communities’ tendencies
+to out-migrate to avoid smoke. Higher-income and whiter populations
+travel out of their counties at significantly higher rates during smoke
+events. These results suggest that the same populations who face social
+and environmental injustice on many other measures are less able to
+avoid wildfire smoke—underscoring equity concerns for wildfire damages
+and climate adaptation.</p>
 <p><a href="Papers/draft-smoke.pdf">Draft</a></p>
 <center>
-<p><img src="Figures/Smoke/map.png" width="29%" /> <img src="Figures/Smoke/hhinc-q50-subrural0.png" width="35%" /><img src="Figures/Smoke/shrhispanic-q50-subrural0.png" width="35%" /></p>
+<p><img src="Figures/Smoke/map.png" width="29%" />
+<img src="Figures/Smoke/hhinc-q50-subrural0.png" width="35%" /><img src="Figures/Smoke/shrhispanic-q50-subrural0.png" width="35%" /></p>
 </center>
 <p><br></p>
 </div>
-<div id="customer-discrimination-in-the-workplace-evidence-from-online-sales" class="section level4">
-<h4><strong>Customer Discrimination in the Workplace: Evidence from Online Sales</strong></h4>
-<p>with <a href="https://www.erinmunrokelley.com">Erin Kelley</a>, <a href="https://www.gregoryvlane.com">Gregory Lane</a>, and <a href="http://www.matthewpecenco.com">Matthew Pecenco</a></p>
-<p>Many workers are evaluated on their ability to engage with customers. This paper measures the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a novel framework that randomly varies the gender of names presented to customers without changing worker behavior, we find that the assignment of a female-sounding name leads to 50 percent fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. Since worker productivity informs firm hiring, pay, and promotion decisions, these results are important for understanding the persistence of identity-based discrimination in the labor market.</p>
-<p><a href="Papers/draft-gender-bias.pdf">Becker Friedman Institute Working Paper No. 2023-25</a> | <a href="Papers/wp-gender-bias.pdf">World Bank Policy Research Working Paper No. 10228</a> | <a href="Papers/draft-gender-bias.pdf">Draft</a></p>
-<p><a href="https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/">Summary</a></p>
+<div
+id="customer-discrimination-in-the-workplace-evidence-from-online-sales"
+class="section level4">
+<h4><strong>Customer Discrimination in the Workplace: Evidence from
+Online Sales</strong></h4>
+<p>with <a href="https://www.erinmunrokelley.com">Erin Kelley</a>, <a
+href="https://www.gregoryvlane.com">Gregory Lane</a>, and <a
+href="http://www.matthewpecenco.com">Matthew Pecenco</a></p>
+<p>Many workers are evaluated on their ability to engage with customers.
+This paper measures the impact of gender-based customer discrimination
+on the productivity of online sales agents working across Sub-Saharan
+Africa. Using a novel framework that randomly varies the gender of names
+presented to customers without changing worker behavior, we find that
+the assignment of a female-sounding name leads to 50 percent fewer
+purchases by customers. The results appear to be driven by relatively
+lower interest in engaging with female workers. Since worker
+productivity informs firm hiring, pay, and promotion decisions, these
+results are important for understanding the persistence of
+identity-based discrimination in the labor market.</p>
+<p><a href="Papers/draft-gender-bias.pdf">Becker Friedman Institute
+Working Paper No. 2023-25</a> | <a
+href="Papers/wp-gender-bias.pdf">World Bank Policy Research Working
+Paper No. 10228</a> | <a
+href="Papers/draft-gender-bias.pdf">Draft</a></p>
+<p><a
+href="https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/">Summary</a></p>
 <p><br></p>
 </div>
-<div id="when-we-change-the-clock-does-the-clock-change-us" class="section level4">
-<h4><strong>When we change the clock, does the clock change us?</strong></h4>
-<p>with <a href="https://www.patrickbaylis.com">Patrick Baylis</a> and <a href="https://haas.berkeley.edu/faculty/borenstein-severin/">Severin Borenstein</a></p>
-<p>The practice of standardizing the designation of time is a central device for coordinating activities and economic behaviors across individuals. However, there is nearly always a tension between an individual coordinating activities and carrying out those activities at their own preferred time. When time is standardized across large geographic areas, that tension is enhanced, because norms about the “clock times” of activities conflict with local environmental conditions created by natural or “solar” time. We study this tension by examining how geographic and temporal variation in solar time within time zones affects the timing of a range of common behaviors in the United States. Specifically, we estimate the degree to which people shift their online behavior (through Twitter), their commute (using the Census), and there visits to businesses and other establishments (using foot traffic data). We find that, on average, a one hour shift in the differential between solar time and clock time—approximately the width of a time zone—leads to shifting behavior by between 10 and 20 minutes. This shows that while adapting to local environmental factors significantly offsets the differential between solar time and clock time, the behavioral nudge and coordination value of clock time has the larger influence on activity. We also study how the trade-off differs across activities and population demographics.</p>
-<p><a href="https://www.nber.org/papers/w30999">NBER Working Paper No. 30999</a></p>
-<p>Blog: <a href="https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/">Does Anybody Really Care What Time It Is?</a></p>
+<div id="when-we-change-the-clock-does-the-clock-change-us"
+class="section level4">
+<h4><strong>When we change the clock, does the clock change
+us?</strong></h4>
+<p>with <a href="https://www.patrickbaylis.com">Patrick Baylis</a> and
+<a href="https://haas.berkeley.edu/faculty/borenstein-severin/">Severin
+Borenstein</a></p>
+<p>The practice of standardizing the designation of time is a central
+device for coordinating activities and economic behaviors across
+individuals. However, there is nearly always a tension between an
+individual coordinating activities and carrying out those activities at
+their own preferred time. When time is standardized across large
+geographic areas, that tension is enhanced, because norms about the
+“clock times” of activities conflict with local environmental conditions
+created by natural or “solar” time. We study this tension by examining
+how geographic and temporal variation in solar time within time zones
+affects the timing of a range of common behaviors in the United States.
+Specifically, we estimate the degree to which people shift their online
+behavior (through Twitter), their commute (using the Census), and there
+visits to businesses and other establishments (using foot traffic data).
+We find that, on average, a one hour shift in the differential between
+solar time and clock time—approximately the width of a time zone—leads
+to shifting behavior by between 10 and 20 minutes. This shows that while
+adapting to local environmental factors significantly offsets the
+differential between solar time and clock time, the behavioral nudge and
+coordination value of clock time has the larger influence on activity.
+We also study how the trade-off differs across activities and population
+demographics.</p>
+<p><a href="https://www.nber.org/papers/w30999">NBER Working Paper
+No. 30999</a></p>
+<p>Blog: <a
+href="https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/">Does
+Anybody Really Care What Time It Is?</a></p>
 <p><br></p>
 </div>
-<div id="are-our-hopes-too-high-testing-cannabis-legalizations-potential-to-reduce-criminalization" class="section level4">
-<h4><strong>Are our hopes too high? Testing cannabis legalization’s potential to reduce criminalization</strong></h4>
-<p><em>new draft in preparation</em> | slides | <a href="Figures/Dispensaries/mapStateLegalPot.pdf">US legalization map</a> | <a href="Figures/Dispensaries/timeline.pdf">timeline</a> | <a href="Figures/Dispensaries/seriesCrimeNonPot.pdf">time series drug offenses</a></p>
+<div
+id="are-our-hopes-too-high-testing-cannabis-legalizations-potential-to-reduce-criminalization"
+class="section level4">
+<h4><strong>Are our hopes too high? Testing cannabis legalization’s
+potential to reduce criminalization</strong></h4>
+<p><em>new draft in preparation</em> | slides | <a
+href="Figures/Dispensaries/mapStateLegalPot.pdf">US legalization map</a>
+| <a href="Figures/Dispensaries/timeline.pdf">timeline</a> | <a
+href="Figures/Dispensaries/seriesCrimeNonPot.pdf">time series drug
+offenses</a></p>
 <p><br></p>
 </div>
-<div id="do-aerially-applied-pesticides-affect-local-air-quality-empirical-evidence-from-californias-san-joaquin-valley" class="section level4">
-<h4><strong>Do aerially applied pesticides affect local air quality? Empirical evidence from California’s San Joaquin Valley</strong></h4>
-<p>Many policymakers, public-health advocates, and citizen groups question whether current pesticide regulations properly equate the marginal social costs of pesticide applications to their marginal social benefits—with particular concern for negative health effects stemming from pesticide exposure. Additionally, recent research and policies in public health, epidemiology, and economics emphasize how fine particulate matter (PM2.5) concentrations harm humans through increased mortality, morbidity, mental health issues, and a host of socioeconomic outcomes. This paper presents the first empirical evidence that aerially applied pesticides increase local PM2.5 concentrations. To causally estimate this effect, I combine the universe of aerial pesticide applications in the five southern counties of California’s San Joaquin Valley (1.8M reports) with the U.S. EPA’s PM2.5 monitoring network—exploiting (<strong>1</strong>) spatiotemporal variation in aerial pesticide applications and (<strong>2</strong>) variation in local wind patterns. I find significant evidence that (upwind) aerial pesticide applications within 1.5km increase local PM2.5 concentrations. The magnitudes of the point estimates suggest that the top decile of aerial applications may sufficiently increase local PM2.5 to warrant concern for human health.</p>
+<div
+id="do-aerially-applied-pesticides-affect-local-air-quality-empirical-evidence-from-californias-san-joaquin-valley"
+class="section level4">
+<h4><strong>Do aerially applied pesticides affect local air quality?
+Empirical evidence from California’s San Joaquin Valley</strong></h4>
+<p>Many policymakers, public-health advocates, and citizen groups
+question whether current pesticide regulations properly equate the
+marginal social costs of pesticide applications to their marginal social
+benefits—with particular concern for negative health effects stemming
+from pesticide exposure. Additionally, recent research and policies in
+public health, epidemiology, and economics emphasize how fine
+particulate matter (PM2.5) concentrations harm humans through increased
+mortality, morbidity, mental health issues, and a host of socioeconomic
+outcomes. This paper presents the first empirical evidence that aerially
+applied pesticides increase local PM2.5 concentrations. To causally
+estimate this effect, I combine the universe of aerial pesticide
+applications in the five southern counties of California’s San Joaquin
+Valley (1.8M reports) with the U.S. EPA’s PM2.5 monitoring
+network—exploiting (<strong>1</strong>) spatiotemporal variation in
+aerial pesticide applications and (<strong>2</strong>) variation in
+local wind patterns. I find significant evidence that (upwind) aerial
+pesticide applications within 1.5km increase local PM2.5 concentrations.
+The magnitudes of the point estimates suggest that the top decile of
+aerial applications may sufficiently increase local PM2.5 to warrant
+concern for human health.</p>
 <p><em>new draft in preparation</em></p>
 <p><br></p>
 <font color="#18BC9C">
@@ -563,26 +784,42 @@ In Progress
 <p></font></p>
 <hr />
 </div>
-<div id="declining-power-plant-emissions-co-benefits-and-regulatory-rebound" class="section level4">
-<h4><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong></h4>
-<p>with <a href="https://www.meredithfowlie.com">Meredith Fowlie</a> and Catherine Wright</p>
+<div
+id="declining-power-plant-emissions-co-benefits-and-regulatory-rebound"
+class="section level4">
+<h4><strong>Declining power-plant emissions, co-benefits, and regulatory
+rebound</strong></h4>
+<p>with <a href="https://www.meredithfowlie.com">Meredith Fowlie</a> and
+Catherine Wright</p>
 <p><br></p>
 </div>
-<div id="perinatal-health-effects-of-herbicides-glyphosate-roundup-and-the-rollout-of-gm-crops" class="section level4">
-<h4><strong>Perinatal health effects of herbicides: Glyphosate, Roundup, and the rollout of GM crops</strong></h4>
-<p>with <a href="https://www.emmettsaulnier.com/">Emmett Saulnier</a></p>
+<div
+id="perinatal-health-effects-of-herbicides-glyphosate-roundup-and-the-rollout-of-gm-crops"
+class="section level4">
+<h4><strong>Perinatal health effects of herbicides: Glyphosate, Roundup,
+and the rollout of GM crops</strong></h4>
+<p>with <a href="https://www.emmettsaulnier.com/">Emmett
+Saulnier</a></p>
 <p><br></p>
 </div>
-<div id="interactions-between-measurement-error-and-policy" class="section level4">
-<h4><strong>Interactions between measurement error and policy</strong></h4>
+<div id="interactions-between-measurement-error-and-policy"
+class="section level4">
+<h4><strong>Interactions between measurement error and
+policy</strong></h4>
 <p><br></p>
 </div>
-<div id="mismeasurement-in-exposure-and-access-insights-from-cellphone-data" class="section level4">
-<h4><strong>Mismeasurement in exposure and access: Insights from cellphone data</strong></h4>
+<div
+id="mismeasurement-in-exposure-and-access-insights-from-cellphone-data"
+class="section level4">
+<h4><strong>Mismeasurement in exposure and access: Insights from
+cellphone data</strong></h4>
 <p><br></p>
 </div>
-<div id="how-salient-are-environmental-risks-the-short--and-long-run-effects-of-lead-exposure-in-piped-water" class="section level4">
-<h4><strong>How salient are environmental risks? The short- and long-run effects of lead exposure in piped water</strong></h4>
+<div
+id="how-salient-are-environmental-risks-the-short--and-long-run-effects-of-lead-exposure-in-piped-water"
+class="section level4">
+<h4><strong>How salient are environmental risks? The short- and long-run
+effects of lead exposure in piped water</strong></h4>
 <p><br></p>
 </div>
 </div>
@@ -596,10 +833,29 @@ Books
 <p></font></p>
 <hr />
 <div id="data-science-for-public-policy" class="section level4">
-<h4><strong><a href="https://www.springer.com/gp/book/9783030713515">Data Science for Public Policy</a></strong></h4>
-<p>with <a href="http://jeffchen.org">Jeffrey Chen</a> and <a href="https://garycornwall.weebly.com">Gary Cornwall</a></p>
-<p>This textbook presents the essential tools and core concepts of data science to public officials, policy analysts, and economists among others in order to further their application in the public sector. An expansion of the quantitative economics frameworks presented in policy and business schools, this book emphasizes the process of asking relevant questions to inform public policy. Its techniques and approaches emphasize data-driven practices, beginning with the basic programming paradigms that occupy the majority of an analyst’s time and advancing to the practical applications of statistical learning and machine learning. The text considers two divergent, competing perspectives to support its applications, incorporating techniques from both causal inference and prediction. Additionally, the book includes open-sourced data as well as live code, written in R and presented in notebook form, which readers can use and modify to practice working with data.</p>
-<p>Book links: <a href="https://www.springer.com/gp/book/9783030713515">Springer</a> | <a href="https://www.amazon.com/dp/B09F597WXP/">Amazon</a></p>
+<h4><strong><a
+href="https://www.springer.com/gp/book/9783030713515">Data Science for
+Public Policy</a></strong></h4>
+<p>with <a href="http://jeffchen.org">Jeffrey Chen</a> and <a
+href="https://garycornwall.weebly.com">Gary Cornwall</a></p>
+<p>This textbook presents the essential tools and core concepts of data
+science to public officials, policy analysts, and economists among
+others in order to further their application in the public sector. An
+expansion of the quantitative economics frameworks presented in policy
+and business schools, this book emphasizes the process of asking
+relevant questions to inform public policy. Its techniques and
+approaches emphasize data-driven practices, beginning with the basic
+programming paradigms that occupy the majority of an analyst’s time and
+advancing to the practical applications of statistical learning and
+machine learning. The text considers two divergent, competing
+perspectives to support its applications, incorporating techniques from
+both causal inference and prediction. Additionally, the book includes
+open-sourced data as well as live code, written in R and presented in
+notebook form, which readers can use and modify to practice working with
+data.</p>
+<p>Book links: <a
+href="https://www.springer.com/gp/book/9783030713515">Springer</a> | <a
+href="https://www.amazon.com/dp/B09F597WXP/">Amazon</a></p>
 <p><br></p>
 <p><img src="Figures/book-cover.png" width="65%" style="display: block; margin: auto;" /></p>
 <p><br></p>
@@ -608,182 +864,292 @@ Books
 <div id="presentations" class="section level2">
 <h2>Presentations</h2>
 <p><br></p>
-<p><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong> <br> University of Nebraska–Lincoln, November 2022 <br><br></p>
-<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> Annual Conference of the European Association of Environmental and Resource Economists, June 2022 <br><br></p>
-<p><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong> <br> Oregon State University, May 2022 <br><br></p>
-<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> National Graduate Institute for Policy Studies (GRIPS), April 2022 <br><br></p>
-<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong> <br> UC Berkeley ARE, April 2022 <br><br></p>
-<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> CU Environmental &amp; Resource Economics Workshop, October 2021 <br><br></p>
-<p><strong>Pollution co-benefits and regulatory rebound</strong> <br> RFF/EPA, October 2021 <br><br></p>
-<p><strong>What’s missing in environmental (self-)monitoring? Evidence from strategic shutdowns of pollution monitors</strong> <br> AERE Remote Conference, June 2021 <br><br></p>
-<p><strong>Downwind and out: The Strategic dispersion of power plants and their pollution</strong> <br> AERE Remote Conference, June 2021 <br><br></p>
-<p><strong>A retrospective analysis of indirect air-quality benefits from power-sector emissions reductions</strong> <br> RFF/EPA (Online), December 2020 <br><br></p>
-<p><strong>Estimating and decomposing ‘the’ elasticity of demand: Empirical and policy insights from 600 million natural gas bills</strong> <br> Duke Energy Data Analytics Symposium (Online), December 2020 <br><br></p>
-<p><strong>Mismeasurement in exposure and access: Insights from cellphone data</strong> <br> AERE Remote Conference, June 2020 <br><br></p>
-<p><strong>Declining power-plant emissions, co-benefits, and regulatory rebound</strong> <br> ASSA (San Diego), January 2020 <br><br></p>
-<p><strong>Mismeasurement in exposure and access: Insights from cellphone data</strong> <br> Western Economic Association Annual Conference, June 2019 <br><br></p>
-<p><strong>The economic impact of critical-habitat designation: Evidence from vacant-land transactions</strong> <br> The Occasional Workshop (UCSB), November 2018 <br><br></p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> World Congress of Environmental Economics (WCERE), June 2018 <br><br></p>
-<p><strong>Is “Michelle” less productive than “Michael”? A field experiment on consumer-based gender discrimination in the marketplace</strong> <br> UC Berkeley, Computational Text Analysis Working Group, April 2018 <br><br></p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> University of Oregon, Economics, February 2018 <br><br></p>
-<p><strong>Is “Michelle” less productive than “Michael”? A field experiment on consumer-based gender discrimination in the marketplace</strong> <br> IGC-PEDL Workshop at Oxford, December 2017 <br><br></p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> Heartland Environmental and Resource Economics Workshop, September 2017 <br><br></p>
-<p><strong>Is “Michelle” less productive than “Michael”? A field experiment on consumer-based gender discrimination in the marketplace</strong> <br> Berkeley Development Economics Lunch, September 2017 <br><br></p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> Camp Resources, August 2017 <br><br></p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> AAEA Annual Meeting, August 2017 <br><br></p>
-<p><strong>Do marijuana stores increase or reduce neighborhood crime? Evidence from Denver, Colorado</strong> <br> UC Berkeley, Summer Research Seminar, July 2017 <br><br></p>
-<p><strong>Natural gas elasticities and optimal cost recovery under heterogeneity: Evidence from 300 million natural gas bills in California</strong> <br> AERE Annual Summer Conference, June 2017 <br><br></p>
-<p><strong>Summertime, and pass-through is easier: Chasing down price elasticities for residential natural gas demand in 275 million bills</strong> <br> 22nd Annual POWER Conference on Energy Research and Policy, March 2017 <br><br></p>
-<p><strong>Natural gas elasticities, seasonal heterogeneity, and consumer behavior: Evidence from 300M+ bills</strong> <br> UC Berkeley, Environmental and Resource Economics Seminar, November 2016 <br><br></p>
-<p><strong>(Mile-) High Quandaries: Evidence from Denver that Marijuana Legalization May Increase Drug Arrests</strong> <br> UC Berkeley, Environmental and Resource Economics Seminar, April 2015 <br><br></p>
-<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer Along the 41st Parallel in Nebraska (and Several Questions about Model Complexity)</strong> <br> University of Nebraska-Lincoln, Statistics Departmental Seminar, March 2013 <br><br></p>
-<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S. High Plains Aquifer</strong> <br> International Conference of Agricultural Economists, poster, August 2012 <br><br></p>
-<p><strong>Reproductive Ecology of Western Painted Turtles (Chrysemys picta)</strong> <br> Midwest Fish and Wildlife Conference, poster, December 2006 <br><br></p>
+<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong>
+<br> EPIC Junior Workshop (University of Chicago), April 2023
+<br><br></p>
+<p><strong>Declining power-plant emissions, co-benefits, and regulatory
+rebound</strong> <br> University of Nebraska–Lincoln, November 2022
+<br><br></p>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence
+from strategic shutdowns of pollution monitors</strong> <br> Annual
+Conference of the European Association of Environmental and Resource
+Economists, June 2022 <br><br></p>
+<p><strong>Declining power-plant emissions, co-benefits, and regulatory
+rebound</strong> <br> Oregon State University, May 2022 <br><br></p>
+<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong>
+<br> National Graduate Institute for Policy Studies (GRIPS), April 2022
+<br><br></p>
+<p><strong>Power Plants, Air Pollution, and Regulatory Rebound</strong>
+<br> UC Berkeley ARE, April 2022 <br><br></p>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence
+from strategic shutdowns of pollution monitors</strong> <br> CU
+Environmental &amp; Resource Economics Workshop, October 2021
+<br><br></p>
+<p><strong>Pollution co-benefits and regulatory rebound</strong> <br>
+RFF/EPA, October 2021 <br><br></p>
+<p><strong>What’s missing in environmental (self-)monitoring? Evidence
+from strategic shutdowns of pollution monitors</strong> <br> AERE Remote
+Conference, June 2021 <br><br></p>
+<p><strong>Downwind and out: The Strategic dispersion of power plants
+and their pollution</strong> <br> AERE Remote Conference, June 2021
+<br><br></p>
+<p><strong>A retrospective analysis of indirect air-quality benefits
+from power-sector emissions reductions</strong> <br> RFF/EPA (Online),
+December 2020 <br><br></p>
+<p><strong>Estimating and decomposing ‘the’ elasticity of demand:
+Empirical and policy insights from 600 million natural gas
+bills</strong> <br> Duke Energy Data Analytics Symposium (Online),
+December 2020 <br><br></p>
+<p><strong>Mismeasurement in exposure and access: Insights from
+cellphone data</strong> <br> AERE Remote Conference, June 2020
+<br><br></p>
+<p><strong>Declining power-plant emissions, co-benefits, and regulatory
+rebound</strong> <br> ASSA (San Diego), January 2020 <br><br></p>
+<p><strong>Mismeasurement in exposure and access: Insights from
+cellphone data</strong> <br> Western Economic Association Annual
+Conference, June 2019 <br><br></p>
+<p><strong>The economic impact of critical-habitat designation: Evidence
+from vacant-land transactions</strong> <br> The Occasional Workshop
+(UCSB), November 2018 <br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> World Congress of Environmental Economics
+(WCERE), June 2018 <br><br></p>
+<p><strong>Is “Michelle” less productive than “Michael”? A field
+experiment on consumer-based gender discrimination in the
+marketplace</strong> <br> UC Berkeley, Computational Text Analysis
+Working Group, April 2018 <br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> University of Oregon, Economics, February 2018
+<br><br></p>
+<p><strong>Is “Michelle” less productive than “Michael”? A field
+experiment on consumer-based gender discrimination in the
+marketplace</strong> <br> IGC-PEDL Workshop at Oxford, December 2017
+<br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> Heartland Environmental and Resource Economics
+Workshop, September 2017 <br><br></p>
+<p><strong>Is “Michelle” less productive than “Michael”? A field
+experiment on consumer-based gender discrimination in the
+marketplace</strong> <br> Berkeley Development Economics Lunch,
+September 2017 <br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> Camp Resources, August 2017 <br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> AAEA Annual Meeting, August 2017 <br><br></p>
+<p><strong>Do marijuana stores increase or reduce neighborhood crime?
+Evidence from Denver, Colorado</strong> <br> UC Berkeley, Summer
+Research Seminar, July 2017 <br><br></p>
+<p><strong>Natural gas elasticities and optimal cost recovery under
+heterogeneity: Evidence from 300 million natural gas bills in
+California</strong> <br> AERE Annual Summer Conference, June 2017
+<br><br></p>
+<p><strong>Summertime, and pass-through is easier: Chasing down price
+elasticities for residential natural gas demand in 275 million
+bills</strong> <br> 22nd Annual POWER Conference on Energy Research and
+Policy, March 2017 <br><br></p>
+<p><strong>Natural gas elasticities, seasonal heterogeneity, and
+consumer behavior: Evidence from 300M+ bills</strong> <br> UC Berkeley,
+Environmental and Resource Economics Seminar, November 2016 <br><br></p>
+<p><strong>(Mile-) High Quandaries: Evidence from Denver that Marijuana
+Legalization May Increase Drug Arrests</strong> <br> UC Berkeley,
+Environmental and Resource Economics Seminar, April 2015 <br><br></p>
+<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S.
+High Plains Aquifer Along the 41st Parallel in Nebraska (and Several
+Questions about Model Complexity)</strong> <br> University of
+Nebraska-Lincoln, Statistics Departmental Seminar, March 2013
+<br><br></p>
+<p><strong>Irrigation and Climatic Effects on Water Levels in the U.S.
+High Plains Aquifer</strong> <br> International Conference of
+Agricultural Economists, poster, August 2012 <br><br></p>
+<p><strong>Reproductive Ecology of Western Painted Turtles (Chrysemys
+picta)</strong> <br> Midwest Fish and Wildlife Conference, poster,
+December 2006 <br><br></p>
 </div>
 <div id="r-scripts" class="section level2">
 <h2>R scripts</h2>
-<p>Run R code in terminal without entering R or saving a script. (The <code>-e</code> option evaluates the given R expression.)</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ex">Rscript</span> -e <span class="st">&#39;set.seed(12345); x &lt;- rnorm(1e3); mean(x)&#39;</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="ex">Rscript</span> -e <span class="st">&#39;rmarkdown::render_site(&quot;research.Rmd&quot;)&#39;</span></a></code></pre></div>
+<p>Run R code in terminal without entering R or saving a script. (The
+<code>-e</code> option evaluates the given R expression.)</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&#39;set.seed(12345); x &lt;- rnorm(1e3); mean(x)&#39;</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&#39;rmarkdown::render_site(&quot;research.Rmd&quot;)&#39;</span></span></code></pre></div>
 <p>Create a nice timeline (shown below) in R’s <code>ggplot2</code>.</p>
 <pre><code>## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-## ℹ Please use `linewidth` instead.</code></pre>
+## ℹ Please use `linewidth` instead.
+## This warning is displayed once every 8 hours.
+## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was generated.</code></pre>
 <p><img src="research_files/figure-html/timeline-1.png" width="1312.5" /></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="co"># Setup ----</span></a>
-<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="co"># Packages</span></a>
-<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="kw">library</span>(ggplot2)</a>
-<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="co"># Define colors (from https://www.materialpalette.com)</span></a>
-<a class="sourceLine" id="cb3-5" data-line-number="5">dark_primary_color   &lt;-<span class="st"> &quot;#C2185B&quot;</span></a>
-<a class="sourceLine" id="cb3-6" data-line-number="6">primary_color        &lt;-<span class="st"> &quot;#E91E63&quot;</span></a>
-<a class="sourceLine" id="cb3-7" data-line-number="7">light_primary_color  &lt;-<span class="st"> &quot;#F8BBD0&quot;</span></a>
-<a class="sourceLine" id="cb3-8" data-line-number="8">text_primary_color   &lt;-<span class="st"> &quot;#FFFFFF&quot;</span></a>
-<a class="sourceLine" id="cb3-9" data-line-number="9">accent_color         &lt;-<span class="st"> &quot;#9E9E9E&quot;</span></a>
-<a class="sourceLine" id="cb3-10" data-line-number="10">primary_text_color   &lt;-<span class="st"> &quot;#212121&quot;</span></a>
-<a class="sourceLine" id="cb3-11" data-line-number="11">secondary_text_color &lt;-<span class="st"> &quot;#757575&quot;</span></a>
-<a class="sourceLine" id="cb3-12" data-line-number="12">divider_color        &lt;-<span class="st"> &quot;#BDBDBD&quot;</span></a>
-<a class="sourceLine" id="cb3-13" data-line-number="13"></a>
-<a class="sourceLine" id="cb3-14" data-line-number="14"><span class="co"># Plot the timeline ----</span></a>
-<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="kw">ggplot</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-16" data-line-number="16"><span class="st">  </span><span class="co"># Two rectangles</span></a>
-<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2009</span>, <span class="dt">xmax =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),</a>
-<a class="sourceLine" id="cb3-18" data-line-number="18">    <span class="dt">fill =</span> divider_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xmax =</span> <span class="dv">2014</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),</a>
-<a class="sourceLine" id="cb3-20" data-line-number="20">    <span class="dt">fill =</span> light_primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-21" data-line-number="21"><span class="st">  </span><span class="kw">geom_rect</span>(<span class="kw">aes</span>(<span class="dt">xmin =</span> <span class="dv">2014</span>, <span class="dt">xmax =</span> <span class="dv">2017</span>, <span class="dt">ymin =</span> <span class="dv">0</span>, <span class="dt">ymax =</span> <span class="fl">0.35</span>),</a>
-<a class="sourceLine" id="cb3-22" data-line-number="22">    <span class="dt">fill =</span> primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-23" data-line-number="23"><span class="st">  </span><span class="co"># Label rectangles (periods)</span></a>
-<a class="sourceLine" id="cb3-24" data-line-number="24"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2010</span>, <span class="dt">y =</span> <span class="fl">-0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period A&quot;</span>,</a>
-<a class="sourceLine" id="cb3-25" data-line-number="25">    <span class="dt">color =</span> divider_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-26" data-line-number="26"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="fl">2015.5</span>, <span class="dt">y =</span> <span class="fl">-0.15</span>, <span class="dt">label =</span> <span class="st">&quot;Period B&quot;</span>,</a>
-<a class="sourceLine" id="cb3-27" data-line-number="27">    <span class="dt">color =</span> primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-28" data-line-number="28"><span class="st">  </span><span class="co"># Add ellipses</span></a>
-<a class="sourceLine" id="cb3-29" data-line-number="29"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, <span class="fl">-0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,</a>
-<a class="sourceLine" id="cb3-30" data-line-number="30">    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> divider_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-31" data-line-number="31"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="dt">y =</span> <span class="fl">0.175</span>,</a>
-<a class="sourceLine" id="cb3-32" data-line-number="32">    <span class="dt">size =</span> <span class="fl">1.5</span>, <span class="dt">color =</span> primary_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-33" data-line-number="33"><span class="st">  </span><span class="co"># Time axis</span></a>
-<a class="sourceLine" id="cb3-34" data-line-number="34"><span class="st">  </span><span class="kw">geom_hline</span>(<span class="dt">yintercept =</span> <span class="dv">0</span>, <span class="dt">size =</span> <span class="dv">1</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-35" data-line-number="35"><span class="st">  </span><span class="co"># Label time</span></a>
-<a class="sourceLine" id="cb3-36" data-line-number="36"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2009</span><span class="op">:</span><span class="dv">2017</span>, <span class="dt">y =</span> <span class="fl">-0.05</span>, <span class="dt">label =</span> <span class="dv">2009</span><span class="op">:</span><span class="dv">2017</span>,</a>
-<a class="sourceLine" id="cb3-37" data-line-number="37">    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> secondary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-38" data-line-number="38"><span class="st">  </span><span class="co"># Points for events</span></a>
-<a class="sourceLine" id="cb3-39" data-line-number="39"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dv">2014</span>), <span class="dt">y =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb3-40" data-line-number="40">    <span class="dt">size =</span> <span class="dv">4</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-41" data-line-number="41"><span class="st">  </span><span class="co"># Label events:</span></a>
-<a class="sourceLine" id="cb3-42" data-line-number="42"><span class="st">  </span><span class="co"># First event</span></a>
-<a class="sourceLine" id="cb3-43" data-line-number="43"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb3-44" data-line-number="44">    <span class="dt">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-45" data-line-number="45"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>,</a>
-<a class="sourceLine" id="cb3-46" data-line-number="46">    <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-47" data-line-number="47"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2011</span><span class="op">+</span><span class="dv">4</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</a>
-<a class="sourceLine" id="cb3-48" data-line-number="48">    <span class="dt">y =</span> <span class="fl">0.9</span>, <span class="dt">yend =</span> <span class="fl">0.9</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-49" data-line-number="49"><span class="st">  </span><span class="co"># Intermediate event</span></a>
-<a class="sourceLine" id="cb3-50" data-line-number="50"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb3-51" data-line-number="51">    <span class="dt">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-52" data-line-number="52"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>,</a>
-<a class="sourceLine" id="cb3-53" data-line-number="53">      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-54" data-line-number="54"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span>, <span class="dt">xend =</span> <span class="dv">2012</span><span class="op">+</span><span class="dv">7</span><span class="op">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</a>
-<a class="sourceLine" id="cb3-55" data-line-number="55">      <span class="dt">y =</span> <span class="fl">0.7</span>, <span class="dt">yend =</span> <span class="fl">0.7</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-56" data-line-number="56"><span class="st">  </span><span class="co"># Period B begins</span></a>
-<a class="sourceLine" id="cb3-57" data-line-number="57"><span class="st">  </span><span class="kw">annotate</span>(<span class="dt">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="dt">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">hjust =</span> <span class="dv">0</span>,</a>
-<a class="sourceLine" id="cb3-58" data-line-number="58">    <span class="dt">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-59" data-line-number="59"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span>,</a>
-<a class="sourceLine" id="cb3-60" data-line-number="60">      <span class="dt">y =</span> <span class="dv">0</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-61" data-line-number="61"><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> <span class="dv">2014</span>, <span class="dt">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,</a>
-<a class="sourceLine" id="cb3-62" data-line-number="62">      <span class="dt">y =</span> <span class="fl">0.5</span>, <span class="dt">yend =</span> <span class="fl">0.5</span>), <span class="dt">color =</span> primary_text_color) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-63" data-line-number="63"><span class="st">  </span><span class="co"># Theme stuff</span></a>
-<a class="sourceLine" id="cb3-64" data-line-number="64"><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-65" data-line-number="65"><span class="st">  </span><span class="kw">ylim</span>(<span class="kw">c</span>(<span class="op">-</span><span class="fl">0.15</span>,<span class="dv">1</span>)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-66" data-line-number="66"><span class="st">  </span><span class="kw">theme</span>(<span class="dt">axis.text =</span> <span class="kw">element_blank</span>(), <span class="dt">axis.title =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb3-67" data-line-number="67">    <span class="dt">axis.ticks =</span> <span class="kw">element_blank</span>(), <span class="dt">panel.grid =</span> <span class="kw">element_blank</span>(),</a>
-<a class="sourceLine" id="cb3-68" data-line-number="68">    <span class="dt">panel.border =</span> <span class="kw">element_blank</span>())</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># Setup ----</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="co"># Packages</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co"># Define colors (from https://www.materialpalette.com)</span></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a>dark_primary_color   <span class="ot">&lt;-</span> <span class="st">&quot;#C2185B&quot;</span></span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a>primary_color        <span class="ot">&lt;-</span> <span class="st">&quot;#E91E63&quot;</span></span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>light_primary_color  <span class="ot">&lt;-</span> <span class="st">&quot;#F8BBD0&quot;</span></span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a>text_primary_color   <span class="ot">&lt;-</span> <span class="st">&quot;#FFFFFF&quot;</span></span>
+<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a>accent_color         <span class="ot">&lt;-</span> <span class="st">&quot;#9E9E9E&quot;</span></span>
+<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a>primary_text_color   <span class="ot">&lt;-</span> <span class="st">&quot;#212121&quot;</span></span>
+<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a>secondary_text_color <span class="ot">&lt;-</span> <span class="st">&quot;#757575&quot;</span></span>
+<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a>divider_color        <span class="ot">&lt;-</span> <span class="st">&quot;#BDBDBD&quot;</span></span>
+<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a><span class="co"># Plot the timeline ----</span></span>
+<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a>  <span class="co"># Two rectangles</span></span>
+<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2009</span>, <span class="at">xmax =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
+<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a>    <span class="at">fill =</span> divider_color) <span class="sc">+</span></span>
+<span id="cb3-19"><a href="#cb3-19" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xmax =</span> <span class="dv">2014</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
+<span id="cb3-20"><a href="#cb3-20" tabindex="-1"></a>    <span class="at">fill =</span> light_primary_color) <span class="sc">+</span></span>
+<span id="cb3-21"><a href="#cb3-21" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2014</span>, <span class="at">xmax =</span> <span class="dv">2017</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
+<span id="cb3-22"><a href="#cb3-22" tabindex="-1"></a>    <span class="at">fill =</span> primary_color) <span class="sc">+</span></span>
+<span id="cb3-23"><a href="#cb3-23" tabindex="-1"></a>  <span class="co"># Label rectangles (periods)</span></span>
+<span id="cb3-24"><a href="#cb3-24" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2010</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.15</span>, <span class="at">label =</span> <span class="st">&quot;Period A&quot;</span>,</span>
+<span id="cb3-25"><a href="#cb3-25" tabindex="-1"></a>    <span class="at">color =</span> divider_color) <span class="sc">+</span></span>
+<span id="cb3-26"><a href="#cb3-26" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="fl">2015.5</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.15</span>, <span class="at">label =</span> <span class="st">&quot;Period B&quot;</span>,</span>
+<span id="cb3-27"><a href="#cb3-27" tabindex="-1"></a>    <span class="at">color =</span> primary_color) <span class="sc">+</span></span>
+<span id="cb3-28"><a href="#cb3-28" tabindex="-1"></a>  <span class="co"># Add ellipses</span></span>
+<span id="cb3-29"><a href="#cb3-29" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, <span class="sc">-</span><span class="fl">0.15</span>), <span class="at">y =</span> <span class="fl">0.175</span>,</span>
+<span id="cb3-30"><a href="#cb3-30" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">color =</span> divider_color) <span class="sc">+</span></span>
+<span id="cb3-31"><a href="#cb3-31" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="at">y =</span> <span class="fl">0.175</span>,</span>
+<span id="cb3-32"><a href="#cb3-32" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">color =</span> primary_color) <span class="sc">+</span></span>
+<span id="cb3-33"><a href="#cb3-33" tabindex="-1"></a>  <span class="co"># Time axis</span></span>
+<span id="cb3-34"><a href="#cb3-34" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="dv">1</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-35"><a href="#cb3-35" tabindex="-1"></a>  <span class="co"># Label time</span></span>
+<span id="cb3-36"><a href="#cb3-36" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2009</span><span class="sc">:</span><span class="dv">2017</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.05</span>, <span class="at">label =</span> <span class="dv">2009</span><span class="sc">:</span><span class="dv">2017</span>,</span>
+<span id="cb3-37"><a href="#cb3-37" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span>, <span class="at">color =</span> secondary_text_color) <span class="sc">+</span></span>
+<span id="cb3-38"><a href="#cb3-38" tabindex="-1"></a>  <span class="co"># Points for events</span></span>
+<span id="cb3-39"><a href="#cb3-39" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="dv">2014</span>), <span class="at">y =</span> <span class="dv">0</span>,</span>
+<span id="cb3-40"><a href="#cb3-40" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-41"><a href="#cb3-41" tabindex="-1"></a>  <span class="co"># Label events:</span></span>
+<span id="cb3-42"><a href="#cb3-42" tabindex="-1"></a>  <span class="co"># First event</span></span>
+<span id="cb3-43"><a href="#cb3-43" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.9</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
+<span id="cb3-44"><a href="#cb3-44" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-45"><a href="#cb3-45" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>,</span>
+<span id="cb3-46"><a href="#cb3-46" tabindex="-1"></a>    <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.9</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-47"><a href="#cb3-47" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</span>
+<span id="cb3-48"><a href="#cb3-48" tabindex="-1"></a>    <span class="at">y =</span> <span class="fl">0.9</span>, <span class="at">yend =</span> <span class="fl">0.9</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-49"><a href="#cb3-49" tabindex="-1"></a>  <span class="co"># Intermediate event</span></span>
+<span id="cb3-50"><a href="#cb3-50" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.7</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
+<span id="cb3-51"><a href="#cb3-51" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-52"><a href="#cb3-52" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>,</span>
+<span id="cb3-53"><a href="#cb3-53" tabindex="-1"></a>      <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.7</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-54"><a href="#cb3-54" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</span>
+<span id="cb3-55"><a href="#cb3-55" tabindex="-1"></a>      <span class="at">y =</span> <span class="fl">0.7</span>, <span class="at">yend =</span> <span class="fl">0.7</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-56"><a href="#cb3-56" tabindex="-1"></a>  <span class="co"># Period B begins</span></span>
+<span id="cb3-57"><a href="#cb3-57" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.5</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
+<span id="cb3-58"><a href="#cb3-58" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-59"><a href="#cb3-59" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2014</span>, <span class="at">xend =</span> <span class="dv">2014</span>,</span>
+<span id="cb3-60"><a href="#cb3-60" tabindex="-1"></a>      <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.5</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-61"><a href="#cb3-61" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2014</span>, <span class="at">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,</span>
+<span id="cb3-62"><a href="#cb3-62" tabindex="-1"></a>      <span class="at">y =</span> <span class="fl">0.5</span>, <span class="at">yend =</span> <span class="fl">0.5</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb3-63"><a href="#cb3-63" tabindex="-1"></a>  <span class="co"># Theme stuff</span></span>
+<span id="cb3-64"><a href="#cb3-64" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
+<span id="cb3-65"><a href="#cb3-65" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.15</span>,<span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb3-66"><a href="#cb3-66" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text =</span> <span class="fu">element_blank</span>(), <span class="at">axis.title =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb3-67"><a href="#cb3-67" tabindex="-1"></a>    <span class="at">axis.ticks =</span> <span class="fu">element_blank</span>(), <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb3-68"><a href="#cb3-68" tabindex="-1"></a>    <span class="at">panel.border =</span> <span class="fu">element_blank</span>())</span></code></pre></div>
 </div>
 <div id="latex" class="section level2">
 <h2>LaTeX</h2>
-<p>My LaTeX (beamer) template: <a href="MiscFiles/beamerTemplate.tex">.tex file</a> | <a href="MiscFiles/beamerTemplate.pdf">example PDF</a></p>
-<div class="figure">
-<img src="MiscFiles/beamerTemplate.gif" alt="Example of my slide template." />
-<p class="caption">Example of my slide template.</p>
+<p>My LaTeX (beamer) template: <a
+href="MiscFiles/beamerTemplate.tex">.tex file</a> | <a
+href="MiscFiles/beamerTemplate.pdf">example PDF</a></p>
+<div class="float">
+<img src="MiscFiles/beamerTemplate.gif"
+alt="Example of my slide template." />
+<div class="figcaption">Example of my slide template.</div>
 </div>
 </div>
 <div id="bash" class="section level2">
 <h2>Bash</h2>
 <div id="list-files-recursively-by-size" class="section level3">
 <h3>List files (recursively) by size</h3>
-<p>Lists all <strong>files</strong> in a directory (here <code>.</code>), sorts from largest to smallest, and displays top <code>20</code> (largest).</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="fu">find</span> . -type f -exec du -ah <span class="dt">{}</span> + <span class="kw">|</span> <span class="fu">sort</span> -rh <span class="kw">|</span> <span class="fu">head</span> -20</a></code></pre></div>
-<p>Hat tip: <a href="https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only">StackExchange</a></p>
+<p>Lists all <strong>files</strong> in a directory (here
+<code>.</code>), sorts from largest to smallest, and displays top
+<code>20</code> (largest).</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">find</span> . <span class="at">-type</span> f <span class="at">-exec</span> du <span class="at">-ah</span> {} + <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-rh</span> <span class="kw">|</span> <span class="fu">head</span> <span class="at">-20</span></span></code></pre></div>
+<p>Hat tip: <a
+href="https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only">StackExchange</a></p>
 </div>
 <div id="pretty-csv-scrolling" class="section level3">
 <h3>Pretty CSV scrolling</h3>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> -t -s, <span class="kw">|</span> <span class="fu">less</span> -S</a></code></pre></div>
-<p>Hat tip (and more): <a href="http://stefaanlippens.net/pretty-csv.html">Stefaan Lippens</a>.</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> <span class="at">-t</span> <span class="at">-s,</span> <span class="kw">|</span> <span class="fu">less</span> <span class="at">-S</span></span></code></pre></div>
+<p>Hat tip (and more): <a
+href="http://stefaanlippens.net/pretty-csv.html">Stefaan
+Lippens</a>.</p>
 <p>For a bit more <em>raw</em> view:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="ex">column</span> -s, -t <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> -#2 -N -S</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="ex">column</span> <span class="at">-s,</span> <span class="at">-t</span> <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> <span class="at">-#2</span> <span class="at">-N</span> <span class="at">-S</span></span></code></pre></div>
 </div>
 <div id="git" class="section level3">
 <h3>Git</h3>
 <p>Remove a file (<code>your.file</code>) from Git’s cache</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="fu">git</span> rm --cached your.file</a></code></pre></div>
-<p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and check the <code>.gitattributes</code> file for success.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span></a>
-<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="fu">nano</span> .gitattributes</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">git</span> rm <span class="at">--cached</span> your.file</span></code></pre></div>
+<p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a
+href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and
+check the <code>.gitattributes</code> file for success.</p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span></span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a><span class="fu">nano</span> .gitattributes</span></code></pre></div>
 <p>Check which files LFS currently tracks.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="fu">git</span> lfs ls-files</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">git</span> lfs ls-files</span></code></pre></div>
 </div>
 <div id="pandoc" class="section level3">
 <h3>Pandoc</h3>
-<p>Convert a Markdown (<code>.txt</code>) file to Word (<code>.docx</code>).</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.docx</a></code></pre></div>
-<p>Convert a Markdown (<code>.txt</code>) file to PDF (<code>.pdf</code>).</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="ex">pandoc</span> -Ss example.txt -o example.pdf</a></code></pre></div>
+<p>Convert a Markdown (<code>.txt</code>) file to Word
+(<code>.docx</code>).</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-Ss</span> example.txt <span class="at">-o</span> example.docx</span></code></pre></div>
+<p>Convert a Markdown (<code>.txt</code>) file to PDF
+(<code>.pdf</code>).</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-Ss</span> example.txt <span class="at">-o</span> example.pdf</span></code></pre></div>
 </div>
 <div id="renaming" class="section level3">
 <h3>Renaming</h3>
-<p>Place a “1” between the first four characters and the subsequent characters in each filename in a folder.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in *<span class="kw">;</span> <span class="kw">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i:0:4}</span><span class="st">1</span><span class="va">${i:4}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="kw">done</span></a></code></pre></div>
+<p>Place a “1” between the first four characters and the subsequent
+characters in each filename in a folder.</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="pp">*</span><span class="kw">;</span> <span class="cf">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i</span><span class="op">:</span><span class="dv">0</span><span class="op">:</span><span class="dv">4</span><span class="va">}</span><span class="st">1</span><span class="va">${i</span><span class="op">:</span><span class="dv">4</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">done</span></span></code></pre></div>
 </div>
 <div id="sleeping-and-shutdown" class="section level3">
 <h3>Sleeping and shutdown</h3>
 <p>Tell the computer to wait a bit and then go to sleep.</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</a></code></pre></div>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</span></code></pre></div>
 <p>Tell the computer to shutdown now.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h now</a></code></pre></div>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> now</span></code></pre></div>
 <p>Shut it down at a specific time (here: 2:30pm on 01 January 2016)</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h 1601011530</a></code></pre></div>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> 1601011530</span></code></pre></div>
 <p>Shut it down after a specified amount of time (here: 30 minutes)</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="fu">sudo</span> shutdown -h +30</a></code></pre></div>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> +30</span></code></pre></div>
 </div>
 <div id="miscellany" class="section level3">
 <h3>Miscellany</h3>
-<p>OSX: Show only active apps in the terminal. <a href="https://www.macrumors.com/how-to/macos-dock-show-active-apps/">h/t</a></p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb17-1" data-line-number="1"><span class="ex">defaults</span> write com.apple.dock static-only -bool true<span class="kw">;</span> <span class="fu">killall</span> Dock</a></code></pre></div>
+<p>OSX: Show only active apps in the terminal. <a
+href="https://www.macrumors.com/how-to/macos-dock-show-active-apps/">h/t</a></p>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="ex">defaults</span> write com.apple.dock static-only <span class="at">-bool</span> true<span class="kw">;</span> <span class="fu">killall</span> Dock</span></code></pre></div>
 <p>Kill all processes named “rsession”.</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="fu">killall</span> -m <span class="st">&quot;rsession&quot;</span></a></code></pre></div>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="fu">killall</span> <span class="at">-m</span> <span class="st">&quot;rsession&quot;</span></span></code></pre></div>
 <p>Re-index the Spotlight utility.</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb19-1" data-line-number="1"><span class="fu">sudo</span> mdutil -E /</a></code></pre></div>
-<p>Linux code for playing hide and seek. <br><em>Warning</em> You might not want HAL to find you.</p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb20-1" data-line-number="1"><span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{1..30}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="kw">done</span>; <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></a></code></pre></div>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="fu">sudo</span> mdutil <span class="at">-E</span> /</span></code></pre></div>
+<p>Linux code for playing hide and seek. <br><em>Warning</em> You might
+not want HAL to find you.</p>
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="dt">{</span><span class="dv">1</span><span class="dt">..</span><span class="dv">30</span><span class="dt">}</span><span class="kw">;</span> <span class="cf">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="cf">done</span><span class="kw">;</span> <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></span></code></pre></div>
 </div>
 </div>
 </div>
