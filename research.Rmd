@@ -205,7 +205,7 @@ The practice of standardizing the designation of time is a central device for co
 
 [NBER Working Paper No. 30999](https://www.nber.org/papers/w30999)
 
-Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
+NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
 
 <br>
 
@@ -263,7 +263,7 @@ with [Emmett Saulnier](https://www.emmettsaulnier.com/)
 
 with [Jeffrey Chen](http://jeffchen.org) and [Gary Cornwall](https://garycornwall.weebly.com)
 
-This textbook presents the essential tools and core concepts of data science to public officials, policy analysts, and economists among others in order to further their application in the public sector. An expansion of the quantitative economics frameworks presented in policy and business schools, this book emphasizes the process of asking relevant questions to inform public policy. Its techniques and approaches emphasize data-driven practices, beginning with the basic programming paradigms that occupy the majority of an analyst’s time and advancing to the practical applications of statistical learning and machine learning. The text considers two divergent, competing perspectives to support its applications, incorporating techniques from both causal inference and prediction. Additionally, the book includes open-sourced data as well as live code, written in R and presented in notebook form, which readers can use and modify to practice working with data.
+This textbook presents the essential tools and core concepts of data science to public officials, policy analysts, and economists among others in order to further their application in the public sector. An expansion of the quantitative economics frameworks presented in policy and business schools, this book emphasizes the process of asking relevant questions to inform public policy. Its techniques and approaches emphasize data-driven practices, beginning with the basic programming paradigms that occupy the majority of an analyst's time and advancing to the practical applications of statistical learning and machine learning. The text considers two divergent, competing perspectives to support its applications, incorporating techniques from both causal inference and prediction. Additionally, the book includes open-sourced data as well as live code, written in R and presented in notebook form, which readers can use and modify to practice working with data.
 
 Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon](https://www.amazon.com/dp/B09F597WXP/)
 
