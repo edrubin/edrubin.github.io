@@ -84,7 +84,7 @@ knitr::include_graphics(c(
 </p>
 
 <p>
-  [Register for **Zoom link here**](williams.zoom.us/meeting/register/tJwpdOyvpjguHtE66WttzUJfNMEBzfagkVTZ).
+  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJwpdOyvpjguHtE66WttzUJfNMEBzfagkVTZ).
   <br>[Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
 
