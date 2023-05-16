@@ -77,15 +77,74 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Equity:** 28 April 2023
+## **Ag and the environment:** 2023/05/26
 
 <p>
-  <b>Friday, 28 April 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy hour
+  <b>Friday, 26 May 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy hour
 </p>
 
 <p>
-  Zoom link coming in email. [Join the mailing list](https://edrubin.typeform.com/aere-osweet).
+  [Register for **Zoom link here**](williams.zoom.us/meeting/register/tJwpdOyvpjguHtE66WttzUJfNMEBzfagkVTZ).
+  <br>[Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Local crop diversity and pest diffusion</i>
+        <br><b>Tristan du Puy</b> (Columbia SIPA)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>Impacts of local research centers on agricultural productivity, resilience, and innovation</i>
+        <br><b>Shweta Bhogale</b> (JPAL/MIT)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>When clouds go dry: An integrated model of deforestation, rainfall, and agriculture</i>
+        <br><b>Rafael Araujo</b> (Climate Policy Initiative)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2023 {.tabset .tabset-fade}
+
+### **Equity & justice:** 2023/04/28
 
 <p>
   <table style="width:100%">
@@ -134,14 +193,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2023 {.tabset .tabset-fade}
 
 ### **Climate & adaptation:** 2023/03/31
 

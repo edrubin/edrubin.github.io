@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.23)  2 MAY 2023 10:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.5.9)  16 MAY 2023 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"/Users/edwardr/Dropbox (University of Oregon)/Websites/edrubin.github.io/cvEdRubin.tex"
 (/Users/edwardr/Dropbox (University of Oregon)/Websites/edrubin.github.io/cvEdRubin.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-04-20> (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2023-05-05> (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
@@ -98,7 +98,7 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-04-20 L3 programming layer (loader) 
+Package: expl3 2023-05-05 L3 programming layer (loader) 
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
 \g__graphics_track_int=\count267
@@ -403,7 +403,7 @@ LaTeX Warning: Command \underline  has changed.
 ) (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-04-20 v7.00w Hypertext links for LaTeX
+Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -435,13 +435,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \Hy@linkcounter=\count292
 \Hy@pagecounter=\count293
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-04-20 v7.00w Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 ) (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count294
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-04-20 v7.00w Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4065.
 Package hyperref Info: Hyper figures OFF on input line 4182.
@@ -483,7 +483,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2023-04-20 v7.00w Hyperref driver for XeTeX
+File: hxetex.def 2023-04-22 v7.00x Hyperref driver for XeTeX
 (/Users/edwardr/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
@@ -858,27 +858,27 @@ LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/b/n' will be
 
 ] [2] [3]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.55913pt on input line 393.
+(Font)              scaled to size 8.55913pt on input line 394.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.11366pt on input line 393.
+(Font)              scaled to size 6.11366pt on input line 394.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.22855pt on input line 393.
+(Font)              scaled to size 12.22855pt on input line 394.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.55998pt on input line 393.
+(Font)              scaled to size 8.55998pt on input line 394.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.11427pt on input line 393.
+(Font)              scaled to size 6.11427pt on input line 394.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.2261pt on input line 393.
+(Font)              scaled to size 12.2261pt on input line 394.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.55827pt on input line 393.
+(Font)              scaled to size 8.55827pt on input line 394.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.11305pt on input line 393.
+(Font)              scaled to size 6.11305pt on input line 394.
 [4] (./cvEdRubin.aux) ) 
 Here is how much of TeX's memory you used:
- 18728 strings out of 478639
- 348525 string characters out of 5846341
- 1857704 words of memory out of 5000000
- 38628 multiletter control sequences out of 15000+600000
+ 18729 strings out of 478685
+ 348541 string characters out of 5847390
+ 1857879 words of memory out of 5000000
+ 38583 multiletter control sequences out of 15000+600000
  518786 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,5n,122p,1081b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
