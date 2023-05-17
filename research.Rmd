@@ -14,6 +14,36 @@ title: "Ed Rubin: Research"
 
 ---
 
+#### __Quantifying heterogeneity in the price elasticity of residential natural gas__
+
+[Edward Rubin](https://edrub.in/) and [Maximilian Auffhammer](https://www.auffhammer.com)
+<br>*Forthcoming*, JAERE
+
+We exploit a spatial discontinuity in two natural gas utilities' service territory—combined with variation in their block-rate pricing structure and a difference in how prima facie determined wholesale prices are deferentially passed though to consumers—to identify average, seasonal, and income-specific own-price elasticities of residential natural gas demand. We estimate an average elasticity ranging from 0.15–0.19 depending on the measure of price used. We further estimate that this elasticity varies substantially across seasons, income groups, and their interaction. We find no significant difference in consumers' responses to average versus marginal prices.
+
+Previous titles: *Decomposing "the" elasticity of demand: Empirical and policy insights from 300 million natural gas bills*; *Natural gas price elasticities and optimal cost recovery under consumer heterogeneity: Evidence from 300 million natural gas bills*; *Summertime, and pass-through is easier: Chasing down price elasticities for residential natural*
+
+[NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
+
+[Draft](Papers/draft-natural-gas.pdf) | [slides](Slides/slides-natural-gas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png)
+
+Press coverage: [The Economist](https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing)
+
+Edward Rubin and Maximilian Auffhammer. 2024 (*Forthcoming*). *Journal of the Association of Environmental and Resource Economists*.
+
+<center>
+```{r, out.width = "65%", echo = F}
+knitr::include_graphics(c(
+  # "Figures/NaturalGas/mapPipeline.png",
+  "Figures/NaturalGas/studyMaps.png",
+  # "Figures/AirQualityEstimates/map_county_monitors_2005.png",
+  NULL
+))
+```
+</center>
+<br>
+
+
 #### __[The economic impact of critical-habitat designation: Evidence from vacant-land transactions](https://doi.org/10.3368/le.96.2.188)__
 
 [Maximilian Auffhammer](https://auffhammer.com), [Maya Duru](https://www.povertyactionlab.org/duru), [Edward Rubin](https://edrub.in), and [David L. Sunding](https://are.berkeley.edu/users/david-l-sunding)
@@ -40,7 +70,7 @@ We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to
 
 [Published (P&P) version](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064) | [NBER Working Paper No. 25560](https://www.nber.org/papers/w25560) | [EI @ Haas Working Paper 300](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp300.html)
 
-Fowlie, Meredith, Edward Rubin, and Reed Walker. 2019. "Bringing Satellite-Based Air Quality Estimates Down to Earth." *AEA Papers and Proceedings*, 109: 283-88. DOI: [10.1257/pandp.20191064
+Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. "Bringing Satellite-Based Air Quality Estimates Down to Earth." *AEA Papers and Proceedings*, 109: 283-88. DOI: [10.1257/pandp.20191064
 ](https://doi.org/10.1257/pandp.20191064)
 
 ```{r, out.width = "50%", echo = F}
@@ -59,34 +89,6 @@ knitr::include_graphics(c(
 <font color="#18BC9C"><h2>Working Papers</h2></font>
 
 ---
-
-#### __Quantifying heterogeneity in the price elasticity of residential natural gas__
-
-with [Maximilian Auffhammer](http://www.auffhammer.com)
-<br>*Conditionally accepted*, JAERE
-
-We exploit a spatial discontinuity in two natural gas utilities' service territory—combined with variation in their block-rate pricing structure and a difference in how prima facie determined wholesale prices are deferentially passed though to consumers—to identify average, seasonal, and income-specific own-price elasticities of residential natural gas demand. We estimate an average elasticity ranging from 0.15–0.19 depending on the measure of price used. We further estimate that this elasticity varies substantially across seasons, income groups, and their interaction. We find no significant difference in consumers' responses to average versus marginal prices.
-
-Previous titles: *Decomposing "the" elasticity of demand: Empirical and policy insights from 300 million natural gas bills*; *Natural gas price elasticities and optimal cost recovery under consumer heterogeneity: Evidence from 300 million natural gas bills*; *Summertime, and pass-through is easier: Chasing down price elasticities for residential natural*
-
-[NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
-
-[Draft](Papers/draft-natural-gas.pdf) | [slides](Slides/slides-natural-gas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png)
-
-Press coverage: [The Economist](https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing)
-
-<center>
-```{r, out.width = "65%", echo = F}
-knitr::include_graphics(c(
-  # "Figures/NaturalGas/mapPipeline.png",
-  "Figures/NaturalGas/studyMaps.png",
-  # "Figures/AirQualityEstimates/map_county_monitors_2005.png",
-  NULL
-))
-```
-</center>
-<br>
-
 
 #### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
 

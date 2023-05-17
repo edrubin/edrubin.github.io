@@ -30,6 +30,9 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 ## Publications
 
+__[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
+<br> Edward Rubin and Maximilian Auffhammer. 2024 (_Forthcoming_). *Journal of the Association of Environmental and Resource Economists*.
+
 __[The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions](https://muse.jhu.edu/article/753055)__
 <br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. *Land Economics*, 96(2), 188–206.
 
@@ -42,10 +45,6 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 <br>
 
 ## Working Papers
-
-__[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
-<br> Edward Rubin and Maximilian Auffhammer
-<br> _Conditionally accepted_, JAERE
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
 <br> Yingfei Mu, Edward Rubin, and Eric Zou
