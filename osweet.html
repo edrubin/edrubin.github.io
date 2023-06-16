@@ -13,7 +13,6 @@
 
 <title>AERE@OSWEET</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -132,15 +131,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -169,8 +164,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -178,9 +173,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -337,14 +339,12 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><a href="mailto:AERE@OSWEET"
-class="email">AERE@OSWEET</a></h1>
+<h1 class="title toc-ignore"><a href="mailto:AERE@OSWEET" class="email">AERE@OSWEET</a></h1>
 
 </div>
 
 
-<p>the Online Summer Workshop in Environment, Energy, and Transportation
-(Economics)</p>
+<p>the Online Summer Workshop in Environment, Energy, and Transportation (Economics)</p>
 <center>
 <img src="Photos/wind.png" width="75%" />
 </center>
@@ -363,10 +363,7 @@ class="email">AERE@OSWEET</a></h1>
 <font color="#18BC9C"><i>What?</i></font>    
 </td>
 <td>
-One Friday each month, we will host an online seminar series with three
-short presentations (15 minutes each)—followed by a happy (half) hour!
-<br><br> Papers and videos <strong>will not</strong> be circulated.
-<br><br>
+One Friday each month, we will host an online seminar series with three short presentations (15 minutes each)—followed by a happy (half) hour! <br><br> Papers and videos <strong>will not</strong> be circulated. <br><br>
 </td>
 </tr>
 <tr valign="top">
@@ -374,21 +371,7 @@ short presentations (15 minutes each)—followed by a happy (half) hour!
 <font color="#18BC9C"><i>Who?</i></font>    
 </td>
 <td>
-For presenters, we’re targeting graduate students, postdocs, and
-early-career assistant professors.<br>We may adjust selection based upon
-supply. <br><br> There will be no discussants, but we will provide a
-time for questions after each paper. We will try and cluster papers by
-topic. <br><br> The organizers of <strong>AERE@OSWEET</strong> include
-<a href="https://www.auffhammer.com/" style="text-decoration:none">Max
-Auffhammer</a> (UC Berkeley);
-<a href="https://econ.williams.edu/profile/saj2/" style="text-decoration: none">Sarah
-Jacobson</a> (Williams);
-<a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel
-Ortiz-Bobea</a> (Cornell);
-<a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a>
-(Oregon);
-<a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine
-Wagner</a> (UBC). <br><br>
+For presenters, we’re targeting graduate students, postdocs, and early-career assistant professors.<br>We may adjust selection based upon supply. <br><br> There will be no discussants, but we will provide a time for questions after each paper. We will try and cluster papers by topic. <br><br> The organizers of <strong>AERE@OSWEET</strong> include <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley); <a href="https://econ.williams.edu/profile/saj2/" style="text-decoration: none">Sarah Jacobson</a> (Williams); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
 </td>
 </tr>
 <tr valign="top">
@@ -404,9 +387,7 @@ Friday; see schedule below. <br><br>
 <font color="#18BC9C"><i>Where?</i></font>        
 </td>
 <td>
-Zoom. We will send out a Zoom link to presenters and audience members.
-<a href="https://edrubin.typeform.com/aere-osweet">Register to receive
-emails here</a>. <br><br>
+Zoom. We will send out a Zoom link to presenters and audience members. <a href="https://edrubin.typeform.com/aere-osweet">Register to receive emails here</a>. <br><br>
 </td>
 </tr>
 <tr valign="top">
@@ -414,35 +395,26 @@ emails here</a>. <br><br>
 <font color="#18BC9C"><i>More?</i></font>        
 </td>
 <td>
-This workshop is a supportive and constructive environment to present
-research (but you still have to bring your own beer/coffee/snacks to
-happy hour). <br><br>
+This workshop is a supportive and constructive environment to present research (but you still have to bring your own beer/coffee/snacks to happy hour). <br><br>
 </td>
 </tr>
 </table>
 </p>
 </center>
-<p><strong>Interested?</strong> <a
-href="https://edrubin.typeform.com/aere-osweet">Please join the mailing
-list and/or apply to present!</a> (And tell your friends.)</p>
+<p><strong>Interested?</strong> <a href="https://edrubin.typeform.com/aere-osweet">Please join the mailing list and/or apply to present!</a> (And tell your friends.)</p>
 <p><br></p>
 <div id="upcoming-events" class="section level3">
 <h3>Upcoming events</h3>
 </div>
 <div id="section" class="section level1 tabset tabset-fade">
-<h1 class="tabset tabset-fade"></h1>
-<div id="climate-and-carbon-20230630" class="section level2">
-<h2><strong>Climate and carbon:</strong> 2023/06/30</h2>
+<h1></h1>
+<div id="climate-change-and-risk-20230630" class="section level2">
+<h2><strong>Climate change and risk:</strong> 2023/06/30</h2>
 <p>
-<b>Friday, 30 June 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM
-<b>Eastern</b>), followed by happy half-hour
+<b>Friday, 30 June 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 <p>
-<a
-href="https://williams.zoom.us/meeting/register/tJwpdOyvpjguHtE66WttzUJfNMEBzfagkVTZ">Register
-for <strong>Zoom link here</strong></a>. <br><a
-href="https://edrubin.typeform.com/aere-osweet">Join the mailing
-list</a>.
+<a href="https://williams.zoom.us/meeting/register/tJctceGqrz8qHNROVzarMTuiD9y2WEcSIytD">Register for <strong>Zoom link here</strong></a>. <br><a href="https://edrubin.typeform.com/aere-osweet">Join the mailing list</a>.
 </p>
 <p>
 <table style="width:100%">
@@ -461,8 +433,7 @@ list</a>.
 11:00AM <b>PST</b> (2:00PM <b>EST</b>)
 </td>
 <td>
-<i>Pricing physical climate risk in the cross-section of returns</i>
-<br><b>Glen Gostlow</b> (LSE) <br><br>
+<i>Pricing physical climate risk in the cross-section of returns</i> <br><b>Glen Gostlow</b> (LSE) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -473,9 +444,7 @@ list</a>.
 11:20AM <b>PST</b> (2:20PM <b>EST</b>)
 </td>
 <td>
-<i>Carbon Default Swap: Disentangling the exposure to carbon risk
-through CDS</i> <br><b>Alexander Blasberg</b> (University of
-Duisberg-Essen) <br><br>
+<i>Inattention to the coming storm? Rising seas and sovereign credit risk</i> <br><b>Atreya Dey</b> (Edinburgh) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -486,9 +455,7 @@ Duisberg-Essen) <br><br>
 11:40AM <b>PST</b> (2:40PM <b>EST</b>)
 </td>
 <td>
-<i>Industry exit and externalities: Evidence from coal phase-out
-programs and climate change</i> <br><b>Megan Bailey</b> (Calgary)
-<br><br>
+<i>The effects of extreme wildfire and smoke events on household financial outcomes</i> <br><b>Nitzan Tzur-Ilan</b> (Dallas Fed) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -513,9 +480,9 @@ programs and climate change</i> <br><b>Megan Bailey</b> (Calgary)
 </div>
 </div>
 <div id="section-2" class="section level1 tabset tabset-fade">
-<h1 class="tabset tabset-fade"></h1>
+<h1></h1>
 <div id="section-3" class="section level2 tabset tabset-fade">
-<h2 class="tabset tabset-fade">2023</h2>
+<h2>2023</h2>
 <div id="ag-and-the-environment-20230526" class="section level3">
 <h3><strong>Ag and the environment:</strong> 2023/05/26</h3>
 <p>
@@ -535,8 +502,7 @@ programs and climate change</i> <br><b>Megan Bailey</b> (Calgary)
 11:00AM <b>PST</b> (2:00PM <b>EST</b>)
 </td>
 <td>
-<i>Local crop diversity and pest diffusion</i> <br><b>Tristan du Puy</b>
-(Columbia SIPA) <br><br>
+<i>Local crop diversity and pest diffusion</i> <br><b>Tristan du Puy</b> (Columbia SIPA) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -547,9 +513,7 @@ programs and climate change</i> <br><b>Megan Bailey</b> (Calgary)
 11:20AM <b>PST</b> (2:20PM <b>EST</b>)
 </td>
 <td>
-<i>Impacts of local research centers on agricultural productivity,
-resilience, and innovation</i> <br><b>Shweta Bhogale</b> (JPAL/MIT)
-<br><br>
+<i>Impacts of local research centers on agricultural productivity, resilience, and innovation</i> <br><b>Shweta Bhogale</b> (JPAL/MIT) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -560,9 +524,7 @@ resilience, and innovation</i> <br><b>Shweta Bhogale</b> (JPAL/MIT)
 11:40AM <b>PST</b> (2:40PM <b>EST</b>)
 </td>
 <td>
-<i>When clouds go dry: An integrated model of deforestation, rainfall,
-and agriculture</i> <br><b>Rafael Araujo</b> (Climate Policy Initiative)
-<br><br>
+<i>When clouds go dry: An integrated model of deforestation, rainfall, and agriculture</i> <br><b>Rafael Araujo</b> (Climate Policy Initiative) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -598,9 +560,7 @@ and agriculture</i> <br><b>Rafael Araujo</b> (Climate Policy Initiative)
 11:00AM <b>PST</b> (2:00PM <b>EST</b>)
 </td>
 <td>
-<i>Burying the lead: Effects of public lead service line replacements on
-blood lead levels and property values</i> <br><b>Michelle Marcus</b>
-(Vanderbilt) <br><br>
+<i>Burying the lead: Effects of public lead service line replacements on blood lead levels and property values</i> <br><b>Michelle Marcus</b> (Vanderbilt) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -611,9 +571,7 @@ blood lead levels and property values</i> <br><b>Michelle Marcus</b>
 11:20AM <b>PST</b> (2:20PM <b>EST</b>)
 </td>
 <td>
-<i>Who benefits from park funding? Analyzing five decades of the Land
-and Water Conservation Fund</i> <br><b>Andie Creel</b> (Yale School of
-the Environment) <br><br>
+<i>Who benefits from park funding? Analyzing five decades of the Land and Water Conservation Fund</i> <br><b>Andie Creel</b> (Yale School of the Environment) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -624,9 +582,7 @@ the Environment) <br><br>
 11:40AM <b>PST</b> (2:40PM <b>EST</b>)
 </td>
 <td>
-<i>Policy-induced environmental inequality: Firm behaviors and
-consequent health and labor outcomes</i> <br><b>Ran Song</b> (National
-University of Singapore) <br><br>
+<i>Policy-induced environmental inequality: Firm behaviors and consequent health and labor outcomes</i> <br><b>Ran Song</b> (National University of Singapore) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -673,8 +629,7 @@ University of Singapore) <br><br>
 11:20AM <b>PST</b> (2:20PM <b>EST</b>)
 </td>
 <td>
-<i>Does market power in agricultural markets hinder farmer climate
-change adaptation?</i> <br><b>Rajat Kochhar</b> (USC) <br><br>
+<i>Does market power in agricultural markets hinder farmer climate change adaptation?</i> <br><b>Rajat Kochhar</b> (USC) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -685,8 +640,7 @@ change adaptation?</i> <br><b>Rajat Kochhar</b> (USC) <br><br>
 11:40AM <b>PST</b> (2:40PM <b>EST</b>)
 </td>
 <td>
-<i>Occupational mobility and climate adaptation in France</i>
-<br><b>Paul Stainier</b> (UCLA) <br><br>
+<i>Occupational mobility and climate adaptation in France</i> <br><b>Paul Stainier</b> (UCLA) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -722,8 +676,7 @@ change adaptation?</i> <br><b>Rajat Kochhar</b> (USC) <br><br>
 11:00AM <b>PST</b> (2:00PM <b>EST</b>)
 </td>
 <td>
-<i>Air pollution and mental illness</i> <br><b>Soodeh Saberian</b> (U
-Manitoba) <br><br>
+<i>Air pollution and mental illness</i> <br><b>Soodeh Saberian</b> (U Manitoba) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -734,8 +687,7 @@ Manitoba) <br><br>
 11:20AM <b>PST</b> (2:20PM <b>EST</b>)
 </td>
 <td>
-<i>Non-market damages of wildfire smoke: evidence from administrative
-recreation data</i> <br><b>Jacob Gellman</b> (UC Santa Barbara) <br><br>
+<i>Non-market damages of wildfire smoke: evidence from administrative recreation data</i> <br><b>Jacob Gellman</b> (UC Santa Barbara) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -746,9 +698,7 @@ recreation data</i> <br><b>Jacob Gellman</b> (UC Santa Barbara) <br><br>
 11:40AM <b>PST</b> (2:40PM <b>EST</b>)
 </td>
 <td>
-<i>Still your grandfather’s boiler: Estimating the effects of the Clean
-Air Act’s grandfathering provisions</i> <br><b>Jack Gregory</b> (UC
-Davis) <br><br>
+<i>Still your grandfather’s boiler: Estimating the effects of the Clean Air Act’s grandfathering provisions</i> <br><b>Jack Gregory</b> (UC Davis) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -767,7 +717,7 @@ Davis) <br><br>
 </div>
 </div>
 <div id="section-4" class="section level2 tabset tabset-fade">
-<h2 class="tabset tabset-fade">2022</h2>
+<h2>2022</h2>
 <div id="climate-organization-and-ag-20220610" class="section level3">
 <h3><strong>Climate, organization, and ag:</strong> 2022/06/10</h3>
 <p>
@@ -787,9 +737,7 @@ Davis) <br><br>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>The role of local institutions in climate resilience: Historical
-evidence from soil conservation districts in the post-dust bowl Great
-Plains region</i> <br><b>Aparna Howlader</b> (Rhode Island) <br><br>
+<i>The role of local institutions in climate resilience: Historical evidence from soil conservation districts in the post-dust bowl Great Plains region</i> <br><b>Aparna Howlader</b> (Rhode Island) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -800,8 +748,7 @@ Plains region</i> <br><b>Aparna Howlader</b> (Rhode Island) <br><br>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Multinationals vs Mother Nature? The impact of multinational firms on
-the environment</i> <br><b>Frederik Noack</b> (UBC) <br><br>
+<i>Multinationals vs Mother Nature? The impact of multinational firms on the environment</i> <br><b>Frederik Noack</b> (UBC) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -812,8 +759,7 @@ the environment</i> <br><b>Frederik Noack</b> (UBC) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Internal migration and the organization of agriculture</i>
-<br><b>Raahil Madhok</b> (UBC) <br><br>
+<i>Internal migration and the organization of agriculture</i> <br><b>Raahil Madhok</b> (UBC) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -849,8 +795,7 @@ the environment</i> <br><b>Frederik Noack</b> (UBC) <br><br>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Energy transition metals: Bottleneck for net-zero emissions?</i>
-<br><b>Lukas Boer</b> (DIW Berlin) <br><br>
+<i>Energy transition metals: Bottleneck for net-zero emissions?</i> <br><b>Lukas Boer</b> (DIW Berlin) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -861,9 +806,7 @@ the environment</i> <br><b>Frederik Noack</b> (UBC) <br><br>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Policy legacies and energy transitions: Greening policies under
-sectoral reforms in Argentina and Chile</i> <br><b>Santiago Cunial</b>
-(UPenn) <br><br>
+<i>Policy legacies and energy transitions: Greening policies under sectoral reforms in Argentina and Chile</i> <br><b>Santiago Cunial</b> (UPenn) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -874,8 +817,7 @@ sectoral reforms in Argentina and Chile</i> <br><b>Santiago Cunial</b>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Price discrimination on choice frictions in residential electricity
-markets</i> <br><b>Jenya Kahn-Lang</b> (UC Berkeley) <br><br>
+<i>Price discrimination on choice frictions in residential electricity markets</i> <br><b>Jenya Kahn-Lang</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -911,8 +853,7 @@ markets</i> <br><b>Jenya Kahn-Lang</b> (UC Berkeley) <br><br>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Burned agricultural biomass, air pollution, and crime</i>
-<br><b>Abubakr Ayesh</b> (Michigan State) <br><br>
+<i>Burned agricultural biomass, air pollution, and crime</i> <br><b>Abubakr Ayesh</b> (Michigan State) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -923,8 +864,7 @@ markets</i> <br><b>Jenya Kahn-Lang</b> (UC Berkeley) <br><br>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Electricity market design and market-based environmental policy in
-India</i> <br><b>Shefali Khanna</b> (Imperial College London) <br><br>
+<i>Electricity market design and market-based environmental policy in India</i> <br><b>Shefali Khanna</b> (Imperial College London) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -935,8 +875,7 @@ India</i> <br><b>Shefali Khanna</b> (Imperial College London) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Economic and demographic effects of increased flood susceptibility:
-Evidence from rural India</i> <br><b>Osama Sajid</b> (Cornell) <br><br>
+<i>Economic and demographic effects of increased flood susceptibility: Evidence from rural India</i> <br><b>Osama Sajid</b> (Cornell) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -972,8 +911,7 @@ Evidence from rural India</i> <br><b>Osama Sajid</b> (Cornell) <br><br>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Stubble burning and forest fires: Effect on child height in India</i>
-<br><b>Prachi Singh</b> (EDF) <br><br>
+<i>Stubble burning and forest fires: Effect on child height in India</i> <br><b>Prachi Singh</b> (EDF) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -984,8 +922,7 @@ Evidence from rural India</i> <br><b>Osama Sajid</b> (Cornell) <br><br>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Visibility and vulnerability: Aid allocations after the 2015 Nepal
-earthquake</i> <br><b>Matthew Gordon</b> (Yale) <br><br>
+<i>Visibility and vulnerability: Aid allocations after the 2015 Nepal earthquake</i> <br><b>Matthew Gordon</b> (Yale) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -996,9 +933,7 @@ earthquake</i> <br><b>Matthew Gordon</b> (Yale) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Does the media respond to political messaging? Evidence from local
-newspaper coverage of climate change</i> <br><b>Graham Beattie</b>
-(Loyola Marymount) <br><br>
+<i>Does the media respond to political messaging? Evidence from local newspaper coverage of climate change</i> <br><b>Graham Beattie</b> (Loyola Marymount) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -1034,8 +969,7 @@ newspaper coverage of climate change</i> <br><b>Graham Beattie</b>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Regulator preferences and underinvestment in water infrastructure</i>
-<br><b>Chunyu Guo</b> (SUNY Albany) <br><br>
+<i>Regulator preferences and underinvestment in water infrastructure</i> <br><b>Chunyu Guo</b> (SUNY Albany) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1046,8 +980,7 @@ newspaper coverage of climate change</i> <br><b>Graham Beattie</b>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Regional water transfer and economic growth: A synthetic control case
-study</i> <br><b>Arpita Nehra</b> (Utah State) <br><br>
+<i>Regional water transfer and economic growth: A synthetic control case study</i> <br><b>Arpita Nehra</b> (Utah State) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1058,8 +991,7 @@ study</i> <br><b>Arpita Nehra</b> (Utah State) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Near-term climate damages under flexible adaptation times</i>
-<br><b>Maximilian Kotz</b> (Potsdam) <br><br>
+<i>Near-term climate damages under flexible adaptation times</i> <br><b>Maximilian Kotz</b> (Potsdam) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -1079,8 +1011,7 @@ study</i> <br><b>Arpita Nehra</b> (Utah State) <br><br>
 <div id="food-and-waste-20220304" class="section level3">
 <h3><strong>Food and waste:</strong> 2022/03/04</h3>
 <p>
-<a href="https://edrubin.typeform.com/aere-osweet">Register for the
-mailing list</a> to receive the Zoom link and password.
+<a href="https://edrubin.typeform.com/aere-osweet">Register for the mailing list</a> to receive the Zoom link and password.
 </p>
 <p>
 <table style="width:100%">
@@ -1099,9 +1030,7 @@ mailing list</a> to receive the Zoom link and password.
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Household responses to a corrective tax and climate change
-mitigation: Evidence from food waste tax</i> <br><b>Seunghoon Lee</b>
-(MIT) <br><br>
+<i>Household responses to a corrective tax and climate change mitigation: Evidence from food waste tax</i> <br><b>Seunghoon Lee</b> (MIT) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1112,9 +1041,7 @@ mitigation: Evidence from food waste tax</i> <br><b>Seunghoon Lee</b>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Market potential for domestic herbs: A new variant of
-“consequentiality” for valuing contingent private goods</i>
-<br><b>Twinkle Roy</b> (Georgia) <br><br>
+<i>Market potential for domestic herbs: A new variant of “consequentiality” for valuing contingent private goods</i> <br><b>Twinkle Roy</b> (Georgia) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1125,9 +1052,7 @@ mitigation: Evidence from food waste tax</i> <br><b>Seunghoon Lee</b>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Rethinking recycling? The effects of China’s waste-import ban on
-pollution relocation in the U.S.</i> <br><b>Shan Zhang</b> (Oregon)
-<br><br>
+<i>Rethinking recycling? The effects of China’s waste-import ban on pollution relocation in the U.S.</i> <br><b>Shan Zhang</b> (Oregon) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -1163,9 +1088,7 @@ pollution relocation in the U.S.</i> <br><b>Shan Zhang</b> (Oregon)
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Split incentives and endogenous inattention in home retrofits uptake:
-A story of selection on unobservables?</i> <br><b>Stefano Cellini</b>
-(Surrey) <br><br>
+<i>Split incentives and endogenous inattention in home retrofits uptake: A story of selection on unobservables?</i> <br><b>Stefano Cellini</b> (Surrey) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1176,9 +1099,7 @@ A story of selection on unobservables?</i> <br><b>Stefano Cellini</b>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Early warning systems, mobile technology, and cholera aversion:
-Evidence from rural Bangladesh</i> <br><b>Emily Pakhtigian</b> (Penn
-State) <br><br>
+<i>Early warning systems, mobile technology, and cholera aversion: Evidence from rural Bangladesh</i> <br><b>Emily Pakhtigian</b> (Penn State) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1189,8 +1110,7 @@ State) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Using targeting to optimize program design: Evidence from an energy
-conservation experiment</i> <br><b>Muxi Yang</b> (Cornell) <br><br>
+<i>Using targeting to optimize program design: Evidence from an energy conservation experiment</i> <br><b>Muxi Yang</b> (Cornell) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -1226,9 +1146,7 @@ conservation experiment</i> <br><b>Muxi Yang</b> (Cornell) <br><br>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Optimal energy subsidies with multiple policy instruments: The case
-for finite-time-horizon policies</i> <br><b>Owen Kay</b> (Michigan)
-<br><br>
+<i>Optimal energy subsidies with multiple policy instruments: The case for finite-time-horizon policies</i> <br><b>Owen Kay</b> (Michigan) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1239,8 +1157,7 @@ for finite-time-horizon policies</i> <br><b>Owen Kay</b> (Michigan)
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Capital versus output subsidies with an inconsistent regulator</i>
-<br><b>Asa Watten</b> (EPA) <br><br>
+<i>Capital versus output subsidies with an inconsistent regulator</i> <br><b>Asa Watten</b> (EPA) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1251,8 +1168,7 @@ for finite-time-horizon policies</i> <br><b>Owen Kay</b> (Michigan)
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Decomposing the effect of renewables on the electricity sector</i>
-<br><b>Paige Weber</b> (UNC) <br><br>
+<i>Decomposing the effect of renewables on the electricity sector</i> <br><b>Paige Weber</b> (UNC) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -1288,9 +1204,7 @@ for finite-time-horizon policies</i> <br><b>Owen Kay</b> (Michigan)
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Does it measure up? A comparison of pollution exposure assessment
-techniques applied across hospitals in England</i> <br><b>Dheeya
-Rizmie</b> (Imperial College London) <br><br>
+<i>Does it measure up? A comparison of pollution exposure assessment techniques applied across hospitals in England</i> <br><b>Dheeya Rizmie</b> (Imperial College London) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1301,8 +1215,7 @@ Rizmie</b> (Imperial College London) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Peer Effects in Electric Vehicle Adoption: Evidence from the Swedish
-Vehicle Market</i> <br><b>Sebastian Tebbe</b> (IIES) <br><br>
+<i>Peer Effects in Electric Vehicle Adoption: Evidence from the Swedish Vehicle Market</i> <br><b>Sebastian Tebbe</b> (IIES) <br><br>
 </td>
 </tr>
 <!-- Happy hour -->
@@ -1321,7 +1234,7 @@ Vehicle Market</i> <br><b>Sebastian Tebbe</b> (IIES) <br><br>
 </div>
 </div>
 <div id="section-5" class="section level2 tabset tabset-fade">
-<h2 class="tabset tabset-fade">2021</h2>
+<h2>2021</h2>
 <div id="perception-and-conservation-20211213" class="section level3">
 <h3><strong>Perception and conservation:</strong> 2021/12/13</h3>
 <p>
@@ -1341,8 +1254,7 @@ Vehicle Market</i> <br><b>Sebastian Tebbe</b> (IIES) <br><br>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>The role of information in the Rosen-Roback framework</i> <br><b>Ran
-Song</b> (Yale-NUS) <br><br>
+<i>The role of information in the Rosen-Roback framework</i> <br><b>Ran Song</b> (Yale-NUS) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1353,9 +1265,7 @@ Song</b> (Yale-NUS) <br><br>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Do subjective perceptions shape adaptation to climate change?
-Evidence from Bangladesh</i> <br><b>Guglielmo Zappala</b> (Paris School
-of Economics) <br><br>
+<i>Do subjective perceptions shape adaptation to climate change? Evidence from Bangladesh</i> <br><b>Guglielmo Zappala</b> (Paris School of Economics) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1366,8 +1276,7 @@ of Economics) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>The cost of saving the Amazon</i> <br><b>Rabail Chandio</b> (Ohio
-State) <br><br>
+<i>The cost of saving the Amazon</i> <br><b>Rabail Chandio</b> (Ohio State) <br><br>
 </td>
 </tr>
 </table>
@@ -1392,8 +1301,7 @@ State) <br><br>
 1:00PM <b>PST</b> (4:00PM <b>EST</b>)
 </td>
 <td>
-<i>Choice architecture 2.0: Embedding reflection in nudges to promote
-low carbon diets</i> <br><b>Sanchayan Banerjee</b> (LSE) <br><br>
+<i>Choice architecture 2.0: Embedding reflection in nudges to promote low carbon diets</i> <br><b>Sanchayan Banerjee</b> (LSE) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1404,8 +1312,7 @@ low carbon diets</i> <br><b>Sanchayan Banerjee</b> (LSE) <br><br>
 1:20PM <b>PST</b> (4:20PM <b>EST</b>)
 </td>
 <td>
-<i>Mental scarcity and collective action</i> <br><b>Todd Guilfoos</b>
-(University of Rhode Island) <br><br>
+<i>Mental scarcity and collective action</i> <br><b>Todd Guilfoos</b> (University of Rhode Island) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1416,9 +1323,7 @@ low carbon diets</i> <br><b>Sanchayan Banerjee</b> (LSE) <br><br>
 1:40PM <b>PST</b> (4:40PM <b>EST</b>)
 </td>
 <td>
-<i>Role of gender identity on conservation practice choice in an
-agricultural land leasing context: A lab experiment</i> <br><b>Diya
-Ganguly</b> (University of Nebraska–Lincoln) <br><br>
+<i>Role of gender identity on conservation practice choice in an agricultural land leasing context: A lab experiment</i> <br><b>Diya Ganguly</b> (University of Nebraska–Lincoln) <br><br>
 </td>
 </tr>
 </table>
@@ -1443,8 +1348,7 @@ Ganguly</b> (University of Nebraska–Lincoln) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Strategic local regulators and the efficacy of national pollution
-standards</i> <br><b>Ruohao Zhang</b> (Northwestern) <br><br>
+<i>Strategic local regulators and the efficacy of national pollution standards</i> <br><b>Ruohao Zhang</b> (Northwestern) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1455,9 +1359,7 @@ standards</i> <br><b>Ruohao Zhang</b> (Northwestern) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Environmental externalities and social contact: Evidence from
-refinery pollution in the U.S.</i> <br><b>Xinming Du</b> (Columbia)
-<br><br>
+<i>Environmental externalities and social contact: Evidence from refinery pollution in the U.S.</i> <br><b>Xinming Du</b> (Columbia) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1468,9 +1370,7 @@ refinery pollution in the U.S.</i> <br><b>Xinming Du</b> (Columbia)
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Local inequalities generated by fracking, remote sensing of
-neighborhood transformation</i> <br><b>Arman Khachiyan</b> (UCSD)
-<br><br>
+<i>Local inequalities generated by fracking, remote sensing of neighborhood transformation</i> <br><b>Arman Khachiyan</b> (UCSD) <br><br>
 </td>
 </tr>
 </table>
@@ -1495,8 +1395,7 @@ neighborhood transformation</i> <br><b>Arman Khachiyan</b> (UCSD)
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Uncertainty in preferences for recharging electric vehicles</i>
-<br><b>Gracia Bruchmann</b> (Bern) <br><br>
+<i>Uncertainty in preferences for recharging electric vehicles</i> <br><b>Gracia Bruchmann</b> (Bern) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1507,9 +1406,7 @@ neighborhood transformation</i> <br><b>Arman Khachiyan</b> (UCSD)
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Effects of public transit fares increases on gasoline consumption:
-High-frequency evidence from China</i> <br><b>Yuchen Wang</b> (Pitt)
-<br><br>
+<i>Effects of public transit fares increases on gasoline consumption: High-frequency evidence from China</i> <br><b>Yuchen Wang</b> (Pitt) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1520,8 +1417,7 @@ High-frequency evidence from China</i> <br><b>Yuchen Wang</b> (Pitt)
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>For whom the bridge tolls: Congestion, air pollution, and second-best
-road pricing</i> <br><b>Matthew Tarduno</b> (UC Berkeley) <br><br>
+<i>For whom the bridge tolls: Congestion, air pollution, and second-best road pricing</i> <br><b>Matthew Tarduno</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 </table>
@@ -1546,8 +1442,7 @@ road pricing</i> <br><b>Matthew Tarduno</b> (UC Berkeley) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Disentangling the many-to-many mapping of natural capital and
-ecosystem services</i> <br><b>Ethan Addicott</b> (Yale) <br><br>
+<i>Disentangling the many-to-many mapping of natural capital and ecosystem services</i> <br><b>Ethan Addicott</b> (Yale) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1558,9 +1453,7 @@ ecosystem services</i> <br><b>Ethan Addicott</b> (Yale) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Technology transitions and the timing of environmental policy:
-Evidence from efficient lighting</i> <br><b>Sarah Armitage</b> (Harvard)
-<br><br>
+<i>Technology transitions and the timing of environmental policy: Evidence from efficient lighting</i> <br><b>Sarah Armitage</b> (Harvard) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1571,9 +1464,7 @@ Evidence from efficient lighting</i> <br><b>Sarah Armitage</b> (Harvard)
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Cost-effectiveness and robustness of conservation measures in
-agricultural landscapes facing climate change</i> <br><b>Charlotte
-Gerling</b> (TU Berlin) <br><br>
+<i>Cost-effectiveness and robustness of conservation measures in agricultural landscapes facing climate change</i> <br><b>Charlotte Gerling</b> (TU Berlin) <br><br>
 </td>
 </tr>
 </table>
@@ -1598,9 +1489,7 @@ Gerling</b> (TU Berlin) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Can recycled water cure all? Coastal agriculture’s battle with
-seawater intrusion and groundwater overdraft</i> <br><b>Molly Sears</b>
-(UC Berkeley) <br><br>
+<i>Can recycled water cure all? Coastal agriculture’s battle with seawater intrusion and groundwater overdraft</i> <br><b>Molly Sears</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1611,8 +1500,7 @@ seawater intrusion and groundwater overdraft</i> <br><b>Molly Sears</b>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Cicadian rhythm: Insecticides, infant health, and long-term
-outcomes</i> <br><b>Charles Taylor</b> (Columbia) <br><br>
+<i>Cicadian rhythm: Insecticides, infant health, and long-term outcomes</i> <br><b>Charles Taylor</b> (Columbia) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1623,8 +1511,7 @@ outcomes</i> <br><b>Charles Taylor</b> (Columbia) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Is working at home a way of adaptation to climate change?</i>
-<br><b>Wensu Li</b> (Trinity) <br><br>
+<i>Is working at home a way of adaptation to climate change?</i> <br><b>Wensu Li</b> (Trinity) <br><br>
 </td>
 </tr>
 </table>
@@ -1649,8 +1536,7 @@ outcomes</i> <br><b>Charles Taylor</b> (Columbia) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>The dynamic impacts of floods on households: The case of Nigeria in
-2012</i> <br><b>Mook Bangalore</b> (LSE) <br><br>
+<i>The dynamic impacts of floods on households: The case of Nigeria in 2012</i> <br><b>Mook Bangalore</b> (LSE) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1661,8 +1547,7 @@ outcomes</i> <br><b>Charles Taylor</b> (Columbia) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>The impact of drought on structural transformation in India</i>
-<br><b>Sayahnika Basu</b> (UCSD) <br><br>
+<i>The impact of drought on structural transformation in India</i> <br><b>Sayahnika Basu</b> (UCSD) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1673,8 +1558,7 @@ outcomes</i> <br><b>Charles Taylor</b> (Columbia) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>People use park with people: evidence from the COVID-19 pandemic</i>
-<br><b>Andie Creel</b> (Yale) <br><br>
+<i>People use park with people: evidence from the COVID-19 pandemic</i> <br><b>Andie Creel</b> (Yale) <br><br>
 </td>
 </tr>
 </table>
@@ -1699,8 +1583,7 @@ outcomes</i> <br><b>Charles Taylor</b> (Columbia) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Beware of side effects? Spillover evidence from a hot water
-intervention</i> <br><b>Harald Mayr</b> (ETH Zurich) <br><br>
+<i>Beware of side effects? Spillover evidence from a hot water intervention</i> <br><b>Harald Mayr</b> (ETH Zurich) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1711,8 +1594,7 @@ intervention</i> <br><b>Harald Mayr</b> (ETH Zurich) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Incentives for the energy transition: Feed-in tariffs, rebates, or a
-hybrid design?</i> <br><b>Marta Talevi</b> (Yale) <br><br>
+<i>Incentives for the energy transition: Feed-in tariffs, rebates, or a hybrid design?</i> <br><b>Marta Talevi</b> (Yale) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1723,8 +1605,7 @@ hybrid design?</i> <br><b>Marta Talevi</b> (Yale) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Culpable consumption: Residential response to price and non-price
-drought measures</i> <br><b>James Sears</b> (UC Berkeley) <br><br>
+<i>Culpable consumption: Residential response to price and non-price drought measures</i> <br><b>James Sears</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 </table>
@@ -1749,8 +1630,7 @@ drought measures</i> <br><b>James Sears</b> (UC Berkeley) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Engaging Farmers Through Tailored Information</i> <br><b>Collin
-Weigel</b> (California Air Resources Board) <br><br>
+<i>Engaging Farmers Through Tailored Information</i> <br><b>Collin Weigel</b> (California Air Resources Board) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1761,8 +1641,7 @@ Weigel</b> (California Air Resources Board) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>The Promise of Crop Substitution Programs</i> <br><b>James Sayre</b>
-(UC Berkeley) <br><br>
+<i>The Promise of Crop Substitution Programs</i> <br><b>James Sayre</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1773,9 +1652,7 @@ Weigel</b> (California Air Resources Board) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Climate Change, The Food Problem, and the Challenge of Adaptation
-through Sectoral Reallocation</i> <br><b>Ishan Nath</b> (Chicago)
-<br><br>
+<i>Climate Change, The Food Problem, and the Challenge of Adaptation through Sectoral Reallocation</i> <br><b>Ishan Nath</b> (Chicago) <br><br>
 </td>
 </tr>
 </table>
@@ -1800,8 +1677,7 @@ through Sectoral Reallocation</i> <br><b>Ishan Nath</b> (Chicago)
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>The First to Bear the Brunt: China’s Energy Program Evaluation</i>
-<br><b>Xiangyu Meng</b> (Georgia State) <br><br>
+<i>The First to Bear the Brunt: China’s Energy Program Evaluation</i> <br><b>Xiangyu Meng</b> (Georgia State) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1812,8 +1688,7 @@ through Sectoral Reallocation</i> <br><b>Ishan Nath</b> (Chicago)
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>CAFE Standards or Gasoline Taxes: A Structural Study of Fuel Saving
-Under Different Policies</i> <br><b>Siqi Liu</b> (Brandeis) <br><br>
+<i>CAFE Standards or Gasoline Taxes: A Structural Study of Fuel Saving Under Different Policies</i> <br><b>Siqi Liu</b> (Brandeis) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1824,8 +1699,7 @@ Under Different Policies</i> <br><b>Siqi Liu</b> (Brandeis) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Policy Design and the Effects of Heavy-Duty Vehicle Fuel Economy
-Standards</i> <br><b>Stephanie Weber</b> (Yale) <br><br>
+<i>Policy Design and the Effects of Heavy-Duty Vehicle Fuel Economy Standards</i> <br><b>Stephanie Weber</b> (Yale) <br><br>
 </td>
 </tr>
 </table>
@@ -1850,8 +1724,7 @@ Standards</i> <br><b>Stephanie Weber</b> (Yale) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Environmental regulation and firm size</i> <br><b>Muhammad Haseeb</b>
-(Geneva) <br><br>
+<i>Environmental regulation and firm size</i> <br><b>Muhammad Haseeb</b> (Geneva) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1862,8 +1735,7 @@ Standards</i> <br><b>Stephanie Weber</b> (Yale) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>COVID-19 pandemic reveals persistent disparities in NO<sub>2</sub>
-pollution</i> <br><b>Gaige Kerr</b> (George Washington) <br><br>
+<i>COVID-19 pandemic reveals persistent disparities in NO<sub>2</sub> pollution</i> <br><b>Gaige Kerr</b> (George Washington) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1874,8 +1746,7 @@ pollution</i> <br><b>Gaige Kerr</b> (George Washington) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>The distributional consequences of environmental regulation</i>
-<br><b>Danae Hernandez-Cortez</b> (UC Santa Barbara) <br><br>
+<i>The distributional consequences of environmental regulation</i> <br><b>Danae Hernandez-Cortez</b> (UC Santa Barbara) <br><br>
 </td>
 </tr>
 </table>
@@ -1900,8 +1771,7 @@ pollution</i> <br><b>Gaige Kerr</b> (George Washington) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Downwind and out: The strategic dispersion of power plants and their
-pollution</i> <br><b>John Morehouse</b> (Oregon) <br><br>
+<i>Downwind and out: The strategic dispersion of power plants and their pollution</i> <br><b>John Morehouse</b> (Oregon) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1912,9 +1782,7 @@ pollution</i> <br><b>John Morehouse</b> (Oregon) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Do credit constraints explain the energy efficiency gap? Evidence
-from the U.S. new vehicle market</i> <br><b>Kevin Ankney</b>
-(Georgetown) <br><br>
+<i>Do credit constraints explain the energy efficiency gap? Evidence from the U.S. new vehicle market</i> <br><b>Kevin Ankney</b> (Georgetown) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1925,8 +1793,7 @@ from the U.S. new vehicle market</i> <br><b>Kevin Ankney</b>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Mining, deforestation and the global commodity boom</i>
-<br><b>Victoria Wenxin Xie</b> (Santa Clara) <br><br>
+<i>Mining, deforestation and the global commodity boom</i> <br><b>Victoria Wenxin Xie</b> (Santa Clara) <br><br>
 </td>
 </tr>
 </table>
@@ -1951,8 +1818,7 @@ from the U.S. new vehicle market</i> <br><b>Kevin Ankney</b>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>The effect of shale drilling on Native lands: An IV approach</i>
-<br><b>Anna Malinovskaya</b> (Cornell) <br><br>
+<i>The effect of shale drilling on Native lands: An IV approach</i> <br><b>Anna Malinovskaya</b> (Cornell) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -1963,8 +1829,7 @@ from the U.S. new vehicle market</i> <br><b>Kevin Ankney</b>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Adaptation and mitigation of air pollution: evidence from air quality
-warnings</i> <br><b>Sandra Aguilar-Gómez</b> (Columbia) <br><br>
+<i>Adaptation and mitigation of air pollution: evidence from air quality warnings</i> <br><b>Sandra Aguilar-Gómez</b> (Columbia) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -1975,8 +1840,7 @@ warnings</i> <br><b>Sandra Aguilar-Gómez</b> (Columbia) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>The time-of-day travel demand elasticity paradox</i> <br><b>Cody
-Nehiba</b> (LSU) <br><br>
+<i>The time-of-day travel demand elasticity paradox</i> <br><b>Cody Nehiba</b> (LSU) <br><br>
 </td>
 </tr>
 </table>
@@ -2001,9 +1865,7 @@ Nehiba</b> (LSU) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Wind power penetration impacts on wholesale electricity market
-prices: Evidence from quantile regression approach</i> <br><b>Bolarinwa
-Ajanaku</b> (West Virginia) <br><br>
+<i>Wind power penetration impacts on wholesale electricity market prices: Evidence from quantile regression approach</i> <br><b>Bolarinwa Ajanaku</b> (West Virginia) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2014,8 +1876,7 @@ Ajanaku</b> (West Virginia) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Short- and long-run effects of electricity grid expansion</i>
-<br><b>Gaurav Doshi</b> (Wisconsin) <br><br>
+<i>Short- and long-run effects of electricity grid expansion</i> <br><b>Gaurav Doshi</b> (Wisconsin) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2026,8 +1887,7 @@ Ajanaku</b> (West Virginia) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Theoretical and empirical evaluation of a competitive energy rebate
-program</i> <br><b>Chi Ta</b> (Illinois) <br><br>
+<i>Theoretical and empirical evaluation of a competitive energy rebate program</i> <br><b>Chi Ta</b> (Illinois) <br><br>
 </td>
 </tr>
 </table>
@@ -2052,8 +1912,7 @@ program</i> <br><b>Chi Ta</b> (Illinois) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>The Social Costs of NIMBYism: Evidence from Renewable Energy Projects
-in the United Kingdom</i> <br><b>Stephen Jarvis</b> (Mannheim) <br><br>
+<i>The Social Costs of NIMBYism: Evidence from Renewable Energy Projects in the United Kingdom</i> <br><b>Stephen Jarvis</b> (Mannheim) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2064,8 +1923,7 @@ in the United Kingdom</i> <br><b>Stephen Jarvis</b> (Mannheim) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Optimal Timing of Electric Vehicle Subsidies</i> <br><b>Qingran
-Li</b> (Duke) <br><br>
+<i>Optimal Timing of Electric Vehicle Subsidies</i> <br><b>Qingran Li</b> (Duke) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2076,8 +1934,7 @@ Li</b> (Duke) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Linking Carbon Markets with Different Initial Conditions</i>
-<br><b>Matt Woerman</b> (UMass Amherst) <br><br>
+<i>Linking Carbon Markets with Different Initial Conditions</i> <br><b>Matt Woerman</b> (UMass Amherst) <br><br>
 </td>
 </tr>
 </table>
@@ -2102,9 +1959,7 @@ Li</b> (Duke) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Credit and attention in the adoption of profitable energy efficient
-technologies in Kenya</i> <br><b>Susanna Berkouwer</b> (Penn Wharton)
-<br><br>
+<i>Credit and attention in the adoption of profitable energy efficient technologies in Kenya</i> <br><b>Susanna Berkouwer</b> (Penn Wharton) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2115,9 +1970,7 @@ technologies in Kenya</i> <br><b>Susanna Berkouwer</b> (Penn Wharton)
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Air pollution, health, and racial disparities: Evidence from
-ports</i> <br><b>Pei Huang</b> (ZEW - Leibniz Centre for European
-Economic Research) <br><br>
+<i>Air pollution, health, and racial disparities: Evidence from ports</i> <br><b>Pei Huang</b> (ZEW - Leibniz Centre for European Economic Research) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2128,9 +1981,7 @@ Economic Research) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Can mining change regressive cultural norms? Evidence on acceptance
-of domestic violence and shared decision-making in india</i>
-<br><b>James Ji</b> (Brandeis) <br><br>
+<i>Can mining change regressive cultural norms? Evidence on acceptance of domestic violence and shared decision-making in india</i> <br><b>James Ji</b> (Brandeis) <br><br>
 </td>
 </tr>
 </table>
@@ -2155,8 +2006,7 @@ of domestic violence and shared decision-making in india</i>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Nutritional Impact of Payments for Ecosystem Services (PES) in Rural
-China</i> <br><b>Wumeng He</b> (Duke) <br><br>
+<i>Nutritional Impact of Payments for Ecosystem Services (PES) in Rural China</i> <br><b>Wumeng He</b> (Duke) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2167,8 +2017,7 @@ China</i> <br><b>Wumeng He</b> (Duke) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Sustainable Agriculture, Residue Burning, and Urban Infant Mortality:
-Evidence from Mexico</i> <br><b>Joel Ferguson</b> (UC Berkeley) <br><br>
+<i>Sustainable Agriculture, Residue Burning, and Urban Infant Mortality: Evidence from Mexico</i> <br><b>Joel Ferguson</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2179,10 +2028,7 @@ Evidence from Mexico</i> <br><b>Joel Ferguson</b> (UC Berkeley) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Spillovers to Manufacturing Plants from Multimillion Dollar
-Plantations: Evidence from the Indonesian Palm Oil Boom</i>
-<br><b>Sebastian Kraus</b> (Mercator Research Institute on Global
-Commons and Climate Change) <br><br>
+<i>Spillovers to Manufacturing Plants from Multimillion Dollar Plantations: Evidence from the Indonesian Palm Oil Boom</i> <br><b>Sebastian Kraus</b> (Mercator Research Institute on Global Commons and Climate Change) <br><br>
 </td>
 </tr>
 </table>
@@ -2207,8 +2053,7 @@ Commons and Climate Change) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Draining the swamp: Wetlands, flood mitigation, and the Clean Water
-Act</i> <br><b>Hannah Druckenmiller</b> (UC Berkeley) <br><br>
+<i>Draining the swamp: Wetlands, flood mitigation, and the Clean Water Act</i> <br><b>Hannah Druckenmiller</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2219,8 +2064,7 @@ Act</i> <br><b>Hannah Druckenmiller</b> (UC Berkeley) <br><br>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>Inundated by change: The effects of land use on flood damages</i>
-<br><b>Wesley Howden</b> (UCSD) <br><br>
+<i>Inundated by change: The effects of land use on flood damages</i> <br><b>Wesley Howden</b> (UCSD) <br><br>
 </td>
 </tr>
 </table>
@@ -2245,8 +2089,7 @@ Act</i> <br><b>Hannah Druckenmiller</b> (UC Berkeley) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Exploring the impacts of air pollution on sleep</i> <br><b>Dheeya
-Rizmie</b> (Imperial College London) <br><br>
+<i>Exploring the impacts of air pollution on sleep</i> <br><b>Dheeya Rizmie</b> (Imperial College London) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2257,8 +2100,7 @@ Rizmie</b> (Imperial College London) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Pollution Monitoring, Strategic Behavior, and Dynamic
-Representativeness</i> <br><b>Lin Yang</b> (Cornell) <br><br>
+<i>Pollution Monitoring, Strategic Behavior, and Dynamic Representativeness</i> <br><b>Lin Yang</b> (Cornell) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2269,9 +2111,7 @@ Representativeness</i> <br><b>Lin Yang</b> (Cornell) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>The Grandkids Aren’t Alright: The Intergenerational Effects of
-Prenatal Pollution Exposure</i> <br><b>Jonathan Colmer</b> (Virginia)
-<br><br>
+<i>The Grandkids Aren’t Alright: The Intergenerational Effects of Prenatal Pollution Exposure</i> <br><b>Jonathan Colmer</b> (Virginia) <br><br>
 </td>
 </tr>
 </table>
@@ -2279,9 +2119,8 @@ Prenatal Pollution Exposure</i> <br><b>Jonathan Colmer</b> (Virginia)
 </div>
 </div>
 <div id="section-6" class="section level2 tabset tabset-fade">
-<h2 class="tabset tabset-fade">2020</h2>
-<div id="pollution-and-environmental-policy-20201211"
-class="section level3">
+<h2>2020</h2>
+<div id="pollution-and-environmental-policy-20201211" class="section level3">
 <h3><strong>Pollution and environmental policy:</strong> 2020/12/11</h3>
 <p>
 <table style="width:100%">
@@ -2300,9 +2139,7 @@ class="section level3">
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Earth, Wind, and Fire: The impact of anti-poverty efforts on Indian
-agriculture and pollution</i> <br><b>Patrick Behrer</b> (Stanford)
-<br><br>
+<i>Earth, Wind, and Fire: The impact of anti-poverty efforts on Indian agriculture and pollution</i> <br><b>Patrick Behrer</b> (Stanford) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2313,9 +2150,7 @@ agriculture and pollution</i> <br><b>Patrick Behrer</b> (Stanford)
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Free Power, Irrigation, and Groundwater Depletion: Impact of the Farm
-Electricity Policy of Punjab, India</i> <br><b>Disha Gupta</b> (Delhi
-School of Economics) <br><br>
+<i>Free Power, Irrigation, and Groundwater Depletion: Impact of the Farm Electricity Policy of Punjab, India</i> <br><b>Disha Gupta</b> (Delhi School of Economics) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2326,8 +2161,7 @@ School of Economics) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey
-City and Across the U.S.</i> <br><b>Eric Zou</b> (Oregon) <br><br>
+<i>Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.</i> <br><b>Eric Zou</b> (Oregon) <br><br>
 </td>
 </tr>
 </table>
@@ -2352,8 +2186,7 @@ City and Across the U.S.</i> <br><b>Eric Zou</b> (Oregon) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Local public finance dynamics and hurricane shocks</i>
-<br><b>Rhiannon Jerch</b> (Temple) <br><br>
+<i>Local public finance dynamics and hurricane shocks</i> <br><b>Rhiannon Jerch</b> (Temple) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2364,8 +2197,7 @@ City and Across the U.S.</i> <br><b>Eric Zou</b> (Oregon) <br><br>
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>The health effects of floods on the urban poor</i> <br><b>Michelle
-Escobar</b> (Monash) <br><br>
+<i>The health effects of floods on the urban poor</i> <br><b>Michelle Escobar</b> (Monash) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2376,9 +2208,7 @@ Escobar</b> (Monash) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Infrastructure Upgrades and Lead Exposure: Do Cities Face Trade-Offs
-When Replacing Water Mains</i> <br><b>Ludovica Gazze</b> (Warwick)
-<i>with Jennifer Heissel</i> <br><br>
+<i>Infrastructure Upgrades and Lead Exposure: Do Cities Face Trade-Offs When Replacing Water Mains</i> <br><b>Ludovica Gazze</b> (Warwick) <i>with Jennifer Heissel</i> <br><br>
 </td>
 </tr>
 </table>
@@ -2403,9 +2233,7 @@ When Replacing Water Mains</i> <br><b>Ludovica Gazze</b> (Warwick)
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Levelized Full System Costs of Electricity: A Novel Approach to
-Evaluate Intermittent Generation</i> <br><b>Robert Idel</b> (Rice)
-<br><br>
+<i>Levelized Full System Costs of Electricity: A Novel Approach to Evaluate Intermittent Generation</i> <br><b>Robert Idel</b> (Rice) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2416,8 +2244,7 @@ Evaluate Intermittent Generation</i> <br><b>Robert Idel</b> (Rice)
 1:20PM <b>PDT</b> (4:20PM <b>EDT</b>)
 </td>
 <td>
-<i>Large-Scale Wind Power Investment’s Impact on Wholesale Electricity
-Markets</i> <br><b>Omer Karaduman</b> (Stanford) <br><br>
+<i>Large-Scale Wind Power Investment’s Impact on Wholesale Electricity Markets</i> <br><b>Omer Karaduman</b> (Stanford) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2428,9 +2255,7 @@ Markets</i> <br><b>Omer Karaduman</b> (Stanford) <br><br>
 1:40PM <b>PDT</b> (4:40PM <b>EDT</b>)
 </td>
 <td>
-<i>Bunching in Residential Electricity Consumption</i> <br><b>Laura
-Grant</b> (Claremont McKenna College) <i>with Becka Brolinson</i>
-<br><br>
+<i>Bunching in Residential Electricity Consumption</i> <br><b>Laura Grant</b> (Claremont McKenna College) <i>with Becka Brolinson</i> <br><br>
 </td>
 </tr>
 </table>
@@ -2455,8 +2280,7 @@ Grant</b> (Claremont McKenna College) <i>with Becka Brolinson</i>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>The Ins and Outs of Employment: Labor Market Adjustments to Carbon
-Taxes</i> <br><b>Chi Man Yip</b> (Calgary) <br><br>
+<i>The Ins and Outs of Employment: Labor Market Adjustments to Carbon Taxes</i> <br><b>Chi Man Yip</b> (Calgary) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2467,8 +2291,7 @@ Taxes</i> <br><b>Chi Man Yip</b> (Calgary) <br><br>
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>The problem with pricing “carbon”: exploring forest-driven albedo
-effects in DICELAND </i> <br><b>Emily McGlynn</b> (UC Davis) <br><br>
+<i>The problem with pricing “carbon”: exploring forest-driven albedo effects in DICELAND </i> <br><b>Emily McGlynn</b> (UC Davis) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2479,8 +2302,7 @@ effects in DICELAND </i> <br><b>Emily McGlynn</b> (UC Davis) <br><br>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>Water Availability and Heat-Related Mortality: Evidence from South
-Africa </i> <br><b>Kelly Hyde</b> (Pittsburgh) <br><br>
+<i>Water Availability and Heat-Related Mortality: Evidence from South Africa </i> <br><b>Kelly Hyde</b> (Pittsburgh) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2491,9 +2313,7 @@ Africa </i> <br><b>Kelly Hyde</b> (Pittsburgh) <br><br>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>Adaptation and Adverse Selection in Markets for Natural Disaster
-Insurance</i> <br><b>Katherine Wagner</b> (Stanford/UC Berkeley)
-<br><br>
+<i>Adaptation and Adverse Selection in Markets for Natural Disaster Insurance</i> <br><b>Katherine Wagner</b> (Stanford/UC Berkeley) <br><br>
 </td>
 </tr>
 </table>
@@ -2518,8 +2338,7 @@ Insurance</i> <br><b>Katherine Wagner</b> (Stanford/UC Berkeley)
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Effect of Nuclear Power Plants on Local Crop Yields</i>
-<br><b>Daniyar Zhumadilov</b> (NC State) <br><br>
+<i>Effect of Nuclear Power Plants on Local Crop Yields</i> <br><b>Daniyar Zhumadilov</b> (NC State) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2530,8 +2349,7 @@ Insurance</i> <br><b>Katherine Wagner</b> (Stanford/UC Berkeley)
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>Women Leaders Improve Local Environmental Outcomes</i> <br><b>Meera
-Mahadevan</b> (UC Irvine) <br><br>
+<i>Women Leaders Improve Local Environmental Outcomes</i> <br><b>Meera Mahadevan</b> (UC Irvine) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2542,9 +2360,7 @@ Mahadevan</b> (UC Irvine) <br><br>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>Cap-and-trade vs. Carbon Taxes: Efficiency Implications of Emissions
-Price Volatility in the Power Sector</i> <br><b>Felipe Gómez Trejos</b>
-(ASU) <br><br>
+<i>Cap-and-trade vs. Carbon Taxes: Efficiency Implications of Emissions Price Volatility in the Power Sector</i> <br><b>Felipe Gómez Trejos</b> (ASU) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2555,9 +2371,7 @@ Price Volatility in the Power Sector</i> <br><b>Felipe Gómez Trejos</b>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>The Spillover Effects of Pollution: How Exposure to Lead Affects
-Everyone in the Classroom</i> <br><b>Ludovica Gazze</b> (Warwick)
-<br><br>
+<i>The Spillover Effects of Pollution: How Exposure to Lead Affects Everyone in the Classroom</i> <br><b>Ludovica Gazze</b> (Warwick) <br><br>
 </td>
 </tr>
 </table>
@@ -2582,9 +2396,7 @@ Everyone in the Classroom</i> <br><b>Ludovica Gazze</b> (Warwick)
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Adaptation to Natural Disaster through Better Information: Evidence
-from Home Seller Disclosure Requirement</i> <br><b>Seunghoon Lee</b>
-(Chicago) <br><br>
+<i>Adaptation to Natural Disaster through Better Information: Evidence from Home Seller Disclosure Requirement</i> <br><b>Seunghoon Lee</b> (Chicago) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2595,8 +2407,7 @@ from Home Seller Disclosure Requirement</i> <br><b>Seunghoon Lee</b>
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>Climate and Irrigated Agriculture: Evidence from Cash Rents</i>
-<br><b>Nicholas Potter</b> (Washington State) <br><br>
+<i>Climate and Irrigated Agriculture: Evidence from Cash Rents</i> <br><b>Nicholas Potter</b> (Washington State) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2607,8 +2418,7 @@ from Home Seller Disclosure Requirement</i> <br><b>Seunghoon Lee</b>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>Climate Change and Adaptation in Global Supply-Chain Networks</i>
-<br><b>Nora Pankratz</b> (UCLA) <br><br>
+<i>Climate Change and Adaptation in Global Supply-Chain Networks</i> <br><b>Nora Pankratz</b> (UCLA) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2619,9 +2429,7 @@ from Home Seller Disclosure Requirement</i> <br><b>Seunghoon Lee</b>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>Reactive Adaptation to Temperature Extremes: The Remarkable Decline
-in Temperature-Yield Relationship in Chinese Agriculture Over
-1981–2010</i> <br><b>Di Wang</b> (UC Santa Barbara) <br><br>
+<i>Reactive Adaptation to Temperature Extremes: The Remarkable Decline in Temperature-Yield Relationship in Chinese Agriculture Over 1981–2010</i> <br><b>Di Wang</b> (UC Santa Barbara) <br><br>
 </td>
 </tr>
 </table>
@@ -2646,8 +2454,7 @@ in Temperature-Yield Relationship in Chinese Agriculture Over
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Optimal Carbon Tax in Oligopolies: An Application to Commercial
-Aviation</i> <br><b>Diego Cardoso</b> (Cornell) <br><br>
+<i>Optimal Carbon Tax in Oligopolies: An Application to Commercial Aviation</i> <br><b>Diego Cardoso</b> (Cornell) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2658,8 +2465,7 @@ Aviation</i> <br><b>Diego Cardoso</b> (Cornell) <br><br>
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>What Drives Battery Electric Vehicle Adoption?</i> <br><b>Christina
-Gore</b> (Ohio State) <br><br>
+<i>What Drives Battery Electric Vehicle Adoption?</i> <br><b>Christina Gore</b> (Ohio State) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2670,9 +2476,7 @@ Gore</b> (Ohio State) <br><br>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>Do Safety Inspections Improve Saftey? Evidence from the Saftey
-Inspection Program for Commercial Motor Vehicles</i> <br><b>Yuanning
-Liang</b> (Cornell) <br><br>
+<i>Do Safety Inspections Improve Saftey? Evidence from the Saftey Inspection Program for Commercial Motor Vehicles</i> <br><b>Yuanning Liang</b> (Cornell) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2683,8 +2487,7 @@ Liang</b> (Cornell) <br><br>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>Double Marginalization and the Paths of Natural Gas Gathering
-Pipelines</i> <br><b>Richard DiSalvo</b> (Princeton) <br><br>
+<i>Double Marginalization and the Paths of Natural Gas Gathering Pipelines</i> <br><b>Richard DiSalvo</b> (Princeton) <br><br>
 </td>
 </tr>
 </table>
@@ -2709,9 +2512,7 @@ Pipelines</i> <br><b>Richard DiSalvo</b> (Princeton) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Scenes from a Monopoly: Renewable Resources and Quickest Detection of
-Regime Shifts</i> <br><b>Neha Deopa</b> (The Graduate Institute, Geneva)
-<br><br>
+<i>Scenes from a Monopoly: Renewable Resources and Quickest Detection of Regime Shifts</i> <br><b>Neha Deopa</b> (The Graduate Institute, Geneva) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2722,8 +2523,7 @@ Regime Shifts</i> <br><b>Neha Deopa</b> (The Graduate Institute, Geneva)
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>Information and Spillovers from Targeting Policy in Peru’s Anchoveta
-Fishery</i> <br><b>Gabriel Englander</b> (UC Berkeley) <br><br>
+<i>Information and Spillovers from Targeting Policy in Peru’s Anchoveta Fishery</i> <br><b>Gabriel Englander</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2734,9 +2534,7 @@ Fishery</i> <br><b>Gabriel Englander</b> (UC Berkeley) <br><br>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>Forest Landowner Harvest Decisions in a New Era of Conservation
-Stewardship and Changing Markets in Maine USA</i> <br><b>Jianheng
-Zhao</b> (Maine) <br><br>
+<i>Forest Landowner Harvest Decisions in a New Era of Conservation Stewardship and Changing Markets in Maine USA</i> <br><b>Jianheng Zhao</b> (Maine) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2747,8 +2545,7 @@ Zhao</b> (Maine) <br><br>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>The Texas Grand Slam: Robbed by Red Tides?</i> <br><b>Jesse
-Backstrom</b> (Chicago) <br><br>
+<i>The Texas Grand Slam: Robbed by Red Tides?</i> <br><b>Jesse Backstrom</b> (Chicago) <br><br>
 </td>
 </tr>
 </table>
@@ -2773,9 +2570,7 @@ Backstrom</b> (Chicago) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Size-Based Regulations and Environmental Quality: Evidence from the
-U.S. Livestock Industry</i> <br><b>Chen-Ti Chen</b> (Iowa State
-University) <br><br>
+<i>Size-Based Regulations and Environmental Quality: Evidence from the U.S. Livestock Industry</i> <br><b>Chen-Ti Chen</b> (Iowa State University) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2786,8 +2581,7 @@ University) <br><br>
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>Beyond Lights: The Changing Impact of Rural Electrification on Indian
-Agriculture</i> <br><b>Sudatta Ray</b> (Stanford) <br><br>
+<i>Beyond Lights: The Changing Impact of Rural Electrification on Indian Agriculture</i> <br><b>Sudatta Ray</b> (Stanford) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2798,8 +2592,7 @@ Agriculture</i> <br><b>Sudatta Ray</b> (Stanford) <br><br>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>The Economic Impact of Schistosomiasis</i> <br><b>Daniele Rinaldo</b>
-(The Graduate Institute, Geneva) <br><br>
+<i>The Economic Impact of Schistosomiasis</i> <br><b>Daniele Rinaldo</b> (The Graduate Institute, Geneva) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2810,9 +2603,7 @@ Agriculture</i> <br><b>Sudatta Ray</b> (Stanford) <br><br>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>Agricultural Labor Exits Increase Crop Fires:
-Regression-Discontinuity Evidence from a Rural Road-Construction Program
-in India</i> <br><b>Hemant Pullabhotla</b> (Stanford) <br><br>
+<i>Agricultural Labor Exits Increase Crop Fires: Regression-Discontinuity Evidence from a Rural Road-Construction Program in India</i> <br><b>Hemant Pullabhotla</b> (Stanford) <br><br>
 </td>
 </tr>
 </table>
@@ -2837,8 +2628,7 @@ in India</i> <br><b>Hemant Pullabhotla</b> (Stanford) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Pollution and Mortality: Estimating Damages Using Pollutant-Specific
-Abatement Technologies</i> <br><b>Casey Rozowski</b> (NC State) <br><br>
+<i>Pollution and Mortality: Estimating Damages Using Pollutant-Specific Abatement Technologies</i> <br><b>Casey Rozowski</b> (NC State) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2849,8 +2639,7 @@ Abatement Technologies</i> <br><b>Casey Rozowski</b> (NC State) <br><br>
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>Pollution and Acquisition: The Environmental Justice Effects of
-Mergers</i> <br><b>Irene Jacqz</b> (Harvard) <br><br>
+<i>Pollution and Acquisition: The Environmental Justice Effects of Mergers</i> <br><b>Irene Jacqz</b> (Harvard) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2861,9 +2650,7 @@ Mergers</i> <br><b>Irene Jacqz</b> (Harvard) <br><br>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>What Driving Bans Tell Us About the Lasting Health Legacy of Diesel
-Pollution</i> <br><b>Hannah Klauber</b> (Mercator Research Institute on
-Global Commons and Climate Change) <br><br>
+<i>What Driving Bans Tell Us About the Lasting Health Legacy of Diesel Pollution</i> <br><b>Hannah Klauber</b> (Mercator Research Institute on Global Commons and Climate Change) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2874,9 +2661,7 @@ Global Commons and Climate Change) <br><br>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>Hurricane Induced Discharges from Superfund Sites: A Hedonic Price
-Analysis of Local Real Estate Market Responses</i> <br><b>Mehrnoosh
-Asadi</b> (Florida International University) <br><br>
+<i>Hurricane Induced Discharges from Superfund Sites: A Hedonic Price Analysis of Local Real Estate Market Responses</i> <br><b>Mehrnoosh Asadi</b> (Florida International University) <br><br>
 </td>
 </tr>
 </table>
@@ -2901,9 +2686,7 @@ Asadi</b> (Florida International University) <br><br>
 1:00PM <b>PDT</b> (4:00PM <b>EDT</b>)
 </td>
 <td>
-<i>Strategies, Renewables and Pass Through Costs in the German Day-Ahead
-Electricity Market</i> <br><b>Gloria Colmenares</b> (The University of
-Münster) <br><br>
+<i>Strategies, Renewables and Pass Through Costs in the German Day-Ahead Electricity Market</i> <br><b>Gloria Colmenares</b> (The University of Münster) <br><br>
 </td>
 </tr>
 <!-- Talk 2 -->
@@ -2914,9 +2697,7 @@ Münster) <br><br>
 1:15PM <b>PDT</b> (4:15PM <b>EDT</b>)
 </td>
 <td>
-<i>The Effect on Total Electricity Consumption of Behavioral Changes in
-Response to Time-Varying Pricing in the Residential Sector</i>
-<br><b>Tabaré Capitán</b> (University of Wyoming) <br><br>
+<i>The Effect on Total Electricity Consumption of Behavioral Changes in Response to Time-Varying Pricing in the Residential Sector</i> <br><b>Tabaré Capitán</b> (University of Wyoming) <br><br>
 </td>
 </tr>
 <!-- Talk 3 -->
@@ -2927,9 +2708,7 @@ Response to Time-Varying Pricing in the Residential Sector</i>
 1:30PM <b>PDT</b> (4:30PM <b>EDT</b>)
 </td>
 <td>
-<i>Contracting for Electricity in Low Income Countries: the Role of
-Liquidity Constraints and Transaction Costs</i> <br><b>Megan Lang</b>
-(UC Berkeley) <br><br>
+<i>Contracting for Electricity in Low Income Countries: the Role of Liquidity Constraints and Transaction Costs</i> <br><b>Megan Lang</b> (UC Berkeley) <br><br>
 </td>
 </tr>
 <!-- Talk 4 -->
@@ -2940,9 +2719,7 @@ Liquidity Constraints and Transaction Costs</i> <br><b>Megan Lang</b>
 1:45PM <b>PDT</b> (4:45PM <b>EDT</b>)
 </td>
 <td>
-<i>Optimization and Pricing of Ancillary Services in Low-Carbon
-Electricity Grids</i> <br><b>Luis Badesa</b> (Imperial College London)
-<br><br>
+<i>Optimization and Pricing of Ancillary Services in Low-Carbon Electricity Grids</i> <br><b>Luis Badesa</b> (Imperial College London) <br><br>
 </td>
 </tr>
 </table>

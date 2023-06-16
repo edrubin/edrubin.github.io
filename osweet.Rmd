@@ -77,14 +77,14 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Climate and carbon:** 2023/06/30
+## **Climate change and risk:** 2023/06/30
 
 <p>
   <b>Friday, 30 June 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJwpdOyvpjguHtE66WttzUJfNMEBzfagkVTZ).
+  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJctceGqrz8qHNROVzarMTuiD9y2WEcSIytD).
   <br>[Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
 
@@ -109,8 +109,8 @@ knitr::include_graphics(c(
       <td></td>
       <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
       <td>
-        <i>Carbon Default Swap: Disentangling the exposure to carbon risk through CDS</i>
-        <br><b>Alexander Blasberg</b> (University of Duisberg-Essen)
+        <i>Inattention to the coming storm? Rising seas and sovereign credit risk</i>
+        <br><b>Atreya Dey</b> (Edinburgh)
         <br><br>
       </td>
     </tr>
@@ -119,8 +119,8 @@ knitr::include_graphics(c(
       <td></td>
       <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
       <td>
-        <i>Industry exit and externalities: Evidence from coal phase-out programs and climate change</i>
-        <br><b>Megan Bailey</b> (Calgary)
+        <i>The effects of extreme wildfire and smoke events on household financial outcomes</i>
+        <br><b>Nitzan Tzur-Ilan</b> (Dallas Fed)
         <br><br>
       </td>
     </tr>
