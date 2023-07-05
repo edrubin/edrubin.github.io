@@ -984,10 +984,12 @@ December 2006 <br><br></p>
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&#39;set.seed(12345); x &lt;- rnorm(1e3); mean(x)&#39;</span></span>
 <span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&#39;rmarkdown::render_site(&quot;research.Rmd&quot;)&#39;</span></span></code></pre></div>
 <p>Create a nice timeline (shown below) in R’s <code>ggplot2</code>.</p>
-<pre><code>## Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+<pre><code>## Warning: Using `size` aesthetic for lines was deprecated in ggplot2
+## 3.4.0.
 ## ℹ Please use `linewidth` instead.
 ## This warning is displayed once every 8 hours.
-## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was generated.</code></pre>
+## Call `lifecycle::last_lifecycle_warnings()` to see where
+## this warning was generated.</code></pre>
 <p><img src="research_files/figure-html/timeline-1.png" width="1312.5" /></p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># Setup ----</span></span>
 <span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="co"># Packages</span></span>
@@ -1162,15 +1164,27 @@ class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href=
 
 <!-- <?php include_once("analyticstracking.php") ?> -->
 
-<!-- For Google Analytics: -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88887510-1"></script>
 <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88887510-1');
+</script>
+
+
+<!-- Old Google Analytics tag -->
+<!-- For Google Analytics: -->
+<!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-88887510-1', 'auto');
   ga('send', 'pageview');
-</script>
+</script> -->
 
 <!-- Start of LiveChat (www.livechatinc.com) code -->
 <!-- <script type="text/javascript">

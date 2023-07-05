@@ -10,15 +10,15 @@ title: "Ed Rubin: Teaching"
 
 <br>
 
-__[EC 607](https://github.com/edrubin/EC607S21): PhD Econometrics (III)__
-<br>[Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20)
+__[EC 607](https://github.com/edrubin/EC607S23): PhD Econometrics (III)__
+<br>[Spring 2023](https://github.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20)
 <br>University of Oregon
 <br>Instructor
 
 <br>
 
-__[EC 524/424](https://github.com/edrubin/EC524W21): Masters Econometrics: Machine Learning and Prediction__
-<br>[Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
+__[EC 524/424](https://github.com/edrubin/EC524W23): Masters Econometrics: Machine Learning and Prediction__
+<br>[Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
 <br>University of Oregon
 <br>Instructor
 
@@ -32,7 +32,7 @@ __[EC 525/425](https://github.com/edrubin/EC525S19): PhD Econometrics (III)__
 <br>
 
 __[EC 421](https://github.com/edrubin/EC421W19): Introduction to Econometrics (II)__
-<br>Spring 2022, Winter 2022, [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
+<br>Spring 2023, Winter 2023,, Spring 2022, Winter 2022, [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
 <br>University of Oregon
 <br>Instructor
 
