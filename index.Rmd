@@ -3,7 +3,7 @@
 title: ""
 ---
 
-<img align="left" src="Photos/ed-hat-crop.png" HSPACE = "50" class="center-fit">
+<!-- <img align="left" src="Photos/ed-hat-crop.png" HSPACE = "50" class="center-fit"> -->
 
 <!-- <img align="right" src="Photos/edFormal2Tall.jpg" width = "300"> -->
 <!-- <img align="left" src="Photos/ed-hat-crop.png" width = "200" HSPACE = "50"> -->
