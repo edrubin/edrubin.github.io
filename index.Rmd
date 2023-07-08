@@ -27,7 +27,7 @@ I'm [Ed Rubin](bio.html), an assistant professor in the [Department of Economics
 
 <h3>`research`</h3>
 
-I'm an environmental economist who researches how human behavior affects (individual, social, and policy) social equity and the health of the natural world.
+I'm an environmental economist who researches how human behavior (individual and policy) affects social equity and the health of the natural world.
 
 As an empiricist, I tackle these issues with a toolbox that draws from economics, econometrics, statistics, and data science.
 
