@@ -40,3 +40,7 @@ a:link {
 a:visited {
   text-decoration: none;
 }
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}

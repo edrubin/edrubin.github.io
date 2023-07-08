@@ -984,81 +984,75 @@ December 2006 <br><br></p>
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&#39;set.seed(12345); x &lt;- rnorm(1e3); mean(x)&#39;</span></span>
 <span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">&#39;rmarkdown::render_site(&quot;research.Rmd&quot;)&#39;</span></span></code></pre></div>
 <p>Create a nice timeline (shown below) in R’s <code>ggplot2</code>.</p>
-<pre><code>## Warning: Using `size` aesthetic for lines was deprecated in ggplot2
-## 3.4.0.
-## ℹ Please use `linewidth` instead.
-## This warning is displayed once every 8 hours.
-## Call `lifecycle::last_lifecycle_warnings()` to see where
-## this warning was generated.</code></pre>
 <p><img src="research_files/figure-html/timeline-1.png" width="1312.5" /></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># Setup ----</span></span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="co"># Packages</span></span>
-<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co"># Define colors (from https://www.materialpalette.com)</span></span>
-<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a>dark_primary_color   <span class="ot">&lt;-</span> <span class="st">&quot;#C2185B&quot;</span></span>
-<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a>primary_color        <span class="ot">&lt;-</span> <span class="st">&quot;#E91E63&quot;</span></span>
-<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>light_primary_color  <span class="ot">&lt;-</span> <span class="st">&quot;#F8BBD0&quot;</span></span>
-<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a>text_primary_color   <span class="ot">&lt;-</span> <span class="st">&quot;#FFFFFF&quot;</span></span>
-<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a>accent_color         <span class="ot">&lt;-</span> <span class="st">&quot;#9E9E9E&quot;</span></span>
-<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a>primary_text_color   <span class="ot">&lt;-</span> <span class="st">&quot;#212121&quot;</span></span>
-<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a>secondary_text_color <span class="ot">&lt;-</span> <span class="st">&quot;#757575&quot;</span></span>
-<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a>divider_color        <span class="ot">&lt;-</span> <span class="st">&quot;#BDBDBD&quot;</span></span>
-<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a><span class="co"># Plot the timeline ----</span></span>
-<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
-<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a>  <span class="co"># Two rectangles</span></span>
-<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2009</span>, <span class="at">xmax =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
-<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a>    <span class="at">fill =</span> divider_color) <span class="sc">+</span></span>
-<span id="cb3-19"><a href="#cb3-19" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xmax =</span> <span class="dv">2014</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
-<span id="cb3-20"><a href="#cb3-20" tabindex="-1"></a>    <span class="at">fill =</span> light_primary_color) <span class="sc">+</span></span>
-<span id="cb3-21"><a href="#cb3-21" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2014</span>, <span class="at">xmax =</span> <span class="dv">2017</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
-<span id="cb3-22"><a href="#cb3-22" tabindex="-1"></a>    <span class="at">fill =</span> primary_color) <span class="sc">+</span></span>
-<span id="cb3-23"><a href="#cb3-23" tabindex="-1"></a>  <span class="co"># Label rectangles (periods)</span></span>
-<span id="cb3-24"><a href="#cb3-24" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2010</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.15</span>, <span class="at">label =</span> <span class="st">&quot;Period A&quot;</span>,</span>
-<span id="cb3-25"><a href="#cb3-25" tabindex="-1"></a>    <span class="at">color =</span> divider_color) <span class="sc">+</span></span>
-<span id="cb3-26"><a href="#cb3-26" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="fl">2015.5</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.15</span>, <span class="at">label =</span> <span class="st">&quot;Period B&quot;</span>,</span>
-<span id="cb3-27"><a href="#cb3-27" tabindex="-1"></a>    <span class="at">color =</span> primary_color) <span class="sc">+</span></span>
-<span id="cb3-28"><a href="#cb3-28" tabindex="-1"></a>  <span class="co"># Add ellipses</span></span>
-<span id="cb3-29"><a href="#cb3-29" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, <span class="sc">-</span><span class="fl">0.15</span>), <span class="at">y =</span> <span class="fl">0.175</span>,</span>
-<span id="cb3-30"><a href="#cb3-30" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">color =</span> divider_color) <span class="sc">+</span></span>
-<span id="cb3-31"><a href="#cb3-31" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="at">y =</span> <span class="fl">0.175</span>,</span>
-<span id="cb3-32"><a href="#cb3-32" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">color =</span> primary_color) <span class="sc">+</span></span>
-<span id="cb3-33"><a href="#cb3-33" tabindex="-1"></a>  <span class="co"># Time axis</span></span>
-<span id="cb3-34"><a href="#cb3-34" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="dv">1</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-35"><a href="#cb3-35" tabindex="-1"></a>  <span class="co"># Label time</span></span>
-<span id="cb3-36"><a href="#cb3-36" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2009</span><span class="sc">:</span><span class="dv">2017</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.05</span>, <span class="at">label =</span> <span class="dv">2009</span><span class="sc">:</span><span class="dv">2017</span>,</span>
-<span id="cb3-37"><a href="#cb3-37" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span>, <span class="at">color =</span> secondary_text_color) <span class="sc">+</span></span>
-<span id="cb3-38"><a href="#cb3-38" tabindex="-1"></a>  <span class="co"># Points for events</span></span>
-<span id="cb3-39"><a href="#cb3-39" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="dv">2014</span>), <span class="at">y =</span> <span class="dv">0</span>,</span>
-<span id="cb3-40"><a href="#cb3-40" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-41"><a href="#cb3-41" tabindex="-1"></a>  <span class="co"># Label events:</span></span>
-<span id="cb3-42"><a href="#cb3-42" tabindex="-1"></a>  <span class="co"># First event</span></span>
-<span id="cb3-43"><a href="#cb3-43" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.9</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
-<span id="cb3-44"><a href="#cb3-44" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-45"><a href="#cb3-45" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>,</span>
-<span id="cb3-46"><a href="#cb3-46" tabindex="-1"></a>    <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.9</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-47"><a href="#cb3-47" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</span>
-<span id="cb3-48"><a href="#cb3-48" tabindex="-1"></a>    <span class="at">y =</span> <span class="fl">0.9</span>, <span class="at">yend =</span> <span class="fl">0.9</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-49"><a href="#cb3-49" tabindex="-1"></a>  <span class="co"># Intermediate event</span></span>
-<span id="cb3-50"><a href="#cb3-50" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.7</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
-<span id="cb3-51"><a href="#cb3-51" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-52"><a href="#cb3-52" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>,</span>
-<span id="cb3-53"><a href="#cb3-53" tabindex="-1"></a>      <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.7</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-54"><a href="#cb3-54" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</span>
-<span id="cb3-55"><a href="#cb3-55" tabindex="-1"></a>      <span class="at">y =</span> <span class="fl">0.7</span>, <span class="at">yend =</span> <span class="fl">0.7</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-56"><a href="#cb3-56" tabindex="-1"></a>  <span class="co"># Period B begins</span></span>
-<span id="cb3-57"><a href="#cb3-57" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.5</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
-<span id="cb3-58"><a href="#cb3-58" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-59"><a href="#cb3-59" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2014</span>, <span class="at">xend =</span> <span class="dv">2014</span>,</span>
-<span id="cb3-60"><a href="#cb3-60" tabindex="-1"></a>      <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.5</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-61"><a href="#cb3-61" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2014</span>, <span class="at">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,</span>
-<span id="cb3-62"><a href="#cb3-62" tabindex="-1"></a>      <span class="at">y =</span> <span class="fl">0.5</span>, <span class="at">yend =</span> <span class="fl">0.5</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
-<span id="cb3-63"><a href="#cb3-63" tabindex="-1"></a>  <span class="co"># Theme stuff</span></span>
-<span id="cb3-64"><a href="#cb3-64" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
-<span id="cb3-65"><a href="#cb3-65" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.15</span>,<span class="dv">1</span>)) <span class="sc">+</span></span>
-<span id="cb3-66"><a href="#cb3-66" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text =</span> <span class="fu">element_blank</span>(), <span class="at">axis.title =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb3-67"><a href="#cb3-67" tabindex="-1"></a>    <span class="at">axis.ticks =</span> <span class="fu">element_blank</span>(), <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb3-68"><a href="#cb3-68" tabindex="-1"></a>    <span class="at">panel.border =</span> <span class="fu">element_blank</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="co"># Setup ----</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a><span class="co"># Packages</span></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a><span class="co"># Define colors (from https://www.materialpalette.com)</span></span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>dark_primary_color   <span class="ot">&lt;-</span> <span class="st">&quot;#C2185B&quot;</span></span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a>primary_color        <span class="ot">&lt;-</span> <span class="st">&quot;#E91E63&quot;</span></span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>light_primary_color  <span class="ot">&lt;-</span> <span class="st">&quot;#F8BBD0&quot;</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>text_primary_color   <span class="ot">&lt;-</span> <span class="st">&quot;#FFFFFF&quot;</span></span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a>accent_color         <span class="ot">&lt;-</span> <span class="st">&quot;#9E9E9E&quot;</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>primary_text_color   <span class="ot">&lt;-</span> <span class="st">&quot;#212121&quot;</span></span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a>secondary_text_color <span class="ot">&lt;-</span> <span class="st">&quot;#757575&quot;</span></span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a>divider_color        <span class="ot">&lt;-</span> <span class="st">&quot;#BDBDBD&quot;</span></span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a><span class="co"># Plot the timeline ----</span></span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a>  <span class="co"># Two rectangles</span></span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2009</span>, <span class="at">xmax =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
+<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a>    <span class="at">fill =</span> divider_color) <span class="sc">+</span></span>
+<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xmax =</span> <span class="dv">2014</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
+<span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a>    <span class="at">fill =</span> light_primary_color) <span class="sc">+</span></span>
+<span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a>  <span class="fu">geom_rect</span>(<span class="fu">aes</span>(<span class="at">xmin =</span> <span class="dv">2014</span>, <span class="at">xmax =</span> <span class="dv">2017</span>, <span class="at">ymin =</span> <span class="dv">0</span>, <span class="at">ymax =</span> <span class="fl">0.35</span>),</span>
+<span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a>    <span class="at">fill =</span> primary_color) <span class="sc">+</span></span>
+<span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a>  <span class="co"># Label rectangles (periods)</span></span>
+<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2010</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.15</span>, <span class="at">label =</span> <span class="st">&quot;Period A&quot;</span>,</span>
+<span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a>    <span class="at">color =</span> divider_color) <span class="sc">+</span></span>
+<span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="fl">2015.5</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.15</span>, <span class="at">label =</span> <span class="st">&quot;Period B&quot;</span>,</span>
+<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a>    <span class="at">color =</span> primary_color) <span class="sc">+</span></span>
+<span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a>  <span class="co"># Add ellipses</span></span>
+<span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">seq</span>(<span class="dv">2009</span><span class="fl">-0.15</span>, <span class="dv">2009</span><span class="fl">-0.45</span>, <span class="sc">-</span><span class="fl">0.15</span>), <span class="at">y =</span> <span class="fl">0.175</span>,</span>
+<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">color =</span> divider_color) <span class="sc">+</span></span>
+<span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">seq</span>(<span class="dv">2017</span><span class="fl">+0.15</span>, <span class="dv">2017</span><span class="fl">+0.45</span>, <span class="fl">0.15</span>), <span class="at">y =</span> <span class="fl">0.175</span>,</span>
+<span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">1.5</span>, <span class="at">color =</span> primary_color) <span class="sc">+</span></span>
+<span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a>  <span class="co"># Time axis</span></span>
+<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">size =</span> <span class="dv">1</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a>  <span class="co"># Label time</span></span>
+<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2009</span><span class="sc">:</span><span class="dv">2017</span>, <span class="at">y =</span> <span class="sc">-</span><span class="fl">0.05</span>, <span class="at">label =</span> <span class="dv">2009</span><span class="sc">:</span><span class="dv">2017</span>,</span>
+<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span>, <span class="at">color =</span> secondary_text_color) <span class="sc">+</span></span>
+<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a>  <span class="co"># Points for events</span></span>
+<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;point&quot;</span>, <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="dv">2014</span>), <span class="at">y =</span> <span class="dv">0</span>,</span>
+<span id="cb2-40"><a href="#cb2-40" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">4</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-41"><a href="#cb2-41" tabindex="-1"></a>  <span class="co"># Label events:</span></span>
+<span id="cb2-42"><a href="#cb2-42" tabindex="-1"></a>  <span class="co"># First event</span></span>
+<span id="cb2-43"><a href="#cb2-43" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.9</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
+<span id="cb2-44"><a href="#cb2-44" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;An event triggers a change&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-45"><a href="#cb2-45" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>,</span>
+<span id="cb2-46"><a href="#cb2-46" tabindex="-1"></a>    <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.9</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-47"><a href="#cb2-47" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2011</span><span class="sc">+</span><span class="dv">4</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</span>
+<span id="cb2-48"><a href="#cb2-48" tabindex="-1"></a>    <span class="at">y =</span> <span class="fl">0.9</span>, <span class="at">yend =</span> <span class="fl">0.9</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-49"><a href="#cb2-49" tabindex="-1"></a>  <span class="co"># Intermediate event</span></span>
+<span id="cb2-50"><a href="#cb2-50" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.7</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
+<span id="cb2-51"><a href="#cb2-51" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;A relevant intermediate event&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-52"><a href="#cb2-52" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>,</span>
+<span id="cb2-53"><a href="#cb2-53" tabindex="-1"></a>      <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.7</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-54"><a href="#cb2-54" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span>, <span class="at">xend =</span> <span class="dv">2012</span><span class="sc">+</span><span class="dv">7</span><span class="sc">/</span><span class="dv">12</span><span class="fl">+0.1</span>,</span>
+<span id="cb2-55"><a href="#cb2-55" tabindex="-1"></a>      <span class="at">y =</span> <span class="fl">0.7</span>, <span class="at">yend =</span> <span class="fl">0.7</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-56"><a href="#cb2-56" tabindex="-1"></a>  <span class="co"># Period B begins</span></span>
+<span id="cb2-57"><a href="#cb2-57" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="at">geom =</span> <span class="st">&quot;text&quot;</span>, <span class="at">x =</span> <span class="dv">2014</span><span class="fl">+0.15</span>, <span class="at">y =</span> <span class="fl">0.5</span>, <span class="at">hjust =</span> <span class="dv">0</span>,</span>
+<span id="cb2-58"><a href="#cb2-58" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">&quot;The new period officially begins&quot;</span>, <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-59"><a href="#cb2-59" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2014</span>, <span class="at">xend =</span> <span class="dv">2014</span>,</span>
+<span id="cb2-60"><a href="#cb2-60" tabindex="-1"></a>      <span class="at">y =</span> <span class="dv">0</span>, <span class="at">yend =</span> <span class="fl">0.5</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-61"><a href="#cb2-61" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">2014</span>, <span class="at">xend =</span> <span class="dv">2014</span><span class="fl">+0.1</span>,</span>
+<span id="cb2-62"><a href="#cb2-62" tabindex="-1"></a>      <span class="at">y =</span> <span class="fl">0.5</span>, <span class="at">yend =</span> <span class="fl">0.5</span>), <span class="at">color =</span> primary_text_color) <span class="sc">+</span></span>
+<span id="cb2-63"><a href="#cb2-63" tabindex="-1"></a>  <span class="co"># Theme stuff</span></span>
+<span id="cb2-64"><a href="#cb2-64" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
+<span id="cb2-65"><a href="#cb2-65" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.15</span>,<span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb2-66"><a href="#cb2-66" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text =</span> <span class="fu">element_blank</span>(), <span class="at">axis.title =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb2-67"><a href="#cb2-67" tabindex="-1"></a>    <span class="at">axis.ticks =</span> <span class="fu">element_blank</span>(), <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb2-68"><a href="#cb2-68" tabindex="-1"></a>    <span class="at">panel.border =</span> <span class="fu">element_blank</span>())</span></code></pre></div>
 </div>
 <div id="latex" class="section level2">
 <h2>LaTeX</h2>
@@ -1078,86 +1072,86 @@ alt="Example of my slide template." />
 <p>Lists all <strong>files</strong> in a directory (here
 <code>.</code>), sorts from largest to smallest, and displays top
 <code>20</code> (largest).</p>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">find</span> . <span class="at">-type</span> f <span class="at">-exec</span> du <span class="at">-ah</span> {} + <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-rh</span> <span class="kw">|</span> <span class="fu">head</span> <span class="at">-20</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">find</span> . <span class="at">-type</span> f <span class="at">-exec</span> du <span class="at">-ah</span> {} + <span class="kw">|</span> <span class="fu">sort</span> <span class="at">-rh</span> <span class="kw">|</span> <span class="fu">head</span> <span class="at">-20</span></span></code></pre></div>
 <p>Hat tip: <a
 href="https://unix.stackexchange.com/questions/22432/getting-size-with-du-of-files-only">StackExchange</a></p>
 </div>
 <div id="pretty-csv-scrolling" class="section level3">
 <h3>Pretty CSV scrolling</h3>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> <span class="at">-t</span> <span class="at">-s,</span> <span class="kw">|</span> <span class="fu">less</span> <span class="at">-S</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">cat</span> data.csv <span class="kw">|</span> <span class="ex">column</span> <span class="at">-t</span> <span class="at">-s,</span> <span class="kw">|</span> <span class="fu">less</span> <span class="at">-S</span></span></code></pre></div>
 <p>Hat tip (and more): <a
 href="http://stefaanlippens.net/pretty-csv.html">Stefaan
 Lippens</a>.</p>
 <p>For a bit more <em>raw</em> view:</p>
-<div class="sourceCode" id="cb6"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="ex">column</span> <span class="at">-s,</span> <span class="at">-t</span> <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> <span class="at">-#2</span> <span class="at">-N</span> <span class="at">-S</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">column</span> <span class="at">-s,</span> <span class="at">-t</span> <span class="op">&lt;</span> data.csv <span class="kw">|</span> <span class="fu">less</span> <span class="at">-#2</span> <span class="at">-N</span> <span class="at">-S</span></span></code></pre></div>
 </div>
 <div id="git" class="section level3">
 <h3>Git</h3>
 <p>Remove a file (<code>your.file</code>) from Git’s cache</p>
-<div class="sourceCode" id="cb7"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">git</span> rm <span class="at">--cached</span> your.file</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">git</span> rm <span class="at">--cached</span> your.file</span></code></pre></div>
 <p>Begin tracking a file extension (<code>.eg</code>) with Git’s <a
 href="https://git-lfs.github.com/">Large File Storage</a> (LFS) and
 check the <code>.gitattributes</code> file for success.</p>
-<div class="sourceCode" id="cb8"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span></span>
-<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a><span class="fu">nano</span> .gitattributes</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">git</span> lfs track <span class="st">&quot;*.eg&quot;</span></span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="fu">nano</span> .gitattributes</span></code></pre></div>
 <p>Check which files LFS currently tracks.</p>
-<div class="sourceCode" id="cb9"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">git</span> lfs ls-files</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">git</span> lfs ls-files</span></code></pre></div>
 </div>
 <div id="pandoc" class="section level3">
 <h3>Pandoc</h3>
 <p>Convert a Markdown (<code>.txt</code>) file to Word
 (<code>.docx</code>).</p>
-<div class="sourceCode" id="cb10"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-Ss</span> example.txt <span class="at">-o</span> example.docx</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-Ss</span> example.txt <span class="at">-o</span> example.docx</span></code></pre></div>
 <p>Convert a Markdown (<code>.txt</code>) file to PDF
 (<code>.pdf</code>).</p>
-<div class="sourceCode" id="cb11"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-Ss</span> example.txt <span class="at">-o</span> example.pdf</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-Ss</span> example.txt <span class="at">-o</span> example.pdf</span></code></pre></div>
 </div>
 <div id="renaming" class="section level3">
 <h3>Renaming</h3>
 <p>Place a “1” between the first four characters and the subsequent
 characters in each filename in a folder.</p>
-<div class="sourceCode" id="cb12"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="pp">*</span><span class="kw">;</span> <span class="cf">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i</span><span class="op">:</span><span class="dv">0</span><span class="op">:</span><span class="dv">4</span><span class="va">}</span><span class="st">1</span><span class="va">${i</span><span class="op">:</span><span class="dv">4</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">done</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="pp">*</span><span class="kw">;</span> <span class="cf">do</span> <span class="fu">mv</span> <span class="va">$i</span> <span class="st">&quot;</span><span class="va">${i</span><span class="op">:</span><span class="dv">0</span><span class="op">:</span><span class="dv">4</span><span class="va">}</span><span class="st">1</span><span class="va">${i</span><span class="op">:</span><span class="dv">4</span><span class="va">}</span><span class="st">&quot;</span><span class="kw">;</span> <span class="cf">done</span></span></code></pre></div>
 </div>
 <div id="sleeping-and-shutdown" class="section level3">
 <h3>Sleeping and shutdown</h3>
 <p>Tell the computer to wait a bit and then go to sleep.</p>
-<div class="sourceCode" id="cb13"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="fu">sleep</span> 14400<span class="kw">;</span> <span class="ex">pmset</span> sleepnow</span></code></pre></div>
 <p>Tell the computer to shutdown now.</p>
-<div class="sourceCode" id="cb14"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> now</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> now</span></code></pre></div>
 <p>Shut it down at a specific time (here: 2:30pm on 01 January 2016)</p>
-<div class="sourceCode" id="cb15"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> 1601011530</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> 1601011530</span></code></pre></div>
 <p>Shut it down after a specified amount of time (here: 30 minutes)</p>
-<div class="sourceCode" id="cb16"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> +30</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">sudo</span> shutdown <span class="at">-h</span> +30</span></code></pre></div>
 </div>
 <div id="miscellany" class="section level3">
 <h3>Miscellany</h3>
 <p>OSX: Show only active apps in the terminal. <a
 href="https://www.macrumors.com/how-to/macos-dock-show-active-apps/">h/t</a></p>
-<div class="sourceCode" id="cb17"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="ex">defaults</span> write com.apple.dock static-only <span class="at">-bool</span> true<span class="kw">;</span> <span class="fu">killall</span> Dock</span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="ex">defaults</span> write com.apple.dock static-only <span class="at">-bool</span> true<span class="kw">;</span> <span class="fu">killall</span> Dock</span></code></pre></div>
 <p>Kill all processes named “rsession”.</p>
-<div class="sourceCode" id="cb18"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="fu">killall</span> <span class="at">-m</span> <span class="st">&quot;rsession&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="fu">killall</span> <span class="at">-m</span> <span class="st">&quot;rsession&quot;</span></span></code></pre></div>
 <p>Re-index the Spotlight utility.</p>
-<div class="sourceCode" id="cb19"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="fu">sudo</span> mdutil <span class="at">-E</span> /</span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="fu">sudo</span> mdutil <span class="at">-E</span> /</span></code></pre></div>
 <p>Linux code for playing hide and seek. <br><em>Warning</em> You might
 not want HAL to find you.</p>
-<div class="sourceCode" id="cb20"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="dt">{</span><span class="dv">1</span><span class="dt">..</span><span class="dv">30</span><span class="dt">}</span><span class="kw">;</span> <span class="cf">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="cf">done</span><span class="kw">;</span> <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="dt">{</span><span class="dv">1</span><span class="dt">..</span><span class="dv">30</span><span class="dt">}</span><span class="kw">;</span> <span class="cf">do</span> <span class="ex">say</span> <span class="va">${i}</span><span class="kw">;</span> <span class="cf">done</span><span class="kw">;</span> <span class="ex">say</span> <span class="st">&#39;ready or not, here i come&#39;</span></span></code></pre></div>
 </div>
 </div>
 </div>
