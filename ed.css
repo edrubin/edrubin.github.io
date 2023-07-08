@@ -1,32 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,300i,400,400i,500,500i,600,600i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:300,300i,400,400i,500,500i,600,600i,700,700i);
 
 /* Resize text */
 body {
   font-size: 16px;
+  font-family: 'Fira Sans Condensed';
+  font-weight:400;
 }
 h1 {
   /*font-size: 34px;*/
+  font-family: 'Fira Sans Condensed';
   font-size: 26px;
 }
 h1.title {
   /*font-size: 38px;*/
+  font-family: 'Fira Sans Condensed';
   font-size: 29px;
 }
 h2 {
   /*font-size: 30px;*/
+  font-family: 'Fira Sans Condensed';
   font-size: 23px;
 }
 h3 {
   /*font-size: 24px;*/
+  font-family: 'Fira Sans Condensed';
   font-size: 18px;
 }
 h4 {
+  font-family: 'Fira Sans Condensed';
   font-size: 18px;
 }
 h5 {
+  font-family: 'Fira Sans Condensed';
   font-size: 16px;
 }
 .navbar {
-  font-size: 12px;
+  font-family: 'Fira Sans Extra Condensed';
+  /* font-size: 12px; */
 }
 /* Navigation bar dropdown menu */
 ul.dropdown-menu {
@@ -44,9 +56,10 @@ a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
-.center-fit {
-  max-width: 100%;
+.pic-narrow {
+  max-width: 45%;
   max-height: 90vh;
   padding-right: 3%;
+  padding-bottom: 3%;
   margin: auto;
 }
