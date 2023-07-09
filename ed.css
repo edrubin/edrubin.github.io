@@ -36,10 +36,10 @@ h5 {
   /* font-family: 'Fira Sans Condensed'; */
   font-size: 16px;
 }
-.navbar {
-  /* font-family: 'Fira Sans Extra Condensed'; */
-  /* font-size: 12px; */
-}
+/* .navbar {
+  font-family: 'Fira Sans Extra Condensed';
+  font-size: 12px;
+} */
 /* Navigation bar dropdown menu */
 ul.dropdown-menu {
   font-size: 12px;
