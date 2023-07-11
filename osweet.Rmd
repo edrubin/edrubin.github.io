@@ -77,16 +77,74 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Climate change and risk:** 2023/06/30
+## **Climate and energy:** 2023/07/28
 
 <p>
-  <b>Friday, 30 June 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 28 July 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJctceGqrz8qHNROVzarMTuiD9y2WEcSIytD).
+  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJMpdOCuqz0sGtHn2qArfH87pVnxB_fsWw2P).
   <br>[Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Local institutions, resource management, and climate resilience: Evidence from federally supported conservation districts in the USA</i>
+        <br><b>Aparna Howlader</b> (Chatham)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>Do homebuyers value energy efficiency? Evidence from an information shock</i>
+        <br><b>Brendon McConnell</b> (Southampton)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>Stranded oil: Measuring companies’ reserve sensitivity to the oil price</i>
+        <br><b>Diego Cardoso</b> (Purdue)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2023 {.tabset .tabset-fade}
+
+### **Climate change and risk:** 2023/06/30
 
 <p>
   <table style="width:100%">
@@ -135,14 +193,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2023 {.tabset .tabset-fade}
 
 ### **Ag and the environment:** 2023/05/26
 
