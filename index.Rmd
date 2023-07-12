@@ -3,8 +3,47 @@
 title: ""
 ---
 
-<img align="left" src="Photos/ed-hat-crop.png" class="pic-narrow">
-<img align="left" src="Photos/ed-hat-crop2.png" class="pic-narrow-end">
+<head>
+<style>
+  .profile-pic-wide {
+    max-width: 100%;
+    max-height: 90vh;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    display: inline;
+    float: left; /* Aligns the wide picture to the left */
+  }
+  .profile-pic-narrow {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .profile-pic-wide {
+      max-width: 45%;
+      max-height: 90vh;
+      padding-right: 3%;
+      padding-bottom: 3%;
+      margin: auto;
+      /* display: inline; */
+      display: none; /* Removes the float for desktops */
+    }
+    .profile-pic-narrow {
+      max-width: 45%;
+      max-height: 90vh;
+      padding-right: 3%;
+      padding-bottom: 3%;
+      margin: auto;
+      display: inline;
+      float: left; /* Aligns the narrow picture to the left for desktops */
+    }
+  }
+</style>
+</head>
+
+<body>
+  <img src="Photos/ed-hat-crop2.png" class="profile-pic-wide">
+  <img src="Photos/ed-hat-crop.png" class="profile-pic-narrow">
+</body>
 
 <!-- <img align="right" src="Photos/edFormal2Tall.jpg" width = "300"> -->
 <!-- <img align="left" src="Photos/ed-hat-crop.png" width = "200" HSPACE = "50"> -->
