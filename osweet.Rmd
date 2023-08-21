@@ -77,16 +77,74 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Climate and energy:** 2023/07/28
+## **Water:** 2023/08/25
 
 <p>
-  <b>Friday, 28 July 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 25 August 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJMpdOCuqz0sGtHn2qArfH87pVnxB_fsWw2P).
+  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJ0tfuCgpz4uGdfvFWuB88ErhQfLQ-LvhQKa#/registration).
   <br>[Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Impact of maternal exposure to PFAS on infant health outcomes</i>
+        <br><b>Robert Baluja</b> (Arizona)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>Dust, drought and farmland values: Evidence from California</i>
+        <br><b>Siddharth Kishore</b> (UC Riverside)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>Water, dust, and environmental justice: The case of agricultural water diversions</i>
+        <br><b>Danae Hernandez-Cortes</b> (Arizone State)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2023 {.tabset .tabset-fade}
+
+### **Climate and energy:** 2023/07/28
 
 <p>
   <table style="width:100%">
@@ -135,14 +193,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2023 {.tabset .tabset-fade}
 
 ### **Climate change and risk:** 2023/06/30
 
