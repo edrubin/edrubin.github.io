@@ -72,7 +72,7 @@ I'm [Ed Rubin](bio.html), an assistant professor in the [Department of Economics
 
 I'm an environmental economist who researches how human behavior (individual and policy) affects social equity and the health of the natural world.
 
-As an empiricist, I tackle these issues with a toolbox that draws from economics, econometrics, statistics, and data science.
+As an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.
 
 Examples from a few recent projects…
 <br>↳ [*curiously missing data in air-quality monitors*](Papers/draft-strategic-monitoring.pdf)
