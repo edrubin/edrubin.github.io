@@ -77,14 +77,14 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Labor & Enviro:** 2023/08/25
+## **Labor & Enviro:** 2023/09/22
 
 <p>
   <b>Friday, 25 August 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJ0tfuCgpz4uGdfvFWuB88ErhQfLQ-LvhQKa#/registration).
+  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJYocO6sqz0tGtdjOeeKnEkkzAWHZqrQBl62).
   <br>[Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
 
