@@ -80,7 +80,7 @@ knitr::include_graphics(c(
 ## **Labor & Enviro:** 2023/09/22
 
 <p>
-  <b>Friday, 25 August 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 22 September 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
