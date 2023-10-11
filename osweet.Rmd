@@ -77,16 +77,74 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Labor & Enviro:** 2023/09/22
+## **Air:** 2023/10/27
 
 <p>
-  <b>Friday, 22 September 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 27 October 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://williams.zoom.us/meeting/register/tJYocO6sqz0tGtdjOeeKnEkkzAWHZqrQBl62).
+  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/tJAtf-6rqzMsEt2I_RB-gXRMpCPTs6qoxNO5).
   <br>[Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Toxic Recycling: Used lead-acid battery processing's negative effect on test scores in Mexico</i>
+        <br><b>Erin Litzgow</b> (UBC)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>The persistent health effect of defoliating Vietnam</i>
+        <br><b>Ngyuen Vuong</b> (Wisconsin)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>Restricting trade for the environment? Evidence from import restrictions on used vehicles in China</i>
+        <br><b>Hui Zhou</b> (Rhode Island)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2023 {.tabset .tabset-fade}
+
+### **Enviro-Labor:** 2023/09/22
 
 <p>
   <table style="width:100%">
@@ -135,14 +193,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2023 {.tabset .tabset-fade}
 
 ### **Water:** 2023/08/25
 
