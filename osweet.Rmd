@@ -100,7 +100,7 @@ knitr::include_graphics(c(
       <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
       <td>
         <i>Toxic Recycling: Used lead-acid battery processing's negative effect on test scores in Mexico</i>
-        <br><b>Erin Litzgow</b> (UBC)
+        <br><b>Erin Litzow</b> (UBC)
         <br><br>
       </td>
     </tr>
