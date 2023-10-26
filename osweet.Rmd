@@ -110,7 +110,7 @@ knitr::include_graphics(c(
       <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
       <td>
         <i>The persistent health effect of defoliating Vietnam</i>
-        <br><b>Ngyuen Vuong</b> (Wisconsin)
+        <br><b>Nguyen Vuong</b> (Wisconsin)
         <br><br>
       </td>
     </tr>
