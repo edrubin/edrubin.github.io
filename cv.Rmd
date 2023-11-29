@@ -46,7 +46,7 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
 <br> Yingfei Mu, Edward Rubin, and Eric Zou
-<br> _Revise and resubmit_, RESTAT
+<br> _Revise and resubmit_, RESTAT (_resubmitted_)
 
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
@@ -60,6 +60,7 @@ __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-s
 
 __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
+<br> *Submitted*
 
 __[When we change the clock, does the clock change us?](https://www.nber.org/papers/w30999)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin

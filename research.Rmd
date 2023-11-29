@@ -93,7 +93,7 @@ knitr::include_graphics(c(
 #### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
 
 with Yingfei Mu and [Eric Zou](https://www.eric-zou.com)
-<br>*Revise and resubmit*, RESTAT
+<br>*Revise and resubmit*, RESTAT (*resubmitted*)
 
 Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents' monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments' own pollution forecasts—and test whether monitors' sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 "Bridgegate" traffic jam. Consistent with strategic shutdowns, this monitor's sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.
 
@@ -190,6 +190,7 @@ knitr::include_graphics(c(
 #### __Customer Discrimination in the Workplace: Evidence from Online Sales__
 
 with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), and [Matthew Pecenco](http://www.matthewpecenco.com)
+<br>*Submitted*
 
 Many workers are evaluated on their ability to engage with customers. This paper measures the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a novel framework that randomly varies the gender of names presented to customers without changing worker behavior, we find that the assignment of a female-sounding name leads to 50 percent fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. Since worker productivity informs firm hiring, pay, and promotion decisions, these results are important for understanding the persistence of identity-based discrimination in the labor market.
 
