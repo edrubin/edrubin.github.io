@@ -14,6 +14,30 @@ title: "Ed Rubin: Research"
 
 ---
 
+#### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
+
+with Yingfei Mu and [Eric Zou](https://www.eric-zou.com)
+<br>*Accepted*, REStat
+
+Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents' monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments' own pollution forecasts—and test whether monitors' sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 "Bridgegate" traffic jam. Consistent with strategic shutdowns, this monitor's sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.
+
+[NBER Working Paper No. 28735](https://www.nber.org/papers/w28735)
+
+[Current draft](Papers/draft-strategic-monitoring.pdf)
+
+<center>
+
+```{r, out.width = "49%", echo = F}
+knitr::include_graphics(c(
+  "Figures/Intermittent/beta-88101.png",
+  "Figures/Intermittent/interpolate-88101.png",
+  NULL
+))
+```
+
+</center>
+<br>
+
 #### __Quantifying heterogeneity in the price elasticity of residential natural gas__
 
 [Edward Rubin](https://edrub.in/) and [Maximilian Auffhammer](https://www.auffhammer.com)
@@ -89,30 +113,6 @@ knitr::include_graphics(c(
 <font color="#18BC9C"><h2>Working Papers</h2></font>
 
 ---
-
-#### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
-
-with Yingfei Mu and [Eric Zou](https://www.eric-zou.com)
-<br>*Revise and resubmit*, RESTAT (*resubmitted*)
-
-Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents' monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments' own pollution forecasts—and test whether monitors' sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 "Bridgegate" traffic jam. Consistent with strategic shutdowns, this monitor's sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.
-
-[NBER Working Paper No. 28735](https://www.nber.org/papers/w28735)
-
-[Current draft](Papers/draft-strategic-monitoring.pdf)
-
-<center>
-
-```{r, out.width = "49%", echo = F}
-knitr::include_graphics(c(
-  "Figures/Intermittent/beta-88101.png",
-  "Figures/Intermittent/interpolate-88101.png",
-  NULL
-))
-```
-
-</center>
-<br>
 
 #### __Downwind and out: The strategic dispersion of power plants and their pollution__
 
