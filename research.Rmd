@@ -194,9 +194,9 @@ with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.
 
 Many workers are evaluated on their ability to engage with customers. This paper measures the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a novel framework that randomly varies the gender of names presented to customers without changing worker behavior, we find that the assignment of a female-sounding name leads to 50 percent fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. Since worker productivity informs firm hiring, pay, and promotion decisions, these results are important for understanding the persistence of identity-based discrimination in the labor market.
 
-[Becker Friedman Institute Working Paper No. 2023-25](Papers/draft-gender-bias.pdf) | [World Bank Policy Research Working Paper No. 10228](Papers/wp-gender-bias.pdf) | [Draft](Papers/draft-gender-bias.pdf)
+[NBER Working Paper No. 31998](https://www.nber.org/papers/w31998) | [Becker Friedman Institute Working Paper No. 2023-25](Papers/draft-gender-bias.pdf) | [World Bank Policy Research Working Paper No. 10228](Papers/wp-gender-bias.pdf) | [Draft](Papers/draft-gender-bias.pdf)
 
-[Summary](https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/)
+[J-PAL Summary](https://www.povertyactionlab.org/evaluation/online-customer-discrimination-against-female-workers-sub-saharan-africa) | [BFI Summary](https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/)
 
 <br>
 
