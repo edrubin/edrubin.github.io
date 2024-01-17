@@ -16,7 +16,7 @@ title: "Ed Rubin: Research"
 
 #### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
 
-with Yingfei Mu and [Eric Zou](https://www.eric-zou.com)
+Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
 <br>*Accepted*, REStat
 
 Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents' monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments' own pollution forecasts—and test whether monitors' sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 "Bridgegate" traffic jam. Consistent with strategic shutdowns, this monitor's sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.
@@ -38,22 +38,22 @@ knitr::include_graphics(c(
 </center>
 <br>
 
-#### __Quantifying heterogeneity in the price elasticity of residential natural gas__
+#### __[Quantifying heterogeneity in the price elasticity of residential natural gas](https://www.journals.uchicago.edu/eprint/Q8UYEM4MAQKB6WEDJ8TV/full?redirectUri=/doi/epdf/10.1086/726017)__
 
-[Edward Rubin](https://edrub.in/) and [Maximilian Auffhammer](https://www.auffhammer.com)
+[Edward Rubin](https://edrub.in) and [Maximilian Auffhammer](https://www.auffhammer.com)
 <br>*Forthcoming*, JAERE
 
 We exploit a spatial discontinuity in two natural gas utilities' service territory—combined with variation in their block-rate pricing structure and a difference in how prima facie determined wholesale prices are deferentially passed though to consumers—to identify average, seasonal, and income-specific own-price elasticities of residential natural gas demand. We estimate an average elasticity ranging from 0.15–0.19 depending on the measure of price used. We further estimate that this elasticity varies substantially across seasons, income groups, and their interaction. We find no significant difference in consumers' responses to average versus marginal prices.
 
 Previous titles: *Decomposing "the" elasticity of demand: Empirical and policy insights from 300 million natural gas bills*; *Natural gas price elasticities and optimal cost recovery under consumer heterogeneity: Evidence from 300 million natural gas bills*; *Summertime, and pass-through is easier: Chasing down price elasticities for residential natural*
 
-[NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
-
-[Draft](Papers/draft-natural-gas.pdf) | [slides](Slides/slides-natural-gas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png)
-
 Press coverage: [The Economist](https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing)
 
-Edward Rubin and Maximilian Auffhammer. 2024 (*Forthcoming*). *Journal of the Association of Environmental and Resource Economists*.
+<!-- [Paper](Papers/draft-natural-gas.pdf) | [slides](Slides/slides-natural-gas.pdf) | [map: service and study area](Figures/NaturalGas/studyMaps.pdf) | [map: PRISM mean temperature](Figures/NaturalGas/mapPRISM.pdf) | [map: US natural gas pipeline](Figures/NaturalGas/mapPipeline.png) -->
+
+<!-- [NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html) -->
+
+Edward Rubin and Maximilian Auffhammer. 2024. *Journal of the Association of Environmental and Resource Economists*, 11(2). [DOI: 10.1086/726017](https://www.journals.uchicago.edu/eprint/Q8UYEM4MAQKB6WEDJ8TV/full?redirectUri=/doi/epdf/10.1086/726017)
 
 <center>
 ```{r, out.width = "65%", echo = F}
@@ -66,7 +66,6 @@ knitr::include_graphics(c(
 ```
 </center>
 <br>
-
 
 #### __[The economic impact of critical-habitat designation: Evidence from vacant-land transactions](https://doi.org/10.3368/le.96.2.188)__
 
@@ -183,7 +182,6 @@ knitr::include_graphics(c(
 ```
 
 </center>
-
 
 <br>
 
