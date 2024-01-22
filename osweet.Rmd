@@ -38,7 +38,7 @@ knitr::include_graphics(c(
       <td>
         For presenters, we're targeting graduate students, postdocs, and early-career assistant professors.<br>We may adjust selection based upon supply. <br><br> 
         There will be no discussants, but we will provide a time for questions after each paper. We will try and cluster papers by topic. <br><br>
-        The organizers of **AERE\@OSWEET** include <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley); <a href="https://econ.williams.edu/profile/saj2/" style="text-decoration: none">Sarah Jacobson</a> (Williams); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
+        The organizers of **AERE\@OSWEET** include <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
       </td>
     </tr>
     <tr valign="top">
@@ -77,17 +77,75 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Energy & Poltical Economy:** 2023/12/08
+## **Forests & Air:** 2024/02/02
 
 <p>
-  <b>Friday, 08 December 2023</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 02 February 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/tJMrd-yoqTwpHdRCuviXyu-TgPvCF8nvoA5T#/registration).
+  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/tJMrdeCupzMpH9wUpafG4epRO8-jV-9-6l_W).
   <br>
   [Join the mailing list](https://edrubin.typeform.com/aere-osweet).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>The equilibrium effects of anti-deforestation policies: Evidence from Brazil</i>
+        <br><b>Veronica Salazar Restrepo</b> (LSE)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>When growth stumbles, pollute? Trade war, environmental enforcement, and pollution</i>
+        <br><b>Xinming Du</b> (National University of Singapore)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>Cleaning the air? The causal effects of traffic restrictions</i>
+        <br><b>Maurizio Malpede</b> (Verona)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2023 {.tabset .tabset-fade}
+
+### **Energy & Poltical Economy:** 2023/12/08
 
 <p>
   <table style="width:100%">
@@ -136,14 +194,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2023 {.tabset .tabset-fade}
 
 ### **Air:** 2023/10/27
 
@@ -594,7 +644,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
 
 ## 2022 {.tabset .tabset-fade}
 
