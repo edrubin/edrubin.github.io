@@ -54,7 +54,7 @@ knitr::include_graphics(c(
         <font color="#18BC9C"><i>Where?</i></font> &nbsp; &nbsp; &nbsp; &nbsp;
       </td>
       <td>
-        Zoom. We will send out a Zoom link to presenters and audience members. [Register to receive emails here](https://edrubin.typeform.com/aere-osweet). <br><br>
+        Zoom. We will send out a Zoom link to presenters and audience members. <br> [Register to receive emails here](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform). <br><br>
       </td>
     </tr>
     <tr valign="top">
@@ -69,7 +69,7 @@ knitr::include_graphics(c(
 </p>
 </center>
 
-**Interested?** [Please join the mailing list and/or apply to present!](https://edrubin.typeform.com/aere-osweet) (And tell your friends.)
+**Interested?** [Please join the mailing list and/or apply to present!](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform) (And tell your friends.)
 
 <br>
 
@@ -86,7 +86,7 @@ knitr::include_graphics(c(
 <p>
   [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/tJMrdeCupzMpH9wUpafG4epRO8-jV-9-6l_W).
   <br>
-  [Join the mailing list](https://edrubin.typeform.com/aere-osweet).
+  [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
 
 <p>
@@ -900,10 +900,6 @@ knitr::include_graphics(c(
 
 
 ### **Food and waste:** 2022/03/04
-
-<p>
-  [Register for the mailing list](https://edrubin.typeform.com/aere-osweet) to receive the Zoom link and password.
-</p>
 
 <p>
   <table style="width:100%">
