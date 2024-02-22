@@ -4,6 +4,16 @@ title: "Ed Rubin: Useful links"
 
 Useful and/or interesting links for research/productivity/fun.<br><br>
 
+<h3 style="color:#EEEEEE"> 20240221 </h3>
+
+__Tabby__ <br>
+
+Super customizable, cross-platform [termial app](https://tabby.sh/).
+
+__Warp__ <br>
+
+Rust-based [terminal](https://www.warp.dev/) with AI.
+
 <h3 style="color:#EEEEEE"> 20230323 </h3>
 
 __Expressions__ <br>

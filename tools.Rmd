@@ -8,22 +8,14 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 
 ### Text editing
 
-- Atom
-  - LaTeX/beamer
-  - Markdown
-  - General scripting/coding (R, Stata, Python, _etc._)
-  - Writing
-- RStudio
-  - Interactive R sessions
-  - RMarkdown
-- nano (in-Terminal editing)
-- Caret (Markdown previewing)
+- General scripting/coding: VS Code
+- LaTeX writing: Overleaf
 
 <br>
 
 ### Terminal
 
-- iTerm
+- Warp, Tabby, iTerm
 - Zsh
 - Oh My Zsh
 
@@ -42,32 +34,21 @@ __Note:__ Numbers above are allegorical.
 
 ### Productivity
 
-- Things 3
-- Tyme
-- Itsycal
-- Numi
-- LastPass
-- Dropbox
-- Transmit (ftp)
-- ActivityTimer/Timer
-- Spark (email)
-
-<br>
-
-### Reading
-
-- Mendeley
-- Real books
-- Pocket
-- Serial Reader
+- Note taking: Obsidian
+- Task management: Things 3 and Github Projects
+- Calendar: Fantastical
+- Calculator: Numi
+- Passwords: Dashlane
+- FTP: Transmit
+- Email: Spark
 
 <br>
 
 ### Computer ease
 
-- Spectacle
-- Flux
-- Noizio
+- Rectangle
+- Alfred
+- Notability and PDF Expert
 
 <br>
 
@@ -84,9 +65,5 @@ __Note:__ Numbers above are allegorical.
 - __Browser:__ Vivaldi
 - __VPN:__ TunnelBear
 - __Extensions:__
-    - AdGuard AdBlocker
-    - LastPass
-    - Markdown Here
+    - Dashlane
     - Save to Pocket
-    - SelectorGadget
-    - WikiWand

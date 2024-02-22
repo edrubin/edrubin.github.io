@@ -13,6 +13,7 @@
 
 <title>A few of my favorite tools</title>
 
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -29,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -40,6 +41,7 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
     </style>
+
 
 
 
@@ -70,6 +72,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -127,11 +132,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -160,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -169,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -222,7 +224,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -250,7 +252,7 @@ $(document).ready(function () {
   <a href="blog.html">Blog</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     About
      
     <span class="caret"></span>
@@ -274,7 +276,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     More
      
     <span class="caret"></span>
@@ -345,27 +347,15 @@ $(document).ready(function () {
 <div id="text-editing" class="section level3">
 <h3>Text editing</h3>
 <ul>
-<li>Atom
-<ul>
-<li>LaTeX/beamer</li>
-<li>Markdown</li>
-<li>General scripting/coding (R, Stata, Python, <em>etc.</em>)</li>
-<li>Writing</li>
-</ul></li>
-<li>RStudio
-<ul>
-<li>Interactive R sessions</li>
-<li>RMarkdown</li>
-</ul></li>
-<li>nano (in-Terminal editing)</li>
-<li>Caret (Markdown previewing)</li>
+<li>General scripting/coding: VS Code</li>
+<li>LaTeX writing: Overleaf</li>
 </ul>
 <p><br></p>
 </div>
 <div id="terminal" class="section level3">
 <h3>Terminal</h3>
 <ul>
-<li>iTerm</li>
+<li>Warp, Tabby, iTerm</li>
 <li>Zsh</li>
 <li>Oh My Zsh</li>
 </ul>
@@ -385,34 +375,22 @@ $(document).ready(function () {
 <div id="productivity" class="section level3">
 <h3>Productivity</h3>
 <ul>
-<li>Things 3</li>
-<li>Tyme</li>
-<li>Itsycal</li>
-<li>Numi</li>
-<li>LastPass</li>
-<li>Dropbox</li>
-<li>Transmit (ftp)</li>
-<li>ActivityTimer/Timer</li>
-<li>Spark (email)</li>
-</ul>
-<p><br></p>
-</div>
-<div id="reading" class="section level3">
-<h3>Reading</h3>
-<ul>
-<li>Mendeley</li>
-<li>Real books</li>
-<li>Pocket</li>
-<li>Serial Reader</li>
+<li>Note taking: Obsidian</li>
+<li>Task management: Things 3 and Github Projects</li>
+<li>Calendar: Fantastical</li>
+<li>Calculator: Numi</li>
+<li>Passwords: Dashlane</li>
+<li>FTP: Transmit</li>
+<li>Email: Spark</li>
 </ul>
 <p><br></p>
 </div>
 <div id="computer-ease" class="section level3">
 <h3>Computer ease</h3>
 <ul>
-<li>Spectacle</li>
-<li>Flux</li>
-<li>Noizio</li>
+<li>Rectangle</li>
+<li>Alfred</li>
+<li>Notability and PDF Expert</li>
 </ul>
 <p><br></p>
 </div>
@@ -432,27 +410,35 @@ $(document).ready(function () {
 <li><strong>VPN:</strong> TunnelBear</li>
 <li><strong>Extensions:</strong>
 <ul>
-<li>AdGuard AdBlocker</li>
-<li>LastPass</li>
-<li>Markdown Here</li>
+<li>Dashlane</li>
 <li>Save to Pocket</li>
-<li>SelectorGadget</li>
-<li>WikiWand</li>
 </ul></li>
 </ul>
 </div>
 
 <!-- <?php include_once("analyticstracking.php") ?> -->
 
-<!-- For Google Analytics: -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88887510-1"></script>
 <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88887510-1');
+</script>
+
+
+<!-- Old Google Analytics tag -->
+<!-- For Google Analytics: -->
+<!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-88887510-1', 'auto');
   ga('send', 'pageview');
-</script>
+</script> -->
 
 <!-- Start of LiveChat (www.livechatinc.com) code -->
 <!-- <script type="text/javascript">

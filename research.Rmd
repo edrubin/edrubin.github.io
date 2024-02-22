@@ -282,6 +282,10 @@ knitr::include_graphics(c(
 
 <br>
 
+__Perinatal health effects of herbicides: Glyphosate and the U.S. roll-out of GM crops__
+<br> Land, Environment, Economics and Policy Institute (LEEP) at University of Exeter, February 2024
+<br><br>
+
 __Power Plants, Air Pollution, and Regulatory Rebound__
 <br> EPIC Junior Workshop (University of Chicago), April 2023
 <br><br>
