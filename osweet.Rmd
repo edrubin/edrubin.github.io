@@ -77,17 +77,76 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Forests & Air:** 2024/02/02
+## **Local and Global Pollution:** 2024/03/08
 
 <p>
-  <b>Friday, 02 February 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 08 March 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/tJMrdeCupzMpH9wUpafG4epRO8-jV-9-6l_W).
+  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/tJMrfuuqqD0rE9SrKbOLkoU5ycbnNZzIPDmb).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Estimating the Social Cost of Methane with the GIVE Model</i>
+        <br><b>Lisa Rennels</b> (UC Berkeley)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>How to Better Predict the Effect of Urban Traffic and Weather on Air Pollution?<br> Norwegian Evidence from Machine Learning Approaches</i>
+        <br><b>Cong Cao</b> (Caltech)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>International Climate Finance: Carbon Mitigation, Welfare Effects, and Optimal Allocation</i>
+        <br><b>Naixin Huang</b> (Harvard)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2024 {.tabset .tabset-fade}
+
+
+### **Forests & Air:** 2024/02/02
 
 <p>
   <table style="width:100%">
@@ -137,11 +196,6 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
 
 ## 2023 {.tabset .tabset-fade}
 
