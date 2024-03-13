@@ -53,15 +53,15 @@ __[The strategic local geography of US electricity emissions](Papers/draft-plant
 <br> John Morehouse and Edward Rubin
 <br> _Revise and resubmit_, JAERE
 
+__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
+<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
+<br> _Revise and resubmit_, JOLE 
+
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
 
 __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
 <br> M. Steven Holloway and Edward Rubin
-
-__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
-<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
-<br> _Submitted_ 
 
 __[When we change the clock, does the clock change us?](https://www.nber.org/papers/w30999)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
