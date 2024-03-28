@@ -77,17 +77,75 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Local and Global Pollution:** 2024/03/08
+## **Ag and the environment:** 2024/04/05
 
 <p>
-  <b>Friday, 08 March 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 05 April 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/tJMrfuuqqD0rE9SrKbOLkoU5ycbnNZzIPDmb).
+  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/tJMrd-yvqTsjG9IC0OmIs5cRu38fw1BSYcFw#/registration).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PST</b> (2:00PM <b>EST</b>)</td>
+      <td>
+        <i>Postharvest losses from weather and climate change: Evidence from 1.2 million truckloads</i>
+        <br><b>Sarah Smith</b> (UC Davis)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PST</b> (2:20PM <b>EST</b>)</td>
+      <td>
+        <i>Weather stations and agricultural productivity: Evidence from historical data in the US</i>
+        <br><b>Vaibhav Anand</b> (St. John's)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PST</b> (2:40PM <b>EST</b>)</td>
+      <td>
+        <i>Efficiency and redistribution in environmental policy: An equilibrium analysis of agricultural supply chains</i>
+        <br><b>Tomas Dominguez-Iino</b> (Chicago Booth)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PST</b> (3:00PM <b>EST</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2024 {.tabset .tabset-fade}
+
+### **Local and Global Pollution:** 2024/03/08
 
 <p>
   <table style="width:100%">
@@ -136,14 +194,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2024 {.tabset .tabset-fade}
 
 
 ### **Forests & Air:** 2024/02/02
