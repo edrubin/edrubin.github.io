@@ -199,11 +199,11 @@ knitr::include_graphics(c(
 
 <br>
 
-#### __When we change the clock, does the clock change us?__
+#### __Does time shift behavior? The clock- vs. solar-time tradeoff__
 
 with [Patrick Baylis](https://www.patrickbaylis.com) and [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/)
 
-The practice of standardizing the designation of time is a central device for coordinating activities and economic behaviors across individuals. However, there is nearly always a tension between an individual coordinating activities and carrying out those activities at their own preferred time. When time is standardized across large geographic areas, that tension is enhanced, because norms about the "clock times" of activities conflict with local environmental conditions created by natural or "solar" time. We study this tension by examining how geographic and temporal variation in solar time within time zones affects the timing of a range of common behaviors in the United States. Specifically, we estimate the degree to which people shift their online behavior (through Twitter), their commute (using the Census), and there visits to businesses and other establishments (using foot traffic data). We find that, on average, a one hour shift in the differential between solar time and clock time—approximately the width of a time zone—leads to shifting behavior by between 10 and 20 minutes. This shows that while adapting to local environmental factors significantly offsets the differential between solar time and clock time, the behavioral nudge and coordination value of clock time has the larger influence on activity.  We also study how the trade-off differs across activities and population demographics.
+Standardizing clock time helps individuals and society coordinate activities and economic behaviors. However, standardizing time across large areas creates tension when the clock time conflicts with the local ``solar time.'' Contemporary debates about daylight saving time and areas switching time zones center on this tension. We estimate the clock- vs. solar-time tradeoff by examining the degree to which people shift their online behavior (Twitter data), commute times (Census), and daily movement (SafeGraph). On average, a one-hour change in the wedge between solar time and clock time shifts behavior 10--35 minutes, with larger effects in northern latitudes and for activities that occur closer to the beginning of the day. These results suggest debates about daylight saving time and switching time zones should account for behavioral responses to changing standardized time.
 
 [NBER Working Paper No. 30999](https://www.nber.org/papers/w30999)
 
@@ -282,6 +282,10 @@ knitr::include_graphics(c(
 ## Presentations
 
 <br>
+
+__Perinatal health effects of herbicides: Glyphosate and the U.S. roll-out of GM crops__
+<br> UCSB Bren, April 2024
+<br><br>
 
 __Perinatal health effects of herbicides: Glyphosate and the U.S. roll-out of GM crops__
 <br> Land, Environment, Economics and Policy Institute (LEEP) at University of Exeter, February 2024
