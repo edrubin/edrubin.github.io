@@ -77,17 +77,75 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Ag and the environment:** 2024/04/05
+## **Resources:** 2024/04/05
 
 <p>
   <b>Friday, 05 April 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/tJMrd-yvqTsjG9IC0OmIs5cRu38fw1BSYcFw#/registration).
+  [Register for **Zoom link here**](https://ubc.zoom.us/meeting/register/u5MkdeuoqDIjHt1yV5TutdWB_uC6jHO9Ajtg).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PT </b> <br>(2:00PM <b>ET</b>)</td>
+      <td>
+        <i>Estimating the indirect costs of floods: Evidence from high-tide flooding</i>
+        <br><b>Seunghoon Lee</b> (Missouri)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PT </b> <br>(2:20PM <b>ET</b>)</td>
+      <td>
+        <i>Subsidizing technology adoption under treatment effect heterogeneity: The case of rainwater harvesting in Mexico City</i>
+        <br><b>Javier Alejandro Lopez-Aguilar</b> (Maryland)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PT </b> <br>(2:40PM <b>ET</b>)</td>
+      <td>
+        <i>Large-scale mining and local impacts: Evidence from Mongolia</i>
+        <br><b>Odmaa Narantungalag</b> (Denver)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PT </b> <br>(3:00PM <b>ET</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2024 {.tabset .tabset-fade}
+
+### **Ag and the environment:** 2024/04/05
 
 <p>
   <table style="width:100%">
@@ -136,14 +194,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2024 {.tabset .tabset-fade}
 
 ### **Local and Global Pollution:** 2024/03/08
 
