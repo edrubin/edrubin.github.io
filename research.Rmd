@@ -14,7 +14,7 @@ title: "Ed Rubin: Research"
 
 ---
 
-#### __What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors__
+#### __[What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors](Papers/draft-strategic-monitoring.pdf)__
 
 Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
 <br>*Accepted*, REStat
@@ -113,7 +113,7 @@ knitr::include_graphics(c(
 
 ---
 
-#### __Downwind and out: The strategic dispersion of power plants and their pollution__
+#### __[Downwind and out: The strategic dispersion of power plants and their pollution](Papers/draft-plant-locations.pdf)__
 
 with [John Morehouse](https://www.johnmmorehouse.com)
 <br>*Revise and resubmit*, JAERE (*resubmitted*)
@@ -136,7 +136,7 @@ knitr::include_graphics(c(
 
 <br>
 
-#### __Customer Discrimination in the Workplace: Evidence from Online Sales__
+#### __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 
 with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), and [Matthew Pecenco](http://www.matthewpecenco.com)
 <br>*Revise and resubmit*, JOLE
@@ -149,7 +149,7 @@ Many workers are evaluated on their ability to engage with customers. This paper
 
 <br>
 
-#### __Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation__
+#### __[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
 
 with [Connor Lennon](https://www.connormlennon.com) and [Glen Waddell](http://www.glenwaddell.com)
 <br>*Submitted*
@@ -172,9 +172,22 @@ knitr::include_graphics(c(
 
 <br>
 
-#### __Unequal avoidance: Disparities in smoke-induced out-migration__
+#### __[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)__
 
-with M. Steven Holloway
+with [Patrick Baylis](https://www.patrickbaylis.com) and [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/)
+<br>*Submitted*
+
+Standardizing clock time helps individuals and society coordinate activities and economic behaviors. However, standardizing time across large areas creates tension when the clock time conflicts with the local ''solar time.'' Contemporary debates about daylight saving time and areas switching time zones center on this tension. We estimate the clock- vs. solar-time tradeoff by examining the degree to which people shift their online behavior (Twitter data), commute times (Census), and daily movement (SafeGraph). On average, a one-hour change in the wedge between solar time and clock time shifts behavior 10--35 minutes, with larger effects in northern latitudes and for activities that occur closer to the beginning of the day. These results suggest debates about daylight saving time and switching time zones should account for behavioral responses to changing standardized time.
+
+[NBER Working Paper No. 30999](https://www.nber.org/papers/w30999) | [Current draft](Papers/draft-time.pdf)
+
+NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
+
+<br>
+
+#### __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
+
+with [M. Steven Holloway](https://mstevenholloway.page/home)
 
 Organisms reduce risk exposure through short-term avoidance—*flight*. However, this flight strategy may not be equally accessible throughout a population. We combine cellphone movements, satellite-based wildfire smoke plumes, and Census data to document substantial heterogeneity/inequity in communities' tendencies to out-migrate to avoid smoke. Higher-income and whiter populations travel out of their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke—underscoring equity concerns for wildfire damages and climate adaptation.
 
@@ -197,18 +210,6 @@ knitr::include_graphics(c(
 ```
 
 </center>
-
-<br>
-
-#### __Does time shift behavior? The clock- vs. solar-time tradeoff__
-
-with [Patrick Baylis](https://www.patrickbaylis.com) and [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/)
-
-Standardizing clock time helps individuals and society coordinate activities and economic behaviors. However, standardizing time across large areas creates tension when the clock time conflicts with the local ``solar time.'' Contemporary debates about daylight saving time and areas switching time zones center on this tension. We estimate the clock- vs. solar-time tradeoff by examining the degree to which people shift their online behavior (Twitter data), commute times (Census), and daily movement (SafeGraph). On average, a one-hour change in the wedge between solar time and clock time shifts behavior 10--35 minutes, with larger effects in northern latitudes and for activities that occur closer to the beginning of the day. These results suggest debates about daylight saving time and switching time zones should account for behavioral responses to changing standardized time.
-
-[NBER Working Paper No. 30999](https://www.nber.org/papers/w30999)
-
-NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
 
 <br>
 
