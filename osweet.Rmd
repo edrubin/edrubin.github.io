@@ -77,17 +77,75 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Resources:** 2024/05/03
+## **Infrastructure and the environment:** 2024/06/07
 
 <p>
-  <b>Friday, 03 May 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 07 June 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://ubc.zoom.us/meeting/register/u5MkdeuoqDIjHt1yV5TutdWB_uC6jHO9Ajtg).
+  [Register for **Zoom link here**](https://ubc.zoom.us/meeting/register/u50rdeCsrz0oGdNzTQ3rd5kwd4GjBttwba8U).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PT </b> <br>(2:00PM <b>ET</b>)</td>
+      <td>
+        <i>Expansion of piped water and sewer networks: The effects of regulation</i>
+        <br><b>Carolina Tojal R. dos Santos</b> (Michigan)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PT </b> <br>(2:20PM <b>ET</b>)</td>
+      <td>
+        <i>Bridging economic disparities: The role of bike lanes in enhancing low-income accessibility</i>
+        <br><b>Hugo Cordeau</b> (Toronto)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PT </b> <br>(2:40PM <b>ET</b>)</td>
+      <td>
+        <i>Bottle redemption, wealth transfers, and informal wages</i>
+        <br><b>Maya Norman</b> (Columbia)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PT </b> <br>(3:00PM <b>ET</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2024 {.tabset .tabset-fade}
+
+### **Resources:** 2024/05/03
 
 <p>
   <table style="width:100%">
@@ -136,14 +194,6 @@ knitr::include_graphics(c(
     </tr>
   </table>
 </p>
-
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2024 {.tabset .tabset-fade}
 
 ### **Ag and the environment:** 2024/04/05
 
