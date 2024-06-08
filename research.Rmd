@@ -2,6 +2,17 @@
 title: "Ed Rubin: Research"
 ---
 
+```{r, include=FALSE}
+pacman::p_load(magick)
+# Trim images
+image_read("Figures/Time/sunrise-summer.png") |>
+  image_trim() |>
+  image_write("Figures/Time/sunrise-summer-trim.png")
+image_read("Figures/Time/sunrise-winter.png") |>
+  image_trim() |>
+  image_write("Figures/Time/sunrise-winter-trim.png")
+```
+
 <br>
 
 # {.tabset .tabset-fade}
@@ -139,7 +150,7 @@ knitr::include_graphics(c(
 #### __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 
 with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), and [Matthew Pecenco](http://www.matthewpecenco.com)
-<br>*Revise and resubmit*, JOLE
+<br>*Revise and resubmit*, JOLE (*resubmitted*)
 
 Many workers are evaluated on their ability to engage with customers. This paper measures the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a novel framework that randomly varies the gender of names presented to customers without changing worker behavior, we find that the assignment of a female-sounding name leads to 50 percent fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. Since worker productivity informs firm hiring, pay, and promotion decisions, these results are important for understanding the persistence of identity-based discrimination in the labor market.
 
@@ -177,11 +188,24 @@ knitr::include_graphics(c(
 with [Patrick Baylis](https://www.patrickbaylis.com) and [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/)
 <br>*Submitted*
 
-Standardizing clock time helps individuals and society coordinate activities and economic behaviors. However, standardizing time across large areas creates tension when the clock time conflicts with the local ''solar time.'' Contemporary debates about daylight saving time and areas switching time zones center on this tension. We estimate the clock- vs. solar-time tradeoff by examining the degree to which people shift their online behavior (Twitter data), commute times (Census), and daily movement (SafeGraph). On average, a one-hour change in the wedge between solar time and clock time shifts behavior 10--35 minutes, with larger effects in northern latitudes and for activities that occur closer to the beginning of the day. These results suggest debates about daylight saving time and switching time zones should account for behavioral responses to changing standardized time.
+Standardized clock time is perhaps the most ubiquitous behavioral nudge on the planet. It helps schedule and coordinate economic behavior, but also creates tension when it shifts activities away from their locally optimal solar time. Debates about daylight saving time and areas switching time zones center on this tension. We directly measure the clock- vs. solar-time tradeoff using geolocated data on online behavior (Twitter), commute times (Census), and foot traffic (SafeGraph). A one-hour change in the wedge between solar time and clock time shifts behavior 10–32 minutes, with larger effects in northern latitudes and for activities occurring closer to sunrise.
 
 [NBER Working Paper No. 30999](https://www.nber.org/papers/w30999) | [Current draft](Papers/draft-time.pdf)
 
 NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
+
+<center>
+
+```{r, out.width = "49%", echo = F}
+knitr::include_graphics(c(
+  "Figures/Time/sunrise-summer-trim.png",
+  "Figures/Time/sunrise-winter-trim.png",
+  NULL
+))
+knitr::include_graphics("Figures/Time/legend-common.png")
+```
+
+</center>
 
 <br>
 
@@ -284,6 +308,14 @@ knitr::include_graphics(c(
 ## Presentations
 
 <br>
+
+__Perinatal health effects of herbicides: Glyphosate and the U.S. roll-out of GM crops__
+<br> OSU Policy, June 2024
+<br><br>
+
+__Perinatal health effects of herbicides: Glyphosate and the U.S. roll-out of GM crops__
+<br> AERE Summer Conference, May 2024
+<br><br>
 
 __Perinatal health effects of herbicides: Glyphosate and the U.S. roll-out of GM crops__
 <br> UCSB Bren, April 2024
