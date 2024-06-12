@@ -47,7 +47,10 @@ knitr::include_graphics(c(
 ```
 
 </center>
+
 <br>
+
+<hr style="width:62%">
 
 #### __[Quantifying heterogeneity in the price elasticity of residential natural gas](https://www.journals.uchicago.edu/eprint/Q8UYEM4MAQKB6WEDJ8TV/full?redirectUri=/doi/epdf/10.1086/726017)__
 
@@ -76,7 +79,10 @@ knitr::include_graphics(c(
 ))
 ```
 </center>
+
 <br>
+
+<hr style="width:62%">
 
 #### __[The economic impact of critical-habitat designation: Evidence from vacant-land transactions](https://doi.org/10.3368/le.96.2.188)__
 
@@ -95,6 +101,8 @@ knitr::include_graphics(c(
 ```
 
 <br>
+
+<hr style="width:62%">
 
 #### __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://doi.org/10.1257/pandp.20191064)__
 
@@ -147,6 +155,8 @@ knitr::include_graphics(c(
 
 <br>
 
+<hr style="width:62%">
+
 #### __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 
 with [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), and [Matthew Pecenco](http://www.matthewpecenco.com)
@@ -159,6 +169,8 @@ Many workers are evaluated on their ability to engage with customers. This paper
 [J-PAL Summary](https://www.povertyactionlab.org/evaluation/online-customer-discrimination-against-female-workers-sub-saharan-africa) | [BFI Summary](https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/)
 
 <br>
+
+<hr style="width:62%">
 
 #### __[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
 
@@ -182,6 +194,8 @@ knitr::include_graphics(c(
 </center>
 
 <br>
+
+<hr style="width:62%">
 
 #### __[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)__
 
@@ -208,6 +222,32 @@ knitr::include_graphics("Figures/Time/legend-common.png")
 </center>
 
 <br>
+
+<hr style="width:62%">
+
+#### __Glyphosate exposure and GM seed rollout unequally reduced perinatal health__
+
+with [Emmett Saulnier](https://www.emmettsaulnier.com/)
+<br>*Submitted*
+
+The advent of herbicide-tolerant genetically modified (GM) crops spurred rapid and widespread use of the herbicide glyphosate (GLY) throughout US agriculture. In the two decades following GM-seed's introduction, the volume of GLY applied in the US increased by more than 750%. Despite its breadth and scale, science and policy remain unresolved regarding the effects of GLY on human health. We identify the causal effect of GLY exposure on perinatal health by combining (1) county-level variation in GLY use driven by (2) the timing of the GM technology and (3) differential geographic suitability for GM crops. Our results suggest the introduction of GM seeds and GLY significantly reduced average birthweight and gestational length. While we find effects throughout the birthweight distribution, low-weight births experienced the largest reductions: the effect for births in the lowest decile is 4.5 times larger than that of the highest decile. Together, these estimates suggest that GLY exposure caused previously undocumented and unequal health costs for rural US communities over the last 20 years.
+
+<center>
+
+```{r, out.width = "32%", echo = F}
+knitr::include_graphics(c(
+  "Figures/Glyphosate/fs-main-policy-dbwt.jpeg",
+  "Figures/Glyphosate/rf-main-policy-dbwt.jpeg",
+  "Figures/Glyphosate/map-glyph-km2-diff-9512.jpeg",
+  NULL
+))
+```
+
+</center>
+
+<br>
+
+<hr style="width:62%">
 
 #### __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
 
@@ -237,11 +277,15 @@ knitr::include_graphics(c(
 
 <br>
 
+<hr style="width:62%">
+
 #### __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 
 *new draft in preparation* | slides | [US legalization map](Figures/Dispensaries/mapStateLegalPot.pdf) |  [timeline](Figures/Dispensaries/timeline.pdf) | [time series drug offenses](Figures/Dispensaries/seriesCrimeNonPot.pdf)
 
 <br>
+
+<hr style="width:62%">
 
 #### __Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley__
 
@@ -258,12 +302,6 @@ Many policymakers, public-health advocates, and citizen groups question whether 
 #### __Declining power-plant emissions, co-benefits, and regulatory rebound__
 
 with [Meredith Fowlie](https://www.meredithfowlie.com) and Catherine Wright
-
-<br>
-
-#### __Perinatal health effects of herbicides: Glyphosate, Roundup, and the rollout of GM crops__
-
-with [Emmett Saulnier](https://www.emmettsaulnier.com/)
 
 <br>
 
