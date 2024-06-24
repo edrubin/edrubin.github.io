@@ -59,12 +59,18 @@ __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
-
-__[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
-<br> M. Steven Holloway and Edward Rubin
+<br> _Submitted_
 
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
+<br> _Submitted_
+
+__[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)__
+<br> Edward Rubin and Emmett Saulnier
+<br> _Submitted_
+
+__[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
+<br> M. Steven Holloway and Edward Rubin
 
 __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
 <br> Edward Rubin
@@ -79,9 +85,6 @@ __[Do aerially applied pesticides affect local air quality? Empirical evidence f
 __Declining power-plant emissions, co-benefits, and regulatory rebound__
 <br> Meredith Fowlie, Edward Rubin, and Catherine Wright
 
-__Perinatal health effects of herbicides: Glyphosate, Roundup, and the rollout of GM crops__
-<br> Edward Rubin and Emmett Saulnier
-
 __Mismeasurement in exposure and access: Insights from cellphone data__
 <br> Edward Rubin
 
@@ -95,14 +98,14 @@ __How salient are environmental risks? The short- and long-run effects of lead e
 
 ## Teaching
 
-__[EC524: Econometrics (II) - Prediction and machine learning](https://github.com/edrubin/EC524W22)__
-<br>University of Oregon: Winter 2019, 2020, 2021, 2022
+__[EC524: Econometrics (II) - Prediction and machine learning](https://github.com/edrubin/EC524S24)__
+<br>University of Oregon: Winter 2019, 2020, 2021, 2022, 2024, Spring 2024
 
 __[EC607: Econometrics (III) - Causal inference](https://github.com/edrubin/EC607S22)__
-<br>University of Oregon: Spring 2019, 2020, 2021, 2022
+<br>University of Oregon: Spring 2019, 2020, 2021, 2022, 2023, 2024
 
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421W19)__
-<br>University of Oregon: Spring 2019, Winter 2019, Winter 2020, Spring 2020, Winter 2021, Winter 2022, Spring 2022
+<br>University of Oregon: Spring 2019, Winter 2019, Winter 2020, Spring 2020, Winter 2021, Winter 2022, Spring 2022, Winter 2023, Spring 2023, Winter 2023
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 <br>University of California, Berkeley: Spring 2017, Spring 2018
@@ -147,7 +150,7 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__2024__: LEEP (University of Exeter), UCSB Bren, AERE Annual Summer Conference, OSU Policy
+__2024__: LEEP (University of Exeter), UCSB Bren, AERE Annual Summer Conference, OSU Policy, EAERE Summer School
 
 __2023__: EPIC Junior Workshop (UChicago)
 

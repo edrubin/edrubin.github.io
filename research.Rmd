@@ -38,7 +38,7 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 
 <center>
 
-```{r, out.width = "49%", echo = F}
+```{r, out.width = "45%", echo = F}
 knitr::include_graphics(c(
   "Figures/Intermittent/beta-88101.png",
   "Figures/Intermittent/interpolate-88101.png",
@@ -115,7 +115,9 @@ We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to
 Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. "Bringing Satellite-Based Air Quality Estimates Down to Earth." *AEA Papers and Proceedings*, 109: 283-88. DOI: [10.1257/pandp.20191064
 ](https://doi.org/10.1257/pandp.20191064)
 
-```{r, out.width = "50%", echo = F}
+<center>
+
+```{r, out.width = "45%", echo = F}
 knitr::include_graphics(c(
   "Figures/AirQualityEstimates/box_cbg_di_2003_2007.png",
   "Figures/AirQualityEstimates/map_di_2005.png",
@@ -123,6 +125,8 @@ knitr::include_graphics(c(
   NULL
 ))
 ```
+
+</center>
 
 ## Ongoing projects
 
@@ -183,7 +187,7 @@ Machine learning (ML) primarily evolved to solve "prediction problems. The first
 
 <center>
 
-```{r, out.width = "49%", echo = F}
+```{r, out.width = "45%", echo = F}
 knitr::include_graphics(c(
   "Figures/MLIV/sim-density-ridge-t2.png",
   "Figures/MLIV/sim-exclusion-interaction-3-trees.png",
@@ -210,7 +214,7 @@ NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https
 
 <center>
 
-```{r, out.width = "49%", echo = F}
+```{r, out.width = "45%", echo = F}
 knitr::include_graphics(c(
   "Figures/Time/sunrise-summer-trim.png",
   "Figures/Time/sunrise-winter-trim.png",
@@ -225,16 +229,18 @@ knitr::include_graphics("Figures/Time/legend-common.png")
 
 <hr style="width:62%">
 
-#### __Glyphosate exposure and GM seed rollout unequally reduced perinatal health__
+#### __[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)__
 
 with [Emmett Saulnier](https://www.emmettsaulnier.com/)
 <br>*Submitted*
 
 The advent of herbicide-tolerant genetically modified (GM) crops spurred rapid and widespread use of the herbicide glyphosate (GLY) throughout US agriculture. In the two decades following GM-seed's introduction, the volume of GLY applied in the US increased by more than 750%. Despite its breadth and scale, science and policy remain unresolved regarding the effects of GLY on human health. We identify the causal effect of GLY exposure on perinatal health by combining (1) county-level variation in GLY use driven by (2) the timing of the GM technology and (3) differential geographic suitability for GM crops. Our results suggest the introduction of GM seeds and GLY significantly reduced average birthweight and gestational length. While we find effects throughout the birthweight distribution, low-weight births experienced the largest reductions: the effect for births in the lowest decile is 4.5 times larger than that of the highest decile. Together, these estimates suggest that GLY exposure caused previously undocumented and unequal health costs for rural US communities over the last 20 years.
 
+[Current draft](Papers/draft-gly.pdf) | [On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4863595)
+
 <center>
 
-```{r, out.width = "32%", echo = F}
+```{r, out.width = "30%", echo = F}
 knitr::include_graphics(c(
   "Figures/Glyphosate/fs-main-policy-dbwt.jpeg",
   "Figures/Glyphosate/rf-main-policy-dbwt.jpeg",
@@ -259,13 +265,13 @@ Organisms reduce risk exposure through short-term avoidance—*flight*. However,
 
 <center>
 
-```{r, out.width = "29%", echo = F}
+```{r, out.width = "24%", echo = F}
 knitr::include_graphics(c(
   'Figures/Smoke/map.png',
   NULL
 ))
 ```
-```{r, out.width = "35%", echo = F}
+```{r, out.width = "30%", echo = F}
 knitr::include_graphics(c(
   'Figures/Smoke/hhinc-q50-subrural0.png',
   'Figures/Smoke/shrhispanic-q50-subrural0.png',
@@ -346,6 +352,10 @@ knitr::include_graphics(c(
 ## Presentations
 
 <br>
+
+__Spatial data (and) science: Fundamentals, applications, and frontiers in env. and resource economics__
+<br> EAERE Summer School, July 2024
+<br><br>
 
 __Perinatal health effects of herbicides: Glyphosate and the U.S. roll-out of GM crops__
 <br> OSU Policy, June 2024
