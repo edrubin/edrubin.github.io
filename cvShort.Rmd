@@ -63,11 +63,11 @@ __[What can we machine learn (too much of) in 2SLS? Insights from a bias decompo
 
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
-<br> _Submitted_
+<!-- <br> _Submitted_ -->
 
 __[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)__
 <br> Edward Rubin and Emmett Saulnier
-<br> _Submitted_
+<br> _Revise and resubmit_, PNAS
 
 __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
 <br> M. Steven Holloway and Edward Rubin

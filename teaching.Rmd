@@ -22,7 +22,7 @@ __[EC 524/424](https://github.com/edrubin/EC524S24): Masters Econometrics: Machi
 
 <br>
 
-__EAERE Summer School 2024: *Spatial (Data) Science*__
+__EAERE Summer School 2024 (Data science in environmental economics research): *Spatial (Data) Science*__
 <br> *Slides* [Download via Dropbox](https://www.dropbox.com/scl/fi/up6fmoxcdv0eqmmftrjax/slides-spatial-data.html?rlkey=4s4j2lm8039x1gotqgjgqoxg3&dl=0) | [View online](https://rawcdn.githack.com/edrubin/edrubin.github.io/bcc75318e3f6a482b2da4060374622bf2bb138e4/Slides/slides-spatial-data.html?min=1)
 <br> *Warning:* Slides are a bit big (92MB).
 
