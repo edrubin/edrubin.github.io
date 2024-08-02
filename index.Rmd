@@ -1,6 +1,5 @@
 ---
-title: "Ed Rubin"
-# title: ""
+title: ""
 ---
 
 <head>
@@ -38,6 +37,9 @@ title: "Ed Rubin"
     }
   }
 </style>
+<script>
+  document.title = "Ed Rubin";
+</script>
 </head>
 
 <body>

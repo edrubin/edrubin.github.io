@@ -1,8 +1,14 @@
 ---
-title: "Ed Rubin: Teaching"
+title: "Teaching"
 ---
 
-<br>
+<head>
+<script>
+  document.title = "Ed Rubin: Teaching";
+</script>
+</head>
+
+<!-- <br> -->
 
 # {.tabset .tabset-fade}
 

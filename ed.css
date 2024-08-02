@@ -1,4 +1,4 @@
-/* @import url(https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i); */
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
 /* @import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,300i,400,400i,500,500i,600,600i,700,700i); */
 /* @import url(https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:300,300i,400,400i,500,500i,600,600i,700,700i); */
 
@@ -10,7 +10,9 @@ body {
 }
 h1 {
   /*font-size: 34px;*/
-  /* font-family: 'Fira Sans Condensed'; */
+  font-family: 'Zilla Slab';
+  font-weight: 300;
+  font-style: italic;
   font-size: 26px;
 }
 h1.title {
@@ -20,17 +22,19 @@ h1.title {
 }
 h2 {
   /*font-size: 30px;*/
-  /* font-family: 'Fira Sans Condensed'; */
+  font-family: 'Zilla Slab';
+  font-weight: 300;
   font-size: 23px;
 }
 h3 {
   /*font-size: 24px;*/
-  /* font-family: 'Fira Sans Condensed'; */
-  font-size: 18px;
+  font-family: 'Zilla Slab';
+  /* font-size: 18px; */
 }
 h4 {
-  /* font-family: 'Fira Sans Condensed'; */
   font-size: 18px;
+  font-family: 'Zilla Slab';
+  font-weight: 300;
 }
 h5 {
   /* font-family: 'Fira Sans Condensed'; */
@@ -55,4 +59,15 @@ a:visited {
 a:hover {
   font-weight: bold;
   text-decoration: underline;
+}
+.abstract {
+  font-size: 88%;
+  display: block;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+}
+.nav-tabs {
+  font-family: 'Zilla Slab';
+  font-size: 105%;
 }

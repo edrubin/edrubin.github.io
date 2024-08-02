@@ -1,5 +1,5 @@
 ---
-title: "AERE@OSWEET"
+title: "AERE\\@OSWEET"
 ---
 
 the Online Summer Workshop in Environment, Energy, and Transportation (Economics)

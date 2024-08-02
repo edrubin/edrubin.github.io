@@ -1,6 +1,12 @@
 ---
-title: "Ed Rubin: [Blog](http://xkcd.com/148/)"
+title: "[Blog](http://xkcd.com/148/)"
 ---
+
+<head>
+<script>
+  document.title = "Ed Rubin: Blog";
+</script>
+</head>
 
 __Economics, statistics, public policy, quantitative tools__
 <br>

@@ -1,6 +1,12 @@
 ---
-title: "CV: Edward A. Rubin"
+title: "Edward A. Rubin, CV"
 ---
+
+<head>
+<script>
+  document.title = "Ed Rubin: CV";
+</script>
+</head>
 
 [PDF](cvEdRubin.pdf)
 <br><br>

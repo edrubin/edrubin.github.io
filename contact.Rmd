@@ -1,8 +1,13 @@
 ---
-title: "Ed Rubin: Contact"
+title: "Contact"
 ---
 
-<br>
+<head>
+<script>
+  document.title = "Ed Rubin: Contact";
+</script>
+</head>
+<!-- <br> -->
 
 __Email:__ edwardr `ampersat` uoregon `period` edu
 
