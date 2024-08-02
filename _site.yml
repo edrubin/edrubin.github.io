@@ -33,11 +33,11 @@ navbar:
           href: links.html
         - text: "Favorite Tools"
           href: tools.html
-        - text: "---------"
-        - text: "Advice"
-          href: advice.html
-        - text: "Meetings"
-          href: meetings.html
+        # - text: "---------"
+        # - text: "Advice"
+        #   href: advice.html
+        # - text: "Meetings"
+        #   href: meetings.html
         - text: "---------"
         - text: "Consulting"
           href: consulting.html
@@ -56,4 +56,5 @@ output:
     css: ed.css
     highlight: pygments
     include:
+      in_header: header.html
       after_body: footer.html
