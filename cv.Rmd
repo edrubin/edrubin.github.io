@@ -35,7 +35,7 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 ## Publications
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
-<br> Yingfei Mu, Edward Rubin, and Eric Zou. REStat (_Accepted_)
+<br> Yingfei Mu, Edward Rubin, and Eric Zou. REStat (_Forthcoming_)
 
 __[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
 <br> Edward Rubin and Maximilian Auffhammer. 2024 (_Forthcoming_). *Journal of the Association of Environmental and Resource Economists*.
@@ -55,7 +55,7 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
-<br> _Revise and resubmit_, JAERE (_resubmitted_)
+<br> _Conditionally accepted_, JAERE
 
 __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 <br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
