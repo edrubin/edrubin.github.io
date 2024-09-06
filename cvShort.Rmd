@@ -30,20 +30,23 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 ## Publications
 
+__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
+<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco. 2026 (_Forthcoming_). _Journal of Labor Economics_.
+
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
-<br> Yingfei Mu, Edward Rubin, and Eric Zou. REStat (_Accepted_)
+<br> Yingfei Mu, Edward Rubin, and Eric Zou. (_Forthcoming_). _The Review of Economics and Statistics_.
 
 __[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
-<br> Edward Rubin and Maximilian Auffhammer. 2024 (_Forthcoming_). *Journal of the Association of Environmental and Resource Economists*.
+<br> Edward Rubin and Maximilian Auffhammer. 2024 (_Forthcoming_). _Journal of the Association of Environmental and Resource Economists_.
 
 __[The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions](https://muse.jhu.edu/article/753055)__
-<br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. *Land Economics*, 96(2), 188–206.
+<br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. _Land Economics_, 96(2), 188–206.
 
 __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064)__
-<br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. *AEA Papers and Proceedings*, 109: 283-88.
+<br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. _AEA Papers and Proceedings_, 109: 283-88.
 
 (Book) __[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)__ 
-<br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. *Springer*
+<br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. _Springer_
 
 <br>
 
@@ -52,10 +55,6 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
 <br> _Conditionally accepted_, JAERE
-
-__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
-<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco
-<br> _Accepted_, JOLE 
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell

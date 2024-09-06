@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.11)  15 AUG 2024 14:14
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.11)  5 SEP 2024 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -856,7 +856,7 @@ LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/m/it' will be
 LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 98.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
@@ -864,21 +864,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
 ] [2] [3]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.55913pt on input line 398.
+(Font)              scaled to size 8.55913pt on input line 399.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.11366pt on input line 398.
+(Font)              scaled to size 6.11366pt on input line 399.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.22855pt on input line 398.
+(Font)              scaled to size 12.22855pt on input line 399.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.55998pt on input line 398.
+(Font)              scaled to size 8.55998pt on input line 399.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.11427pt on input line 398.
+(Font)              scaled to size 6.11427pt on input line 399.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.2261pt on input line 398.
+(Font)              scaled to size 12.2261pt on input line 399.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.55827pt on input line 398.
+(Font)              scaled to size 8.55827pt on input line 399.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.11305pt on input line 398.
+(Font)              scaled to size 6.11305pt on input line 399.
 [4] (./cvEdRubin.aux)
  ***********
 LaTeX2e <2023-06-01>
@@ -888,7 +888,7 @@ L3 programming layer <2023-06-05>
 Here is how much of TeX's memory you used:
  18580 strings out of 478367
  341826 string characters out of 5839282
- 1859390 words of memory out of 5000000
+ 1860390 words of memory out of 5000000
  38758 multiletter control sequences out of 15000+600000
  519886 words of font info for 93 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
