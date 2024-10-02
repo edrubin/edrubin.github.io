@@ -149,7 +149,7 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__2024__: LEEP (University of Exeter), UCSB Bren, AERE Annual Summer Conference, OSU Policy, EAERE Summer School
+__2024__: LEEP (University of Exeter), UCSB Bren, AERE Annual Summer Conference, OSU Policy, EAERE Summer School, Toulouse School of Economics, Paris School of Economics
 
 __2023__: EPIC Junior Workshop (UChicago)
 
@@ -179,9 +179,10 @@ __2012__: International Conference of Agricultural Economists (poster)
 
 __Advising__ 
 
-- *PhD committee chair* Mary Kopriva (co-chair); Connor Lennon (co-chair); Garrett Stanford (chair)
-- *PhD dissertation committee* Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee; Kyle Wilson; Sichao Zhang
-- *Undergraduate* Zoë Arnaut (reader); Eleanor Franks (reader); Kara Krnacik (chair); Aidan Pott (chair)
+- *PhD committee chair* Andrew Dickinson (co-chair; *in-progress*) Mary Kopriva (Wade) (co-chair); Connor Lennon (co-chair); Emmett (Reynier; *in-progress*); Garrett Stanford (chair)
+- *PhD dissertation committee* Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Steven Walton (Computer Science; *in-progress*); Kyle Wilson; Micaela Wood (*in-progress*)
+- *Masters* Pilar Mullican
+- *Undergraduate* Joseph Andersen (department; advisor), Zoë Arnaut (honors; reader); Eleanor Franks (honors; reader); Kara Krnacik (honors; chair); Aidan Pott (honors; chair)
 
 __Other__
 
@@ -189,7 +190,7 @@ __Other__
 - Co-founded/Organized [OSWEET](https://edrub.in/osweet) (Online Student Workshop in Environmental, Energy, and Transportation)
 - Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
 - Co-organize applied microeconometrics workshop at UO
-- **Referee:** [PNAS](https://www.pnas.org/) [AEJ: Policy](https://www.aeaweb.org/journals/pol), [JAERE](https://www.journals.uchicago.edu/toc/jaere/current), [JPubE](https://www.journals.elsevier.com/journal-of-public-economics), [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [JEEM](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management), [Land Economics](https://uwpress.wisc.edu/journals/journals/le.html), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics), [Energy Policy](https://www.journals.elsevier.com/energy-policy), [JPAM](http://www.appam.org/jpam/), [Water Economics and Policy](https://www.worldscientific.com/worldscinet/wep), [Nature Communications: Earth & Environment](https://www.nature.com/commsenv/), [Economics Letters](https://www.sciencedirect.com/journal/economics-letters)
+- **Referee:** [PNAS](https://www.pnas.org/), [AER: Insights](https://www.aeaweb.org/journals/aeri), [AEJ: Policy](https://www.aeaweb.org/journals/pol), [JAERE](https://www.journals.uchicago.edu/toc/jaere/current), [JPubE](https://www.journals.elsevier.com/journal-of-public-economics), [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [JEEM](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management), [Land Economics](https://uwpress.wisc.edu/journals/journals/le.html), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics), [Energy Policy](https://www.journals.elsevier.com/energy-policy), [JPAM](http://www.appam.org/jpam/), [Water Economics and Policy](https://www.worldscientific.com/worldscinet/wep), [Nature Communications: Earth & Environment](https://www.nature.com/commsenv/), [Economics Letters](https://www.sciencedirect.com/journal/economics-letters)
 - Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
 - Organized biweekly (twice per week) departmental lunches (UCB)
 - Organized third-year research workshop (UCB)

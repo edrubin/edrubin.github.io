@@ -401,6 +401,14 @@ knitr::include_graphics(c(
 
 <br>
 
+__Power Plants, Air Pollution, and Regulatory Rebound__
+<br> Paris School of Economics, September 2024
+<br><br>
+
+__Power Plants, Air Pollution, and Regulatory Rebound__
+<br> Toulouse School of Economics, September 2024
+<br><br>
+
 __Spatial data (and) science: Fundamentals, applications, and frontiers in env. and resource economics__
 <br> EAERE Summer School, July 2024
 <br><br>

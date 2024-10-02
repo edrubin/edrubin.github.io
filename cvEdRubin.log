@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.11)  5 SEP 2024 22:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.11)  2 OCT 2024 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,21 +864,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
 ] [2] [3]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.55913pt on input line 399.
+(Font)              scaled to size 8.55913pt on input line 410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.11366pt on input line 399.
+(Font)              scaled to size 6.11366pt on input line 410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.22855pt on input line 399.
+(Font)              scaled to size 12.22855pt on input line 410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.55998pt on input line 399.
+(Font)              scaled to size 8.55998pt on input line 410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.11427pt on input line 399.
+(Font)              scaled to size 6.11427pt on input line 410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.2261pt on input line 399.
+(Font)              scaled to size 12.2261pt on input line 410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.55827pt on input line 399.
+(Font)              scaled to size 8.55827pt on input line 410.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.11305pt on input line 399.
+(Font)              scaled to size 6.11305pt on input line 410.
 [4] (./cvEdRubin.aux)
  ***********
 LaTeX2e <2023-06-01>
