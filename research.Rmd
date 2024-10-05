@@ -150,7 +150,7 @@ knitr::include_graphics(c(
 
 #### __[The economic impact of critical-habitat designation: Evidence from vacant-land transactions](https://doi.org/10.3368/le.96.2.188)__
 
-[Maximilian Auffhammer](https://auffhammer.com), [Maya Duru](https://www.povertyactionlab.org/duru), [Edward Rubin](https://edrub.in), and [David L. Sunding](https://are.berkeley.edu/users/david-l-sunding)
+[Maximilian Auffhammer](https://auffhammer.com), [Maya Duru](https://oes.gsa.gov/team/maya-duru/), [Edward Rubin](https://edrub.in), and [David L. Sunding](https://are.berkeley.edu/users/david-l-sunding)
 
 <span class="abstract">
 The Endangered Species Act (ESA) requires the federal government to designate critical habitat for species listed as threatened or endangered. This provision of the ESA has proven to be one of its most controversial, as critical-habitat land designation entails special management—and potentially greater regulation. In this paper we measure the economic impact of critical-habitat designation by estimating its effect on the market value of vacant land. Using data from over 13,000 vacant-land transactions that occurred within or near critical habitat for two important species in California (red-legged frog and Bay checkerspot butterfly), we show that critical-habitat designation resulted in a large and statistically significant decrease in land value. The estimated impact of critical-habitat designation is heterogeneous: the largest decreases occur within designated urban-growth boundaries.
