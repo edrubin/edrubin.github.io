@@ -77,17 +77,75 @@ knitr::include_graphics(c(
 
 # {.tabset .tabset-fade}
 
-## **Enviro+Health:** 2024/09/13
+## **Agriculture:** 2024/10/11
 
 <p>
-  <b>Friday, 13 September 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+  <b>Friday, 11 October 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 </p>
 
 <p>
-  [Register for **Zoom link here**](https://ubc.zoom.us/meeting/register/u5csdeyopjsrGNfGKBlmiLvVjZGI7sk-2r_M#/registration).
+  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/tJEkdeyvqjMsG9P1--0wa1z-xay9riXIHTUw#/registration).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
+
+<p>
+  <table style="width:100%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <!-- Talk 1 -->
+    <tr valign="top">
+      <td>&nbsp;&nbsp;&nbsp;</td>
+      <td>11:00AM <b>PT </b> <br>(2:00PM <b>ET</b>)</td>
+      <td>
+        <i>Irrigation infrastructure and agricultural development in the long run: Evidence from the Senegal River Valley</i>
+        <br><b>Joel Ferguson</b> (Stanford)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 2 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:20AM <b>PT </b> <br>(2:20PM <b>ET</b>)</td>
+      <td>
+        <i>Understanding the drivers of cover crop adoption in the US Midwest using satellite data</i>
+        <br><b>Na Zhang</b> (UIUC)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Talk 3 -->
+    <tr valign="top">
+      <td></td>
+      <td>11:40AM <b>PT </b> <br>(2:40PM <b>ET</b>)</td>
+      <td>
+        <i>Compensation mechanism, program scale, and the efficiency of payment for ecosystem services programs</i>
+        <br><b>Micah Cameron Harp</b> (Kansas State)
+        <br><br>
+      </td>
+    </tr>
+    <!-- Happy hour -->
+    <tr valign="top">
+      <td></td>
+      <td>12:00PM <b>PT </b> <br>(3:00PM <b>ET</b>)</td>
+      <td>
+        <i>Happy half-hour!</i>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+
+#
+
+### Past events
+
+# {.tabset .tabset-fade}
+
+## 2024 {.tabset .tabset-fade}
+
+### **Enviro+Health:** 2024/09/13
 
 <p>
   <table style="width:100%">
@@ -137,13 +195,6 @@ knitr::include_graphics(c(
   </table>
 </p>
 
-#
-
-### Past events
-
-# {.tabset .tabset-fade}
-
-## 2024 {.tabset .tabset-fade}
 
 ### **Energy:** 2024/08/09
 
