@@ -121,7 +121,7 @@ knitr::include_graphics(c(
       <td>11:40AM <b>PT </b> <br>(2:40PM <b>ET</b>)</td>
       <td>
         <i>Compensation mechanism, program scale, and the efficiency of payment for ecosystem services programs</i>
-        <br><b>Micah Cameron Harp</b> (Kansas State)
+        <br><b>Micah Cameron-Harp</b> (Kansas State)
         <br><br>
       </td>
     </tr>
