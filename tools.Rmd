@@ -8,62 +8,50 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 
 ### Text editing
 
-- General scripting/coding: VS Code
-- LaTeX writing: Overleaf
+- General scripting/coding: [VS Code](https://code.visualstudio.com/)
+- LaTeX writing: [Overleaf](https://www.overleaf.com/)
+- Slides: Migrating to [Quarto](https://quarto.org/) from [xaringan](https://slides.yihui.org/xaringan/#1)
 
 <br>
 
 ### Terminal
 
-- Warp, Tabby, iTerm
-- Zsh
-- Oh My Zsh
+- [Warp](https://www.warp.dev/)
+- [Oh My Zsh](https://ohmyz.sh/)
+- [doi2bib](https://doi2bib.readthedocs.io/en/latest/index.html)
+- [Neovim](https://neovim.io/) and [NvChad](https://nvchad.com/)
+- [radian](https://github.com/randy3k/radian)
+- Sometimes a little [tmux](https://github.com/tmux/tmux/)
 
 <br>
 
 ### Data work/analysis
 
-- R (95.9%)
-- Stata (3%)
-- Python (1%)
-- Julia (0.1%)
-
-__Note:__ Numbers above are allegorical.
+- [R](https://www.r-project.org/) in [VS Code](https://code.visualstudio.com/) with [radian](https://github.com/randy3k/radian)
 
 <br>
 
 ### Productivity
 
-- Note taking: Obsidian
-- Task management: Things 3 and Github Projects
-- Calendar: Fantastical
-- Calculator: Numi
-- Passwords: Dashlane
-- FTP: Transmit
-- Email: Spark
+- Note taking: [Obsidian](https://obsidian.md/)
+- Task management: [Things 3](https://culturedcode.com/things/) and [Github Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+- Calendar: [Fantastical](https://flexibits.com/fantastical)
+- Calculator: [Numi](https://numi.app/)
+- Passwords: [Dashlane](https://www.dashlane.com/)
+- FTP: [Transmit](https://panic.com/transmit/)
+- Email: [Spark](https://sparkmailapp.com/)
 
 <br>
 
 ### Computer ease
 
-- Rectangle
-- Alfred
-- Notability and PDF Expert
-
-<br>
-
-### Computer maintenance
-
-- CleanMyMac
-- Carbon Copy Cloner
-- DaisyDisk
+- [Rectangle](https://rectangleapp.com/)
+- [Alfred](https://www.alfredapp.com/)
+- [Notability](notability.com) and [PDF Expert](https://pdfexpert.com/)
 
 <br>
 
 ### Browser and extensions
 
-- __Browser:__ Vivaldi
-- __VPN:__ TunnelBear
-- __Extensions:__
-    - Dashlane
-    - Save to Pocket
+- __Browser:__ [Brave](https://brave.com/)
+- __VPN:__ [TunnelBear](https://www.tunnelbear.com/)
