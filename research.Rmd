@@ -273,7 +273,7 @@ knitr::include_graphics("Figures/Time/legend-common.png")
 #### __[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)__
 
 with [Emmett Saulnier](https://www.emmettsaulnier.com/)
-<br>*Revise and resubmit*, PNAS
+<br>*Revise and resubmit (resubmitted)*, PNAS
 
 <span class="abstract">
 The advent of herbicide-tolerant genetically modified (GM) crops spurred rapid and widespread use of the herbicide glyphosate (GLY) throughout US agriculture. In the two decades following GM-seed's introduction, the volume of GLY applied in the US increased by more than 750%. Despite its breadth and scale, science and policy remain unresolved regarding the effects of GLY on human health. We identify the causal effect of GLY exposure on perinatal health by combining (1) county-level variation in GLY use driven by (2) the timing of the GM technology and (3) differential geographic suitability for GM crops. Our results suggest the introduction of GM seeds and GLY significantly reduced average birthweight and gestational length. While we find effects throughout the birthweight distribution, low-weight births experienced the largest reductions: the effect for births in the lowest decile is 4.5 times larger than that of the highest decile. Together, these estimates suggest that GLY exposure caused previously undocumented and unequal health costs for rural US communities over the last 20 years.
