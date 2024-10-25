@@ -18,9 +18,10 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 
 - [Warp](https://www.warp.dev/)
 - [Oh My Zsh](https://ohmyz.sh/)
-- [doi2bib](https://doi2bib.readthedocs.io/en/latest/index.html)
-- [Neovim](https://neovim.io/) and [NvChad](https://nvchad.com/)
 - [radian](https://github.com/randy3k/radian)
+- [Neovim](https://neovim.io/) and [NvChad](https://nvchad.com/)
+- [doi2bib](https://doi2bib.readthedocs.io/en/latest/index.html)
+- [lf](https://github.com/gokcehan/lf)
 - Sometimes a little [tmux](https://github.com/tmux/tmux/)
 
 <br>

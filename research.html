@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -351,16 +351,16 @@ $(document).ready(function () {
 <li>
   <a href="cv.html">CV</a>
 </li>
-<li>
-  <a href="blog.html">Blog</a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    About
+    More
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="blog.html">Blog</a>
+    </li>
     <li>
       <a href="bio.html">Bio</a>
     </li>
@@ -376,15 +376,7 @@ $(document).ready(function () {
          
       </a>
     </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    More
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
+    <li class="divider"></li>
     <li class="dropdown-header">Technology</li>
     <li>
       <a href="links.html">Useful Links</a>
@@ -409,12 +401,6 @@ $(document).ready(function () {
 <li>
   <a href="https://www.instagram.com/edwardarubin">
     <span class="fa fa-instagram fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://www.twitter.com/edrubin">
-    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -446,15 +432,14 @@ $(document).ready(function () {
 <!-- <br> -->
 <div id="section" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade"></h1>
-<div id="published" class="section level2">
-<h2>Published</h2>
+<div id="papers" class="section level2">
+<h2>Papers</h2>
 <p><br></p>
-<font color="#18BC9C">
-<h2>
-Publications
-</h2>
-<p></font></p>
-<hr />
+<div id="publishedaccepted" class="section level3">
+<h3><i>Published/Accepted</i></h3>
+<p><br></p>
+<!-- <font color="#18BC9C"><h2>Publications</h2></font> -->
+<!-- --- -->
 <div
 id="downwind-and-out-the-strategic-dispersion-of-power-plants-and-their-pollution"
 class="section level4">
@@ -665,17 +650,13 @@ href="https://doi.org/10.1257/pandp.20191064">10.1257/pandp.20191064</a></p>
 <center>
 <p><img src="Figures/AirQualityEstimates/box_cbg_di_2003_2007.png" width="45%" /><img src="Figures/AirQualityEstimates/map_di_2005.png" width="45%" /></p>
 </center>
-</div>
-</div>
-<div id="ongoing-projects" class="section level2">
-<h2>Ongoing projects</h2>
 <p><br></p>
-<font color="#18BC9C">
-<h2>
-Working Papers
-</h2>
-<p></font></p>
 <hr />
+</div>
+</div>
+<div id="working-papers" class="section level3">
+<h3><i>Working Papers</i></h3>
+<p><br></p>
 <div
 id="machine-learning-the-first-stage-in-2sls-practical-guidance-from-a-bias-decomposition-and-simulation"
 class="section level4">
@@ -683,8 +664,7 @@ class="section level4">
 stage in 2SLS: Practical guidance from a bias decomposition and
 simulation</a></strong></h4>
 <p>with <a href="https://www.connormlennon.com">Connor Lennon</a> and <a
-href="http://www.glenwaddell.com">Glen Waddell</a>
-<br><em>Submitted</em></p>
+href="http://www.glenwaddell.com">Glen Waddell</a></p>
 <p><span class="abstract"> Machine learning (ML) primarily evolved to
 solve “prediction problems. The first stage of two-stage least squares
 (2SLS) is a prediction problem, suggesting potential gains from ML
@@ -793,57 +773,12 @@ and climate adaptation. </span></p>
 <img src="Figures/Smoke/hhinc-q50-subrural0.png" width="30%" /><img src="Figures/Smoke/shrhispanic-q50-subrural0.png" width="30%" /></p>
 </center>
 <p><br></p>
-<hr style="width:62%">
-<p><br></p>
-</div>
-<div
-id="are-our-hopes-too-high-testing-cannabis-legalizations-potential-to-reduce-criminalization"
-class="section level4">
-<h4><strong>Are our hopes too high? Testing cannabis legalization’s
-potential to reduce criminalization</strong></h4>
-<p><em>new draft in preparation</em> | slides | <a
-href="Figures/Dispensaries/mapStateLegalPot.pdf">US legalization map</a>
-| <a href="Figures/Dispensaries/timeline.pdf">timeline</a> | <a
-href="Figures/Dispensaries/seriesCrimeNonPot.pdf">time series drug
-offenses</a></p>
-<p><br></p>
-<hr style="width:62%">
-<p><br></p>
-</div>
-<div
-id="do-aerially-applied-pesticides-affect-local-air-quality-empirical-evidence-from-californias-san-joaquin-valley"
-class="section level4">
-<h4><strong>Do aerially applied pesticides affect local air quality?
-Empirical evidence from California’s San Joaquin Valley</strong></h4>
-<p><span class="abstract"> Many policymakers, public-health advocates,
-and citizen groups question whether current pesticide regulations
-properly equate the marginal social costs of pesticide applications to
-their marginal social benefits—with particular concern for negative
-health effects stemming from pesticide exposure. Additionally, recent
-research and policies in public health, epidemiology, and economics
-emphasize how fine particulate matter (PM2.5) concentrations harm humans
-through increased mortality, morbidity, mental health issues, and a host
-of socioeconomic outcomes. This paper presents the first empirical
-evidence that aerially applied pesticides increase local PM2.5
-concentrations. To causally estimate this effect, I combine the universe
-of aerial pesticide applications in the five southern counties of
-California’s San Joaquin Valley (1.8M reports) with the U.S. EPA’s PM2.5
-monitoring network—exploiting (<strong>1</strong>) spatiotemporal
-variation in aerial pesticide applications and (<strong>2</strong>)
-variation in local wind patterns. I find significant evidence that
-(upwind) aerial pesticide applications within 1.5km increase local PM2.5
-concentrations. The magnitudes of the point estimates suggest that the
-top decile of aerial applications may sufficiently increase local PM2.5
-to warrant concern for human health. </span></p>
-<p><em>new draft in preparation</em></p>
-<p><br></p>
-<font color="#18BC9C">
-<h2>
-In Progress
-</h2>
-<p></font></p>
 <hr />
 </div>
+</div>
+<div id="in-progress" class="section level3">
+<h3><i>In Progress</i></h3>
+<p><br></p>
 <div
 id="declining-power-plant-emissions-co-benefits-and-regulatory-rebound"
 class="section level4">
@@ -851,6 +786,12 @@ class="section level4">
 rebound</strong></h4>
 <p>with <a href="https://www.meredithfowlie.com">Meredith Fowlie</a> and
 Catherine Wright</p>
+<p><br></p>
+</div>
+<div id="pm-prediction" class="section level4">
+<h4><strong>PM Prediction</strong></h4>
+<p>with <a href="https://ajdickinson.github.io/">Andrew
+Dickinson</a></p>
 <p><br></p>
 </div>
 <div id="interactions-between-measurement-error-and-policy"
@@ -873,16 +814,32 @@ class="section level4">
 effects of lead exposure in piped water</strong></h4>
 <p><br></p>
 </div>
+<div
+id="are-our-hopes-too-high-testing-cannabis-legalizations-potential-to-reduce-criminalization"
+class="section level4">
+<h4><strong>Are our hopes too high? Testing cannabis legalization’s
+potential to reduce criminalization</strong></h4>
+<!-- *new draft in preparation* | slides | [US legalization map](Figures/Dispensaries/mapStateLegalPot.pdf) |  [timeline](Figures/Dispensaries/timeline.pdf) | [time series drug offenses](Figures/Dispensaries/seriesCrimeNonPot.pdf) -->
+<p><br></p>
+</div>
+<div
+id="do-aerially-applied-pesticides-affect-local-air-quality-empirical-evidence-from-californias-san-joaquin-valley"
+class="section level4">
+<h4><strong>Do aerially applied pesticides affect local air quality?
+Empirical evidence from California’s San Joaquin Valley</strong></h4>
+<!-- <span class="abstract"> -->
+<!-- Many policymakers, public-health advocates, and citizen groups question whether current pesticide regulations properly equate the marginal social costs of pesticide applications to their marginal social benefits—with particular concern for negative health effects stemming from pesticide exposure. Additionally, recent research and policies in public health, epidemiology, and economics emphasize how fine particulate matter (PM2.5) concentrations harm humans through increased mortality, morbidity, mental health issues, and a host of socioeconomic outcomes. This paper presents the first empirical evidence that aerially applied pesticides increase local PM2.5 concentrations. To causally estimate this effect, I combine the universe of aerial pesticide applications in the five southern counties of California's San Joaquin Valley (1.8M reports) with the U.S. EPA's PM2.5 monitoring network—exploiting (__1__) spatiotemporal variation in aerial pesticide applications and (__2__) variation in local wind patterns. I find significant evidence that (upwind) aerial pesticide applications within 1.5km increase local PM2.5 concentrations. The magnitudes of the point estimates suggest that the top decile of aerial applications may sufficiently increase local PM2.5 to warrant concern for human health. -->
+<!-- </span> -->
+<!-- *new draft in preparation* -->
+<p><br></p>
+</div>
+</div>
 </div>
 <div id="books" class="section level2">
 <h2>Books</h2>
 <p><br></p>
-<font color="#18BC9C">
-<h2>
-Books
-</h2>
-<p></font></p>
-<hr />
+<!-- <font color="#18BC9C"><h2>Books</h2></font> -->
+<!-- --- -->
 <div id="data-science-for-public-policy" class="section level4">
 <h4><strong><a
 href="https://www.springer.com/gp/book/9783030713515">Data Science for
@@ -1043,6 +1000,7 @@ December 2006 <br><br></p>
 </div>
 <div id="r-scripts" class="section level2">
 <h2>R scripts</h2>
+<p><br></p>
 <p>Run R code in terminal without entering R or saving a script. (The
 <code>-e</code> option evaluates the given R expression.)</p>
 <div class="sourceCode" id="cb1"><pre
@@ -1125,6 +1083,7 @@ class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="
 </div>
 <div id="latex" class="section level2">
 <h2>LaTeX</h2>
+<p><br></p>
 <p>My LaTeX (beamer) template: <a
 href="MiscFiles/beamerTemplate.tex">.tex file</a> | <a
 href="MiscFiles/beamerTemplate.pdf">example PDF</a></p>
@@ -1136,6 +1095,7 @@ alt="Example of my slide template." />
 </div>
 <div id="bash" class="section level2">
 <h2>Bash</h2>
+<p><br></p>
 <div id="list-files-recursively-by-size" class="section level3">
 <h3>List files (recursively) by size</h3>
 <p>Lists all <strong>files</strong> in a directory (here

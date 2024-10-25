@@ -23,13 +23,17 @@ image_read("Figures/Time/sunrise-winter.png") |>
 
 # {.tabset .tabset-fade}
 
-## Published
+## Papers
 
 <br>
 
-<font color="#18BC9C"><h2>Publications</h2></font>
+### <i>Published/Accepted</i>
 
----
+<br>
+
+<!-- <font color="#18BC9C"><h2>Publications</h2></font> -->
+
+<!-- --- -->
 
 #### __[Downwind and out: The strategic dispersion of power plants and their pollution](Papers/draft-plant-locations.pdf)__
 
@@ -198,18 +202,19 @@ knitr::include_graphics(c(
 
 </center>
 
-## Ongoing projects
 
 <br>
 
-<font color="#18BC9C"><h2>Working Papers</h2></font>
-
 ---
+
+### <i>Working Papers</i>
+
+<br>
+
 
 #### __[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](Papers/draft-mliv.pdf)__
 
 with [Connor Lennon](https://www.connormlennon.com) and [Glen Waddell](http://www.glenwaddell.com)
-<br>*Submitted*
 
 <span class="abstract">
 Machine learning (ML) primarily evolved to solve "prediction problems. The first stage of two-stage least squares (2SLS) is a prediction problem, suggesting potential gains from ML first-stage assistance. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction *and* causal-inference settings—and their interaction. Through simulation, we show linear ML methods (*e.g.*, post-Lasso) work well, while nonlinear methods (*e.g.*, random forests, neural nets) generate substantial bias in second-stage estimates—potentially *exceeding* the bias of endogenous OLS.
@@ -323,37 +328,21 @@ knitr::include_graphics(c(
 
 <br>
 
-<hr style="width:62%">
-
-<br>
-
-#### __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
-
-*new draft in preparation* | slides | [US legalization map](Figures/Dispensaries/mapStateLegalPot.pdf) |  [timeline](Figures/Dispensaries/timeline.pdf) | [time series drug offenses](Figures/Dispensaries/seriesCrimeNonPot.pdf)
-
-<br>
-
-<hr style="width:62%">
-
-<br>
-
-#### __Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley__
-
-<span class="abstract">
-Many policymakers, public-health advocates, and citizen groups question whether current pesticide regulations properly equate the marginal social costs of pesticide applications to their marginal social benefits—with particular concern for negative health effects stemming from pesticide exposure. Additionally, recent research and policies in public health, epidemiology, and economics emphasize how fine particulate matter (PM2.5) concentrations harm humans through increased mortality, morbidity, mental health issues, and a host of socioeconomic outcomes. This paper presents the first empirical evidence that aerially applied pesticides increase local PM2.5 concentrations. To causally estimate this effect, I combine the universe of aerial pesticide applications in the five southern counties of California's San Joaquin Valley (1.8M reports) with the U.S. EPA's PM2.5 monitoring network—exploiting (__1__) spatiotemporal variation in aerial pesticide applications and (__2__) variation in local wind patterns. I find significant evidence that (upwind) aerial pesticide applications within 1.5km increase local PM2.5 concentrations. The magnitudes of the point estimates suggest that the top decile of aerial applications may sufficiently increase local PM2.5 to warrant concern for human health.
-</span>
-
-*new draft in preparation*
-
-<br>
-
-<font color="#18BC9C"><h2>In Progress</h2></font>
-
 ---
+
+### <i>In Progress</i>
+
+<br>
 
 #### __Declining power-plant emissions, co-benefits, and regulatory rebound__
 
 with [Meredith Fowlie](https://www.meredithfowlie.com) and Catherine Wright
+
+<br>
+
+#### __PM Prediction__
+
+with [Andrew Dickinson](https://ajdickinson.github.io/)
 
 <br>
 
@@ -369,13 +358,30 @@ with [Meredith Fowlie](https://www.meredithfowlie.com) and Catherine Wright
 
 <br>
 
+#### __Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
+
+<!-- *new draft in preparation* | slides | [US legalization map](Figures/Dispensaries/mapStateLegalPot.pdf) |  [timeline](Figures/Dispensaries/timeline.pdf) | [time series drug offenses](Figures/Dispensaries/seriesCrimeNonPot.pdf) -->
+
+<br>
+
+#### __Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley__
+
+<!-- <span class="abstract"> -->
+<!-- Many policymakers, public-health advocates, and citizen groups question whether current pesticide regulations properly equate the marginal social costs of pesticide applications to their marginal social benefits—with particular concern for negative health effects stemming from pesticide exposure. Additionally, recent research and policies in public health, epidemiology, and economics emphasize how fine particulate matter (PM2.5) concentrations harm humans through increased mortality, morbidity, mental health issues, and a host of socioeconomic outcomes. This paper presents the first empirical evidence that aerially applied pesticides increase local PM2.5 concentrations. To causally estimate this effect, I combine the universe of aerial pesticide applications in the five southern counties of California's San Joaquin Valley (1.8M reports) with the U.S. EPA's PM2.5 monitoring network—exploiting (__1__) spatiotemporal variation in aerial pesticide applications and (__2__) variation in local wind patterns. I find significant evidence that (upwind) aerial pesticide applications within 1.5km increase local PM2.5 concentrations. The magnitudes of the point estimates suggest that the top decile of aerial applications may sufficiently increase local PM2.5 to warrant concern for human health. -->
+<!-- </span> -->
+
+<!-- *new draft in preparation* -->
+
+<br>
+
+
 ## Books
 
 <br>
 
-<font color="#18BC9C"><h2>Books</h2></font>
+<!-- <font color="#18BC9C"><h2>Books</h2></font> -->
 
----
+<!-- --- -->
 
 #### __[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)__
 
@@ -559,6 +565,8 @@ __Reproductive Ecology of Western Painted Turtles (Chrysemys picta)__
 
 ## R scripts
 
+<br>
+
 Run R code in terminal without entering R or saving a script. (The `-e` option evaluates the given R expression.)
 
 ```{bash, eval = F}
@@ -644,11 +652,15 @@ ggplot() +
 
 ## LaTeX
 
+<br>
+
 My LaTeX (beamer) template: [.tex file](MiscFiles/beamerTemplate.tex) | [example PDF](MiscFiles/beamerTemplate.pdf)
 
 ![Example of my slide template.](MiscFiles/beamerTemplate.gif)
 
 ## Bash
+
+<br>
 
 ### List files (recursively) by size
 
