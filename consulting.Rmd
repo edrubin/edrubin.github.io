@@ -1,5 +1,0 @@
----
-title: "Consulting"
----
-
-[Contact me.](contact.html)

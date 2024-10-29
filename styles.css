@@ -1,3 +1,76 @@
-blockquote {
-  font-style: italic
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
+
+/* css styles */
+
+/* Navbar */
+.navbar{
+  background: #fff;
 }
+.navbar a {
+  color: #D8BFD8;
+}
+.navbar a:hover {
+  color: #FF1493;
+}
+.navbar-nav .nav-link.active {
+  color: #663399;
+}
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+  color: #D8BFD8;
+}
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: #D8BFD8;
+}
+
+/* Sidebar */
+.sidebar nav[role=doc-toc] ul>li>a {
+  color: #D8BFD8 !important;
+}
+.sidebar nav[role=doc-toc] ul>li>a:hover {
+  color: #FF1493 !important;
+}
+.sidebar nav[role=doc-toc] ul>li>a.active {
+  color: #663399 !important;
+}
+
+/* Tabs */
+.tab-content {
+  border-left: #fff;
+  border-right: #fff;
+  border-top: #fff;
+  border-bottom: #fff;
+}
+.nav a {
+  color: #D8BFD8;
+}
+.nav a:hover {
+  color: #FF1493;
+}
+
+/* Fonts */
+body {
+  font-size: 14px;
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  color: #696969;
+}
+a {
+  color: #663399;
+  text-decoration: underline dotted #E6E6FA;
+}
+h1 {
+  font-family: 'Inconsolata';
+  color: black;
+}
+h2 {
+  font-family: 'Inconsolata';
+  color: black;
+}
+h3 {
+  font-family: 'Inconsolata';
+  color: black;
+}
+.dropdown-item {
+  font-size: 13px;
+}
+

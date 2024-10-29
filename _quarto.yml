@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: "."
+
+website:
+  title: "Ed Rubin"
+  favicon: images/yellow-duck-512.png
+  navbar:
+    left:
+      - href: index.qmd
+        text: home
+      - href: research.qmd
+        text: research
+      - href: cv.qmd
+        text: cv
+      - href: teaching.qmd
+        text: teaching
+      - href: osweet.qmd
+        text: osweet
+      - text: more
+        menu:
+          - href: bio.qmd
+            text: bio
+          - href: https://tweeds.io
+            text: tweeds
+          - href: stuff.qmd
+            text: stuff
+          - href: links.qmd
+            text: links
+    right:
+      - icon: github
+        href: https://github.com/edrubin
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+

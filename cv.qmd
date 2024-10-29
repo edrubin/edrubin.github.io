@@ -1,0 +1,231 @@
+---
+title: "Edward A. Rubin, CV"
+toc: true
+toc-location: left
+---
+
+<head>
+<script>
+  document.title = "Ed Rubin: CV";
+</script>
+</head>
+
+[PDF](cvEdRubin.pdf)
+
+## Academic positions
+
+Assistant Professor, University of Oregon, Department of Economics, 2018–present
+
+## Education
+
+B.S. Mathematics, University of Nebraska–Lincoln, 2007
+<br>M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
+<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
+<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
+<br>Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018
+<br>*Committee:* [Maximilian Auffhammer](https://www.auffhammer.com), [Meredith Fowlie](https://www.meredithfowlie.com/), [Reed Walker](https://w-reed-walker.com)
+
+__Primary interests__: Environmental & Energy Economics, Applied Econometrics & Data Science, Inequality & Public Policy
+<br>
+__Secondary interests__: Health Economics, Development Economics, Criminal Justice
+
+## Publications
+
+__[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
+<br> John Morehouse and Edward Rubin
+<br> _Conditionally accepted_, JAERE
+
+__[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
+<br> Erin Kelley, Gregory Lane, Edward Rubin, and Matthew Pecenco. 2026 (_Forthcoming_). _Journal of Labor Economics_.
+
+__[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
+<br> Yingfei Mu, Edward Rubin, and Eric Zou. (_Forthcoming_). _The Review of Economics and Statistics_.
+
+__[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
+<br> Edward Rubin and Maximilian Auffhammer. 2024 (_Forthcoming_). _Journal of the Association of Environmental and Resource Economists_.
+
+__[The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions](https://muse.jhu.edu/article/753055)__
+<br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. _Land Economics_, 96(2), 188–206.
+
+__[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064)__
+<br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. _AEA Papers and Proceedings_, 109: 283-88.
+
+(Book) __[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)__ 
+<br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. _Springer_
+
+## Working papers
+
+__[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)__
+<br> Edward Rubin and Emmett Saulnier
+<br> _Revise and resubmit (resubmitted)_, PNAS
+
+__[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
+<br> Patrick Baylis, Severin Borenstein, and Edward Rubin
+
+__[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
+<br> M. Steven Holloway and Edward Rubin
+
+__[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
+<br> Connor Lennon, Edward Rubin, and Glen Waddell
+
+## Research in progress
+
+__Declining power-plant emissions, co-benefits, and regulatory rebound__
+<br> [Meredith Fowlie](https://www.meredithfowlie.com), [Edward Rubin](https://edrub.in), and Catherine Wright
+
+__Environmental prediction for diverse policy contexts__
+<br> [Andrew Dickinson](https://ajdickinson.github.io/) and [Edward Rubin](https://edrub.in)
+
+__Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization__
+<br> Edward Rubin
+
+__Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley__
+<br> Edward Rubin
+
+__The paradoxical demand for guns__
+<br> [Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
+
+__Correlated exposures__
+<br> Pilar Mullican and [Edward Rubin](https://edrub.in)
+
+__Mismeasurement in exposure and access: Insights from cellphone data__
+<br> Edward Rubin
+
+__Interactions between measurement error and policy__
+<br> Edward Rubin
+
+__How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
+<br> Edward Rubin
+
+## Teaching
+
+__[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S19)__
+
+- University of Oregon: [Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github [Spring 2022](https://github.com/edrubin/EC607S22),.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
+- Doctoral level
+
+__[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W20)__
+
+- University of Oregon: [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21), [Winter 2020](https://github.com/edrubin/EC524W20)
+
+__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
+
+- University of Oregon: [Spring 2022](https://github.com/edrubin/EC421S22), [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21), Spring 2020, [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
+- Undergraduate level
+
+__[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
+
+- University of California, Berkeley: Spring 2017, Spring 2018
+- Doctoral level: taught recitation section and built [section website/notes](http://edrub.in/ARE212/)
+
+__STAT 380: Statistics and Applications__
+
+- University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013
+- Undergraduate level: sole instructor for the course
+
+__STAT 218: Introduction to Statistics__
+
+- University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
+- Undergraduate level: sole instructor for the course
+
+## Honors, awards, and fellowships
+
+EPA: _A Retrospective Analysis of Indirect Air Quality Benefits from Power-Sector Emissions Reductions_, 2021
+
+Sloan Foundation (for [TWEEDS](https://tweeds.io)), 2020–2022
+
+University of Oregon Data-Science Initiative Seed Funding, 2019–2020
+
+University of Oregon Program Grant, Fall 2019
+
+EPA EmPOWER Air Data Challenge Winner, 2019–2020
+<br> _with Meredith Fowlie_
+
+Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2018–2019
+<br> _with Erin Kelley, Gregory Lane, and Matthew Pecenco_
+
+Outstanding Graduate-Student Instructor, UC Berkeley, 2018
+
+Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018
+<br> _with Erin Kelley and Matthew Pecenco_
+
+Giannini Foundation Mini-Grant, 2017–2018
+<br> _with Maximilian Auffhammer_
+
+UC Berkeley ARE Summer Grant, 2016
+
+GAANN Fellowship 2013–2015
+
+## Presentations
+
+__2024__: LEEP (University of Exeter), UCSB Bren, AERE Annual Summer Conference, OSU Policy, EAERE Summer School, Toulouse School of Economics, Paris School of Economics
+
+__2023__: EPIC Junior Workshop (UChicago)
+
+__2022__: UC Berkeley ARE, GRIPS, Oregon State, EAERE Annual Conference, University of Nebraska–Lincoln
+
+__2021__: AERE Remote Conference, RFF/EPA, CU Environmental & Resource Economics Workshop
+
+__2020__: ASSA Annual Meeting, AERE Remote Conference, Duke Energy Data Analytics Symposium, RFF/EPA
+
+__2019__: Western Economic Association Internation (WEAI) Annual Conference
+
+__2018__: The Occasional Workshop; World Congress of Environmental Economics (WCERE); UC Berkeley, Computational Text Analysis Working Group; University of Oregon, Economics
+
+__2017__: IGC-PEDL Workshop at Oxford; Heartland Environmental and Resource Economics Workshop; Berkeley Development Economics Lunch; Camp Resources; AAEA Annual Meeting; UC Berkeley, Summer Econ. Research Seminar; AERE Annual Summer Conference; 22nd Annual POWER Conference on Energy Research and Policy
+
+__2016__: UC Berkeley, Environmental and Resource Economics Seminar
+
+__2015__: UC Berkeley, Environmental and Resource Economics Seminar
+
+__2013__: University of Nebraska–Lincoln, Statistics Departmental Seminar
+
+__2012__: International Conference of Agricultural Economists (poster)
+
+
+## Academic service
+
+### Advising
+
+- *PhD committee chair* Andrew Dickinson (co-chair; *in-progress*) Mary Kopriva (Wade) (co-chair); Connor Lennon (co-chair); Emmett (Reynier; *in-progress*); Garrett Stanford (chair)
+- *PhD dissertation committee* Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Steven Walton (Computer Science; *in-progress*); Kyle Wilson; Micaela Wood (*in-progress*)
+- *Masters* Pilar Mullican
+- *Undergraduate* Joseph Andersen (department; advisor), Zoë Arnaut (honors; reader); Eleanor Franks (honors; reader); Kara Krnacik (honors; chair); Aidan Pott (honors; chair)
+
+### Additional
+
+- Co-founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
+- Co-founded/Organized [OSWEET](https://edrub.in/osweet) (Online Student Workshop in Environmental, Energy, and Transportation)
+- Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
+- Co-organize applied microeconometrics workshop at UO
+- **Referee:** [Proceedings of the National Academy of Science (PNAS)](https://www.pnas.org/), [American Economic Review: Insights (AERI)](https://www.aeaweb.org/journals/aeri), [American Economic Journal: Economic Policy](https://www.aeaweb.org/journals/pol) (AEJ Policy), [Journal of the Association of Environmental and Resource Economists](https://www.journals.uchicago.edu/toc/jaere/current) (JAERE), [Journal of Public Economics](https://www.journals.elsevier.com/journal-of-public-economics) (JPubE), [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Land Economics](https://uwpress.wisc.edu/journals/journals/le.html), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Energy Policy](https://www.journals.elsevier.com/energy-policy), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM), [Water Economics and Policy](https://www.worldscientific.com/worldscinet/wep) (WEP), [Nature Communications: Earth & Environment](https://www.nature.com/commsenv/), [Economics Letters](https://www.sciencedirect.com/journal/economics-letters)
+- Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
+- Organized biweekly (twice per week) departmental lunches (UCB)
+- Organized third-year research workshop (UCB)
+- Organized departmental coffee hour (UCB)
+- Mentored first-year graduate students (UCB)
+
+## Skills
+
+### Computation
+
+- __Computing:__ R, Python, Stata, Julia, QGIS, MATLAB, Mathematica, SAS
+- __Design:__ LaTeX, Markdown, Adobe Suite Design Suite, Microsoft Suite
+
+### Linguistic
+
+- English (fluent)
+- Spanish (conversational)
+
+## Contact
+
+- __email__ edwardr `ampersat` uoregon `period` edu
+- __website__ [http://edrub.in](https://edrub.in)
+- __instagram__ [\@edwardarubin](https://instagram.com/edwardarubin/)
+- __github__ [edrubin](https://github.com/edrubin)
+
+```{r}
+#| echo: false
+
+source(here::here('cv-script.R'))
+```

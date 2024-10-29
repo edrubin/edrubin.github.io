@@ -1,0 +1,769 @@
+---
+title: ""
+toc: false
+page-layout: full
+---
+
+```{r}
+#| echo: false
+#| column: screen
+
+knitr::include_graphics(c(
+  "photos/esa-banff-cropped.png",
+  NULL
+))
+```
+
+[AERE\@OSWEET]{style="font-size: calc(1.325rem + 0.9vw); color: black !important; font-weight: 600;"}
+<br>
+*the Online Summer Workshop in Environment, Energy, and Transportation (Economics)*
+
+<center>
+<p>
+  <table style="width:73%">
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+    <tr valign="top">
+      <td>
+        <font color="#663399"><i>What?</i></font> &nbsp; &nbsp;
+      </td>
+      <td>
+        One Friday each month, we will host an online seminar series with three short presentations (15 minutes each)—followed by a happy (half) hour! <br><br> 
+        Papers and videos **will not** be circulated. <br><br>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        <font color="#663399"><i>Who?</i></font> &nbsp; &nbsp;
+      </td>
+      <td>
+        For presenters, we're targeting graduate students, postdocs, and early-career assistant professors.<br>We may adjust selection based upon supply. <br><br> 
+        There will be no discussants, but we will provide a time for questions after each paper. We will try and cluster papers by topic. <br><br>
+        The organizers of **AERE\@OSWEET** include <a href="https://www.auffhammer.com/" style="text-decoration:none">Max Auffhammer</a> (UC Berkeley); <a href="https://dyson.cornell.edu/faculty-research/faculty/ao332/" style="text-decoration:none">Ariel Ortiz-Bobea</a> (Cornell); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        <font color="#663399"><i>When?</i></font> &nbsp; &nbsp;
+      </td>
+      <td>
+         Friday; see schedule below. <br><br>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        <font color="#663399"><i>Where?</i></font> &nbsp; &nbsp; &nbsp; &nbsp;
+      </td>
+      <td>
+        Zoom. We will send out a Zoom link to presenters and audience members. <br> [Register to receive emails here](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform). <br><br>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        <font color="#663399"><i>More?</i></font> &nbsp; &nbsp; &nbsp; &nbsp;
+      </td>
+      <td>
+        This workshop is a supportive and constructive environment to present research (but you still have to bring your own beer/coffee/snacks to happy hour). <br><br>
+      </td>
+    </tr>
+  </table>
+</p>
+</center>
+
+**Interested?** [Please join the mailing list and/or apply to present!](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform) (And tell your friends.)
+
+<br>
+
+## Upcoming session
+
+### **Agriculture:** 2024/10/11
+
+<b>Friday, 11 October 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+
+<p>
+  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/tJEkdeyvqjMsG9P1--0wa1z-xay9riXIHTUw#/registration).
+  <br>
+  [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
+</p>
+
+::: {.grid style="--bs-columns: 8; row-gap: 0;"}
+
+::: {.g-col-1}
+11:00AM PT<br>(2:00PM ET)
+:::
+::: {.g-col-7}
+<i>Irrigation infrastructure and agricultural development in the long run: Evidence from the Senegal River Valley</i>
+<br><b>Joel Ferguson</b> (Stanford)
+:::
+::: {.g-col-1}
+11:20AM PT<br>(2:00PM ET)
+:::
+::: {.g-col-7}
+<i>Understanding the drivers of cover crop adoption in the US Midwest using satellite data</i>
+<br><b>Na Zhang</b> (UIUC)
+:::
+::: {.g-col-1}
+11:40AM PT<br>(2:00PM ET)
+:::
+::: {.g-col-7}
+<i>Compensation mechanism, program scale, and the efficiency of payment for ecosystem services programs</i>
+<br><b>Micah Cameron-Harp</b> (Kansas State)
+:::
+
+:::
+
+
+## Past sessions
+
+::: {.panel-tabset}
+
+### 2024
+
+::: {.panel-tabset}
+
+### **Enviro+Health:** 2024/09/13
+
+<i>Adulterated spice: Lead poisoning, crime, and fertility</i>
+<br><b>Xinming Du</b> (Columbia)
+<br><br>
+<i>Noise pollution and mental health</i>
+<br><b>Kaiyi Wen</b> (Binghamton)
+<br><br>
+<i>Effects of community sanitation behavior on women anemia: Evidence from ten Sub-Saharan African Countries</i>
+<br><b>Ammazia Hanif</b> (Tsukuba)
+
+### **Energy:** 2024/08/09
+
+<i>Gold Plate or Glint? Identifying the Effect of Competition on Capital Investment in US Power Plants</i>
+<br><b>Madeline Yozwiak</b> (Indiana)
+<br><br>
+<i>The Tragedy of the Common Heating Bill</i>
+<br><b>Harald Mayr</b> (Zurich)
+<br><br>
+<i>Effect of contract design in renewable energy auctions</i>
+<br><b>Anshuman Bhakri</b> (Boston College)
+
+### **Infrastructure:** 2024/06/07
+
+<i>Expansion of piped water and sewer networks: The effects of regulation</i>
+<br><b>Carolina Tojal R. dos Santos</b> (Michigan)
+<br><br>
+<i>Bridging economic disparities: The role of bike lanes in enhancing low-income accessibility</i>
+<br><b>Hugo Cordeau</b> (Toronto)
+<br><br>
+<i>Bottle redemption, wealth transfers, and informal wages</i>
+<br><b>Maya Norman</b> (Columbia)
+
+### **Resources:** 2024/05/03
+
+<i>Estimating the indirect costs of floods: Evidence from high-tide flooding</i>
+<br><b>Seunghoon Lee</b> (Missouri)
+<br><br>
+<i>Subsidizing technology adoption under treatment effect heterogeneity: The case of rainwater harvesting in Mexico City</i>
+<br><b>Javier Alejandro Lopez-Aguilar</b> (Maryland)
+<br><br>
+<i>Large-scale mining and local impacts: Evidence from Mongolia</i>
+<br><b>Odmaa Narantungalag</b> (Denver)
+
+### **Ag and the environment:** 2024/04/05
+
+<i>Postharvest losses from weather and climate change: Evidence from 1.2 million truckloads</i>
+<br><b>Sarah Smith</b> (UC Davis)
+<br><br>
+<i>Weather stations and agricultural productivity: Evidence from historical data in the US</i>
+<br><b>Vaibhav Anand</b> (St. John's)
+<br><br>
+<i>Efficiency and redistribution in environmental policy: An equilibrium analysis of agricultural supply chains</i>
+<br><b>Tomas Dominguez-Iino</b> (Chicago Booth)
+
+### **Local and Global Pollution:** 2024/03/08
+
+<i>Estimating the Social Cost of Methane with the GIVE Model</i>
+<br><b>Lisa Rennels</b> (UC Berkeley)
+<br><br>
+<i>How to Better Predict the Effect of Urban Traffic and Weather on Air Pollution?<br> Norwegian Evidence from Machine Learning Approaches</i>
+<br><b>Cong Cao</b> (Caltech)
+<br><br>
+<i>International Climate Finance: Carbon Mitigation, Welfare Effects, and Optimal Allocation</i>
+<br><b>Naixin Huang</b> (Harvard)
+
+
+### **Forests & Air:** 2024/02/02
+
+<i>The equilibrium effects of anti-deforestation policies: Evidence from Brazil</i>
+<br><b>Veronica Salazar Restrepo</b> (LSE)
+<br><br>
+<i>When growth stumbles, pollute? Trade war, environmental enforcement, and pollution</i>
+<br><b>Xinming Du</b> (National University of Singapore)
+<br><br>
+<i>Cleaning the air? The causal effects of traffic restrictions</i>
+<br><b>Maurizio Malpede</b> (Verona)
+
+:::
+
+### 2023
+
+::: {.panel-tabset}
+
+### **Energy & Poltical Economy:** 2023/12/08
+
+<i>Corruption and energy reliability evidence from US electricity</i>
+<br><b>Labanya Roy</b> (Middle Tennessee State)
+<br><br>
+<i>Evaluating power sector emissions under China's regional carbon ETS pilots: A view from space</i>
+<br><b>Ruoyu Chen</b> (Windsor)
+<br><br>
+<i>Policy trade-offs due to complimentary resource consumption: PV adoption and residential water use</i>
+<br><b>Alecia Cassidy</b> (Alabama)
+
+### **Air:** 2023/10/27
+
+<i>Toxic Recycling: Used lead-acid battery processing's negative effect on test scores in Mexico</i>
+<br><b>Erin Litzow</b> (UBC)
+<br><br>
+<i>The persistent health effect of defoliating Vietnam</i>
+<br><b>Nguyen Vuong</b> (Wisconsin)
+<br><br>
+<i>Restricting trade for the environment? Evidence from import restrictions on used vehicles in China</i>
+<br><b>Hui Zhou</b> (Rhode Island)
+
+### **Enviro-Labor:** 2023/09/22
+
+<i>The value of weather forecasts: Labor responses to accurate and inaccurate temperature forecasts in China</i>
+<br><b>Yuqi Song</b> (Harvard)
+<br><br>
+<i>The distributional impacts of climate change across U.S. local labor markets</i>
+<br><b>Emmett Saulnier</b> (Oregon)
+<br><br>
+<i>The hidden costs of recycling: Lead exposure and the learning crisis in Sub-Saharan Africa</i>
+<br><b>Gerald Ipapa</b> (Delaware)
+
+### **Water:** 2023/08/25
+
+<i>Impact of maternal exposure to PFAS on infant health outcomes</i>
+<br><b>Robert Baluja</b> (Arizona)
+<br><br>
+<i>Dust, drought and farmland values: Evidence from California</i>
+<br><b>Siddharth Kishore</b> (UC Riverside)
+<br><br>
+<i>Water, dust, and environmental justice: The case of agricultural water diversions</i>
+<br><b>Danae Hernandez-Cortes</b> (Arizona State)
+
+### **Climate and energy:** 2023/07/28
+
+<i>Local institutions, resource management, and climate resilience: Evidence from federally supported conservation districts in the USA</i>
+<br><b>Aparna Howlader</b> (Chatham)
+<br><br>
+<i>Do homebuyers value energy efficiency? Evidence from an information shock</i>
+<br><b>Brendon McConnell</b> (Southampton)
+<br><br>
+<i>Stranded oil: Measuring companies’ reserve sensitivity to the oil price</i>
+<br><b>Diego Cardoso</b> (Purdue)
+
+### **Climate change and risk:** 2023/06/30
+
+<i>Pricing physical climate risk in the cross-section of returns</i>
+<br><b>Glen Gostlow</b> (LSE)
+<br><br>
+<i>Inattention to the coming storm? Rising seas and sovereign credit risk</i>
+<br><b>Atreya Dey</b> (Edinburgh)
+<br><br>
+<i>The effects of extreme wildfire and smoke events on household financial outcomes</i>
+<br><b>Nitzan Tzur-Ilan</b> (Dallas Fed)
+
+### **Ag and the environment:** 2023/05/26
+
+<i>Local crop diversity and pest diffusion</i>
+<br><b>Tristan du Puy</b> (Columbia SIPA)
+<br><br>
+<i>Impacts of local research centers on agricultural productivity, resilience, and innovation</i>
+<br><b>Shweta Bhogale</b> (JPAL/MIT)
+<br><br>
+<i>When clouds go dry: An integrated model of deforestation, rainfall, and agriculture</i>
+<br><b>Rafael Araujo</b> (Climate Policy Initiative)
+
+### **Equity & justice:** 2023/04/28
+
+<i>Burying the lead: Effects of public lead service line replacements on blood lead levels and property values</i>
+<br><b>Michelle Marcus</b> (Vanderbilt)
+<br><br>
+<i>Who benefits from park funding? Analyzing five decades of the Land and Water Conservation Fund</i>
+<br><b>Andie Creel</b> (Yale School of the Environment)
+<br><br>
+<i>Policy-induced environmental inequality: Firm behaviors and consequent health and labor outcomes</i>
+<br><b>Ran Song</b> (National University of Singapore)
+
+### **Climate & adaptation:** 2023/03/31
+
+<i>Heat stress in rails</i>
+<br><b>Xinming Du</b> (Columbia)
+<br><br>
+<i>Does market power in agricultural markets hinder farmer climate change adaptation?</i>
+<br><b>Rajat Kochhar</b> (USC)
+<br><br>
+<i>Occupational mobility and climate adaptation in France</i>
+<br><b>Paul Stainier</b> (UCLA)
+
+### **Air quality:** 2023/02/24
+
+<i>Air pollution and mental illness</i>
+<br><b>Soodeh Saberian</b> (U Manitoba)
+<br><br>
+<i>Non-market damages of wildfire smoke: evidence from administrative recreation data</i>
+<br><b>Jacob Gellman</b> (UC Santa Barbara)
+<br><br>
+<i>Still your grandfather's boiler: Estimating the effects of the Clean Air Act's grandfathering provisions</i>
+<br><b>Jack Gregory</b> (UC Davis)
+
+:::
+
+### 2022
+
+::: {.panel-tabset}
+
+### **Climate, organization, and ag:** 2022/06/10
+
+<i>The role of local institutions in climate resilience: Historical evidence from soil conservation districts in the post-dust bowl Great Plains region</i>
+<br><b>Aparna Howlader</b> (Rhode Island)
+<br><br>
+<i>Multinationals vs Mother Nature? The impact of multinational firms on the environment</i>
+<br><b>Frederik Noack</b> (UBC)
+<br><br>
+<i>Internal migration and the organization of agriculture</i>
+<br><b>Raahil Madhok</b> (UBC)
+
+### **Energy:** 2022/05/13
+
+<i>Energy transition metals: Bottleneck for net-zero emissions?</i>
+<br><b>Lukas Boer</b> (DIW Berlin)
+<br><br>
+<i>Policy legacies and energy transitions: Greening policies under sectoral reforms in Argentina and Chile</i>
+<br><b>Santiago Cunial</b> (UPenn)
+<br><br>
+<i>Price discrimination on choice frictions in residential electricity markets</i>
+<br><b>Jenya Kahn-Lang</b> (UC Berkeley)
+
+### **Env. & energy in India:** 2022/04/29
+
+<i>Burned agricultural biomass, air pollution, and crime</i>
+<br><b>Abubakr Ayesh</b> (Michigan State)
+<br><br>
+<i>Electricity market design and market-based environmental policy in India</i>
+<br><b>Shefali Khanna</b> (Imperial College London)
+<br><br>
+<i>Economic and demographic effects of increased flood susceptibility: Evidence from rural India</i>
+<br><b>Osama Sajid</b> (Cornell)
+
+### **Justice and political economy:** 2022/04/01
+
+<i>Stubble burning and forest fires: Effect on child height in India</i>
+<br><b>Prachi Singh</b> (EDF)
+<br><br>
+<i>Visibility and vulnerability: Aid allocations after the 2015 Nepal earthquake</i>
+<br><b>Matthew Gordon</b> (Yale)
+<br><br>
+<i>Does the media respond to political messaging? Evidence from local newspaper coverage of climate change</i>
+<br><b>Graham Beattie</b> (Loyola Marymount)
+
+### **Water and climate:** 2022/03/18
+
+<i>Regulator preferences and underinvestment in water infrastructure</i>
+<br><b>Chunyu Guo</b> (SUNY Albany)
+<br><br>
+<i>Regional water transfer and economic growth: A synthetic control case study</i>
+<br><b>Arpita Nehra</b> (Utah State)
+<br><br>
+<i>Near-term climate damages under flexible adaptation times</i>
+<br><b>Maximilian Kotz</b> (Potsdam)
+
+
+### **Food and waste:** 2022/03/04
+
+<i>Household responses to a corrective tax and climate change mitigation: Evidence from food waste tax</i>
+<br><b>Seunghoon Lee</b> (MIT)
+<br><br>
+<i>Market potential for domestic herbs: A new variant of "consequentiality" for valuing contingent private goods</i>
+<br><b>Twinkle Roy</b> (Georgia)
+<br><br>
+<i>Rethinking recycling? The effects of China's waste-import ban on pollution relocation in the U.S.</i>
+<br><b>Shan Zhang</b> (Oregon)
+
+
+### **Tech. adoption:** 2022/02/18
+
+<i>Split incentives and endogenous inattention in home retrofits uptake: A story of selection on unobservables?</i>
+<br><b>Stefano Cellini</b> (Surrey)
+<br><br>
+<i>Early warning systems, mobile technology, and cholera aversion: Evidence from rural Bangladesh</i>
+<br><b>Emily Pakhtigian</b> (Penn State)
+<br><br>
+<i>Using targeting to optimize program design: Evidence from an energy conservation experiment</i>
+<br><b>Muxi Yang</b> (Cornell)
+
+### **Energy:** 2022/02/04
+
+<i>Optimal energy subsidies with multiple policy instruments: The case for finite-time-horizon policies</i>
+<br><b>Owen Kay</b> (Michigan)
+<br><br>
+<i>Capital versus output subsidies with an inconsistent regulator</i>
+<br><b>Asa Watten</b> (EPA)
+<br><br>
+<i>Decomposing the effect of renewables on the electricity sector</i>
+<br><b>Paige Weber</b> (UNC)
+
+### **Pollution and driving:** 2022/01/21
+
+<i>Does it measure up? A comparison of pollution exposure assessment techniques applied across hospitals in England</i>
+<br><b>Dheeya Rizmie</b> (Imperial College London)
+<br><br>
+<i>Peer Effects in Electric Vehicle Adoption: Evidence from the Swedish Vehicle Market</i>
+<br><b>Sebastian Tebbe</b> (IIES)
+
+:::
+
+### 2021
+
+::: {.panel-tabset}
+
+### **Perception and conservation:** 2021/12/13
+
+<i>The role of information in the Rosen-Roback framework</i>
+<br><b>Ran Song</b> (Yale-NUS)
+<br><br>
+<i>Do subjective perceptions shape adaptation to climate change? Evidence from Bangladesh</i>
+<br><b>Guglielmo Zappala</b> (Paris School of Economics)
+<br><br>
+<i>The cost of saving the Amazon</i>
+<br><b>Rabail Chandio</b> (Ohio State)
+
+### **Behavior:** 2021/11/12
+
+<i>Choice architecture 2.0: Embedding reflection in nudges to promote low carbon diets</i>
+<br><b>Sanchayan Banerjee</b> (LSE)
+<br><br>
+<i>Mental scarcity and collective action</i>
+<br><b>Todd Guilfoos</b> (University of Rhode Island)
+<br><br>
+<i>Role of gender identity on conservation practice choice in an agricultural land leasing context: A lab experiment</i>
+<br><b>Diya Ganguly</b> (University of Nebraska–Lincoln)
+
+### **Air and externalities:** 2021/10/29
+
+<i>Strategic local regulators and the efficacy of national pollution standards</i>
+<br><b>Ruohao Zhang</b> (Northwestern)
+<br><br>
+<i>Environmental externalities and social contact: Evidence from refinery pollution in the U.S.</i>
+<br><b>Xinming Du</b> (Columbia)
+<br><br>
+<i>Local inequalities generated by fracking, remote sensing of neighborhood transformation</i>
+<br><b>Arman Khachiyan</b> (UCSD)
+
+### **Transportation:** 2021/10/08
+
+<i>Uncertainty in preferences for recharging electric vehicles</i>
+<br><b>Gracia Bruchmann</b> (Bern)
+<br><br>
+<i>Effects of public transit fares increases on gasoline consumption: High-frequency evidence from China</i>
+<br><b>Yuchen Wang</b> (Pitt)
+<br><br>
+<i>For whom the bridge tolls: Congestion, air pollution, and second-best road pricing</i>
+<br><b>Matthew Tarduno</b> (UC Berkeley)
+
+### **Enviro:** 2021/09/24
+
+<i>Disentangling the many-to-many mapping of natural capital and ecosystem services</i>
+<br><b>Ethan Addicott</b> (Yale)
+<br><br>
+<i>Technology transitions and the timing of environmental policy: Evidence from efficient lighting</i>
+<br><b>Sarah Armitage</b> (Harvard)
+<br><br>
+<i>Cost-effectiveness and robustness of conservation measures in agricultural landscapes facing climate change</i>
+<br><b>Charlotte Gerling</b> (TU Berlin)
+
+### **Ag + Climate:** 2021/09/10
+
+<i>Can recycled water cure all? Coastal agriculture's battle with seawater intrusion and groundwater overdraft</i>
+<br><b>Molly Sears</b> (UC Berkeley)
+<br><br>
+<i>Cicadian rhythm: Insecticides, infant health, and long-term outcomes</i>
+<br><b>Charles Taylor</b> (Columbia)
+<br><br>
+<i>Is working at home a way of adaptation to climate change?</i>
+<br><b>Wensu Li</b> (Trinity)
+
+### **Disasters:** 2021/08/27
+
+<i>The dynamic impacts of floods on households: The case of Nigeria in 2012</i>
+<br><b>Mook Bangalore</b> (LSE)
+<br><br>
+<i>The impact of drought on structural transformation in India</i>
+<br><b>Sayahnika Basu</b> (UCSD)
+<br><br>
+<i>People use park with people: evidence from the COVID-19 pandemic</i>
+<br><b>Andie Creel</b> (Yale)
+
+### **Water, energy, behavior:** 2021/08/13
+
+<i>Beware of side effects? Spillover evidence from a hot water intervention</i>
+<br><b>Harald Mayr</b> (ETH Zurich)
+<br><br>
+<i>Incentives for the energy transition: Feed-in tariffs, rebates, or a hybrid design?</i>
+<br><b>Marta Talevi</b> (Yale)
+<br><br>
+<i>Culpable consumption: Residential response to price and non-price drought measures</i>
+<br><b>James Sears</b> (UC Berkeley)
+
+### **Agriculture:** 2021/07/02
+
+<i>Engaging Farmers Through Tailored Information</i>
+<br><b>Collin Weigel</b> (California Air Resources Board)
+<br><br>
+<i>The Promise of Crop Substitution Programs</i>
+<br><b>James Sayre</b> (UC Berkeley)
+<br><br>
+<i>Climate Change, The Food Problem, and the Challenge of Adaptation through Sectoral Reallocation</i>
+<br><b>Ishan Nath</b> (Chicago)
+
+### **Energy:** 2021/06/11
+
+<i>The First to Bear the Brunt: China's Energy Program Evaluation</i>
+<br><b>Xiangyu Meng</b> (Georgia State)
+<br><br>
+<i>CAFE Standards or Gasoline Taxes: A Structural Study of Fuel Saving Under Different Policies</i>
+<br><b>Siqi Liu</b> (Brandeis)
+<br><br>
+<i>Policy Design and the Effects of Heavy-Duty Vehicle Fuel Economy Standards</i>
+<br><b>Stephanie Weber</b> (Yale)
+
+### **Pollution:** 2021/05/28
+
+<i>Environmental regulation and firm size</i>
+<br><b>Muhammad Haseeb</b> (Geneva)
+<br><br>
+<i>COVID-19 pandemic reveals persistent disparities in NO<sub>2</sub> pollution</i>
+<br><b>Gaige Kerr</b> (George Washington)
+<br><br>
+<i>The distributional consequences of environmental regulation</i>
+<br><b>Danae Hernandez-Cortez</b> (UC Santa Barbara)
+
+### **Energy & extraction:** 2021/05/07
+
+<i>Downwind and out: The strategic dispersion of power plants and their pollution</i>
+<br><b>John Morehouse</b> (Oregon)
+<br><br>
+<i>Do credit constraints explain the energy efficiency gap? Evidence from the U.S. new vehicle market</i>
+<br><b>Kevin Ankney</b> (Georgetown)
+<br><br>
+<i>Mining, deforestation and the global commodity boom</i>
+<br><b>Victoria Wenxin Xie</b> (Santa Clara)
+
+### **Transportation:** 2021/04/23
+
+<i>The effect of shale drilling on Native lands: An IV approach</i>
+<br><b>Anna Malinovskaya</b> (Cornell)
+<br><br>
+<i>Adaptation and mitigation of air pollution: evidence from air quality warnings</i>
+<br><b>Sandra Aguilar-Gómez</b> (Columbia)
+<br><br>
+<i>The time-of-day travel demand elasticity paradox</i>
+<br><b>Cody Nehiba</b> (LSU)
+
+### **Energy:** 2021/04/09
+
+<i>Wind power penetration impacts on wholesale electricity market prices: Evidence from quantile regression approach</i>
+<br><b>Bolarinwa Ajanaku</b> (West Virginia)
+<br><br>
+<i>Short- and long-run effects of electricity grid expansion</i>
+<br><b>Gaurav Doshi</b> (Wisconsin)
+<br><br>
+<i>Theoretical and empirical evaluation of a competitive energy rebate program</i>
+<br><b>Chi Ta</b> (Illinois)
+
+
+### **Climate:** 2021/03/26
+
+<i>The Social Costs of NIMBYism: Evidence from Renewable Energy Projects in the United Kingdom</i>
+<br><b>Stephen Jarvis</b> (Mannheim)
+<br><br>
+<i>Optimal Timing of Electric Vehicle Subsidies</i>
+<br><b>Qingran Li</b> (Duke)
+<br><br>
+<i>Linking Carbon Markets with Different Initial Conditions</i>
+<br><b>Matt Woerman</b> (UMass Amherst)
+
+
+### **Inequality:** 2021/03/12
+
+<i>Credit and attention in the adoption of profitable energy efficient technologies in Kenya</i>
+<br><b>Susanna Berkouwer</b> (Penn Wharton)
+<br><br>
+<i>Air pollution, health, and racial disparities: Evidence from ports</i>
+<br><b>Pei Huang</b> (ZEW - Leibniz Centre for European Economic Research)
+<br><br>
+<i>Can mining change regressive cultural norms? Evidence on acceptance of domestic violence and shared decision-making in india</i>
+<br><b>James Ji</b> (Brandeis)
+
+### **Agriculture:** 2021/02/26
+
+<i>Nutritional Impact of Payments for Ecosystem Services (PES) in Rural China</i>
+<br><b>Wumeng He</b> (Duke)
+<br><br>
+<i>Sustainable Agriculture, Residue Burning, and Urban Infant Mortality: Evidence from Mexico</i>
+<br><b>Joel Ferguson</b> (UC Berkeley)
+<br><br>
+<i>Spillovers to Manufacturing Plants from Multimillion Dollar Plantations: Evidence from the Indonesian Palm Oil Boom</i>
+<br><b>Sebastian Kraus</b> (Mercator Research Institute on Global Commons and Climate Change)
+
+
+### **Floods:** 2021/02/12
+
+<i>Draining the swamp: Wetlands, flood mitigation, and the Clean Water Act</i>
+<br><b>Hannah Druckenmiller</b> (UC Berkeley)
+<br><br>
+<i>Inundated by change: The effects of land use on flood damages</i>
+<br><b>Wesley Howden</b> (UCSD)
+
+### **Air quality:** 2021/01/22
+
+<i>Exploring the impacts of air pollution on sleep</i>
+<br><b>Dheeya Rizmie</b> (Imperial College London)
+<br><br>
+<i>Pollution Monitoring, Strategic Behavior, and Dynamic Representativeness</i>
+<br><b>Lin Yang</b> (Cornell)
+<br><br>
+<i>The Grandkids Aren’t Alright: The Intergenerational Effects of Prenatal Pollution Exposure</i>
+<br><b>Jonathan Colmer</b> (Virginia)
+
+:::
+
+### 2020
+
+::: {.panel-tabset}
+
+
+### **Pollution and environmental policy:** 2020/12/11
+
+<i>Earth, Wind, and Fire: The impact of anti-poverty efforts on Indian agriculture and pollution</i>
+<br><b>Patrick Behrer</b> (Stanford)
+<br><br>
+<i>Free Power, Irrigation, and Groundwater Depletion: Impact of the Farm Electricity Policy of Punjab, India</i>
+<br><b>Disha Gupta</b> (Delhi School of Economics)
+<br><br>
+<i>Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.</i>
+<br><b>Eric Zou</b> (Oregon)
+
+### **Water and disasters:** 2020/11/13
+
+<i>Local public finance dynamics and hurricane shocks</i>
+<br><b>Rhiannon Jerch</b> (Temple)
+<br><br>
+<i>The health effects of floods on the urban poor</i>
+<br><b>Michelle Escobar</b> (Monash)
+<br><br>
+<i>Infrastructure Upgrades and Lead Exposure: Do Cities Face Trade-Offs When Replacing Water Mains</i>
+<br><b>Ludovica Gazze</b> (Warwick) <i>with Jennifer Heissel</i>
+
+### **Electricity markets:** 2020/20/30
+
+<i>Levelized Full System Costs of Electricity: A Novel Approach to Evaluate Intermittent Generation</i>
+<br><b>Robert Idel</b> (Rice)
+<br><br>
+<i>Large-Scale Wind Power Investment's Impact on Wholesale Electricity Markets</i>
+<br><b>Omer Karaduman</b> (Stanford)
+<br><br>
+<i>Bunching in Residential Electricity Consumption</i>
+<br><b>Laura Grant</b> (Claremont McKenna College) <i>with Becka Brolinson</i>
+
+### **Climate/adaptation:** 2020/10/16
+
+<i>The Ins and Outs of Employment: Labor Market Adjustments to Carbon Taxes</i>
+<br><b>Chi Man Yip</b> (Calgary)
+<br><br>
+<i>The problem with pricing “carbon”: exploring forest-driven albedo effects in DICELAND  </i>
+<br><b>Emily McGlynn</b> (UC Davis)
+<br><br>
+<i>Water Availability and Heat-Related Mortality: Evidence from South Africa  </i>
+<br><b>Kelly Hyde</b> (Pittsburgh)
+
+### **Policy/spillovers:** 2020/10/02
+
+<i>Effect of Nuclear Power Plants on Local Crop Yields</i>
+<br><b>Daniyar Zhumadilov</b> (NC State)
+<br><br>
+<i>Women Leaders Improve Local Environmental Outcomes</i>
+<br><b>Meera Mahadevan</b> (UC Irvine)
+<br><br>
+<i>Cap-and-trade vs. Carbon Taxes: Efficiency Implications of Emissions Price Volatility in the Power Sector</i>
+<br><b>Felipe Gómez Trejos</b> (ASU)
+
+### **Climate:** 2020/09/18
+
+<i>Adaptation to Natural Disaster through Better Information: Evidence from Home Seller Disclosure Requirement</i>
+<br><b>Seunghoon Lee</b> (Chicago)
+<br><br>
+<i>Climate and Irrigated Agriculture: Evidence from Cash Rents</i>
+<br><b>Nicholas Potter</b> (Washington State)
+<br><br>
+<i>Climate Change and Adaptation in Global Supply-Chain Networks</i>
+<br><b>Nora Pankratz</b> (UCLA)
+
+### **Transportation:** 2020/09/04
+
+<i>Optimal Carbon Tax in Oligopolies: An Application to Commercial Aviation</i>
+<br><b>Diego Cardoso</b> (Cornell)
+<br><br>
+<i>What Drives Battery Electric Vehicle Adoption?</i>
+<br><b>Christina Gore</b> (Ohio State)
+<br><br>
+<i>Do Safety Inspections Improve Saftey? Evidence from the Saftey Inspection Program for Commercial Motor Vehicles</i>
+<br><b>Yuanning Liang</b> (Cornell)
+
+### **Resources:** 2020/08/21
+
+<i>Scenes from a Monopoly: Renewable Resources and Quickest Detection of Regime Shifts</i>
+<br><b>Neha Deopa</b> (The Graduate Institute, Geneva)
+<br><br>
+<i>Information and Spillovers from Targeting Policy in Peru’s Anchoveta Fishery</i>
+<br><b>Gabriel Englander</b> (UC Berkeley)
+<br><br>
+<i>Forest Landowner Harvest Decisions in a New Era of Conservation Stewardship and Changing Markets in Maine USA</i>
+<br><b>Jianheng Zhao</b> (Maine)
+
+### **Agriculture:** 2020/08/07
+
+<i>Size-Based Regulations and Environmental Quality: Evidence from the U.S. Livestock Industry</i>
+<br><b>Chen-Ti Chen</b> (Iowa State University)
+<br><br>
+<i>Beyond Lights: The Changing Impact of Rural Electrification on Indian Agriculture</i>
+<br><b>Sudatta Ray</b> (Stanford)
+<br><br>
+<i>The Economic Impact of Schistosomiasis</i>
+<br><b>Daniele Rinaldo</b> (The Graduate Institute, Geneva)
+
+### **Air quality:** 2020/07/24
+
+<i>Pollution and Mortality: Estimating Damages Using Pollutant-Specific Abatement Technologies</i>
+<br><b>Casey Rozowski</b> (NC State)
+<br><br>
+<i>Pollution and Acquisition: The Environmental Justice Effects of Mergers</i>
+<br><b>Irene Jacqz</b> (Harvard)
+<br><br>
+<i>What Driving Bans Tell Us About the Lasting Health Legacy of Diesel Pollution</i>
+<br><b>Hannah Klauber</b> (Mercator Research Institute on Global Commons and Climate Change)
+
+### **Energy:** 2020/07/10
+
+<i>Strategies, Renewables and Pass Through Costs in the German Day-Ahead  Electricity Market</i>
+<br><b>Gloria Colmenares</b> (The University of Münster)
+<br><br>
+<i>The Effect on Total Electricity Consumption of Behavioral Changes in Response to Time-Varying Pricing in the Residential Sector</i>
+<br><b>Tabaré Capitán</b> (University of Wyoming)
+<br><br>
+<i>Contracting for Electricity in Low Income Countries: the Role of Liquidity Constraints and Transaction Costs</i>
+<br><b>Megan Lang</b> (UC Berkeley)
+
+:::
+
+:::

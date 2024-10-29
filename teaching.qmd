@@ -1,0 +1,81 @@
+---
+title: "teaching"
+toc: false
+toc-location: left
+lightbox: true
+---
+
+Courses I've taught with links to course repositories (with notes).
+
+
+__EC 607: PhD Econometrics (III)__
+
+::: {.grid}
+::: {.g-col-1}
+:::
+:::{.g-col-11}
+University of Oregon, Instructor
+<br>
+[Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
+:::
+:::
+
+__EC 524/424: Masters Econometrics: Machine Learning and Prediction__
+
+::: {.grid}
+::: {.g-col-1}
+:::
+:::{.g-col-11}
+University of Oregon, Instructor
+<br>
+[Spring 2024](https://github.com/edrubin/EC524S24), [Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
+:::
+:::
+
+__EC 421: Undergraduate Introduction to Econometrics (II)__
+
+::: {.grid}
+::: {.g-col-1}
+:::
+:::{.g-col-11}
+University of Oregon, Instructor
+<br>
+Spring 2023, Winter 2023, Spring 2022, Winter 2022, [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
+:::
+:::
+
+__ARE 212: PhD Econometrics - Multiple Equation Estimation__
+
+::: {.grid}
+::: {.g-col-1}
+:::
+:::{.g-col-11}
+UC Berkeley, GSI for [Dr. Maximilian Auffhammer](http://www.auffhammer.com)
+<br>
+[Spring 2017](https://edrub.in/ARE212/Spring2017/notes.html); [Spring 2018](https://edrub.in/ARE212)
+:::
+:::
+
+__STAT/MATH 218: Undergraduate Introduction to Statistics__
+
+::: {.grid}
+::: {.g-col-1}
+:::
+:::{.g-col-11}
+University of Nebraska—Lincoln, Instructor
+<br>
+Spring 2011; Summer 2011; Fall 2011
+:::
+:::
+
+__STAT/MATH 380: Statistics and Applications__
+
+::: {.grid}
+::: {.g-col-1}
+:::
+:::{.g-col-11}
+University of Nebraska—Lincoln, Instructor
+<br>
+Summer 2012; Fall 2012; Spring 2013
+:::
+:::

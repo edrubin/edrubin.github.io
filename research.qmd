@@ -1,0 +1,345 @@
+---
+title: "research"
+toc: true
+toc-location: left
+lightbox: true
+---
+
+Abstracts and selected figures from published/accepted papers, working drafts, and in-progress projects...
+
+And here's my [CV](cv.html) (also as [PDF](cvEdRubin.pdf)).
+
+## published/accepted
+
+[[Downwind and out: The strategic dispersion of power plants and their pollution](papers/draft-plant-locations.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in)
+<br>
+*Conditionally accepted*, JAERE
+
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+US environmental policy cedes substantial authority to local agencies—creating potentials for polluters/governments to strategically export emissions. We identify such strategies among coal-fueled power plants. First, we document that electricity generators locate near administrative borders. As water influences borders/siting, we develop a simple, non-parametric test that shows coal plants located to reduce downwind exposure. Natural-gas plants—facing lower regulatory pressure—do not exhibit this behavior. Using a state-of-the-art, particle-trajectory model, we illustrate coal pollution's extreme mobility: within 6 hours, 50% of coal plants' emissions leave their source states—99% depart source counties. These strategic responses emphasize the importance of federal oversight and transport-focused regulation.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+<center>
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  #"Figures/PlantLocations/plant-wind-oris-628.png",
+  "Figures/PlantLocations/hysplit-oris-628-january.png",
+  NULL
+))
+```
+</center>
+:::
+
+:::
+
+[Draft](papers/draft-plant-locations.pdf)
+
+<br>
+
+[[Customer Discrimination in the Workplace: Evidence from Online Sales](papers/draft-gender-bias.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in)
+<br>
+*Forthcoming*, JOLE
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Many workers are evaluated on their ability to engage with customers. This paper measures the impact of gender-based customer discrimination on the productivity of online sales agents working across Sub-Saharan Africa. Using a novel framework that randomly varies the gender of names presented to customers without changing worker behavior, we find that the assignment of a female-sounding name leads to 50 percent fewer purchases by customers. The results appear to be driven by relatively lower interest in engaging with female workers. Since worker productivity informs firm hiring, pay, and promotion decisions, these results are important for understanding the persistence of identity-based discrimination in the labor market.
+:::
+
+:::
+
+[NBER Working Paper No. 31998](https://www.nber.org/papers/w31998) | [Becker Friedman Institute Working Paper No. 2023-25](papers/draft-gender-bias.pdf) | [World Bank Policy Research Working Paper No. 10228](papers/wp-gender-bias.pdf) | [Draft](papers/draft-gender-bias.pdf)
+
+[J-PAL Summary](https://www.povertyactionlab.org/evaluation/online-customer-discrimination-against-female-workers-sub-saharan-africa) | [BFI Summary](https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/)
+
+<br>
+
+[[What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors](papers/draft-strategic-monitoring.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
+<br>
+*Forthcoming*, REStat
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Tolerance for gaps in compliance (self-)monitoring data may induce strategic timing in local agents' monitoring activity. This paper builds a framework to detect whether local governments skip air pollution monitoring when they expect air quality to deteriorate. We infer this expectation from air quality alerts—public advisories based on local governments' own pollution forecasts—and test whether monitors' sampling rates fall when these alerts occur. We first use this method to test an individual pollution monitor in Jersey City, NJ, suspected of a deliberate shutdown during the 2013 "Bridgegate" traffic jam. Consistent with strategic shutdowns, this monitor's sampling rate drops by 33% on pollution-alert days. Building on large-scale inference tools, we then apply the method to test over 1,300 monitors across the U.S., finding 14 metro areas with clusters of monitors showing similar strategic behavior. We discuss imputation methods and policy responses that may help deter future strategic monitoring.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r, out.width = "99%", echo = F}
+knitr::include_graphics(c(
+  "Figures/Intermittent/beta-88101.png",
+  #"Figures/Intermittent/interpolate-88101.png",
+  NULL
+))
+```
+:::
+
+:::
+
+[NBER Working Paper No. 28735](https://www.nber.org/papers/w28735) | [Pre-print version](papers/draft-strategic-monitoring.pdf)
+
+<br>
+
+[[Quantifying heterogeneity in the price elasticity of residential natural gas](https://www.journals.uchicago.edu/eprint/Q8UYEM4MAQKB6WEDJ8TV/full?redirectUri=/doi/epdf/10.1086/726017)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Edward Rubin](https://edrub.in) and [Maximilian Auffhammer](https://auffhammer.com). 2024. *Journal of the Association of Environmental and Resource Economists*, 11(2). [DOI: 10.1086/726017](https://www.journals.uchicago.edu/eprint/Q8UYEM4MAQKB6WEDJ8TV/full?redirectUri=/doi/epdf/10.1086/726017)
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+We exploit a spatial discontinuity in two natural gas utilities' service territory—combined with variation in their block-rate pricing structure and a difference in how prima facie determined wholesale prices are deferentially passed though to consumers—to identify average, seasonal, and income-specific own-price elasticities of residential natural gas demand. We estimate an average elasticity ranging from 0.15–0.19 depending on the measure of price used. We further estimate that this elasticity varies substantially across seasons, income groups, and their interaction. We find no significant difference in consumers' responses to average versus marginal prices.
+
+<!-- Previous titles: *Decomposing "the" elasticity of demand: Empirical and policy insights from 300 million natural gas bills*; *Natural gas price elasticities and optimal cost recovery under consumer heterogeneity: Evidence from 300 million natural gas bills*; *Summertime, and pass-through is easier: Chasing down price elasticities for residential natural* -->
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  # "Figures/NaturalGas/mapPipeline.png",
+  "Figures/NaturalGas/studyMaps.png",
+  NULL
+))
+```
+:::
+
+:::
+
+[NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
+
+Press coverage: [The Economist](https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing)
+
+<br>
+
+[[The economic impact of critical-habitat designation: Evidence from vacant-land transactions](https://doi.org/10.3368/le.96.2.188)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Maximilian Auffhammer](https://auffhammer.com), [Maya Duru](https://oes.gsa.gov/team/maya-duru/), [Edward Rubin](https://edrub.in), and [David L. Sunding](https://are.berkeley.edu/users/david-l-sunding). 2020. *Land Economics*, 96(2), 188–206. [DOI: 10.3368/le.96.2.188](https://doi.org/10.3368/le.96.2.188)
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+The Endangered Species Act (ESA) requires the federal government to designate critical habitat for species listed as threatened or endangered. This provision of the ESA has proven to be one of its most controversial, as critical-habitat land designation entails special management—and potentially greater regulation. In this paper we measure the economic impact of critical-habitat designation by estimating its effect on the market value of vacant land. Using data from over 13,000 vacant-land transactions that occurred within or near critical habitat for two important species in California (red-legged frog and Bay checkerspot butterfly), we show that critical-habitat designation resulted in a large and statistically significant decrease in land value. The estimated impact of critical-habitat designation is heterogeneous: the largest decreases occur within designated urban-growth boundaries.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  "Figures/CriticalHabitat/rlf_logprice_2006_raw.png"
+))
+```
+:::
+
+:::
+
+<br>
+
+[[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://doi.org/10.1257/pandp.20191064)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Meredith Fowlie](https://www.meredithfowlie.com), [Edward Rubin](https://edrub.in), and [Reed Walker](https://w-reed-walker.com). 2019. "Bringing Satellite-Based Air Quality Estimates Down to Earth." *AEA Papers and Proceedings*, 109: 283-88. DOI: [10.1257/pandp.20191064
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+We use state-of-the-art, satellite-based PM2.5 estimates to assess the extent to which the EPA's existing, monitor-based measurements over- or under-estimate true exposure to PM2.5 pollution. Treating satellite-based estimates as truth implies a substantial number of "policy errors"—over-regulating areas that comply with air quality standards and under-regulating other areas that appear to violate standards. We investigate the health implications of these apparent errors and highlight the importance of accounting for prediction error in satellite-based estimates. Uncertainty in "policy errors" increases substantially when we account for these underlying prediction errors.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  "Figures/AirQualityEstimates/box_cbg_di_2003_2007.png",
+  "Figures/AirQualityEstimates/map_di_2005.png",
+  # "Figures/AirQualityEstimates/map_county_monitors_2005.png",
+  NULL
+))
+```
+:::
+
+:::
+
+[Published (P&P) version](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064) | [NBER Working Paper No. 25560](https://www.nber.org/papers/w25560) | [EI @ Haas Working Paper 300](https://haas.berkeley.edu/wp-content/uploads/WP300.pdf)
+
+
+## working papers
+
+[[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](papers/draft-gly.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in)
+<br>
+*Revise and resubmit (resubmitted)*, PNAS
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+The advent of herbicide-tolerant genetically modified (GM) crops spurred rapid and widespread use of the herbicide glyphosate (GLY) throughout US agriculture. In the two decades following GM-seed's introduction, the volume of GLY applied in the US increased by more than 750%. Despite its breadth and scale, science and policy remain unresolved regarding the effects of GLY on human health. We identify the causal effect of GLY exposure on perinatal health by combining (1) county-level variation in GLY use driven by (2) the timing of the GM technology and (3) differential geographic suitability for GM crops. Our results suggest the introduction of GM seeds and GLY significantly reduced average birthweight and gestational length. While we find effects throughout the birthweight distribution, low-weight births experienced the largest reductions: the effect for births in the lowest decile is 4.5 times larger than that of the highest decile. Together, these estimates suggest that GLY exposure caused previously undocumented and unequal health costs for rural US communities over the last 20 years.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  "Figures/Glyphosate/fs-main-policy-dbwt.jpeg",
+  "Figures/Glyphosate/rf-main-policy-dbwt.jpeg",
+  "Figures/Glyphosate/map-glyph-km2-diff-9512.jpeg",
+  NULL
+))
+```
+:::
+
+:::
+
+[Current draft](papers/draft-gly.pdf) | [On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
+
+<br>
+
+[[Does time shift behavior? The clock- vs. solar-time tradeoff](papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Patrick Baylis](https://www.patrickbaylis.com), [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/), and [Edward Rubin](https://edrub.in)
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Standardized clock time is perhaps the most ubiquitous behavioral nudge on the planet. It helps schedule and coordinate economic behavior, but also creates tension when it shifts activities away from their locally optimal solar time. Debates about daylight saving time and areas switching time zones center on this tension. We directly measure the clock- vs. solar-time tradeoff using geolocated data on online behavior (Twitter), commute times (Census), and foot traffic (SafeGraph). A one-hour change in the wedge between solar time and clock time shifts behavior 10–32 minutes, with larger effects in northern latitudes and for activities occurring closer to sunrise.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  "Figures/Time/sunrise-summer-trim.png",
+  "Figures/Time/sunrise-winter-trim.png",
+  NULL
+))
+knitr::include_graphics("Figures/Time/legend-common.png")
+```
+:::
+
+:::
+
+[NBER Working Paper No. 30999](https://www.nber.org/papers/w30999) | [Current draft](papers/draft-time.pdf)
+<br>
+NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
+
+<br>
+
+[[Unequal avoidance: Disparities in smoke-induced out-migration](papers/draft-smoke.pdf))]{style="font-weight: 900; font-size: 12pt;"}
+
+[M. Steven Holloway](https://mstevenholloway.page/home) and [Edward Rubin](https://edrub.in)
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Organisms reduce risk exposure through short-term avoidance—*flight*. However, this flight strategy may not be equally accessible throughout a population. We combine cellphone movements, satellite-based wildfire smoke plumes, and Census data to document substantial heterogeneity/inequity in communities' tendencies to out-migrate to avoid smoke. Higher-income and whiter populations travel out of their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke—underscoring equity concerns for wildfire damages and climate adaptation.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: FALSE
+#| layout-ncol: 2
+knitr::include_graphics(c(
+  'Figures/Smoke/hhinc-q50-subrural0.png',
+  'Figures/Smoke/shrhispanic-q50-subrural0.png',
+  NULL
+))
+```
+:::
+
+:::
+
+[Draft](papers/draft-smoke.pdf)
+
+<br>
+
+[[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](papers/draft-mliv.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Connor Lennon](https://www.connormlennon.com), [Edward Rubin](https://edrub.in), and [Glen Waddell](http://www.glenwaddell.com)
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Machine learning (ML) primarily evolved to solve "prediction problems. The first stage of two-stage least squares (2SLS) is a prediction problem, suggesting potential gains from ML first-stage assistance. However, little guidance exists on when ML helps 2SLS—or when it hurts. We investigate the implications of inserting ML into 2SLS, decomposing the bias into three informative components. Mechanically, ML-in-2SLS procedures face issues common to prediction *and* causal-inference settings—and their interaction. Through simulation, we show linear ML methods (*e.g.*, post-Lasso) work well, while nonlinear methods (*e.g.*, random forests, neural nets) generate substantial bias in second-stage estimates—potentially *exceeding* the bias of endogenous OLS.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  "Figures/MLIV/sim-density-ridge-t2.png",
+  "Figures/MLIV/sim-exclusion-interaction-3-trees.png",
+  NULL
+))
+```
+:::
+
+:::
+
+[Draft](papers/draft-mliv.pdf)
+
+## in progress
+
+[Declining power-plant emissions, co-benefits, and regulatory rebound]{style="font-weight: 900; font-size: 12pt;"}
+<br>
+[Meredith Fowlie](https://www.meredithfowlie.com), [Edward Rubin](https://edrub.in), and Catherine Wright
+
+[Environmental prediction for diverse policy contexts]{style="font-weight: 900; font-size: 12pt;"}
+<br>
+[Andrew Dickinson](https://ajdickinson.github.io/) and [Edward Rubin](https://edrub.in)
+
+[The paradoxical demand for guns]{style="font-weight: 900; font-size: 12pt;"}
+<br>
+[Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
+
+[Correlated exposures]{style="font-weight: 900; font-size: 12pt;"}
+<br>
+Pilar Mullican and [Edward Rubin](https://edrub.in)
+
+[Mismeasurement in exposure and access: Insights from cellphone data]{style="font-weight: 900; font-size: 12pt;"}
+
+[How salient are environmental risks? The short- and long-run effects of lead exposure in piped water]{style="font-weight: 900; font-size: 12pt;"}
+
+[Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization]{style="font-weight: 900; font-size: 12pt;"}
+
+[Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley]{style="font-weight: 900; font-size: 12pt;"}
+

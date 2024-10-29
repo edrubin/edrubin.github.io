@@ -1,0 +1,52 @@
+---
+title: ""
+toc: false
+---
+
+
+:::: {.columns}
+
+::: {.column width="49%"}
+
+![](photos/ed-cropped.png)
+
+:::
+
+::: {.column width="5%"}
+<!-- Blank -->
+:::
+
+::: {.column width="46%"}
+
+I'm [Ed Rubin](bio.html), an assistant professor in the [Department of Economics](https://economics.uoregon.edu) at the [University of Oregon](https://www.uoregon.edu).
+
+### research
+
+I'm an environmental economist who researches how human behavior (individual and policy) affects social equity and the health of the natural world.
+
+As an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.
+
+Examples from a few recent projects…
+<br>↳ [*unequal health impacts from glyphosate exposure*](papers/draft-gly.pdf)
+<br>↳ [*curiously missing data in air-quality monitors*](papers/draft-strategic-monitoring.pdf)
+<br>↳ [*unequal wildfire smoke avoidance*](papers/draft-smoke.pdf)
+<br>↳ [*a field experiment in customer-based gender bias*](papers/draft-gender-bias.pdf)
+<br>↳ [*pitfalls of machine learning in a 2SLS framework*](papers/draft-mliv.pdf)
+<br>↳ [*strategic location of coal-fueled power plants*](papers/draft-plant-locations.pdf)
+
+### me
+
+*Passions:* [the](https://www.instagram.com/p/CFsBay1hvSx/?utm_source=ig_web_copy_link) [outdoors](https://www.instagram.com/p/CEhutiOhgSU/?utm_source=ig_web_copy_link), [bikes](https://www.instagram.com/p/CRyaIAwnwFV/?utm_source=ig_web_copy_link), [good](https://www.instagram.com/p/Ct-wwForzVf/) [food](https://www.instagram.com/p/CpwIFRbrOG5/)/[coffee](https://www.instagram.com/p/CmLQK9rL9qO/)/[drink](https://www.instagram.com/p/Cf6RgnGgcKH/)[s](https://www.instagram.com/imbib.ed/), [beauty/photography](https://www.instagram.com/edwardarubin/) [data](https://www.instagram.com/p/BQrHLkBgy-V/), and (most of all) [loving](https://www.instagram.com/p/CgAHadCgJ0u/) [people](https://www.instagram.com/p/CdCiAtbNNSQ/?utm_source=ig_web_copy_link).
+
+### more
+
+A few other professional items… I
+<br>↳ *started [TWEEDS](https://tweeds.io) with [friends](https://tweeds.io/about/)*,
+<br>↳ *help run [OSWEET](https://edrub.in/osweet.html)*,
+<br>↳ *co-wrote a textbook,*<br>[↳]{style="color: white;"} *[Data Science and Public Policy](https://link.springer.com/book/10.1007/978-3-030-71352-2)*.
+
+Please look around or [contact me](contact.html).
+
+:::
+
+::::

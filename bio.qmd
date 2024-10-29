@@ -1,0 +1,37 @@
+---
+title: ""
+lightbox: true
+toc: false
+---
+
+::: {.grid style="--bs-columns: 12;"}
+
+::: {.g-col-12 .g-col-md-5}
+
+I live in Eugene, Oregon (USA) with my amazing wife, [Shelley](http://yourwritinghelper.com), and our awesome kids—Theo, Clara, and Wendell.
+
+I am an assistant professor of economics at the University of Oregon. I received my PhD from the Department of Agricultural and Resource Economics at UC Berkeley. Before studying at UC Berkley, I earned a B.S. in mathematics, an M.S. in statistics, and an M.S. in agricultural economics—all at the University of Nebraska–Lincoln.
+
+If not at school, I'm hopefully outside and/or playing with my family. I love people, data, trees, maps, Truth, Beauty, and good food. And bikes.
+
+**more**
+
+- [my favorite research tools](tools.html);
+- [useful/interesting links](links.html);
+- [a few blog posts](blog.html);
+- [my research](research.html);
+- [some recent photos](https://instagram.com/edwardarubin/).
+
+**contact**
+
+- __email:__ edwardr `@` uoregon `.` edu
+- __instagram:__ [\@edwardarubin](https://instagram.com/edwardarubin/)
+
+:::
+
+
+::: {.g-col-12 .g-col-md-7}
+![](photos/kids.png)
+:::
+
+::::

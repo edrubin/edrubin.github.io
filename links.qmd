@@ -1,0 +1,1671 @@
+---
+title: ""
+---
+
+Useful and/or interesting links for research/productivity/fun.<br><br>
+
+<h3 style="color:#EEEEEE"> 20240221 </h3>
+
+__Tabby__ <br>
+Super customizable, cross-platform [termial app](https://tabby.sh/).
+
+__Warp__ <br>
+Rust-based [terminal](https://www.warp.dev/) with AI.
+
+<h3 style="color:#EEEEEE"> 20230323 </h3>
+
+__Expressions__ <br>
+App with (pretty) [live preview of regular expressions](https://www.apptorium.com/expressions).
+
+
+<h3 style="color:#EEEEEE"> 20220302 </h3>
+
+__DeckDeckGo__ <br>
+Interactive, web-based [presentations](https://deckdeckgo.com/en/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20211025 </h3>
+
+__Browse AI__ <br>
+[Track](https://www.browse.ai) websites. [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20210924 </h3>
+
+__Rectangle__ <br>
+[Window management](https://github.com/rxhanson/Rectangle) based on [Spectacle](https://www.spectacleapp.com).
+
+<h3 style="color:#EEEEEE"> 20210208 </h3>
+
+__Camo__ <br>
+Use [your phone as a webcam](https://reincubate.com/camo). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20210208 </h3>
+
+__Beeper__ <br>
+A single [app to unite all your messaging apps](https://www.beeperhq.com). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20210126 </h3>
+
+__ggpomological__ <br>
+[`ggplot2` theme](https://www.garrickadenbuie.com/project/ggpomological/) based upon the [USDA's pomological watercolor collection](https://usdawatercolors.nal.usda.gov/pom/home.xhtml).
+
+<h3 style="color:#EEEEEE"> 20210122 </h3>
+
+__disk.frame__ <br>
+[R package](https://diskframe.com) that allows you to treat on-disk data as though it were in-memory (*i.e.*, use `data.table` or `tidyverse`). [Bonus blog](https://www.brodrigues.co/blog/2019-09-03-disk_frame/) from Bruno Rodrigues.
+
+<h3 style="color:#EEEEEE"> 20210121 </h3>
+
+__ASCII Decorator__ <br>
+Sublime plugin for [ASCII Decorations](https://github.com/viisual/ASCII-Decorator).
+
+__Machine learning flashcards__ <br>
+[Flashcards for ML](https://machinelearningflashcards.com) concepts.
+
+__lazyrmd__ <br>
+[Lazy rendering of `rmd`](https://ryanhafen.com/blog/lazyrmd/).
+
+<h3 style="color:#EEEEEE"> 20201215 </h3>
+
+__xaringanExtra__ <br>
+[Extra skills](https://github.com/gadenbuie/xaringanExtra) for the R package `xaringan`.
+
+__xaringanthemer__ <br>
+More [themes for `xaringan`](https://pkg.garrickadenbuie.com/xaringanthemer/).
+
+<h3 style="color:#EEEEEE"> 20201005 </h3>
+
+__voice dream apps__ <br>
+
+- reader [reads anything aloud](https://www.voicedream.com/reader/) (200+ voices in 30 languages).
+- writer [helps you proofread out loud](https://www.voicedream.com/writer/).
+- scanner [is for text recognition of scans](https://www.voicedream.com/scanner/).
+
+__Freshwater Ecosystems Explorer__ <br>
+Data platform with [accurate, up-to-date, high-resolution geospatial data depicting the extent freshwater ecosystems change over time](https://www.sdg661.app).
+
+<h3 style="color:#EEEEEE"> 20200915 </h3>
+
+__Synergy__ <br>
+[Control multiple computers](https://symless.com/synergy) with a single keyboard/mouse.
+
+__Book: Dive into Deep Learning__
+Online [deep learning book](https://d2l.ai/).
+
+__Apache Arrow for R__ <br>
+[R package for Apache Arrow](https://arrow.apache.org/docs/r/index.html) in-memory platform. [h/t](http://grantmcdermott.com)
+
+__Wizard Zines Collection__ <br>
+[Programming zines](https://wizardzines.com/). [h/t](http://grantmcdermott.com)
+
+<h3 style="color:#EEEEEE"> 20200915 </h3>
+
+__Butterick's Practical Typography__ <br>
+Online book with practical [advice on typography](https://practicaltypography.com/).
+
+<h3 style="color:#EEEEEE"> 20200915 </h3>
+
+__tweek__ <br>
+Online [weekly planner](https://tweek.so/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20200914 </h3>
+
+__Mail Merge for Thunderbird__ <br>
+A [mail merge](https://addons.thunderbird.net/en-US/thunderbird/addon/mail-merge/) extension for Thunderbird.
+
+<h3 style="color:#EEEEEE"> 20200820 </h3>
+
+__Compiled ESS point datasets__ <br>
+[Compendium](https://gitlab.com/openlandmap/compiled-ess-point-data-sets) of compiled Earth System Science point data sets.
+
+<h3 style="color:#EEEEEE"> 20200409 </h3>
+
+__Stack__ <br>
+[Browser](https://getstack.app/) built for multi-tasking. [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20200409 </h3>
+
+__codetime__ <br>
+Text-editor [plugin for coding metrics](https://www.software.com/code-time) and timing. [h/t](https://www.densediscovery.com/)
+
+__descript__ <br>
+Record and edit [audio as a transcript](https://www.descript.com/). [h/t](https://www.densediscovery.com/)
+
+__Hypothesis__ <br>
+[Annotate the web](https://web.hypothes.is/)—and share it. [h/t](https://www.densediscovery.com/)
+
+__Online conference options__ <br>
+There's more for things bigger than Zoom:
+
+- [hopin](https://hopin.to/)
+- [Run the World](https://www.runtheworld.today/)
+- [Vito](https://vito.community/) [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20200210 </h3>
+
+__Old Book Illustrations__ <br>
+A compendium of [illustrations](https://www.oldbookillustrations.com/) from "old books".
+
+__radian__ <br>
+An [alternative console for R](https://github.com/randy3k/radian) with multiline editing and rich syntax highlight. [h/t](http://grantmcdermott.com)
+
+<h3 style="color:#EEEEEE"> 20200106 </h3>
+
+__learnr__ <br>
+R package to create Markdown-based, [interactive tutorials](https://rstudio.github.io/learnr/index.html).
+
+<h3 style="color:#EEEEEE"> 20191224 </h3>
+
+__Convertio__ <br>
+[File conversion](https://convertio.co/) across 300+ formats.
+
+<h3 style="color:#EEEEEE"> 20191219 </h3>
+
+__Arcane Office__ <br>
+In-cloud, private/secure/de-centralized, free [office suite](https://arcaneoffice.com/).
+
+__Crosstalk__ <br>
+[Cross-widget interactions in R](https://rstudio.github.io/crosstalk/index.html).
+
+__panelView__ <br>
+R package for [visualizing treatment, missing-ness, and outcomes in panel data](https://yiqingxu.org/software/panelView/panelView.html).
+
+__speaking.io__ <br>
+[Public-speaking tips](https://speaking.io/). [h/t](https://www.densediscovery.com/)
+
+__Standard ebooks__ <br>
+Curated, high-quality, free [ebooks](https://standardebooks.org/).
+
+<h3 style="color:#EEEEEE"> 20191203 </h3>
+
+__cally__ <br>
+[Find common dates/locations](https://cally.com/) for group events. [h/t](https://www.densediscovery.com/)
+
+__Gantt.io__ <br>
+Easy, pretty, [online Gantt charts](https://www.gantt.io/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190923 </h3>
+
+__devhints__ <br>
+A collection of [cheatseets](https://devhints.io/), *e.g.*, [bash](https://devhints.io/bash), [regex](https://devhints.io/regexp) and [vim](https://devhints.io/vim).
+
+<h3 style="color:#EEEEEE"> 20190923 </h3>
+
+__jQuery cheatsheet__ <br>
+[Cheatseet](https://websitesetup.org/jquery-cheat-sheet/) for jQuery.
+
+<h3 style="color:#EEEEEE"> 20190821 </h3>
+
+__blastula__ <br>
+[Send beautiful HTML emails from R](https://github.com/rich-iannone/blastula).
+
+<h3 style="color:#EEEEEE"> 20190717 </h3>
+
+__Really Good Emails__ <br>
+Currated collection of [beautiful, well-crafted emails](https://reallygoodemails.com/). [h/t](https://www.densediscovery.com/)
+
+__tresorit__ <br>
+Secure [cloud storage](https://tresorit.com/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190717 </h3>
+
+__In-Browser Markdown Editors__ <br>
+- [HackMD](https://hackmd.io/)
+- [StackEdit](https://stackedit.io/)
+- [Madoko](https://www.madoko.net/)
+
+<h3 style="color:#EEEEEE"> 20190715 </h3>
+
+__Noted__ <br>
+Integrated [audio-recording and note-taking](https://www.notedapp.io/) app.
+
+<h3 style="color:#EEEEEE"> 20190702 </h3>
+
+__Twizzy__ <br>
+[Simple, clean flowchart tool](https://www.zenflowchart.com/). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190620 </h3>
+
+__Twizzy__ <br>
+[Twitter without the timeline](https://twizzy.app/) (just message and tweet). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190326 </h3>
+
+__rticle__ <br>
+LaTeX journal [article templates for R Markdown](https://github.com/rstudio/rticles).
+
+<h3 style="color:#EEEEEE"> 20190326 </h3>
+
+__Makepad__ <br>
+(Online) [project management for single users](https://makepad.live/)—no team features.
+
+<h3 style="color:#EEEEEE"> 20190319 </h3>
+
+__Firefox Send__ <br>
+[Send files](https://send.firefox.com/) up to 2.5GB (1GB without signing in). [h/t](https://www.densediscovery.com/)
+
+__TAYL__ <br>
+[Turn text articles into podcasts](https://www.tayl.app/). [h/t](https://www.densediscovery.com/)
+
+__Workbench__ <br>
+[Code-free data sharing and analysis platform](http://workbenchdata.com/).
+
+<h3 style="color:#EEEEEE"> 20190219 </h3>
+
+__Marvin__ <br>
+"Ultimate" [productivity tool](https://amazingmarvin.com). [h/t](https://www.densediscovery.com/)
+
+<h3 style="color:#EEEEEE"> 20190131 </h3>
+
+__Buttondown__ <br>
+Simple, online, markdown-based [newsletter app](https://buttondown.email).
+
+<h3 style="color:#EEEEEE"> 20190115 </h3>
+
+__Background Music__ <br>
+[Audio utility](https://github.com/kyleneideck/BackgroundMusic) to automatically pause music and/or mute specific applications.
+
+<h3 style="color:#EEEEEE"> 20181221 </h3>
+
+__drake__ <br>
+R package for [workflow management of data-driven tasks](https://ropensci.github.io/drake/).
+
+__fontawesome package__ <br>
+LaTeX [package to access Font Awesome icons](http://mirror.neu.edu.cn/CTAN/fonts/fontawesome/doc/fontawesome.pdf).
+
+<h3 style="color:#EEEEEE"> 20181207 </h3>
+
+__NES.css__ <br>
+NES-style [CSS Framework](https://bcrikko.github.io/NES.css/).
+
+__rayshader__ <br>
+R package for [producing 2D and 3D hillshaded maps of elevation matrices](https://github.com/tylermorganwall/rayshader). [h/t](http://johnloeser.github.io)
+
+<h3 style="color:#EEEEEE"> 20181205 </h3>
+
+__iotools__ <br>
+R package for [streaming and data parsing](https://cran.r-project.org/web/packages/iotools/index.html).
+
+<h3 style="color:#EEEEEE"> 20181128 </h3>
+
+__pqR__ <br>
+A ["pretty quick" version of R](https://github.com/radfordneal/pqR). [h/t](http://grantmcdermott.com)
+
+<h3 style="color:#EEEEEE"> 20181127 </h3>
+
+__cloudyr__ <br>
+A collection of R packages that [connect R to cloud resources](https://github.com/cloudyr).
+
+<h3 style="color:#EEEEEE"> 20181120 </h3>
+
+__fst__ <br>
+[Fast and easy serialization of data frames](https://www.fstpackage.org) in R (and Julia).
+
+__RStudio Server Amazon Machine Images__ <br>
+Louis Aslett provides a tremendous public service in hosting and updating (and providing basic instructions for) [RStudio/R machine images for Amazon](http://www.louisaslett.com/RStudio_AMI/).
+
+<h3 style="color:#EEEEEE"> 20181015 </h3>
+
+__Spaceship Prompt__ <br>
+[Minimalistic and flexible Zsh prompt](https://github.com/denysdovhan/spaceship-prompt).
+
+__trminal__ <br>
+[Quickly opens a Mac Terminal (or iTerm 2) window](https://www.bitfield.se/trminal/index.html) for the current Finder directory. Akin to [Go2Shell](http://zipzapmac.com/go2shell) but with more frequent/recent updates.
+
+<h3 style="color:#EEEEEE"> 20181008 </h3>
+
+__ColorBox__ <br>
+Custom [color-scale builder](https://www.colorbox.io). [h/t](https://www.densediscovery.com)
+
+__latex2exp__ <br>
+[R package that converts LaTeX expressions](https://github.com/stefano-meschiari/latex2exp/) to (annoying) plotmath.
+
+<h3 style="color:#EEEEEE"> 20181002 </h3>
+
+__Superhuman__ <br>
+Very [fast email client](https://superhuman.com) (based on what they say). [h/t](https://www.densediscovery.com)
+
+<h3 style="color:#EEEEEE"> 20180928 </h3>
+
+__What If__ <br>
+[Tool for inspecting machine-learning models](https://pair-code.github.io/what-if-tool/index.html#intro).
+
+<h3 style="color:#EEEEEE"> 20180925 </h3>
+
+__GeoDa__ <br>
+Free, open-source [geospatial software](https://geodacenter.github.io).
+
+__iTerm2 borderless__ <br>
+[A nice patch](https://github.com/jasonwoodland/iTerm2-borderless) for iTerm2 that creates a more minimal aesthetic for [iTerm2](https://iterm2.com/documentation-shell-integration.html).
+
+__kitty__ <br>
+GPU-based [terminal emulator](https://sw.kovidgoyal.net/kitty/).
+
+<h3 style="color:#EEEEEE"> 20180911 </h3>
+
+__Rbox__ <br>
+R package to [run R in Atom](https://github.com/saeidamiri1/rbox).
+
+<h3 style="color:#EEEEEE"> 20180831 </h3>
+
+__RMarkdown presentation by Yihui Xie__ <br>
+A [presentation](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html) by Yihui Xie on bookdown, blogdown, and xaringan. There are [many more presentations available by Yihui Xie](https://yihui.name/en/vitae/).
+
+<h3 style="color:#EEEEEE"> 20180830 </h3>
+
+__hey-pane__ <br>
+[Atom extension for enlarging the active panel](https://atom.io/packages/hey-pane) (includes keyboard shortcut).
+
+__typing.io__ <br>
+[Typing practice](https://typing.io) for many programming languages.
+
+<h3 style="color:#EEEEEE"> 20180815 </h3>
+
+__DeclareDesign__ <br>
+[Declaring and analyzing research designs in the social sciences](https://declaredesign.org). [h/t](http://grantmcdermott.com)
+
+__R for Data Science__ <br>
+[Online book about R for Data Science](http://r4ds.had.co.nz) by Garrett Grolemund and Haldey Wickham.
+
+<h3 style="color:#EEEEEE"> 20180718 </h3>
+
+__Biblatex Cheat Sheet__ <br>
+A [cheat sheet for Biblatex](CheatSheets/cheatSheetBiblatex.pdf).
+
+__Writing tools for Atom__ <br>
+[linter-write-good](https://atom.io/packages/linter-write-good) lints English prose. [Linter Just Say No](https://atom.io/packages/linter-just-say-no) helps you avoid using hedge words.
+
+<h3 style="color:#EEEEEE"> 20180718 </h3>
+
+__Bib-it__ <br>
+[Compendium of BibTeX](http://bib-it.sourceforge.net/help/fieldsAndEntryTypes.php#techreport) entry and field types.
+
+__Culture Concorde__ <br>
+Simple menu-bar [curated-music player](http://www.cultureconcorde.com). [h/t](https://www.offscreenmag.com)
+
+__Dotgrid__ <br>
+"Minimal [vector drawing tool](https://hundredrabbits.itch.io/dotgrid)". [h/t](https://www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20180524 </h3>
+
+__UberConference__ <br>
+Great, [feature-rich meeting platform](https://www.uberconference.com/features).
+
+<h3 style="color:#EEEEEE"> 20180516 </h3>
+
+__Figure it Out__ <br>
+Pretty Chrome extension (and website) to [figure out time zones](https://www.fioapp.co).
+
+__grasshopper__ <br>
+Free app that [teaches coding](https://grasshopper.codes).
+
+__txt.fyi__ <br>
+"This is the dumbest [publishing platform on the web](https://txt.fyi)." [h/t](https://www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20180510 </h3>
+
+__Gradescope__ <br>
+[Grading web service](https://gradescope.com) with really nice grading/rubric setup.
+
+<h3 style="color:#EEEEEE"> 20180430 </h3>
+
+__ScreenFocus__ <br>
+Auto-dim (and auto-un-dim) when [working with multiple monitors](http://www.apptorium.com/screenfocus). [h/t](https://www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20180426 </h3>
+
+__Clocker__ <br>
+OSX app to plan and organize [through timezones](https://github.com/abhishekbanthia/Clocker).
+
+__imdone__ <br>
+Atom package that provides a card- and list-based [user interface for `TODO`s in your scripts](https://atom.io/packages/imdone-atom).
+
+__themer__ <br>
+[Generates color themes](https://themer.mjswensen.com) given a set of colors.
+
+<h3 style="color:#EEEEEE"> 20180419 </h3>
+
+__binder__ <br>
+[Turns a GitHub repo into a collection of interactive notebooks](https://mybinder.org). [h/t](http://dlabctawg.github.io)
+
+<h3 style="color:#EEEEEE"> 20180410 </h3>
+
+__Gnotes__ <br>
+Simple [markdown to Evernote](https://notes.giggy.com). Somewhat like [Marxico](https://marxi.co).
+
+__`gsynth`__ <br>
+R package for [generalized synthetic control methods](http://yiqingxu.org/software/gsynth/gsynth_examples.html).
+
+<h3 style="color:#EEEEEE"> 20180406 </h3>
+
+__SuperLearner__ <br>
+R package for a [prediction-model ensembling method](https://github.com/ecpolley/SuperLearner).
+
+<h3 style="color:#EEEEEE"> 20180403 </h3>
+
+__Beautiful AI__ <br>
+[AI-powered presentations](https://www.beautiful.ai).
+
+<h3 style="color:#EEEEEE"> 20180329 </h3>
+
+__Academic Sequitur__ <br>
+A website that [tracks over 90 major economics and finance journals](https://academicsequitur.com).
+
+<h3 style="color:#EEEEEE"> 20180320 </h3>
+
+__Teletype for Atom__ <br>
+An [Atom package to collaborate in real time](https://teletype.atom.io).
+
+<h3 style="color:#EEEEEE"> 20180315 </h3>
+
+__`AppleHealthAnalysis`__ <br>
+An [R package to import and analyze data from the iOS Apple Health app](https://github.com/deepankardatta/AppleHealthAnalysis).
+
+<h3 style="color:#EEEEEE"> 20180301 </h3>
+
+__regex-railroad-diagram package__ <br>
+A [regular expression railroad diagram view](https://atom.io/packages/regex-railroad-diagram) for regular expression under cursor in Atom.
+
+<h3 style="color:#EEEEEE"> 20180301 </h3>
+
+__Things 3__ <br>
+[Personal task manager](https://culturedcode.com/things/). I'm switching from OmniFocus.
+
+__Workflow__ <br>
+[Automation tool](https://workflow.is) for iOS.
+
+<h3 style="color:#EEEEEE"> 20180213 </h3>
+
+__hiri__ <br>
+Clean, powerful [email/calendar/task/contact](https://www.hiri.com) app.
+
+<h3 style="color:#EEEEEE"> 20180202 </h3>
+
+__XML Sitemaps__ <br>
+Simple [tool for creating XML sitemaps](https://www.xml-sitemaps.com) (along with other formats).
+
+<h3 style="color:#EEEEEE"> 20180129 </h3>
+
+__Viridis in QGIS__ <br>
+[Viridis color palettes (ramps)](https://gist.github.com/cossatot/6fd455d6a2e0e1fdb8ed547dd2176eae) for QGIS.
+
+<h3 style="color:#EEEEEE"> 20180115 </h3>
+
+__LittleSnitch__ <br>
+[View and manage internet connections](https://www.obdev.at/products/littlesnitch/index.html) from your Mac. (Also: [MicroSnitch](https://www.obdev.at/products/microsnitch/index.html))
+
+__SwiftText__ <br>
+Quick-access [scratchpad](http://giraffelab.com/swifttext/) for OSX.
+
+__ggthemr__ <br>
+[Themes and palettes for `ggplot2`](https://github.com/cttobin/ggthemr).
+
+<h3 style="color:#EEEEEE"> 20171227 </h3>
+
+__Typely__ <br>
+Free [online proofreading](https://typely.com).
+
+<h3 style="color:#EEEEEE"> 20171130 </h3>
+
+__Resistbot__ <br>
+A bot who [finds and contacts your Congressional representatives](https://resistbot.io).
+
+<h3 style="color:#EEEEEE"> 20171129 </h3>
+
+__Text Mining with R__ <br>
+An [introduction to (tidy) text mining in R](http://tidytextmining.com).
+
+<h3 style="color:#EEEEEE"> 20171122 </h3>
+
+__sf__ <br>
+Stellar package for [spatial data analysis](https://cran.r-project.org/web/packages/sf/vignettes/sf1.html) in `R`. More `sf` resources: [1](https://cran.r-project.org/web/packages/sf/sf.pdf) | [2](http://strimas.com/r/tidy-sf/) | [3](https://r-spatial.github.io/sf/) | [4](http://ggplot2.tidyverse.org/reference/ggsf.html) | [5](https://dcl-2017-01.github.io/curriculum/notes/spatial-vis.html)
+
+<h3 style="color:#EEEEEE"> 20171115 </h3>
+
+__Cheat sheets for regular expressions__ <br>
+The folks at RStudio provides cheat sheets for [regular expressions](CheatSheets/cheatSheetRegEx.pdf) and [`stringr`](CheatSheets/cheatSheetStringr.pdf) (and [many other cheat sheets](https://www.rstudio.com/resources/cheatsheets/)).
+
+<h3 style="color:#EEEEEE"> 20171107 </h3>
+
+__Author__ <br>
+App to instantly [create and publish documents to the web](http://authorapp.co/).
+
+<h3 style="color:#EEEEEE"> 20171030 </h3>
+
+__ggforce__ <br>
+A [package for `R`](https://github.com/thomasp85/ggforce) that aims to extend `ggplot2` for explorative data visualization.
+
+__ggplot2 extensions__ <br>
+A helpful [website that tracks extensions to `R`'s `ggplot2`](https://www.ggplot2-exts.org/index.html) package.
+
+<h3 style="color:#EEEEEE"> 20171018 </h3>
+
+__3Blue1Brown__ <br>
+A [YouTube channel that animates math](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
+
+<h3 style="color:#EEEEEE"> 20171014 </h3>
+
+__GitFinder__ <br>
+A fast and lightweight [Git client for Mac with Finder integration](https://zigz.ag/GitFinder/).
+
+<h3 style="color:#EEEEEE"> 20171010 </h3>
+
+__Drop__ <br>
+Beautiful [color picker](http://dropcolorpicker.com) with Touch Bar support.
+
+__Index__ <br>
+[Save and search your "stuff"](https://indexapp.com).
+
+__Qbserve__ <br>
+Automatically [tracks both productivity and work hours](https://qotoqot.com/qbserve). [h/t](https://www.offscreenmag.com)
+
+__TripMode__ <br>
+[Blocks apps from accessing the internet](https://www.tripmode.ch). [h/t](https://www.offscreenmag.com)
+
+__Tyke__ <br>
+[Scratch paper](http://tyke.io) that lives in your menubar. [h/t](https://www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20171003 </h3>
+
+__Pod__ <br>
+A ["connected" calendar](https://pod.io) for iOS. [h/t](https://www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20170927 </h3>
+
+__Tabagotchi__ <br>
+Fun [browser extension that incentives fewer tabs](http://tabagotchi.com).
+
+<h3 style="color:#EEEEEE"> 20170831 </h3>
+
+__Crime Data__ <br>
+The FBI has a great new [crime data explorer](https://crime-data-explorer.fr.cloud.gov). The Open Data Census project has a handy(-ish) [summary of city-level crime datasets](http://us-city.census.okfn.org/dataset/crime-stats).
+
+__Plain Email__ <br>
+Four-action [email-processing app](http://www.plainemail.com).
+
+__Rambox__ <br>
+Cross-platform [messaging and emailing app](http://rambox.pro).
+
+__ScienceFair__ <br>
+Search, collect, read and analyze [scientific papers](http://sciencefair-app.com).
+
+<h3 style="color:#EEEEEE"> 20170828 </h3>
+
+__earth__ <br>
+A (beautiful) [global map](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-97.28,29.06,1030/loc=-95.951,28.471) of wind, weather, and ocean conditions.
+
+<h3 style="color:#EEEEEE"> 20170825 </h3>
+
+__Free, open-source machine learning, statistics, and data-mining resources__ <br>
+A [curated list of resources](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md) from Joseph Misiti.
+
+__Template for R Markdown academic manuscript__ <br>
+Steven Miller offers a [guide and template for academic manuscripts in R Markdown](http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/).
+
+<h3 style="color:#EEEEEE"> 20170824 </h3>
+
+__Regular expressions in R__ <br>
+`stringr`'s very helpful [primer on regular expressions in R](http://stringr.tidyverse.org/articles/regular-expressions.html).
+
+<h3 style="color:#EEEEEE"> 20170807 </h3>
+
+__Gifmock__ <br>
+[Creates high-quality GIFs](https://gifmock.com).
+
+__twist__ <br>
+A calmer [Slack alternative](https://twistapp.com).
+
+<h3 style="color:#EEEEEE"> 20170806 </h3>
+
+__Hemingway__ <br>
+App that [improves your writing](http://www.hemingwayapp.com).
+
+<h3 style="color:#EEEEEE"> 20170804 </h3>
+
+__rmapshaper__ <br>
+R package for ["topologically-aware multi-polygon simplification" (for shapefiles)](https://cran.r-project.org/web/packages/rmapshaper/vignettes/rmapshaper.html). Related: [mapshaper.org](http://mapshaper.org)
+
+<h3 style="color:#EEEEEE"> 20170803 </h3>
+
+__Manually re-index OSX Spotlight__ <br>
+A helpful [guide](https://www.scrubly.com/blog/how-to-mac/manually-reindex-os-x-spotlight/). _Hint_: It's really just `sudo mdutil -E /`.
+
+<h3 style="color:#EEEEEE"> 20170727 </h3>
+
+__Colibri__ <br>
+A [browser without tabs](https://colibri.opqr.co).
+
+<h3 style="color:#EEEEEE"> 20170722 </h3>
+
+__everydayCheck__ <br>
+A simple, pretty [habit tracker](https://everydaycheck.com/). [h/t](https://www.offscreenmag.com/)
+
+__Orai__ <br>
+AI-powered [feedback for your speeches](https://www.oraiapp.com/?). [h/t](https://www.offscreenmag.com/)
+
+<h3 style="color:#EEEEEE"> 20170713 </h3>
+
+__Velox__ <br>
+[Fast raster manipulation](https://cran.r-project.org/web/packages/velox/README.html) in R.
+
+<h3 style="color:#EEEEEE"> 20170608 </h3>
+
+__Tabulizer__ <br>
+[Extract tables from PDFs](https://github.com/ropensci/tabulizer) using R.
+
+<h3 style="color:#EEEEEE"> 20170606 </h3>
+
+__10 Minute Mail__ <br>
+[Disposable email](https://www.10minutemail.com) service.
+
+<h3 style="color:#EEEEEE"> 20170531 </h3>
+
+__Windscribe__ <br>
+[VPN](https://windscribe.com) with a generous free allowance.
+
+<h3 style="color:#EEEEEE"> 20170528 </h3>
+
+__SplitShow__ <br>
+Tool for [dual-head presentations](https://github.com/mpflanzer/splitshow) on OSX.
+
+<h3 style="color:#EEEEEE"> 20170526 </h3>
+
+Two apps from Matthew Palmer:
+
+__Rocket__ <br>
+Mind-blowing (Slack-style) [emoji on your Mac](http://matthewpalmer.net/rocket/).
+
+__Vanilla__ <br>
+[Hides menu bar icons](http://matthewpalmer.net/vanilla/) on your Mac. [h/t](www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20170522 </h3>
+
+__Material Colors__ <br>
+A convenient [website](https://www.materialpalette.com/colors) for accessing the colors of the material design palette.
+
+<h3 style="color:#EEEEEE"> 20170516 </h3>
+
+__Astro__ <br>
+[Email app(s)](https://www.helloastro.com) powered by AI. [h/t](www.offscreenmag.com)
+
+__sip__ <br>
+[Collects, organizes, and shares colors](http://sipapp.io) (and palettes). [h/t](www.offscreenmag.com)
+
+<h3 style="color:#EEEEEE"> 20170515 </h3>
+
+__`rJava` error__ <br>
+A very helpful [guide](https://github.com/snowflakedb/dplyr-snowflakedb/wiki/Configuring-R-rJava-RJDBC-on-Mac-OS-X) to fixing errors with `rJava` on OSX.
+
+<h3 style="color:#EEEEEE"> 20170507 </h3>
+
+__TextExpander__ <br>
+[Expands custom keyboard shortcuts](https://smilesoftware.com/textexpander) into frequently-used text and pictures.
+
+<h3 style="color:#EEEEEE"> 20170430 </h3>
+
+__kobra__ <br>
+Simple, real-time, [code collaboration](https://kobra.io/).
+
+<h3 style="color:#EEEEEE"> 20170426 </h3>
+
+__leaflet__ <br>
+[Access Leaflet's JavaScript library inside of R](https://rstudio.github.io/leaflet/).
+
+__pacman__<br>
+An [R package for easy package management in R](https://cran.r-project.org/web/packages/pacman/vignettes/Introduction_to_pacman.html)—loading, unloading, _etc._
+
+<h3 style="color:#EEEEEE"> 20170414 </h3>
+
+__Popular economics papers__ <br>
+Oxford University Press provides a list of [the most popular economics papers](https://oxfordjournals.org/en/our-journals/social-sciences/most-popular-economics-papers.html) from The Quarterly Journal of Economics (QJE) and The Review of Economics Studies (REStud).
+
+<h3 style="color:#EEEEEE"> 20170410 </h3>
+
+__Unpaywall__ <br>
+[Read paywalled research papers](http://unpaywall.org) for free.
+
+<h3 style="color:#EEEEEE"> 20170406 </h3>
+
+__VPN__ <br>
+In addition to having great names, [CyberGhost](www.cyberghostvpn.com) and [TunnelBear](https://www.tunnelbear.com) provide VPN services. Both services offer free options.
+
+<h3 style="color:#EEEEEE"> 20170331 </h3>
+
+__LaTeX, meet ggplot2__ <br>
+Port images out [out of R and into LaTeX](http://iltabiai.github.io/tips/latex/2015/09/15/latex-tikzdevice-r.html). [h/t](https://twitter.com/loesch82?lang=en)
+
+<h3 style="color:#EEEEEE"> 20170329 </h3>
+
+__Comparing text files__ <br>
+[Diffchecker](https://www.diffchecker.com) and [Text Compare!](https://text-compare.com) offer in-browser comparisons between text documents. In Atom, [split-diff](https://atom.io/packages/split-diff) and [compare-files](https://atom.io/packages/compare-files) offer between-document comparisons.
+
+<h3 style="color:#EEEEEE"> 20170324 </h3>
+
+__asciicinema__ <br>
+[asciinema](https://asciinema.org/) (formerly ascii.io) is a free and open source solution for recording terminal sessions and sharing them on the web.
+
+__Markdown online__ <br>
+[Dillinger](http://dillinger.io/), [StackEdit](https://stackedit.io/), and [Markdown Live Preview](http://markdownlivepreview.com/) offer three online Markdown editors/renderers. [remark](https://remarkjs.com/#1), [Marp](https://yhatt.github.io/marp/), [swipe](https://www.swipe.to/markdown/), and [Deckset](https://www.decksetapp.com/) offer options for rendering Markdown into presentation slides (also, [Rmarkdown with ioslides](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)).
+
+<h3 style="color:#EEEEEE"> 20170312 </h3>
+
+__FocusList__<br>
+A [daily planner and focus app](http://focuslist.co) based on Pomodoro. [h/t](http://thesweetsetup.com/staying-productive-pomodoro-technique-sponsor/)
+
+__Giphy Capture__<br>
+[Create GIFs](https://giphy.com/apps/giphycapture) on your Mac. Other options: [Gifox](https://gifox.io), [Recordit](http://recordit.co), and [Gyazo](https://gyazo.com).
+
+<h3 style="color:#EEEEEE"> 20170227 </h3>
+
+__pander__<br>
+An R [Pandoc writer](https://rapporter.github.io/pander/)—for rendering R objects into Pandoc's markdown.
+
+<h3 style="color:#EEEEEE"> 20170209 </h3>
+
+__Typora__<br>
+A [live and minimal Markdown editor](https://typora.io/).
+
+<h3 style="color:#EEEEEE"> 20170206 </h3>
+
+__GGally__<br>
+[Extends R's `ggplot2`](http://ggobi.github.io/ggally/) with many helpful graphical functions.
+
+<h3 style="color:#EEEEEE"> 20170123 </h3>
+
+__LightTable__<br>
+Open-source [text editor](http://lighttable.com) with in-line code evaluation.
+
+<h3 style="color:#EEEEEE"> 20170123 </h3>
+
+__Redkix__<br>
+Reat-time [email app](https://redkix.com).
+
+__Typeform__<br>
+Clean, [online forms](http://typeform.com).
+
+<h3 style="color:#EEEEEE"> 20170123 </h3>
+
+__Codr__<br>
+A lightweight, [collaborative pastebin (whiteboard) for code](http://codr.io).
+
+__SageMathCloud__<br>
+Collaboratively [use open source math software/terminals in your browser](https://cloud.sagemath.com).
+
+__SubEthaEdit (4)__<br>
+[Collaborative text editing](https://www.codingmonkeys.de/subethaedit/).
+
+<h3 style="color:#EEEEEE"> 20170116 </h3>
+
+__Mac Setup__<br>
+[Helpful guide](http://sourabhbajaj.com/mac-setup/) for setting up a Mac for most popular languages and programming/scripting tools.
+
+<h3 style="color:#EEEEEE"> 20170115 </h3>
+
+__Studies__<br>
+[Flash cards](http://www.studiesapp.com) for iOS and OSX.
+
+<h3 style="color:#EEEEEE"> 20170112 </h3>
+
+__Noizio__<br>
+[White-noise generating app](http://noiz.io/) for OSX.
+
+__WeTransfer__<br>
+[Sends files](https://wetransfer.com/).
+
+<h3 style="color:#EEEEEE"> 20170111 </h3>
+
+__Due__<br>
+Fast [to-do list app](http://www.dueapp.com/) with reminders.
+
+__Exist__<br>
+[Track everything](https://exist.io/) you do in one place.
+
+<h3 style="color:#EEEEEE"> 20170109 </h3>
+
+__Tomatimer__<br>
+A loose and straightforward [pomodoro timer for Atom](https://atom.io/packages/tomatimer).
+
+<h3 style="color:#EEEEEE"> 20170105 </h3>
+
+__Markdown Quick Look Plugin__<br>
+[Preview Markdown files](http://inkmarkapp.com/markdown-quick-look-plugin-mac-os-x/) in OSX Finder (through the Preview app). From the makers of the iPad Markdown text editor [InkMark](http://inkmarkapp.com/).
+
+<h3 style="color:#EEEEEE"> 20170101 </h3>
+
+__Read the Docs__<br>
+[Create, host, and browse documentation](https://readthedocs.org/).
+
+<h3 style="color:#EEEEEE"> 20161230 </h3>
+
+__Cloudinary__<br>
+[Image and video management](http://cloudinary.com) in the cloud.
+
+<h3 style="color:#EEEEEE"> 20161228 </h3>
+
+__Spark__<br>
+A fast, personalizable [email client](https://sparkmailapp.com/).
+
+<h3 style="color:#EEEEEE"> 20161227 </h3>
+
+__PostImage__<br>
+Free [image hosting and upload](https://postimg.org).
+
+__Small Victories__<br>
+Takes files in a Dropbox folder and [turns them into a website](http://www.smallvictori.es).
+
+<h3 style="color:#EEEEEE"> 20161222 </h3>
+
+__TinyLetter__<br>
+A free personal [newsletter service](https://tinyletter.com/site/about/).
+
+<h3 style="color:#EEEEEE"> 20161219 </h3>
+
+__Pandas Cheat Sheet__<br>
+A [cheat sheet](https://assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) for data science with Python's Pandas.
+
+<h3 style="color:#EEEEEE"> 20161215 </h3>
+
+__MapInSeconds.com__<br>
+Quickly turns [spreadsheets into maps](http://www.mapinseconds.com/). [h/t](http://www.darkhorseanalytics.com/blog/mapping-data-should-take-seconds-mapinseconds-com)
+
+<h3 style="color:#EEEEEE"> 20161208 </h3>
+
+__R Markdown Websites__<br>
+A tutorial on [building a website using R Markdown](http://rmarkdown.rstudio.com/rmarkdown_websites.html) (like this one). [h/t](http://itai-trilnick.com) The [rmdformats](https://github.com/juba/rmdformats) package offers additional themes (formats). More on R Markdown [here](http://rmarkdown.rstudio.com). The [bookdown](https://bookdown.org) package extends R Markdown to publishing books. The [blogdown](http://github.com/rstudio/blogdown) package extends R Markdown to publishing blogs (or general websites) using [Hugo](https://gohugo.io). The [pkgdown](https://github.com/hadley/pkgdown) package extends R Markdown to creating static html documentation.
+
+<h3 style="color:#EEEEEE"> 20161205 </h3>
+
+__Divvy__<br>
+Provides customized [window management](http://mizage.com/divvy/).
+
+__BetterTouchTool__<br>
+[Configure gestures](https://www.boastr.net/) for OSX.
+
+<h3 style="color:#EEEEEE"> 20161121 </h3>
+
+__Selector Gadget__<br>
+Point-and-click [CSS selectors](http://selectorgadget.com). Helpful when used in conjunction with R's [rvest](https://github.com/hadley/rvest) package.
+
+<h3 style="color:#EEEEEE"> 20161118 </h3>
+
+__Vivaldi__<br>
+A [highly customizable browser](https://vivaldi.com/).
+
+<h3 style="color:#EEEEEE"> 20161115 </h3>
+
+__GitKraken__<br>
+A GUI [Git client](https://www.gitkraken.com/), for Windows, Mac and Linux.
+
+<h3 style="color:#EEEEEE"> 20161107 </h3>
+
+__Calendly__<br>
+Simple, beautiful [scheduling](https://calendly.com/pages/features).
+
+<h3 style="color:#EEEEEE"> 20161106 </h3>
+
+__Bear__<br>
+A [flexible writing app](http://www.bear-writer.com/) for crafting notes and prose.
+
+__OLS Notes__<br>
+Some nice [notes](https://web.stanford.edu/~mrosenfe/soc_meth_proj3/matrix_OLS_NYU_notes.pdf) on ordinary least squares from Michael Rosenfeld at Stanford.
+
+__Shodan__<br>
+[Search engine](https://www.shodan.io/) for internet of things (and other things).
+
+<h3 style="color:#EEEEEE"> 20161031 </h3>
+
+__Facking Operator Mono Font in Atom__<br>
+A [guide]( https://medium.com/@docodemore/an-alternative-to-operator-mono-font-6e5d040e1c7e<h3 style="color:#EEEEEE">.i19w8uuid) to building a font system in Atom similar to [Operator Mono](http://www.typography.com/fonts/operator/styles/). </h3>
+
+<h3 style="color:#EEEEEE"> 20161028 </h3>
+
+__Pomodoro Time and Tadam__<br>
+[Pomodoro Time](https://pomodoneapp.com) and [Tadam](http://tadamapp.com) are simple Pomodoro timers.
+
+<h3 style="color:#EEEEEE"> 20161019 </h3>
+
+__Thenmap__<br>
+A [repository of historical borders](http://www.thenmap.net/).
+
+<h3 style="color:#EEEEEE"> 20161007 </h3>
+
+__Geocodio__<br>
+(Reasonably) accurate, affordable, and unrestricted [online geocoding](geocod.io/) (forward/reverse and batch/API). Connect with R through [`rgeocodio`](https://github.com/hrbrmstr/rgeocodio).
+
+<h3 style="color:#EEEEEE"> 20161006 </h3>
+
+__Canary Mail__<br>
+A "simple, smart, swift" [email client for Mac](http://canarymail.io) with many nice features.
+
+<h3 style="color:#EEEEEE"> 20161004 </h3>
+
+__Github Pages and Jekyll tutorial__<br>
+From UC Berkeley's The Hacker Within, a nice [tutorial on Github Pages and Jekyll](http://www.thehackerwithin.org/berkeley/posts/github-pages-jekyll).
+
+__pdftools__<br>
+A fast and portable [PDF extractor for R](https://ropensci.org/blog/2016/03/01/pdftools-and-jeroen) (and others).
+
+<h3 style="color:#EEEEEE"> 20161003 </h3>
+
+__Producteev__<br>
+Team-oriented [productivity software](https://www.producteev.com).
+
+<h3 style="color:#EEEEEE"> 20160930 </h3>
+
+__Ghost Browser__<br>
+A [browser](https://ghostbrowser.com) that lets you isolate cookie jars into color coded tabs so you can run multiple sessions with multiple accounts on the same web site.
+
+__Hocus Focus__<br>
+Automatically [hide inactive windows](http://hocusfoc.us).
+
+__Noisli__<br>
+In-browser [white-noise generator](https://www.noisli.com) with _productivity_ and _relax_ settings.
+
+__Standard Resume__<br>
+One [resume that works everywhere](https://standardresume.co).
+
+
+<h3 style="color:#EEEEEE"> 20160928 </h3>
+
+__Univariate Distribution Relationships__<br>
+Interactive chart for [relationships between univariate distributions](http://www.math.wm.edu/~leemis/chart/UDR/UDR.html).
+
+<h3 style="color:#EEEEEE"> 20160926 </h3>
+
+__Opentest__<br>
+Seamless screen, mic and camera [recording for Chrome](https://www.opentest.co).
+
+<h3 style="color:#EEEEEE"> 20160919 </h3>
+
+__Habitica__<br>
+Improve your [habits by playing a game](http://habitica.com).
+
+<h3 style="color:#EEEEEE"> 20160906 </h3>
+
+__Linus screen__<br>
+[Screen](http://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/) effectively allows signing on and off from interactive sessions on a server/Linux shell.
+
+<h3 style="color:#EEEEEE"> 20160822 </h3>
+
+__REVEAL.JS__<br>
+Javascript-backed [HTML presentation framework](http://lab.hakim.se/reveal-js/<h3 style="color:#EEEEEE">/). </h3>
+
+<h3 style="color:#EEEEEE"> 20160813 </h3>
+
+__QuickLookR__<br>
+OSX-based [QuickLook plugin for R's `save()` & `saveRDS()` files](https://github.com/hrbrmstr/QuickLookR). [h/t](https://rud.is/b/2016/08/06/quicklookr-a-macos-quicklook-plugin-for-r-data-files/)
+
+<h3 style="color:#EEEEEE"> 20160811 </h3>
+
+__Multi-File LaTeX projects__<br>
+[ShareLaTeX's guide](https://www.sharelatex.com/learn/Multi-file_LaTeX_projects) to building LaTeX documents from multiple files.
+
+__SMS Email__<br>
+Combine R's [sendmailR](https://cran.r-project.org/web/packages/sendmailR/index.html) with this [list of SMS email addresses](http://www.emailtextmessages.com) to send text messages from R.
+
+__Stargazer Cheatsheet__<br>
+A [cheatsheet for R's stargazer](http://jakeruss.com/cheatsheets/stargazer.html) package.
+
+<h3 style="color:#EEEEEE"> 20160810 </h3>
+
+__YakYak__<br>
+Desktop chat [client for Google Hangouts](https://github.com/yakyak/yakyak).
+
+<h3 style="color:#EEEEEE"> 20160804 </h3>
+
+__Script__<br>
+[Run scripts in Atom](https://atom.io/packages/script) based on file name, a selection of code, or by line number.
+
+__Term2__<br>
+[Open Terminal tabs in Atom](https://github.com/f/atom-term2). In the past, I've also used [Terminal Plus](https://atom.io/packages/terminal-plus).
+
+<h3 style="color:#EEEEEE"> 20160801 </h3>
+
+__SizeUp__<br>
+Keyboard-centric [window management](http://www.irradiatedsoftware.com/sizeup/). [h/t](http://www.themoderndesk.com)
+
+<h3 style="color:#EEEEEE"> 20160722 </h3>
+
+__munsell__<br>
+Package in R for for [Munsell's color theme](https://github.com/cwickham/munsell).
+
+<h3 style="color:#EEEEEE"> 20160714 </h3>
+
+__ggalt__<br>
+[Extra coordinate systems, geoms, statistical transformations, and scales for R's `ggplot2`](https://github.com/hrbrmstr/ggalt) package.
+
+__ggthemes__<br>
+Some extra [geoms, scales, and themes for R's `ggplot` package](https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html) package.
+
+
+<h3 style="color:#EEEEEE"> 20160710 </h3>
+
+__Boxy__<br>
+A [Gmail Inbox](http://www.boxyapp.co) client for Mac.
+
+__SurfEasy__<br>
+[Data protection](https://www.surfeasy.com/en/).
+
+<h3 style="color:#EEEEEE"> 20160708 </h3>
+
+__Color Oracle__<br>
+A [color blindness simulator](http://colororacle.org) for Window, Mac and Linux.
+
+<h3 style="color:#EEEEEE"> 20160706 </h3>
+
+__OSX option-key bindings__<br>
+[A helpful superuser post](http://superuser.com/questions/941286/disable-default-option-key-binding) about removing the character bindings for the option (alt) key in OSX.
+
+<h3 style="color:#EEEEEE"> 20160702 </h3>
+
+__extrafont__<br>
+R package to [use other (any?) fonts in R](https://github.com/wch/extrafont/blob/master/README.md). [h/t](http://blog.revolutionanalytics.com/2012/09/how-to-use-your-favorite-fonts-in-r-charts.html)
+
+<h3 style="color:#EEEEEE"> 20160701 </h3>
+
+__R guides__<br>
+Computerworld offers a [beginner's guide to R](http://www.computerworld.com/article/2497143/business-intelligence/business-intelligence-beginner-s-guide-to-r-introduction.html), as well as an [advanced beginner's guide to R](http://www.computerworld.com/resources/106345/advanced-beginners-guide-to-r.html). [h/t](http://blog.revolutionanalytics.com/2016/06/computerworlds-advanced-beginners-guide-to-r.html)
+
+<h3 style="color:#EEEEEE"> 20160624 </h3>
+
+__Grammerly__<br>
+In-browswer and in-app [grammar and spelling checker](https://www.grammarly.com).
+
+__Markdown Here__<br>
+[In-browser Markdown formatting](http://markdown-here.com) for Chrome, Firefox, Safari, and Thunderbird.
+
+<h3 style="color:#EEEEEE"> 20160620 </h3>
+
+__SAS Studio__<br>
+[Web application for SAS](http://support.sas.com/software/products/sasstudio/) that you access through your web browser.
+
+__ShiftIt__<br>
+[Manages and position windows](https://github.com/fikovnik/ShiftIt) in OSX.
+
+<h3 style="color:#EEEEEE"> 20160609 </h3>
+
+__BarTender (2)__<br>
+[Organizes your menu bar apps](https://www.macbartender.com).
+
+<h3 style="color:#EEEEEE"> 20160510 </h3>
+
+__MailButler__<br>
+Your [personal assistant](https://www.feingeist.io/mailbutler/) for Apple Mail. [h/t](http://onethingwell.org/post/143578593216/mailbutler)
+
+__Quitter__<br>
+[Automatically hides or quits apps](https://marco.org/apps<h3 style="color:#EEEEEE">quitter) after periods of inactivity. [h/t](http://onethingwell.org/post/143838727202/quitter) </h3>
+
+__Xi Editor__<br>
+A [modern editor](https://github.com/google/xi-editor) with a backend written in Rust. [h/t](http://onethingwell.org/post/143531815911/xi)
+
+<h3 style="color:#EEEEEE"> 20160504 </h3>
+
+__conda and OSX__<br>
+Run `PATH=$PATH:$HOME/anaconda/bin` if OSX cannot find the path to `conda`.
+
+__Rodeo__<br>
+A data science [IDE for Python](https://github.com/yhat/rodeo/).
+
+<h3 style="color:#EEEEEE"> 20150424 </h3>
+
+__Micro__<br>
+Terminal-based [text editor](https://github.com/zyedidia/micro). [h/t](http://onethingwell.org/post/143005364292/micro)
+
+__Min__<br>
+A [minimal web browser](https://palmeral.github.io/min/). [h/t](http://onethingwell.org/post/142844861802/min)
+
+<h3 style="color:#EEEEEE"> 20160418 </h3>
+
+__tep__<br>
+Tamagotchi-based motivating [fitness tracker](http://gettep.com/).
+
+<h3 style="color:#EEEEEE"> 20160409 </h3>
+
+__CodeFights__<br>
+[Practice coding](https://codefights.com) in real-time races against others.
+
+__Font Awesome__<br>
+The iconic [font and CSS toolkit](https://fortawesome.github.io/Font-Awesome/).
+
+<h3 style="color:#EEEEEE"> 20160408 </h3>
+
+__Karabiner__<br>
+A powerful and stable [keyboard customizer for OS X](https://pqrs.org/osx/karabiner/).
+
+__Timer__<br>
+A simple [timer app](https://github.com/michaelvillar/timer-app/releases) for OSX. [h/t](http://onethingwell.org/post/142349673462/timer)
+
+<h3 style="color:#EEEEEE"> 20160404 </h3>
+
+__ProtonMail__<br>
+[Secure email](https://protonmail.com) based in Switzerland.
+
+<h3 style="color:#EEEEEE"> 20160331 </h3>
+
+__CSS Diner__<br>
+A little [game to help you learn CSS selectors](http://flukeout.github.io/<h3 style="color:#EEEEEE">). </h3>
+
+__Lightning__<br>
+Provides API-based access to reproducible [web visualizations](http://lightning-viz.org).
+
+<h3 style="color:#EEEEEE"> 20160325 </h3>
+
+__DiagrammeR__<br>
+Package to [create graph diagrams and flowcharts](https://github.com/rich-iannone/DiagrammeR) using R.
+
+__R Markdown Websites__<br>
+[Basics](http://rmarkdown.rstudio.com/html_document_format.html) from the R Markdown website. Blog on [blogs using Jekyll and R Markdown](https://brendanrocks.com/blogging-with-rmarkdown-knitr-jekyll/). [Example website](https://github.com/rstudio/rmarkdown-website)
+
+<h3 style="color:#EEEEEE"> 20160315 </h3>
+
+__Pandas Resources__<br>
+UC Berkeley's The Hacker Within [notes on Python Pandas](http://www.thehackerwithin.org/berkeley/posts/pandas-spring-2016).
+
+<h3 style="color:#EEEEEE"> 20160313 </h3>
+
+__JuliaDT__<br>
+An [Eclipsed-based IDE for Julia](http://juliacomputing.com/blog/2016/02/06/Eclipse-JuliaDT.html).
+
+<h3 style="color:#EEEEEE"> 20160311 </h3>
+
+__Rough Draft__<br>
+A [writing app](http://www.96problems.com/rough-draft/) that offers the natural rough reminders of paper.
+
+<h3 style="color:#EEEEEE"> 20160310 </h3>
+
+__regular expressions 101__<br>
+[Live testing and help](https://regex101.com/) for regular expressions.
+
+<h3 style="color:#EEEEEE"> 20160301 </h3>
+
+__Castle Adventure__<br>
+[Online emulator](https://archive.org/details/msdos_Castle_Adventure_1984) for 1984's DOS game Castle Adventure.
+
+<h3 style="color:#EEEEEE"> 20160224 </h3>
+
+__LaTeX Dendrogram__<br>
+A simple [dendrogram example for LaTeX](https://gist.github.com/dahoo/4947859).
+
+__NYT Weather Charts__<br>
+The [New York Times's classic weather charts](http://www.nytimes.com/interactive/2016/02/18/upshot/the-times-classic-weather-chart-now-online-with-3000-cities.html) for more than 3000 cities.
+
+__pmax/pmin in R__<br>
+Take [max. and min. with vector inputs in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Extremes.html).
+
+__Backpropogation Example__<br>
+A [step-by-step example of backpropogation](http://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/).
+
+<h3 style="color:#EEEEEE"> 20160223 </h3>
+
+__Billion Dollar Prices Project__<br>
+MIT's [project to track prices](http://bpp.mit.edu) via online retailers.
+
+__markdown-toc__<br>
+[Generate a table of contents](https://atom.io/packages/markdown-toc) for a Markdown file in Atom.
+
+__tablr__<br>
+Edit CSVs using a [table editor in Atom](https://atom.io/packages/tablr).
+
+<h3 style="color:#EEEEEE"> 20160209 </h3>
+
+__Julia Resources__<br>
+A guid to help you [learn Julia in Y minutes](https://learnxinyminutes.com/docs/julia/). Slides on [Julia for R programmers](http://www.stat.wisc.edu/~bates/JuliaForRProgrammers.pdf).
+
+__Learn X in Y minutes__<br>
+[Guides](https://learnxinyminutes.com/) for learning things quickly.
+
+<h3 style="color:#EEEEEE"> 20160208 </h3>
+
+__.gitignore__<br>
+StackOverflow explanation on how to ["[i]gnore files that have already been committed to a Git repository."](http://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository)
+
+__Pandoc__<br>
+A universal [document converter](http://pandoc.org/).
+
+<h3 style="color:#EEEEEE"> 20160204 </h3>
+
+__wmail__<br>
+OSX [App for Google Inbox](https://github.com/Thomas101/wmail) and Gmail.
+
+<h3 style="color:#EEEEEE"> 20160203 </h3>
+
+__Python Resources__<br>
+Jean Mark Gawron's book [Python for Social Sciences](http://www-rohan.sdsu.edu/~gawron/python_for_ss/course_core/book_draft/Preface/Preface.html); O'Reilly's book on how to think like a computer scientist, [Think Python](http://www.greenteapress.com/thinkpython/); a list of resources from [Python at Berkeley](http://python.berkeley.edu/learning_resources.html); slides teaching [Python for R Users](http://www.slideshare.net/ajayohri/python-for-r-users).
+
+<h3 style="color:#EEEEEE"> 20160201 </h3>
+
+__Fira Code__<br>
+[Monospaced font](https://github.com/tonsky/FiraCode) with programming ligatures.
+
+<h3 style="color:#EEEEEE"> 20160131 </h3>
+
+__White Noise & Co.__<br>
+Frequency shaped [colored noise generator](http://mynoise.net/NoiseMachines/whiteNoiseGenerator.php).
+
+<h3 style="color:#EEEEEE"> 20160130 </h3>
+
+__Flowstate__<br>
+A [writing app](http://www.hailoverman.com/flowstate) with strong incentives to keep moving.
+
+<h3 style="color:#EEEEEE"> 20160126 </h3>
+
+__Katex__<br>
+A [fast math typesetting library](http://khan.github.io/KaTeX/) for the web.
+
+<h3 style="color:#EEEEEE"> 20160121 </h3>
+
+__Butterfly__<br>
+A [browser-based terminal](https://github.com/paradoxxxzero/butterfly).
+
+__Unix help__<br>
+A [basic guide to UNIX](http://tebarkley.github.io/unix-tutorial/commands.html<h3 style="color:#EEEEEE">permissions) from Berkeley's I school. </h3>
+
+<h3 style="color:#EEEEEE"> 20160112 </h3>
+
+__GitBook__<br>
+A [modern publishing toolchain](https://www.gitbook.com).
+
+<h3 style="color:#EEEEEE"> 20160111 </h3>
+
+__Online LaTeX Editors__<br>
+[Papeeria](http://papeeria.com), [ShareLaTeX](https://www.sharelatex.com/), [Overleaf](https://www.overleaf.com/), and [Authorea](https://www.authorea.com/) each offer online LaTeX editing, compiling, and collaboration.
+
+__uiGradients__<br>
+Simple and attractive [color gradients](http://uigradients.com/).
+
+<h3 style="color:#EEEEEE"> 20160107 </h3>
+
+__.Last.value.__<br>
+`.Last.value` [displays the last value at the command line](http://www.inside-r.org/r-doc/base/try) in R.
+
+<h3 style="color:#EEEEEE"> 20151223 </h3>
+
+[h/t for everything today](http://onethingwell.org)
+
+__Copied__<br>
+[Clipboard manager](http://copiedapp.com) for OSX and iOS.
+
+__Deckset__<br>
+[Slides from Markdown](http://www.decksetapp.com) files.
+
+__LaTeX Boilerplates__<br>
+Plain-text document [production system](http://mrzool.cc/tex-boilerplates/).
+
+__Minio__<br>
+[Command-line accress](https://minio.io/<h3 style="color:#EEEEEE">mc) to Google and Amazon cloud storage. </h3>
+
+<h3 style="color:#EEEEEE"> 20151216 </h3>
+
+__Caret__<br>
+A simple [Markdown editor and previewer](http://caret.io) [h/t](http://onethingwell.org).
+
+__Jango__<br>
+Browser-based [streaming radio](http://www.jango.com/)—essentially Pandora but with only one advertisement each day.
+
+<h3 style="color:#EEEEEE"> 20151213 </h3>
+
+__CleanMyMac__<br>
+[Clean up files](http://macpaw.com/cleanmymac) on a Mac.
+
+__R-Fiddle__<br>
+A [browser-based IDE](http://www.r-fiddle.org/<h3 style="color:#EEEEEE">/) for R. </h3>
+
+<h3 style="color:#EEEEEE"> 20151201 </h3>
+
+__pryr__<br>
+Another package from Hadley Wickham; [this one helps to *pry* back R's layers](https://cran.r-project.org/web/packages/pryr/pryr.pdf). I'm using it for `mem_used()` and `object_size()`.
+
+__data.table and .SD__<br>
+[.SD](https://cran.r-project.org/web/packages/data.table/data.table.pdf) allows you easily choose many columns from a data.table in R. [h/t (plus a more transparent demo)](https://rpubs.com/davoodastaraky/dataTable)
+
+<h3 style="color:#EEEEEE"> 20151130 </h3>
+
+__CodinGame__<br>
+[Learn/practice coding](https://www.codingame.com) while playing games.
+
+<h3 style="color:#EEEEEE"> 20151117 </h3>
+
+__LaunchBar (6)__<br>
+[LaunchBar](https://www.obdev.at/products/launchbar/index.html) adds actions to OSX's keyboard commands.
+
+__R style__<br>
+More from Hadley Wickham: his [R style guide](http://adv-r.had.co.nz/Style.html) from his book [Advanced R](http://adv-r.had.co.nz).
+
+<h3 style="color:#EEEEEE"> 20151110 </h3>
+
+__bigvis__<br>
+Hadley Wickham strikes again: [bigvis](https://github.com/hadley/bigvis) helps visualize large (big) data sets.
+
+<h3 style="color:#EEEEEE"> 20151104 </h3>
+
+__Freeze__<br>
+OSX app to [access Amazon Glacier](https://freezeapp.net) archives. [h/t](http://onethingwell.org/post/132479560235/freeze)
+
+__Spectacle__<br>
+[Move and resize windows](https://www.spectacleapp.com) for OSX.
+
+__xombrero__<br>
+Minimalist, [high-security browser](https://opensource.conformal.com/wiki/xombrero). [h/t](http://onethingwell.org/post/132534191506/xombrero)
+
+<h3 style="color:#EEEEEE"> 20151102 </h3>
+
+__Forecast.io API__<br>
+[JSON API for Dark Sky/Forecast.io](https://developer.forecast.io) weather forecasts and history.
+
+<h3 style="color:#EEEEEE"> 20151029 </h3>
+
+__OpenStreetMap tools__<br>
+[Mapzen metro extracts](https://mapzen.com/data/metro-extracts) offer weekly OpenStreetMap extracts for major metro areas. [overpass turbo](http://overpass-turbo.eu) allows you to query the OSM API.
+
+<h3 style="color:#EEEEEE"> 20151029 </h3>
+
+__JuliaBox__<br>
+Run [Julia from the browser](https://www.juliabox.org).
+
+<h3 style="color:#EEEEEE"> 20151028 </h3>
+
+__Mapzen__<br>
+An open-source [mapping lab](https://mapzen.com).
+
+__Sublime Text 3 in terminal (OSX)__<br>
+A [stackoverflow thread](https://stackoverflow.com/questions/19543643/sublime-text-3-and-terminal-prompt-for-os-x-mavericks) on how to create a symbolic link for Sublime Text in the OSX terminal.
+
+<h3 style="color:#EEEEEE"> 20151027 </h3>
+
+__knitr::kable__<br>
+kable is a function in R's [knittr package](https://cran.r-project.org/web/packages/knitr/knitr.pdf) that creates formatted tables (Markdown, LaTeX, *etc.*) from data.frames within R. Seems like it would pair perfectly with [broom](https://cran.r-project.org/web/packages/broom/broom.pdf)'s tidy function.
+
+<h3 style="color:#EEEEEE"> 20151025 </h3>
+
+__Github Pages + Jekyll = Blog__<br>
+A streamlined [tutorial](http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) on setting up a blog with Github Pages with Jekyll.
+
+<h3 style="color:#EEEEEE"> 20151023 </h3>
+
+__Prose__<br>
+A clean [editor](http://prose.io) for Github.
+
+<h3 style="color:#EEEEEE"> 20151022 </h3>
+
+__csvkit__<br>
+A [handy suite](http://csvkit.readthedocs.org/en/latest/index.html) of .csv operations for the terminal. Includes Excel-to-CSV conversion. [h/t](http://onethingwell.org/post/16122304567/cvskit)
+
+__gimli__<br>
+Convert [markup files to pdf files](https://github.com/walle/gimli).
+
+__Photo Gallery Options__<br>
+[thumbsup](https://github.com/rprieto/thumbsup) builds static HTML galleries for local photos and videos. [Expose](https://github.com/Jack000/Expose) generates static sites for photoessays.
+
+<h3 style="color:#EEEEEE"> 20151021 </h3>
+
+__import.io__<br>
+[Turns websites into data](https://import.io).
+
+__Sublime Text and File Browsing__<br>
+[FileBrowser](https://github.com/aziz/SublimeFileBrowser) creates an extra panel for keyboard browsing files in Sublime Text; [File Navigator](https://github.com/csch0/SublimeText-File-Navigator) allows basic navigation and file management through a Sublime terminal.
+
+<h3 style="color:#EEEEEE"> 20151020 </h3>
+
+__Speedfari__<br>
+[Browser for iOS](https://launchkit.io/websites/wywmSpUGRW4/?ref=producthunt) that blocks unnecessary parts of websites. [h/t](http://onethingwell.org/post/131019138821/speedafari)
+
+<h3 style="color:#EEEEEE"> 20151014 </h3>
+
+__OSX Terminal Themes__<br>
+A [set of terminal themes](https://github.com/lysyi3m/osx-terminal-themes) for OSX.
+
+<h3 style="color:#EEEEEE"> 20151013 </h3>
+
+__StackEdit__<br>
+A really nice [in-browser Markdown editor](https://stackedit.io) that allows for themes, hotkeys, simultaneous collaboration, and publishing straight to blogs.
+
+<h3 style="color:#EEEEEE"> 20151010 </h3>
+
+__Scotch on Jekyll__<br>
+A [nice tutorial on Jekyll](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme?utm_content=buffer20ede&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) (publishing blogs/websites).
+
+__oh my zsh__<br>
+[Framework](http://ohmyz.sh) for managing ZSH configuration.
+
+<h3 style="color:#EEEEEE"> 20151009 </h3>
+
+__Go2Shell__<br>
+Creates a shortcut in OSX's Finder to [open a Terminal window](http://zipzapmac.com/go2shell).
+
+__iTerm2__<br>
+An [alternative terminal](https://www.iterm2.com) for OSX.
+
+__regexr.com__<br>
+[Live testing of regular expressions](http://www.regexr.com).
+
+<h3 style="color:#EEEEEE"> 20151008 </h3>
+
+__Colorout__<br>
+[Color your R output](http://www.lepem.ufc.br/jaa/colorout.html) in the terminal.
+
+<h3 style="color:#EEEEEE"> 2015107 </h3>
+
+__Git Large File Storage__<br>
+An [open source Git extension](https://git-lfs.github.com) for versioning large files.
+
+__R and AWS__<br>
+Tutorials for running [R](https://blogs.aws.amazon.com/bigdata/post/Tx3IJSB6BMHWZE5/Running-R-on-AWS) and [RStudio](http://blogs.aws.amazon.com/bigdata/post/Tx37RSKRFDQNTSL/-Statistical-span-class-matches-Analysis-span-with-Open-Source-R-and-RStudio-on) with Amazon's web services.
+
+<h3 style="color:#EEEEEE"> 20151001 </h3>
+
+__Personal R Packages__<br>
+A nice [guide](http://brooksandrew.github.io/simpleblog/articles/personal-R-package/) to building your own R package.
+
+<h3 style="color:#EEEEEE"> 20150928 </h3>
+
+__Git Guide__<br>
+A pretty [simple guide to Git](http://rogerdudler.github.io/git-guide/).
+
+<h3 style="color:#EEEEEE"> 20150925 </h3>
+
+__Syncer__<br>
+A fast file/disk [syncer](https://github.com/stargrave/syncer).
+
+<h3 style="color:#EEEEEE"> 20150924 </h3>
+
+__Classroom Resources__<br>
+Some resources from [CodeAcademy](https://www.codecademy.com/schools/curriculum) and [GitHub](https://education.github.com/guide) for the classroom.
+
+__Dictater__<br>
+[Replacement for built-in Speech services](http://nosrac.github.io/Dictater/).
+
+__Git Large File Store__<br>
+Open-source [versioning for large files](https://git-lfs.github.com/?utm_source=github_site&utm_medium=pricing_learnmore_link&utm_campaign=gitlfs).
+
+<h3 style="color:#EEEEEE"> 20150923 </h3>
+
+__Git Tutorials__<br>
+"[Git in five minutes](http://classic.scottr.org/presentations/git-in-5-minutes/)" (I think it took me a bit longer). And a [very clear description of how to add an existing project to GitHub using Git in the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/).
+
+<h3 style="color:#EEEEEE"> 20150922 </h3>
+
+__Jaro Mail__<br>
+Private, terminal-based [email](https://www.dyne.org/software/jaro-mail/). [h/t](http://onethingwell.org/post/129634716223/jaro-mail)
+
+<h3 style="color:#EEEEEE"> 20150921 </h3>
+
+__Squire__<br>
+An HTML5 rich [text editor](http://neilj.github.io/Squire/) that works across browsers and generations.
+
+<h3 style="color:#EEEEEE"> 20150914 </h3>
+
+__Etherpad__<br>
+Online, [collaborative text editing](http://etherpad.org).
+
+__Madoko__<br>
+A fast [Markdown processor](https://www.madoko.net) that makes presentations, documents, html, *etc.* [h/t](http://onethingwell.org/post/129068163087/madoko)
+
+__VoiceCode__<br>
+Softward that promises to allow you to [code via spoke word](http://voicecode.io).
+
+<h3 style="color:#EEEEEE"> 20150910 </h3>
+
+__Learning to git__<br>
+[Illustrated examples](https://guides.github.com/) and a (supposedly) [15-minute game](https://try.github.io/levels/1/challenges/1).
+
+__Spyfall__<br>
+A popular [party game](https://www.cryptozoic.com/spyfall); an independent [online version](http://spyfall.meteor.com/); an [English rulebook](/funThings/SpyfallRules.pdf).
+
+<h3 style="color:#EEEEEE"> 20150909 </h3>
+
+__Prism__<br>
+[Code highlighting](http://prismjs.com/index.html) via JavaScript. Apparently, Prism is a spin-off of [dabblet](http://dabblet.com/).
+
+__Email from R__<br>
+The [mail package](https://cran.r-project.org/web/packages/mail/) in R allows you to send an email(see the `sendmail` function)—very helpful for letting you know when a task finishes running.
+
+<h3 style="color:#EEEEEE"> 20150907 </h3>
+
+__Evernote in Sublime Text__<br>
+Submit and edit notes in [Evernote from Sublime Text](https://packagecontrol.io/packages/Evernote) (also allows for Markdown).
+
+__Pygments__<br>
+[Code highlighting](http://pygments.org/) for many applications.
+
+<h3 style="color:#EEEEEE"> 20150906 </h3>
+
+__Arranger__<br>
+[Arranges application windows](http://bucketomac.de/arranger/arranger/) (or Finder windows) for OSX.
+
+__Coda__<br>
+A [text editor](https://panic.com/coda/) targeting web applications.
+
+__Codeanywhere__<br>
+A [code editor](https://codeanywhere.com/) accessible in your browser or on mobile devices. Features include ssh and multiple cursors.
+
+<h3 style="color:#EEEEEE"> 20150905 </h3>
+
+__Symbolset__<br>
+Sells sets of [icons](https://symbolset.com/).
+
+<h3 style="color:#EEEEEE"> 20150905 </h3>
+
+__Noun Project__<br>
+An [app](https://thenounproject.com/) with a compendium of icons. h/t to John Loeser
+
+__Thimble__<br>
+An [online code editor](https://thimble.mozilla.org/) from Mozilla (HTML, CSS, and JavaScript plus tutorials).
+
+<h3 style="color:#EEEEEE"> 20150903 </h3>
+
+__Next__<br>
+A simple [expense-tracking app](http://noidentity.com/next.html).
+
+__Reading Lists__<br>
+Bill Easterly's development economics [reading list](/funThings/BillEasterlyDevEconReadingList.pdf/). [h/t](http://marginalrevolution.com/marginalrevolution/2015/09/thursday-assorted-links-28.html)
+Sol Hsiang's sustainable development [reading list](/funThings/SolHsiangSustainableDevelopmentSyllabus.pdf/). And Sol's [syllabus/reading list](/funThings/SolHsiangSummerWorkshopClimateEconomicsSyllabus.pdf/) for his summer workshop in the economics of climate change.
+
+<h3 style="color:#EEEEEE"> 20150902 </h3>
+
+__JavaScript in R__<br>
+The [R package `V8`](https://cran.r-project.org/web/packages/V8/index.html) allows you to access JavaScript functions from R. An [example with parsing human names](http://rud.is/b/2015/08/21/doh-i-could-have-had-just-used-v8/).
+
+__Languages for GFM__<br>
+A handy [list](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) of all the languages known to GitHub Flavored Markdown.
+
+<h3 style="color:#EEEEEE"> 20150901 </h3>
+
+__Drought Reports__<br>
+EcoWest created a great [interactive map](http://vis.ecowest.org/interactive/drought.php) for US drought severity. [h/t](http://googlemapsmania.blogspot.com/2015/08/the-maps-of-week_23.html)
+
+__Hosting Websites with Dropbox__<br>
+[Pancake.io](https://pancake.io/) offers help in hosting a website via Dropbox (or git). So does [DropPages](http://my.droppages.com/).
+
+__Pixel Maps__<br>
+[Create pixel maps](http://pixelmap.amcharts.com/<h3 style="color:#EEEEEE">) of anywhere in the world. </h3>
+
+__Random Google Maps__<br>
+Shaun Utter wrote some code to grab a random Google Map and colors it. [Pretty](http://www.shaunutter.com/coding/random-google-maps/).
+
+__Scraping with R (+ Rasters)__<br>
+Zev Ross shows [how to scrape](http://zevross.com/blog/2015/05/19/scrape-website-data-with-the-new-r-package-rvest/) using the R package `rvest`. Zev also has two nice tutorials on working with rasters in R ([1](http://zevross.com/blog/2015/03/30/map-and-analyze-raster-data-in-r/) and [2](http://zevross.com/blog/2015/08/21/process-a-raster-for-use-in-a-google-map-using-r/)).
+
+__Tyme__<br>
+A [time-management app](http://tyme-app.com/) with a timer and a project management system.
+
+<h3 style="color:#EEEEEE"> 20150831 </h3>
+
+__Color Blender__<br>
+[Blends](http://meyerweb.com/eric/tools/color-blend/<h3 style="color:#EEEEEE">FF3399:444444:5:hex) two colors. </h3>
+
+__DaisyDisk__<br>
+[Beautiful OSX app](http://www.daisydiskapp.com/) for analyzing memory allocation on your hard drive (and recovering space).
+
+__Email Clients for OSX__<br>
+I just came across [Kiwi](http://kiwiforgmail.com/)—a *gmail-as-desktop-client* app for Mac. I'm currently alternating between [Inbox](http://www.google.com/inbox/) in-browser and [Mailbox](http://www.mailboxapp.com/). I previously used [Airmail](http://airmailapp.com/) and played with [Unibox](https://www.uniboxapp.com/).
+
+__Hours__<br>
+Another way to [track your time](http://hourstimetracking.com/). Only for iOS at the moment.
+
+__Itsycal__<br>
+A nice, little [calendar](http://www.mowglii.com/itsycal/) for the OSX menu bar---also keyboard friendly. [h/t](http://onethingwell.org/post/127083371981/itsycal)
+
+__R Packages for Open Science__<br>
+A set of [R packages](https://ropensci.org/packages/) for open science.
+
+__Search R's Documentation__<br>
+An online [search engine](http://www.rdocumentation.org/) for R's documentation.
+
+__Time Sink__<br>
+[Time everything](http://manytricks.com/timesink/) you do on your computer. Could be scary.
+
+<h3 style="color:#EEEEEE"> 20150830 </h3>
+
+__Alternote__<br>
+A pretty [note-taking app](http://alternoteapp.com/) for Evernote (OSX).
+
+__Ello__<br>
+An [alternative social network site](https://ello.co/wtf/about/what-is-ello/). (Say the name aloud and think "British.")
+
+__Motion in Social__<br>
+Pretty cool research on motion... and perhaps and even cooler [portrayal](http://motioninsocial.com/).
+
+__MultiMarkdown Syntax Guide__<br>
+[Guide](https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide) for setting up metadata for Markdown. A lot of other stuff, too.
+
+__NUMI__<br>
+A simple, beautiful, and versatile [calculator](http://numi.io/) for OSX. [h/t](http://onethingwell.org/post/126583572564/numi)
+
+__Tufte in R and CSS__<br>
+People applying Tufte's principles in [R](http://motioninsocial.com/tufte/) and in [CSS](http://www.daveliepmann.com/tufte-css/).
+
+<h3 style="color:#EEEEEE"> LONG AGO </h3>
+
+__Cleaner Web Viewing__<br>
+[Evernote Clearly](https://evernote.com/clearly/) cleans up web pages—particularly useful for blogs with lots of ads. [Wikiwand](https://www.wikiwand.com/) cleans up Wikipedia pages automatically.
+
+__Feedly__<br>
+Magazine-style (news reader)[https://feedly.com].
+
+__Flashearth__<br>
+[View Earth](http://www.flashearth.com/?lat=75.299024&lon=140.983109&z=9.1&r=0&src=msa) using many satellite options. A great time sink.
+Related: [*Earth View from Google*](https://chrome.google.com/webstore/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh?hl=en) Chrome extension.
+
+__Marked 2__<br>
+Very simple Markdown (or plain text) viewer. Works with many editors.
+
+__Mendeley__<br>
+[Reference manager](https://www.mendeley.com/) and PDF organizer.
+
+__pyFuture?__<br>
+galvanize offers a [list of tools](http://www.galvanize.com/blog/2015/07/31/eight-tools-that-show-whats-on-the-horizon-for-the-python-data-ecosystem/) for Python and data.
+
+__Skitch__<br>
+[Skitch](https://evernote.com/skitch/) takes nice screen shots.
+
+__Sublime Text__<br>
+My ~~favorite~~ second-favorite [text editor](https://www.sublimetext.com/) (supports everything). Multiple cursors make life easier. I've since moved to [Atom](https://atom.io).
+
+__Transmit__<br>
+Terrific [SFTP-FTP-S3 client](https://panic.com/transmit/) for OSX.
+
+__To-Do Lists__<br>
+I now use ~~[Todoist](https://en.todoist.com/)~~ ~~[Swipes](http://swipesapp.com/)~~ ~~[OmniFocus](https://www.omnigroup.com/omnifocus)~~ [Things (3)](https://culturedcode.com/things/). In the past, I played with [Wunderlist](https://www.wunderlist.com/) and [Swipes](http://swipesapp.com/) and [Todoist](https://en.todoist.com/) and [TeuxDeux](https://teuxdeux.com) and [Any.Do](https://www.any.do).
+
+__Toggl__<br>
+[Track your time](https://toggl.com/).
+
