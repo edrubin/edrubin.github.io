@@ -8,7 +8,7 @@ toc: false
 
 ::: {.column width="49%"}
 
-![](photos/ed-cropped.png)
+![](photos/ed-cropped-smaller.png)
 
 :::
 
