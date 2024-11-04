@@ -78,38 +78,38 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Agriculture:** 2024/10/11
+### **Air Pollution:** 2024/11/08
 
-<b>Friday, 11 October 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 08 November 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/tJEkdeyvqjMsG9P1--0wa1z-xay9riXIHTUw#/registration).
+  [Register for **Zoom link here**](https://berkeley.zoom.us/meeting/register/tJMtd--oqDkjG9MiNUzcuy9j9CpvB9XO5CDx#/registration).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
 
-::: {.grid style="--bs-columns: 8; row-gap: 0;"}
+::: {.grid style="--bs-columns: 10; row-gap: 0;"}
 
-::: {.g-col-1}
+::: {.g-col-3 .g-col-md-2}
 11:00AM PT<br>(2:00PM ET)
 :::
-::: {.g-col-7}
-<i>Irrigation infrastructure and agricultural development in the long run: Evidence from the Senegal River Valley</i>
-<br><b>Joel Ferguson</b> (Stanford)
+::: {.g-col-7 .g-col-md-8}
+<i>Work-residence pollution exposure gap in the United States</i>
+<br><b>Devika Chirimar</b> (Georgetown)
 :::
-::: {.g-col-1}
+::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:00PM ET)
 :::
-::: {.g-col-7}
-<i>Understanding the drivers of cover crop adoption in the US Midwest using satellite data</i>
-<br><b>Na Zhang</b> (UIUC)
+::: {.g-col-7 .g-col-md-8}
+<i>Cargo ships and coastal smog</i>
+<br><b>Philip Economides</b> (Texas Tech)
 :::
-::: {.g-col-1}
+::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:00PM ET)
 :::
-::: {.g-col-7}
-<i>Compensation mechanism, program scale, and the efficiency of payment for ecosystem services programs</i>
-<br><b>Micah Cameron-Harp</b> (Kansas State)
+::: {.g-col-7 .g-col-md-8}
+<i>Air pollution and avoidance behavior: Evidence from daily activities in the US</i>
+<br><b>Xinhui Sun</b> (UIUC)
 :::
 
 :::
@@ -122,6 +122,17 @@ knitr::include_graphics(c(
 ### 2024
 
 ::: {.panel-tabset}
+
+### **Agriculture:** 2024/10/11
+
+<i>Irrigation infrastructure and agricultural development in the long run: Evidence from the Senegal River Valley</i>
+<br><b>Joel Ferguson</b> (Stanford)
+<br><br>
+<i>Understanding the drivers of cover crop adoption in the US Midwest using satellite data</i>
+<br><b>Na Zhang</b> (UIUC)
+<br><br>
+<i>Compensation mechanism, program scale, and the efficiency of payment for ecosystem services programs</i>
+<br><b>Micah Cameron-Harp</b> (Kansas State)
 
 ### **Enviro+Health:** 2024/09/13
 
