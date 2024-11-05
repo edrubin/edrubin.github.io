@@ -11,7 +11,7 @@ And here's my [CV](cv.html) (also as [PDF](cvEdRubin.pdf)).
 
 ## published/accepted
 
-[[Downwind and out: The strategic dispersion of power plants and their pollution](papers/draft-plant-locations.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Downwind and out: The strategic dispersion of power plants and their pollution](Papers/draft-plant-locations.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in)
 <br>
@@ -42,11 +42,11 @@ knitr::include_graphics(c(
 
 :::
 
-[Draft](papers/draft-plant-locations.pdf)
+[Draft](Papers/draft-plant-locations.pdf)
 
 <br>
 
-[[Customer Discrimination in the Workplace: Evidence from Online Sales](papers/draft-gender-bias.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in)
 <br>
@@ -63,13 +63,13 @@ Many workers are evaluated on their ability to engage with customers. This paper
 
 :::
 
-[NBER Working Paper No. 31998](https://www.nber.org/papers/w31998) | [Becker Friedman Institute Working Paper No. 2023-25](papers/draft-gender-bias.pdf) | [World Bank Policy Research Working Paper No. 10228](papers/wp-gender-bias.pdf) | [Draft](papers/draft-gender-bias.pdf)
+[NBER Working Paper No. 31998](https://www.nber.org/papers/w31998) | [Becker Friedman Institute Working Paper No. 2023-25](Papers/draft-gender-bias.pdf) | [World Bank Policy Research Working Paper No. 10228](Papers/wp-gender-bias.pdf) | [Draft](Papers/draft-gender-bias.pdf)
 
 [J-PAL Summary](https://www.povertyactionlab.org/evaluation/online-customer-discrimination-against-female-workers-sub-saharan-africa) | [BFI Summary](https://bfi.uchicago.edu/insight/finding/customer-discrimination-in-the-workplace-evidence-from-online-sales/)
 
 <br>
 
-[[What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors](papers/draft-strategic-monitoring.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors](Papers/draft-strategic-monitoring.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
 <br>
@@ -96,7 +96,7 @@ knitr::include_graphics(c(
 
 :::
 
-[NBER Working Paper No. 28735](https://www.nber.org/papers/w28735) | [Pre-print version](papers/draft-strategic-monitoring.pdf)
+[NBER Working Paper No. 28735](https://www.nber.org/papers/w28735) | [Pre-print version](Papers/draft-strategic-monitoring.pdf)
 
 <br>
 
@@ -192,7 +192,7 @@ knitr::include_graphics(c(
 
 ## working papers
 
-[[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](papers/draft-gly.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in)
 <br>
@@ -221,11 +221,11 @@ knitr::include_graphics(c(
 
 :::
 
-[Current draft](papers/draft-gly.pdf) | [On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
+[Current draft](Papers/draft-gly.pdf) | [On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
 
 <br>
 
-[[Does time shift behavior? The clock- vs. solar-time tradeoff](papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Patrick Baylis](https://www.patrickbaylis.com), [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/), and [Edward Rubin](https://edrub.in)
 
@@ -252,13 +252,13 @@ knitr::include_graphics("Figures/Time/legend-common.png")
 
 :::
 
-[NBER Working Paper No. 30999](https://www.nber.org/papers/w30999) | [Current draft](papers/draft-time.pdf)
+[NBER Working Paper No. 30999](https://www.nber.org/papers/w30999) | [Current draft](Papers/draft-time.pdf)
 <br>
 NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
 
 <br>
 
-[[Unequal avoidance: Disparities in smoke-induced out-migration](papers/draft-smoke.pdf))]{style="font-weight: 900; font-size: 12pt;"}
+[[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf))]{style="font-weight: 900; font-size: 12pt;"}
 
 [M. Steven Holloway](https://mstevenholloway.page/home) and [Edward Rubin](https://edrub.in)
 
@@ -285,11 +285,11 @@ knitr::include_graphics(c(
 
 :::
 
-[Draft](papers/draft-smoke.pdf)
+[Draft](Papers/draft-smoke.pdf)
 
 <br>
 
-[[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](papers/draft-mliv.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](Papers/draft-mliv.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Connor Lennon](https://www.connormlennon.com), [Edward Rubin](https://edrub.in), and [Glen Waddell](http://www.glenwaddell.com)
 
@@ -315,7 +315,7 @@ knitr::include_graphics(c(
 
 :::
 
-[Draft](papers/draft-mliv.pdf)
+[Draft](Papers/draft-mliv.pdf)
 
 ## in progress
 
