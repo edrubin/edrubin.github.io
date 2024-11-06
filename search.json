@@ -46,7 +46,21 @@
     "href": "teaching.html",
     "title": "teaching",
     "section": "",
-    "text": "Courses I’ve taught with links to course repositories (with notes).\nEC 607: PhD Econometrics (III)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Spring 2023, Spring 2022, Spring 2021, Spring 2020, Spring 2019\n\n\nEC 524/424: Masters Econometrics: Machine Learning and Prediction\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Winter 2023, Winter 2022, Winter 2021; Winter 2020\n\n\nEC 421: Undergraduate Introduction to Econometrics (II)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2023, Winter 2023, Spring 2022, Winter 2022, Winter 2021; Spring 2020; Winter 2020; Spring 2019; Winter 2019\n\n\nARE 212: PhD Econometrics - Multiple Equation Estimation\n\n\n\n\n\nUC Berkeley, GSI for Dr. Maximilian Auffhammer  Spring 2017; Spring 2018\n\n\nSTAT/MATH 218: Undergraduate Introduction to Statistics\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Spring 2011; Summer 2011; Fall 2011\n\n\nSTAT/MATH 380: Statistics and Applications\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Summer 2012; Fall 2012; Spring 2013"
+    "text": "Links to course repositories and lecture slides."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "teaching",
+    "section": "courses",
+    "text": "courses\nCourses I’ve taught with links to course repositories (with notes).\nEC 607: PhD Econometrics (III)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Spring 2023, Spring 2022, Spring 2021, Spring 2020, Spring 2019\n\n\nEC 524/424: Masters Econometrics: Machine Learning and Prediction\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Winter 2023, Winter 2022, Winter 2021; Winter 2020\n\n\nEC 421: Undergraduate Introduction to Econometrics (II)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2023, Winter 2023, Spring 2022, Winter 2022, Winter 2021; Spring 2020; Winter 2020; Spring 2019; Winter 2019\n\n\nARE 212: PhD Econometrics - Multiple Equation Estimation\n\n\n\n\n\nUC Berkeley, GSI for Dr. Maximilian Auffhammer  Spring 2017; Spring 2018\n\n\nSTAT/MATH 218: Undergraduate Introduction to Statistics\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Spring 2011; Summer 2011; Fall 2011\n\n\nSTAT/MATH 380: Statistics and Applications\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Summer 2012; Fall 2012; Spring 2013"
+  },
+  {
+    "objectID": "teaching.html#lectures",
+    "href": "teaching.html#lectures",
+    "title": "teaching",
+    "section": "lectures",
+    "text": "lectures\nOne-off lectures/workshops…\nEAERE Summer School 2024: Spatial (Data) Science\n\n\n\n\n\nDownload via Dropbox | View online  Warning: Slides are a bit big (92MB)."
   },
   {
     "objectID": "research.html",
@@ -172,6 +186,6 @@
     "href": "cv.html#contact",
     "title": "Edward A. Rubin, CV",
     "section": "Contact",
-    "text": "Contact\n\nemail edwardr ampersat uoregon period edu\nwebsite http://edrub.in\ninstagram @edwardarubin\ngithub edrubin\n\n\n\n\n\nprocessing file: tmp.qmd\n\n\n1/1\n\n\noutput file: tmp.knit.md\n\n\n/usr/local/bin/pandoc +RTS -K512m -RTS tmp.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardr/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable 'mainfont=Fira Sans Condensed' --variable linestretch=0.9 --variable 'geometry:margin=1in' --include-in-header /var/folders/1j/z0w6nhms0vj9hym3_ndzgs3w0000gr/T//Rtmp8BDKE5/rmarkdown-str16095d5b9514.html \n\n\nWarning: LaTeX Warning: Command \\underbar has changed.\n\n\nWarning: Check if current package is valid.\n\n\nWarning: LaTeX Warning: Command \\underline has changed.\n\n\nWarning: Check if current package is valid.\n\n\n\nOutput created: cvEdRubin.pdf"
+    "text": "Contact\n\nemail edwardr ampersat uoregon period edu\nwebsite http://edrub.in\ninstagram @edwardarubin\ngithub edrubin\n\n\n\n\n\nprocessing file: tmp.qmd\n\n\n1/1\n\n\noutput file: tmp.knit.md\n\n\n/usr/local/bin/pandoc +RTS -K512m -RTS tmp.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardr/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable 'mainfont=Fira Sans Condensed' --variable linestretch=0.9 --variable 'geometry:margin=1in' --include-in-header /var/folders/1j/z0w6nhms0vj9hym3_ndzgs3w0000gr/T//Rtmpwx206Q/rmarkdown-str298c4d9fe0a.html \n\n\nWarning: LaTeX Warning: Command \\underbar has changed.\n\n\nWarning: Check if current package is valid.\n\n\nWarning: LaTeX Warning: Command \\underline has changed.\n\n\nWarning: Check if current package is valid.\n\n\n\nOutput created: cvEdRubin.pdf"
   }
 ]

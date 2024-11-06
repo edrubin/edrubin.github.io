@@ -5,6 +5,10 @@ toc-location: left
 lightbox: true
 ---
 
+Links to course repositories and lecture slides.
+
+## courses
+
 Courses I've taught with links to course repositories (with notes).
 
 
@@ -73,9 +77,26 @@ __STAT/MATH 380: Statistics and Applications__
 ::: {.grid}
 ::: {.g-col-1}
 :::
-:::{.g-col-11}
+::: {.g-col-11}
 University of Nebraska—Lincoln, Instructor
 <br>
 Summer 2012; Fall 2012; Spring 2013
 :::
 :::
+
+## lectures
+
+One-off lectures/workshops...
+
+__EAERE Summer School 2024: *Spatial (Data) Science*__
+
+::: {.grid}
+::: {.g-col-1}
+:::
+::: {.g-col-11}
+[Download via Dropbox](https://www.dropbox.com/scl/fi/3xqez1prh5hwc0n2aut4j/slides-spatial-data.html?rlkey=lp4oclx7d0tdb6zks5a14qrc3&st=y425kxhk&dl=0) | [View online](https://rawcdn.githack.com/edrubin/edrubin.github.io/bcc75318e3f6a482b2da4060374622bf2bb138e4/Slides/slides-spatial-data.html?min=1)
+<br>
+*Warning:* Slides are a bit big (92MB).
+:::
+:::
+
