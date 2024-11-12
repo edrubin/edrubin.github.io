@@ -1,0 +1,60 @@
+---
+title: ""
+lightbox: true
+toc: false
+---
+
+<head>
+<script>
+  document.title = "Ed Rubin: Contact";
+</script>
+</head>
+
+::: {.grid style="row-gap: 0;"}
+
+::: {.g-col-3 style="text-align: right;"}
+__email__ 
+:::
+::: {.g-col-9}
+edwardr `ampersat` uoregon `period` edu
+:::
+
+::: {.g-col-3 style="text-align: right;"}
+__github__
+:::
+::: {.g-col-9}
+[edrubin](https://github.com/edrubin)
+:::
+
+::: {.g-col-3 style="text-align: right;"}
+__instagram__
+:::
+::: {.g-col-9}
+[\@edwardarubin](https://instagram.com/edwardarubin/)
+:::
+
+:::
+
+```{r}
+#| echo: false
+
+pacman::p_load(leaflet)
+greenLeafIcon = makeIcon(
+  iconUrl = "http://leafletjs.com/examples/custom-icons/leaf-green.png",
+  iconWidth = 38, iconHeight = 95,
+  #iconWidth = 24, iconHeight = 70,
+  iconAnchorX = 22, iconAnchorY = 94,
+  shadowUrl = "http://leafletjs.com/examples/custom-icons/leaf-shadow.png",
+  shadowWidth = 50, shadowHeight = 64,
+  shadowAnchorX = 4, shadowAnchorY = 62
+  )
+leaflet() |>
+  addMarkers(lng = -123.0805265, lat = 44.0442725, popup = "Me",
+    icon = greenLeafIcon) |>
+  setView(lng = -123.01, lat = 44.07, zoom = 12) |>
+  addProviderTiles(providers$CartoDB.Positron)
+  # addProviderTiles(providers$OpenWeatherMap.Clouds)
+  # setView(lng = -123.07, lat = 44.06, zoom = 4) %>%
+  # addProviderTiles(providers$NASAGIBS.ViirsEarthAtNight2012)
+```
+

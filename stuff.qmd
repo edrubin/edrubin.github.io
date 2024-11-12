@@ -40,7 +40,7 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 
 - [Rectangle](https://rectangleapp.com/) on OSX and [gTile](https://github.com/gTile/gTile) on Linux.
 - [Alfred](https://www.alfredapp.com/)
-- [Notability](notability.com) and [PDF Expert](https://pdfexpert.com/)
+- [Notability](https://notability.com) and [PDF Expert](https://pdfexpert.com/)
 
 ### Browser and extensions
 
