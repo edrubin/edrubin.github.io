@@ -31,6 +31,10 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 ## Publications
 
+__[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)__
+<br> Edward Rubin and Emmett Saulnier
+<br> _Conditionally accepted_, PNAS
+
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
 <br> _Conditionally accepted_, JAERE
@@ -54,10 +58,6 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 <br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. _Springer_
 
 ## Working papers
-
-__[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)__
-<br> Edward Rubin and Emmett Saulnier
-<br> _Revise and resubmit (resubmitted)_, PNAS
 
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
@@ -199,6 +199,7 @@ __2012__: International Conference of Agricultural Economists (poster)
 - Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
 - Co-organize applied microeconometrics workshop at UO
 - **Referee:** [Proceedings of the National Academy of Science (PNAS)](https://www.pnas.org/), [American Economic Review: Insights (AERI)](https://www.aeaweb.org/journals/aeri), [American Economic Journal: Economic Policy](https://www.aeaweb.org/journals/pol) (AEJ Policy), [Journal of the Association of Environmental and Resource Economists](https://www.journals.uchicago.edu/toc/jaere/current) (JAERE), [Journal of Public Economics](https://www.journals.elsevier.com/journal-of-public-economics) (JPubE), [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Land Economics](https://uwpress.wisc.edu/journals/journals/le.html), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Energy Policy](https://www.journals.elsevier.com/energy-policy), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM), [Water Economics and Policy](https://www.worldscientific.com/worldscinet/wep) (WEP), [Nature Communications: Earth & Environment](https://www.nature.com/commsenv/), [Economics Letters](https://www.sciencedirect.com/journal/economics-letters)
+- **Grant reviewer:** [Alfred P. Sloan Foundation](https://sloan.org/), [Stanford University *Sustainability Accelerator*](https://sustainability-accelerator.stanford.edu/)
 - Coordinated Environmental, Energy, and Resource Economics Seminar (UCB)
 - Organized biweekly (twice per week) departmental lunches (UCB)
 - Organized third-year research workshop (UCB)

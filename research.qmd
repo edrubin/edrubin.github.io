@@ -11,6 +11,39 @@ And here's my [CV](cv.html) (also as [PDF](cvEdRubin.pdf)).
 
 ## published/accepted
 
+[[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in)
+<br>
+*Conditionally accepted*, PNAS
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+The advent of herbicide-tolerant genetically modified (GM) crops spurred rapid and widespread use of the herbicide glyphosate (GLY) throughout US agriculture. In the two decades following GM-seed's introduction, the volume of GLY applied in the US increased by more than 750%. Despite its breadth and scale, science and policy remain unresolved regarding the effects of GLY on human health. We identify the causal effect of GLY exposure on perinatal health by combining (1) county-level variation in GLY use driven by (2) the timing of the GM technology and (3) differential geographic suitability for GM crops. Our results suggest the introduction of GM seeds and GLY significantly reduced average birthweight and gestational length. While we find effects throughout the birthweight distribution, low-weight births experienced the largest reductions: the effect for births in the lowest decile is 4.5 times larger than that of the highest decile. Together, these estimates suggest that GLY exposure caused previously undocumented and unequal health costs for rural US communities over the last 20 years.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  "Figures/Glyphosate/fs-main-policy-dbwt.jpeg",
+  "Figures/Glyphosate/rf-main-policy-dbwt.jpeg",
+  "Figures/Glyphosate/map-glyph-km2-diff-9512.jpeg",
+  NULL
+))
+```
+:::
+
+:::
+
+[Current draft](Papers/draft-gly.pdf) | [On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
+
+<br>
+
 [[Downwind and out: The strategic dispersion of power plants and their pollution](Papers/draft-plant-locations.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in)
@@ -191,39 +224,6 @@ knitr::include_graphics(c(
 
 
 ## working papers
-
-[[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)]{style="font-weight: 900; font-size: 12pt;"}
-
-[Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in)
-<br>
-*Revise and resubmit (resubmitted)*, PNAS
-
-::: {.grid style="--bs-columns: 13;"}
-
-::: {.g-col-1 .g-col-md-1}
-:::
-
-::: {.g-col-12 .g-col-md-6}
-The advent of herbicide-tolerant genetically modified (GM) crops spurred rapid and widespread use of the herbicide glyphosate (GLY) throughout US agriculture. In the two decades following GM-seed's introduction, the volume of GLY applied in the US increased by more than 750%. Despite its breadth and scale, science and policy remain unresolved regarding the effects of GLY on human health. We identify the causal effect of GLY exposure on perinatal health by combining (1) county-level variation in GLY use driven by (2) the timing of the GM technology and (3) differential geographic suitability for GM crops. Our results suggest the introduction of GM seeds and GLY significantly reduced average birthweight and gestational length. While we find effects throughout the birthweight distribution, low-weight births experienced the largest reductions: the effect for births in the lowest decile is 4.5 times larger than that of the highest decile. Together, these estimates suggest that GLY exposure caused previously undocumented and unequal health costs for rural US communities over the last 20 years.
-:::
-
-::: {.g-col-12 .g-start-2 .g-col-md-6}
-```{r}
-#| echo: false
-knitr::include_graphics(c(
-  "Figures/Glyphosate/fs-main-policy-dbwt.jpeg",
-  "Figures/Glyphosate/rf-main-policy-dbwt.jpeg",
-  "Figures/Glyphosate/map-glyph-km2-diff-9512.jpeg",
-  NULL
-))
-```
-:::
-
-:::
-
-[Current draft](Papers/draft-gly.pdf) | [On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
-
-<br>
 
 [[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
