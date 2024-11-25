@@ -11,11 +11,11 @@ And here's my [CV](cv.html) (also as [PDF](cvEdRubin.pdf)).
 
 ## published/accepted
 
-[[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](Papers/draft-gly.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[Glyphosate exposure and GM seed rollout unequally reduced perinatal health]{style="font-weight: 900; font-size: 12pt;"}
 
 [Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in)
 <br>
-*Conditionally accepted*, PNAS
+*In press*, PNAS
 
 ::: {.grid style="--bs-columns: 13;"}
 
