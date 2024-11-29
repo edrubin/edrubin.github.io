@@ -40,7 +40,8 @@ knitr::include_graphics(c(
 
 :::
 
-[Current draft](Papers/draft-gly.pdf) | [On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
+<!-- [Current draft](Papers/draft-gly.pdf) | -->
+[On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
 
 <br>
 
