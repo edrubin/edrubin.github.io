@@ -17,6 +17,8 @@ And here's my [CV](cv.html) (also as [PDF](cvEdRubin.pdf)).
 <br>
 *In press*, PNAS
 
+<!-- [Replication materials](https://github.com/edrubin/glyphosate-birthweight) -->
+
 ::: {.grid style="--bs-columns: 13;"}
 
 ::: {.g-col-1 .g-col-md-1}
