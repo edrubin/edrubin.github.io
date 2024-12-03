@@ -108,7 +108,7 @@ knitr::include_graphics(c(
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Levees and levies: Local public finance of climate infrastructure maintenance drives social inequality and cumulative urban decline</i>
+<i>Levees and levies: Local financing of climate infrastructure maintenance and housing market dynamics</i>
 <br><b>Yichun Fan</b> (MIT)
 :::
 ::: {.g-col-3 .g-col-md-2}
