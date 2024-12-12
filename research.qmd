@@ -121,7 +121,9 @@ Tolerance for gaps in compliance (self-)monitoring data may induce strategic tim
 :::
 
 ::: {.g-col-12 .g-start-2 .g-col-md-6}
-```{r, out.width = "99%", echo = F}
+```{r}
+#| echo: false
+#| out.width: 99%
 knitr::include_graphics(c(
   "Figures/Intermittent/beta-88101.png",
   #"Figures/Intermittent/interpolate-88101.png",
@@ -346,3 +348,31 @@ Pilar Mullican and [Edward Rubin](https://edrub.in)
 
 [Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley]{style="font-weight: 900; font-size: 12pt;"}
 
+## books
+
+[[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Jeffrey Chen](http://jeffchen.org), Edward Rubin, and [Gary Cornwall](https://garycornwall.weebly.com)
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+This textbook presents the essential tools and core concepts of data science to public officials, policy analysts, and economists among others in order to further their application in the public sector. An expansion of the quantitative economics frameworks presented in policy and business schools, this book emphasizes the process of asking relevant questions to inform public policy. Its techniques and approaches emphasize data-driven practices, beginning with the basic programming paradigms that occupy the majority of an analyst's time and advancing to the practical applications of statistical learning and machine learning. The text considers two divergent, competing perspectives to support its applications, incorporating techniques from both causal inference and prediction. Additionally, the book includes open-sourced data as well as live code, written in R and presented in notebook form, which readers can use and modify to practice working with data.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: FALSE
+#| out.width: 80%
+knitr::include_graphics(c(
+  "Figures/book-cover.png"
+))
+```
+:::
+
+:::
+
+Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon](https://www.amazon.com/dp/B09F597WXP/)

@@ -14,6 +14,7 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 ### Terminal
 
 - [Warp](https://www.warp.dev/)
+- [Tabby](https://tabby.sh/)
 - [Oh My Zsh](https://ohmyz.sh/)
 - [radian](https://github.com/randy3k/radian)
 - [Neovim](https://neovim.io/) and [NvChad](https://nvchad.com/)
@@ -24,7 +25,7 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 ### Data work/analysis
 
 - [R](https://www.r-project.org/) in [VS Code](https://code.visualstudio.com/) with [radian](https://github.com/randy3k/radian)
-- [R](https://www.r-project.org/) in [NvChad](https://nvchad.com) with [radian](https://github.com/randy3k/radian) in [Warp](https://www.warp.dev/)
+- [R](https://www.r-project.org/) in [NvChad](https://nvchad.com) with [radian](https://github.com/randy3k/radian) in [Warp](https://www.warp.dev/) or [Tabby](https://tabby.sh/)
 
 ### Productivity
 
