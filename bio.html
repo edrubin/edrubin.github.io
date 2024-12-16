@@ -168,8 +168,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>more</strong></p>
 <ul>
 <li><a href="tools.html">my favorite research tools</a>;</li>
-<li><a href="links.html">useful/interesting links</a>;</li>
-<li><a href="blog.html">a few blog posts</a>;</li>
+<li><a href="stuff.html">useful/interesting links</a>; <!-- - [a few blog posts](blog.html); --></li>
 <li><a href="research.html">my research</a>;</li>
 <li><a href="https://instagram.com/edwardarubin/">some recent photos</a>.</li>
 </ul>
@@ -608,7 +607,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

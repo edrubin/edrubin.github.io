@@ -27,12 +27,12 @@ I'm an environmental economist who researches how human behavior (individual and
 As an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.
 
 Examples from a few recent projects…
-<br>↳ [*unequal health impacts from glyphosate exposure*](papers/draft-gly.pdf)
-<br>↳ [*curiously missing data in air-quality monitors*](papers/draft-strategic-monitoring.pdf)
-<br>↳ [*unequal wildfire smoke avoidance*](papers/draft-smoke.pdf)
-<br>↳ [*a field experiment in customer-based gender bias*](papers/draft-gender-bias.pdf)
-<br>↳ [*pitfalls of machine learning in a 2SLS framework*](papers/draft-mliv.pdf)
-<br>↳ [*strategic location of coal-fueled power plants*](papers/draft-plant-locations.pdf)
+<br>↳ [*unequal health impacts from glyphosate exposure*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914)
+<br>↳ [*curiously missing data in air-quality monitors*](Papers/draft-strategic-monitoring.pdf)
+<br>↳ [*unequal wildfire smoke avoidance*](Papers/draft-smoke.pdf)
+<br>↳ [*a field experiment in customer-based gender bias*](Papers/draft-gender-bias.pdf)
+<br>↳ [*pitfalls of machine learning in a 2SLS framework*](Papers/draft-mliv.pdf)
+<br>↳ [*strategic location of coal-fueled power plants*](Papers/draft-plant-locations.pdf)
 
 ### me
 

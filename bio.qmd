@@ -17,8 +17,8 @@ If not at school, I'm hopefully outside and/or playing with my family. I love pe
 **more**
 
 - [my favorite research tools](tools.html);
-- [useful/interesting links](links.html);
-- [a few blog posts](blog.html);
+- [useful/interesting links](stuff.html);
+<!-- - [a few blog posts](blog.html); -->
 - [my research](research.html);
 - [some recent photos](https://instagram.com/edwardarubin/).
 
