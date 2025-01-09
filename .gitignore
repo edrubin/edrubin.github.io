@@ -3,4 +3,7 @@
 *SavedFiles/
 *DS_Store
 
+# Data for blogs
+blog/posts/blog-20170806/data*
+
 /.quarto/
