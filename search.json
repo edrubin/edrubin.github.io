@@ -35,39 +35,11 @@
     "text": "About this site"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "contact.html",
+    "href": "contact.html",
     "title": "Ed Rubin",
     "section": "",
-    "text": "I’m Ed Rubin, an assistant professor in the Department of Economics at the University of Oregon.\n\nresearch\nI’m an environmental economist who researches how human behavior (individual and policy) affects social equity and the health of the natural world.\nAs an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.\nExamples from a few recent projects… ↳ unequal health impacts from glyphosate exposure ↳ curiously missing data in air-quality monitors ↳ unequal wildfire smoke avoidance ↳ a field experiment in customer-based gender bias ↳ pitfalls of machine learning in a 2SLS framework ↳ strategic location of coal-fueled power plants\n\n\nme\nPassions: the outdoors, bikes, good food/coffee/drinks, beauty/photography data, and (most of all) loving people.\n\n\nmore\nA few other professional items… I ↳ started TWEEDS with friends, ↳ help run OSWEET, ↳ co-wrote a textbook,↳ Data Science and Public Policy.\nPlease look around or contact me."
-  },
-  {
-    "objectID": "stuff.html",
-    "href": "stuff.html",
-    "title": "Ed Rubin",
-    "section": "",
-    "text": "Greetings, fellow nerds! Here are the tools I most commonly use…\n\nText editing\n\nGeneral scripting/coding: VS Code and increasingly NvChad\nLaTeX writing: Overleaf\nSlides: Migrating to Quarto from xaringan\n\n\n\nTerminal\n\nWarp\nTabby\nOh My Zsh\nradian\nNeovim and NvChad\ndoi2bib\nlf\nSometimes a little tmux\n\n\n\nData work/analysis\n\nR in VS Code with radian\nR in NvChad with radian in Warp or Tabby\n\n\n\nProductivity\n\nNote taking: Obsidian\nTask management: Things 3 and Github Projects\nCalendar: Fantastical\nCalculator: Numi\nPasswords: Dashlane\nFTP: Transmit\nEmail: Spark\n\n\n\nComputer ease\n\nRectangle on OSX and gTile on Linux.\nAlfred\nNotability and PDF Expert\n\n\n\nBrowser and extensions\n\nBrowser: Brave\nVPN: TunnelBear"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "teaching",
-    "section": "",
-    "text": "Links to course repositories and lecture slides."
-  },
-  {
-    "objectID": "teaching.html#courses",
-    "href": "teaching.html#courses",
-    "title": "teaching",
-    "section": "courses",
-    "text": "courses\nCourses I’ve taught with links to course repositories (with notes).\nEC 607: PhD Econometrics (III)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Spring 2023, Spring 2022, Spring 2021, Spring 2020, Spring 2019\n\n\nEC 524/424: Masters Econometrics: Machine Learning and Prediction\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Winter 2023, Winter 2022, Winter 2021; Winter 2020\n\n\nEC 421: Undergraduate Introduction to Econometrics (II)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2023, Winter 2023, Spring 2022, Winter 2022, Winter 2021; Spring 2020; Winter 2020; Spring 2019; Winter 2019\n\n\nARE 212: PhD Econometrics - Multiple Equation Estimation\n\n\n\n\n\nUC Berkeley, GSI for Dr. Maximilian Auffhammer  Spring 2017; Spring 2018\n\n\nSTAT/MATH 218: Undergraduate Introduction to Statistics\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Spring 2011; Summer 2011; Fall 2011\n\n\nSTAT/MATH 380: Statistics and Applications\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Summer 2012; Fall 2012; Spring 2013"
-  },
-  {
-    "objectID": "teaching.html#lectures",
-    "href": "teaching.html#lectures",
-    "title": "teaching",
-    "section": "lectures",
-    "text": "lectures\nOne-off lectures/workshops…\nEAERE Summer School 2024: Spatial (Data) Science\n\n\n\n\n\nDownload via Dropbox | View online  Warning: Slides are a bit big (92MB)."
+    "text": "email\n\n\nedwardr ampersat uoregon period edu\n\n\ngithub\n\n\nedrubin\n\n\ninstagram\n\n\n@edwardarubin"
   },
   {
     "objectID": "research.html",
@@ -105,39 +77,39 @@
     "text": "books\nData Science for Public Policy\nJeffrey Chen, Edward Rubin, and Gary Cornwall\n\n\n\n\n\nThis textbook presents the essential tools and core concepts of data science to public officials, policy analysts, and economists among others in order to further their application in the public sector. An expansion of the quantitative economics frameworks presented in policy and business schools, this book emphasizes the process of asking relevant questions to inform public policy. Its techniques and approaches emphasize data-driven practices, beginning with the basic programming paradigms that occupy the majority of an analyst’s time and advancing to the practical applications of statistical learning and machine learning. The text considers two divergent, competing perspectives to support its applications, incorporating techniques from both causal inference and prediction. Additionally, the book includes open-sourced data as well as live code, written in R and presented in notebook form, which readers can use and modify to practice working with data.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook links: Springer | Amazon"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "teaching",
+    "section": "",
+    "text": "Links to course repositories and lecture slides."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "teaching",
+    "section": "courses",
+    "text": "courses\nCourses I’ve taught with links to course repositories (with notes).\nEC 607: PhD Econometrics (III)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Spring 2023, Spring 2022, Spring 2021, Spring 2020, Spring 2019\n\n\nEC 524/424: Masters Econometrics: Machine Learning and Prediction\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2024, Winter 2023, Winter 2022, Winter 2021; Winter 2020\n\n\nEC 421: Undergraduate Introduction to Econometrics (II)\n\n\n\n\n\nUniversity of Oregon, Instructor  Spring 2023, Winter 2023, Spring 2022, Winter 2022, Winter 2021; Spring 2020; Winter 2020; Spring 2019; Winter 2019\n\n\nARE 212: PhD Econometrics - Multiple Equation Estimation\n\n\n\n\n\nUC Berkeley, GSI for Dr. Maximilian Auffhammer  Spring 2017; Spring 2018\n\n\nSTAT/MATH 218: Undergraduate Introduction to Statistics\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Spring 2011; Summer 2011; Fall 2011\n\n\nSTAT/MATH 380: Statistics and Applications\n\n\n\n\n\nUniversity of Nebraska—Lincoln, Instructor  Summer 2012; Fall 2012; Spring 2013"
+  },
+  {
+    "objectID": "teaching.html#lectures",
+    "href": "teaching.html#lectures",
+    "title": "teaching",
+    "section": "lectures",
+    "text": "lectures\nOne-off lectures/workshops…\nEAERE Summer School 2024: Spatial (Data) Science\n\n\n\n\n\nDownload via Dropbox | View online  Warning: Slides are a bit big (92MB)."
+  },
+  {
+    "objectID": "stuff.html",
+    "href": "stuff.html",
     "title": "Ed Rubin",
     "section": "",
-    "text": "email\n\n\nedwardr ampersat uoregon period edu\n\n\ngithub\n\n\nedrubin\n\n\ninstagram\n\n\n@edwardarubin"
+    "text": "Greetings, fellow nerds! Here are the tools I most commonly use…\n\nText editing\n\nGeneral scripting/coding: VS Code and increasingly NvChad\nLaTeX writing: Overleaf\nSlides: Migrating to Quarto from xaringan\n\n\n\nTerminal\n\nWarp\nTabby\nOh My Zsh\nradian\nNeovim and NvChad\ndoi2bib\nlf\nSometimes a little tmux\n\n\n\nData work/analysis\n\nR in VS Code with radian\nR in NvChad with radian in Warp or Tabby\n\n\n\nProductivity\n\nNote taking: Obsidian\nTask management: Things 3 and Github Projects\nCalendar: Fantastical\nCalculator: Numi\nPasswords: Dashlane\nFTP: Transmit\nEmail: Spark\n\n\n\nComputer ease\n\nRectangle on OSX and gTile on Linux.\nAlfred\nNotability and PDF Expert\n\n\n\nBrowser and extensions\n\nBrowser: Brave\nVPN: TunnelBear"
   },
   {
-    "objectID": "blog/blog-20161210/blog-20161210.html",
-    "href": "blog/blog-20161210/blog-20161210.html",
-    "title": "When R environments matter",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ed Rubin",
     "section": "",
-    "text": "Saturday, 10 December 2016"
-  },
-  {
-    "objectID": "blog/blog-20161210/blog-20161210.html#intro",
-    "href": "blog/blog-20161210/blog-20161210.html#intro",
-    "title": "When R environments matter",
-    "section": "Intro",
-    "text": "Intro\nWhich environment you are using in R matters, but we generally ignore this fact. Here is a pretty simple example of when the environment does matter in a context where such problems often arise—where we define an object that will be called by a function."
-  },
-  {
-    "objectID": "blog/blog-20161210/blog-20161210.html#the-two-function-problem",
-    "href": "blog/blog-20161210/blog-20161210.html#the-two-function-problem",
-    "title": "When R environments matter",
-    "section": "The two-function problem",
-    "text": "The two-function problem\nThe main function (ending in “a”) takes three arguments: x, y, z and feeds them to a second function (ending in “b”). This “b” function only accepts x as an argument, but the function uses y and z, in addition to x (not ideal function writing).\n\nOption 1: Non-nested functions\nThe first pair of functions (1a and 1b) are not nested, meaning test1b is not defined within test1a.\n\n# Define the first function:\n# This function has three arguments and calls the next function\ntest1a = function(x, y, z){\n    test1b(x)\n}\n# Define the second function:\n# This function uses x, y, and z, but it only takes x as an argument\ntest1b = function(x){\n    print(rep(x, y * z))\n}\n# Run the function 'test1a'\ntest1a(1, 2, 3)\n\nError in test1b(x): object 'y' not found\n\n\nAnd we get an error: R cannot find y (or z). This error occurs because the function test1b lives on a different level (environment) than the environment in which we defined x, y, z. The three variables are defined within the context of the function test1a, but test1b is defined outside of test1a and only has access to the variable x, which we pass it through its x argument.\nOne solution: nest the functions…\n\n\nOption 2: Nested functions\nSimply define the second (b) function inside of the first (a) function.\n\n# Define the first function:\n# This function has three arguments and calls the next function\ntest2a = function(x, y, z){\n  # Define the second function:\n  # This function uses x, y, and z, but it only takes x as an argument\n  test2b = function(x){\n      print(rep(x, y * z))\n  }\n  test2b(x)\n}\n# Run the function 'test2a'\ntest2a(1, 2, 3)\n\n[1] 1 1 1 1 1 1\n\n\nIt works (no errors).\n\n\nOption 3: Write clearer functions\nThere other ways to fix the error in Option 1. The one you would probably hear from StackOverflow is to write better functions (i.e. name all the arguments the function needs). Errors within user-defined functions often come from users (me) getting lazy and calling objects within the function that have not been passed to the function. This tendency is a bit sloppy and, as Option 1 demonstrates, error prone.\nThe fix: pass all three arguments from the first (a) function to the second (b) function.\n\n# Define the first function:\n# This function has three arguments and calls the next function\ntest3a = function(x, y, z){\n    test3b(x, y, z)\n}\n# Define the second function:\n# This function uses x, y, and z, but it only takes x as an argument\ntest3b = function(x, y, z){\n    print(rep(x, y * z))\n}\n# Run the function 'test3a'\ntest3a(1, 2, 3)\n\n[1] 1 1 1 1 1 1\n\n\nSuccess. Plus, you won’t get reprimanded for sloppy scripting."
-  },
-  {
-    "objectID": "blog/blog-20161210/blog-20161210.html#wrap-up",
-    "href": "blog/blog-20161210/blog-20161210.html#wrap-up",
-    "title": "When R environments matter",
-    "section": "Wrap up",
-    "text": "Wrap up\nEnvironments matter. Sloppy coding can remind you how they matter. Loops also will remind you how they matter (for instance, lapply vs. for loops while updating data.tables).\nEnjoy!"
+    "text": "I’m Ed Rubin, an assistant professor in the Department of Economics at the University of Oregon.\n\nresearch\nI’m an environmental economist who researches how human behavior (individual and policy) affects social equity and the health of the natural world.\nAs an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.\nExamples from a few recent projects… ↳ unequal health impacts from glyphosate exposure ↳ curiously missing data in air-quality monitors ↳ unequal wildfire smoke avoidance ↳ a field experiment in customer-based gender bias ↳ pitfalls of machine learning in a 2SLS framework ↳ strategic location of coal-fueled power plants\n\n\nme\nPassions: the outdoors, bikes, good food/coffee/drinks, beauty/photography data, and (most of all) loving people.\n\n\nmore\nA few other professional items… I ↳ started TWEEDS with friends, ↳ help run OSWEET, ↳ co-wrote a textbook,↳ Data Science and Public Policy.\nPlease look around or contact me."
   },
   {
     "objectID": "links.html",
@@ -207,7 +179,7 @@
     "href": "cv.html#presentations",
     "title": "Edward A. Rubin, CV",
     "section": "Presentations",
-    "text": "Presentations\n2024: LEEP (University of Exeter), UCSB Bren, AERE Annual Summer Conference, OSU Policy, EAERE Summer School, Toulouse School of Economics, Paris School of Economics\n2023: EPIC Junior Workshop (UChicago)\n2022: UC Berkeley ARE, GRIPS, Oregon State, EAERE Annual Conference, University of Nebraska–Lincoln\n2021: AERE Remote Conference, RFF/EPA, CU Environmental & Resource Economics Workshop\n2020: ASSA Annual Meeting, AERE Remote Conference, Duke Energy Data Analytics Symposium, RFF/EPA\n2019: Western Economic Association Internation (WEAI) Annual Conference\n2018: The Occasional Workshop; World Congress of Environmental Economics (WCERE); UC Berkeley, Computational Text Analysis Working Group; University of Oregon, Economics\n2017: IGC-PEDL Workshop at Oxford; Heartland Environmental and Resource Economics Workshop; Berkeley Development Economics Lunch; Camp Resources; AAEA Annual Meeting; UC Berkeley, Summer Econ. Research Seminar; AERE Annual Summer Conference; 22nd Annual POWER Conference on Energy Research and Policy\n2016: UC Berkeley, Environmental and Resource Economics Seminar\n2015: UC Berkeley, Environmental and Resource Economics Seminar\n2013: University of Nebraska–Lincoln, Statistics Departmental Seminar\n2012: International Conference of Agricultural Economists (poster)"
+    "text": "Presentations\n2025: NBER The Determinants of Mortality\n2024: LEEP (University of Exeter), UCSB Bren, AERE Annual Summer Conference, OSU Policy, EAERE Summer School, Toulouse School of Economics, Paris School of Economics\n2023: EPIC Junior Workshop (UChicago)\n2022: UC Berkeley ARE, GRIPS, Oregon State, EAERE Annual Conference, University of Nebraska–Lincoln\n2021: AERE Remote Conference, RFF/EPA, CU Environmental & Resource Economics Workshop\n2020: ASSA Annual Meeting, AERE Remote Conference, Duke Energy Data Analytics Symposium, RFF/EPA\n2019: Western Economic Association Internation (WEAI) Annual Conference\n2018: The Occasional Workshop; World Congress of Environmental Economics (WCERE); UC Berkeley, Computational Text Analysis Working Group; University of Oregon, Economics\n2017: IGC-PEDL Workshop at Oxford; Heartland Environmental and Resource Economics Workshop; Berkeley Development Economics Lunch; Camp Resources; AAEA Annual Meeting; UC Berkeley, Summer Econ. Research Seminar; AERE Annual Summer Conference; 22nd Annual POWER Conference on Energy Research and Policy\n2016: UC Berkeley, Environmental and Resource Economics Seminar\n2015: UC Berkeley, Environmental and Resource Economics Seminar\n2013: University of Nebraska–Lincoln, Statistics Departmental Seminar\n2012: International Conference of Agricultural Economists (poster)"
   },
   {
     "objectID": "cv.html#academic-service",
@@ -228,6 +200,6 @@
     "href": "cv.html#contact",
     "title": "Edward A. Rubin, CV",
     "section": "Contact",
-    "text": "Contact\n\nemail edwardr ampersat uoregon period edu\nwebsite http://edrub.in\ninstagram @edwardarubin\ngithub edrubin\n\n\n\n\n\nprocessing file: tmp.qmd\n\n\n1/1\n\n\noutput file: tmp.knit.md\n\n\n/usr/local/bin/pandoc +RTS -K512m -RTS tmp.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardr/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable 'mainfont=Fira Sans Condensed' --variable linestretch=0.9 --variable 'geometry:margin=1in' --include-in-header /var/folders/1j/z0w6nhms0vj9hym3_ndzgs3w0000gr/T//Rtmpk2YjsU/rmarkdown-strf49d49c520ed.html \n\n\nWarning: LaTeX Warning: Command \\underbar has changed.\n\n\nWarning: Check if current package is valid.\n\n\nWarning: LaTeX Warning: Command \\underline has changed.\n\n\nWarning: Check if current package is valid.\n\n\n\nOutput created: cvEdRubin.pdf"
+    "text": "Contact\n\nemail edwardr ampersat uoregon period edu\nwebsite http://edrub.in\ninstagram @edwardarubin\ngithub edrubin\n\n\n\n\n\nprocessing file: tmp.qmd\n\n\n1/1\n\n\noutput file: tmp.knit.md\n\n\n/usr/local/bin/pandoc +RTS -K512m -RTS tmp.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /Users/edwardr/Dropbox/Websites/edrubin.github.io/cvEdRubin.tex --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --highlight-style pygments --pdf-engine xelatex --variable graphics --variable fontsize=10pt --variable 'mainfont=Fira Sans Condensed' --variable linestretch=0.9 --variable 'geometry:margin=1in' --include-in-header /var/folders/1j/z0w6nhms0vj9hym3_ndzgs3w0000gr/T//RtmpGWOOKU/rmarkdown-str11a831b098856.html \n\n\nWarning: LaTeX Warning: Command \\underbar has changed.\n\n\nWarning: Check if current package is valid.\n\n\nWarning: LaTeX Warning: Command \\underline has changed.\n\n\nWarning: Check if current package is valid.\n\n\n\nOutput created: cvEdRubin.pdf"
   }
 ]
