@@ -31,9 +31,8 @@ __Secondary interests__: Health Economics, Development Economics, Criminal Justi
 
 ## Publications
 
-__Glyphosate exposure and GM seed rollout unequally reduced perinatal health__
-<br> Edward Rubin and Emmett Saulnier
-<br> _In press_, PNAS
+__[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](https://www.pnas.org/doi/10.1073/pnas.2413013121)__
+<br> Emmett Reynier and Edward Rubin. 2025. _Proceedings of the National Academy of Sciences (USA)_. 122(3).
 
 __[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
 <br> John Morehouse and Edward Rubin
@@ -46,7 +45,7 @@ __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Ac
 <br> Yingfei Mu, Edward Rubin, and Eric Zou. (_Forthcoming_). _The Review of Economics and Statistics_.
 
 __[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
-<br> Edward Rubin and Maximilian Auffhammer. 2024 (_Forthcoming_). _Journal of the Association of Environmental and Resource Economists_.
+<br> Edward Rubin and Maximilian Auffhammer. 2024. _[Journal of the Association of Environmental and Resource Economists](https://www.journals.uchicago.edu/doi/full/10.1086/726017)_. 11(2).
 
 __[The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions](https://muse.jhu.edu/article/753055)__
 <br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. _Land Economics_, 96(2), 188–206.

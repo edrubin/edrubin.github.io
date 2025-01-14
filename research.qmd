@@ -11,13 +11,11 @@ And here's my [CV](cv.html) (also as [PDF](cvEdRubin.pdf)).
 
 ## published/accepted
 
-[Glyphosate exposure and GM seed rollout unequally reduced perinatal health]{style="font-weight: 900; font-size: 12pt;"}
+[[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](https://www.pnas.org/doi/10.1073/pnas.2413013121)]{style="font-weight: 900; font-size: 12pt;"}
 
-[Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in)
-<br>
-*In press*, PNAS
+[Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in). 2025. *Proceedings of the National Academy of Sciences (USA).* 122(3). [DOI: 2413013121](https://www.pnas.org/doi/10.1073/pnas.2413013121)
 
-<!-- [Replication materials](https://github.com/edrubin/glyphosate-birthweight) -->
+[Replication materials](https://github.com/edrubin/glyphosate-birthweight)
 
 ::: {.grid style="--bs-columns: 13;"}
 
