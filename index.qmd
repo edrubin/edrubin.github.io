@@ -27,7 +27,7 @@ I'm an environmental economist who researches how human behavior (individual and
 As an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.
 
 Examples from a few recent projects…
-<br>↳ [*unequal health impacts from glyphosate exposure*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914)
+<br>↳ [*unequal health impacts from glyphosate exposure*](https://www.pnas.org/doi/10.1073/pnas.2413013121)
 <br>↳ [*curiously missing data in air-quality monitors*](Papers/draft-strategic-monitoring.pdf)
 <br>↳ [*unequal wildfire smoke avoidance*](Papers/draft-smoke.pdf)
 <br>↳ [*a field experiment in customer-based gender bias*](Papers/draft-gender-bias.pdf)
