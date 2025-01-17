@@ -49,7 +49,7 @@ knitr::include_graphics(c(
 
 [John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in)
 <br>
-*Conditionally accepted*, JAERE
+*Accepted*, *Journal of the Association of Environmental and Resource Economists*
 
 
 ::: {.grid style="--bs-columns: 13;"}
@@ -84,7 +84,7 @@ knitr::include_graphics(c(
 
 [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in)
 <br>
-*Forthcoming*, JOLE
+*Accepted*, *Journal of Labor Economics*
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -107,7 +107,7 @@ Many workers are evaluated on their ability to engage with customers. This paper
 
 Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
 <br>
-*Forthcoming*, REStat
+*Accepted*, *The Review of Economics and Statistics*
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -228,6 +228,36 @@ knitr::include_graphics(c(
 
 ## working papers
 
+[[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-oreguns.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+We study the dynamic effects of newly-passed gun legislation on the demand for firearms. We focus on Oregon, where voters affirmed Measure 114 in November of 2022—narrowly passing with 50.7 percent of the vote. In the six weeks following the vote, background checks surged by 400 percent. After a judge's decision prevented the law from immediate enactment, background checks fell but remained 100 percent higher than pre-legislation levels—even five months after the original vote.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  #"Figures/Oregun/full-estimate-synthdid.png",
+  "Figures/Oregun/time-series-daily-osp-timeline.png",
+  NULL
+))
+```
+:::
+
+:::
+
+[Current draft](Papers/draft-oreguns.pdf)
+
+<br>
+
 [[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Patrick Baylis](https://www.patrickbaylis.com), [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/), and [Edward Rubin](https://edrub.in)
@@ -332,10 +362,6 @@ knitr::include_graphics(c(
 [Environmental prediction for diverse policy contexts]{style="font-weight: 900; font-size: 12pt;"}
 <br>
 [Andrew Dickinson](https://ajdickinson.github.io/) and [Edward Rubin](https://edrub.in)
-
-[The paradoxical demand for guns]{style="font-weight: 900; font-size: 12pt;"}
-<br>
-[Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
 
 [Correlated exposures]{style="font-weight: 900; font-size: 12pt;"}
 <br>
