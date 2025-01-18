@@ -51,6 +51,7 @@ knitr::include_graphics(c(
 <br>
 *Accepted*, *Journal of the Association of Environmental and Resource Economists*
 
+Replication materials: [GitHub](https://github.com/edrubin/plant-locations) | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FWFVIDB)
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -139,6 +140,8 @@ knitr::include_graphics(c(
 [[Quantifying heterogeneity in the price elasticity of residential natural gas](https://www.journals.uchicago.edu/eprint/Q8UYEM4MAQKB6WEDJ8TV/full?redirectUri=/doi/epdf/10.1086/726017)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Edward Rubin](https://edrub.in) and [Maximilian Auffhammer](https://auffhammer.com). 2024. *Journal of the Association of Environmental and Resource Economists*, 11(2). [DOI: 10.1086/726017](https://www.journals.uchicago.edu/eprint/Q8UYEM4MAQKB6WEDJ8TV/full?redirectUri=/doi/epdf/10.1086/726017)
+
+Replication code: [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IP6B94)
 
 ::: {.grid style="--bs-columns: 13;"}
 
