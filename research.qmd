@@ -40,8 +40,7 @@ knitr::include_graphics(c(
 
 :::
 
-<!-- [Current draft](Papers/draft-gly.pdf) | -->
-[On SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4867914) with DOI [10.2139/ssrn.4867914](http://dx.doi.org/10.2139/ssrn.4867914)
+Coverage: [Science](https://www.science.org/content/article/common-weed-killer-may-be-harming-infants) | [US Right to Know](https://usrtk.org/pesticides/glyphosate-health-concerns/) | [Science Inquirer](https://scientificinquirer.com/2025/01/21/study-links-popular-herbicide-to-problems-with-infant-health/)
 
 <br>
 
@@ -169,7 +168,7 @@ knitr::include_graphics(c(
 
 [NBER Working Paper No. 24295](http://www.nber.org/papers/w24295) | [EI @ Haas Working Paper 287](https://ei.haas.berkeley.edu/research/abstracts/abstract_wp287.html)
 
-Press coverage: [The Economist](https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing)
+Coverage: [The Economist](https://www.economist.com/finance-and-economics/2022/08/25/how-to-avoid-energy-rationing)
 
 <br>
 
@@ -257,7 +256,7 @@ knitr::include_graphics(c(
 
 :::
 
-[Current draft](Papers/draft-oreguns.pdf)
+[NBER Working Paper No. 33360](https://www.nber.org/papers/w33360)  | [Current draft](Papers/draft-oreguns.pdf)
 
 <br>
 
@@ -293,7 +292,9 @@ knitr::include_graphics("Figures/Time/legend-common.png")
 
 [NBER Working Paper No. 30999](https://www.nber.org/papers/w30999) | [Current draft](Papers/draft-time.pdf)
 <br>
-NBER Digest: [When Clocks Say It's One Time and the Sun Says It's Another](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
+Blog: [Does Anybody Really Care What Time It Is?](https://energyathaas.wordpress.com/2023/03/06/does-anybody-really-care-what-time-it-is/)
+
+Coverage: [NBER Digest](https://www.nber.org/digest/20235/when-clocks-say-its-one-time-and-sun-says-its-another) | [Financial Post](https://financialpost.com/opinion/william-watson-still-following-the-sun-despite-standardized-time)
 
 <br>
 
