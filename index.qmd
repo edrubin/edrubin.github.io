@@ -28,9 +28,9 @@ As an empiricist, I tackle these issues with a toolbox that draws from econometr
 
 Examples from a few recent projects…
 <br>↳ [*unequal health impacts from glyphosate exposure*](https://www.pnas.org/doi/10.1073/pnas.2413013121)
-<br>↳ [*curiously missing data in air-quality monitors*](Papers/draft-strategic-monitoring.pdf)
+<br>↳ [*curiously missing data in air-quality monitors*](https://doi.org/10.1162/rest_a_01477)
 <br>↳ [*unequal wildfire smoke avoidance*](Papers/draft-smoke.pdf)
-<br>↳ [*a field experiment in customer-based gender bias*](Papers/draft-gender-bias.pdf)
+<br>↳ [*a field experiment in customer-based gender bias*](https://www.journals.uchicago.edu/doi/abs/10.1086/733049)
 <br>↳ [*pitfalls of machine learning in a 2SLS framework*](Papers/draft-mliv.pdf)
 <br>↳ [*strategic location of coal-fueled power plants*](Papers/draft-plant-locations.pdf)
 
