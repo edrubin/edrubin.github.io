@@ -40,7 +40,7 @@ knitr::include_graphics(c(
 
 :::
 
-Coverage: [Science](https://www.science.org/content/article/common-weed-killer-may-be-harming-infants) | [Newsweek](https://www.newsweek.com/glyphosate-low-birth-weight-rural-counties-herbicide-2020499) | [US Right to Know](https://usrtk.org/pesticides/glyphosate-health-concerns/)
+Coverage: [Science](https://www.science.org/content/article/common-weed-killer-may-be-harming-infants) | [Newsweek](https://www.newsweek.com/glyphosate-low-birth-weight-rural-counties-herbicide-2020499) | [OPB](https://www.opb.org/article/2025/01/27/university-oregon-glyphosate-herbicide-health/) | [US Right to Know](https://usrtk.org/pesticides/glyphosate-health-concerns/)
 
 <br>
 
