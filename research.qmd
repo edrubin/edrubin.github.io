@@ -40,7 +40,7 @@ knitr::include_graphics(c(
 
 :::
 
-Coverage: [Science](https://www.science.org/content/article/common-weed-killer-may-be-harming-infants) | [Newsweek](https://www.newsweek.com/glyphosate-low-birth-weight-rural-counties-herbicide-2020499) | [OPB](https://www.opb.org/article/2025/01/27/university-oregon-glyphosate-herbicide-health/) | [US Right to Know](https://usrtk.org/pesticides/glyphosate-health-concerns/)
+Coverage: [Science](https://www.science.org/content/article/common-weed-killer-may-be-harming-infants) | [Newsweek](https://www.newsweek.com/glyphosate-low-birth-weight-rural-counties-herbicide-2020499) | [OPB](https://www.opb.org/article/2025/01/27/university-oregon-glyphosate-herbicide-health/) ([Apple Podcasts](https://podcasts.apple.com/us/podcast/university-of-oregon-study-finds-link-between-widely/id274122573?i=1000685868943)) | [US Right to Know](https://usrtk.org/pesticides/glyphosate-health-concerns/)
 
 <br>
 
@@ -257,6 +257,8 @@ knitr::include_graphics(c(
 :::
 
 [NBER Working Paper No. 33360](https://www.nber.org/papers/w33360)  | [Current draft](Papers/draft-oreguns.pdf)
+
+Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-explained)
 
 <br>
 
