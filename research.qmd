@@ -233,6 +233,7 @@ knitr::include_graphics(c(
 [[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-oreguns.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
+<br>*Submitted*
 
 ::: {.grid style="--bs-columns: 13;"}
 
