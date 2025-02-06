@@ -101,16 +101,17 @@ __How salient are environmental risks? The short- and long-run effects of lead e
 
 __[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S19)__
 
-- University of Oregon: [Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github [Spring 2022](https://github.com/edrubin/EC607S22),.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
+- University of Oregon: [Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
 - Doctoral level
 
 __[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W20)__
 
-- University of Oregon: [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21), [Winter 2020](https://github.com/edrubin/EC524W20)
+- University of Oregon: [Winter 2025](https://github.com/edrubin/EC524W25), [Spring 2024](https://github.com/edrubin/EC524S24), [Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
+- Masters level
 
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
 
-- University of Oregon: [Spring 2022](https://github.com/edrubin/EC421S22), [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21), Spring 2020, [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
+- University of Oregon: [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
 - Undergraduate level
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__

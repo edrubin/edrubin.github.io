@@ -78,12 +78,12 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Air Pollution:** 2024/12/06
+### **Enviro-Dev Tradeoffs:** 2025/02/14
 
-<b>Friday, 06 December 2024</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 14 February 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/tJ0qc-GqrT0iH9xG9RdPMW9t-7MRFnbFGaow#/registration).
+  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/w6XfOR2gSj6ZaQhaLkEBWA).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Disaster and disparity: The heterogeneous effects of hurricanes on Louisiana’s rental market</i>
-<br><b>Haishan Yang</b> (Minnesota)
+<i>The Forest-infrastructure tradeoff: Local distributional impacts of clearing forests for infrastructure</i>
+<br><b>Sunny Mitra</b> (UC Berkeley)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Urban redevelopment and gentrification: Evidence from Atlanta BeltLine</i>
-<br><b>Yixuan Wang</b> (Ohio State)
+<i>Labour vs. coal: Input substitution in the Indian manufacturing sector</i>
+<br><b>Raavi Aggarwal</b> (ISI)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Levees and levies: Local financing of climate infrastructure maintenance and housing market dynamics</i>
-<br><b>Yichun Fan</b> (MIT)
+<i>Shifts in agricultural practices: Evidence from India</i>
+<br><b>Shreya Mishra</b> (IIML)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -128,6 +128,17 @@ knitr::include_graphics(c(
 ### 2024
 
 ::: {.panel-tabset}
+
+#### **Air Pollution:** 2024/12/06
+
+<i>Disaster and disparity: The heterogeneous effects of hurricanes on Louisiana’s rental market</i>
+<br><b>Haishan Yang</b> (Minnesota)
+<br><br>
+<i>Urban redevelopment and gentrification: Evidence from Atlanta BeltLine</i>
+<br><b>Yixuan Wang</b> (Ohio State)
+<br><br>
+<i>Levees and levies: Local financing of climate infrastructure maintenance and housing market dynamics</i>
+<br><b>Yichun Fan</b> (MIT)
 
 ### **Air Pollution:** 2024/11/08
 
