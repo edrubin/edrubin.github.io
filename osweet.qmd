@@ -109,7 +109,7 @@ knitr::include_graphics(c(
 :::
 ::: {.g-col-7 .g-col-md-8}
 <i>Donkey business: Trade, resource exploitation, and crime</i>
-<br><b>Shreya Mishra</b> (EESP-FGV)
+<br><b>Lucas Corrêa-Dias</b> (EESP-FGV)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
