@@ -10,6 +10,17 @@ toc-location: left
 </script>
 </head>
 
+```{=html}
+<style>
+  h2, h3, h4, h5, h6 {
+    text-transform: lowercase;
+  }
+  .sidebar {
+    text-transform: lowercase;
+  }
+</style>
+```
+
 [PDF](cvEdRubin.pdf)
 
 ## Academic positions
@@ -129,34 +140,34 @@ __STAT 218: Introduction to Statistics__
 - University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
 - Undergraduate level: sole instructor for the course
 
-## Honors, awards, and fellowships
+## Grants, awards, etc.
 
-Arnold Ventures Grant, 2025–2027
-<br> _Co-PI with Benjamin Hansen_
+(Grant) Arnold Ventures, 2025–2027
+<br> _with Benjamin Hansen_
 
-EPA: _A Retrospective Analysis of Indirect Air Quality Benefits from Power-Sector Emissions Reductions_, 2021
+(Grant) EPA, _A Retrospective Analysis of Indirect Air Quality Benefits from Power-Sector Emissions Reductions_, 2021
 
-Sloan Foundation (for [TWEEDS](https://tweeds.io)), 2020–2022
+(Grant) Sloan Foundation (for [TWEEDS](https://tweeds.io)), 2020–2022
 
-University of Oregon Data-Science Initiative Seed Funding, 2019–2020
+(Grant) University of Oregon Data-Science Initiative Seed Funding, 2019–2020
 
-University of Oregon Program Grant, Fall 2019
+(Grant) University of Oregon Program Grant, Fall 2019
 
 EPA EmPOWER Air Data Challenge Winner, 2019–2020
 <br> _with Meredith Fowlie_
 
-Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2018–2019
+(Grant) Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2018–2019
 <br> _with Erin Kelley, Gregory Lane, and Matthew Pecenco_
 
 Outstanding Graduate-Student Instructor, UC Berkeley, 2018
 
-Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018
+(Grant) Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018
 <br> _with Erin Kelley and Matthew Pecenco_
 
-Giannini Foundation Mini-Grant, 2017–2018
+(Grant) Giannini Foundation Mini-Grant, 2017–2018
 <br> _with Maximilian Auffhammer_
 
-UC Berkeley ARE Summer Grant, 2016
+(Grant) UC Berkeley ARE Summer Grant, 2016
 
 GAANN Fellowship 2013–2015
 
@@ -232,7 +243,10 @@ __2012__: International Conference of Agricultural Economists (poster)
 - __github__ [edrubin](https://github.com/edrubin)
 
 ```{r}
+#| include: false
 #| echo: false
+#| warning: false
+#| message: false
 
 source(here::here('cv-script.R'))
 ```
