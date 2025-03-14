@@ -78,7 +78,7 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Enviro-Dev Tradeoffs:** 2025/03/14
+### **Natural resources:** 2025/03/14
 
 <b>Friday, 14 March 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
