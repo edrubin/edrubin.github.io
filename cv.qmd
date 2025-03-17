@@ -64,7 +64,7 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 <br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. _AEA Papers and Proceedings_, 109: 283-88.
 
 (Book) __[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)__ 
-<br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. _Springer_
+<br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. _Springer_.
 
 ## Working papers
 
