@@ -142,32 +142,29 @@ __STAT 218: Introduction to Statistics__
 
 ## Grants, awards, etc.
 
-(Grant) Arnold Ventures, 2025–2027
-<br> _with Benjamin Hansen_
+(Grant) __International Growth Centre__ with Anshuman Tiwari and Shefali Khanna, _The Heterogeneous Impacts of Air Pollution on Workers_, £18,842
 
-(Grant) EPA, _A Retrospective Analysis of Indirect Air Quality Benefits from Power-Sector Emissions Reductions_, 2021
+(Grant) __Arnold Ventures__ with Benjamin Hansen, _Marijuana and the Minimum Legal Purchase Age_, 2025–2027 , $298,951
 
-(Grant) Sloan Foundation (for [TWEEDS](https://tweeds.io)), 2020–2022
+(Grant) __US EPA__ with Meredith Fowlie, _A Retrospective Analysis of Indirect Air Quality Benefits from Power-Sector Emissions Reductions_, 2021, $24,919
 
-(Grant) University of Oregon Data-Science Initiative Seed Funding, 2019–2020
+(Grant) __Alfred P. Sloan Foundation__, [_The Workshop for Environmental Economics and Data Science_](https://tweeds.io), 2020–2022, $30,000
 
-(Grant) University of Oregon Program Grant, Fall 2019
+(Grant) __University of Oregon Data-Science Initiative Seed Funding__, [_The Workshop for Environmental Economics and Data Science_](https://tweeds.io), 2019–2020, $9,989
 
-EPA EmPOWER Air Data Challenge Winner, 2019–2020
-<br> _with Meredith Fowlie_
+(Grant) __University of Oregon__ (Program Grant), [_The Workshop for Environmental Economics and Data Science_](https://tweeds.io), Fall 2019, $2,000
 
-(Grant) Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2018–2019
-<br> _with Erin Kelley, Gregory Lane, and Matthew Pecenco_
+__US EPA EmPOWER Air Data Challenge Winner__ with Meredith Fowlie, _Economic and Environmental Trade-offs Associated with Carbon Mitigation Co-Benefits An Empirical Study Leveraging Declines in Power Plant Emissions and Advances in Data Analytics_, 2019–2020
+
+(Grant) __Private Enterprise Development in Low-Income Countries (PEDL)__ (Exploratory Research Grant) with Erin Kelley, Gregory Lane, and Matthew Pecenco, _Can online marketplaces reduce barriers to growth for small firms?_ 2018–2019, £31,000
 
 Outstanding Graduate-Student Instructor, UC Berkeley, 2018
 
-(Grant) Private Enterprise Development in Low-Income Countries (PEDL) Exploratory Research Grant, 2017–2018
-<br> _with Erin Kelley and Matthew Pecenco_
+(Grant) __Private Enterprise Development in Low-Income Countries (PEDL)__ (Exploratory Research Grant) with Erin Kelley and Matthew Pecenco, _The Impact of Consumer-Side Discrimination on Firm Productivity in East Africa_, 2017–2018, £13,000
 
-(Grant) Giannini Foundation Mini-Grant, 2017–2018
-<br> _with Maximilian Auffhammer_
+(Grant) __Giannini Foundation__ (Mini-Grant) with Maximilian Auffhammer, 2017–2018
 
-(Grant) UC Berkeley ARE Summer Grant, 2016
+(Grant) __UC Berkeley__ ARE Summer Grant, 2016
 
 GAANN Fellowship 2013–2015
 
