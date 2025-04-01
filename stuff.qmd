@@ -7,14 +7,14 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 
 ### Text editing
 
-- General scripting/coding: [VS Code](https://code.visualstudio.com/) and increasingly [NvChad](https://nvchad.com)
-- LaTeX writing: [Overleaf](https://www.overleaf.com/)
+- General scripting/coding: [VS Code](https://code.visualstudio.com/) but increasingly [NvChad](https://nvchad.com) on [ghostty](https://ghostty.org/)
+- LaTeX writing: [Overleaf](https://www.overleaf.com/) or [VS Code](https://code.visualstudio.com/) with [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 - Slides: Migrating to [Quarto](https://quarto.org/) from [xaringan](https://slides.yihui.org/xaringan/#1)
 
 ### Terminal
 
+- [ghostty](https://ghostty.org/)
 - [Warp](https://www.warp.dev/)
-- [Tabby](https://tabby.sh/)
 - [Oh My Zsh](https://ohmyz.sh/)
 - [radian](https://github.com/randy3k/radian)
 - [Neovim](https://neovim.io/) and [NvChad](https://nvchad.com/)
@@ -25,7 +25,7 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 ### Data work/analysis
 
 - [R](https://www.r-project.org/) in [VS Code](https://code.visualstudio.com/) with [radian](https://github.com/randy3k/radian)
-- [R](https://www.r-project.org/) in [NvChad](https://nvchad.com) with [radian](https://github.com/randy3k/radian) in [Warp](https://www.warp.dev/) or [Tabby](https://tabby.sh/)
+- [R](https://www.r-project.org/) in [NvChad](https://nvchad.com) with [radian](https://github.com/randy3k/radian) in [ghostty](https://ghostty.org/), [Warp](https://www.warp.dev/), or [Tabby](https://tabby.sh/)
 
 ### Productivity
 
@@ -45,6 +45,6 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 
 ### Browser and extensions
 
-- __Browser:__ [Brave](https://brave.com/)
-- __VPN:__ [TunnelBear](https://www.tunnelbear.com/)
+- __Browser:__ [Arc](https://arcweb.co/) (and occasionally [Brave](https://brave.com/))
+- __VPN:__ [ProtonVPN](https://protonvpn.com/)
 
