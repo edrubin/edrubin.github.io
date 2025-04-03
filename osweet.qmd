@@ -78,12 +78,12 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Natural resources:** 2025/03/14
+### **Politics, media, and the environment:** 2025/04/11
 
-<b>Friday, 14 March 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 11 April 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/zh-11srSRzeY52E1-p3TAA#/registration).
+  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/OMrGD6ldR-6Qf2oyXCQ6dg).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Moral hazard in timber auctions: Evidence from the mountain pine beetle outbreak</i>
-<br><b>Ken Jung</b> (Yale)
+<i>Network determinants of cross-border media coverage of natural disasters</i>
+<br><b>Prashant Garg</b> (Imperial College)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Economic importance of hunting for rural households amidst shocks: Evidence from 23 countries</i>
-<br><b>Prachi Jhamb</b> (Georgia)
+<i>Strategic complementarity in NGO advocacy: Evidence from the european commission</i>
+<br><b>Rosanne Logeart</b> (Copenhagen Business School)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Donkey business: Trade, resource exploitation, and crime</i>
-<br><b>Lucas Corrêa-Dias</b> (EESP-FGV)
+<i>Political bias in disaster aid: Evidence from administrative data and from space</i>
+<br><b>Hannah Farkas</b> (Columbia)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -128,6 +128,17 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Natural resources:** 2025/03/14
+
+<i>Moral hazard in timber auctions: Evidence from the mountain pine beetle outbreak</i>
+<br><b>Ken Jung</b> (Yale)
+<br><br>
+<i>Economic importance of hunting for rural households amidst shocks: Evidence from 23 countries</i>
+<br><b>Prachi Jhamb</b> (Georgia)
+<br><br>
+<i>Donkey business: Trade, resource exploitation, and crime</i>
+<br><b>Lucas Corrêa-Dias</b> (EESP-FGV)
 
 ### **Enviro-Dev Tradeoffs:** 2025/02/14
 
