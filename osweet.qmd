@@ -101,7 +101,7 @@ knitr::include_graphics(c(
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Strategic complementarity in NGO advocacy: Evidence from the european commission</i>
+<i>Strategic complementarity in NGO advocacy: Evidence from the European commission</i>
 <br><b>Rosanne Logeart</b> (Copenhagen Business School)
 :::
 ::: {.g-col-3 .g-col-md-2}
