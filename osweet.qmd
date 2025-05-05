@@ -78,12 +78,12 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Politics, media, and the environment:** 2025/04/11
+### **Air quality measurement and management** 2025/05/09
 
-<b>Friday, 11 April 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 09 May 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://cornell.zoom.us/meeting/register/OMrGD6ldR-6Qf2oyXCQ6dg).
+  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/uQ0mHtLlQuOngAEw7e2Lhg).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Network determinants of cross-border media coverage of natural disasters</i>
-<br><b>Prashant Garg</b> (Imperial College)
+<i>Now It's personal: A field experiment on the demand for wearable air quality sensors with US early adopters</i>
+<br><b>Alexander Dangel</b> (Heidelberg)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Strategic complementarity in NGO advocacy: Evidence from the European commission</i>
-<br><b>Rosanne Logeart</b> (Copenhagen Business School)
+<i>Place-based environmental regulation and labor market dynamics</i>
+<br><b>Özgen Kıribrahim Sarıkaya</b> (Arizona State)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Political bias in disaster aid: Evidence from administrative data and from space</i>
-<br><b>Hannah Farkas</b> (Columbia)
+<i>Does subway expansions improved urban air quality by reducing traffic congestion? Evidence from China</i>
+<br><b>Chunjie (Kathy) Zhao</b> (Clark)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -128,6 +128,15 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Politics, media, & the environment:** 2025/04/11
+
+<i>Network determinants of cross-border media coverage of natural disasters</i>
+<br><b>Prashant Garg</b> (Imperial College)
+<i>Strategic complementarity in NGO advocacy: Evidence from the European commission</i>
+<br><b>Rosanne Logeart</b> (Copenhagen Business School)
+<i>Political bias in disaster aid: Evidence from administrative data and from space</i>
+<br><b>Hannah Farkas</b> (Columbia)
 
 ### **Natural resources:** 2025/03/14
 
