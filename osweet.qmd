@@ -108,7 +108,7 @@ knitr::include_graphics(c(
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Does subway expansions improved urban air quality by reducing traffic congestion? Evidence from China</i>
+<i>Do subway expansions improve urban air quality by reducing traffic congestion? Evidence from China</i>
 <br><b>Chunjie (Kathy) Zhao</b> (Clark)
 :::
 ::: {.g-col-3 .g-col-md-2}
