@@ -332,7 +332,7 @@ knitr::include_graphics(c(
 
 <br>
 
-[[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](Papers/draft-mliv.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Machine learning the first stage in 2SLS: Practical guidance from a bias decomposition and simulation](https://doi.org/10.48550/arXiv.2505.13422)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Connor Lennon](https://www.connormlennon.com), [Edward Rubin](https://edrub.in), and [Glen Waddell](http://www.glenwaddell.com)
 
@@ -358,7 +358,7 @@ knitr::include_graphics(c(
 
 :::
 
-[Draft](Papers/draft-mliv.pdf)
+[Draft on arXiv](https://doi.org/10.48550/arXiv.2505.13422)
 
 ## in progress
 
