@@ -78,13 +78,13 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Air quality measurement and management** 2025/05/09
+### **Pollution policy design** 2025/06/13
 
-<b>Friday, 09 May 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 13 June 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/uQ0mHtLlQuOngAEw7e2Lhg).
-  <br>
+  <!-- [Register for **Zoom link here**](https://ubc.zoom.us/j/63790138713?pwd=XaJOUzqa779Pjt1Gp043RTT8ieTfon.1). -->
+  <!-- <br> -->
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
 
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Now It's personal: A field experiment on the demand for wearable air quality sensors with US early adopters</i>
-<br><b>Alexander Dangel</b> (Heidelberg)
+<i>Multi-pollutant cap-and-trade systems with heterogeneous firms</i>
+<br><b>Justin Johnson Kakeu</b> (Univ. of PEI)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Place-based environmental regulation and labor market dynamics</i>
-<br><b>Özgen Kıribrahim Sarıkaya</b> (Arizona State)
+<i>Perverse incentives in CCUS policy design</i>
+<br><b>Joseph Stemmler</b> (Oxford)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Do subway expansions improve urban air quality by reducing traffic congestion? Evidence from China</i>
-<br><b>Chunjie (Kathy) Zhao</b> (Clark)
+<i>Using support vector and decision trees to predict mortality related to traffic, air pollution, and meteorological exposure in Norway</i>
+<br><b>Cong Cao</b> (CalTech)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -120,7 +120,6 @@ knitr::include_graphics(c(
 
 :::
 
-
 ## Past sessions
 
 ::: {.panel-tabset}
@@ -129,12 +128,25 @@ knitr::include_graphics(c(
 
 ::: {.panel-tabset}
 
+### **Air quality measurement and management:** 2025/05/09
+
+<i>Now It's personal: A field experiment on the demand for wearable air quality sensors with US early adopters</i>
+<br><b>Alexander Dangel</b> (Heidelberg)
+<br><br>
+<i>Place-based environmental regulation and labor market dynamics</i>
+<br><b>Özgen Kıribrahim Sarıkaya</b> (Arizona State)
+<br><br>
+<i>Do subway expansions improve urban air quality by reducing traffic congestion? Evidence from China</i>
+<br><b>Chunjie (Kathy) Zhao</b> (Clark)
+
 ### **Politics, media, & the environment:** 2025/04/11
 
 <i>Network determinants of cross-border media coverage of natural disasters</i>
 <br><b>Prashant Garg</b> (Imperial College)
+<br><br>
 <i>Strategic complementarity in NGO advocacy: Evidence from the European commission</i>
 <br><b>Rosanne Logeart</b> (Copenhagen Business School)
+<br><br>
 <i>Political bias in disaster aid: Evidence from administrative data and from space</i>
 <br><b>Hannah Farkas</b> (Columbia)
 
