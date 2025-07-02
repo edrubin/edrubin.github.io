@@ -78,12 +78,12 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Pollution policy design** 2025/06/13
+### **Water** 2025/07/11
 
-<b>Friday, 13 June 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 11 July 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  <!-- [Register for **Zoom link here**](https://ubc.zoom.us/j/63790138713?pwd=XaJOUzqa779Pjt1Gp043RTT8ieTfon.1). -->
+  <!-- [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/mcxptyzQS2SnGw15rMiGFg). -->
   <!-- <br> -->
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Multi-pollutant cap-and-trade systems with heterogeneous firms</i>
-<br><b>Justin Johnson Kakeu</b> (Univ. of PEI)
+<i>Lake desiccation and infant health</i>
+<br><b>Lena Harris</b> (Rochester)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Perverse incentives in CCUS policy design</i>
-<br><b>Joseph Stemmler</b> (Oxford)
+<i>Natural capital and human welfare: The social impacts of mangrove loss in Indonesia</i>
+<br><b>Xinde James Ji</b> (Florida)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Using support vector and decision trees to predict mortality related to traffic, air pollution, and meteorological exposure in Norway</i>
-<br><b>Cong Cao</b> (CalTech)
+<i>Assessing the impact of China's river chief system on surface water quality</i>
+<br><b>Chunjie Zhao</b> (Clark)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -127,6 +127,17 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Pollution policy design** 2025/06/13
+
+<i>Multi-pollutant cap-and-trade systems with heterogeneous firms</i>
+<br><b>Justin Johnson Kakeu</b> (Univ. of PEI)
+<br><br>
+<i>Perverse incentives in CCUS policy design</i>
+<br><b>Joseph Stemmler</b> (Oxford)
+<br><br>
+<i>Using support vector and decision trees to predict mortality related to traffic, air pollution, and meteorological exposure in Norway</i>
+<br><b>Cong Cao</b> (CalTech)
 
 ### **Air quality measurement and management:** 2025/05/09
 
