@@ -83,8 +83,8 @@ knitr::include_graphics(c(
 <b>Friday, 11 July 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  <!-- [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/mcxptyzQS2SnGw15rMiGFg). -->
-  <!-- <br> -->
+  [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/mcxptyzQS2SnGw15rMiGFg).
+  <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
 
