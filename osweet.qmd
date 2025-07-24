@@ -78,12 +78,12 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Water** 2025/07/11
+### **Climate and vulnerability** 2025/08/08
 
-<b>Friday, 11 July 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 08 August 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/mcxptyzQS2SnGw15rMiGFg).
+  [Register for **Zoom link here**](https://psu.zoom.us/meeting/register/ODERZ7O5RrOLD_zGn0Lnlg#/registration).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Lake desiccation and infant health</i>
-<br><b>Lena Harris</b> (Rochester)
+<i>Mandated adaptation to air pollution in the workplace</i>
+<br><b>Max Snyder</b> (UC Berkeley)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Natural capital and human welfare: The social impacts of mangrove loss in Indonesia</i>
-<br><b>Xinde James Ji</b> (Florida)
+<i>Environmental externalities of urban growth: Evidence from the California wildfires</i>
+<br><b>Stephanie Kestelman</b> (Harvard)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Assessing the impact of China's river chief system on surface water quality</i>
-<br><b>Chunjie Zhao</b> (Clark)
+<i>Temperature and Intimate Partner Violence in Bolivia</i>
+<br><b>Julieth Saenz-Molina</b> (Fordham)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -127,6 +127,17 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Water** 2025/07/11
+
+<i>Lake desiccation and infant health</i>
+<br><b>Lena Harris</b> (Rochester)
+<br><br>
+<i>Natural capital and human welfare: The social impacts of mangrove loss in Indonesia</i>
+<br><b>Xinde James Ji</b> (Florida)
+<br><br>
+<i>Assessing the impact of China's river chief system on surface water quality</i>
+<br><b>Chunjie Zhao</b> (Clark)
 
 ### **Pollution policy design** 2025/06/13
 
