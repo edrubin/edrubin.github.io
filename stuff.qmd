@@ -36,15 +36,17 @@ Greetings, fellow nerds! Here are the tools I most commonly use...
 - Passwords: [Dashlane](https://www.dashlane.com/)
 - FTP: [Transmit](https://panic.com/transmit/)
 - Email: [Spark](https://sparkmailapp.com/)
+- Recipes: [Mela](https://mela.recipes/)
 
 ### Computer ease
 
 - [Rectangle](https://rectangleapp.com/) on OSX and [gTile](https://github.com/gTile/gTile) on Linux.
 - [Alfred](https://www.alfredapp.com/)
 - [Notability](https://notability.com) and [PDF Expert](https://pdfexpert.com/)
+- [BetterDisplay](https://github.com/waydabber/BetterDisplay#readme)
 
 ### Browser and extensions
 
-- __Browser:__ [Arc](https://arcweb.co/) (and occasionally [Brave](https://brave.com/))
-- __VPN:__ [ProtonVPN](https://protonvpn.com/)
+- Browser: [Arc](https://arcweb.co/) (and occasionally [Brave](https://brave.com/))
+- VPN: [ProtonVPN](https://protonvpn.com/)
 

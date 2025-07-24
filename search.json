@@ -18,7 +18,7 @@
     "href": "osweet.html#upcoming-session",
     "title": "Ed Rubin",
     "section": "Upcoming session",
-    "text": "Upcoming session\n\nClimate and vulnerability 2025/08/08\nFriday, 08 August 2025, 11AM-12PM Pacific (2PM–3PM Eastern), followed by happy half-hour\n\nRegister for Zoom link here.  Join the mailing list or submit a talk.\n\n\n\n11:00AM PT(2:00PM ET)\n\n\nMandated adaptation to air pollution in the workplace Max Snyder (UC Berkeley)\n\n\n11:20AM PT(2:20PM ET)\n\n\nEnvironmental externalities of urban growth: Evidence from the California wildfires Stephanie Kestelman (Harvard)\n\n\n11:40AM PT(2:40PM ET)\n\n\nTemperature and Intimate Partner Violence in Bolivia Julieth Saenz-Molina (Fordham)\n\n\n12:00PM PT(3:00PM ET)\n\n\nHappy half-hour"
+    "text": "Upcoming session\n\nClimate and vulnerability 2025/08/08\nFriday, 08 August 2025, 11AM-12PM Pacific (2PM–3PM Eastern), followed by happy half-hour\n\nRegister for Zoom link here.  Join the mailing list or submit a talk.\n\n\n\n11:00AM PT(2:00PM ET)\n\n\nMandated adaptation to air pollution in the workplace Max Snyder (UC Berkeley)\n\n\n11:20AM PT(2:20PM ET)\n\n\nEnvironmental externalities of urban growth: Evidence from the California wildfires Stephanie Kestelman (Harvard)\n\n\n11:40AM PT(2:40PM ET)\n\n\nTemperature and intimate partner violence in Bolivia Julieth Saenz-Molina (Fordham)\n\n\n12:00PM PT(3:00PM ET)\n\n\nHappy half-hour"
   },
   {
     "objectID": "osweet.html#past-sessions",
@@ -102,7 +102,7 @@
     "href": "stuff.html",
     "title": "Ed Rubin",
     "section": "",
-    "text": "Greetings, fellow nerds! Here are the tools I most commonly use…\n\nText editing\n\nGeneral scripting/coding: VS Code but increasingly NvChad on ghostty\nLaTeX writing: Overleaf or VS Code with LaTeX Workshop\nSlides: Migrating to Quarto from xaringan\n\n\n\nTerminal\n\nghostty\nWarp\nOh My Zsh\nradian\nNeovim and NvChad\ndoi2bib\nlf\nSometimes a little tmux\n\n\n\nData work/analysis\n\nR in VS Code with radian\nR in NvChad with radian in ghostty, Warp, or Tabby\n\n\n\nProductivity\n\nNote taking: Obsidian\nTask management: Things 3 and Github Projects\nCalendar: Fantastical\nCalculator: Numi\nPasswords: Dashlane\nFTP: Transmit\nEmail: Spark\n\n\n\nComputer ease\n\nRectangle on OSX and gTile on Linux.\nAlfred\nNotability and PDF Expert\n\n\n\nBrowser and extensions\n\nBrowser: Arc (and occasionally Brave)\nVPN: ProtonVPN"
+    "text": "Greetings, fellow nerds! Here are the tools I most commonly use…\n\nText editing\n\nGeneral scripting/coding: VS Code but increasingly NvChad on ghostty\nLaTeX writing: Overleaf or VS Code with LaTeX Workshop\nSlides: Migrating to Quarto from xaringan\n\n\n\nTerminal\n\nghostty\nWarp\nOh My Zsh\nradian\nNeovim and NvChad\ndoi2bib\nlf\nSometimes a little tmux\n\n\n\nData work/analysis\n\nR in VS Code with radian\nR in NvChad with radian in ghostty, Warp, or Tabby\n\n\n\nProductivity\n\nNote taking: Obsidian\nTask management: Things 3 and Github Projects\nCalendar: Fantastical\nCalculator: Numi\nPasswords: Dashlane\nFTP: Transmit\nEmail: Spark\nRecipes: Mela\n\n\n\nComputer ease\n\nRectangle on OSX and gTile on Linux.\nAlfred\nNotability and PDF Expert\nBetterDisplay\n\n\n\nBrowser and extensions\n\nBrowser: Arc (and occasionally Brave)\nVPN: ProtonVPN"
   },
   {
     "objectID": "index.html",
