@@ -32,7 +32,7 @@ __EC 524/424: Masters Econometrics: Machine Learning and Prediction__
 :::{.g-col-11}
 University of Oregon, Instructor
 <br>
-[Winter 2025](https://github.com/edrubin/EC524W25), [Spring 2024](https://github.com/edrubin/EC524S24), [Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
+[Winter 2025](https://github.com/edrubin/EC524W25), [Spring 2024](https://github.com/edrubin/EC524S24), [Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21), [Winter 2020](https://github.com/edrubin/EC524W20)
 :::
 :::
 
@@ -44,7 +44,7 @@ __EC 421: Undergraduate Introduction to Econometrics (II)__
 :::{.g-col-11}
 University of Oregon, Instructor
 <br>
-[Spring 2025](https://github.com/edrubin/EC421S25), [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
+[Spring 2025](https://github.com/edrubin/EC421S25), [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21), [Spring 2020](https://github.com/edrubin/EC421S20), [Winter 2020](https://github.com/edrubin/EC421W20), [Spring 2019](https://github.com/edrubin/EC421S19), [Winter 2019](https://github.com/edrubin/EC421W19)
 :::
 :::
 
@@ -56,7 +56,7 @@ __ARE 212: PhD Econometrics - Multiple Equation Estimation__
 :::{.g-col-11}
 UC Berkeley, GSI for [Dr. Maximilian Auffhammer](http://www.auffhammer.com)
 <br>
-[Spring 2017](https://edrub.in/ARE212/Spring2017/notes.html); [Spring 2018](https://edrub.in/ARE212)
+[Spring 2017](https://edrub.in/ARE212/Spring2017/notes.html), [Spring 2018](https://edrub.in/ARE212)
 :::
 :::
 
@@ -68,7 +68,7 @@ __STAT/MATH 218: Undergraduate Introduction to Statistics__
 :::{.g-col-11}
 University of Nebraska—Lincoln, Instructor
 <br>
-Spring 2011; Summer 2011; Fall 2011
+Spring 2011, Summer 2011, Fall 2011
 :::
 :::
 
@@ -80,7 +80,7 @@ __STAT/MATH 380: Statistics and Applications__
 ::: {.g-col-11}
 University of Nebraska—Lincoln, Instructor
 <br>
-Summer 2012; Fall 2012; Spring 2013
+Summer 2012, Fall 2012, Spring 2013
 :::
 :::
 
