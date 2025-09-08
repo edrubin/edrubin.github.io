@@ -78,14 +78,15 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Climate and vulnerability** 2025/08/08
+### **Climate transitions** 2025/09/12
 
-<b>Friday, 08 August 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 12 September 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://psu.zoom.us/meeting/register/ODERZ7O5RrOLD_zGn0Lnlg#/registration).
-  <br>
-  [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
+  <!-- [Register for **Zoom link here**](https://psu.zoom.us/meeting/register/ODERZ7O5RrOLD_zGn0Lnlg#/registration). -->
+  <!-- <br> -->
+  <!-- [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform). -->
+  [Join the mailing list to receive the Zoom link](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
 
 ::: {.grid style="--bs-columns: 10; row-gap: 0;"}
@@ -94,22 +95,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Mandated adaptation to air pollution in the workplace</i>
-<br><b>Max Snyder</b> (UC Berkeley)
+<i>Post-Paris Agreement emissions per capita: Cross-country evidence on fossil fuel and mineral dependency</i>
+<br><b>Davgadorj Puntsag</b> (Tokyo)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Environmental externalities of urban growth: Evidence from the California wildfires</i>
-<br><b>Stephanie Kestelman</b> (Harvard)
+<i>Climate adaptation, risk shifting, and digital platforms</i>
+<br><b>Anna Papp</b> (Columbia)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Temperature and intimate partner violence in Bolivia</i>
-<br><b>Julieth Saenz-Molina</b> (Fordham)
+<i>Market power, innovation, and the green transition</i>
+<br><b>Rik Rozendaal</b> (Tilburg)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -127,6 +128,17 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Climate vulnerability** 2025/08/08
+
+<i>Mandated adaptation to air pollution in the workplace</i>
+<br><b>Max Snyder</b> (UC Berkeley)
+<br><br>
+<i>Environmental externalities of urban growth: Evidence from the California wildfires</i>
+<br><b>Stephanie Kestelman</b> (Harvard)
+<br><br>
+<i>Temperature and intimate partner violence in Bolivia</i>
+<br><b>Julieth Saenz-Molina</b> (Fordham)
 
 ### **Water** 2025/07/11
 
