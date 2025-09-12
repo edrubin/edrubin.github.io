@@ -103,7 +103,7 @@ knitr::include_graphics(c(
 :::
 ::: {.g-col-7 .g-col-md-8}
 <i>Climate adaptation, risk shifting, and digital platforms</i>
-<br><b>Anna Papp</b> (Columbia)
+<br><b>Anna Papp</b> (MIT/UCSB)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
