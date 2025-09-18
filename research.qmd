@@ -329,9 +329,11 @@ Coverage: [NBER Digest](https://www.nber.org/digest/20235/when-clocks-say-its-on
 
 <br>
 
-[[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf))]{style="font-weight: 900; font-size: 12pt;"}
+[[Inequalities in wildfire smoke avoidance](Papers/draft-smoke.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
-[M. Steven Holloway](https://mstevenholloway.page/home) and [Edward Rubin](https://edrub.in)
+[Edward Rubin](https://edrub.in) and [M. Steven Holloway](https://mstevenholloway.page/home)
+<br>
+*Submitted*
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -339,7 +341,7 @@ Coverage: [NBER Digest](https://www.nber.org/digest/20235/when-clocks-say-its-on
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-Organisms reduce risk exposure through short-term avoidance—*flight*. However, this flight strategy may not be equally accessible throughout a population. We combine cellphone movements, satellite-based wildfire smoke plumes, and Census data to document substantial heterogeneity/inequity in communities' tendencies to out-migrate to avoid smoke. Higher-income and whiter populations travel out of their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke—underscoring equity concerns for wildfire damages and climate adaptation.
+Humans can reduce risk exposure through short-term avoidance, but this strategy may not be equally accessible to all members of a population. We combine data from cellphone movements, satellite-based wildfire smoke plumes, and Census-reported demographics to document substantial heterogeneity and inequity in communities' tendencies to out-migrate to avoid smoke. Higher-income and whiter populations leave their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke-underscoring equity concerns for wildfire damages and climate adaptation.
 :::
 
 ::: {.g-col-12 .g-start-2 .g-col-md-6}
