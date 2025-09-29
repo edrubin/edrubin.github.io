@@ -78,15 +78,15 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Climate transitions** 2025/09/12
+### **Water** 2025/10/10
 
-<b>Friday, 12 September 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 10 October 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  <!-- [Register for **Zoom link here**](https://psu.zoom.us/meeting/register/ODERZ7O5RrOLD_zGn0Lnlg#/registration). -->
-  <!-- <br> -->
-  <!-- [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform). -->
-  [Join the mailing list to receive the Zoom link](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
+  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/uaoO8qfqSbmGVy6V3qgaog).
+  <br>
+  [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
+  <!-- [Join the mailing list to receive the Zoom link](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform). -->
 </p>
 
 ::: {.grid style="--bs-columns: 10; row-gap: 0;"}
@@ -95,22 +95,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Post-Paris Agreement emissions per capita: Cross-country evidence on fossil fuel and mineral dependency</i>
-<br><b>Davgadorj Puntsag</b> (Tokyo)
+<i>Dam thy neighbor: International relations and the externalities of impounding rivers</i>
+<br><b>Claire Fan</b> (Chicago)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Climate adaptation, risk shifting, and digital platforms</i>
-<br><b>Anna Papp</b> (MIT/UCSB)
+<i>Governing environmental markets: Evidence from irrigation in water markets</i>
+<br><b>Maximiliano Garcia Gonzalez</b> (Brown)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Market power, innovation, and the green transition</i>
-<br><b>Rik Rozendaal</b> (Tilburg)
+<i>Requiem for rivers? Global dams, environmental impacts, and agricultural adaptation</i>
+<br><b>Evie (Shan) Zhang</b> (Old Dominion)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -128,6 +128,17 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Climate transitions** 2025/09/12
+
+<i>Post-Paris Agreement emissions per capita: Cross-country evidence on fossil fuel and mineral dependency</i>
+<br><b>Davgadorj Puntsag</b> (Tokyo)
+<br><br>
+<i>Climate adaptation, risk shifting, and digital platforms</i>
+<br><b>Anna Papp</b> (MIT/UCSB)
+<br><br>
+<i>Market power, innovation, and the green transition</i>
+<br><b>Rik Rozendaal</b> (Tilburg)
 
 ### **Climate vulnerability** 2025/08/08
 
