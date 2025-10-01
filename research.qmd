@@ -295,7 +295,6 @@ Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-e
 
 [Patrick Baylis](https://www.patrickbaylis.com), [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/), and [Edward Rubin](https://edrub.in)
 <br>
-*Submitted*
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -333,7 +332,6 @@ Coverage: [NBER Digest](https://www.nber.org/digest/20235/when-clocks-say-its-on
 
 [Edward Rubin](https://edrub.in) and [M. Steven Holloway](https://mstevenholloway.page/home)
 <br>
-*Submitted*
 
 ::: {.grid style="--bs-columns: 13;"}
 

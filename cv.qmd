@@ -70,11 +70,9 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-oreguns.pdf)__
 <br> Katie Bollman, Benjamin Hansen, Edward Rubin, and Garrett Stanford
-<br> *Submitted*
 
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
-<br> *Submitted*
 
 __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
 <br> M. Steven Holloway and Edward Rubin
@@ -85,7 +83,7 @@ __[What can we machine learn (too much of) in 2SLS? Insights from a bias decompo
 ## Research in progress
 
 __Declining power-plant emissions, co-benefits, and regulatory rebound__
-<br> Meredith Fowlie, Edward Rubin, and Catherine Wright
+<br> Edward Rubin and Meredith Fowlie
 
 __Environmental prediction for diverse policy contexts__
 <br> Andrew Dickinson and Edward Rubin
@@ -201,10 +199,10 @@ __2012__: International Conference of Agricultural Economists (poster)
 
 ### Advising
 
-- *PhD committee chair* Andrew Dickinson (co-chair; *in-progress*); Mary Kopriva (Wade) (co-chair); Connor Lennon (co-chair); Emmett Reynier (co-chair; *in-progress*); Garrett Stanford (chair)
-- *PhD dissertation committee* Christie Downs (Finance; *in-progress*); Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Kyu Matsuzawa; Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Steven Walton (Computer Science; *in-progress*); Kyle Wilson; Micaela Wood (*in-progress*)
+- *PhD committee chair* Andrew Dickinson (co-chair); Mary Kopriva (Wade) (co-chair); Connor Lennon (co-chair); Emmett Reynier (co-chair); Garrett Stanford (chair)
+- *PhD dissertation committee* Christie Downs (Finance); Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Kyu Matsuzawa; Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Brietta Russell (*in progress*); Arvind Sai Chennupati (*in progress*); Steven Walton (Computer Science); Kyle Wilson; Micaela Wood; Dante Yasui (*in progress*)
 - *Masters* Pilar Mullican
-- *Undergraduate* Joseph Andersen (department; advisor), Zoë Arnaut (honors; reader); Eleanor Franks (honors; reader); Kara Krnacik (honors; chair); Aidan Potts (honors; chair); Sam Schroeder (honors; chair; *in-progress*)
+- *Undergraduate* Joseph Andersen (department; advisor), Zoë Arnaut (honors; reader); Eleanor Franks (honors; reader); Lorissa Hughes (*in progress*; chair); Kara Krnacik (honors; chair); Aidan Potts (honors; chair); Sam Schroeder (honors; chair)
 
 ### Additional
 
@@ -236,7 +234,6 @@ __2012__: International Conference of Agricultural Economists (poster)
 
 - __email__ edwardr `ampersat` uoregon `period` edu
 - __website__ [http://edrub.in](https://edrub.in)
-- __instagram__ [\@edwardarubin](https://instagram.com/edwardarubin/)
 - __github__ [edrubin](https://github.com/edrubin)
 
 ```{r}
