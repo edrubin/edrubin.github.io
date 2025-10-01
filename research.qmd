@@ -7,7 +7,7 @@ lightbox: true
 
 Abstracts and selected figures from published/accepted papers, working drafts, and in-progress projects...
 
-And here's my [CV](cv.html) (also as [PDF](cvEdRubin.pdf)).
+And here's my [CV](cv.html) (also as [PDF](cv-edward-rubin.pdf)).
 
 ## published/accepted
 

@@ -21,7 +21,7 @@ toc-location: left
 </style>
 ```
 
-[PDF](cvEdRubin.pdf)
+[PDF](cv-edward-rubin.pdf)
 
 ## Academic positions
 
@@ -29,16 +29,15 @@ Assistant Professor, University of Oregon, Department of Economics, 2018–prese
 
 ## Education
 
-B.S. Mathematics, University of Nebraska–Lincoln, 2007
-<br>M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
-<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
-<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
 <br>Ph.D. Agricultural and Resource Economics, UC Berkeley, 2018
 <br>*Committee:* [Maximilian Auffhammer](https://www.auffhammer.com), [Meredith Fowlie](https://www.meredithfowlie.com/), [Reed Walker](https://w-reed-walker.com)
+<br>M.S. Agricultural and Resource Economics, UC Berkeley, 2015
+<br>M.S. Statistics, University of Nebraska–Lincoln, 2013
+<br>M.S. Agricultural Economics, University of Nebraska–Lincoln, 2013
+<br>B.S. Mathematics, University of Nebraska–Lincoln, 2007
 
-__Primary interests__: Environmental & Energy Economics, Applied Econometrics & Data Science, Inequality & Public Policy
-<br>
-__Secondary interests__: Health Economics, Development Economics, Criminal Justice
+__Primary interests__: Environmental Econ., Applied Econometrics/Data Science, Inequality
+<br>__Secondary interests__: Health, Development, Criminal Justice
 
 ## Publications
 
@@ -49,7 +48,7 @@ __[The strategic local geography of US electricity emissions](Papers/draft-plant
 <br> John Morehouse and Edward Rubin. (_Accepted_). _Journal of the Association of Environmental and Resource Economists._
 
 __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
-<br> Erin Kelley, Gregory Lane, Matthew Pecenco., and Edward Rubin 2026 (_Accepted_). _Journal of Labor Economics_.
+<br> Erin Kelley, Gregory Lane, Matthew Pecenco, and Edward Rubin. (_Accepted_). _Journal of Labor Economics_.
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
 <br> Yingfei Mu, Edward Rubin, and Eric Zou. 2024. _[The Review of Economics and Statistics](https://doi.org/10.1162/rest_a_01477)_.
@@ -63,7 +62,7 @@ __[The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Lan
 __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aeaweb.org/articles?id=10.1257/pandp.20191064)__
 <br> Meredith Fowlie, Edward Rubin, and Reed Walker. 2019. _AEA Papers and Proceedings_, 109: 283-88.
 
-(Book) __[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)__ 
+(Book) __[Data Science for Public Policy](https://www.springer.com/gp/book/9783030713515)__
 <br> Jeffrey Chen, Edward Rubin, and Gary Cornwall. 2021. _Springer_.
 
 ## Working papers
@@ -80,7 +79,7 @@ __[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-s
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
 
-## Research in progress
+## Selected research in progress
 
 __Declining power-plant emissions, co-benefits, and regulatory rebound__
 <br> Edward Rubin and Meredith Fowlie
@@ -100,9 +99,6 @@ __Correlated exposures__
 __Mismeasurement in exposure and access: Insights from cellphone data__
 <br> Edward Rubin
 
-__Interactions between measurement error and policy__
-<br> Edward Rubin
-
 __How salient are environmental risks? The short- and long-run effects of lead exposure in piped water__
 <br> Edward Rubin
 
@@ -111,32 +107,32 @@ __How salient are environmental risks? The short- and long-run effects of lead e
 __[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S19)__
 
 - University of Oregon: [Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
-- Doctoral level
+- Doctoral course; advanced causal-inference methods.
 
 __[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W20)__
 
 - University of Oregon: [Winter 2025](https://github.com/edrubin/EC524W25), [Spring 2024](https://github.com/edrubin/EC524S24), [Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
-- Masters level
+- Masters course; key machine learning methods across diverse prediction contexts.
 
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
 
 - University of Oregon: [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
-- Undergraduate level
+- Undergrad. course; foundational topics in regression, visualization, time-series, causal-inference methods.
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
 
 - University of California, Berkeley: Spring 2017, Spring 2018
-- Doctoral level: taught recitation section and built [section website/notes](http://edrub.in/ARE212/)
+- Doctoral course; taught recitation section and built [section website/notes](http://edrub.in/ARE212/).
 
 __STAT 380: Statistics and Applications__
 
 - University of Nebraska–Lincoln: Summer 2012, Fall 2012, Spring 2013
-- Undergraduate level: sole instructor for the course
+- Undergraduate course; intermediate statistics.
 
 __STAT 218: Introduction to Statistics__
 
 - University of Nebraska–Lincoln: Spring 2011, Summer 2011, Fall 2011
-- Undergraduate level: sole instructor for the course
+- Undergraduate course; introductory statistics.
 
 ## Grants, awards, etc.
 
@@ -199,10 +195,10 @@ __2012__: International Conference of Agricultural Economists (poster)
 
 ### Advising
 
-- *PhD committee chair* Andrew Dickinson (co-chair); Mary Kopriva (Wade) (co-chair); Connor Lennon (co-chair); Emmett Reynier (co-chair); Garrett Stanford (chair)
-- *PhD dissertation committee* Christie Downs (Finance); Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Kyu Matsuzawa; Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Brietta Russell (*in progress*); Arvind Sai Chennupati (*in progress*); Steven Walton (Computer Science); Kyle Wilson; Micaela Wood; Dante Yasui (*in progress*)
-- *Masters* Pilar Mullican
-- *Undergraduate* Joseph Andersen (department; advisor), Zoë Arnaut (honors; reader); Eleanor Franks (honors; reader); Lorissa Hughes (*in progress*; chair); Kara Krnacik (honors; chair); Aidan Potts (honors; chair); Sam Schroeder (honors; chair)
+- *PhD committee chair:* Andrew Dickinson (co-chair); Mary Kopriva (Wade) (co-chair); Connor Lennon (co-chair); Emmett Reynier (co-chair); Garrett Stanford (chair)
+- *PhD dissertation committee:* Christie Downs (Finance); Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Kyu Matsuzawa; Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Brietta Russell (*in progress*); Steven Walton (Computer Science); Kyle Wilson; Micaela Wood; Dante Yasui (*in progress*)
+- *Masters thesis:* Pilar Mullican
+- *Undergraduate thesis:* Joseph Andersen (department; advisor), Zoë Arnaut (honors; reader); Eleanor Franks (honors; reader); Lorissa Hughes (*in progress*; chair); Kara Krnacik (honors; chair); Aidan Potts (honors; chair); Sam Schroeder (honors; chair)
 
 ### Additional
 
