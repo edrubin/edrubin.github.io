@@ -261,7 +261,7 @@ Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon
 [[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-114.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
-<br>*Submitted*
+<br>*Revise & resubmit, Journal of Public Economics*
 
 ::: {.grid style="--bs-columns: 13;"}
 

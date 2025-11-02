@@ -69,6 +69,7 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-oreguns.pdf)__
 <br> Katie Bollman, Benjamin Hansen, Edward Rubin, and Garrett Stanford
+<br>_Revise & resubmit, Journal of Public Economics_
 
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin

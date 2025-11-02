@@ -7,3 +7,5 @@
 blog/posts/blog-20170806/data*
 
 /.quarto/
+
+**/*.quarto_ipynb
