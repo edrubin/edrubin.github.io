@@ -78,15 +78,14 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Water** 2025/10/10
+### **Dev. & Pol. Econ.** 2025/11/14
 
-<b>Friday, 10 October 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 14 November 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/uaoO8qfqSbmGVy6V3qgaog).
+  [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/BQ7KD3B6ThWlAonDZnQOpQ).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
-  <!-- [Join the mailing list to receive the Zoom link](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform). -->
 </p>
 
 ::: {.grid style="--bs-columns: 10; row-gap: 0;"}
@@ -95,22 +94,24 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Dam thy neighbor: International relations and the externalities of impounding rivers</i>
-<br><b>Claire Fan</b> (Chicago)
+<!-- <i>Temperature and intimate partner violence in Bolivia</i> -->
+<!-- <br><b>Julieth Saenz-Molina</b> (Fordham) -->
+<i>TBA</i>
+<br><b>TBA</b> (TBA)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Governing environmental markets: Evidence from irrigation in water markets</i>
-<br><b>Maximiliano Garcia Gonzalez</b> (Brown)
+<i>How state elections matter: Insights from environmental patents in the United States</i>
+<br><b>Dibyajyoti Sinha</b> (Akron)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Requiem for rivers? Global dams, environmental impacts, and agricultural adaptation</i>
-<br><b>Evie (Shan) Zhang</b> (Old Dominion)
+<i>Balancing growth and green: Analyzing the economic–environmental trade-offs through Chinese secondary industry</i>
+<br><b>Linge Yang</b> (Connecticut)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -128,6 +129,18 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Water** 2025/10/10
+
+<i>Dam thy neighbor: International relations and the externalities of impounding rivers</i>
+<br><b>Claire Fan</b> (Chicago)
+<br><br>
+<i>Governing environmental markets: Evidence from irrigation in water markets</i>
+<br><b>Maximiliano Garcia Gonzalez</b> (Brown)
+<br><br>
+<i>Requiem for rivers? Global dams, environmental impacts, and agricultural adaptation</i>
+<br><b>Evie (Shan) Zhang</b> (Old Dominion)
+
 
 ### **Climate transitions** 2025/09/12
 
