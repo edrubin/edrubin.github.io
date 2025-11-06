@@ -94,10 +94,8 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<!-- <i>Temperature and intimate partner violence in Bolivia</i> -->
-<!-- <br><b>Julieth Saenz-Molina</b> (Fordham) -->
-<i>TBA</i>
-<br><b>TBA</b> (TBA)
+<i>Coca's return and the American overdose fallout</i>
+<br><b>Evie (Shan) Zhang</b> (Old Dominion)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
@@ -110,7 +108,7 @@ knitr::include_graphics(c(
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Balancing growth and green: Analyzing the economic–environmental trade-offs through Chinese secondary industry</i>
+<i>Balancing growth and green: Analyzing the economic-environmental trade-offs through Chinese secondary industry</i>
 <br><b>Linge Yang</b> (Connecticut)
 :::
 ::: {.g-col-3 .g-col-md-2}
