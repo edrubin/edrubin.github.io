@@ -328,7 +328,7 @@ Coverage: [NBER Digest](https://www.nber.org/digest/20235/when-clocks-say-its-on
 
 <br>
 
-[[Inequalities in wildfire smoke avoidance](Papers/draft-smoke.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Who flees wildfire smoke? Income and racial disparities in temporary relocation](Papers/draft-smoke.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Edward Rubin](https://edrub.in) and [M. Steven Holloway](https://mstevenholloway.page/home)
 <br>
@@ -339,7 +339,7 @@ Coverage: [NBER Digest](https://www.nber.org/digest/20235/when-clocks-say-its-on
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-Humans can reduce risk exposure through short-term avoidance, but this strategy may not be equally accessible to all members of a population. We combine data from cellphone movements, satellite-based wildfire smoke plumes, and Census-reported demographics to document substantial heterogeneity and inequity in communities' tendencies to out-migrate to avoid smoke. Higher-income and whiter populations leave their counties at significantly higher rates during smoke events. These results suggest that the same populations who face social and environmental injustice on many other measures are less able to avoid wildfire smoke-underscoring equity concerns for wildfire damages and climate adaptation.
+Individuals can reduce risk exposure through short-term avoidance, but nothing guarantees equal access to this strategy. We quantify inequity in hazard avoidance in the context of wildfire smoke—a widespread, recurrent, and growing health concern that affects millions of people annually. Our analysis links satellite-derived data on wildfire smoke plumes, anonymized cellphone-based movement covering roughly 3 billion visits, and Census Block Group demographics for all urban communities on the US West Coast (2018–2021). We causally estimate how the onset of wildfire smoke affects temporary out-migration-measured as (i) the share of visits occurring outside the home county and (ii) the 75th percentile of distance traveled—and how these responses vary with communities' income levels and racial/ethnic composition. On average, communities increase their shares of out-of-county travel when wildfire smoke arrives. However, these averages mask stark disparities. Higher-income, less-Black, less-Hispanic, and more-White communities exhibit large and statistically significant smoke-induced increases in out-migration. In contrast, the lowest-income, most-Black, and most-Hispanic communities show no detectable response. Our findings show that even when communities face equal levels of hazardous exposures, their avoidance responses can be highly unequal—potentially compounding existing environmental, health, and social inequities. These results provide important insights for public policy as communities confront increasingly frequent and severe risks from climate and natural disasters.
 :::
 
 ::: {.g-col-12 .g-start-2 .g-col-md-6}

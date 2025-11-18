@@ -74,7 +74,7 @@ __[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-or
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
 <br> Patrick Baylis, Severin Borenstein, and Edward Rubin
 
-__[Unequal avoidance: Disparities in smoke-induced out-migration](Papers/draft-smoke.pdf)__
+__[Who flees wildfire smoke? Income and racial disparities in temporary relocation](Papers/draft-smoke.pdf)__
 <br> M. Steven Holloway and Edward Rubin
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
@@ -165,7 +165,7 @@ GAANN Fellowship 2013–2015
 
 ## Presentations
 
-__2025__: [NBER *The Determinants of Mortality*](https://www.nber.org/conferences/determinants-mortality-spring-2025)
+__2025__: [NBER *The Determinants of Mortality*](https://www.nber.org/conferences/determinants-mortality-spring-2025), [The Occasional Workshop](https://occasionalworkshop.weebly.com/)
 
 __2024__: LEEP (University of Exeter), UCSB Bren, [AERE Annual Summer Conference](https://www.aere.org/assets/2024Conference/aeres_202406_agenda_pdf_jwrno.pdf), Oregon State Policy, [EAERE Summer School](https://eaere-summer-school.uni-graz.at/en/summer-schools-2021-24/), Toulouse School of Economics, Paris School of Economics
 
