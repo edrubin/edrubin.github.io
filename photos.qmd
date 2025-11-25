@@ -1,6 +1,7 @@
 ---
 title: ""
 page-layout: full
+image-lazy-loading: true
 listing:
   id: listing-gallery
   template: photos.ejs
