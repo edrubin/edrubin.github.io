@@ -1,0 +1,30 @@
+---
+title: ""
+page-layout: full
+listing:
+  id: listing-gallery
+  template: photos.ejs
+  contents:
+    - photos.yml
+  sort: 'captured desc'
+  field-types:
+    modified: date
+    captured: date
+  sort-ui: false
+  filter-ui: false
+  categories: false
+---
+
+<!-- Source: https://github.com/orgs/quarto-dev/discussions/5972 -->
+
+```{r}
+#| include: false
+#| echo: false
+#| warning: false
+#| message: false
+
+source(here::here('photos.R'))
+```
+
+::: {#listing-gallery}
+:::

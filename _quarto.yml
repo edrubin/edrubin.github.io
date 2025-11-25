@@ -30,6 +30,8 @@ website:
     right:
       - icon: github
         href: https://github.com/edrubin
+      - icon: camera2
+        href: photos.html
 
 format:
   html:
