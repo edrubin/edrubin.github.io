@@ -101,7 +101,7 @@ knitr::include_graphics(c(
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>The dark side of connectivity: Industrial water pollution and the expressway boom in China</i>
+<i>Market access without cleaner technology: Expressway expansion, water pollution, and resource misallocation in China</i>
 <br><b>Longzhou Wang</b> (Alberta)
 :::
 ::: {.g-col-3 .g-col-md-2}
