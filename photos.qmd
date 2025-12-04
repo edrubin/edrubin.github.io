@@ -1,7 +1,6 @@
 ---
 title: ""
 page-layout: full
-image-lazy-loading: true
 listing:
   id: listing-gallery
   template: photos.ejs
@@ -14,6 +13,7 @@ listing:
   sort-ui: false
   filter-ui: false
   categories: false
+  image-lazy-loading: true
 ---
 
 <!-- Source: https://github.com/orgs/quarto-dev/discussions/5972 -->

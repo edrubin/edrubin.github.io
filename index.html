@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -168,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="columns">
 <div class="column" style="width:49%;">
-<p><img src="photos/ed-cropped-smaller.png" class="img-fluid"></p>
+<p><a href="photos/ed-cropped-smaller.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="photos/ed-cropped-smaller.png" class="img-fluid"></a></p>
 </div><div class="column" style="width:5%;">
 <!-- Blank -->
 </div><div class="column" style="width:46%;">
@@ -181,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="me" class="level3">
 <h3 class="anchored" data-anchor-id="me">me</h3>
-<p><em>Passions:</em> <a href="https://www.instagram.com/p/CFsBay1hvSx/?utm_source=ig_web_copy_link">the</a> <a href="https://www.instagram.com/p/CEhutiOhgSU/?utm_source=ig_web_copy_link">outdoors</a>, <a href="https://www.instagram.com/p/CRyaIAwnwFV/?utm_source=ig_web_copy_link">bikes</a>, <a href="https://www.instagram.com/p/Ct-wwForzVf/">good</a> <a href="https://www.instagram.com/p/CpwIFRbrOG5/">food</a>/<a href="https://www.instagram.com/p/CmLQK9rL9qO/">coffee</a>/<a href="https://www.instagram.com/p/Cf6RgnGgcKH/">drink</a><a href="https://www.instagram.com/imbib.ed/">s</a>, <a href="https://www.instagram.com/edwardarubin/">beauty/photography</a> <a href="https://www.instagram.com/p/BQrHLkBgy-V/">data</a>, and (most of all) <a href="https://www.instagram.com/p/CgAHadCgJ0u/">loving</a> <a href="https://www.instagram.com/p/CdCiAtbNNSQ/?utm_source=ig_web_copy_link">people</a>.</p>
+<p><em>Passions:</em> <a href="Gallery/20250101-IMG_4248.jpg" class="lightbox">the</a> <a href="Gallery/20250215-IMG_5072" class="lightbox">ou</a>t<a href="Gallery/20250827-IMG_0238.jpg" class="lightbox">do</a>o<a href="Gallery/20240629-IMG_8522_jpg.jpg" class="lightbox">rs</a>, <a href="Gallery/20241221-IMG_3497_jpg.jpg" class="lightbox">bikes</a>, <a href="Gallery/20241227-IMG_4034_jpg.jpg" class="lightbox">good</a> <a href="Gallery/20251102-IMG_0950.jpg" class="lightbox">food</a>/<a href="Gallery/20250731-IMG_9226.jpg" class="lightbox">coffee</a>/<a href="Gallery/20250307-IMG_5581.jpg" class="lightbox">drink</a><a href="Gallery/20250328-IMG_6463.jpg" class="lightbox">s</a>, <a href="Gallery/20250628-IMG_7806.jpg" class="lightbox">road</a> <a href="Gallery/20250628-IMG_7797.jpg" class="lightbox">trips</a> <a href="">beauty</a>/<a href="photos.html">photography</a>, data, and (most of all) <a href="Gallery/20240806-IMG_0409_jpg.jpg" class="lightbox">loving</a> <a href="Gallery/20250726-IMG_9131.jpg" class="lightbox">people</a>.</p>
 </section>
 <section id="more" class="level3">
 <h3 class="anchored" data-anchor-id="more">more</h3>
@@ -595,6 +598,38 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -1,6 +1,7 @@
 ---
 title: ""
 toc: false
+lightbox: true
 ---
 
 
@@ -36,7 +37,7 @@ Examples from a few recent projects…
 
 ### me
 
-*Passions:* [the](https://www.instagram.com/p/CFsBay1hvSx/?utm_source=ig_web_copy_link) [outdoors](https://www.instagram.com/p/CEhutiOhgSU/?utm_source=ig_web_copy_link), [bikes](https://www.instagram.com/p/CRyaIAwnwFV/?utm_source=ig_web_copy_link), [good](https://www.instagram.com/p/Ct-wwForzVf/) [food](https://www.instagram.com/p/CpwIFRbrOG5/)/[coffee](https://www.instagram.com/p/CmLQK9rL9qO/)/[drink](https://www.instagram.com/p/Cf6RgnGgcKH/)[s](https://www.instagram.com/imbib.ed/), [beauty/photography](https://www.instagram.com/edwardarubin/) [data](https://www.instagram.com/p/BQrHLkBgy-V/), and (most of all) [loving](https://www.instagram.com/p/CgAHadCgJ0u/) [people](https://www.instagram.com/p/CdCiAtbNNSQ/?utm_source=ig_web_copy_link).
+*Passions:* [the](Gallery/20250101-IMG_4248.jpg){.lightbox} [ou](Gallery/20250215-IMG_5072){.lightbox}t[do](Gallery/20250827-IMG_0238.jpg){.lightbox}o[rs](Gallery/20240629-IMG_8522_jpg.jpg){.lightbox}, [bikes](Gallery/20241221-IMG_3497_jpg.jpg){.lightbox}, [good](Gallery/20241227-IMG_4034_jpg.jpg){.lightbox} [food](Gallery/20251102-IMG_0950.jpg){.lightbox}/[coffee](Gallery/20250731-IMG_9226.jpg){.lightbox}/[drink](Gallery/20250307-IMG_5581.jpg){.lightbox}[s](Gallery/20250328-IMG_6463.jpg){.lightbox}, [road](Gallery/20250628-IMG_7806.jpg){.lightbox} [trips](Gallery/20250628-IMG_7797.jpg){.lightbox} [beauty](){}/[photography](photos.html), data, and (most of all) [loving](Gallery/20240806-IMG_0409_jpg.jpg){.lightbox} [people](Gallery/20250726-IMG_9131.jpg){.lightbox}.
 
 ### more
 
