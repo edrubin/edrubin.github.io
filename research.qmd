@@ -50,7 +50,7 @@ Coverage: [Science](https://www.science.org/content/article/common-weed-killer-m
 <br>
 *Accepted*, *Journal of the Association of Environmental and Resource Economists*
 
-Replication materials: [GitHub](https://github.com/edrubin/plant-locations) | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FWFVIDB)
+Replication materials: [GitHub](https://github.com/edrubin/plant-locations) | [Harvard Dataverse: 10.7910/DVN/NSCJG9](https://doi.org/10.7910/DVN/NSCJG9)
 
 ::: {.grid style="--bs-columns: 13;"}
 
