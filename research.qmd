@@ -80,9 +80,7 @@ knitr::include_graphics(c(
 
 [[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
-[Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in)
-<br>
-*Forthcoming*, *Journal of Labor Economics*
+[Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in). Forthcoming. *Journal of Labor Economics*.
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -104,8 +102,7 @@ Coverage: [VoxDev](https://voxdev.org/topic/labour-markets/why-women-africas-ser
 [[What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors](Papers/draft-strategic-monitoring.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
-<br>
-*Forthcoming*, *The Review of Economics and Statistics*
+Forthcoming. *The Review of Economics and Statistics*. [DOI: 10.1162/rest_a_01477](https://doi.org/10.1162/rest_a_01477)
 
 ::: {.grid style="--bs-columns: 13;"}
 
