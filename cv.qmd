@@ -44,11 +44,11 @@ __Primary interests__: Environmental Econ., Applied Econometrics/Data Science, I
 __[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](https://www.pnas.org/doi/10.1073/pnas.2413013121)__
 <br> Emmett Reynier and Edward Rubin. 2025. _Proceedings of the National Academy of Sciences (USA)_. 122(3).
 
-__[The strategic local geography of US electricity emissions](Papers/draft-plant-locations.pdf)__
-<br> John Morehouse and Edward Rubin. (_Accepted_). _Journal of the Association of Environmental and Resource Economists._
+__[The strategic local geography of US electricity emissions](https://www.journals.uchicago.edu/doi/10.1086/740146)__
+<br> John Morehouse and Edward Rubin. (_Forthcoming_). _Journal of the Association of Environmental and Resource Economists._
 
 __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
-<br> Erin Kelley, Gregory Lane, Matthew Pecenco, and Edward Rubin. (_Accepted_). _Journal of Labor Economics_.
+<br> Erin Kelley, Gregory Lane, Matthew Pecenco, and Edward Rubin. (_Forthcoming_). _Journal of Labor Economics_.
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](Papers/draft-strategic-monitoring.pdf)__
 <br> Yingfei Mu, Edward Rubin, and Eric Zou. 2024. _[The Review of Economics and Statistics](https://doi.org/10.1162/rest_a_01477)_.

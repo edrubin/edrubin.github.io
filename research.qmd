@@ -46,9 +46,7 @@ Coverage: [Science](https://www.science.org/content/article/common-weed-killer-m
 
 [[Downwind and out: The strategic dispersion of power plants and their pollution](Papers/draft-plant-locations.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
-[John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in)
-<br>
-*Accepted*, *Journal of the Association of Environmental and Resource Economists*
+[John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in). Forthcoming. *Journal of the Association of Environmental and Resource Economists*. [DOI: 10.1086/740146](https://www.journals.uchicago.edu/doi/10.1086/740146)
 
 Replication materials: [GitHub](https://github.com/edrubin/plant-locations) | [Harvard Dataverse: 10.7910/DVN/NSCJG9](https://doi.org/10.7910/DVN/NSCJG9)
 
@@ -76,7 +74,7 @@ knitr::include_graphics(c(
 
 :::
 
-[Draft](Papers/draft-plant-locations.pdf)
+[Pre-print versions](Papers/draft-plant-locations.pdf)
 
 <br>
 
@@ -84,7 +82,7 @@ knitr::include_graphics(c(
 
 [Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in)
 <br>
-*Accepted*, *Journal of Labor Economics*
+*Forthcoming*, *Journal of Labor Economics*
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -107,7 +105,7 @@ Coverage: [VoxDev](https://voxdev.org/topic/labour-markets/why-women-africas-ser
 
 Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
 <br>
-*Accepted*, *The Review of Economics and Statistics*
+*Forthcoming*, *The Review of Economics and Statistics*
 
 ::: {.grid style="--bs-columns: 13;"}
 
