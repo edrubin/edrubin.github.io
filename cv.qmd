@@ -69,13 +69,13 @@ __[Bringing Satellite-Based Air-Quality Estimates Down to Earth](https://www.aea
 
 __[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-oreguns.pdf)__
 <br> Katie Bollman, Benjamin Hansen, Edward Rubin, and Garrett Stanford
-<br>_Revise & resubmit, Journal of Public Economics_
+<br>_Revise & resubmit (resubmitted), Journal of Public Economics_
 
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
-<br> Patrick Baylis, Severin Borenstein, and Edward Rubin
+<br> _(Submitted)_ Patrick Baylis, Severin Borenstein, and Edward Rubin
 
 __[Who flees wildfire smoke? Income and racial disparities in temporary relocation](Papers/draft-smoke.pdf)__
-<br> M. Steven Holloway and Edward Rubin
+<br> _(Submitted)_ M. Steven Holloway and Edward Rubin
 
 __[What can we machine learn (too much of) in 2SLS? Insights from a bias decomposition](Papers/draft-mliv.pdf)__
 <br> Connor Lennon, Edward Rubin, and Glen Waddell
@@ -105,19 +105,19 @@ __How salient are environmental risks? The short- and long-run effects of lead e
 
 ## Teaching
 
-__[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S19)__
+__[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S25)__
 
 - University of Oregon: [Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
 - Doctoral course; advanced causal-inference methods.
 
-__[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W20)__
+__[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W26)__
 
-- University of Oregon: [Winter 2025](https://github.com/edrubin/EC524W25), [Spring 2024](https://github.com/edrubin/EC524S24), [Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
+- University of Oregon: [Winter 2026](https://github.com/edrubin/EC524W26), [Winter 2025](https://github.com/edrubin/EC524W25), [Spring 2024](https://github.com/edrubin/EC524S24), [Winter 2023](https://github.com/edrubin/EC524W23), [Winter 2022](https://github.com/edrubin/EC524W22), [Winter 2021](https://github.com/edrubin/EC524W21); [Winter 2020](https://github.com/edrubin/EC524W20)
 - Masters course; key machine learning methods across diverse prediction contexts.
 
-__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S19)__
+__[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S25)__
 
-- University of Oregon: [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
+- University of Oregon: [Winter 2026](https://github.com/edrubin/EC421W26), [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
 - Undergrad. course; foundational topics in regression, visualization, time-series, causal-inference methods.
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__
@@ -136,6 +136,8 @@ __STAT 218: Introduction to Statistics__
 - Undergraduate course; introductory statistics.
 
 ## Grants, awards, etc.
+
+2025 JAERE Excellence in Refereeing Award
 
 (Grant) __International Growth Centre__ with Anshuman Tiwari and Shefali Khanna, _The Heterogeneous Impacts of Air Pollution on Workers_, £18,842
 
@@ -164,6 +166,8 @@ Outstanding Graduate-Student Instructor, UC Berkeley, 2018
 GAANN Fellowship 2013–2015
 
 ## Presentations
+
+__2026__: [ASSA](https://www.aeaweb.org/conference/2026/program) (disussant×2)
 
 __2025__: [NBER *The Determinants of Mortality*](https://www.nber.org/conferences/determinants-mortality-spring-2025), [The Occasional Workshop](https://occasionalworkshop.weebly.com/)
 
@@ -197,14 +201,14 @@ __2012__: International Conference of Agricultural Economists (poster)
 ### Advising
 
 - *PhD committee chair:* Andrew Dickinson (co-chair); Mary Kopriva (Wade) (co-chair); Connor Lennon (co-chair); Emmett Reynier (co-chair); Garrett Stanford (chair)
-- *PhD dissertation committee:* Christie Downs (Finance); Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Kyu Matsuzawa; Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Brietta Russell (*in progress*); Steven Walton (Computer Science); Kyle Wilson; Micaela Wood; Dante Yasui (*in progress*)
+- *PhD dissertation committee:* Christie Downs (Finance); Claire Lepault (Paris School of Economics); Steven (Marcus) Holloway; Sichao Jiang; Woocheol Kim (Marketing); Kyu Matsuzawa; Robert McDonough; Max Mindock; John Morehouse; Jenni Putz; Meysam Rabiee (Operations and Analytics); Brietta Russell; Steven Walton (Computer Science); Kyle Wilson; Micaela Wood; Dante Yasui (*in progress*)
 - *Masters thesis:* Pilar Mullican
 - *Undergraduate thesis:* Joseph Andersen (department; advisor), Zoë Arnaut (honors; reader); Eleanor Franks (honors; reader); Lorissa Hughes (*in progress*; chair); Kara Krnacik (honors; chair); Aidan Potts (honors; chair); Sam Schroeder (honors; chair)
 
 ### Additional
 
-- Co-founded/Organized [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
-- Co-founded/Organized [OSWEET](https://edrub.in/osweet) (Online Student Workshop in Environmental, Energy, and Transportation)
+- Co-founded/organize [TWEEDS](https://tweeds.io) (The Workshop in Environmental Economics and Data Science)
+- Co-founded/organize [OSWEET](https://edrub.in/osweet) (Online Student Workshop in Environmental, Energy, and Transportation)
 - Co-founded/Organized [GoSee](https://gosee.io) (Global Open Series in Environmental Economics)
 - Co-organize applied microeconometrics workshop at UO
 - **Referee:** [Proceedings of the National Academy of Science (PNAS)](https://www.pnas.org/), [American Economic Review: Insights (AERI)](https://www.aeaweb.org/journals/aeri), [American Economic Journal: Economic Policy](https://www.aeaweb.org/journals/pol) (AEJ Policy), [Journal of the Association of Environmental and Resource Economists](https://www.journals.uchicago.edu/toc/jaere/current) (JAERE), [Journal of Public Economics](https://www.journals.elsevier.com/journal-of-public-economics) (JPubE), [Journal of Health Economics](https://www.sciencedirect.com/journal/journal-of-health-economics) (JHE), [Economic Inquiry](https://onlinelibrary.wiley.com/journal/14657295), [Journal of Environmental Economics and Management](https://www.journals.elsevier.com/journal-of-environmental-economics-and-management) (JEEM), [Land Economics](https://uwpress.wisc.edu/journals/journals/le.html), [Resource and Energy Economics](https://www.journals.elsevier.com/resource-and-energy-economics) (REE), [Energy Policy](https://www.journals.elsevier.com/energy-policy), [Journal of Policy Analysis and Management](http://www.appam.org/jpam/) (JPAM), [Water Economics and Policy](https://www.worldscientific.com/worldscinet/wep) (WEP), [Nature Communications: Earth & Environment](https://www.nature.com/commsenv/), [Economics Letters](https://www.sciencedirect.com/journal/economics-letters)

@@ -256,7 +256,7 @@ Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon
 [[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-114.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
-<br>*Revise & resubmit, Journal of Public Economics*
+<br>*Revise & resubmit (resubmitted), Journal of Public Economics*
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -289,6 +289,8 @@ Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-e
 [[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Patrick Baylis](https://www.patrickbaylis.com), [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/), and [Edward Rubin](https://edrub.in)
+<br>
+_Submitted_
 <br>
 
 ::: {.grid style="--bs-columns: 13;"}
@@ -326,6 +328,8 @@ Coverage: [NBER Digest](https://www.nber.org/digest/20235/when-clocks-say-its-on
 [[Who flees wildfire smoke? Income and racial disparities in temporary relocation](Papers/draft-smoke.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Edward Rubin](https://edrub.in) and [M. Steven Holloway](https://mstevenholloway.page/home)
+<br>
+_Submitted_
 <br>
 
 ::: {.grid style="--bs-columns: 13;"}
