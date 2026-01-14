@@ -34,9 +34,9 @@ cv %<>% paste0('  ')
 # Remove two spaces from lists
 cv[grep('-', substr(cv, 1, 1))] %<>% str_replace_all('  ', '')
 
-# Add page break before academic service
-cv[grep('## Academic service', cv)] %<>%
-  paste0('{{< pagebreak >}}\n\n', .)
+# # Add page break before academic service
+# cv[grep('## Academic service', cv)] %<>%
+#   paste0('{{< pagebreak >}}\n\n', .)
 
 # Add header
 header = here::here('cv-pdf-header.qmd') |> readLines()

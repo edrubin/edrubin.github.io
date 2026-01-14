@@ -11,7 +11,7 @@ format:
     fontsize: 9.50pt
     margin:
       x: 1.0in
-      y: 1.1in
+      y: 1.0in
     bibliographystyle: nature
     keep-typ: false
     number-sections: true
@@ -19,15 +19,23 @@ format:
     include-in-header:
       - text: |
           #show heading: set text(font: "PT Mono", weight: "bold", style: "normal", fill: rgb("#4CAF50"), size: .80em,)
+          #show heading: set block(above: 1.5em, below: 0.8em)
           #set list(indent: .5em)
 ---
 
+```{=typst}
+#v(-3em)
+```
+
 :::{style="font-family: 'PT Mono'; font-size: 12pt;"}
-[**Edward Rubin**
-]{style="color: #4CAF50;"}
+[**Edward Rubin**]{style="color: #4CAF50;"}
 :::
 
-:::{style="font-family: 'PT Mono'; font-size: 10pt;"}
+```{=typst}
+#v(-0.5em)
+```
+
+:::{style="font-family: 'PT Mono'; font-size: 9.5pt;"}
 [[edwardr@uoregon.edu](mailto:edwardr@uoregon.edu) | [edrub.in](https://edrub.in) | [github/edrubin](https://github.com/edrubin) | +1 402-802-7672
 ]{style="color: #4CAF50;"}
 :::
