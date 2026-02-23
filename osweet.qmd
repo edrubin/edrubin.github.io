@@ -78,12 +78,12 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Climate and infrastructure** 2025/12/12
+### **Agriculture** 2026/03/13
 
-<b>Friday, 12 December 2025</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 13 March 2026</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://psu.zoom.us/meeting/register/-H44NtAWTKax4crM8hFnmw).
+  [Register for **Zoom link here**](https://psu.zoom.us/meeting/register/W7kRr1MVR-q1AyUQB6PbSg).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Hospital workload and adaptation under climate change: Evidence from China</i>
-<br><b>Wanrui Wu</b> (Peking)
+<i>Underconfidence and the low-experimentation trap</i>
+<br><b>Nicholas Tyack</b> (Saskatchewan)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Market access without cleaner technology: Expressway expansion, water pollution, and resource misallocation in China</i>
-<br><b>Longzhou Wang</b> (Alberta)
+<i>Social returns to conservation: Incentives for cover crops and water quality in the Midwest</i>
+<br><b>Shuo Yu</b> (UC Berkeley)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Weather forecast quality in the US: Patterns, disparities, and determinants</i>
-<br><b>Vaibhav Anand</b> (St. John's Univ.)
+<i>Soil to savings: Optimal farmer compensation for carbon sequestration services in the Midwest United States</i>
+<br><b>Khyati Malik</b> (NBER)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -127,6 +127,17 @@ knitr::include_graphics(c(
 ### 2025
 
 ::: {.panel-tabset}
+
+### **Climate & infrastructure** 2025/12/12
+
+<i>Hospital workload and adaptation under climate change: Evidence from China</i>
+<br><b>Wanrui Wu</b> (Peking)
+<br><br>
+<i>Market access without cleaner technology: Expressway expansion, water pollution, and resource misallocation in China</i>
+<br><b>Longzhou Wang</b> (Alberta)
+<br><br>
+<i>Weather forecast quality in the US: Patterns, disparities, and determinants</i>
+<br><b>Vaibhav Anand</b> (St. John's Univ.)
 
 ### **Dev. & P.E.** 2025/11/14
 
