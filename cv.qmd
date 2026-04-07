@@ -45,7 +45,7 @@ __[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](h
 <br> Emmett Reynier and Edward Rubin. 2025. _Proceedings of the National Academy of Sciences (USA)_. 122(3).
 
 __[The strategic local geography of US electricity emissions](https://www.journals.uchicago.edu/doi/10.1086/740146)__
-<br> John Morehouse and Edward Rubin. (_Forthcoming_). _Journal of the Association of Environmental and Resource Economists._
+<br> John Morehouse and Edward Rubin. _Journal of the Association of Environmental and Resource Economists._
 
 __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)__
 <br> Erin Kelley, Gregory Lane, Matthew Pecenco, and Edward Rubin. (_Forthcoming_). _Journal of Labor Economics_.
@@ -72,7 +72,8 @@ __[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-or
 <br>_Revise & resubmit (resubmitted), Journal of Public Economics_
 
 __[When we change the clock, does the clock change us?](Papers/draft-time.pdf)__
-<br> _(Submitted)_ Patrick Baylis, Severin Borenstein, and Edward Rubin
+<br> Patrick Baylis, Severin Borenstein, and Edward Rubin
+<br>*Revise & resubmit, Journal of Economic Behavior & Organization*
 
 __[Who flees wildfire smoke? Income and racial disparities in temporary relocation](Papers/draft-smoke.pdf)__
 <br> _(Submitted)_ M. Steven Holloway and Edward Rubin
@@ -107,7 +108,7 @@ __How salient are environmental risks? The short- and long-run effects of lead e
 
 __[EC607: Econometrics (III): Causal inference](https://github.com/edrubin/EC525S25)__
 
-- University of Oregon: [Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
+- University of Oregon: [Spring 2026](https://github.com/edrubin/EC607S26),[Spring 2025](https://github.com/edrubin/EC607S25),  [Spring 2024](https://github.com/edrubin/EC607S24), [Spring 2023](https://github.com/edrubin/EC607S23), [Spring 2022](https://github.com/edrubin/EC607S22), [Spring 2021](https://github.com/edrubin/EC607S21), [Spring 2020](https://github.com/edrubin/EC607S20), [Spring 2019](https://github.com/edrubin/EC525S19)
 - Doctoral course; advanced causal-inference methods.
 
 __[EC524: Econometrics (II): Prediction and machine learning](https://github.com/edrubin/EC524W26)__
@@ -117,7 +118,7 @@ __[EC524: Econometrics (II): Prediction and machine learning](https://github.com
 
 __[EC421: Introduction to Econometrics (II)](https://github.com/edrubin/EC421S25)__
 
-- University of Oregon: [Winter 2026](https://github.com/edrubin/EC421W26), [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
+- University of Oregon: [Spring 2026](https://github.com/edrubin/EC421S26), [Winter 2026](https://github.com/edrubin/EC421W26), [Winter 2025](https://github.com/edrubin/EC421W25), Spring 2023, Winter 2023, Spring 2022, [Winter 2022](https://github.com/edrubin/EC421W22), [Winter 2021](https://github.com/edrubin/EC421W21); [Spring 2020](https://github.com/edrubin/EC421S20); [Winter 2020](https://github.com/edrubin/EC421W20); [Spring 2019](https://github.com/edrubin/EC421S19); [Winter 2019](https://github.com/edrubin/EC421W19)
 - Undergrad. course; foundational topics in regression, visualization, time-series, causal-inference methods.
 
 __[ARE 212: Econometrics - Multiple Equation Estimation](https://edrub.in/ARE212)__

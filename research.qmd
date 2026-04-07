@@ -46,7 +46,7 @@ Coverage: [Science](https://www.science.org/content/article/common-weed-killer-m
 
 [[Downwind and out: The strategic dispersion of power plants and their pollution](Papers/draft-plant-locations.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
-[John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in). Forthcoming. *Journal of the Association of Environmental and Resource Economists*. [DOI: 10.1086/740146](https://www.journals.uchicago.edu/doi/10.1086/740146)
+[John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in). *Journal of the Association of Environmental and Resource Economists*. [DOI: 10.1086/740146](https://www.journals.uchicago.edu/doi/10.1086/740146)
 
 Replication materials: [GitHub](https://github.com/edrubin/plant-locations) | [Harvard Dataverse: 10.7910/DVN/NSCJG9](https://doi.org/10.7910/DVN/NSCJG9)
 
@@ -102,7 +102,7 @@ Coverage: [VoxDev](https://voxdev.org/topic/labour-markets/why-women-africas-ser
 [[What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors](Papers/draft-strategic-monitoring.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
-Forthcoming. *The Review of Economics and Statistics*. [DOI: 10.1162/rest_a_01477](https://doi.org/10.1162/rest_a_01477)
+*The Review of Economics and Statistics*. [DOI: 10.1162/rest_a_01477](https://doi.org/10.1162/rest_a_01477)
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -289,8 +289,7 @@ Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-e
 [[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Patrick Baylis](https://www.patrickbaylis.com), [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/), and [Edward Rubin](https://edrub.in)
-<br>
-_Submitted_
+<br>*Revise & resubmit, Journal of Economic Behavior & Organization*
 <br>
 
 ::: {.grid style="--bs-columns: 13;"}

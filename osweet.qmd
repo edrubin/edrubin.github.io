@@ -78,12 +78,12 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Agriculture** 2026/03/13
+### **Ecology** 2026/04/10
 
-<b>Friday, 13 March 2026</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 10 April 2026</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://psu.zoom.us/meeting/register/W7kRr1MVR-q1AyUQB6PbSg).
+  [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/48cDqQm_Rp-vIvEzteeT7w).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +94,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Underconfidence and the low-experimentation trap</i>
-<br><b>Nicholas Tyack</b> (Saskatchewan)
+<i>The value of wetlands in reducing flood losses</i>
+<br><b>Jesse Gourevitch</b> (EDF)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Social returns to conservation: Incentives for cover crops and water quality in the Midwest</i>
-<br><b>Shuo Yu</b> (UC Berkeley)
+<i>Spatiotemporal trade-offs in streamflow augmentation for salmonid recovery</i>
+<br><b>Jacob Gifford</b> (Washington State)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Soil to savings: Optimal farmer compensation for carbon sequestration services in the Midwest United States</i>
-<br><b>Khyati Malik</b> (NBER)
+<i>Strategic environment: Conservation policy effectiveness and strategic behavior</i>
+<br><b>Angelo dos Santos</b> (Penn)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -123,6 +123,23 @@ knitr::include_graphics(c(
 ## Past sessions
 
 ::: {.panel-tabset}
+
+### 2026
+
+::: {.panel-tabset}
+
+### **Agriculture** 2026/03/13
+
+<i>Underconfidence and the low-experimentation trap</i>
+<br><b>Nicholas Tyack</b> (Saskatchewan)
+<br><br>
+<i>Social returns to conservation: Incentives for cover crops and water quality in the Midwest</i>
+<br><b>Shuo Yu</b> (UC Berkeley)
+<br><br>
+<i>Soil to savings: Optimal farmer compensation for carbon sequestration services in the Midwest United States</i>
+<br><b>Khyati Malik</b> (NBER)
+
+:::
 
 ### 2025
 
