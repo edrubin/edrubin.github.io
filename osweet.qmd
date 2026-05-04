@@ -76,14 +76,15 @@ knitr::include_graphics(c(
 
 <br>
 
+
 ## Upcoming session
 
-### **Ecology** 2026/04/10
+### **Climate ** 2026/05/08
 
-<b>Friday, 10 April 2026</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 08 May 2026</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://nus-sg.zoom.us/meeting/register/48cDqQm_Rp-vIvEzteeT7w).
+  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/-K1crHjKQ6m3vtQ0EkEp_A).
   <br>
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
@@ -94,22 +95,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>The value of wetlands in reducing flood losses</i>
-<br><b>Jesse Gourevitch</b> (EDF)
+<i>Barriers within borders: Climate change, market barriers, and structural transformation</i>
+<br><b>Rimjhim Saxena</b> (Geneva)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Spatiotemporal trade-offs in streamflow augmentation for salmonid recovery</i>
-<br><b>Jacob Gifford</b> (Washington State)
+<i>Adaptation in motion: Temporary migration under heat stress</i>
+<br><b>Moumita Das</b> (UC Santa Cruz)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Strategic environment: Conservation policy effectiveness and strategic behavior</i>
-<br><b>Angelo dos Santos</b> (Penn)
+<i>The dual burden of energy poverty and climate exposure</i>
+<br><b>Yuetong Zhang</b> (UNC)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -127,6 +128,18 @@ knitr::include_graphics(c(
 ### 2026
 
 ::: {.panel-tabset}
+
+### **Ecology** 2026/04/10
+
+<i>The value of wetlands in reducing flood losses</i>
+<br><b>Jesse Gourevitch</b> (EDF)
+<br><br>
+<i>Spatiotemporal trade-offs in streamflow augmentation for salmonid recovery</i>
+<br><b>Jacob Gifford</b> (Washington State)
+<br><br>
+<i>Strategic environment: Conservation policy effectiveness and strategic behavior</i>
+<br><b>Angelo dos Santos</b> (Penn)
+<i>Happy half-hour</i>
 
 ### **Agriculture** 2026/03/13
 
