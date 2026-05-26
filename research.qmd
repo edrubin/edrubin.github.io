@@ -9,6 +9,7 @@ Abstracts and selected figures from published/accepted papers, working drafts, a
 
 And here's my [CV](cv.html) (also as [PDF](cv-edward-rubin.pdf)).
 
+
 ## published/accepted
 
 [[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](https://www.pnas.org/doi/10.1073/pnas.2413013121)]{style="font-weight: 900; font-size: 12pt;"}
@@ -44,9 +45,9 @@ Coverage: [Science](https://www.science.org/content/article/common-weed-killer-m
 
 <br>
 
-[[Downwind and out: The strategic dispersion of power plants and their pollution](Papers/draft-plant-locations.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Downwind and out: The strategic dispersion of power plants and their pollution](https://www.journals.uchicago.edu/doi/10.1086/740146)]{style="font-weight: 900; font-size: 12pt;"}
 
-[John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in). *Journal of the Association of Environmental and Resource Economists*. [DOI: 10.1086/740146](https://www.journals.uchicago.edu/doi/10.1086/740146)
+[John Morehouse](https://www.johnmmorehouse.com) and [Edward Rubin](https://edrub.in). 2025. *Journal of the Association of Environmental and Resource Economists*. [DOI: 10.1086/740146](https://www.journals.uchicago.edu/doi/10.1086/740146)
 
 Replication materials: [GitHub](https://github.com/edrubin/plant-locations) | [Harvard Dataverse: 10.7910/DVN/NSCJG9](https://doi.org/10.7910/DVN/NSCJG9)
 
@@ -74,13 +75,13 @@ knitr::include_graphics(c(
 
 :::
 
-[Pre-print versions](Papers/draft-plant-locations.pdf)
+[Pre-print version](Papers/draft-plant-locations.pdf)
 
 <br>
 
-[[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/draft-gender-bias.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Customer Discrimination in the Workplace: Evidence from Online Sales](https://www.journals.uchicago.edu/doi/10.1086/733049)]{style="font-weight: 900; font-size: 12pt;"}
 
-[Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in). Forthcoming. *Journal of Labor Economics*.
+[Erin Kelley](https://www.erinmunrokelley.com), [Gregory Lane](https://www.gregoryvlane.com), [Matthew Pecenco](http://www.matthewpecenco.com), and [Edward Rubin](https://edrub.in). 2025. *Journal of Labor Economics*. [DOI: 10.1086/733049](https://www.journals.uchicago.edu/doi/10.1086/733049)
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -101,7 +102,7 @@ Coverage: [VoxDev](https://voxdev.org/topic/labour-markets/why-women-africas-ser
 
 [[What's *missing* in environmental (self-)monitoring: Evidence from strategic shutdowns of pollution monitors](Papers/draft-strategic-monitoring.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
-Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com)
+Yingfei Mu, [Edward Rubin](https://edrub.in), and [Eric Zou](https://www.eric-zou.com). 2024.
 *The Review of Economics and Statistics*. [DOI: 10.1162/rest_a_01477](https://doi.org/10.1162/rest_a_01477)
 
 ::: {.grid style="--bs-columns: 13;"}
@@ -256,7 +257,7 @@ Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon
 [[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-114.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
-<br>*Revise & resubmit (resubmitted), Journal of Public Economics*
+<br>*Conditionally accepted, Journal of Public Economics*
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -407,4 +408,3 @@ Pilar Mullican and [Edward Rubin](https://edrub.in)
 [Are our hopes too high? Testing cannabis legalization's potential to reduce criminalization]{style="font-weight: 900; font-size: 12pt;"}
 
 [Do aerially applied pesticides affect local air quality? Empirical evidence from California's San Joaquin Valley]{style="font-weight: 900; font-size: 12pt;"}
-
