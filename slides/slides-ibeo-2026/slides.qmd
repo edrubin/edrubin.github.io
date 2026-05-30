@@ -194,7 +194,7 @@ ggplot(
 :::: {.columns}
 ::: {.column width='45%'}
 
-Remote sensing^[I'll focus quite a bit on satellite-based <br> remote sensing but will touch on <br> other approaches (drones, monitors, etc.)] is changing the way we "do" enviro economics
+Remote sensing^[I'll focus on satellite-based <br> remote sensing.)] is changing the way we "do" enviro. economics
 
 - [what]{.it .purple} we can measure,
 - [where/when]{.it .purple} we can measure it,
@@ -245,13 +245,13 @@ Remote sensing has helped solve <br> first-order [measurement problems]{.pink}
 
 ::: {.fragment fragment-index=2}
 - [ ] How much should we [trust]{.it .purple} remote-sensing measurements? <br> [(Errors may be larger and more structured than expected.)]{.grey-light .it}
-- [ ] How do we [_fix_ causal inf.]{.purple} when using remotely sensed data? <br> [(Some promising directions; can rely on infeasible solutions.)]{.grey-light .it}
+- [ ] How do we [_fix_ causal inf.]{.purple} when using remotely sensed data? <br> [(Some promising directions; can rely on infeasible data.)]{.grey-light .it}
 - [ ] How do we address [endogenous _ground-truth_]{.purple} infrastructure? <br> [(Bias and lack of generalization; more work needed.)]{.grey-light .it}
 - [ ] How do we address [strategic responses]{.purple}? <br> [(The cat-and-mouse game continues...)]{.grey-light .it}
 - [ ] What roles do/can [_conventional_ data]{.purple} play in remote sensing? <br> [(Very large roles!)]{.grey-light .it}
 :::
 
-[(Reminds me f current conversations around AI/LLMs.)]{.fragment fragment-index=3 .grey-light .it}
+[(Reminds me of current conversations around AI/LLMs.)]{.fragment fragment-index=3 .grey-light .it}
 
 ## Today
 ### Overview
@@ -583,7 +583,7 @@ $\implies \textcolor{#ffa500}{\epsilon}$ negatively correlates with $\textcolor{
 ## Measurement error
 ### In remotely sensed variables
 
-Recent work suggests a more prevalent and pernicious type of measurement error^[Proctor, Carleton, and Sum (2026) call this type of measurement error [differential measurement error]{.it}.] common to remotely sensed variables.
+Recent work highlights a more prevalent and pernicious type of measurement error^[Proctor, Carleton, and Sum (2026) call this type of measurement error [differential measurement error]{.it}.] common to remotely sensed variables.
 
 [Differential measurement error]{.note}
 
@@ -1617,7 +1617,7 @@ Non-satellite remote sensing
 
 [Remote sensing changed what is possible for enviro. economics...]{.slab .pink}
 
-- previously [unobserveable]{.pink} variables,
+- previously [unobservable]{.pink} variables,
 - [coverage]{.pink} where conventional data are sparse,
 - tools to [monitor]{.pink} hidden or strategic behavior.
 
@@ -1662,7 +1662,7 @@ _Where_ did the RS measurements originate?
 <br>[↳ _original source/goals, training, validation,_ ...]{.grey-light}
 
 How does _error_ arise in the RS measurements?
-<br>[↳ how will error propogate through causal inf. models?]{.grey-light}
+<br>[↳ how will error propagate through causal inf. models?]{.grey-light}
 
 How _good_ are the ground-truth data?
 <br>[↳ quality, completeness, generalizability]{.grey-light}
