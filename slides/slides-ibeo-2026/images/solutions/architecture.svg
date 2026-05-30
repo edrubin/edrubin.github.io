@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1137.38 958.32">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Charter-Roman, Charter;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: orange;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5 {
+        font-size: 48px;
+      }
+
+      .cls-6 {
+        fill: #314f4f;
+        font-family: FiraSansExtraCondensed-Italic, 'Fira Sans Extra Condensed';
+        font-size: 38px;
+        font-style: italic;
+      }
+
+      .cls-7, .cls-5 {
+        fill: #e64173;
+      }
+
+      .cls-8 {
+        fill: #e5e5e5;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10, .cls-4 {
+        fill: #6a5acd;
+      }
+
+      .cls-11 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        fill: none;
+        stroke: #314f4f;
+        stroke-miterlimit: 10;
+        stroke-width: 2.5px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        font-family: FiraSansExtraCondensed-Regular, 'Fira Sans Extra Condensed';
+      }
+
+      .cls-14 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <rect class="cls-7" x=".5" y="74.39" width="244.25" height="262.01"/>
+      <path class="cls-11" d="M244.25,74.89v261.01H1V74.89h243.25M245.25,73.89H0v263.01h245.25V73.89h0Z"/>
+    </g>
+    <g>
+      <rect class="cls-10" x="623.43" y="74.39" width="244.25" height="262.01"/>
+      <path class="cls-11" d="M867.17,74.89v261.01h-243.25V74.89h243.25M868.17,73.89h-245.25v263.01h245.25V73.89h0Z"/>
+    </g>
+    <g>
+      <rect class="cls-2" x="311.96" y="74.39" width="244.25" height="262.01"/>
+      <path class="cls-11" d="M555.71,74.89v261.01h-243.25V74.89h243.25M556.71,73.89h-245.25v263.01h245.25V73.89h0Z"/>
+    </g>
+    <g>
+      <rect class="cls-8" x=".5" y="386.86" width="244.25" height="570.95"/>
+      <path class="cls-11" d="M244.25,387.36v569.95H1V387.36h243.25M245.25,386.36H0v571.95h245.25V386.36h0Z"/>
+    </g>
+    <g>
+      <rect class="cls-10" x="623.43" y="386.86" width="244.25" height="570.95"/>
+      <path class="cls-11" d="M867.17,387.36v569.95h-243.25V387.36h243.25M868.17,386.36h-245.25v571.95h245.25V386.36h0Z"/>
+    </g>
+    <g>
+      <rect class="cls-2" x="311.96" y="386.86" width="244.25" height="570.95"/>
+      <path class="cls-11" d="M555.71,387.36v569.95h-243.25V387.36h243.25M556.71,386.36h-245.25v571.95h245.25V386.36h0Z"/>
+    </g>
+    <line class="cls-13" x1="949.2" y1="73.89" x2="949.2" y2="336.9"/>
+    <line class="cls-13" x1="949.2" y1="386.36" x2="949.2" y2="958.32"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <text class="cls-5" transform="translate(111.85 55.42)"><tspan x="0" y="0">X</tspan></text>
+    <text class="cls-4" transform="translate(734.77 55.42)"><tspan x="0" y="0">Y</tspan></text>
+    <text class="cls-6" transform="translate(964.88 187.26)"><tspan class="cls-14" x="0" y="0">c</tspan><tspan class="cls-12" x="14.17" y="0">omp</tspan><tspan class="cls-16" x="77.41" y="0">l</tspan><tspan class="cls-9" x="86.41" y="0">e</tspan><tspan class="cls-14" x="103.13" y="0">t</tspan><tspan x="113.96" y="0">e</tspan><tspan x="0" y="43">samp</tspan><tspan class="cls-16" x="78.09" y="43">l</tspan><tspan x="87.1" y="43">e</tspan></text>
+    <text class="cls-6" transform="translate(979.83 642.38)"><tspan x="0" y="0">in</tspan><tspan class="cls-15" x="26.87" y="0">c</tspan><tspan x="41.04" y="0">omp</tspan><tspan class="cls-16" x="104.27" y="0">l</tspan><tspan x="113.28" y="0">e</tspan><tspan class="cls-14" x="130" y="0">t</tspan><tspan class="cls-9" x="140.83" y="0">e</tspan><tspan x="0" y="43">samp</tspan><tspan class="cls-16" x="78.09" y="43">l</tspan><tspan x="87.1" y="43">e</tspan></text>
+    <text class="cls-3" transform="translate(423.31 55.42)"><tspan x="0" y="0">X</tspan></text>
+    <text class="cls-1" transform="translate(410.09 40.1)"><tspan x="0" y="0">^</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,532 @@
+/*-- scss:defaults --*/
+
+@import "https://fonts.googleapis.com/css?family=Zilla+Slab:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i";
+@import "https://fonts.googleapis.com/css?family=Sarabun:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i";
+// @import "https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i";
+// @import "https://fonts.googleapis.com/css?family=Inconsolata:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i";
+@import "https://fonts.googleapis.com/css?family=Cascadia+Code:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i";
+// @import "https://fonts.googleapis.com/css?family=Iosevka+Charon+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i";
+
+/* $font-family-monospace: "Iosevka Charon Mono", monospace; */
+$font-family-monospace: "Cascadia Code", monospace;
+$font-family-sans-serif: "Sarabun", sans-serif;
+$presentation-heading-font: "Zilla Slab", serif;
+
+$co-pink: #e64173;
+$co-slate: #314f4f;
+$co-purple: #6a5acd;
+$co-purple-lt: #d8bfd8;
+$co-orange: #ffa500;
+$co-turquoise: #44c1c4;
+$co-yellow: #d8bd44;
+$co-green: #7cae96;
+$co-grey: #8aa19e;
+$co-blue: #3b3b9a;
+$co-red: #fb6107;
+$co-grey-mid: #7f7f7f;
+$co-grey-ml: #cccccc;
+$co-grey-light: #d2d2d2;
+$co-grey-vlight: #e5e5e5;
+$co-white: #ffffff;
+$co-black: #000000;
+
+$body-bg: $co-white;
+$body-color: $co-slate;
+$link-color: $co-pink !default;
+$presentation-heading-color: $co-slate;
+$presentation-font-size-root: 30px;
+
+$theme-sub: $co-grey-ml;
+$new-arrow: "\21B3";
+
+/*-- scss:rules --*/
+
+.reveal {
+    color: $co-slate;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.reveal .slides {
+    text-align: left;
+}
+
+#title-slide {
+    /* background-color: #ffffff; */
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+/* .reveal .title-slide {
+    background-position: 75% 50%;
+} */
+
+#title-slide > h1 {
+    font-weight: 400;
+}
+
+#title-slide > h2 {
+    margin-top: -25px;
+    padding-bottom: -20px;
+    color: rgba(249, 38, 114, 0.75);
+    text-shadow: none;
+    font-weight: 300;
+    font-size: 35px;
+    font-style: normal;
+    text-align: left;
+    margin-left: 15px;
+}
+
+// #title-slide .author,
+// #title-slide .quarto-title-authors,
+#title-slide .date {
+    color: $co-grey;
+    font-size: 0.82em;
+}
+
+.subtitle {
+    /* color: $theme-sub !important; */
+    color: $body-color !important;
+    font-style: italic;
+    margin-top: 0em;
+    font-weight: lighter;
+}
+
+.reveal h2 {
+    color: $co-slate;
+    font-weight: 400;
+    margin-bottom: 0.35rem;
+}
+
+.reveal h3 {
+    color: $theme-sub !important;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 0.95em;
+}
+
+.reveal h4 {
+    color: $theme-sub !important;
+    font-weight: normal;
+    margin-top: 1.25em;
+}
+
+.reveal p,
+.reveal li {
+    line-height: 1.42;
+}
+
+.reveal p {
+    margin: 0.5rem 0 0.8rem 0;
+}
+
+.reveal ul {
+    font-weight: lighter;
+    padding-left: 16px;
+    li::marker {
+        color: mix($theme-sub, white, 60%);
+    }
+}
+
+.reveal ul ul {
+    list-style: none;
+    li::before {
+        content: $new-arrow;
+        color: mix($theme-sub, white, 60%);
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        margin-right: 0.5em;
+    }
+}
+
+.reveal ol {
+    font-weight: lighter;
+    padding-left: 16px;
+    li::marker {
+        color: $theme-sub;
+    }
+}
+
+code {
+    font-size: 0.95em;
+    font-weight: 300;
+    color: $co-slate !important;
+}
+
+// Override default inline code styles
+.reveal code {
+    font-family: $font-family-monospace;
+    font-weight: 300 !important;
+    // padding: 0.9em 0em !important;
+    border: none !important;
+}
+
+// Override default code block styles
+.reveal div.sourceCode,
+.reveal div.sourceCode pre,
+.reveal div.sourceCode pre code,
+.reveal .cell-output pre,
+.reveal .cell-output pre code {
+    font-size: 0.9em !important;
+    font-weight: 400;
+    // padding-left: .8em !important;
+    padding-bottom: 0.25em !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+// Create a light background for source code blocks
+.reveal code.sourceCode {
+    background-color: mix($co-black, white, 5%);
+}
+
+// Hide code block line numbers
+.reveal pre.numberSource {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.reveal pre.numberSource code > span {
+    left: 0 !important;
+}
+.reveal pre.numberSource code > span > a:first-child::before {
+    content: none !important;
+    display: none !important;
+}
+
+// Override default fragment styles
+.reveal .fragment {
+    transition-duration: 0.28s;
+}
+
+.reveal .progress {
+    background: $co-white;
+    color: $co-pink;
+    height: 0.12rem;
+}
+
+.reveal .slide-number {
+    right: 0.85rem !important;
+    bottom: 0.7rem !important;
+    padding: 0.12rem 0.38rem;
+    border-radius: 999px;
+    background: rgba($co-white, 0.88);
+    color: $co-grey-vlight !important;
+    font-family: $presentation-heading-font;
+    font-size: 0.42em;
+}
+
+.reveal .controls {
+    color: $co-purple-lt !important;
+}
+
+.reveal .slide-menu-button .fa-bars::before {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(216,191,216)" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>') !important;
+}
+
+.reveal img {
+    border: none;
+    box-shadow: none;
+}
+
+.pink {
+    color: $co-pink !important;
+}
+.slate {
+    color: $co-slate !important;
+}
+.purple {
+    color: $co-purple !important;
+}
+.orange {
+    color: $co-orange !important;
+}
+.turquoise {
+    color: $co-turquoise !important;
+}
+.yellow {
+    color: $co-yellow !important;
+}
+.green {
+    color: $co-green !important;
+}
+.grey {
+    color: $co-grey !important;
+}
+.blue {
+    color: $co-blue !important;
+}
+.red {
+    color: $co-red !important;
+}
+.grey-mid {
+    color: $co-grey-mid !important;
+}
+.grey-ml {
+    color: $co-grey-ml !important;
+}
+.grey-light {
+    color: $co-grey-light !important;
+}
+.grey-vlight {
+    color: $co-grey-vlight !important;
+}
+.white {
+    color: $co-white !important;
+}
+.black {
+    color: $co-black !important;
+}
+
+.hi,
+.hi-pink {
+    font-weight: 600;
+    color: $co-pink !important;
+}
+
+.hi-slate {
+    font-weight: 600;
+    color: $co-slate !important;
+}
+
+.hi-turquoise {
+    font-weight: 600;
+    color: $co-turquoise !important;
+}
+
+.hi-purple {
+    font-weight: 600;
+    color: $co-purple !important;
+}
+
+.hi-orange {
+    font-weight: 600;
+    color: $co-orange !important;
+}
+
+.hi-yellow {
+    font-weight: 600;
+    color: $co-yellow !important;
+}
+
+.hi-green {
+    font-weight: 600;
+    color: $co-green !important;
+}
+
+.hi-grey {
+    font-weight: 600;
+    color: $co-grey !important;
+}
+
+.hi-blue {
+    font-weight: 600;
+    color: $co-blue !important;
+}
+
+.hi-red {
+    font-weight: 600;
+    color: $co-red !important;
+}
+
+// Vertical centering
+.centered {
+    text-align: center !important;
+}
+// Horizontal centering
+.center-text {
+    display: flex;
+    justify-content: center !important;
+}
+
+.b {
+    font-weight: 600;
+}
+.mono {
+    font-family: $font-family-monospace;
+}
+.ul {
+    text-decoration: underline;
+}
+.ol {
+    text-decoration: overline;
+}
+.xx {
+    text-decoration: line-through;
+}
+.it {
+    font-style: italic;
+}
+// Semi-transparent
+.lt {
+    opacity: 20%;
+}
+// Light font weight
+.thin {
+    font-weight: 100;
+}
+
+.big {
+    font-size: 110%;
+}
+.bigger {
+    font-size: 125%;
+}
+.biggest {
+    font-size: 140%;
+}
+.huge {
+    font-size: 150%;
+}
+.small {
+    font-size: 95%;
+}
+.smaller {
+    font-size: 85%;
+}
+.smallest {
+    font-size: 75%;
+}
+.smallester {
+    font-size: 60%;
+}
+.tiny {
+    font-size: 50%;
+}
+
+.slab {
+    font-family: "Zilla Slab" !important;
+}
+
+.ex {
+    font-family: "Zilla Slab" !important;
+    font-weight: 300;
+    font-style: italic;
+    color: $co-grey-ml;
+}
+
+.super {
+    vertical-align: super;
+    font-size: 70%;
+    line-height: 1%;
+}
+
+.sub {
+    vertical-align: sub;
+    font-size: 70%;
+    line-height: 1%;
+}
+
+.top {
+    display: inline-block;
+}
+
+.bottom {
+    border-top: solid $co-black 1px;
+    display: inline-block;
+    clear: left;
+}
+
+.tran {
+    opacity: 0 !important;
+}
+
+.tran50 {
+    opacity: 0.5 !important;
+}
+
+.tran25 {
+    opacity: 0.25 !important;
+}
+
+.attn,
+.qa {
+    font-weight: 500;
+    color: $co-pink !important;
+    font-family: "Zilla Slab" !important;
+}
+
+.note {
+    font-weight: 300;
+    font-style: italic;
+    color: $co-slate !important;
+    font-family: "Zilla Slab" !important;
+}
+
+.mono-small {
+    font-family: $font-family-monospace;
+    font-size: 0.82em;
+}
+
+.pseudocode,
+.pseudocode-small {
+    font-family: $font-family-monospace;
+    background: #f8f8f8;
+    border-radius: 0.3em;
+    padding: 0.5em 0.65em;
+}
+
+.pseudocode-small {
+    font-size: 0.82em;
+}
+
+// Footnotes
+aside {
+    color: $co-grey-ml !important;
+}
+
+.middle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.right {
+    text-align: right;
+}
+
+.dark-slide {
+    background-color: #23373b;
+    border-top: 0px solid #23373b;
+}
+.dark-slide .remark-slide-number {
+    display: none;
+}
+
+.white-slide {
+    background-color: #ffffff;
+    border-top: 0px solid #ffffff;
+}
+.white-slide .remark-slide-number {
+    display: none;
+}
+
+// Override default math styles
+.reveal mjx-container {
+    font-size: 100% !important;
+}
+.mjx-chtml {
+    font-size: 100% !important;
+}
+
+// Wide hat
+.widehat {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.05em;
+}
+.widehat::before {
+    content: "";
+    position: absolute;
+    top: -0.02em;
+    left: 0.04em;
+    right: 0.04em;
+    height: 0.24em;
+    background: currentColor;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%, 88% 100%, 50% 24%, 12% 100%);
+    pointer-events: none;
+}

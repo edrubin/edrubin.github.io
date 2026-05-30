@@ -1,0 +1,167 @@
+---
+title: '(When) is seeing believing?'
+subtitle: '[What earth observation resolves and complicates for environmental economics]{.small}'
+author:
+  - name: Ed Rubin
+    email: edwardr@uoregon.edu
+    affiliation: University of Oregon
+editor:
+  render-on-save: true
+format:
+  clean-revealjs:
+    slide-level: 2
+    theme: [my.scss, default]
+    highlight-style: gruvbox
+    # embed-resources: true
+    slide-number: c/t
+    incremental: false
+    controls-layout: edges
+    transition: none
+    preview-links: auto
+    html-math-method: mathjax
+    code-line-numbers: false
+execute:
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| echo: false
+#| warning: false
+#| message: false
+
+# Packages
+library(pacman)
+p_load(fastverse, stringr, ggplot2, magick, scales, viridis, here)
+# Colors
+co_pink = '#e64173'
+co_slate = '#314f4f'
+co_purple = '#6a5acd'
+co_orange = '#ffa500'
+co_grey_mid = '#7f7f7f'
+co_grey_ml = '#cccccc'
+co_grey_light = '#d2d2d2'
+co_grey_vlight = '#e5e5e5'
+```
+
+## {auto-animate=true auto-animate-easing="ease-in-out" transition-speed="fast"}
+<!-- part 1 -->
+
+![[**Marketed performance may not match case-specific performance**, Dickinson and Rubin]{.smallest}](images/validation/dickinson-validation.png){width=70% .nostretch}
+
+<!-- advertised performance -->
+::: {.absolute style="left: 72.5%; top: 19%; width: 10%; height: 10%; border: 3px solid #6a5acd; pointer-events: none;" data-id="focus-box"}
+:::
+
+<!-- inner-fold sampling: ind (lags) -->
+::: {.absolute style="left: 72.5%; top: 7.5%; width: 10%; height: 7.5%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="inner"}
+:::
+
+<!-- outer-fold sampling: ind (lags) -->
+::: {.absolute style="left: 18.5%; top: 16.5%; width: 4%; height: 11%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="outer"}
+:::
+
+::: {.purple .smaller}
+**Advertised performance:** [R^2^ = 0.84]{.mono}
+<br>↳ "standard cross validation" randomly samples from the panel;
+<br>↳ _i.e._, ignores spatial/temporal/clustered correlations.
+:::
+
+## {auto-animate=true auto-animate-easing="ease-in-out" transition-speed="fast"}
+<!-- part 2 -->
+
+![[**Testing models in space drops advertised R^2^**, Dickinson and Rubin]{.smallest}](images/validation/dickinson-validation.png){width=70% .nostretch}
+
+<!-- Advertised performance -->
+::: {.absolute style="left: 72.5%; top: 19%; width: 10%; height: 10%; border: 3px solid #6a5acd4D; pointer-events: none;"}
+:::
+
+<!-- spatial cv (lags) -->
+::: {.absolute style="left: 58.5%; top: 37.5%; width: 10%; height: 10%; border: 3px solid #6a5acd; pointer-events: none;" data-id="focus-box"}
+:::
+
+<!-- inner-fold sampling: spatial (lags) -->
+::: {.absolute style="left: 57.5%; top: 7.5%; width: 12%; height: 7.5%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="inner"}
+:::
+
+<!-- outer-fold sampling: spatial (lags) -->
+::: {.absolute style="left: 18.5%; top: 32.5%; width: 4.3%; height: 20.5%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="outer"}
+:::
+
+::: {.purple .smaller}
+**Spatial cross-validation performance:** [R^2^ = 0.63]{.mono}
+<br>↳ models struggle to predict into new spatial locations...
+<br>↳ even when they get spatial lags.
+:::
+
+## {auto-animate=true auto-animate-easing="ease-in-out" transition-speed="fast"}
+<!-- part 3 -->
+
+![[**Spatial lags help with autocorrelation but violate CV folds**, Dickinson and Rubin]{.smallest}](images/validation/dickinson-validation.png){width=70% .nostretch}
+
+<!-- r2, advertised performance -->
+::: {.absolute style="left: 72.5%; top: 19%; width: 10%; height: 10%; border: 3px solid #6a5acd4D; pointer-events: none;"}
+:::
+
+<!-- r2, spatial cv (lags) -->
+::: {.absolute style="left: 58.5%; top: 37.5%; width: 10%; height: 10%; border: 3px solid #6a5acd4D; pointer-events: none;"}
+:::
+
+<!-- r2, spatial cv (no lags) -->
+::: {.absolute style="left: 24.5%; top: 37.5%; width: 10%; height: 10%; border: 3px solid #6a5acd; pointer-events: none;" data-id="focus-box"}
+:::
+
+<!-- inner-fold sampling: spatial (lags) -->
+::: {.absolute style="left: 22.8%; top: 7.5%; width: 12%; height: 7.5%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="inner"}
+:::
+
+<!-- outer-fold sampling: spatial (lags) -->
+::: {.absolute style="left: 18.5%; top: 32.5%; width: 4.3%; height: 20.5%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="outer"}
+:::
+
+::: {.purple .smaller}
+**Spatial cross-validation performance _without spatial lags_:** [R^2^ = 0.35]{.mono}
+<br>↳ spatial lags take advantage of spatial correlations...
+<br>↳ but also allow for from training to testing folds.
+:::
+
+## {auto-animate=true auto-animate-easing="ease-in-out" transition-speed="fast"}
+<!-- part 4 -->
+
+![[**Marketed performance may not match case-specific performance**, Dickinson and Rubin]{.smallest}](images/validation/dickinson-validation.png){width=70% .nostretch}
+
+<!-- r2, advertised performance -->
+::: {.absolute style="left: 72.5%; top: 19%; width: 10%; height: 10%; border: 3px solid #6a5acd4D; pointer-events: none;"}
+:::
+
+<!-- r2, spatial cv (lags) -->
+::: {.absolute style="left: 58.5%; top: 37.5%; width: 10%; height: 10%; border: 3px solid #6a5acd4D; pointer-events: none;"}
+:::
+
+<!-- r2, spatial cv (no lags) -->
+::: {.absolute style="left: 24.5%; top: 37.5%; width: 10%; height: 10%; border: 3px solid #6a5acd; pointer-events: none;"}
+:::
+
+<!-- r2, spatial-ind cv (no lags) -->
+::: {.absolute style="left: 38.5%; top: 37.5%; width: 10%; height: 10%; border: 3px solid #ffa500; pointer-events: none;" data-id="focus-box"}
+:::
+
+<!-- inner-fold sampling: ind (no lags) -->
+::: {.absolute style="left: 38.8%; top: 7.5%; width: 10%; height: 7.5%; border: none; background-color: #ffa5004D; pointer-events: none;" data-id="inner"}
+:::
+
+<!-- inner-fold sampling: spatial (lags) -->
+::: {.absolute style="left: 22.8%; top: 7.5%; width: 12%; height: 7.5%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="inner"}
+:::
+
+<!-- outer-fold sampling: spatial (lags) -->
+::: {.absolute style="left: 18.5%; top: 32.5%; width: 4.3%; height: 20.5%; border: none; background-color: #6a5acd4D; pointer-events: none;" data-id="outer"}
+:::
+
+::: {.smaller}
+**ML models are struggling in space:** [R^2^ ~ 0.34 (< .84)]{.mono}
+<br>↳ Whether we train with [spatial]{.purple} or ["standard"]{.orange} CV, ML models are struggling<br>[↳]{.white} to predict at _new_ spatial locations.
+<br>↳ More [spatially]{.purple} explicit learners may be needed...
+<br>↳ [Standard]{.orange} validation hides important information.
+:::
