@@ -4,7 +4,7 @@
     "href": "bio.html",
     "title": "Ed Rubin",
     "section": "",
-    "text": "I live in Eugene, Oregon (USA) with my amazing wife, Shelley, and our awesome kids—Theo, Clara, and Wendell.\nI am an assistant professor of economics at the University of Oregon. I received my PhD from the Department of Agricultural and Resource Economics at UC Berkeley. Before studying at UC Berkley, I earned a B.S. in mathematics, an M.S. in statistics, and an M.S. in agricultural economics—all at the University of Nebraska–Lincoln.\nIf not at school, I’m hopefully outside and/or playing with my family. I love people, data, trees, maps, Truth, Beauty, and good food. And bikes.\nmore\n\nmy favorite research tools;\nuseful/interesting links; \nmy research;\nsome recent photos.\n\ncontact\n\nemail: edwardr @ uoregon . edu\ninstagram: @edwardarubin"
+    "text": "I live in Eugene, Oregon (USA) with my amazing wife, Shelley, and our awesome kids—Theo, Clara, and Wendell.\nI am an associate professor of economics at the University of Oregon. I received my PhD from the Department of Agricultural and Resource Economics at UC Berkeley. Before studying at UC Berkley, I earned a B.S. in mathematics, an M.S. in statistics, and an M.S. in agricultural economics—all at the University of Nebraska–Lincoln.\nIf not at school, I’m hopefully outside and/or playing with my family. I love people, data, trees, maps, Truth, Beauty, and good food. And bikes.\nmore\n\nmy favorite research tools;\nuseful/interesting links; \nmy research;\nsome recent photos.\n\ncontact\n\nemail: edwardr @ uoregon . edu\ninstagram: @edwardarubin"
   },
   {
     "objectID": "photos.html",
@@ -21,11 +21,704 @@
     "text": "Useful and/or interesting links for research/productivity/fun.\n\n20240221\n\nTabby  Super customizable, cross-platform termial app.\nWarp  Rust-based terminal with AI.\n\n20230323\n\nExpressions  App with (pretty) live preview of regular expressions.\n\n20220302\n\nDeckDeckGo  Interactive, web-based presentations. h/t\n\n20211025\n\nBrowse AI  Track websites. h/t\n\n20210924\n\nRectangle  Window management based on Spectacle.\n\n20210208\n\nCamo  Use your phone as a webcam. h/t\n\n20210208\n\nBeeper  A single app to unite all your messaging apps. h/t\n\n20210126\n\nggpomological  ggplot2 theme based upon the USDA’s pomological watercolor collection.\n\n20210122\n\ndisk.frame  R package that allows you to treat on-disk data as though it were in-memory (i.e., use data.table or tidyverse). Bonus blog from Bruno Rodrigues.\n\n20210121\n\nASCII Decorator  Sublime plugin for ASCII Decorations.\nMachine learning flashcards  Flashcards for ML concepts.\nlazyrmd  Lazy rendering of rmd.\n\n20201215\n\nxaringanExtra  Extra skills for the R package xaringan.\nxaringanthemer  More themes for xaringan.\n\n20201005\n\nvoice dream apps \n\nreader reads anything aloud (200+ voices in 30 languages).\nwriter helps you proofread out loud.\nscanner is for text recognition of scans.\n\nFreshwater Ecosystems Explorer  Data platform with accurate, up-to-date, high-resolution geospatial data depicting the extent freshwater ecosystems change over time.\n\n20200915\n\nSynergy  Control multiple computers with a single keyboard/mouse.\nBook: Dive into Deep Learning Online deep learning book.\nApache Arrow for R  R package for Apache Arrow in-memory platform. h/t\nWizard Zines Collection  Programming zines. h/t\n\n20200915\n\nButterick’s Practical Typography  Online book with practical advice on typography.\n\n20200915\n\ntweek  Online weekly planner. h/t\n\n20200914\n\nMail Merge for Thunderbird  A mail merge extension for Thunderbird.\n\n20200820\n\nCompiled ESS point datasets  Compendium of compiled Earth System Science point data sets.\n\n20200409\n\nStack  Browser built for multi-tasking. h/t\n\n20200409\n\ncodetime  Text-editor plugin for coding metrics and timing. h/t\ndescript  Record and edit audio as a transcript. h/t\nHypothesis  Annotate the web—and share it. h/t\nOnline conference options  There’s more for things bigger than Zoom:\n\nhopin\nRun the World\nVito h/t\n\n\n20200210\n\nOld Book Illustrations  A compendium of illustrations from “old books”.\nradian  An alternative console for R with multiline editing and rich syntax highlight. h/t\n\n20200106\n\nlearnr  R package to create Markdown-based, interactive tutorials.\n\n20191224\n\nConvertio  File conversion across 300+ formats.\n\n20191219\n\nArcane Office  In-cloud, private/secure/de-centralized, free office suite.\nCrosstalk  Cross-widget interactions in R.\npanelView  R package for visualizing treatment, missing-ness, and outcomes in panel data.\nspeaking.io  Public-speaking tips. h/t\nStandard ebooks  Curated, high-quality, free ebooks.\n\n20191203\n\ncally  Find common dates/locations for group events. h/t\nGantt.io  Easy, pretty, online Gantt charts. h/t\n\n20190923\n\ndevhints  A collection of cheatseets, e.g., bash, regex and vim.\n\n20190923\n\njQuery cheatsheet  Cheatseet for jQuery.\n\n20190821\n\nblastula  Send beautiful HTML emails from R.\n\n20190717\n\nReally Good Emails  Currated collection of beautiful, well-crafted emails. h/t\ntresorit  Secure cloud storage. h/t\n\n20190717\n\nIn-Browser Markdown Editors  - HackMD - StackEdit - Madoko\n\n20190715\n\nNoted  Integrated audio-recording and note-taking app.\n\n20190702\n\nTwizzy  Simple, clean flowchart tool. h/t\n\n20190620\n\nTwizzy  Twitter without the timeline (just message and tweet). h/t\n\n20190326\n\nrticle  LaTeX journal article templates for R Markdown.\n\n20190326\n\nMakepad  (Online) project management for single users—no team features.\n\n20190319\n\nFirefox Send  Send files up to 2.5GB (1GB without signing in). h/t\nTAYL  Turn text articles into podcasts. h/t\nWorkbench  Code-free data sharing and analysis platform.\n\n20190219\n\nMarvin  “Ultimate” productivity tool. h/t\n\n20190131\n\nButtondown  Simple, online, markdown-based newsletter app.\n\n20190115\n\nBackground Music  Audio utility to automatically pause music and/or mute specific applications.\n\n20181221\n\ndrake  R package for workflow management of data-driven tasks.\nfontawesome package  LaTeX package to access Font Awesome icons.\n\n20181207\n\nNES.css  NES-style CSS Framework.\nrayshader  R package for producing 2D and 3D hillshaded maps of elevation matrices. h/t\n\n20181205\n\niotools  R package for streaming and data parsing.\n\n20181128\n\npqR  A “pretty quick” version of R. h/t\n\n20181127\n\ncloudyr  A collection of R packages that connect R to cloud resources.\n\n20181120\n\nfst  Fast and easy serialization of data frames in R (and Julia).\nRStudio Server Amazon Machine Images  Louis Aslett provides a tremendous public service in hosting and updating (and providing basic instructions for) RStudio/R machine images for Amazon.\n\n20181015\n\nSpaceship Prompt  Minimalistic and flexible Zsh prompt.\ntrminal  Quickly opens a Mac Terminal (or iTerm 2) window for the current Finder directory. Akin to Go2Shell but with more frequent/recent updates.\n\n20181008\n\nColorBox  Custom color-scale builder. h/t\nlatex2exp  R package that converts LaTeX expressions to (annoying) plotmath.\n\n20181002\n\nSuperhuman  Very fast email client (based on what they say). h/t\n\n20180928\n\nWhat If  Tool for inspecting machine-learning models.\n\n20180925\n\nGeoDa  Free, open-source geospatial software.\niTerm2 borderless  A nice patch for iTerm2 that creates a more minimal aesthetic for iTerm2.\nkitty  GPU-based terminal emulator.\n\n20180911\n\nRbox  R package to run R in Atom.\n\n20180831\n\nRMarkdown presentation by Yihui Xie  A presentation by Yihui Xie on bookdown, blogdown, and xaringan. There are many more presentations available by Yihui Xie.\n\n20180830\n\nhey-pane  Atom extension for enlarging the active panel (includes keyboard shortcut).\ntyping.io  Typing practice for many programming languages.\n\n20180815\n\nDeclareDesign  Declaring and analyzing research designs in the social sciences. h/t\nR for Data Science  Online book about R for Data Science by Garrett Grolemund and Haldey Wickham.\n\n20180718\n\nBiblatex Cheat Sheet  A cheat sheet for Biblatex.\nWriting tools for Atom  linter-write-good lints English prose. Linter Just Say No helps you avoid using hedge words.\n\n20180718\n\nBib-it  Compendium of BibTeX entry and field types.\nCulture Concorde  Simple menu-bar curated-music player. h/t\nDotgrid  “Minimal vector drawing tool”. h/t\n\n20180524\n\nUberConference  Great, feature-rich meeting platform.\n\n20180516\n\nFigure it Out  Pretty Chrome extension (and website) to figure out time zones.\ngrasshopper  Free app that teaches coding.\ntxt.fyi  “This is the dumbest publishing platform on the web.” h/t\n\n20180510\n\nGradescope  Grading web service with really nice grading/rubric setup.\n\n20180430\n\nScreenFocus  Auto-dim (and auto-un-dim) when working with multiple monitors. h/t\n\n20180426\n\nClocker  OSX app to plan and organize through timezones.\nimdone  Atom package that provides a card- and list-based user interface for TODOs in your scripts.\nthemer  Generates color themes given a set of colors.\n\n20180419\n\nbinder  Turns a GitHub repo into a collection of interactive notebooks. h/t\n\n20180410\n\nGnotes  Simple markdown to Evernote. Somewhat like Marxico.\ngsynth  R package for generalized synthetic control methods.\n\n20180406\n\nSuperLearner  R package for a prediction-model ensembling method.\n\n20180403\n\nBeautiful AI  AI-powered presentations.\n\n20180329\n\nAcademic Sequitur  A website that tracks over 90 major economics and finance journals.\n\n20180320\n\nTeletype for Atom  An Atom package to collaborate in real time.\n\n20180315\n\nAppleHealthAnalysis  An R package to import and analyze data from the iOS Apple Health app.\n\n20180301\n\nregex-railroad-diagram package  A regular expression railroad diagram view for regular expression under cursor in Atom.\n\n20180301\n\nThings 3  Personal task manager. I’m switching from OmniFocus.\nWorkflow  Automation tool for iOS.\n\n20180213\n\nhiri  Clean, powerful email/calendar/task/contact app.\n\n20180202\n\nXML Sitemaps  Simple tool for creating XML sitemaps (along with other formats).\n\n20180129\n\nViridis in QGIS  Viridis color palettes (ramps) for QGIS.\n\n20180115\n\nLittleSnitch  View and manage internet connections from your Mac. (Also: MicroSnitch)\nSwiftText  Quick-access scratchpad for OSX.\nggthemr  Themes and palettes for ggplot2.\n\n20171227\n\nTypely  Free online proofreading.\n\n20171130\n\nResistbot  A bot who finds and contacts your Congressional representatives.\n\n20171129\n\nText Mining with R  An introduction to (tidy) text mining in R.\n\n20171122\n\nsf  Stellar package for spatial data analysis in R. More sf resources: 1 | 2 | 3 | 4 | 5\n\n20171115\n\nCheat sheets for regular expressions  The folks at RStudio provides cheat sheets for regular expressions and stringr (and many other cheat sheets).\n\n20171107\n\nAuthor  App to instantly create and publish documents to the web.\n\n20171030\n\nggforce  A package for R that aims to extend ggplot2 for explorative data visualization.\nggplot2 extensions  A helpful website that tracks extensions to R’s ggplot2 package.\n\n20171018\n\n3Blue1Brown  A YouTube channel that animates math.\n\n20171014\n\nGitFinder  A fast and lightweight Git client for Mac with Finder integration.\n\n20171010\n\nDrop  Beautiful color picker with Touch Bar support.\nIndex  Save and search your “stuff”.\nQbserve  Automatically tracks both productivity and work hours. h/t\nTripMode  Blocks apps from accessing the internet. h/t\nTyke  Scratch paper that lives in your menubar. h/t\n\n20171003\n\nPod  A “connected” calendar for iOS. h/t\n\n20170927\n\nTabagotchi  Fun browser extension that incentives fewer tabs.\n\n20170831\n\nCrime Data  The FBI has a great new crime data explorer. The Open Data Census project has a handy(-ish) summary of city-level crime datasets.\nPlain Email  Four-action email-processing app.\nRambox  Cross-platform messaging and emailing app.\nScienceFair  Search, collect, read and analyze scientific papers.\n\n20170828\n\nearth  A (beautiful) global map of wind, weather, and ocean conditions.\n\n20170825\n\nFree, open-source machine learning, statistics, and data-mining resources  A curated list of resources from Joseph Misiti.\nTemplate for R Markdown academic manuscript  Steven Miller offers a guide and template for academic manuscripts in R Markdown.\n\n20170824\n\nRegular expressions in R  stringr’s very helpful primer on regular expressions in R.\n\n20170807\n\nGifmock  Creates high-quality GIFs.\ntwist  A calmer Slack alternative.\n\n20170806\n\nHemingway  App that improves your writing.\n\n20170804\n\nrmapshaper  R package for “topologically-aware multi-polygon simplification” (for shapefiles). Related: mapshaper.org\n\n20170803\n\nManually re-index OSX Spotlight  A helpful guide. Hint: It’s really just sudo mdutil -E /.\n\n20170727\n\nColibri  A browser without tabs.\n\n20170722\n\neverydayCheck  A simple, pretty habit tracker. h/t\nOrai  AI-powered feedback for your speeches. h/t\n\n20170713\n\nVelox  Fast raster manipulation in R.\n\n20170608\n\nTabulizer  Extract tables from PDFs using R.\n\n20170606\n\n10 Minute Mail  Disposable email service.\n\n20170531\n\nWindscribe  VPN with a generous free allowance.\n\n20170528\n\nSplitShow  Tool for dual-head presentations on OSX.\n\n20170526\n\nTwo apps from Matthew Palmer:\nRocket  Mind-blowing (Slack-style) emoji on your Mac.\nVanilla  Hides menu bar icons on your Mac. h/t\n\n20170522\n\nMaterial Colors  A convenient website for accessing the colors of the material design palette.\n\n20170516\n\nAstro  Email app(s) powered by AI. h/t\nsip  Collects, organizes, and shares colors (and palettes). h/t\n\n20170515\n\nrJava error  A very helpful guide to fixing errors with rJava on OSX.\n\n20170507\n\nTextExpander  Expands custom keyboard shortcuts into frequently-used text and pictures.\n\n20170430\n\nkobra  Simple, real-time, code collaboration.\n\n20170426\n\nleaflet  Access Leaflet’s JavaScript library inside of R.\npacman An R package for easy package management in R—loading, unloading, etc.\n\n20170414\n\nPopular economics papers  Oxford University Press provides a list of the most popular economics papers from The Quarterly Journal of Economics (QJE) and The Review of Economics Studies (REStud).\n\n20170410\n\nUnpaywall  Read paywalled research papers for free.\n\n20170406\n\nVPN  In addition to having great names, CyberGhost and TunnelBear provide VPN services. Both services offer free options.\n\n20170331\n\nLaTeX, meet ggplot2  Port images out out of R and into LaTeX. h/t\n\n20170329\n\nComparing text files  Diffchecker and Text Compare! offer in-browser comparisons between text documents. In Atom, split-diff and compare-files offer between-document comparisons.\n\n20170324\n\nasciicinema  asciinema (formerly ascii.io) is a free and open source solution for recording terminal sessions and sharing them on the web.\nMarkdown online  Dillinger, StackEdit, and Markdown Live Preview offer three online Markdown editors/renderers. remark, Marp, swipe, and Deckset offer options for rendering Markdown into presentation slides (also, Rmarkdown with ioslides).\n\n20170312\n\nFocusList A daily planner and focus app based on Pomodoro. h/t\nGiphy Capture Create GIFs on your Mac. Other options: Gifox, Recordit, and Gyazo.\n\n20170227\n\npander An R Pandoc writer—for rendering R objects into Pandoc’s markdown.\n\n20170209\n\nTypora A live and minimal Markdown editor.\n\n20170206\n\nGGally Extends R’s ggplot2 with many helpful graphical functions.\n\n20170123\n\nLightTable Open-source text editor with in-line code evaluation.\n\n20170123\n\nRedkix Reat-time email app.\nTypeform Clean, online forms.\n\n20170123\n\nCodr A lightweight, collaborative pastebin (whiteboard) for code.\nSageMathCloud Collaboratively use open source math software/terminals in your browser.\nSubEthaEdit (4) Collaborative text editing.\n\n20170116\n\nMac Setup Helpful guide for setting up a Mac for most popular languages and programming/scripting tools.\n\n20170115\n\nStudies Flash cards for iOS and OSX.\n\n20170112\n\nNoizio White-noise generating app for OSX.\nWeTransfer Sends files.\n\n20170111\n\nDue Fast to-do list app with reminders.\nExist Track everything you do in one place.\n\n20170109\n\nTomatimer A loose and straightforward pomodoro timer for Atom.\n\n20170105\n\nMarkdown Quick Look Plugin Preview Markdown files in OSX Finder (through the Preview app). From the makers of the iPad Markdown text editor InkMark.\n\n20170101\n\nRead the Docs Create, host, and browse documentation.\n\n20161230\n\nCloudinary Image and video management in the cloud.\n\n20161228\n\nSpark A fast, personalizable email client.\n\n20161227\n\nPostImage Free image hosting and upload.\nSmall Victories Takes files in a Dropbox folder and turns them into a website.\n\n20161222\n\nTinyLetter A free personal newsletter service.\n\n20161219\n\nPandas Cheat Sheet A cheat sheet for data science with Python’s Pandas.\n\n20161215\n\nMapInSeconds.com Quickly turns spreadsheets into maps. h/t\n\n20161208\n\nR Markdown Websites A tutorial on building a website using R Markdown (like this one). h/t The rmdformats package offers additional themes (formats). More on R Markdown here. The bookdown package extends R Markdown to publishing books. The blogdown package extends R Markdown to publishing blogs (or general websites) using Hugo. The pkgdown package extends R Markdown to creating static html documentation.\n\n20161205\n\nDivvy Provides customized window management.\nBetterTouchTool Configure gestures for OSX.\n\n20161121\n\nSelector Gadget Point-and-click CSS selectors. Helpful when used in conjunction with R’s rvest package.\n\n20161118\n\nVivaldi A highly customizable browser.\n\n20161115\n\nGitKraken A GUI Git client, for Windows, Mac and Linux.\n\n20161107\n\nCalendly Simple, beautiful scheduling.\n\n20161106\n\nBear A flexible writing app for crafting notes and prose.\nOLS Notes Some nice notes on ordinary least squares from Michael Rosenfeld at Stanford.\nShodan Search engine for internet of things (and other things).\n\n20161031\n\nFacking Operator Mono Font in Atom A guide to building a font system in Atom similar to Operator Mono.\n\n\n20161028\n\nPomodoro Time and Tadam Pomodoro Time and Tadam are simple Pomodoro timers.\n\n20161019\n\nThenmap A repository of historical borders.\n\n20161007\n\nGeocodio (Reasonably) accurate, affordable, and unrestricted online geocoding (forward/reverse and batch/API). Connect with R through rgeocodio.\n\n20161006\n\nCanary Mail A “simple, smart, swift” email client for Mac with many nice features.\n\n20161004\n\nGithub Pages and Jekyll tutorial From UC Berkeley’s The Hacker Within, a nice tutorial on Github Pages and Jekyll.\npdftools A fast and portable PDF extractor for R (and others).\n\n20161003\n\nProducteev Team-oriented productivity software.\n\n20160930\n\nGhost Browser A browser that lets you isolate cookie jars into color coded tabs so you can run multiple sessions with multiple accounts on the same web site.\nHocus Focus Automatically hide inactive windows.\nNoisli In-browser white-noise generator with productivity and relax settings.\nStandard Resume One resume that works everywhere.\n\n20160928\n\nUnivariate Distribution Relationships Interactive chart for relationships between univariate distributions.\n\n20160926\n\nOpentest Seamless screen, mic and camera recording for Chrome.\n\n20160919\n\nHabitica Improve your habits by playing a game.\n\n20160906\n\nLinus screen Screen effectively allows signing on and off from interactive sessions on a server/Linux shell.\n\n20160822\n\nREVEAL.JS Javascript-backed HTML presentation framework.\n\n\n20160813\n\nQuickLookR OSX-based QuickLook plugin for R’s save() & saveRDS() files. h/t\n\n20160811\n\nMulti-File LaTeX projects ShareLaTeX’s guide to building LaTeX documents from multiple files.\nSMS Email Combine R’s sendmailR with this list of SMS email addresses to send text messages from R.\nStargazer Cheatsheet A cheatsheet for R’s stargazer package.\n\n20160810\n\nYakYak Desktop chat client for Google Hangouts.\n\n20160804\n\nScript Run scripts in Atom based on file name, a selection of code, or by line number.\nTerm2 Open Terminal tabs in Atom. In the past, I’ve also used Terminal Plus.\n\n20160801\n\nSizeUp Keyboard-centric window management. h/t\n\n20160722\n\nmunsell Package in R for for Munsell’s color theme.\n\n20160714\n\nggalt Extra coordinate systems, geoms, statistical transformations, and scales for R’s ggplot2 package.\nggthemes Some extra geoms, scales, and themes for R’s ggplot package package.\n\n20160710\n\nBoxy A Gmail Inbox client for Mac.\nSurfEasy Data protection.\n\n20160708\n\nColor Oracle A color blindness simulator for Window, Mac and Linux.\n\n20160706\n\nOSX option-key bindings A helpful superuser post about removing the character bindings for the option (alt) key in OSX.\n\n20160702\n\nextrafont R package to use other (any?) fonts in R. h/t\n\n20160701\n\nR guides Computerworld offers a beginner’s guide to R, as well as an advanced beginner’s guide to R. h/t\n\n20160624\n\nGrammerly In-browswer and in-app grammar and spelling checker.\nMarkdown Here In-browser Markdown formatting for Chrome, Firefox, Safari, and Thunderbird.\n\n20160620\n\nSAS Studio Web application for SAS that you access through your web browser.\nShiftIt Manages and position windows in OSX.\n\n20160609\n\nBarTender (2) Organizes your menu bar apps.\n\n20160510\n\nMailButler Your personal assistant for Apple Mail. h/t\nQuitter Automatically hides or quits apps after periods of inactivity. h/t\n\nXi Editor A modern editor with a backend written in Rust. h/t\n\n20160504\n\nconda and OSX Run PATH=$PATH:$HOME/anaconda/bin if OSX cannot find the path to conda.\nRodeo A data science IDE for Python.\n\n20150424\n\nMicro Terminal-based text editor. h/t\nMin A minimal web browser. h/t\n\n20160418\n\ntep Tamagotchi-based motivating fitness tracker.\n\n20160409\n\nCodeFights Practice coding in real-time races against others.\nFont Awesome The iconic font and CSS toolkit.\n\n20160408\n\nKarabiner A powerful and stable keyboard customizer for OS X.\nTimer A simple timer app for OSX. h/t\n\n20160404\n\nProtonMail Secure email based in Switzerland.\n\n20160331\n\nCSS Diner A little game to help you learn CSS selectors.\n\nLightning Provides API-based access to reproducible web visualizations.\n\n20160325\n\nDiagrammeR Package to create graph diagrams and flowcharts using R.\nR Markdown Websites Basics from the R Markdown website. Blog on blogs using Jekyll and R Markdown. Example website\n\n20160315\n\nPandas Resources UC Berkeley’s The Hacker Within notes on Python Pandas.\n\n20160313\n\nJuliaDT An Eclipsed-based IDE for Julia.\n\n20160311\n\nRough Draft A writing app that offers the natural rough reminders of paper.\n\n20160310\n\nregular expressions 101 Live testing and help for regular expressions.\n\n20160301\n\nCastle Adventure Online emulator for 1984’s DOS game Castle Adventure.\n\n20160224\n\nLaTeX Dendrogram A simple dendrogram example for LaTeX.\nNYT Weather Charts The New York Times’s classic weather charts for more than 3000 cities.\npmax/pmin in R Take max. and min. with vector inputs in R.\nBackpropogation Example A step-by-step example of backpropogation.\n\n20160223\n\nBillion Dollar Prices Project MIT’s project to track prices via online retailers.\nmarkdown-toc Generate a table of contents for a Markdown file in Atom.\ntablr Edit CSVs using a table editor in Atom.\n\n20160209\n\nJulia Resources A guid to help you learn Julia in Y minutes. Slides on Julia for R programmers.\nLearn X in Y minutes Guides for learning things quickly.\n\n20160208\n\n.gitignore StackOverflow explanation on how to “[i]gnore files that have already been committed to a Git repository.”\nPandoc A universal document converter.\n\n20160204\n\nwmail OSX App for Google Inbox and Gmail.\n\n20160203\n\nPython Resources Jean Mark Gawron’s book Python for Social Sciences; O’Reilly’s book on how to think like a computer scientist, Think Python; a list of resources from Python at Berkeley; slides teaching Python for R Users.\n\n20160201\n\nFira Code Monospaced font with programming ligatures.\n\n20160131\n\nWhite Noise & Co. Frequency shaped colored noise generator.\n\n20160130\n\nFlowstate A writing app with strong incentives to keep moving.\n\n20160126\n\nKatex A fast math typesetting library for the web.\n\n20160121\n\nButterfly A browser-based terminal.\nUnix help A basic guide to UNIX from Berkeley’s I school.\n\n\n20160112\n\nGitBook A modern publishing toolchain.\n\n20160111\n\nOnline LaTeX Editors Papeeria, ShareLaTeX, Overleaf, and Authorea each offer online LaTeX editing, compiling, and collaboration.\nuiGradients Simple and attractive color gradients.\n\n20160107\n\n.Last.value. .Last.value displays the last value at the command line in R.\n\n20151223\n\nh/t for everything today\nCopied Clipboard manager for OSX and iOS.\nDeckset Slides from Markdown files.\nLaTeX Boilerplates Plain-text document production system.\nMinio Command-line accress to Google and Amazon cloud storage.\n\n\n20151216\n\nCaret A simple Markdown editor and previewer h/t.\nJango Browser-based streaming radio—essentially Pandora but with only one advertisement each day.\n\n20151213\n\nCleanMyMac Clean up files on a Mac.\nR-Fiddle A browser-based IDE for R.\n\n\n20151201\n\npryr Another package from Hadley Wickham; this one helps to pry back R’s layers. I’m using it for mem_used() and object_size().\ndata.table and .SD .SD allows you easily choose many columns from a data.table in R. h/t (plus a more transparent demo)\n\n20151130\n\nCodinGame Learn/practice coding while playing games.\n\n20151117\n\nLaunchBar (6) LaunchBar adds actions to OSX’s keyboard commands.\nR style More from Hadley Wickham: his R style guide from his book Advanced R.\n\n20151110\n\nbigvis Hadley Wickham strikes again: bigvis helps visualize large (big) data sets.\n\n20151104\n\nFreeze OSX app to access Amazon Glacier archives. h/t\nSpectacle Move and resize windows for OSX.\nxombrero Minimalist, high-security browser. h/t\n\n20151102\n\nForecast.io API JSON API for Dark Sky/Forecast.io weather forecasts and history.\n\n20151029\n\nOpenStreetMap tools Mapzen metro extracts offer weekly OpenStreetMap extracts for major metro areas. overpass turbo allows you to query the OSM API.\n\n20151029\n\nJuliaBox Run Julia from the browser.\n\n20151028\n\nMapzen An open-source mapping lab.\nSublime Text 3 in terminal (OSX) A stackoverflow thread on how to create a symbolic link for Sublime Text in the OSX terminal.\n\n20151027\n\nknitr::kable kable is a function in R’s knittr package that creates formatted tables (Markdown, LaTeX, etc.) from data.frames within R. Seems like it would pair perfectly with broom’s tidy function.\n\n20151025\n\nGithub Pages + Jekyll = Blog A streamlined tutorial on setting up a blog with Github Pages with Jekyll.\n\n20151023\n\nProse A clean editor for Github.\n\n20151022\n\ncsvkit A handy suite of .csv operations for the terminal. Includes Excel-to-CSV conversion. h/t\ngimli Convert markup files to pdf files.\nPhoto Gallery Options thumbsup builds static HTML galleries for local photos and videos. Expose generates static sites for photoessays.\n\n20151021\n\nimport.io Turns websites into data.\nSublime Text and File Browsing FileBrowser creates an extra panel for keyboard browsing files in Sublime Text; File Navigator allows basic navigation and file management through a Sublime terminal.\n\n20151020\n\nSpeedfari Browser for iOS that blocks unnecessary parts of websites. h/t\n\n20151014\n\nOSX Terminal Themes A set of terminal themes for OSX.\n\n20151013\n\nStackEdit A really nice in-browser Markdown editor that allows for themes, hotkeys, simultaneous collaboration, and publishing straight to blogs.\n\n20151010\n\nScotch on Jekyll A nice tutorial on Jekyll (publishing blogs/websites).\noh my zsh Framework for managing ZSH configuration.\n\n20151009\n\nGo2Shell Creates a shortcut in OSX’s Finder to open a Terminal window.\niTerm2 An alternative terminal for OSX.\nregexr.com Live testing of regular expressions.\n\n20151008\n\nColorout Color your R output in the terminal.\n\n2015107\n\nGit Large File Storage An open source Git extension for versioning large files.\nR and AWS Tutorials for running R and RStudio with Amazon’s web services.\n\n20151001\n\nPersonal R Packages A nice guide to building your own R package.\n\n20150928\n\nGit Guide A pretty simple guide to Git.\n\n20150925\n\nSyncer A fast file/disk syncer.\n\n20150924\n\nClassroom Resources Some resources from CodeAcademy and GitHub for the classroom.\nDictater Replacement for built-in Speech services.\nGit Large File Store Open-source versioning for large files.\n\n20150923\n\nGit Tutorials “Git in five minutes” (I think it took me a bit longer). And a very clear description of how to add an existing project to GitHub using Git in the command line.\n\n20150922\n\nJaro Mail Private, terminal-based email. h/t\n\n20150921\n\nSquire An HTML5 rich text editor that works across browsers and generations.\n\n20150914\n\nEtherpad Online, collaborative text editing.\nMadoko A fast Markdown processor that makes presentations, documents, html, etc. h/t\nVoiceCode Softward that promises to allow you to code via spoke word.\n\n20150910\n\nLearning to git Illustrated examples and a (supposedly) 15-minute game.\nSpyfall A popular party game; an independent online version; an English rulebook.\n\n20150909\n\nPrism Code highlighting via JavaScript. Apparently, Prism is a spin-off of dabblet.\nEmail from R The mail package in R allows you to send an email(see the sendmail function)—very helpful for letting you know when a task finishes running.\n\n20150907\n\nEvernote in Sublime Text Submit and edit notes in Evernote from Sublime Text (also allows for Markdown).\nPygments Code highlighting for many applications.\n\n20150906\n\nArranger Arranges application windows (or Finder windows) for OSX.\nCoda A text editor targeting web applications.\nCodeanywhere A code editor accessible in your browser or on mobile devices. Features include ssh and multiple cursors.\n\n20150905\n\nSymbolset Sells sets of icons.\n\n20150905\n\nNoun Project An app with a compendium of icons. h/t to John Loeser\nThimble An online code editor from Mozilla (HTML, CSS, and JavaScript plus tutorials).\n\n20150903\n\nNext A simple expense-tracking app.\nReading Lists Bill Easterly’s development economics reading list. h/t Sol Hsiang’s sustainable development reading list. And Sol’s syllabus/reading list for his summer workshop in the economics of climate change.\n\n20150902\n\nJavaScript in R The R package V8 allows you to access JavaScript functions from R. An example with parsing human names.\nLanguages for GFM A handy list of all the languages known to GitHub Flavored Markdown.\n\n20150901\n\nDrought Reports EcoWest created a great interactive map for US drought severity. h/t\nHosting Websites with Dropbox Pancake.io offers help in hosting a website via Dropbox (or git). So does DropPages.\nPixel Maps Create pixel maps of anywhere in the world.\n\nRandom Google Maps Shaun Utter wrote some code to grab a random Google Map and colors it. Pretty.\nScraping with R (+ Rasters) Zev Ross shows how to scrape using the R package rvest. Zev also has two nice tutorials on working with rasters in R (1 and 2).\nTyme A time-management app with a timer and a project management system.\n\n20150831\n\nColor Blender Blends two colors.\n\nDaisyDisk Beautiful OSX app for analyzing memory allocation on your hard drive (and recovering space).\nEmail Clients for OSX I just came across Kiwi—a gmail-as-desktop-client app for Mac. I’m currently alternating between Inbox in-browser and Mailbox. I previously used Airmail and played with Unibox.\nHours Another way to track your time. Only for iOS at the moment.\nItsycal A nice, little calendar for the OSX menu bar—also keyboard friendly. h/t\nR Packages for Open Science A set of R packages for open science.\nSearch R’s Documentation An online search engine for R’s documentation.\nTime Sink Time everything you do on your computer. Could be scary.\n\n20150830\n\nAlternote A pretty note-taking app for Evernote (OSX).\nEllo An alternative social network site. (Say the name aloud and think “British.”)\nMotion in Social Pretty cool research on motion… and perhaps and even cooler portrayal.\nMultiMarkdown Syntax Guide Guide for setting up metadata for Markdown. A lot of other stuff, too.\nNUMI A simple, beautiful, and versatile calculator for OSX. h/t\nTufte in R and CSS People applying Tufte’s principles in R and in CSS.\n\nLONG AGO\n\nCleaner Web Viewing Evernote Clearly cleans up web pages—particularly useful for blogs with lots of ads. Wikiwand cleans up Wikipedia pages automatically.\nFeedly Magazine-style (news reader)[https://feedly.com].\nFlashearth View Earth using many satellite options. A great time sink. Related: Earth View from Google Chrome extension.\nMarked 2 Very simple Markdown (or plain text) viewer. Works with many editors.\nMendeley Reference manager and PDF organizer.\npyFuture? galvanize offers a list of tools for Python and data.\nSkitch Skitch takes nice screen shots.\nSublime Text My favorite second-favorite text editor (supports everything). Multiple cursors make life easier. I’ve since moved to Atom.\nTransmit Terrific SFTP-FTP-S3 client for OSX.\nTo-Do Lists I now use Todoist Swipes OmniFocus Things (3). In the past, I played with Wunderlist and Swipes and Todoist and TeuxDeux and Any.Do.\nToggl Track your time."
   },
   {
+    "objectID": "slides/slides-ibeo-2026/history.html",
+    "href": "slides/slides-ibeo-2026/history.html",
+    "title": "Ed Rubin",
+    "section": "",
+    "text": "First, a little history"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/history.html#section",
+    "href": "slides/slides-ibeo-2026/history.html#section",
+    "title": "Ed Rubin",
+    "section": "",
+    "text": "First, a little history"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/history.html#how-time-flies",
+    "href": "slides/slides-ibeo-2026/history.html#how-time-flies",
+    "title": "Ed Rubin",
+    "section": "How time flies",
+    "text": "How time flies\nDonaldson and Storeygard (2016, i.e., 10 years ago!):\n\nThis research agenda for economists and other social scientists based on remote sensing data has made great strides in the last decade, but it seems safe to say that the real excitement lies ahead.\n\nInteresting historical note:\nMeasuring Economic Growth from Outer Space from Henderson, Storeygard, and Weil (2012, AER) came out almost 15 years ago!1"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/history.html#section-1",
+    "href": "slides/slides-ibeo-2026/history.html#section-1",
+    "title": "Ed Rubin",
+    "section": "",
+    "text": "However, 50 years ago, Thomas Croft (1978, Scientific American) wrote about observing population, anthropogenic lights, gas flaring, agricultural fires, and wildfires in the USAF Defense Meteorological Satellite Program (DMSP) and Landsat 1.\n\nAt first the pictures that were relayed electronically back to the earth for this purpose were routinely discarded after a day’s use, but the waste of potential scientific data was soon recognized and steps were taken to save the better auroral images.\n\nTwenty years later (and 25+ years ago), Elvidge et al. (1997, IJoRS) showed light emissions (via DMSP-OLS2) strongly correlated with GDP and electric power consumption."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/history.html#section-2",
+    "href": "slides/slides-ibeo-2026/history.html#section-2",
+    "title": "Ed Rubin",
+    "section": "",
+    "text": "Gas flaring in Landsat 1, Clark (1978)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/history.html#section-3",
+    "href": "slides/slides-ibeo-2026/history.html#section-3",
+    "title": "Ed Rubin",
+    "section": "",
+    "text": "Cutting-edge computing in 1978, advertisement in Clark 1978 article"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/history.html#section-4",
+    "href": "slides/slides-ibeo-2026/history.html#section-4",
+    "title": "Ed Rubin",
+    "section": "",
+    "text": "Around the same time: Harrison Schmitt took The Blue Marble from Apollo 17.\n{fig-align=‘right’,}"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/history.html#footnotes",
+    "href": "slides/slides-ibeo-2026/history.html#footnotes",
+    "title": "Ed Rubin",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nChen & Nordhaus (2011, PNAS) came out around the same time.↩︎\nDefense Meteorological Satellite Program Operational Linescan System↩︎"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing",
+    "href": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing",
+    "title": "(When) is seeing believing?",
+    "section": "When is seeing believing?",
+    "text": "When is seeing believing?\nMotivating example: Pollution levels\n\nFine particulate matter (PM2.5) predictions for July 2002 from four research groups (at 1 km2)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing-1",
+    "href": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing-1",
+    "title": "(When) is seeing believing?",
+    "section": "When is seeing believing?",
+    "text": "When is seeing believing?\nMotivating example: Pollution damages\n\nImplied cardio. mortality from PM2.5 from EPA monitors and four separate research groups (pct. increase in cardio. mortality from 1 µg/m3)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing-2",
+    "href": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing-2",
+    "title": "(When) is seeing believing?",
+    "section": "When is seeing believing?",
+    "text": "When is seeing believing?\nMotivating example: Pollution damages\n\nEstimated damages change farther from ground-truth data, complicating our inferences"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#remote-sensing-environmental-economics",
+    "href": "slides/slides-ibeo-2026/slides.html#remote-sensing-environmental-economics",
+    "title": "(When) is seeing believing?",
+    "section": "Remote sensing + environmental economics",
+    "text": "Remote sensing + environmental economics\nChanges\n\n\nRemote sensing1 is changing the way we “do” enviro. economics\n\nwhat we can measure,\nwhere/when we can measure it,\nhow2 we measure it.\n\n\n\n\n\nDeforestation and development near Yurimaguas, Peru, 2001 vs. 2019\n\n\n\nI’ll focus on satellite-based  remote sensing.)to a less-appreciated extent"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#the-promise",
+    "href": "slides/slides-ibeo-2026/slides.html#the-promise",
+    "title": "(When) is seeing believing?",
+    "section": "The promise",
+    "text": "The promise\n\n\nLearning from new measurements\nRemote sensing has helped solve  first-order measurement problems\n\nout-of-reach variables,\nin inaccessible areas,\nwith immense spatiotemporal coverage,1\nvalidating potentially manipulated data.\n\n\n \n\nIncreasing coverage. PM2.5 reg. monitors vs. predictions\n\n\noften with relatively high resolution"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#the-challenge",
+    "href": "slides/slides-ibeo-2026/slides.html#the-challenge",
+    "title": "(When) is seeing believing?",
+    "section": "The challenge",
+    "text": "The challenge\nErrors, uncertainty, and causal inference.\n\nWhere’s the forest? Disagreement in forest cover across eight remote-sensing products, Castle et al. (2026)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section",
+    "href": "slides/slides-ibeo-2026/slides.html#section",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Disagreement in biomass between 2 remote-sensing products for Kenya (ESRI vs. ESA), Castle et al. (2026)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#my-thesis",
+    "href": "slides/slides-ibeo-2026/slides.html#my-thesis",
+    "title": "(When) is seeing believing?",
+    "section": "My thesis",
+    "text": "My thesis\nMeasurement has improved. Critical questions remain.\n\n\nHow much should we trust remote-sensing measurements?  (Errors may be larger and more structured than expected.)\nHow do we fix causal inf. when using remotely sensed data?  (Some promising directions; can rely on infeasible data.)\nHow do we address endogenous ground-truth infrastructure?  (Bias and lack of generalization; more work needed.)\nHow do we address strategic responses?  (The cat-and-mouse game continues…)\nWhat roles do/can conventional data play in remote sensing?  (Very large roles!)\n\n\n(Reminds me of current conversations around AI/LLMs.)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#today",
+    "href": "slides/slides-ibeo-2026/slides.html#today",
+    "title": "(When) is seeing believing?",
+    "section": "Today",
+    "text": "Today\nOverview\nOverall, I hope to provide a 10,000-foot picture of\n\nwhat’s working: what we’re learning from remote sensing projects;\nwhat’s not working: concerns with current approaches, promising paths forward, and room for future innovation;\na false dilemma: roles for remote sensing data and “conventional” data."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-1",
+    "href": "slides/slides-ibeo-2026/slides.html#section-1",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Where is remote sensing offering new insights?  Everywhere."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#remote-sensing",
+    "href": "slides/slides-ibeo-2026/slides.html#remote-sensing",
+    "title": "(When) is seeing believing?",
+    "section": "Remote sensing",
+    "text": "Remote sensing\nExamples\nJust a few examples of recent applications\n↳ Measuring environmental quality ↳ air/water/soil quality, weather/climate, groundwater, invasive species"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-2",
+    "href": "slides/slides-ibeo-2026/slides.html#section-2",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Global, daily 1 km2 PM2.5, Wei et al. (2023)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-3",
+    "href": "slides/slides-ibeo-2026/slides.html#section-3",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Seawater alkalinity, Land et al. (2015) and ESA"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-4",
+    "href": "slides/slides-ibeo-2026/slides.html#section-4",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Land and sea surface temperatures, ESA"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-5",
+    "href": "slides/slides-ibeo-2026/slides.html#section-5",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Shallow-groundwater drought indicator, NASA JPL GRACE"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#remote-sensing-1",
+    "href": "slides/slides-ibeo-2026/slides.html#remote-sensing-1",
+    "title": "(When) is seeing believing?",
+    "section": "Remote sensing",
+    "text": "Remote sensing\nExamples—and why they matter\nJust a few examples of recent applications\n\n↳ Measuring environmental quality ↳ air/water/soil quality, weather/climate, groundwater, invasive species\n\n\n↳ Measuring land/resource use, land cover, and development ↳ nighttime lights, urban growth, land cover (change), wealth estimates"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-6",
+    "href": "slides/slides-ibeo-2026/slides.html#section-6",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Change in nighttime lights in Europe, 1992–2010, ESA"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-7",
+    "href": "slides/slides-ibeo-2026/slides.html#section-7",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Forest loss from gold mining in Ghana, Barenblitt et al. (2021)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-8",
+    "href": "slides/slides-ibeo-2026/slides.html#section-8",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Fishing intensity around Italy, Global Fishing Watch"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#remote-sensing-2",
+    "href": "slides/slides-ibeo-2026/slides.html#remote-sensing-2",
+    "title": "(When) is seeing believing?",
+    "section": "Remote sensing",
+    "text": "Remote sensing\nExamples—and why they matter\nJust a few examples of recent applications\n\n↳ Measuring environmental quality ↳ air/water/soil quality, weather/climate, groundwater, invasive species\n\n\n↳ Measuring land/resource use, land cover, and development ↳ nighttime lights, urban growth, land cover (change), wealth estimates\n\n↳ Auditing behavior ↳ mining, deforestation, fishing, land-use, even in situ monitoring"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-9",
+    "href": "slides/slides-ibeo-2026/slides.html#section-9",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Methane emissions near Tehran, Iran, NASA EMIT (2022)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-10",
+    "href": "slides/slides-ibeo-2026/slides.html#section-10",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Illegal Cannabis farms, LA Times (2022)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-11",
+    "href": "slides/slides-ibeo-2026/slides.html#section-11",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Spatiotemporal footprints of artisanal gold mining in protected forest in Indonesia, Lukman (2025)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-12",
+    "href": "slides/slides-ibeo-2026/slides.html#section-12",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "The “Dark Fleet”, Global Fishing Watch and untracked fishing vessels (A new application of “nighttime lights”!)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#remote-sensing-3",
+    "href": "slides/slides-ibeo-2026/slides.html#remote-sensing-3",
+    "title": "(When) is seeing believing?",
+    "section": "Remote sensing",
+    "text": "Remote sensing\nExamples—and why they matter\nJust a few examples of recent applications\n\n↳ Measuring environmental quality ↳ air/water/soil quality, weather/climate, groundwater, invasive species\n\n\n↳ Measuring land/resource use, land cover, and development ↳ nighttime lights, urban growth, land cover (change), wealth estimates\n\n\n↳ Auditing behavior ↳ mining, deforestation, fishing, land-use, even in situ monitoring\n\n↳ Natural disasters ↳ smoke plumes, wildfires, flood damage, hurricane impacts"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-13",
+    "href": "slides/slides-ibeo-2026/slides.html#section-13",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Detecting earthquake damage in Islahiye, Turkey with xView2"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-14",
+    "href": "slides/slides-ibeo-2026/slides.html#section-14",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Detecting flood extents in Australia and Pakistan, Portalés-Julià et al. (2023)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-15",
+    "href": "slides/slides-ibeo-2026/slides.html#section-15",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "CO emissions from Canadian wildfires, June 2023 (NASA)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-16",
+    "href": "slides/slides-ibeo-2026/slides.html#section-16",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Remote sensing has been around a little while…"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-17",
+    "href": "slides/slides-ibeo-2026/slides.html#section-17",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Nighttime lights in the 1970s, Clark (1978)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-18",
+    "href": "slides/slides-ibeo-2026/slides.html#section-18",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Population in the 1970s, Clark (1978)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-19",
+    "href": "slides/slides-ibeo-2026/slides.html#section-19",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Early measurement challenges: Development or gas flaring? Landsat 1, Clark (1978)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-20",
+    "href": "slides/slides-ibeo-2026/slides.html#section-20",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Even earlier: US gov’t surveyed 90+% of agricultural land via aerial photography 1938–1947"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-21",
+    "href": "slides/slides-ibeo-2026/slides.html#section-21",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Even earlier: US gov’t surveyed 90+% of agricultural land via aerial photography 1938–1947"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-22",
+    "href": "slides/slides-ibeo-2026/slides.html#section-22",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "… and now today (here: Google Earth)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-23",
+    "href": "slides/slides-ibeo-2026/slides.html#section-23",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "A bit closer yet (still Google Earth)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-24",
+    "href": "slides/slides-ibeo-2026/slides.html#section-24",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "How good is good enough? Satellite-based detection of mines, Maus et al. (2022) and GRU"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-25",
+    "href": "slides/slides-ibeo-2026/slides.html#section-25",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Zooming back out: How good is good enough? Global mining area added between v1 (2020) and v2 (2022) of Maus et al."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#the-challenges",
+    "href": "slides/slides-ibeo-2026/slides.html#the-challenges",
+    "title": "(When) is seeing believing?",
+    "section": "The challenges",
+    "text": "The challenges\nWhat’s next\nRemote sensing\n\nmakes big contributions for measurement and holds a lot of promise;1\npresents new measurement challenges for environmental economics.\n\n\nDonaldson and Storeygard (2016):\n\nOverall, it is essential for economists using remote sensing data to understand, and be skeptical of, the data and assumptions underlying them.\n\n\nWe still need to think about selection/endogeneity, mismeasurement, strategic responses, validation data, …\nAnd if you’re like me, you like shiny, new things."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing-3",
+    "href": "slides/slides-ibeo-2026/slides.html#when-is-seeing-believing-3",
+    "title": "(When) is seeing believing?",
+    "section": "When is seeing believing?",
+    "text": "When is seeing believing?\nMeasurement and mismeasurement\nMeasurement error is not new to economics (or statistics).1\nYet, remote sensing (RS) adds new elements to consider.\n\nmost RS data are processed; (raw data present their own challenges);\nRS products are often predictions from models that combine satellite imagery with other features;\ntraining/validation data are typically from selected/endogenous samples;\nactors may strategically respond to RS data (and its errors).\n\n⇒ concerns for identification, inference, and application.\nEarly stat. work: Adcock (1877/8); Kummell (1879); Gini (1921); Early econ. work: Frisch (1934); Koopmans (1937); Wald (1940); Haavelmo (1944); Reiersøl (1950); Durbin (1954)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#challenge-1-measurement-error",
+    "href": "slides/slides-ibeo-2026/slides.html#challenge-1-measurement-error",
+    "title": "(When) is seeing believing?",
+    "section": "Challenge #1: Measurement error",
+    "text": "Challenge #1: Measurement error\n\\(\\hat{x}\\) vs. \\(x\\)\nRemotely sensed variables have error.\nCurrent lit might acknowledge this issue—but rarely addresses it.\n\ndata products created without causal inference in mind;\nlikely not classical measurement error;\n⇒ biased point estimates and/or inference;\n\n\nPotential solutions:1\n\ntraining/validation should match use case;\nuse ground-truth/validation data to debias causal inference.\n\n\nOf course, with caveats."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-26",
+    "href": "slides/slides-ibeo-2026/slides.html#section-26",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Donaldson and Storeygard (2016)\n\n… it is important to recognize that the types of errors that would seriously jeopardize a typical economic application of remotely sensed data are not always a main concern of the remote sensing community."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-refresh",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-refresh",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error refresh",
+    "text": "Measurement error refresh\nSetup\nObserved value differs from the true value due to some measurement error \\[\\textcolor{#6a5acd}{x_\\text{obs}} = \\textcolor{#ffa500}{\\alpha_0} + \\textcolor{#ffa500}{\\alpha_1} \\textcolor{#e64173}{x_\\text{true}} + \\textcolor{#ffa500}{\\epsilon}\\]"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-refresh-1",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-refresh-1",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error refresh",
+    "text": "Measurement error refresh\nSetup\nObserved value differs from the true value due to some measurement error \\[\\textcolor{#6a5acd}{x_\\text{obs}} = \\textcolor{#ffa50040}{\\alpha_0} \\textcolor{#0000001A}{+} \\textcolor{#ffa50040}{\\alpha_1} \\textcolor{#e64173}{x_\\text{true}} + \\textcolor{#ffa500}{\\epsilon}\\]\nPapers frequently invoke attenuation bias from classical measurement error\n\n\\(\\textcolor{#6a5acd}{x_\\text{obs}}\\) is an unbiased1 estimate of \\(\\textcolor{#e64173}{x_\\text{true}}\\),\n\\(\\textcolor{#ffa500}{\\epsilon}\\) is independent of \\(\\textcolor{#e64173}{x_\\text{true}}\\),\n\\(\\textcolor{#ffa500}{\\epsilon}\\) is independent of any other variables of interest (outcomes or regressors).\n\nUnfortunately, RS likely generates non-classical measurement error.\n\\(\\textcolor{#ffa500}{\\alpha_0} = 0\\); \\(\\textcolor{#ffa500}{\\alpha_1} = 1\\); \\(E[\\textcolor{#ffa500}{\\epsilon}] = 0\\); and often \\(\\textcolor{#ffa500}{\\epsilon}\\) has a constant variance."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-27",
+    "href": "slides/slides-ibeo-2026/slides.html#section-27",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Mean-reverting measurement error: Monitored PM2.5 vs. predictions from Di et al. (2016), Fowlie, Rubin, and Walker (2019)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-28",
+    "href": "slides/slides-ibeo-2026/slides.html#section-28",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Mean-reverting measurement error: Monitored PM2.5 vs. predictions (NA) from vD et al. (2019), Fowlie, Rubin, and Walker (2019)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-29",
+    "href": "slides/slides-ibeo-2026/slides.html#section-29",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Mean-reverting measurement error: Monitored PM2.5 vs. predictions (Global) from vD et al. (2019), Fowlie, Rubin, and Walker (2019)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nIn remotely sensed variables\nIf \\(\\textcolor{#6a5acd}{x_\\text{obs}}\\) results from a prediction or calibration algorithm e.g., pollution, income, temp.\n\nwe often have mean-reverted predictions,\noverpredicting low values and underpredicting high values,\n\n\\[\\textcolor{#6a5acd}{x_\\text{obs}} = \\textcolor{#ffa500}{\\alpha_0} \\textcolor{#000000}{+} \\textcolor{#ffa500}{\\alpha_1} \\textcolor{#e64173}{x_\\text{true}} + \\textcolor{#ffa500}{\\epsilon}\\]\nwhere \\(\\textcolor{#ffa500}{\\alpha_0}  &gt; 0\\) and \\(0 &lt; \\textcolor{#ffa500}{\\alpha_1} &lt; 1\\). ⇒ No guarantee of attenuation bias.1\nCategorical/binned variables face a similar problem: Errors correlate with truth.\nUpdating the way I teach econometrics.."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-2",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-2",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nIn remotely sensed variables\nRecent work highlights a more prevalent and pernicious type of measurement error1 common to remotely sensed variables.\nDifferential measurement error\n\n\\(y = \\beta_0 + \\beta_1 \\textcolor{#6a5acd}{x_\\text{obs}} + \\textcolor{#7cae96}{u} \\quad\\quad\\quad\\) model of interest\n\\(\\textcolor{#6a5acd}{x_\\text{obs}} = \\textcolor{#ffa500}{\\alpha_0} + \\textcolor{#ffa500}{\\alpha_1} \\textcolor{#e64173}{x_\\text{true}} + \\textcolor{#ffa500}{\\epsilon} \\quad\\quad\\quad\\) measurement error\n\nand \\(\\textcolor{#ffa500}{\\epsilon}\\) correlates with \\(\\textcolor{#7cae96}{u}\\).\nI.e., error correlates with other factors that correlate with the outcome...… endogenous measurement error.\nProctor, Carleton, and Sum (2026) call this type of measurement error differential measurement error."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-30",
+    "href": "slides/slides-ibeo-2026/slides.html#section-30",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Differential measurement error: Counties’ mean pred. error for PM2.5 and population, Di et al. (2019) and van Donkelaar et al. (2024)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-31",
+    "href": "slides/slides-ibeo-2026/slides.html#section-31",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Differential measurement error: Counties’ mean pred. error for PM2.5 and income pc, Di et al. (2019) and van Donkelaar et al. (2024)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-32",
+    "href": "slides/slides-ibeo-2026/slides.html#section-32",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "So what?"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-3",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-3",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nSo what?\nPromise Remote sensing can change  what/how we understand the environment, economics, and policy...\n\nConcern …but, non-classical measurement error may significantly  impair our ability to learn anything from RS data.\n\n\n\npoint estimates: bias need not attenuate toward zero.1\ninference: confidence interval coverage can plummet.\n\n\n“Classic” papers in labor (Ashenfelter and Krueger, 1994) and crime (Chalfin and McCrary, 2016) also document measurement error bias as a first-order concern."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-33",
+    "href": "slides/slides-ibeo-2026/slides.html#section-33",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Coef. bias and conf. interval coverage issues, adapted from Proctor, Carleton, and Sum (2026)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-4",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-4",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nSo what?\nPromise Remote sensing can change  what/how we understand the environment, economics, and policy…\nConcern …but, non-classical measurement error may significantly  impair our ability to learn anything from RS data.\n\npoint estimates: bias need not attenuate toward zero.1\ninference: confidence interval coverage can plummet.\nheterogeneity: does het. reflect het. trt. effects or het. meas. error?\npolicy ranking: maps differ on areas w/ highest damages, benefits, …\n\n“Classic” papers in labor (Ashenfelter and Krueger, 1994) and crime (Chalfin and McCrary, 2016) also document measurement error bias as a first-order concern."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-5",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-5",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nEvidence so far\nThe problem is not “satellites are noisy.”\nThe problem is that the noise is structured in economically meaningful ways.\n\n\nSystematic parameter bias: Proctor, Carleton, and Sum show remotely sensed variables often fail to recover the target parameter.\nTreatment-correlated error: Alix-García and Millimet show forest measures can generate nonclassical bias in PES estimates.\nBinning/classification error: Carson and Yu; Wardle show discretization and misclassification can distort climate, crop, and land-use estimates.1\n\n\nRelated: New work by Jones et al. on binning in climate-response estimation."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-34",
+    "href": "slides/slides-ibeo-2026/slides.html#section-34",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "So what do we do?"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-6",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-6",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nWhat fixes have in common\nEmerging solutions generally share an architecture\n\n\n\n\n\n For small ground-truth sample: we observe \\(\\textcolor{#6a5acd}{\\text{Y}}\\) and \\(\\textcolor{#e64173}{\\text{X}}\\).\nUnbiased, high-variance estimates.\n\n\n For large RS sample: we observe \\(\\textcolor{#6a5acd}{\\text{Y}}\\) and \\(\\textcolor{#ffa500}{\\hat{\\text{X}}}\\)\nBiased, low-variance estimates."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-7",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-7",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nWhat fixes have in common\nEmerging solutions generally share an architecture\n\n\n\n\n However, there’s more to learn.\n\nComparing \\(\\textcolor{#ffa500}{\\hat{\\text{X}}}\\) to \\(\\textcolor{#e64173}{\\text{X}}\\) reveals patterns in measurement error.\nE.g., Multiple imputation from Proctor, Carleton, and Sum learns \\(\\textcolor{#e64173}{\\text{X}} = f(\\textcolor{#ffa500}{\\hat{\\text{X}}},\\, \\textcolor{#6a5acd}{\\text{Y}})\\), “correcting” \\(\\textcolor{#ffa500}{\\hat{\\text{X}}}\\).\n\n\nSanford et al.’s adversarial debiasing presents a somewhat related approach."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-8",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-8",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nWhat fixes have in common\nEmerging solutions generally share an architecture\n\n\n\n\n However, there’s more to learn.\nComparing \\(\\textcolor{#6a5acd}{\\text{Y}} \\sim \\textcolor{#ffa500}{\\hat{\\text{X}}}\\) to \\(\\textcolor{#6a5acd}{\\text{Y}} \\sim \\textcolor{#e64173}{\\text{X}}\\) reveals patterns in parameter-estimate bias.\nE.g., prediction-powered-inference and predict-then-debias. (Angelopoulos et al. and Kluger et al.)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#measurement-error-9",
+    "href": "slides/slides-ibeo-2026/slides.html#measurement-error-9",
+    "title": "(When) is seeing believing?",
+    "section": "Measurement error",
+    "text": "Measurement error\nWhat fixes have in common\nEmerging solutions generally share an architecture\n\n\n\n\n\nBroadly, these solutions\n\nlearn error behavior  from validation data;\ncorrect predictions/estimates;\npropagate uncertainty.\n\n\n\n… requiring validation data are\n\nhigh-quality;\nindependent of predictions;\nrepresentative of RS sample."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-35",
+    "href": "slides/slides-ibeo-2026/slides.html#section-35",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Back to our example: PM2.5 mortality near regulatory monitors  Naïve results, full sample\n\n\nImplied cardio. mortality from PM2.5 from EPA monitors and four separate research groups (pct. increase in cardio. mortality from 1 µg/m3)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-36",
+    "href": "slides/slides-ibeo-2026/slides.html#section-36",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Back to our example: PM2.5 mortality near regulatory monitors  PTD results, full sample\n\n\nImplied cardio. mortality from PM2.5 from EPA monitors and four separate research groups (pct. increase in cardio. mortality from 1 µg/m3)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-37",
+    "href": "slides/slides-ibeo-2026/slides.html#section-37",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Back to our example: PM2.5 mortality near regulatory monitors  Naïve results, far-from-monitor sample\n\n\nImplied cardio. mortality from PM2.5 from EPA monitors and four separate research groups (pct. increase in cardio. mortality from 1 µg/m3)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-38",
+    "href": "slides/slides-ibeo-2026/slides.html#section-38",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Back to our example: PM2.5 mortality near regulatory monitors  PTD results, far-from-monitor sample\n\n\nImplied cardio. mortality from PM2.5 from EPA monitors and four separate research groups (pct. increase in cardio. mortality from 1 µg/m3)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#challenge-2-validation-data",
+    "href": "slides/slides-ibeo-2026/slides.html#challenge-2-validation-data",
+    "title": "(When) is seeing believing?",
+    "section": "Challenge #2: Validation data",
+    "text": "Challenge #2: Validation data\nA common false dilemma\nRS data are often pitched as an alternative to “traditional” data.\nYet, RS-based causal inference relies on (traditional) ground-truth data.\n\n\npart of training/calibration/prediction;\npart of RS validation/quality control;\ncentral to meas.-error solutions.\n\n\n\nChallenge Ground-truth data often rely on endog. monitor infrastructures.\n\nselection into validation data ⇒ potential downstream bias; (\\(-\\) ext. validity)\nRS training/validation approaches often don’t match econ applications;\nstrategic responses to observation further “complicate things.”"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-39",
+    "href": "slides/slides-ibeo-2026/slides.html#section-39",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Example: Location of US EPA regulatory PM2.5 monitors (ground-truth), Dickinson and Rubin"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-40",
+    "href": "slides/slides-ibeo-2026/slides.html#section-40",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Example: Predicted PM2.5 monitor likelihood ML model using RS features, Dickinson and Rubin"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-41",
+    "href": "slides/slides-ibeo-2026/slides.html#section-41",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Example: Distance to nearest PM2.5 monitor, Dickinson and Rubin"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-42",
+    "href": "slides/slides-ibeo-2026/slides.html#section-42",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Non-random monitoring: Counties’ share of months with PM2.5 monitors and county population, author’s calculations"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-43",
+    "href": "slides/slides-ibeo-2026/slides.html#section-43",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Non-random monitoring: Counties’ share of months with PM2.5 monitors and income pc, author’s calculations"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-44",
+    "href": "slides/slides-ibeo-2026/slides.html#section-44",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Example: Correcting for monitoring selection, Dickinson and Rubin\n\n\n\n    Selection-correction can change results\ny-axis:  coefficient from regressing predicted PM2.5 on demog. pctl. (Black, Hispanic, White)  (includes tract and rural FEs)\nx-axis:  cutoff for monitor selection (sample ≥ x)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-45",
+    "href": "slides/slides-ibeo-2026/slides.html#section-45",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "There’s lots of work to do on this concern…\n\nPotential starting place: Area of applicability. (Meyer and Pebesma, 2021)\n↳ Restrict sample to locations where RS model has seen ↳ similar observations in importance-weighted feature space."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#validation-issues",
+    "href": "slides/slides-ibeo-2026/slides.html#validation-issues",
+    "title": "(When) is seeing believing?",
+    "section": "Validation issues",
+    "text": "Validation issues\nPoor upstream/downstream match\nRelated problem: We commonly face RS data mismatches\n\nupstream: calibration, training, and validation; (data generation)\ndownstream: econometric/policy applications; (data use)\n\n\nDownstream use should inform upstream modeling. ↳ We don’t train forecasting models on cross-sectional data. ↳ We shouldn’t spatially extrapolate using models built for interpolation.\n\n\nHowever, we often implicitly do these things when using remotely sensed data. ↳ RS data producers often don’t have causal inf. in mind. ↳ There aren’t one-size-fits-all datasets… data generation \\(\\neq\\) data application."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-46",
+    "href": "slides/slides-ibeo-2026/slides.html#section-46",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Marketed performance may not match case-specific performance, Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvertised performance: R2 = 0.84 ↳ “standard cross validation” randomly samples from the panel; ↳ i.e., ignores spatial/temporal/clustered correlations."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-47",
+    "href": "slides/slides-ibeo-2026/slides.html#section-47",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Testing models in space drops advertised R2, Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial cross-validation performance: R2 = 0.63 ↳ models struggle to predict into new spatial locations… ↳ even when they get spatial lags."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-48",
+    "href": "slides/slides-ibeo-2026/slides.html#section-48",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Spatial lags help with autocorrelation but violate CV folds (leakage), Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial cross-validation performance without spatial lags: R2 = 0.35 ↳ spatial lags take advantage of spatial correlations… ↳ also let data leak from training to testing folds."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-49",
+    "href": "slides/slides-ibeo-2026/slides.html#section-49",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Marketed performance may not match case-specific performance, Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nML models are struggling in space: R2 ~ 0.34 (&lt; .84) ↳ Whether we train with spatial or “standard” CV, ML models are struggling↳ to predict at new spatial locations. ↳ We aren’t learning as much as we think we are where we want to learn. ↳ More spatially explicit learners may be needed…"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-50",
+    "href": "slides/slides-ibeo-2026/slides.html#section-50",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Related: Boser (2024) shows\n\nhigh total R2 is achievable (.72),\neven when spatial R2 is quite low (.09).\n\n“Pooled” R2 also rewards explained temporal variation (R2 ≈ .83).\n(Akin to Simpson’s paradox.)\nRelated: Fixed effects can absorb a lot of variation in such predictions."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#validation-issues-1",
+    "href": "slides/slides-ibeo-2026/slides.html#validation-issues-1",
+    "title": "(When) is seeing believing?",
+    "section": "Validation issues",
+    "text": "Validation issues\nSolutions\nSolution1: Collaborate! Get involved upstream.\n\nDonaldson and Storeygard (2016)\n\nIncreased communication, and in some cases active collaboration, between economists and remote sensing scientists will be important in ensuring that the next wave of this kind of economics research is fruitful.\n\n\nI don’t think we’re doing a terrific job on this dimension.\nSolution2: Build data for your context and keep the project open source!1\nLack of open access to some RS data/tools perpetuates problems."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#what-about-strategy",
+    "href": "slides/slides-ibeo-2026/slides.html#what-about-strategy",
+    "title": "(When) is seeing believing?",
+    "section": "What about strategy?",
+    "text": "What about strategy?\nDetection\nRemote sensing offers new opportunities to monitor behavior…\n\n\n\nStrategic monitor shutdowns around high-pollution alerts among US EPA regulatory PM2.5 monitors; Mu, Rubin, and Zou (2024)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-51",
+    "href": "slides/slides-ibeo-2026/slides.html#section-51",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Imputing missed monitor observations with remote sensing for “interesting” monitors; Mu, Rubin, and Zou (2024)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-52",
+    "href": "slides/slides-ibeo-2026/slides.html#section-52",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Imputing missed monitor observations with remote sensing for “non-interesting” monitors; Mu, Rubin, and Zou (2024)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-53",
+    "href": "slides/slides-ibeo-2026/slides.html#section-53",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "… but don’t forget Goodhart’s Law/Lucas’s critique…\n\nA strategic deforestation scale response to satellite resolution and policy, Baragwanath and Shinde (2025)"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#what-about-strategy-1",
+    "href": "slides/slides-ibeo-2026/slides.html#what-about-strategy-1",
+    "title": "(When) is seeing believing?",
+    "section": "What about strategy?",
+    "text": "What about strategy?\nGoodhart and Lucas\n… but don’t forget Goodhart’s Law/Lucas’s critique…\n\ndeforestation scaled to avoid visible detection, (Baragwanath, Shinde; 2025)\ncrop-residual burning timing to avoid satellites, (Dasgupta; 2025)\nmonitor shutdowns around high-pollution forecasts. (Mu, Rubin, Zou; 2025)\n\n\nLand-cover classification at 10m and 300m resolutions, ESA"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-54",
+    "href": "slides/slides-ibeo-2026/slides.html#section-54",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "In case you were running out of things to worry about, NYT, 24 April 2026"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#other-issues-1",
+    "href": "slides/slides-ibeo-2026/slides.html#other-issues-1",
+    "title": "(When) is seeing believing?",
+    "section": "Other issues",
+    "text": "Other issues\nRecovering the model or the effect?\nRelated: What if prediction models train on features that we want to test?\nE.g., Most PM predictions use road density: PM = g(roads, …).\nWhat if you then regress predicted PM on road construction?\n\n\nTarget relationship\nRS relationship\n\\(\\implies\\)\n\n\n\nPM = \\(\\beta\\) roads + u\nPM = \\(\\beta^{r}\\) roads + v\ng(roads, …) = \\(\\beta^{r}\\) roads + v\n\nroads’ linearized PM effects\n…\nlinear approx. ML model\n\nThis concern grows as RS products increasingly use encodings from foundation models, which train/finetune on vast amounts of data."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#additional-directions",
+    "href": "slides/slides-ibeo-2026/slides.html#additional-directions",
+    "title": "(When) is seeing believing?",
+    "section": "Additional directions",
+    "text": "Additional directions\nCombining models\nThere are opportunities to combine RS with other modeling approaches.\n\n\n  Coupling RS, ML, & physical models\n\ncombines approaches’ strengths,\nallows for source attribution,\nmay complicate inference.\n\n\n\n\n\nHYSPLIT coal power plant emissions trajectories, Fowlie & Rubin"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#summary",
+    "href": "slides/slides-ibeo-2026/slides.html#summary",
+    "title": "(When) is seeing believing?",
+    "section": "Summary",
+    "text": "Summary\nWhere are we?\n\nRemote sensing changed what is possible for enviro. economics…\n\npreviously unobservable variables,\ncoverage where conventional data are sparse,\ntools to monitor hidden or strategic behavior.\n\n\n… but seeing is not the same as identifying.\n\npredicted variables rather than precise measurements;\nselection into ground truth;\nstill relies upon conventional (endogenous) monitoring systems.\n\n\n\nThe next frontier is not just more/better pixels.  ↳ improve identification/inference, validation, and monitoring infrastructure."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#conclusion",
+    "href": "slides/slides-ibeo-2026/slides.html#conclusion",
+    "title": "(When) is seeing believing?",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhere are we going?\nBuilding a remote-sensing audit…\n\n\nSource s\nError s\nGround truth s\nStrategy s\n\n\n\nWhere did the RS measurements originate? ↳ original source/goals, training, validation, …\nHow does error arise in the RS measurements? ↳ how will error propagate through causal inf. models?\nHow good are the ground-truth data? ↳ quality, completeness, generalizability\nWhich strategic responses should we anticipate? ↳ monitoring, policy, enforcement"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/slides.html#section-55",
+    "href": "slides/slides-ibeo-2026/slides.html#section-55",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Thank you!\nEd Rubin  ↳ edwardr@uoregon.edu  ↳ edrub.in"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ed Rubin",
     "section": "",
-    "text": "I’m Ed Rubin, an assistant professor in the Department of Economics at the University of Oregon.\n\nresearch\nI’m an environmental economist who researches how human behavior (individual and policy) affects social equity and the health of the natural world.\nAs an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.\nExamples from a few recent projects… ↳ unequal health impacts from glyphosate exposure ↳ curiously missing data in air-quality monitors ↳ disparate wildfire smoke avoidance ↳ a field experiment in customer-based gender bias ↳ pitfalls of machine learning in a 2SLS framework ↳ strategic location of coal-fueled power plants\n\n\nme\nPassions: the outdoors, bikes, good food/coffee/drinks, road trips beauty/photography, data, and (most of all) loving people.\n\n\nmore\nA few other professional items… I ↳ started TWEEDS with friends, ↳ help run OSWEET, ↳ co-wrote a textbook,↳ Data Science and Public Policy.\nPlease look around or contact me."
+    "text": "I’m Ed Rubin, an associate professor in the Department of Economics at the University of Oregon.\n\nresearch\nI’m an environmental economist who researches how human behavior (individual and policy) affects social equity and the health of the natural world.\nAs an empiricist, I tackle these issues with a toolbox that draws from econometrics, statistics, and data science.\nExamples from a few recent projects… ↳ unequal health impacts from glyphosate exposure ↳ curiously missing data in air-quality monitors ↳ disparate wildfire smoke avoidance ↳ a field experiment in customer-based gender bias ↳ pitfalls of machine learning in a 2SLS framework ↳ strategic location of coal-fueled power plants\n\n\nme\nPassions: the outdoors, bikes, good food/coffee/drinks, road trips beauty/photography, data, and (most of all) loving people.\n\n\nmore\nA few other professional items… I ↳ started TWEEDS with friends, ↳ help run OSWEET, ↳ co-wrote a textbook,↳ Data Science and Public Policy.\nPlease look around or contact me."
   },
   {
     "objectID": "contact.html",
@@ -98,6 +791,118 @@
     "text": "Greetings, fellow nerds! Here are the tools I most commonly use…\n\nText editing\n\nGeneral scripting/coding: VS Code but increasingly NvChad on ghostty\nLaTeX writing: Overleaf or VS Code with LaTeX Workshop\nSlides: Migrating to Quarto from xaringan\n\n\n\nTerminal\n\nghostty\nWarp\nOh My Zsh\nradian\nNeovim and NvChad\ndoi2bib\nlf\nSometimes a little tmux\n\n\n\nData work/analysis\n\nR in VS Code with radian\nR in NvChad with radian in ghostty, Warp, or Tabby\n\n\n\nProductivity\n\nNote taking: Obsidian\nTask management: Things 3 and Github Projects\nCalendar: Fantastical\nCalculator: Numi\nPasswords: Dashlane\nFTP: Transmit\nEmail: Spark\nRecipes: Mela\n\n\n\nComputer ease\n\nRectangle on OSX and gTile on Linux.\nAlfred\nNotability and PDF Expert\nBetterDisplay\n\n\n\nBrowser and extensions\n\nBrowser: Arc (and occasionally Brave)\nVPN: ProtonVPN"
   },
   {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html",
+    "title": "Image sources",
+    "section": "",
+    "text": "NASA (2022) Methane ‘Super-Emitters’ Mapped by NASA’s New Earth Space Mission https://www.nasa.gov/centers-and-facilities/jpl/methane-super-emitters-mapped-by-nasas-new-earth-space-mission/\nWei et al. (2023) First close insight into global daily gapless 1 km PM2.5 pollution, variability, and health impact https://link.springer.com/article/10.1038/s41467-023-43862-3\n\n\n\nLA Times (2022) Nobody knows how widespread illegal cannabis grows are in California. So we mapped them https://www.latimes.com/california/story/2022-09-08/how-we-mapped-illegal-cannabis-farms-in-california\n\n\n\nESA (2025) Southern Europe’s land and sea sizzles https://www.esa.int/ESA_Multimedia/Images/2025/07/Southern_Europe_s_land_and_sea_sizzles\n\n\n\nNASA Earth Observatory (2019) Tracking Amazon Deforestation from Above https://science.nasa.gov/earth/earth-observatory/tracking-amazon-deforestation-from-above-145988/ yurimaguas-oli-2019191\n\n\n\nNASA Wildfires and climate change https://science.nasa.gov/earth/explore/wildfires-and-climate-change/\nPortales-Julia et al. (2023) Global flood extent segmentation in optical satellite images https://www.nature.com/articles/s41598-023-47595-7?fromPaywallRec=false\nTate Ryan-Mosley (2023) How AI can actually be helpful in disaster response? https://www.technologyreview.com/2023/02/20/1068824/ai-actually-helpful-disaster-response-turkey-syria-earthquake/\n\n\n\nCastle et al. (2025) Global forest dataset incongruence creates high uncertainties for conservation, climate, and development policy https://www.cell.com/one-earth/abstract/S2590-3322(25)00384-7?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S2590332225003847?showall%3Dtrue https://news.mongabay.com/2026/02/scientists-cant-agree-on-where-the-worlds-forests-are/\n\n\n\nGlobal Fishing Watch Illuminating Vessel Activity On the Open Ocean https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/global-fishing-watch-illuminating-vessel-activity\nGlobal Fishing Watch Emerging technology gives first ever global view of hidden vessels https://globalfishingwatch.org/press-release/technology-highlights-hidden-vessels/\nGlobal Fishing Watch New Global Fishing Watch technology merges nighttime images with GPS datasets to observe vessels not broadcasting their positions https://globalfishingwatch.org/data/ais-viirs-reveals-dark-fleet/\nPaulo et al. (2024) Satellite mapping reveals extensive industrial activity at sea https://www.nature.com/articles/s41586-023-06825-8\n\n\n\nESA Climate Office High-resolution maps reveal ‘real-world’ land-use change https://climate.esa.int/es/noticias-y-eventos/high-resolution-maps-reveal-real-world-land-use-change/\n\n\n\nBarneblitt et al. (2021) The large footprint of small-scale artisanal gold mining in Ghana https://www.sciencedirect.com/science/article/pii/S0048969721017125?via%3Dihub\nLukman (2025) Illegal Mining From Space https://nasirlukman.github.io/blog/2025/illegal-mining/\nMaus et al. (2020) A global-scale data set of mining areas https://www.nature.com/articles/s41597-020-00624-w\nMaus et al. (2022) An update on global mining land use https://www.nature.com/articles/s41597-022-01547-4?fromPaywallRec=false\nVisualization: https://resource-use.global/visualisations/geovisualisations More resources: https://resource-use.global/visualisations\nTang and Werner (2023) Global mining footprint mapped from high-resolution satellite imagery https://www.nature.com/articles/s43247-023-00805-6\n\n\n\nESA Earth from Space: Night lights https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Night_lights https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2012/03/night_lights_in_europe/10102843-2-eng-GB/Night_lights_in_Europe_pillars.gif\nNASA Nighttime Lights https://www.earthdata.nasa.gov/topics/human-dimensions/nighttime-lights https://earthdata.nasa.gov/s3fs-public/2023-06/NighttimeLights_Radiance_Europe_NAfrica.jpg?VersionId=fsd3JkB_HY6BmL9HHRjiTchm7MHPhyWK\nLi et al. (2026) Satellite imagery reveals increasing volatility in human night-time activity https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/ https://www.nature.com/articles/s41586-026-10260-w\n\n\n\nNASA GRACE Water storage and drought indicators https://gracefo.jpl.nasa.gov/science/water-storage/ https://nasagrace.unl.edu/\nLand et al. (2015) Salinity from Space Unlocks Satellite-Based Assessment of Ocean Acidification https://pubs.acs.org/doi/full/10.1021/es504849s"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#air-quality",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#air-quality",
+    "title": "Image sources",
+    "section": "",
+    "text": "NASA (2022) Methane ‘Super-Emitters’ Mapped by NASA’s New Earth Space Mission https://www.nasa.gov/centers-and-facilities/jpl/methane-super-emitters-mapped-by-nasas-new-earth-space-mission/\nWei et al. (2023) First close insight into global daily gapless 1 km PM2.5 pollution, variability, and health impact https://link.springer.com/article/10.1038/s41467-023-43862-3"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#cannabis",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#cannabis",
+    "title": "Image sources",
+    "section": "",
+    "text": "LA Times (2022) Nobody knows how widespread illegal cannabis grows are in California. So we mapped them https://www.latimes.com/california/story/2022-09-08/how-we-mapped-illegal-cannabis-farms-in-california"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#climate-and-weather",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#climate-and-weather",
+    "title": "Image sources",
+    "section": "",
+    "text": "ESA (2025) Southern Europe’s land and sea sizzles https://www.esa.int/ESA_Multimedia/Images/2025/07/Southern_Europe_s_land_and_sea_sizzles"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#deforestation",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#deforestation",
+    "title": "Image sources",
+    "section": "",
+    "text": "NASA Earth Observatory (2019) Tracking Amazon Deforestation from Above https://science.nasa.gov/earth/earth-observatory/tracking-amazon-deforestation-from-above-145988/ yurimaguas-oli-2019191"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#disasters",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#disasters",
+    "title": "Image sources",
+    "section": "",
+    "text": "NASA Wildfires and climate change https://science.nasa.gov/earth/explore/wildfires-and-climate-change/\nPortales-Julia et al. (2023) Global flood extent segmentation in optical satellite images https://www.nature.com/articles/s41598-023-47595-7?fromPaywallRec=false\nTate Ryan-Mosley (2023) How AI can actually be helpful in disaster response? https://www.technologyreview.com/2023/02/20/1068824/ai-actually-helpful-disaster-response-turkey-syria-earthquake/"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#errors",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#errors",
+    "title": "Image sources",
+    "section": "",
+    "text": "Castle et al. (2025) Global forest dataset incongruence creates high uncertainties for conservation, climate, and development policy https://www.cell.com/one-earth/abstract/S2590-3322(25)00384-7?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S2590332225003847?showall%3Dtrue https://news.mongabay.com/2026/02/scientists-cant-agree-on-where-the-worlds-forests-are/"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#fishing",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#fishing",
+    "title": "Image sources",
+    "section": "",
+    "text": "Global Fishing Watch Illuminating Vessel Activity On the Open Ocean https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/global-fishing-watch-illuminating-vessel-activity\nGlobal Fishing Watch Emerging technology gives first ever global view of hidden vessels https://globalfishingwatch.org/press-release/technology-highlights-hidden-vessels/\nGlobal Fishing Watch New Global Fishing Watch technology merges nighttime images with GPS datasets to observe vessels not broadcasting their positions https://globalfishingwatch.org/data/ais-viirs-reveals-dark-fleet/\nPaulo et al. (2024) Satellite mapping reveals extensive industrial activity at sea https://www.nature.com/articles/s41586-023-06825-8"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#land-use",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#land-use",
+    "title": "Image sources",
+    "section": "",
+    "text": "ESA Climate Office High-resolution maps reveal ‘real-world’ land-use change https://climate.esa.int/es/noticias-y-eventos/high-resolution-maps-reveal-real-world-land-use-change/"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#mining",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#mining",
+    "title": "Image sources",
+    "section": "",
+    "text": "Barneblitt et al. (2021) The large footprint of small-scale artisanal gold mining in Ghana https://www.sciencedirect.com/science/article/pii/S0048969721017125?via%3Dihub\nLukman (2025) Illegal Mining From Space https://nasirlukman.github.io/blog/2025/illegal-mining/\nMaus et al. (2020) A global-scale data set of mining areas https://www.nature.com/articles/s41597-020-00624-w\nMaus et al. (2022) An update on global mining land use https://www.nature.com/articles/s41597-022-01547-4?fromPaywallRec=false\nVisualization: https://resource-use.global/visualisations/geovisualisations More resources: https://resource-use.global/visualisations\nTang and Werner (2023) Global mining footprint mapped from high-resolution satellite imagery https://www.nature.com/articles/s43247-023-00805-6"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#nighttime-lights",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#nighttime-lights",
+    "title": "Image sources",
+    "section": "",
+    "text": "ESA Earth from Space: Night lights https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Night_lights https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2012/03/night_lights_in_europe/10102843-2-eng-GB/Night_lights_in_Europe_pillars.gif\nNASA Nighttime Lights https://www.earthdata.nasa.gov/topics/human-dimensions/nighttime-lights https://earthdata.nasa.gov/s3fs-public/2023-06/NighttimeLights_Radiance_Europe_NAfrica.jpg?VersionId=fsd3JkB_HY6BmL9HHRjiTchm7MHPhyWK\nLi et al. (2026) Satellite imagery reveals increasing volatility in human night-time activity https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/ https://www.nature.com/articles/s41586-026-10260-w"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/images/ex-applications/sources.html#water",
+    "href": "slides/slides-ibeo-2026/images/ex-applications/sources.html#water",
+    "title": "Image sources",
+    "section": "",
+    "text": "NASA GRACE Water storage and drought indicators https://gracefo.jpl.nasa.gov/science/water-storage/ https://nasagrace.unl.edu/\nLand et al. (2015) Salinity from Space Unlocks Satellite-Based Assessment of Ocean Acidification https://pubs.acs.org/doi/full/10.1021/es504849s"
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/sandbox.html#section",
+    "href": "slides/slides-ibeo-2026/sandbox.html#section",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Marketed performance may not match case-specific performance, Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvertised performance: R2 = 0.84 ↳ “standard cross validation” randomly samples from the panel; ↳ i.e., ignores spatial/temporal/clustered correlations."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/sandbox.html#section-1",
+    "href": "slides/slides-ibeo-2026/sandbox.html#section-1",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Testing models in space drops advertised R2, Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial cross-validation performance: R2 = 0.63 ↳ models struggle to predict into new spatial locations… ↳ even when they get spatial lags."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/sandbox.html#section-2",
+    "href": "slides/slides-ibeo-2026/sandbox.html#section-2",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Spatial lags help with autocorrelation but violate CV folds, Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial cross-validation performance without spatial lags: R2 = 0.35 ↳ spatial lags take advantage of spatial correlations… ↳ but also allow for from training to testing folds."
+  },
+  {
+    "objectID": "slides/slides-ibeo-2026/sandbox.html#section-3",
+    "href": "slides/slides-ibeo-2026/sandbox.html#section-3",
+    "title": "(When) is seeing believing?",
+    "section": "",
+    "text": "Marketed performance may not match case-specific performance, Dickinson and Rubin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nML models are struggling in space: R2 ~ 0.34 (&lt; .84) ↳ Whether we train with spatial or “standard” CV, ML models are struggling↳ to predict at new spatial locations. ↳ More spatially explicit learners may be needed… ↳ Standard validation hides important information."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -137,7 +942,7 @@
     "href": "cv.html#academic-positions",
     "title": "Edward A. Rubin, CV",
     "section": "Academic positions",
-    "text": "Academic positions\nAssistant Professor, University of Oregon, Department of Economics, 2018–present"
+    "text": "Academic positions\nAssociate Professor, University of Oregon, Department of Economics, 2026–present Assistant Professor, University of Oregon, Department of Economics, 2018–2026"
   },
   {
     "objectID": "cv.html#education",

@@ -19,7 +19,7 @@ lightbox: true
 
 ::: {.column width="46%"}
 
-I'm [Ed Rubin](bio.html), an assistant professor in the [Department of Economics](https://economics.uoregon.edu) at the [University of Oregon](https://www.uoregon.edu).
+I'm [Ed Rubin](bio.html), an associate professor in the [Department of Economics](https://economics.uoregon.edu) at the [University of Oregon](https://www.uoregon.edu).
 
 ### research
 
