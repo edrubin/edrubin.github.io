@@ -17,12 +17,14 @@ format:
     theme: [my.scss, default]
     highlight-style: gruvbox
     # embed-resources: true
+    # self-contained-math: true
+    # html-math-method: katex
+    html-math-method: mathjax
     slide-number: c/t
     incremental: false
     controls-layout: edges
     transition: none
     preview-links: auto
-    html-math-method: mathjax
     code-line-numbers: false
 execute:
   warning: false
