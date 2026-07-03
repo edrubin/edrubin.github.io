@@ -12,6 +12,39 @@ And here's my [CV](cv.html) (also as [PDF](cv-edward-rubin.pdf)).
 
 ## published/accepted
 
+[[Gun policy and the steel paradox](Papers/draft-114.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+
+[Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
+<br>*Accepted, Journal of Public Economics*
+
+::: {.grid style="--bs-columns: 13;"}
+
+::: {.g-col-1 .g-col-md-1}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+We study the dynamic effects of newly-passed gun legislation on the demand for firearms. We focus on Oregon, where voters affirmed Measure 114 in November of 2022—narrowly passing with 50.7 percent of the vote. In the six weeks following the vote, background checks surged by 400 percent. After a judge's decision prevented the law from immediate enactment, background checks fell but remained 100 percent higher than pre-legislation levels—even five months after the original vote.
+:::
+
+::: {.g-col-12 .g-start-2 .g-col-md-6}
+```{r}
+#| echo: false
+knitr::include_graphics(c(
+  #"Figures/Oregun/full-estimate-synthdid.png",
+  "Figures/Oregun/time-series-daily-osp-timeline.png",
+  NULL
+))
+```
+:::
+
+:::
+
+[NBER Working Paper No. 33360](https://www.nber.org/papers/w33360)  | [Current draft](Papers/draft-114.pdf)
+
+Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-explained)
+
+<br>
+
 [[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](https://www.pnas.org/doi/10.1073/pnas.2413013121)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Emmett Saulnier](https://www.emmettsaulnier.com/) and [Edward Rubin](https://edrub.in). 2025. *Proceedings of the National Academy of Sciences (USA).* 122(3). [DOI: 2413013121](https://www.pnas.org/doi/10.1073/pnas.2413013121)
@@ -253,39 +286,6 @@ knitr::include_graphics(c(
 Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon](https://www.amazon.com/dp/B09F597WXP/)
 
 ## working papers
-
-[[Gun policy and the steel paradox: *Evidence from Oregunians*](Papers/draft-114.pdf)]{style="font-weight: 900; font-size: 12pt;"}
-
-[Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
-<br>*Conditionally accepted, Journal of Public Economics*
-
-::: {.grid style="--bs-columns: 13;"}
-
-::: {.g-col-1 .g-col-md-1}
-:::
-
-::: {.g-col-12 .g-col-md-6}
-We study the dynamic effects of newly-passed gun legislation on the demand for firearms. We focus on Oregon, where voters affirmed Measure 114 in November of 2022—narrowly passing with 50.7 percent of the vote. In the six weeks following the vote, background checks surged by 400 percent. After a judge's decision prevented the law from immediate enactment, background checks fell but remained 100 percent higher than pre-legislation levels—even five months after the original vote.
-:::
-
-::: {.g-col-12 .g-start-2 .g-col-md-6}
-```{r}
-#| echo: false
-knitr::include_graphics(c(
-  #"Figures/Oregun/full-estimate-synthdid.png",
-  "Figures/Oregun/time-series-daily-osp-timeline.png",
-  NULL
-))
-```
-:::
-
-:::
-
-[NBER Working Paper No. 33360](https://www.nber.org/papers/w33360)  | [Current draft](Papers/draft-114.pdf)
-
-Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-explained)
-
-<br>
 
 [[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
