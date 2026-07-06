@@ -290,7 +290,7 @@ Book links: [Springer](https://www.springer.com/gp/book/9783030713515) | [Amazon
 [[Does time shift behavior? The clock- vs. solar-time tradeoff](Papers/draft-time.pdf)]{style="font-weight: 900; font-size: 12pt;"}
 
 [Patrick Baylis](https://www.patrickbaylis.com), [Severin Borenstein](https://haas.berkeley.edu/faculty/borenstein-severin/), and [Edward Rubin](https://edrub.in)
-<br>*Revise & resubmit, Journal of Economic Behavior & Organization*
+<br>*Revise & resubmit (resubmitted), Journal of Economic Behavior & Organization*
 <br>
 
 ::: {.grid style="--bs-columns: 13;"}
