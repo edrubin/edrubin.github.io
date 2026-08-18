@@ -12,10 +12,9 @@ And here's my [CV](cv.html) (also as [PDF](cv-edward-rubin.pdf)).
 
 ## published/accepted
 
-[[Gun policy and the steel paradox](Papers/draft-114.pdf)]{style="font-weight: 900; font-size: 12pt;"}
+[[Gun policy and the steel paradox](https://doi.org/10.1016/j.jpubeco.2026.105714)]{style="font-weight: 900; font-size: 12pt;"}
 
-[Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/)
-<br>*Accepted, Journal of Public Economics*
+[Katie Bollman](https://www.katiebollman.com/), [Benjamin Hansen](https://www.benjaminhansen.org/), [Edward Rubin](https://edrub.in), and [Garrett Stanford](https://www.gstanford.org/). 2026. *Journal of Public Economics*. Volume 261. [DOI: 10.1016/j.jpubeco.2026.105714](https://doi.org/10.1016/j.jpubeco.2026.105714)
 
 ::: {.grid style="--bs-columns: 13;"}
 
@@ -23,7 +22,7 @@ And here's my [CV](cv.html) (also as [PDF](cv-edward-rubin.pdf)).
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-We study the dynamic effects of newly-passed gun legislation on the demand for firearms. We focus on Oregon, where voters affirmed Measure 114 in November of 2022—narrowly passing with 50.7 percent of the vote. In the six weeks following the vote, background checks surged by 400 percent. After a judge's decision prevented the law from immediate enactment, background checks fell but remained 100 percent higher than pre-legislation levels—even five months after the original vote.
+Using Measure 114's narrow passage in Oregon as a natural experiment, we study how new gun regulations affect firearm demand. Background checks, a proxy for demand, rose 13.9% in anticipation of the referendum and surged 157% immediately following the election. After judicial intervention halted the law's enactment, demand returned near pre-election levels. Temporal displacement/harvesting does not explain the demand spike: after eighteen months, we still observe a substantial cumulative increase of 63,000 excess firearm-related background checks. Administrative data reveal significant within-state heterogeneity. This evidence underscores the paradoxical effect of gun-control policies, offering a cautionary lesson to policymakers.
 :::
 
 ::: {.g-col-12 .g-start-2 .g-col-md-6}
@@ -41,7 +40,7 @@ knitr::include_graphics(c(
 
 [NBER Working Paper No. 33360](https://www.nber.org/papers/w33360)  | [Current draft](Papers/draft-114.pdf)
 
-Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-explained)
+Coverage: [NPR](https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-explained), [OPB](https://www.opb.org/article/2026/08/12/gun-sales-increase-oregon-new-restrictions/)
 
 <br>
 

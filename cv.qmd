@@ -42,9 +42,8 @@ __Primary interests__: Environmental Econ., Applied Econometrics/Data Science, A
 
 ## Publications
 
-__[Gun policy and the steel paradox](Papers/draft-oreguns.pdf)__
-<br> Katie Bollman, Benjamin Hansen, Edward Rubin, and Garrett Stanford
-<br>_Accepted, Journal of Public Economics_
+__[Gun policy and the steel paradox](https://doi.org/10.1016/j.jpubeco.2026.105714)__
+<br> Katie Bollman, Benjamin Hansen, Edward Rubin, and Garrett Stanford. 2026. Volume 261. _Journal of Public Economics_.
 
 __[Glyphosate exposure and GM seed rollout unequally reduced perinatal health](https://www.pnas.org/doi/10.1073/pnas.2413013121)__
 <br> Emmett Reynier and Edward Rubin. 2025. _Proceedings of the National Academy of Sciences (USA)_. 122(3).
@@ -56,10 +55,10 @@ __[Customer Discrimination in the Workplace: Evidence from Online Sales](Papers/
 <br> Erin Kelley, Gregory Lane, Matthew Pecenco, and Edward Rubin. 2025. _Journal of Labor Economics_.
 
 __[Strategic Shutdowns of Air Quality Monitors: Evidence from Jersey City and Across the U.S.](https://doi.org/10.1162/rest_a_01477)__
-<br> Yingfei Mu, Edward Rubin, and Eric Zou. 2024. _[The Review of Economics and Statistics](https://doi.org/10.1162/rest_a_01477)_.
+<br> Yingfei Mu, Edward Rubin, and Eric Zou. 2024. The Review of Economics and Statistics.
 
-__[Quantifying heterogeneity in the price elasticity of residential natural gas](Papers/draft-natural-gas.pdf)__
-<br> Edward Rubin and Maximilian Auffhammer. 2024. _[Journal of the Association of Environmental and Resource Economists](https://www.journals.uchicago.edu/doi/full/10.1086/726017)_. 11(2).
+__[Quantifying heterogeneity in the price elasticity of residential natural gas](https://www.journals.uchicago.edu/doi/full/10.1086/726017)__
+<br> Edward Rubin and Maximilian Auffhammer. 2024. _Journal of the Association of Environmental and Resource Economists_. 11(2).
 
 __[The Economic Impact of Critical Habitat Designation: Evidence from Vacant-Land Transactions](https://muse.jhu.edu/article/753055)__
 <br> Maximilian Auffhammer, Maya Duru, Edward Rubin, and David L. Sunding. 2020. _Land Economics_, 96(2), 188–206.
