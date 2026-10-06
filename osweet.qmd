@@ -30,7 +30,7 @@ knitr::include_graphics(c(
         <font color="#663399"><i>What?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        One Friday each month, we will host an online seminar series with three short presentations (15 minutes each)—followed by a happy (half) hour! <br><br> 
+        One Friday each month, we will host an online seminar series with three short presentations (15 minutes each)—followed by a happy (half) hour! <br><br>
         Papers and videos **will not** be circulated. <br><br>
       </td>
     </tr>
@@ -39,7 +39,7 @@ knitr::include_graphics(c(
         <font color="#663399"><i>Who?</i></font> &nbsp; &nbsp;
       </td>
       <td>
-        For presenters, we're targeting graduate students, postdocs, and early-career assistant professors.<br>We may adjust selection based upon supply. <br><br> 
+        For presenters, we're targeting graduate students, postdocs, and early-career assistant professors.<br>We may adjust selection based upon supply. <br><br>
         There will be no discussants, but we will provide a time for questions after each paper. We will try and cluster papers by topic. <br><br>
         The organizers of **AERE\@OSWEET** include <a href="https://www.xinming-du.com/" style="text-decoration:none">Xinming Du</a> (NUS); <a href="https://www.emilypakhtigian.com/" style="text-decoration:none">Emily L. Pakhtigian</a> (Penn State); <a href="htts://edrub.in" style="text-decoration:none">Ed Rubin</a> (Oregon); <a href="https://www.krhwagner.com/" style="text-decoration: none">Katherine Wagner</a> (UBC). <br><br>
       </td>
@@ -79,13 +79,13 @@ knitr::include_graphics(c(
 
 ## Upcoming session
 
-### **Climate ** 2026/05/08
+### **Climate ** 2026/10/09
 
-<b>Friday, 08 May 2026</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
+<b>Friday, 09 October 2026</b>, 11AM-12PM <b>Pacific</b> (2PM–3PM <b>Eastern</b>), followed by happy half-hour
 
 <p>
-  [Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/-K1crHjKQ6m3vtQ0EkEp_A).
-  <br>
+  <!--[Register for **Zoom link here**](https://uoregon.zoom.us/meeting/register/-K1crHjKQ6m3vtQ0EkEp_A).
+  <br>-->
   [Join the mailing list or submit a talk](https://docs.google.com/forms/d/e/1FAIpQLSdgzM-ELbZltycbJHmtZi3pG_gl0k6_8Q2ndOUOxh6dX13xsQ/viewform).
 </p>
 
@@ -95,22 +95,22 @@ knitr::include_graphics(c(
 11:00AM PT<br>(2:00PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Barriers within borders: Climate change, market barriers, and structural transformation</i>
-<br><b>Rimjhim Saxena</b> (Geneva)
+<i>Screening with equilibrium effects: Evidence from forest carbon offsets</i>
+<br><b>En Qi Teo</b> (Toulouse School of Economics)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:20AM PT<br>(2:20PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>Adaptation in motion: Temporary migration under heat stress</i>
-<br><b>Moumita Das</b> (UC Santa Cruz)
+<i>Demand-side spillovers of environmental policy: The case of California tree nuts</i>
+<br><b>Victor Simoes Dornelas</b> (Cornell)
 :::
 ::: {.g-col-3 .g-col-md-2}
 11:40AM PT<br>(2:40PM ET)
 :::
 ::: {.g-col-7 .g-col-md-8}
-<i>The dual burden of energy poverty and climate exposure</i>
-<br><b>Yuetong Zhang</b> (UNC)
+<i>The hidden cost of emergency mobilization: Enforcement vacuums and emissions misreporting during China's COVID-19 lockdown</i>
+<br><b>Leo Zhang</b> (Colorado)
 :::
 ::: {.g-col-3 .g-col-md-2}
 12:00PM PT<br>(3:00PM ET)
@@ -128,6 +128,16 @@ knitr::include_graphics(c(
 ### 2026
 
 ::: {.panel-tabset}
+
+### **Climate ** 2026/05/08
+
+<i>Barriers within borders: Climate change, market barriers, and structural transformation</i>
+<br><b>Rimjhim Saxena</b> (Geneva)
+<i>Adaptation in motion: Temporary migration under heat stress</i>
+<br><b>Moumita Das</b> (UC Santa Cruz)
+<i>The dual burden of energy poverty and climate exposure</i>
+<br><b>Yuetong Zhang</b> (UNC)
+<i>Happy half-hour</i>
 
 ### **Ecology** 2026/04/10
 
